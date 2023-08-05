@@ -11,7 +11,7 @@ export function createFakeUserList() {
       desc: 'manager',
       password: '123456',
       token: 'fakeToken1',
-      homePath: '/history/analysis',
+      homePath: '/warn/history',
       roles: [
         {
           roleName: 'Super Admin',
