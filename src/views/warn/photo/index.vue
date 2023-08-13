@@ -1,6 +1,6 @@
 <template>
-  <PageWrapper title="模型中心" contentFullHeight>
-    <a-card> <UnitSelect /> <Manage /><PhotoCard /> </a-card>
+  <PageWrapper title="巡检抓拍数据管理" contentFullHeight>
+    <a-card> <UnitSelect /> <Manage /> </a-card>
   </PageWrapper>
 </template>
 <script lang="ts">
@@ -9,7 +9,6 @@
   import UnitSelect from '../components/UnitSelect.vue';
   import Manage from './Manage.vue';
   import { Card } from 'ant-design-vue';
-  import PhotoCard from './PhotoCard.vue';
 
   const loading = ref(true);
 
@@ -21,7 +20,6 @@
     components: {
       PageWrapper,
       UnitSelect,
-      PhotoCard,
       ACard: Card,
       Manage,
     },

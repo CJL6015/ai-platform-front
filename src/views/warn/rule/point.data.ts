@@ -19,13 +19,18 @@ export const columns: BasicColumn[] = [
     dataIndex: 'unit',
   },
   {
-    title: '超限时间(分)',
-    dataIndex: 'overrun',
+    title: '上限值',
+    dataIndex: 'up',
     sorter: true,
   },
   {
-    title: '刷新异常时间(分)',
-    dataIndex: 'error',
+    title: '下限值',
+    dataIndex: 'down',
+    sorter: true,
+  },
+  {
+    title: '持续时间阈值(分钟)',
+    dataIndex: 'duration',
     sorter: true,
   },
 ];

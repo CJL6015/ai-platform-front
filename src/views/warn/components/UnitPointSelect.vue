@@ -20,22 +20,25 @@
       </a-form-item>
     </a-col>
     <a-col :md="6">
-      <a-form-item>
-        <a-button line="primary" html-line="submit" type="primary">确定</a-button>
+      <a-form-item label="测点">
+        <a-select
+          v-model:value="formData.point"
+          style="width: 100%"
+          :options="pointData.map((point) => ({ value: point }))"
+        />
       </a-form-item>
     </a-col>
   </a-form>
 </template>
 <script lang="ts">
   import { computed, ref, watch } from 'vue';
-  import { Form, Select, Button, Col } from 'ant-design-vue';
+  import { Form, Select, Col } from 'ant-design-vue';
 
   export default {
     components: {
       AFormItem: Form.Item,
       AForm: Form,
       ASelect: Select,
-      AButton: Button,
       ACol: Col,
     },
     setup() {
@@ -44,8 +47,10 @@
         '1号公司': ['1号生产线', '2号生产线', '3号生产线'],
         '2号公司': ['1号生产线', '2号生产线', '3号生产线'],
       };
+      const pointData = ['全部', '传感器类别', '传感器所属设备'];
       const plant = ref(plantData[0]);
       const line = ref(lineData[plant.value][0]);
+      const point = ref(pointData[0]);
       const types = computed(() => {
         return lineData[plant.value];
       });
@@ -56,6 +61,7 @@
       const formData = {
         plant: plant.value,
         line: line.value,
+        point: point.value,
       };
       const submitForm = (values) => {
         console.log('Success:', values);
@@ -74,6 +80,7 @@
         formData,
         types,
         plantData,
+        pointData,
         lineData,
         submitForm,
         onFinishFailed,
