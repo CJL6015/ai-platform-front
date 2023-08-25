@@ -69,7 +69,7 @@
         />
       </a-col>
     </a-row>
-    <a-divider orientation="left"> 历史数据 </a-divider>
+    <a-divider orientation="left"> 历史数据查询 </a-divider>
     <a-row :gutter="30" class="custom-row-gap">
       <a-col :md="9" style="padding-top: 10px">
         <a-form-item label="历史时间">
@@ -89,7 +89,7 @@
             </template>
             <template v-else-if="column.key === 'freeze' && record.freeze">
               <Tag color="green">
-                {{ '未冻结' }}
+                {{ '解冻' }}
               </Tag>
             </template>
             <template v-else-if="column.key === 'freeze' && !record.freeze">
@@ -200,6 +200,14 @@
               color: '#c23531',
             },
           },
+          tooltip: {
+            trigger: 'axis',
+            triggerOn: 'click',
+            formatter: function (params) {
+              console.log(params);
+              return '<img src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>';
+            },
+          },
           dataZoom: [
             {
               start: timestamps[0],
@@ -250,8 +258,11 @@
                     color: '#c23531',
                   },
                 },
-              } as any,
-            },
+              },
+              emphasis: {
+                focus: 'series',
+              },
+            } as any,
           ],
         });
       });

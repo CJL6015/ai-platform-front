@@ -33,4 +33,9 @@ export const columns: BasicColumn[] = [
     dataIndex: 'duration',
     sorter: true,
   },
+  {
+    title: '该测点历史平均超限时间(分钟)',
+    dataIndex: 'duration',
+    sorter: true,
+  },
 ];

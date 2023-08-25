@@ -19,16 +19,20 @@
         />
       </a-form-item>
     </a-col>
-    <a-col :md="6">
+    <a-col :md="1">
       <a-form-item>
         <a-button line="primary" html-line="submit" type="primary">确定</a-button>
       </a-form-item>
+    </a-col>
+    <a-col :md="6">
+      <HorizontalScrollText />
     </a-col>
   </a-form>
 </template>
 <script lang="ts">
   import { computed, ref, watch } from 'vue';
   import { Form, Select, Button, Col } from 'ant-design-vue';
+  import HorizontalScrollText from './HorizontalScrollText.vue';
 
   export default {
     components: {
@@ -37,6 +41,7 @@
       ASelect: Select,
       AButton: Button,
       ACol: Col,
+      HorizontalScrollText,
     },
     setup() {
       const plantData = ['1号公司', '2号公司'];
