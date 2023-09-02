@@ -205,9 +205,11 @@
             triggerOn: 'click',
             formatter: function (params) {
               console.log(params);
-              return '<img src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>';
+              if (params[0].data == 1) {
+                return '<img src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>';
+              }
             },
-          },
+          } as any,
           dataZoom: [
             {
               start: timestamps[0],

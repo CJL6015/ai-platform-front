@@ -5,11 +5,11 @@ import { t } from '/@/hooks/web/useI18n';
 
 const warn: AppRouteModule = {
   path: '/warn',
-  name: '模型中心',
+  name: t('routes.warn.title'),
   component: LAYOUT,
   redirect: '/warn/history',
   meta: {
-    orderNo: 10,
+    orderNo: 0,
     icon: 'ion:grid-outline',
     title: t('routes.warn.title'),
   },

@@ -8,7 +8,6 @@
           <a-select-option value="1" label="传感器类型">传感器类型</a-select-option>
           <a-select-option value="2" label="传感器所属设备">传感器所属设备</a-select-option>
         </a-select>
-
         <a-input-search
           placeholder="搜索点号"
           size="large"
