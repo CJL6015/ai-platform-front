@@ -12,6 +12,10 @@
 
   export default defineComponent({
     props: {
+      line: {
+        type: Number as PropType<number> | null,
+        default: -1,
+      },
       width: {
         type: String as PropType<string>,
         default: '100%',

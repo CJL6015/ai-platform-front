@@ -1,27 +1,27 @@
 <template>
   <a-form layout="inline" :model="formData" :label-col="labelCol" @finish="submitForm">
     <a-col :md="6">
-      <a-form-item label="公司">
+      <a-form-item label="公司" name="plant">
         <a-select
           v-model:value="formData.plant"
           style="width: 100%"
           @change="onPlantChange"
-          :options="plantData.map((plant) => ({ value: plant }))"
+          :options="plantData.map((plant) => ({ value: plant['id'], label: plant['name'] }))"
         />
       </a-form-item>
     </a-col>
     <a-col :md="6">
-      <a-form-item label="生产线">
+      <a-form-item label="生产线" name="line">
         <a-select
           v-model:value="formData.line"
           style="width: 100%"
-          :options="types.map((line) => ({ value: line }))"
+          :options="lineData.map((line) => ({ value: line['id'], label: line['name'] }))"
         />
       </a-form-item>
     </a-col>
     <a-col :md="1">
       <a-form-item>
-        <a-button line="primary" html-line="submit" type="primary">确定</a-button>
+        <a-button type="primary" html-type="submit">确定</a-button>
       </a-form-item>
     </a-col>
     <a-col :md="6">
@@ -30,9 +30,10 @@
   </a-form>
 </template>
 <script lang="ts">
-  import { computed, ref, watch } from 'vue';
+  import { ref, onMounted } from 'vue';
   import { Form, Select, Button, Col } from 'ant-design-vue';
   import HorizontalScrollText from './HorizontalScrollText.vue';
+  import { optionListApi, lineOptionListApi } from '/@/api/warn/select';
 
   export default {
     components: {
@@ -43,41 +44,40 @@
       ACol: Col,
       HorizontalScrollText,
     },
-    setup() {
-      const plantData = ['1号公司', '2号公司'];
-      const lineData = {
-        '1号公司': ['1号生产线', '2号生产线', '3号生产线'],
-        '2号公司': ['1号生产线', '2号生产线', '3号生产线'],
-      };
-      const plant = ref(plantData[0]);
-      const line = ref(lineData[plant.value][0]);
-      const types = computed(() => {
-        return lineData[plant.value];
+    emits: ['optionSelected'],
+    setup(_, context) {
+      let plantData = ref([]);
+      let lineData = ref([]);
+      const formData = ref({
+        plant: -1,
+        line: -1,
       });
 
-      watch(plant, (val) => {
-        line.value = lineData[val][0];
+      onMounted(async () => {
+        const options = await optionListApi();
+        plantData.value = options.plantOptions;
+        lineData.value = options.linesOptions;
+        console.log(options);
+        formData.value.plant = plantData.value[0]['id'];
+        formData.value.line = lineData.value[0]['id'];
       });
-      const formData = {
-        plant: plant.value,
-        line: line.value,
-      };
+      //第一次加载时传递参数
+      context.emit('optionSelected', formData.value);
+      //点击查询按钮提交表单触发事件
       const submitForm = (values) => {
-        console.log('Success:', values);
-        console.log('Success:', formData);
+        context.emit('optionSelected', values);
       };
-
       const onFinishFailed = (errorInfo: any) => {
         console.log('Failed:', errorInfo);
       };
       const labelCol = { style: { width: '80px' } };
-      const onPlantChange = (value) => {
-        formData.line = lineData[value][0];
+      const onPlantChange = async (value) => {
+        lineData.value = await lineOptionListApi(value);
+        formData.value.line = lineData.value[0]['id'];
       };
 
       return {
         formData,
-        types,
         plantData,
         lineData,
         submitForm,

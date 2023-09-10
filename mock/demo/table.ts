@@ -60,7 +60,7 @@ const generateHistoryData = () => {
 
 export default [
   {
-    url: '/basic-api/system/getPointList',
+    url: '/api/system/getPointList',
     timeout: 100,
     method: 'get',
     response: () => {
@@ -68,7 +68,7 @@ export default [
     },
   },
   {
-    url: '/basic-api/system/getHistoryList',
+    url: '/api/system/getHistoryList',
     timeout: 100,
     method: 'get',
     response: () => {
