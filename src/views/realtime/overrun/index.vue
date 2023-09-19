@@ -27,18 +27,20 @@
               <a-input-number :min="0.5" :max="24" step="0.5" addon-after="小时" />
             </a-form-item>
           </a-col>
+        </a-row>
+        <a-row>
           <a-col :md="5">
             <a-form-item label="上次抓拍时间">
               <a-date-picker style="width: 100%" v-model:value="timeValue" />
             </a-form-item>
           </a-col>
-          <a-col :md="2">
+          <a-col :md="5">
             <span style="margin-left: 10px">上次抓拍超员人数:5</span>
           </a-col>
           <a-col :md="1">
             <a-form-item>
               <a-button line="primary" html-line="submit" type="primary"
-                >巡检超员违规趋势查询</a-button
+                >巡检超限违规趋势查询</a-button
               >
             </a-form-item>
           </a-col>
@@ -46,66 +48,7 @@
       </a-form>
       <a-divider />
       <a-row>
-        <a-col :md="8">
-          <a-card style="width: 80%" title="制药工序">
-            <template #cover>
-              <img
-                alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-              />
-            </template>
-            <a-card-meta>
-              <template #description>
-                <a-form-item label="定员人数">
-                  <a-input />
-                </a-form-item>
-                <a-form-item label="超员人数">
-                  <a-input />
-                </a-form-item>
-              </template>
-            </a-card-meta>
-          </a-card>
-        </a-col>
-        <a-col :md="8">
-          <a-card style="width: 80%" title="制药工序">
-            <template #cover>
-              <img
-                alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-              />
-            </template>
-            <a-card-meta>
-              <template #description>
-                <a-form-item label="定员人数">
-                  <a-input />
-                </a-form-item>
-                <a-form-item label="超员人数">
-                  <a-input />
-                </a-form-item>
-              </template>
-            </a-card-meta>
-          </a-card>
-        </a-col>
-        <a-col :md="8">
-          <a-card style="width: 80%" title="制药工序">
-            <template #cover>
-              <img
-                alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-              />
-            </template>
-            <a-card-meta>
-              <template #description>
-                <a-form-item label="定员人数">
-                  <a-input />
-                </a-form-item>
-                <a-form-item label="超员人数">
-                  <a-input />
-                </a-form-item>
-              </template>
-            </a-card-meta>
-          </a-card>
-        </a-col>
+        <img src="../svg/p1.svg" class="svg-image" />
       </a-row>
       <a-divider />
       <div class="grid md:grid-cols-3 gap-4">
@@ -162,7 +105,6 @@
     CardMeta,
     InputNumber,
     DatePicker,
-    Input,
     Button,
     Divider,
   } from 'ant-design-vue';
@@ -172,7 +114,6 @@
     components: {
       ADivider: Divider,
       ARow: Row,
-      AInput: Input,
       AFormItem: Form.Item,
       ACardMeta: CardMeta,
       AForm: Form,

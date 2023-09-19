@@ -1,4 +1,34 @@
 <template>
+  <a-form layout="inline" :model="formData" :label-col="labelCol" @finish="submitForm">
+    <a-col :md="6">
+      <a-form-item label="公司" name="plant">
+        <a-select
+          v-model:value="formData.plant"
+          style="width: 100%"
+          @change="onPlantChange"
+          :options="plantData.map((plant) => ({ value: plant['id'], label: plant['name'] }))"
+        />
+      </a-form-item>
+    </a-col>
+    <a-col :md="6">
+      <a-form-item label="生产线" name="line">
+        <a-select
+          v-model:value="formData.line"
+          style="width: 100%"
+          :options="lineData.map((line) => ({ value: line['id'], label: line['name'] }))"
+        />
+      </a-form-item>
+    </a-col>
+    <a-col :md="3">
+      <a-form-item>
+        <a-button type="primary" html-type="submit">确定</a-button>
+        <a-button type="primary" style="margin-left: 10px" @click="updateConfig">保存</a-button>
+      </a-form-item>
+    </a-col>
+    <a-col :md="6">
+      <HorizontalScrollText />
+    </a-col>
+  </a-form>
   <a-divider orientation="left"> 巡检抓拍数据管理 </a-divider>
   <a-form :model="manageData" :label-col="labelCol">
     <a-row :gutter="30" class="custom-row-gap">
@@ -6,7 +36,7 @@
         <a-form-item label="巡检抓拍周期">
           <a-form-item name="input-number" no-style>
             <a-input-number
-              v-model:value="manageData.cycles"
+              v-model:value="manageData.inspectionCaptureInterval"
               :min="1"
               :max="24"
               addon-after="小时"
@@ -24,9 +54,9 @@
     <a-row :gutter="30" class="custom-row-gap">
       <a-col :md="9">
         <a-form-item label="巡检抓拍模式">
-          <a-select v-model:value="manageData.mode">
-            <a-select-option value="随机">随机</a-select-option>
-            <a-select-option value="定巡">定巡</a-select-option>
+          <a-select v-model:value="manageData.inspectionCaptureMode">
+            <a-select-option value="0">随机</a-select-option>
+            <a-select-option value="1">定巡</a-select-option>
           </a-select>
         </a-form-item></a-col
       >
@@ -42,7 +72,12 @@
       <a-col :md="9">
         <a-form-item label="历史照片存储时间">
           <a-form-item name="input-number" no-style>
-            <a-input-number v-model:value="manageData.storage" :min="1" :max="6" addon-after="月" />
+            <a-input-number
+              v-model:value="manageData.historicalPhotoRetentionPeriod"
+              :min="1"
+              :max="6"
+              addon-after="月"
+            />
           </a-form-item>
         </a-form-item>
       </a-col>
@@ -60,7 +95,7 @@
           />
         </a-form-item>
       </a-col>
-      <a-col :md="2"><a-button>冻结</a-button></a-col>
+      <a-col :md="2"><a-button @click="freeze">冻结</a-button></a-col>
       <a-col :md="15">
         <a-alert
           message="定义:特殊情况下(如领导视察期间)出现超员，这个期间的超员次数不计入考核，但仍统计。"
@@ -74,9 +109,10 @@
       <a-col :md="9" style="padding-top: 10px">
         <a-form-item label="历史时间">
           <a-range-picker
-            v-model:value="value"
+            v-model:value="historyTime"
             show-time
             :placeholder="['冻结开始时间', '冻结结束时间']"
+            @change="historyTimeChange"
           />
         </a-form-item>
         <div ref="chartRef" :style="{ height, width }"></div>
@@ -118,13 +154,20 @@
     RangePicker,
     Divider,
   } from 'ant-design-vue';
-  import { reactive, ref, Ref, PropType, onMounted } from 'vue';
-  import type { Dayjs } from 'dayjs';
+  import { ref, Ref, PropType, onMounted, toRaw } from 'vue';
+  import dayjs, { Dayjs } from 'dayjs';
   import { useECharts } from '/@/hooks/web/useECharts';
 
   import { BasicTable, useTable, TableImg } from '/@/components/Table';
-  import { getHistoryList } from '/@/api/data/table';
+  import {
+    getInspectionConfig,
+    getInspectionHistory,
+    updateInspectionConfig,
+    freezeInspection,
+  } from '/@/api/data/config';
   import { columns } from './data';
+  import { optionListApi, lineOptionListApi } from '/@/api/warn/select';
+  import { useMessage } from '/@/hooks/web/useMessage';
 
   export default {
     components: {
@@ -152,44 +195,50 @@
         type: String as PropType<string>,
         default: '250px',
       },
+      line: {
+        type: String as PropType<string>,
+        default: '1',
+      },
     },
     setup() {
-      const [registerTable] = useTable({
-        title: '测点详情',
-        api: getHistoryList,
-        columns,
-        formConfig: {
-          labelWidth: 120,
-        },
-        pagination: true,
-        bordered: true,
-        showIndexColumn: true,
-        canResize: false,
-        size: 'small',
-        scroll: { y: 250 },
+      const { createMessage } = useMessage();
+      let plantData = ref([]);
+      let lineData = ref([]);
+      const formData = ref({
+        plant: -1,
+        line: -1,
       });
-
-      const startDate = new Date();
-      const endDate = new Date(startDate.getTime() + 7 * 24 * 60 * 60 * 1000);
-
-      const timestamps: any[] = []; // 使用 number 类型的数组
-      const values: (any | null)[] = []; // 使用联合类型表示值数组
-
-      const interval = 60 * 60 * 1000;
-
-      for (
-        let timestamp = startDate.getTime();
-        timestamp < endDate.getTime();
-        timestamp += interval
-      ) {
-        timestamps.push(timestamp);
-        const randomValue = Math.random() < 0.5 ? null : 1;
-        values.push(randomValue);
-      }
-
+      const manageData = ref({
+        inspectionCaptureInterval: 1,
+        inspectionCaptureMode: '0',
+        historicalPhotoRetentionPeriod: 1,
+      });
+      type RangeValue = [Dayjs, Dayjs];
+      const value = ref<RangeValue>();
+      const historyTime = ref<RangeValue>();
+      const currentDate: Dayjs = dayjs();
+      const lastMonthDate: Dayjs = currentDate.subtract(1, 'month');
+      const rangeValue: RangeValue = [lastMonthDate, currentDate];
+      historyTime.value = rangeValue;
+      const freeze = async function () {
+        const [startDate, endDate] = value.value;
+        const startDateDate = startDate.toDate();
+        const endDateDate = endDate.toDate();
+        const time = {
+          st: dayjs(startDateDate).format('YYYY-MM-DD HH:mm:ss'),
+          et: dayjs(endDateDate).format('YYYY-MM-DD HH:mm:ss'),
+        };
+        const res = await freezeInspection(formData.value.line, time);
+        if (res) {
+          createMessage.success('冻结成功 ');
+        } else {
+          createMessage.error('冻结异常,请重试');
+        }
+      };
       const chartRef = ref<HTMLDivElement | null>(null);
       const { setOptions } = useECharts(chartRef as Ref<HTMLDivElement>);
-      onMounted(() => {
+
+      const setChart = function (chartValue) {
         setOptions({
           legend: {
             data: ['冻结'],
@@ -210,15 +259,10 @@
               }
             },
           } as any,
-          dataZoom: [
-            {
-              start: timestamps[0],
-              end: timestamps[timestamps.length - 1],
-            },
-          ],
+          dataZoom: [{}],
           color: ['#c23531'],
           xAxis: {
-            data: timestamps,
+            data: chartValue.timestamps,
             axisTick: {
               show: false,
             },
@@ -250,7 +294,7 @@
           series: [
             {
               name: '冻结',
-              data: values,
+              data: chartValue.values,
               type: 'line',
               symbolSize: 0,
               itemStyle: {
@@ -267,22 +311,94 @@
             } as any,
           ],
         });
+      };
+
+      const [registerTable, methods] = useTable({
+        title: '测点详情',
+        columns,
+        formConfig: {
+          labelWidth: 120,
+        },
+        pagination: true,
+        bordered: true,
+        showIndexColumn: true,
+        canResize: false,
+        size: 'small',
+        scroll: { y: 250 },
       });
+      onMounted(async () => {
+        const options = await optionListApi();
+        plantData.value = options.plantOptions;
+        lineData.value = options.linesOptions;
+        formData.value.plant = plantData.value[0]['id'];
+        formData.value.line = lineData.value[0]['id'];
+        setConfig(lineData.value[0]['id']);
+        getHistory(lineData.value[0]['id']);
+      });
+      const submitForm = () => {
+        setConfig(formData.value.line);
+        getHistory(formData.value.line);
+      };
+      const historyTimeChange = () => {
+        getHistory(formData.value.line);
+      };
+
+      const onFinishFailed = (errorInfo: any) => {
+        console.log('Failed:', errorInfo);
+      };
+      const setConfig = async function (id) {
+        const config = await getInspectionConfig(id);
+        manageData.value.inspectionCaptureInterval = config.inspectionCaptureInterval;
+        manageData.value.inspectionCaptureMode = `${config.inspectionCaptureMode}`;
+        manageData.value.historicalPhotoRetentionPeriod = config.historicalPhotoRetentionPeriod;
+      };
+      const getHistory = async function (id) {
+        const [startDate, endDate] = historyTime.value;
+        const startDateDate = startDate.toDate();
+        const endDateDate = endDate.toDate();
+        const time = {
+          st: dayjs(startDateDate).format('YYYY-MM-DD HH:mm:ss'),
+          et: dayjs(endDateDate).format('YYYY-MM-DD HH:mm:ss'),
+        };
+        const history = await getInspectionHistory(id, time);
+        console.log(history);
+        setChart(history.chartValue);
+        methods.setTableData(history.tableData);
+      };
+      const updateConfig = async () => {
+        const config = toRaw(manageData.value);
+        config['lineId'] = formData.value.line;
+        console.log(config);
+        const res = await updateInspectionConfig(config);
+        if (res) {
+          createMessage.success('更新成功');
+        } else {
+          createMessage.error('更新失败,请重试');
+        }
+      };
+      const onPlantChange = async (value) => {
+        lineData.value = await lineOptionListApi(value);
+        formData.value.line = lineData.value[0]['id'];
+      };
 
       const labelCol = { style: { width: '120px' } };
-      const manageData = reactive<Record<string, any>>({
-        cycles: 1,
-        mode: '随机',
-        storage: 1,
-      });
-      type RangeValue = [Dayjs, Dayjs];
-      const value = ref<RangeValue>();
+
       return {
         manageData,
         labelCol,
         value,
         chartRef,
         registerTable,
+        formData,
+        plantData,
+        lineData,
+        onPlantChange,
+        submitForm,
+        onFinishFailed,
+        updateConfig,
+        freeze,
+        historyTime,
+        historyTimeChange,
       };
     },
   };

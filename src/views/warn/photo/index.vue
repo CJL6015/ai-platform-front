@@ -1,12 +1,11 @@
 <template>
   <PageWrapper title="巡检抓拍数据管理" contentFullHeight>
-    <a-card> <UnitSelect /> <Manage /> </a-card>
+    <a-card> <Manage /> </a-card>
   </PageWrapper>
 </template>
 <script lang="ts">
   import { defineComponent, ref } from 'vue';
   import { PageWrapper } from '/@/components/Page';
-  import UnitSelect from '../components/UnitSelect.vue';
   import Manage from './Manage.vue';
   import { Card } from 'ant-design-vue';
 
@@ -19,7 +18,6 @@
   export default defineComponent({
     components: {
       PageWrapper,
-      UnitSelect,
       ACard: Card,
       Manage,
     },

@@ -11,22 +11,21 @@ export const columns: BasicColumn[] = [
   },
   {
     title: '冻结时长(分)',
-    dataIndex: 'duration',
+    dataIndex: 'freezeTime',
     sorter: true,
   },
   {
     title: '超员次数',
-    dataIndex: 'count',
+    dataIndex: 'exceededNum',
     sorter: true,
   },
   {
     title: '抓拍照片',
-    dataIndex: 'photo',
+    dataIndex: 'imageUrl',
     sorter: true,
   },
   {
-    title: '是否冻结',
+    title: '操作',
     dataIndex: 'freeze',
-    sorter: true,
   },
 ];
