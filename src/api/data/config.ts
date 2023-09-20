@@ -5,6 +5,8 @@ enum Api {
   INSPECTION_HISTORY = '/inspection/history/line/',
   INSPECTION = '/inspection',
   FREEZE = '/inspection/freeze/',
+  WARN_RULE_CONFIG = '/limit/line',
+  WARN_RULE = '/limit',
 }
 
 export const getInspectionConfig = (id: any) =>
@@ -18,3 +20,8 @@ export const updateInspectionConfig = (params: any) =>
 
 export const freezeInspection = (id: any, params: any) =>
   defHttp.post<any>({ url: Api.FREEZE + id, params });
+
+export const getWarnRuleConfig = (id: any) => defHttp.get<any>({ url: Api.WARN_RULE_CONFIG + id });
+
+export const updateWarnRuleConfig = (params: any) =>
+  defHttp.patch<any>({ url: Api.WARN_RULE, params });

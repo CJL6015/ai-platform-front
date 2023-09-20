@@ -24,7 +24,7 @@
           </a-col>
           <a-col :md="5">
             <a-form-item name="input-number" label="巡检间隔">
-              <a-input-number :min="0.5" :max="24" step="0.5" addon-after="小时" />
+              <a-input-number :min="0.5" :max="24" step="0.5" addon-after="小时" value="0.5" />
             </a-form-item>
           </a-col>
           <a-col :md="5">
@@ -57,10 +57,10 @@
             <a-card-meta>
               <template #description>
                 <a-form-item label="定员人数">
-                  <a-input />
+                  <a-input value="1" />
                 </a-form-item>
                 <a-form-item label="超员人数">
-                  <a-input />
+                  <a-input value="1" />
                 </a-form-item>
               </template>
             </a-card-meta>
@@ -77,10 +77,10 @@
             <a-card-meta>
               <template #description>
                 <a-form-item label="定员人数">
-                  <a-input />
+                  <a-input value="1" />
                 </a-form-item>
                 <a-form-item label="超员人数">
-                  <a-input />
+                  <a-input value="1" />
                 </a-form-item>
               </template>
             </a-card-meta>
@@ -97,10 +97,10 @@
             <a-card-meta>
               <template #description>
                 <a-form-item label="定员人数">
-                  <a-input />
+                  <a-input value="1" />
                 </a-form-item>
                 <a-form-item label="超员人数">
-                  <a-input />
+                  <a-input value="1" />
                 </a-form-item>
               </template>
             </a-card-meta>
@@ -166,7 +166,7 @@
     Button,
     Divider,
   } from 'ant-design-vue';
-  import type { Dayjs } from 'dayjs';
+  import dayjs, { Dayjs } from 'dayjs';
 
   export default {
     components: {
@@ -216,7 +216,7 @@
         formData.line = lineData[value][0];
       };
 
-      const timeValue = ref<Dayjs>();
+      const timeValue = ref<Dayjs>(dayjs());
 
       const chartRef1 = ref<HTMLDivElement | null>(null);
       const chartRef2 = ref<HTMLDivElement | null>(null);
@@ -226,21 +226,16 @@
       const { setOptions: setOptions3 } = useECharts(chartRef3 as Ref<HTMLDivElement>);
       onMounted(() => {
         setOptions1({
-          title: {
-            text: 'Basic Radar Chart',
-          },
           legend: {
-            data: ['Allocated Budget', 'Actual Spending'],
+            data: ['上年度', '本年度'],
           },
           radar: {
             // shape: 'circle',
             indicator: [
-              { name: 'Sales', max: 6500 },
-              { name: 'Administration', max: 16000 },
-              { name: 'Information Technology', max: 30000 },
-              { name: 'Customer Support', max: 38000 },
-              { name: 'Development', max: 52000 },
-              { name: 'Marketing', max: 25000 },
+              { name: '制药工序超员', max: 10 },
+              { name: '装药工序超员', max: 10 },
+              { name: '包装工序超员', max: 10 },
+              { name: '装车工序超员', max: 10 },
             ],
           },
           series: [
@@ -249,12 +244,12 @@
               type: 'radar',
               data: [
                 {
-                  value: [4200, 3000, 20000, 35000, 50000, 18000],
-                  name: 'Allocated Budget',
+                  value: [6, 5, 1, 3],
+                  name: '上年度',
                 },
                 {
-                  value: [5000, 14000, 28000, 26000, 42000, 21000],
-                  name: 'Actual Spending',
+                  value: [7, 1, 3, 4],
+                  name: '本年度',
                 },
               ],
             },
@@ -263,21 +258,16 @@
       });
       onMounted(() => {
         setOptions2({
-          title: {
-            text: 'Basic Radar Chart',
-          },
           legend: {
-            data: ['Allocated Budget', 'Actual Spending'],
+            data: ['第一季度', '第二季度', '第三季度', '本季度'],
           },
           radar: {
             // shape: 'circle',
             indicator: [
-              { name: 'Sales', max: 6500 },
-              { name: 'Administration', max: 16000 },
-              { name: 'Information Technology', max: 30000 },
-              { name: 'Customer Support', max: 38000 },
-              { name: 'Development', max: 52000 },
-              { name: 'Marketing', max: 25000 },
+              { name: '制药工序超员', max: 10 },
+              { name: '装药工序超员', max: 10 },
+              { name: '包装工序超员', max: 10 },
+              { name: '装车工序超员', max: 10 },
             ],
           },
           series: [
@@ -286,12 +276,20 @@
               type: 'radar',
               data: [
                 {
-                  value: [4200, 3000, 20000, 35000, 50000, 18000],
-                  name: 'Allocated Budget',
+                  value: [6, 5, 1, 3],
+                  name: '第一季度',
                 },
                 {
-                  value: [5000, 14000, 28000, 26000, 42000, 21000],
-                  name: 'Actual Spending',
+                  value: [7, 1, 3, 4],
+                  name: '第二季度',
+                },
+                {
+                  value: [2, 3, 4, 7],
+                  name: '第三季度',
+                },
+                {
+                  value: [2, 4, 1, 8],
+                  name: '本季度',
                 },
               ],
             },
@@ -300,21 +298,16 @@
       });
       onMounted(() => {
         setOptions3({
-          title: {
-            text: 'Basic Radar Chart',
-          },
           legend: {
-            data: ['Allocated Budget', 'Actual Spending'],
+            data: ['本月', '上月', '上上月'],
           },
           radar: {
             // shape: 'circle',
             indicator: [
-              { name: 'Sales', max: 6500 },
-              { name: 'Administration', max: 16000 },
-              { name: 'Information Technology', max: 30000 },
-              { name: 'Customer Support', max: 38000 },
-              { name: 'Development', max: 52000 },
-              { name: 'Marketing', max: 25000 },
+              { name: '制药工序超员', max: 10 },
+              { name: '装药工序超员', max: 10 },
+              { name: '包装工序超员', max: 10 },
+              { name: '装车工序超员', max: 10 },
             ],
           },
           series: [
@@ -323,12 +316,16 @@
               type: 'radar',
               data: [
                 {
-                  value: [4200, 3000, 20000, 35000, 50000, 18000],
-                  name: 'Allocated Budget',
+                  value: [6, 5, 1, 3],
+                  name: '本月',
                 },
                 {
-                  value: [5000, 14000, 28000, 26000, 42000, 21000],
-                  name: 'Actual Spending',
+                  value: [7, 1, 3, 4],
+                  name: '上月',
+                },
+                {
+                  value: [4, 2, 1, 7],
+                  name: '上上月',
                 },
               ],
             },

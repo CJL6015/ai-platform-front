@@ -112,7 +112,7 @@
       onMounted(() => {
         setOptions1({
           title: {
-            text: 'Stacked Line',
+            text: '各道工序超限趋势',
           },
           tooltip: {
             trigger: 'axis',
@@ -175,6 +175,9 @@
       });
       onMounted(() => {
         setOptions2({
+          title: {
+            text: '超限份额统计',
+          },
           tooltip: {
             trigger: 'item',
             formatter: '{a} <br/>{b} : {c} ({d}%)',
@@ -203,7 +206,7 @@
       onMounted(() => {
         setOptions3({
           title: {
-            text: 'Basic Radar Chart',
+            text: '工序超员峰值统计',
           },
           legend: {
             data: ['Allocated Budget', 'Actual Spending'],
@@ -241,13 +244,24 @@
       onMounted(() => {
         setOptions4({
           title: {
-            text: 'Stacked Line',
+            text: '综合超员面积趋势',
           },
           tooltip: {
             trigger: 'axis',
+            axisPointer: {
+              type: 'cross',
+              label: {
+                backgroundColor: '#6a7985',
+              },
+            },
           },
           legend: {
             data: ['Email', 'Union Ads', 'Video Ads', 'Direct', 'Search Engine'],
+          },
+          toolbox: {
+            feature: {
+              saveAsImage: {},
+            },
           },
           grid: {
             left: '3%',
@@ -255,48 +269,71 @@
             bottom: '3%',
             containLabel: true,
           },
-          toolbox: {
-            feature: {
-              saveAsImage: {},
+          xAxis: [
+            {
+              type: 'category',
+              boundaryGap: false,
+              data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
             },
-          },
-          xAxis: {
-            type: 'category',
-            boundaryGap: false,
-            data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
-          },
-          yAxis: {
-            type: 'value',
-          },
+          ],
+          yAxis: [
+            {
+              type: 'value',
+            },
+          ],
           series: [
             {
               name: 'Email',
               type: 'line',
               stack: 'Total',
+              areaStyle: {},
+              emphasis: {
+                focus: 'series',
+              },
               data: [120, 132, 101, 134, 90, 230, 210],
             },
             {
               name: 'Union Ads',
               type: 'line',
               stack: 'Total',
+              areaStyle: {},
+              emphasis: {
+                focus: 'series',
+              },
               data: [220, 182, 191, 234, 290, 330, 310],
             },
             {
               name: 'Video Ads',
               type: 'line',
               stack: 'Total',
+              areaStyle: {},
+              emphasis: {
+                focus: 'series',
+              },
               data: [150, 232, 201, 154, 190, 330, 410],
             },
             {
               name: 'Direct',
               type: 'line',
               stack: 'Total',
+              areaStyle: {},
+              emphasis: {
+                focus: 'series',
+              },
               data: [320, 332, 301, 334, 390, 330, 320],
             },
             {
               name: 'Search Engine',
               type: 'line',
               stack: 'Total',
+              label: {
+                show: true,
+                position: 'top',
+              },
+              areaStyle: {},
+              emphasis: {
+                focus: 'series',
+              },
               data: [820, 932, 901, 934, 1290, 1330, 1320],
             },
           ],
@@ -305,6 +342,9 @@
 
       onMounted(() => {
         setOptions5({
+          title: {
+            text: '超限时段统计',
+          },
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -345,7 +385,7 @@
       onMounted(() => {
         setOptions6({
           title: {
-            text: 'Basic Radar Chart',
+            text: '超员人数峰值统计',
           },
           legend: {
             data: ['Allocated Budget', 'Actual Spending'],
@@ -360,6 +400,26 @@
               { name: 'Development', max: 52000 },
               { name: 'Marketing', max: 25000 },
             ],
+            radius: 120,
+            startAngle: 90,
+            splitNumber: 4,
+            shape: 'circle',
+            axisName: {
+              formatter: '【{value}】',
+              color: '#428BD4',
+            },
+            splitArea: {
+              areaStyle: {
+                color: ['#77EADF', '#26C3BE', '#64AFE9', '#428BD4'],
+                shadowColor: 'rgba(0, 0, 0, 0.1)',
+                shadowBlur: 10,
+              },
+            },
+            axisLine: {
+              lineStyle: {
+                color: 'rgba(211, 253, 250, 0.8)',
+              },
+            },
           },
           series: [
             {
@@ -400,7 +460,7 @@
     },
   };
 </script>
-<style>
+<style scoped>
   .grid {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
