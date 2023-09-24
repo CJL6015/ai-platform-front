@@ -24,8 +24,4 @@ export const columns: BasicColumn[] = [
     dataIndex: 'imageUrl',
     sorter: true,
   },
-  {
-    title: '操作',
-    dataIndex: 'freeze',
-  },
 ];

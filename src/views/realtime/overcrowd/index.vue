@@ -45,107 +45,141 @@
         </a-row>
       </a-form>
       <a-divider />
-      <a-row>
-        <a-col :md="8">
-          <a-card style="width: 80%" title="制药工序">
-            <template #cover>
-              <img
-                alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-              />
-            </template>
-            <a-card-meta>
-              <template #description>
-                <a-form-item label="定员人数">
-                  <a-input value="1" />
-                </a-form-item>
-                <a-form-item label="超员人数">
-                  <a-input value="1" />
-                </a-form-item>
+
+      <a-carousel arrows>
+        <template #prevArrow>
+          <div class="custom-slick-arrow" style="z-index: 1; top: 590px; left: 10px">
+            <left-circle-outlined />
+          </div>
+        </template>
+        <template #nextArrow>
+          <div class="custom-slick-arrow" style="top: 590px; right: 10px">
+            <right-circle-outlined />
+          </div>
+        </template>
+        <div
+          ><div class="grid md:grid-cols-5 gap-1">
+            <a-card style="width: 95%" title="制药工序1">
+              <template #cover>
+                <a-image alt="example" src="/src/assets/detection/制药工序1.png" />
               </template>
-            </a-card-meta>
-          </a-card>
-        </a-col>
-        <a-col :md="8">
-          <a-card style="width: 80%" title="制药工序">
-            <template #cover>
-              <img
-                alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-              />
-            </template>
-            <a-card-meta>
-              <template #description>
-                <a-form-item label="定员人数">
-                  <a-input value="1" />
-                </a-form-item>
-                <a-form-item label="超员人数">
-                  <a-input value="1" />
-                </a-form-item>
+              <a-card-meta>
+                <template #description>
+                  <a-form-item label="制药工序2">
+                    <a-input value="1" />
+                  </a-form-item>
+                  <a-form-item label="包装工序">
+                    <a-input value="1" />
+                  </a-form-item>
+                </template>
+              </a-card-meta>
+            </a-card>
+
+            <a-card style="width: 95%" title="制药工序2">
+              <template #cover>
+                <a-image alt="example" src="/src/assets/detection/制药工序2.jpg" />
               </template>
-            </a-card-meta>
-          </a-card>
-        </a-col>
-        <a-col :md="8">
-          <a-card style="width: 80%" title="制药工序">
-            <template #cover>
-              <img
-                alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-              />
-            </template>
-            <a-card-meta>
-              <template #description>
-                <a-form-item label="定员人数">
-                  <a-input value="1" />
-                </a-form-item>
-                <a-form-item label="超员人数">
-                  <a-input value="1" />
-                </a-form-item>
+              <a-card-meta>
+                <template #description>
+                  <a-form-item label="定员人数">
+                    <a-input value="1" />
+                  </a-form-item>
+                  <a-form-item label="超员人数">
+                    <a-input value="1" />
+                  </a-form-item>
+                </template>
+              </a-card-meta>
+            </a-card>
+
+            <a-card style="width: 95%" title="装药工序">
+              <template #cover>
+                <a-image alt="example" src="/src/assets/detection/装药工序.png" />
               </template>
-            </a-card-meta>
-          </a-card>
-        </a-col>
-      </a-row>
-      <a-divider />
-      <div class="grid md:grid-cols-3 gap-4">
-        <a-card style="width: 80%" title="年对标">
-          <template #cover>
-            <div ref="chartRef1" style="height: 500px; widows: 100%"></div>
-          </template>
-          <a-card-meta>
-            <template #description>
-              <span style="color: black; font-size: 20px"
-                >本年度相较于前1年度,巡检超员次数下降了5%</span
-              >
-            </template>
-          </a-card-meta>
-        </a-card>
-        <a-card style="width: 80%" title="季对标">
-          <template #cover>
-            <div ref="chartRef2" style="height: 500px; widows: 100%"></div>
-          </template>
-          <a-card-meta>
-            <template #description>
-              <span style="color: black; font-size: 20px"
-                >本季度相较于前3季度,巡检超员次数下降了5%</span
-              >
-            </template>
-          </a-card-meta>
-        </a-card>
-        <a-card style="width: 80%" title="月对标">
-          <template #cover>
-            <div ref="chartRef3" style="height: 500px; widows: 100%"></div>
-          </template>
-          <a-card-meta>
-            <template #description>
-              <span style="color: black; font-size: 20px"
-                >本月度相较于前2月度,巡检超员次数下降了5%</span
-              >
-            </template>
-          </a-card-meta>
-        </a-card>
-      </div>
+              <a-card-meta>
+                <template #description>
+                  <a-form-item label="定员人数">
+                    <a-input value="1" />
+                  </a-form-item>
+                  <a-form-item label="超员人数">
+                    <a-input value="1" />
+                  </a-form-item>
+                </template>
+              </a-card-meta>
+            </a-card>
+
+            <a-card style="width: 95%" title="包装工序">
+              <template #cover>
+                <a-image alt="example" src="/src/assets/detection/包装工序.jpg" />
+              </template>
+              <a-card-meta>
+                <template #description>
+                  <a-form-item label="定员人数">
+                    <a-input value="1" />
+                  </a-form-item>
+                  <a-form-item label="超员人数">
+                    <a-input value="1" />
+                  </a-form-item>
+                </template>
+              </a-card-meta>
+            </a-card>
+
+            <a-card style="width: 95%" title="装车工序">
+              <template #cover>
+                <a-image alt="example" src="/src/assets/detection/装车工序.jpg" />
+              </template>
+              <a-card-meta>
+                <template #description>
+                  <a-form-item label="定员人数">
+                    <a-input value="1" />
+                  </a-form-item>
+                  <a-form-item label="超员人数">
+                    <a-input value="1" />
+                  </a-form-item>
+                </template>
+              </a-card-meta>
+            </a-card> </div
+        ></div>
+        <div
+          ><div class="grid md:grid-cols-3 gap-4">
+            <a-card style="width: 80%" title="年对标">
+              <template #cover>
+                <div ref="chartRef1" style="height: 500px; widows: 100%"></div>
+              </template>
+              <a-card-meta>
+                <template #description>
+                  <span style="color: black; font-size: 20px"
+                    >本年度相较于前1年度,巡检超员次数下降了5%</span
+                  >
+                </template>
+              </a-card-meta>
+            </a-card>
+            <a-card style="width: 80%" title="季对标">
+              <template #cover>
+                <div ref="chartRef2" style="height: 500px; widows: 100%"></div>
+              </template>
+              <a-card-meta>
+                <template #description>
+                  <span style="color: black; font-size: 20px"
+                    >本季度相较于前3季度,巡检超员次数下降了5%</span
+                  >
+                </template>
+              </a-card-meta>
+            </a-card>
+            <a-card style="width: 80%" title="月对标">
+              <template #cover>
+                <div ref="chartRef3" style="height: 500px; widows: 100%"></div>
+              </template>
+              <a-card-meta>
+                <template #description>
+                  <span style="color: black; font-size: 20px"
+                    >本月度相较于前2月度,巡检超员次数下降了5%</span
+                  >
+                </template>
+              </a-card-meta>
+            </a-card>
+          </div></div
+        >
+      </a-carousel>
     </a-card>
   </PageWrapper>
 </template>
@@ -165,8 +199,11 @@
     Input,
     Button,
     Divider,
+    Image,
+    Carousel,
   } from 'ant-design-vue';
   import dayjs, { Dayjs } from 'dayjs';
+  import { LeftCircleOutlined, RightCircleOutlined } from '@ant-design/icons-vue';
 
   export default {
     components: {
@@ -183,6 +220,10 @@
       ACol: Col,
       ACard: Card,
       PageWrapper,
+      AImage: Image,
+      LeftCircleOutlined,
+      RightCircleOutlined,
+      ACarousel: Carousel,
     },
     setup() {
       const plantData = ['1号公司', '2号公司'];
@@ -350,3 +391,37 @@
     },
   };
 </script>
+
+<style scoped>
+  /* For demo */
+  :deep(.slick-slide) {
+    height: 660px;
+    overflow: hidden;
+    line-height: 160px;
+    text-align: center;
+  }
+
+  :deep(.slick-arrow.custom-slick-arrow) {
+    z-index: 1;
+    width: 55px;
+    height: 55px;
+    transition: ease all 0.3s;
+    opacity: 0.3;
+    background-color: rgb(31 45 61 / 11%);
+    color: #7c7a7a;
+    font-size: 55px;
+  }
+
+  :deep(.slick-arrow.custom-slick-arrow::before) {
+    display: none;
+  }
+
+  :deep(.slick-arrow.custom-slick-arrow:hover) {
+    opacity: 0.5;
+    color: #0c0101;
+  }
+
+  :deep(.slick-slide h3) {
+    color: #0c0101;
+  }
+</style>

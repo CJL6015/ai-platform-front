@@ -2,35 +2,36 @@ import { BasicColumn } from '/@/components/Table';
 
 export const columns: BasicColumn[] = [
   {
-    title: '组名',
-    dataIndex: 'groupName',
-    align: 'left',
-  },
-  {
-    title: '点号',
-    dataIndex: 'pointId',
-  },
-  {
     title: '描述',
-    dataIndex: 'desc',
+    dataIndex: 'description',
   },
   {
     title: '单位',
     dataIndex: 'unit',
   },
   {
-    title: '上限值',
-    dataIndex: 'up',
+    title: '高限值',
+    dataIndex: 'upperLimit',
     sorter: true,
   },
   {
-    title: '下限值',
-    dataIndex: 'down',
+    title: '低限值',
+    dataIndex: 'lowerLimit',
+    sorter: true,
+  },
+  {
+    title: '高高限值',
+    dataIndex: 'upperUpperLimit',
+    sorter: true,
+  },
+  {
+    title: '低低限值',
+    dataIndex: 'lowerLowerLimit',
     sorter: true,
   },
   {
     title: '持续时间阈值(分钟)',
-    dataIndex: 'duration',
+    dataIndex: 'threshold',
     sorter: true,
   },
   {

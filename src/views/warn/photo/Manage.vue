@@ -25,9 +25,6 @@
         <a-button type="primary" style="margin-left: 10px" @click="updateConfig">保存</a-button>
       </a-form-item>
     </a-col>
-    <a-col :md="6">
-      <HorizontalScrollText />
-    </a-col>
   </a-form>
   <a-divider orientation="left"> 巡检抓拍数据管理 </a-divider>
   <a-form :model="manageData" :label-col="labelCol">
@@ -123,15 +120,15 @@
             <template v-if="column.key === 'photo'">
               <TableImg :size="60" :imgList="text" />
             </template>
-            <template v-else-if="column.key === 'freeze' && record.freeze">
-              <Tag color="green">
-                {{ '解冻' }}
-              </Tag>
-            </template>
-            <template v-else-if="column.key === 'freeze' && !record.freeze">
-              <Tag color="red">
-                {{ '冻结' }}
-              </Tag>
+            <template v-if="column.key === 'action'">
+              <TableAction
+                :actions="[
+                  {
+                    label: '解冻',
+                    onClick: handleEdit.bind(null, record),
+                  },
+                ]"
+              />
             </template>
           </template>
         </BasicTable>
@@ -147,7 +144,6 @@
     Select,
     SelectOption,
     Col,
-    Tag,
     Row,
     Alert,
     Button,
@@ -158,7 +154,7 @@
   import dayjs, { Dayjs } from 'dayjs';
   import { useECharts } from '/@/hooks/web/useECharts';
 
-  import { BasicTable, useTable, TableImg } from '/@/components/Table';
+  import { BasicTable, useTable, TableImg, TableAction } from '/@/components/Table';
   import {
     getInspectionConfig,
     getInspectionHistory,
@@ -171,7 +167,7 @@
 
   export default {
     components: {
-      Tag,
+      TableAction,
       ARow: Row,
       ACol: Col,
       AForm: Form,
@@ -217,7 +213,7 @@
       const value = ref<RangeValue>();
       const historyTime = ref<RangeValue>();
       const currentDate: Dayjs = dayjs();
-      const lastMonthDate: Dayjs = currentDate.subtract(1, 'month');
+      const lastMonthDate: Dayjs = currentDate.subtract(1, 'year');
       const rangeValue: RangeValue = [lastMonthDate, currentDate];
       historyTime.value = rangeValue;
       const freeze = async function () {
@@ -238,6 +234,74 @@
       const chartRef = ref<HTMLDivElement | null>(null);
       const { setOptions } = useECharts(chartRef as Ref<HTMLDivElement>);
 
+      function handleEdit(record) {
+        const value = toRaw(record);
+        console.log(value);
+      }
+
+      const [registerTable, methods] = useTable({
+        title: '测点详情',
+        columns,
+        formConfig: {
+          labelWidth: 120,
+        },
+        rowSelection: {
+          type: 'checkbox',
+        },
+        rowKey: 'st',
+        pagination: true,
+        bordered: true,
+        showIndexColumn: true,
+        canResize: false,
+        size: 'small',
+        scroll: { y: 250 },
+        actionColumn: {
+          width: 80,
+          title: '操作',
+          dataIndex: 'action',
+          fixed: undefined,
+        },
+      });
+      onMounted(async () => {
+        const options = await optionListApi();
+        plantData.value = options.plantOptions;
+        lineData.value = options.linesOptions;
+        formData.value.plant = plantData.value[0]['id'];
+        formData.value.line = lineData.value[0]['id'];
+        setConfig(lineData.value[0]['id']);
+        getHistory(lineData.value[0]['id']);
+      });
+      const submitForm = () => {
+        setConfig(formData.value.line);
+        getHistory(formData.value.line);
+      };
+      const historyTimeChange = () => {
+        getHistory(formData.value.line);
+      };
+
+      const onFinishFailed = (errorInfo: any) => {
+        console.log('Failed:', errorInfo);
+      };
+      const setConfig = async function (id) {
+        const config = await getInspectionConfig(id);
+        manageData.value.inspectionCaptureInterval = config.inspectionCaptureInterval;
+        manageData.value.inspectionCaptureMode = `${config.inspectionCaptureMode}`;
+        manageData.value.historicalPhotoRetentionPeriod = config.historicalPhotoRetentionPeriod;
+      };
+      const getHistory = async function (id) {
+        const [startDate, endDate] = historyTime.value;
+        const startDateDate = startDate.toDate();
+        const endDateDate = endDate.toDate();
+        const time = {
+          st: dayjs(startDateDate).format('YYYY-MM-DD HH:mm:ss'),
+          et: dayjs(endDateDate).format('YYYY-MM-DD HH:mm:ss'),
+        };
+        const history = await getInspectionHistory(id, time);
+        console.log(history, new Date(1664001362000));
+        setChart(history.chartValue);
+        methods.setTableData(history.tableValue);
+      };
+
       const setChart = function (chartValue) {
         setOptions({
           legend: {
@@ -253,8 +317,9 @@
             trigger: 'axis',
             triggerOn: 'click',
             formatter: function (params) {
-              console.log(params);
+              methods.clearSelectedRowKeys();
               if (params[0].data == 1) {
+                methods.setSelectedRowKeys(['2023-08-04 13:47:37']);
                 return '<img src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>';
               }
             },
@@ -313,58 +378,6 @@
         });
       };
 
-      const [registerTable, methods] = useTable({
-        title: '测点详情',
-        columns,
-        formConfig: {
-          labelWidth: 120,
-        },
-        pagination: true,
-        bordered: true,
-        showIndexColumn: true,
-        canResize: false,
-        size: 'small',
-        scroll: { y: 250 },
-      });
-      onMounted(async () => {
-        const options = await optionListApi();
-        plantData.value = options.plantOptions;
-        lineData.value = options.linesOptions;
-        formData.value.plant = plantData.value[0]['id'];
-        formData.value.line = lineData.value[0]['id'];
-        setConfig(lineData.value[0]['id']);
-        getHistory(lineData.value[0]['id']);
-      });
-      const submitForm = () => {
-        setConfig(formData.value.line);
-        getHistory(formData.value.line);
-      };
-      const historyTimeChange = () => {
-        getHistory(formData.value.line);
-      };
-
-      const onFinishFailed = (errorInfo: any) => {
-        console.log('Failed:', errorInfo);
-      };
-      const setConfig = async function (id) {
-        const config = await getInspectionConfig(id);
-        manageData.value.inspectionCaptureInterval = config.inspectionCaptureInterval;
-        manageData.value.inspectionCaptureMode = `${config.inspectionCaptureMode}`;
-        manageData.value.historicalPhotoRetentionPeriod = config.historicalPhotoRetentionPeriod;
-      };
-      const getHistory = async function (id) {
-        const [startDate, endDate] = historyTime.value;
-        const startDateDate = startDate.toDate();
-        const endDateDate = endDate.toDate();
-        const time = {
-          st: dayjs(startDateDate).format('YYYY-MM-DD HH:mm:ss'),
-          et: dayjs(endDateDate).format('YYYY-MM-DD HH:mm:ss'),
-        };
-        const history = await getInspectionHistory(id, time);
-        console.log(history);
-        setChart(history.chartValue);
-        methods.setTableData(history.tableData);
-      };
       const updateConfig = async () => {
         const config = toRaw(manageData.value);
         config['lineId'] = formData.value.line;
@@ -399,6 +412,7 @@
         freeze,
         historyTime,
         historyTimeChange,
+        handleEdit,
       };
     },
   };

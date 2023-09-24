@@ -14,12 +14,11 @@ const realtime: AppRouteModule = {
   },
   children: [
     {
-      path: 'monitor',
-      name: 'monitor',
-      component: () => import('/@/views/realtime/monitor/index.vue'),
+      path: 'overcrowd',
+      name: 'overcrowd',
+      component: () => import('/@/views/realtime/overcrowd/index.vue'),
       meta: {
-        // affix: true,
-        title: t('routes.realtime.monitor'),
+        title: t('routes.realtime.overcrowd'),
       },
     },
     {
@@ -33,11 +32,12 @@ const realtime: AppRouteModule = {
       },
     },
     {
-      path: 'overcrowd',
-      name: 'overcrowd',
-      component: () => import('/@/views/realtime/overcrowd/index.vue'),
+      path: 'monitor',
+      name: 'monitor',
+      component: () => import('/@/views/realtime/monitor/index.vue'),
       meta: {
-        title: t('routes.realtime.overcrowd'),
+        // affix: true,
+        title: t('routes.realtime.monitor'),
       },
     },
   ],

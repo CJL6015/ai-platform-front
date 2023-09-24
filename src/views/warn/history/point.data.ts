@@ -16,6 +16,7 @@ export const columns: BasicColumn[] = [
   {
     title: '时实刷新状态',
     dataIndex: 'state',
+    sorter: true,
   },
   {
     title: '超限时间(分)',

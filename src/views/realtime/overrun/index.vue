@@ -47,9 +47,7 @@
         </a-row>
       </a-form>
       <a-divider />
-      <a-row>
-        <img src="../svg/p1.svg" class="svg-image" />
-      </a-row>
+
       <a-divider />
       <div class="grid md:grid-cols-3 gap-4">
         <a-card style="width: 80%" title="年对标">
