@@ -2,12 +2,6 @@
   <div>
     <BasicTable @register="registerTable">
       <template #toolbar>
-        <span style="margin-right: 5px; font-size: 16px">测点</span>
-        <a-select size="large" option-label-prop="label" style="width: 400px">
-          <a-select-option value="-1" label="全部">全部</a-select-option>
-          <a-select-option value="1" label="传感器类型">传感器类型</a-select-option>
-          <a-select-option value="2" label="传感器所属设备">传感器所属设备</a-select-option>
-        </a-select>
         <a-input-search
           placeholder="搜索点号"
           size="large"
@@ -33,13 +27,13 @@
   </div>
 </template>
 <script lang="ts">
-  import { defineComponent } from 'vue';
+  import { defineComponent, PropType, watch, toRaw } from 'vue';
 
   import { BasicTable, useTable, TableAction } from '/@/components/Table';
   import { getPointList } from '/@/api/data/table';
-
+  import dayjs from 'dayjs';
   import { columns } from './point.data';
-  import { InputSearch, Select, SelectOption } from 'ant-design-vue';
+  import { InputSearch } from 'ant-design-vue';
 
   export default defineComponent({
     name: 'PointTable',
@@ -47,13 +41,15 @@
       BasicTable,
       TableAction,
       AInputSearch: InputSearch,
-      ASelect: Select,
-      ASelectOption: SelectOption,
     },
-    setup() {
-      const [registerTable] = useTable({
+    props: {
+      selectData: {
+        type: Object as PropType<Object>,
+      },
+    },
+    setup(props, _) {
+      const [registerTable, methods] = useTable({
         title: '测点详情',
-        api: getPointList,
         columns,
         formConfig: {
           labelWidth: 120,
@@ -69,13 +65,28 @@
           fixed: undefined,
         },
       });
+      watch(props, async (newData, _) => {
+        const data = toRaw(newData.selectData);
+        if (data && data['line'] && data['line'] > 0) {
+          console.log(data['line']);
+          const time = toRaw(data['time']);
+          const params = {
+            st: dayjs(time[0]).format('YYYY-MM-DD HH:mm:ss'),
+            et: dayjs(time[1]).format('YYYY-MM-DD HH:mm:ss'),
+          };
+          const tableData = await getPointList(data['line'], params);
+          methods.setTableData(tableData);
+        }
+      });
 
       function handleEdit(record) {
-        console.log(record);
+        const value = toRaw(record);
+        console.log(value);
       }
 
       function handleDelete(record) {
-        console.log(record);
+        const value = toRaw(record);
+        console.log(value);
       }
 
       function onSearch() {}

@@ -1,66 +1,229 @@
 <template>
-  <PageWrapper title="超员抓拍">
+  <PageWrapper title="超限抓拍">
     <a-card>
-      <a-form>
-        <a-form-item label="历史时间">
-          <a-range-picker
-            v-model:value="value"
-            show-time
-            :placeholder="['冻结开始时间', '冻结结束时间']"
-          />
-        </a-form-item>
+      <a-form :model="formData" :label-col="labelCol" @finish="submitForm">
+        <a-row>
+          <a-col :md="5">
+            <a-form-item label="公司">
+              <a-select
+                v-model:value="formData.plant"
+                style="width: 100%"
+                @change="onPlantChange"
+                :options="plantData.map((plant) => ({ value: plant }))"
+              />
+            </a-form-item>
+          </a-col>
+          <a-col :md="5">
+            <a-form-item label="生产线">
+              <a-select
+                v-model:value="formData.line"
+                style="width: 100%"
+                :options="types.map((line) => ({ value: line }))"
+              />
+            </a-form-item>
+          </a-col>
+          <a-col :md="5">
+            <a-form-item name="input-number" label="巡检间隔">
+              <a-input-number :min="0.5" :max="24" step="0.5" addon-after="小时" value="0.5" />
+            </a-form-item>
+          </a-col>
+          <a-col :md="5">
+            <a-form-item label="上次抓拍时间">
+              <a-date-picker style="width: 100%" v-model:value="timeValue" />
+            </a-form-item>
+          </a-col>
+          <a-col :md="2">
+            <span style="margin-left: 10px">上次抓拍超员人数:5</span>
+          </a-col>
+          <a-col :md="1">
+            <a-form-item>
+              <a-button line="primary" html-line="submit" type="primary"
+                >巡检超员违规趋势查询</a-button
+              >
+            </a-form-item>
+          </a-col>
+        </a-row>
       </a-form>
       <a-divider />
-      <div class="grid md:grid-cols-3 gap-4">
+
+      <a-carousel arrows>
+        <template #prevArrow>
+          <div class="custom-slick-arrow" style="z-index: 1; top: 590px; left: 10px">
+            <left-circle-outlined />
+          </div>
+        </template>
+        <template #nextArrow>
+          <div class="custom-slick-arrow" style="top: 590px; right: 10px">
+            <right-circle-outlined />
+          </div>
+        </template>
         <div
-          ref="chartRef1"
-          class="border border-gray-400"
-          style="height: 500px; widows: 100%"
+          ><div class="grid md:grid-cols-5 gap-1">
+            <a-card style="width: 95%" title="制药工序1">
+              <template #cover>
+                <a-image alt="example" src="/src/assets/detection/制药工序1.png" />
+              </template>
+              <a-card-meta>
+                <template #description>
+                  <a-form-item label="制药工序2">
+                    <a-input value="1" />
+                  </a-form-item>
+                  <a-form-item label="包装工序">
+                    <a-input value="1" />
+                  </a-form-item>
+                </template>
+              </a-card-meta>
+            </a-card>
+
+            <a-card style="width: 95%" title="制药工序2">
+              <template #cover>
+                <a-image alt="example" src="/src/assets/detection/制药工序2.jpg" />
+              </template>
+              <a-card-meta>
+                <template #description>
+                  <a-form-item label="定员人数">
+                    <a-input value="1" />
+                  </a-form-item>
+                  <a-form-item label="超员人数">
+                    <a-input value="1" />
+                  </a-form-item>
+                </template>
+              </a-card-meta>
+            </a-card>
+
+            <a-card style="width: 95%" title="装药工序">
+              <template #cover>
+                <a-image alt="example" src="/src/assets/detection/装药工序.png" />
+              </template>
+              <a-card-meta>
+                <template #description>
+                  <a-form-item label="定员人数">
+                    <a-input value="1" />
+                  </a-form-item>
+                  <a-form-item label="超员人数">
+                    <a-input value="1" />
+                  </a-form-item>
+                </template>
+              </a-card-meta>
+            </a-card>
+
+            <a-card style="width: 95%" title="包装工序">
+              <template #cover>
+                <a-image alt="example" src="/src/assets/detection/包装工序.jpg" />
+              </template>
+              <a-card-meta>
+                <template #description>
+                  <a-form-item label="定员人数">
+                    <a-input value="1" />
+                  </a-form-item>
+                  <a-form-item label="超员人数">
+                    <a-input value="1" />
+                  </a-form-item>
+                </template>
+              </a-card-meta>
+            </a-card>
+
+            <a-card style="width: 95%" title="装车工序">
+              <template #cover>
+                <a-image alt="example" src="/src/assets/detection/装车工序.jpg" />
+              </template>
+              <a-card-meta>
+                <template #description>
+                  <a-form-item label="定员人数">
+                    <a-input value="1" />
+                  </a-form-item>
+                  <a-form-item label="超员人数">
+                    <a-input value="1" />
+                  </a-form-item>
+                </template>
+              </a-card-meta>
+            </a-card> </div
         ></div>
         <div
-          ref="chartRef2"
-          class="border border-gray-400"
-          style="height: 500px; widows: 100%"
-        ></div>
-        <div
-          ref="chartRef3"
-          class="border border-gray-400"
-          style="height: 500px; widows: 100%"
-        ></div>
-        <div
-          ref="chartRef4"
-          class="border border-gray-400"
-          style="height: 500px; widows: 100%"
-        ></div>
-        <div
-          ref="chartRef5"
-          class="border border-gray-400"
-          style="height: 500px; widows: 100%"
-        ></div>
-        <div
-          ref="chartRef6"
-          class="border border-gray-400"
-          style="height: 500px; widows: 100%"
-        ></div>
-      </div>
+          ><div class="grid md:grid-cols-3 gap-4">
+            <a-card style="width: 80%" title="年对标">
+              <template #cover>
+                <div ref="chartRef1" style="height: 500px; widows: 100%"></div>
+              </template>
+              <a-card-meta>
+                <template #description>
+                  <span style="color: black; font-size: 20px"
+                    >本年度相较于前1年度,巡检超员次数下降了5%</span
+                  >
+                </template>
+              </a-card-meta>
+            </a-card>
+            <a-card style="width: 80%" title="季对标">
+              <template #cover>
+                <div ref="chartRef2" style="height: 500px; widows: 100%"></div>
+              </template>
+              <a-card-meta>
+                <template #description>
+                  <span style="color: black; font-size: 20px"
+                    >本季度相较于前3季度,巡检超员次数下降了5%</span
+                  >
+                </template>
+              </a-card-meta>
+            </a-card>
+            <a-card style="width: 80%" title="月对标">
+              <template #cover>
+                <div ref="chartRef3" style="height: 500px; widows: 100%"></div>
+              </template>
+              <a-card-meta>
+                <template #description>
+                  <span style="color: black; font-size: 20px"
+                    >本月度相较于前2月度,巡检超员次数下降了5%</span
+                  >
+                </template>
+              </a-card-meta>
+            </a-card>
+          </div></div
+        >
+      </a-carousel>
     </a-card>
   </PageWrapper>
 </template>
 <script lang="ts">
-  import { useECharts } from '/@/hooks/web/useECharts';
-  import type { Dayjs } from 'dayjs';
   import { PageWrapper } from '/@/components/Page';
   import { computed, ref, watch, Ref, onMounted } from 'vue';
-  import { Form, FormItem, RangePicker, Divider, Card } from 'ant-design-vue';
+  import { useECharts } from '/@/hooks/web/useECharts';
+  import {
+    Form,
+    Select,
+    Row,
+    Col,
+    Card,
+    CardMeta,
+    InputNumber,
+    DatePicker,
+    Input,
+    Button,
+    Divider,
+    Image,
+    Carousel,
+  } from 'ant-design-vue';
+  import dayjs, { Dayjs } from 'dayjs';
+  import { LeftCircleOutlined, RightCircleOutlined } from '@ant-design/icons-vue';
 
   export default {
     components: {
-      PageWrapper,
-      ACard: Card,
-      AForm: Form,
-      AFormItem: FormItem,
       ADivider: Divider,
-      ARangePicker: RangePicker,
+      ARow: Row,
+      AInput: Input,
+      AFormItem: Form.Item,
+      ACardMeta: CardMeta,
+      AForm: Form,
+      AButton: Button,
+      ASelect: Select,
+      AInputNumber: InputNumber,
+      ADatePicker: DatePicker,
+      ACol: Col,
+      ACard: Card,
+      PageWrapper,
+      AImage: Image,
+      LeftCircleOutlined,
+      RightCircleOutlined,
+      ACarousel: Carousel,
     },
     setup() {
       const plantData = ['1号公司', '2号公司'];
@@ -94,129 +257,98 @@
         formData.line = lineData[value][0];
       };
 
-      type RangeValue = [Dayjs, Dayjs];
-      const value = ref<RangeValue>();
+      const timeValue = ref<Dayjs>(dayjs());
 
       const chartRef1 = ref<HTMLDivElement | null>(null);
       const chartRef2 = ref<HTMLDivElement | null>(null);
       const chartRef3 = ref<HTMLDivElement | null>(null);
-      const chartRef4 = ref<HTMLDivElement | null>(null);
-      const chartRef5 = ref<HTMLDivElement | null>(null);
-      const chartRef6 = ref<HTMLDivElement | null>(null);
       const { setOptions: setOptions1 } = useECharts(chartRef1 as Ref<HTMLDivElement>);
       const { setOptions: setOptions2 } = useECharts(chartRef2 as Ref<HTMLDivElement>);
       const { setOptions: setOptions3 } = useECharts(chartRef3 as Ref<HTMLDivElement>);
-      const { setOptions: setOptions4 } = useECharts(chartRef4 as Ref<HTMLDivElement>);
-      const { setOptions: setOptions5 } = useECharts(chartRef5 as Ref<HTMLDivElement>);
-      const { setOptions: setOptions6 } = useECharts(chartRef6 as Ref<HTMLDivElement>);
       onMounted(() => {
         setOptions1({
-          title: {
-            text: 'Stacked Line',
-          },
-          tooltip: {
-            trigger: 'axis',
-          },
           legend: {
-            data: ['Email', 'Union Ads', 'Video Ads', 'Direct', 'Search Engine'],
+            data: ['上年度', '本年度'],
           },
-          grid: {
-            left: '3%',
-            right: '4%',
-            bottom: '3%',
-            containLabel: true,
-          },
-          toolbox: {
-            feature: {
-              saveAsImage: {},
-            },
-          },
-          xAxis: {
-            type: 'category',
-            boundaryGap: false,
-            data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
-          },
-          yAxis: {
-            type: 'value',
+          radar: {
+            // shape: 'circle',
+            indicator: [
+              { name: '制药工序超员', max: 10 },
+              { name: '装药工序超员', max: 10 },
+              { name: '包装工序超员', max: 10 },
+              { name: '装车工序超员', max: 10 },
+            ],
           },
           series: [
             {
-              name: 'Email',
-              type: 'line',
-              stack: 'Total',
-              data: [120, 132, 101, 134, 90, 230, 210],
-            },
-            {
-              name: 'Union Ads',
-              type: 'line',
-              stack: 'Total',
-              data: [220, 182, 191, 234, 290, 330, 310],
-            },
-            {
-              name: 'Video Ads',
-              type: 'line',
-              stack: 'Total',
-              data: [150, 232, 201, 154, 190, 330, 410],
-            },
-            {
-              name: 'Direct',
-              type: 'line',
-              stack: 'Total',
-              data: [320, 332, 301, 334, 390, 330, 320],
-            },
-            {
-              name: 'Search Engine',
-              type: 'line',
-              stack: 'Total',
-              data: [820, 932, 901, 934, 1290, 1330, 1320],
+              name: 'Budget vs spending',
+              type: 'radar',
+              data: [
+                {
+                  value: [6, 5, 1, 3],
+                  name: '上年度',
+                },
+                {
+                  value: [7, 1, 3, 4],
+                  name: '本年度',
+                },
+              ],
             },
           ],
         });
       });
       onMounted(() => {
         setOptions2({
-          tooltip: {
-            trigger: 'item',
-            formatter: '{a} <br/>{b} : {c} ({d}%)',
-          },
           legend: {
-            top: 'bottom',
-            data: ['停机时间', '运行时间'],
+            data: ['第一季度', '第二季度', '第三季度', '本季度'],
+          },
+          radar: {
+            // shape: 'circle',
+            indicator: [
+              { name: '制药工序超员', max: 10 },
+              { name: '装药工序超员', max: 10 },
+              { name: '包装工序超员', max: 10 },
+              { name: '装车工序超员', max: 10 },
+            ],
           },
           series: [
             {
-              name: '本月停机比',
-              type: 'pie',
-              radius: [0, 100],
-              center: ['50%', '50%'],
+              name: 'Budget vs spending',
+              type: 'radar',
               data: [
-                { value: 30, name: '停机时间' },
-                { value: 28, name: '运行时间' },
+                {
+                  value: [6, 5, 1, 3],
+                  name: '第一季度',
+                },
+                {
+                  value: [7, 1, 3, 4],
+                  name: '第二季度',
+                },
+                {
+                  value: [2, 3, 4, 7],
+                  name: '第三季度',
+                },
+                {
+                  value: [2, 4, 1, 8],
+                  name: '本季度',
+                },
               ],
-              label: {
-                show: false,
-              },
             },
           ],
         });
       });
       onMounted(() => {
         setOptions3({
-          title: {
-            text: 'Basic Radar Chart',
-          },
           legend: {
-            data: ['Allocated Budget', 'Actual Spending'],
+            data: ['本月', '上月', '上上月'],
           },
           radar: {
             // shape: 'circle',
             indicator: [
-              { name: 'Sales', max: 6500 },
-              { name: 'Administration', max: 16000 },
-              { name: 'Information Technology', max: 30000 },
-              { name: 'Customer Support', max: 38000 },
-              { name: 'Development', max: 52000 },
-              { name: 'Marketing', max: 25000 },
+              { name: '制药工序超员', max: 10 },
+              { name: '装药工序超员', max: 10 },
+              { name: '包装工序超员', max: 10 },
+              { name: '装车工序超员', max: 10 },
             ],
           },
           series: [
@@ -225,154 +357,16 @@
               type: 'radar',
               data: [
                 {
-                  value: [4200, 3000, 20000, 35000, 50000, 18000],
-                  name: 'Allocated Budget',
+                  value: [6, 5, 1, 3],
+                  name: '本月',
                 },
                 {
-                  value: [5000, 14000, 28000, 26000, 42000, 21000],
-                  name: 'Actual Spending',
-                },
-              ],
-            },
-          ],
-        });
-      });
-
-      onMounted(() => {
-        setOptions4({
-          title: {
-            text: 'Stacked Line',
-          },
-          tooltip: {
-            trigger: 'axis',
-          },
-          legend: {
-            data: ['Email', 'Union Ads', 'Video Ads', 'Direct', 'Search Engine'],
-          },
-          grid: {
-            left: '3%',
-            right: '4%',
-            bottom: '3%',
-            containLabel: true,
-          },
-          toolbox: {
-            feature: {
-              saveAsImage: {},
-            },
-          },
-          xAxis: {
-            type: 'category',
-            boundaryGap: false,
-            data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
-          },
-          yAxis: {
-            type: 'value',
-          },
-          series: [
-            {
-              name: 'Email',
-              type: 'line',
-              stack: 'Total',
-              data: [120, 132, 101, 134, 90, 230, 210],
-            },
-            {
-              name: 'Union Ads',
-              type: 'line',
-              stack: 'Total',
-              data: [220, 182, 191, 234, 290, 330, 310],
-            },
-            {
-              name: 'Video Ads',
-              type: 'line',
-              stack: 'Total',
-              data: [150, 232, 201, 154, 190, 330, 410],
-            },
-            {
-              name: 'Direct',
-              type: 'line',
-              stack: 'Total',
-              data: [320, 332, 301, 334, 390, 330, 320],
-            },
-            {
-              name: 'Search Engine',
-              type: 'line',
-              stack: 'Total',
-              data: [820, 932, 901, 934, 1290, 1330, 1320],
-            },
-          ],
-        });
-      });
-
-      onMounted(() => {
-        setOptions5({
-          tooltip: {
-            trigger: 'axis',
-            axisPointer: {
-              type: 'shadow',
-            },
-          },
-          grid: {
-            left: '3%',
-            right: '4%',
-            bottom: '3%',
-            containLabel: true,
-          },
-          xAxis: [
-            {
-              type: 'category',
-              data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
-              axisTick: {
-                alignWithLabel: true,
-              },
-            },
-          ],
-          yAxis: [
-            {
-              type: 'value',
-            },
-          ],
-          series: [
-            {
-              name: 'Direct',
-              type: 'bar',
-              barWidth: '60%',
-              data: [10, 52, 200, 334, 390, 330, 220],
-            },
-          ],
-        });
-      });
-
-      onMounted(() => {
-        setOptions6({
-          title: {
-            text: 'Basic Radar Chart',
-          },
-          legend: {
-            data: ['Allocated Budget', 'Actual Spending'],
-          },
-          radar: {
-            // shape: 'circle',
-            indicator: [
-              { name: 'Sales', max: 6500 },
-              { name: 'Administration', max: 16000 },
-              { name: 'Information Technology', max: 30000 },
-              { name: 'Customer Support', max: 38000 },
-              { name: 'Development', max: 52000 },
-              { name: 'Marketing', max: 25000 },
-            ],
-          },
-          series: [
-            {
-              name: 'Budget vs spending',
-              type: 'radar',
-              data: [
-                {
-                  value: [4200, 3000, 20000, 35000, 50000, 18000],
-                  name: 'Allocated Budget',
+                  value: [7, 1, 3, 4],
+                  name: '上月',
                 },
                 {
-                  value: [5000, 14000, 28000, 26000, 42000, 21000],
-                  name: 'Actual Spending',
+                  value: [4, 2, 1, 7],
+                  name: '上上月',
                 },
               ],
             },
@@ -389,20 +383,45 @@
         onFinishFailed,
         labelCol,
         onPlantChange,
-        value,
+        timeValue,
         chartRef1,
         chartRef2,
         chartRef3,
-        chartRef4,
-        chartRef5,
-        chartRef6,
       };
     },
   };
 </script>
-<style>
-  .grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+
+<style scoped>
+  /* For demo */
+  :deep(.slick-slide) {
+    height: 660px;
+    overflow: hidden;
+    line-height: 160px;
+    text-align: center;
+  }
+
+  :deep(.slick-arrow.custom-slick-arrow) {
+    z-index: 1;
+    width: 55px;
+    height: 55px;
+    transition: ease all 0.3s;
+    opacity: 0.3;
+    background-color: rgb(31 45 61 / 11%);
+    color: #7c7a7a;
+    font-size: 55px;
+  }
+
+  :deep(.slick-arrow.custom-slick-arrow::before) {
+    display: none;
+  }
+
+  :deep(.slick-arrow.custom-slick-arrow:hover) {
+    opacity: 0.5;
+    color: #0c0101;
+  }
+
+  :deep(.slick-slide h3) {
+    color: #0c0101;
   }
 </style>

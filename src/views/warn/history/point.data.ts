@@ -2,30 +2,30 @@ import { BasicColumn } from '/@/components/Table';
 
 export const columns: BasicColumn[] = [
   {
-    title: '组名',
-    dataIndex: 'groupName',
-    align: 'left',
-  },
-  {
-    title: '点号',
-    dataIndex: 'pointId',
-  },
-  {
     title: '描述',
-    dataIndex: 'desc',
+    dataIndex: 'description',
   },
   {
     title: '单位',
     dataIndex: 'unit',
   },
   {
+    title: '时实值',
+    dataIndex: 'value',
+  },
+  {
+    title: '时实刷新状态',
+    dataIndex: 'state',
+    sorter: true,
+  },
+  {
     title: '超限时间(分)',
-    dataIndex: 'overrun',
+    dataIndex: 'exceededTime',
     sorter: true,
   },
   {
     title: '刷新异常时间(分)',
-    dataIndex: 'error',
+    dataIndex: 'exceptionTime',
     sorter: true,
   },
 ];

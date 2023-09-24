@@ -1,11 +1,11 @@
-import { GetPointTableModel } from './model/pointModel';
 import { GetHistoryModel } from './model/historyModel';
 import { defHttp } from '/@/utils/http/axios';
 
 enum Api {
-  PointList = '/system/getPointList',
+  PointList = '/statistic/point/',
   HistoryList = '/system/getHistoryList',
 }
 
-export const getPointList = () => defHttp.get<GetPointTableModel>({ url: Api.PointList });
+export const getPointList = (id: any, params: any) =>
+  defHttp.get<any>({ url: Api.PointList + id, params });
 export const getHistoryList = () => defHttp.get<GetHistoryModel>({ url: Api.HistoryList });

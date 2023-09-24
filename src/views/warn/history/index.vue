@@ -3,9 +3,10 @@
     <Card>
       <UnitSelect @option-selected="handleOptionSelected" />
       <Divider />
-      <Pie :lines="lines" /> </Card
-    ><Card style="margin-top: 10px">
-      <PointTable />
+      <Pie :selectData="formData" />
+    </Card>
+    <Card style="margin-top: 10px">
+      <PointTable :selectData="formData" />
     </Card>
   </PageWrapper>
 </template>
@@ -18,11 +19,10 @@
   import PointTable from './PointTable.vue';
 
   const plant = ref(null);
-  const lines = ref<Number | null>(null);
+  const formData = ref<any>(null);
 
   const handleOptionSelected = (values) => {
     plant.value = values['plant'];
-    lines.value = values['line'];
-    console.log(values);
+    formData.value = values;
   };
 </script>

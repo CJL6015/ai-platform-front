@@ -1,17 +1,6 @@
 <template>
-  <PageWrapper title="生产监控" contentFullHeight>
-    <img src="../svg/p1.svg" class="svg-image" />
-  </PageWrapper>
+  <img src="../svg/p1.svg" class="svg-image" />
 </template>
-
-<script lang="ts">
-  import { defineComponent } from 'vue';
-  import { PageWrapper } from '/@/components/Page';
-
-  export default defineComponent({
-    components: { PageWrapper },
-  });
-</script>
 
 <style>
   .svg-image {
