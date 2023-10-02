@@ -15,6 +15,7 @@
         <a-select
           v-model:value="formData.line"
           style="width: 100%"
+          @change="onLineChange"
           :options="lineData.map((line) => ({ value: line['id'], label: line['name'] }))"
         />
       </a-form-item>
@@ -32,7 +33,7 @@
   </a-form>
 </template>
 <script lang="ts">
-  import { ref, onMounted, toRaw } from 'vue';
+  import { ref, onMounted } from 'vue';
   import dayjs from 'dayjs';
   import { Form, Select, Button, Col, RangePicker } from 'ant-design-vue';
   import { optionListApi, lineOptionListApi } from '/@/api/warn/select';
@@ -105,6 +106,12 @@
         formData.value.lineName = lineName;
       };
 
+      const onLineChange = (value) => {
+        formData.value.line = value;
+        const lineName = options.linesOptions.find((item) => item.id === formData.value.line).name;
+        formData.value.lineName = lineName;
+      };
+
       return {
         formData,
         plantData,
@@ -113,6 +120,7 @@
         onFinishFailed,
         labelCol,
         onPlantChange,
+        onLineChange,
       };
     },
   };

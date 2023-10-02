@@ -25,6 +25,7 @@ import {
   TimelineComponent,
   CalendarComponent,
   GraphicComponent,
+  MarkLineComponent,
 } from 'echarts/components';
 
 import { SVGRenderer } from 'echarts/renderers';
@@ -51,6 +52,7 @@ echarts.use([
   TimelineComponent,
   CalendarComponent,
   GraphicComponent,
+  MarkLineComponent,
   ScatterChart,
 ]);
 

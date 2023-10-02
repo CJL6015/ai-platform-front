@@ -1,36 +1,35 @@
 <template>
-  <div></div>
+  <BasicModal @register="register" title="历史趋势" width="1200px">
+    <a-form>
+      <a-form-item label="历史时间" name="time">
+        <a-range-picker v-model:value="historyTime" show-time @change="historyTimeChange" />
+      </a-form-item>
+    </a-form>
+    <div ref="chartRef" style="width: 100%; height: 600px"></div>
+  </BasicModal>
 </template>
 
 <script lang="ts">
-  import { ref, Ref, PropType, onMounted, toRaw } from 'vue';
+  import { ref, Ref } from 'vue';
   import { useECharts } from '/@/hooks/web/useECharts';
+  import { BasicModal, useModalInner } from '/@/components/Modal';
   import { pointTrendApi } from '/@/api/warn/point';
+  import dayjs from 'dayjs';
+  import { Form, RangePicker } from 'ant-design-vue';
 
   export default {
-    components: {},
+    components: { BasicModal, ARangePicker: RangePicker, AFormItem: Form.Item, AForm: Form },
     props: {
-      width: {
-        type: String as PropType<string>,
-        default: '100%',
-      },
-      height: {
-        type: String as PropType<string>,
-        default: '250px',
-      },
-      point: {
-        type: String as PropType<string>,
-        default: '1',
-      },
+      point: { type: Object },
     },
     setup() {
       const chartRef = ref<HTMLDivElement | null>(null);
-      const { setOptions } = useECharts(chartRef as Ref<HTMLDivElement>);
+      const { setOptions, resize } = useECharts(chartRef as Ref<HTMLDivElement>);
 
-      const setChart = (chartValue) => {
-        setOptions({
+      const fetchChartData = (chartValue) => {
+        return {
           title: {
-            text: 'Beijing AQI',
+            text: chartValue.name,
             left: '1%',
           },
           tooltip: {
@@ -42,35 +41,18 @@
             bottom: '10%',
           },
           xAxis: {
-            data: chartValue.xData,
+            data: chartValue.times,
           },
           yAxis: {},
-          toolbox: {
-            right: 10,
-            feature: {
-              dataZoom: {
-                yAxisIndex: 'none',
-              },
-              restore: {},
-              saveAsImage: {},
-            },
-          },
-          dataZoom: [
-            {
-              startValue: '2014-06-01',
-            },
-            {
-              type: 'inside',
-            },
-          ],
+          dataZoom: [{}],
           visualMap: {
-            top: 50,
+            top: 300,
             right: 10,
             pieces: [
               {
-                gt: 0.9 * Math.min(chartValue.lowerLowerLimit, chartValue.value.min),
+                gt: 0.9 * Math.min(chartValue.lowerLowerLimit, ...chartValue.value),
                 lte: chartValue.lowerLowerLimit,
-                color: '#FD0100',
+                color: '#FC7D02',
               },
               {
                 gt: chartValue.lowerLowerLimit,
@@ -101,29 +83,97 @@
             type: 'line',
             data: chartValue.value,
             markLine: {
-              silent: true,
+              silent: false,
               lineStyle: {
                 color: '#333',
               },
               data: [
                 {
+                  label: {
+                    show: true,
+                    position: 'end',
+                    formatter: '低低限: {c}',
+                  },
                   yAxis: chartValue.lowerLowerLimit,
                 },
                 {
+                  label: {
+                    show: true,
+                    position: 'end',
+                    formatter: '低限: {c}',
+                  },
                   yAxis: chartValue.lowerLimit,
                 },
                 {
+                  label: {
+                    show: true,
+                    position: 'end',
+                    formatter: '高限: {c}',
+                  },
                   yAxis: chartValue.upperLimit,
                 },
                 {
+                  label: {
+                    show: true,
+                    position: 'end',
+                    formatter: '高高限: {c}',
+                  },
                   yAxis: chartValue.upperUpperLimit,
                 },
               ],
             },
           },
-        });
+        };
       };
-      return {};
+      const pointData = ref({
+        name: '',
+      });
+
+      type RangeValue = [dayjs.Dayjs, dayjs.Dayjs];
+
+      const currentDate: dayjs.Dayjs = dayjs();
+      const lastMonthDate: dayjs.Dayjs = currentDate.subtract(1, 'month');
+      const rangeValue: RangeValue = [lastMonthDate, currentDate];
+      const historyTime = ref<RangeValue>(rangeValue);
+      async function onDataReceive(data) {
+        resize();
+        pointData.value = data;
+        const point = data.name;
+        const time = {
+          st: rangeValue[0].valueOf(),
+          et: rangeValue[1].valueOf(),
+        };
+        const value = await pointTrendApi(point, time);
+        console.log(value);
+        const chartData = fetchChartData(value);
+        console.log(chartData);
+        setOptions(chartData, true);
+      }
+
+      const historyTimeChange = async () => {
+        const point = pointData.value.name;
+        const [startDate, endDate] = historyTime.value;
+        const time = {
+          st: startDate.valueOf(),
+          et: endDate.valueOf(),
+        };
+        const value = await pointTrendApi(point, time);
+        console.log(value);
+        const chartData = fetchChartData(value);
+        console.log(chartData);
+        setOptions(chartData, true);
+      };
+
+      const [register] = useModalInner((data) => {
+        data && onDataReceive(data);
+      });
+      return {
+        register,
+        rangeValue,
+        chartRef,
+        historyTimeChange,
+        historyTime,
+      };
     },
   };
 </script>

@@ -22,10 +22,18 @@
             ]"
           />
         </template>
+        <template v-else-if="column.key === 'state'">
+          <Tag :color="record.state === 0 ? 'green' : 'red'">
+            {{ record.state === 0 ? '正常' : '异常' }}
+          </Tag></template
+        >
       </template>
     </BasicTable>
   </div>
+
+  <Trend @register="registerModal" />
 </template>
+
 <script lang="ts">
   import { defineComponent, PropType, watch, toRaw } from 'vue';
 
@@ -33,7 +41,9 @@
   import { getPointList } from '/@/api/data/table';
   import dayjs from 'dayjs';
   import { columns } from './point.data';
-  import { InputSearch } from 'ant-design-vue';
+  import { InputSearch, Tag } from 'ant-design-vue';
+  import Trend from '../components/Trend.vue';
+  import { useModal } from '/@/components/Modal';
 
   export default defineComponent({
     name: 'PointTable',
@@ -41,6 +51,8 @@
       BasicTable,
       TableAction,
       AInputSearch: InputSearch,
+      Tag,
+      Trend,
     },
     props: {
       selectData: {
@@ -48,6 +60,8 @@
       },
     },
     setup(props, _) {
+      const [registerModal, { openModal }] = useModal();
+
       const [registerTable, methods] = useTable({
         title: '测点详情',
         columns,
@@ -79,8 +93,9 @@
       });
 
       function handleEdit(record) {
-        const value = toRaw(record);
-        console.log(value);
+        const data = toRaw(record);
+        console.log(data);
+        openModal(true, data);
       }
 
       function handleDelete(record) {
@@ -95,6 +110,8 @@
         handleDelete,
         handleEdit,
         onSearch,
+        registerModal,
+        openModal,
       };
     },
   });
