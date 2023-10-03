@@ -27,6 +27,78 @@
       const { setOptions, resize } = useECharts(chartRef as Ref<HTMLDivElement>);
 
       const fetchChartData = (chartValue) => {
+        let pieces: any[] = [];
+        let markLineData: any[] = [];
+        let minValue = Math.min(...chartValue.value);
+        minValue -= 0.1 * Math.abs(minValue);
+        console.log(minValue);
+        if (chartValue.lowerLowerLimit) {
+          pieces.push({
+            gt: Math.min(chartValue.lowerLowerLimit, minValue),
+            lte: chartValue.lowerLowerLimit,
+            color: '#FC7D02',
+          });
+          markLineData.push({
+            label: {
+              show: true,
+              position: 'end',
+              formatter: '低低限: {c}',
+            },
+            yAxis: chartValue.lowerLowerLimit,
+          });
+        }
+        if (chartValue.lowerLimit) {
+          pieces.push({
+            gt: pieces.length > 0 ? pieces[pieces.length - 1].lte : minValue,
+            lte: chartValue.lowerLimit,
+            color: '#FBDB0F',
+          });
+          markLineData.push({
+            label: {
+              show: true,
+              position: 'end',
+              formatter: '低限: {c}',
+            },
+            yAxis: chartValue.lowerLimit,
+          });
+        }
+        if (chartValue.upperLimit) {
+          pieces.push({
+            gt: pieces.length > 0 ? pieces[pieces.length - 1].lte : minValue,
+            lte: chartValue.upperLimit,
+            color: '#93CE07',
+          });
+          markLineData.push({
+            label: {
+              show: true,
+              position: 'end',
+              formatter: '高限: {c}',
+            },
+            yAxis: chartValue.upperLimit,
+          });
+        }
+        if (chartValue.upperUpperLimit) {
+          pieces.push({
+            gt: pieces.length > 0 ? pieces[pieces.length - 1].lte : minValue,
+            lte: chartValue.upperUpperLimit,
+            color: '#AA069F',
+          });
+          markLineData.push({
+            label: {
+              show: true,
+              position: 'end',
+              formatter: '高高限: {c}',
+            },
+            yAxis: chartValue.upperUpperLimit,
+          });
+        }
+        if (pieces.length > 0) {
+          pieces.push({
+            gt: pieces[pieces.length - 1].lte,
+            color: '#AC3B2A',
+          });
+        }
+
         return {
           title: {
             text: chartValue.name,
@@ -48,32 +120,8 @@
           visualMap: {
             top: 300,
             right: 10,
-            pieces: [
-              {
-                gt: 0.9 * Math.min(chartValue.lowerLowerLimit, ...chartValue.value),
-                lte: chartValue.lowerLowerLimit,
-                color: '#FC7D02',
-              },
-              {
-                gt: chartValue.lowerLowerLimit,
-                lte: chartValue.lowerLimit,
-                color: '#FBDB0F',
-              },
-              {
-                gt: chartValue.lowerLimit,
-                lte: chartValue.upperLimit,
-                color: '#93CE07',
-              },
-              {
-                gt: chartValue.upperLimit,
-                lte: chartValue.upperUpperLimit,
-                color: '#AA069F',
-              },
-              {
-                gt: chartValue.upperUpperLimit,
-                color: '#AC3B2A',
-              },
-            ],
+            precision: 2,
+            pieces: pieces,
             outOfRange: {
               color: '#999',
             },
@@ -87,40 +135,7 @@
               lineStyle: {
                 color: '#333',
               },
-              data: [
-                {
-                  label: {
-                    show: true,
-                    position: 'end',
-                    formatter: '低低限: {c}',
-                  },
-                  yAxis: chartValue.lowerLowerLimit,
-                },
-                {
-                  label: {
-                    show: true,
-                    position: 'end',
-                    formatter: '低限: {c}',
-                  },
-                  yAxis: chartValue.lowerLimit,
-                },
-                {
-                  label: {
-                    show: true,
-                    position: 'end',
-                    formatter: '高限: {c}',
-                  },
-                  yAxis: chartValue.upperLimit,
-                },
-                {
-                  label: {
-                    show: true,
-                    position: 'end',
-                    formatter: '高高限: {c}',
-                  },
-                  yAxis: chartValue.upperUpperLimit,
-                },
-              ],
+              data: markLineData,
             },
           },
         };

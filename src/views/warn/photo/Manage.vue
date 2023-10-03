@@ -102,6 +102,18 @@
       </a-col>
     </a-row>
     <a-divider orientation="left"> 历史数据查询 </a-divider>
+    <a-row>
+      <a-alert style="width: 100%; margin-top: 10px" type="info" show-icon>
+        <template #message
+          ><span style="font-size: 20px; font-weight: bold"
+            >未冻结时间超员次数<span style="color: red; font-size: 22px">{{ unfreezeCount }}</span
+            >冻结时间超员次数<span style="color: red; font-size: 22px">{{
+              freezeCount
+            }}</span></span
+          ></template
+        ></a-alert
+      >
+    </a-row>
     <a-row :gutter="30" class="custom-row-gap">
       <a-col :md="9" style="padding-top: 10px">
         <a-form-item label="历史时间">
@@ -117,15 +129,18 @@
       <a-col :md="15">
         <BasicTable @register="registerTable">
           <template #bodyCell="{ column, record, text }">
-            <template v-if="column.key === 'photo'">
-              <TableImg :size="60" :imgList="text" />
+            <template v-if="column.key === 'imageUrl'">
+              <TableImg :size="40" :imgList="[text]" :showBadge="false" :simpleShow="true" />
             </template>
-            <template v-if="column.key === 'action'">
+            <template v-else-if="column.key === 'action'">
               <TableAction
                 :actions="[
                   {
                     label: '解冻',
-                    onClick: handleEdit.bind(null, record),
+                    popConfirm: {
+                      title: '是否解冻？',
+                      confirm: handleEdit.bind(null, record),
+                    },
                   },
                 ]"
               />
@@ -160,6 +175,7 @@
     getInspectionHistory,
     updateInspectionConfig,
     freezeInspection,
+    unfreezeInspection,
   } from '/@/api/data/config';
   import { columns } from './data';
   import { optionListApi, lineOptionListApi } from '/@/api/warn/select';
@@ -209,6 +225,8 @@
         inspectionCaptureMode: '0',
         historicalPhotoRetentionPeriod: 1,
       });
+      const freezeCount = ref(0);
+      const unfreezeCount = ref(0);
       type RangeValue = [Dayjs, Dayjs];
       const value = ref<RangeValue>();
       const historyTime = ref<RangeValue>();
@@ -227,6 +245,7 @@
         const res = await freezeInspection(formData.value.line, time);
         if (res) {
           createMessage.success('冻结成功 ');
+          getHistory(formData.value.line);
         } else {
           createMessage.error('冻结异常,请重试');
         }
@@ -234,9 +253,16 @@
       const chartRef = ref<HTMLDivElement | null>(null);
       const { setOptions } = useECharts(chartRef as Ref<HTMLDivElement>);
 
-      function handleEdit(record) {
+      async function handleEdit(record) {
         const value = toRaw(record);
         console.log(value);
+        const res = await unfreezeInspection(value.id);
+        if (res) {
+          createMessage.success('解冻成功 ');
+          getHistory(formData.value.line);
+        } else {
+          createMessage.error('解冻异常,请重试');
+        }
       }
 
       const [registerTable, methods] = useTable({
@@ -246,7 +272,7 @@
           labelWidth: 120,
         },
         rowSelection: {
-          type: 'checkbox',
+          type: 'radio',
         },
         rowKey: 'st',
         pagination: true,
@@ -288,6 +314,8 @@
         manageData.value.inspectionCaptureMode = `${config.inspectionCaptureMode}`;
         manageData.value.historicalPhotoRetentionPeriod = config.historicalPhotoRetentionPeriod;
       };
+
+      let tableValue;
       const getHistory = async function (id) {
         const [startDate, endDate] = historyTime.value;
         const startDateDate = startDate.toDate();
@@ -299,7 +327,10 @@
         const history = await getInspectionHistory(id, time);
         console.log(history, new Date(1664001362000));
         setChart(history.chartValue);
+        tableValue = history.tableValue;
         methods.setTableData(history.tableValue);
+        freezeCount.value = history.freezeCount;
+        unfreezeCount.value = history.unfreezeCount;
       };
 
       const setChart = function (chartValue) {
@@ -319,8 +350,16 @@
             formatter: function (params) {
               methods.clearSelectedRowKeys();
               if (params[0].data == 1) {
-                methods.setSelectedRowKeys(['2023-08-04 13:47:37']);
-                return '<img src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>';
+                console.log(params);
+                const date = new Date(params[0].name);
+                for (let d of tableValue) {
+                  const st = d['st'];
+                  const et = d['et'];
+                  if (date >= new Date(st) && date <= new Date(et)) {
+                    methods.setSelectedRowKeys([st]);
+                    return `<img src="${d['imageUrl']}"/>`;
+                  }
+                }
               }
             },
           } as any,
@@ -413,6 +452,8 @@
         historyTime,
         historyTimeChange,
         handleEdit,
+        freezeCount,
+        unfreezeCount,
       };
     },
   };

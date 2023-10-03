@@ -12,16 +12,15 @@ export const columns: BasicColumn[] = [
   {
     title: '冻结时长(分)',
     dataIndex: 'freezeTime',
-    sorter: true,
+    sorter: (a, b) => a.freezeTime - b.freezeTime,
   },
   {
     title: '超员次数',
     dataIndex: 'exceededNum',
-    sorter: true,
+    sorter: (a, b) => a.exceededNum - b.exceededNum,
   },
   {
     title: '抓拍照片',
     dataIndex: 'imageUrl',
-    sorter: true,
   },
 ];

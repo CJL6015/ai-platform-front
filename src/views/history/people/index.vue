@@ -1,5 +1,5 @@
 <template>
-  <PageWrapper title="超员抓拍">
+  <PageWrapper title="定员超限多维对标分析">
     <a-card>
       <a-form>
         <a-form-item label="历史时间">
@@ -15,33 +15,71 @@
         <div
           ref="chartRef1"
           class="border border-gray-400"
-          style="height: 500px; widows: 100%"
+          style="height: 380px; widows: 100%"
         ></div>
         <div
           ref="chartRef2"
           class="border border-gray-400"
-          style="height: 500px; widows: 100%"
+          style="height: 380px; widows: 100%"
         ></div>
         <div
           ref="chartRef3"
           class="border border-gray-400"
-          style="height: 500px; widows: 100%"
+          style="height: 380px; widows: 100%"
         ></div>
         <div
           ref="chartRef4"
           class="border border-gray-400"
-          style="height: 500px; widows: 100%"
+          style="height: 380px; widows: 100%"
         ></div>
         <div
           ref="chartRef5"
           class="border border-gray-400"
-          style="height: 500px; widows: 100%"
+          style="height: 380px; widows: 100%"
         ></div>
         <div
           ref="chartRef6"
           class="border border-gray-400"
-          style="height: 500px; widows: 100%"
+          style="height: 380px; widows: 100%"
         ></div>
+        <div>
+          <Alert style="width: 100%; height: 220px" type="info">
+            <template #message
+              ><span style="font-size: 18px; font-weight: bold"
+                >超限走势分析结论:<br />
+                1.泵1参数超限整体呈现<span style="color: red; font-size: 22px">下降趋势</span><br />
+                2.泵2参数超限整体呈现<span style="color: red; font-size: 22px">上升趋势</span><br />
+                3.泵3参数超限整体呈现<span style="color: red; font-size: 22px">上升趋势</span><br />
+                4.泵4参数超限整体呈现<span style="color: red; font-size: 22px">下降趋势</span><br />
+                5.整体超限次数呈现<span style="color: red; font-size: 22px">下降趋势</span
+                ><br /></span></template
+          ></Alert>
+        </div>
+        <div>
+          <Alert style="width: 100%; height: 220px" type="info">
+            <template #message
+              ><span style="font-size: 18px; font-weight: bold"
+                >超限高峰时间和工序位置分析结论:<br />
+                1.参数超限占比最高的工序为<span style="color: red; font-size: 22px">泵1</span
+                >,有提升的空间<br />
+                2.定员超限最高发的时间为<span style="color: red; font-size: 22px">09:00-10:00</span
+                >,可加强该时段的监控<br /></span></template
+          ></Alert>
+        </div>
+        <div>
+          <Alert style="width: 100%; height: 220px" type="info">
+            <template #message
+              ><span style="font-size: 18px; font-weight: bold"
+                >超限峰值分析结论:<br />
+                1.参数超限单日最高为<span style="color: red; font-size: 22px">15次</span>,于<span
+                  style="color: red; font-size: 22px"
+                  >2023-03-06</span
+                >发生<br />
+                1.泵1、泵2、泵3、泵4峰值参数超限分别为<span style="color: red; font-size: 22px"
+                  >5次、4次、2次、3次</span
+                ><br /></span></template
+          ></Alert>
+        </div>
       </div>
     </a-card>
   </PageWrapper>
@@ -51,7 +89,7 @@
   import type { Dayjs } from 'dayjs';
   import { PageWrapper } from '/@/components/Page';
   import { computed, ref, watch, Ref, onMounted } from 'vue';
-  import { Form, FormItem, RangePicker, Divider, Card } from 'ant-design-vue';
+  import { Form, FormItem, RangePicker, Divider, Card, Alert } from 'ant-design-vue';
 
   export default {
     components: {
@@ -61,6 +99,7 @@
       AFormItem: FormItem,
       ADivider: Divider,
       ARangePicker: RangePicker,
+      Alert,
     },
     setup() {
       const plantData = ['1号公司', '2号公司'];
@@ -118,7 +157,7 @@
             trigger: 'axis',
           },
           legend: {
-            data: ['Email', 'Union Ads', 'Video Ads', 'Direct', 'Search Engine'],
+            data: ['制药工序1', '制药工序2', '装药工序', '包装工序', '装车工序'],
           },
           grid: {
             left: '3%',
@@ -141,31 +180,31 @@
           },
           series: [
             {
-              name: 'Email',
+              name: '制药工序1',
               type: 'line',
               stack: 'Total',
               data: [120, 132, 101, 134, 90, 230, 210],
             },
             {
-              name: 'Union Ads',
+              name: '制药工序2',
               type: 'line',
               stack: 'Total',
               data: [220, 182, 191, 234, 290, 330, 310],
             },
             {
-              name: 'Video Ads',
+              name: '装药工序',
               type: 'line',
               stack: 'Total',
               data: [150, 232, 201, 154, 190, 330, 410],
             },
             {
-              name: 'Direct',
+              name: '包装工序',
               type: 'line',
               stack: 'Total',
               data: [320, 332, 301, 334, 390, 330, 320],
             },
             {
-              name: 'Search Engine',
+              name: '装车工序',
               type: 'line',
               stack: 'Total',
               data: [820, 932, 901, 934, 1290, 1330, 1320],
@@ -244,7 +283,7 @@
       onMounted(() => {
         setOptions4({
           title: {
-            text: '综合超员面积趋势',
+            text: '生产线超员总次数',
           },
           tooltip: {
             trigger: 'axis',
@@ -256,7 +295,7 @@
             },
           },
           legend: {
-            data: ['Email', 'Union Ads', 'Video Ads', 'Direct', 'Search Engine'],
+            data: ['乳化3线', '膨化生产线'],
           },
           toolbox: {
             feature: {
@@ -283,7 +322,7 @@
           ],
           series: [
             {
-              name: 'Email',
+              name: '乳化3线',
               type: 'line',
               stack: 'Total',
               areaStyle: {},
@@ -293,7 +332,7 @@
               data: [120, 132, 101, 134, 90, 230, 210],
             },
             {
-              name: 'Union Ads',
+              name: '膨化生产线',
               type: 'line',
               stack: 'Total',
               areaStyle: {},
@@ -301,40 +340,6 @@
                 focus: 'series',
               },
               data: [220, 182, 191, 234, 290, 330, 310],
-            },
-            {
-              name: 'Video Ads',
-              type: 'line',
-              stack: 'Total',
-              areaStyle: {},
-              emphasis: {
-                focus: 'series',
-              },
-              data: [150, 232, 201, 154, 190, 330, 410],
-            },
-            {
-              name: 'Direct',
-              type: 'line',
-              stack: 'Total',
-              areaStyle: {},
-              emphasis: {
-                focus: 'series',
-              },
-              data: [320, 332, 301, 334, 390, 330, 320],
-            },
-            {
-              name: 'Search Engine',
-              type: 'line',
-              stack: 'Total',
-              label: {
-                show: true,
-                position: 'top',
-              },
-              areaStyle: {},
-              emphasis: {
-                focus: 'series',
-              },
-              data: [820, 932, 901, 934, 1290, 1330, 1320],
             },
           ],
         });

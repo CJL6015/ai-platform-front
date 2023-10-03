@@ -1,10 +1,14434 @@
 <template>
-  <img src="../svg/p1.svg" class="svg-image" />
-</template>
+  <PageWrapper>
+    <svg
+      width="100%"
+      height="100%"
+      viewBox="0 0 2872 1474"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <title>完成版</title>
+      <defs>
+        <linearGradient x1="2.17187379e-13%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+          <stop stop-color="#0A7A14" offset="0%" />
+          <stop stop-color="#30962F" offset="22.6371285%" />
+          <stop stop-color="#CAE6CC" offset="48.942854%" />
+          <stop stop-color="#30962F" offset="80.1436844%" />
+          <stop stop-color="#147F1D" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+          <stop stop-color="#3F9C39" offset="0%" />
+          <stop stop-color="#81BB7B" offset="23.1079102%" />
+          <stop stop-color="#FEFFFD" offset="49.5141602%" />
+          <stop stop-color="#81BB7B" offset="79.4826267%" />
+          <stop stop-color="#238F1C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+          <stop stop-color="#3F9C39" offset="0%" />
+          <stop stop-color="#81BB7B" offset="23.1079102%" />
+          <stop stop-color="#FEFFFD" offset="49.5141602%" />
+          <stop stop-color="#81BB7B" offset="79.4826267%" />
+          <stop stop-color="#238F1C" offset="100%" />
+        </linearGradient>
+        <linearGradient
+          x1="-3.16413562e-13%"
+          y1="41.0227273%"
+          x2="100%"
+          y2="41.0227273%"
+          id="linearGradient-4"
+        >
+          <stop stop-color="#3F9C39" offset="0%" />
+          <stop stop-color="#81BB7B" offset="23.1079102%" />
+          <stop stop-color="#FEFFFD" offset="49.5141602%" />
+          <stop stop-color="#81BB7B" offset="79.4826267%" />
+          <stop stop-color="#238F1C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient
+          x1="100%"
+          y1="50.0220824%"
+          x2="-4.16333634e-15%"
+          y2="50.0220824%"
+          id="linearGradient-6"
+        >
+          <stop stop-color="#BC9F9C" offset="0%" />
+          <stop stop-color="#DAC2BC" offset="21.4847675%" />
+          <stop stop-color="#E2D6CE" offset="49.5141602%" />
+          <stop stop-color="#DAC2BC" offset="79.4826267%" />
+          <stop stop-color="#BC9F9C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-7">
+          <stop stop-color="#C4C4C2" offset="0%" />
+          <stop stop-color="#DADADA" offset="22.6371285%" />
+          <stop stop-color="#F2F2F2" offset="48.942854%" />
+          <stop stop-color="#DADADA" offset="80.1436844%" />
+          <stop stop-color="#C4C4C2" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-8">
+          <stop stop-color="#C4C4C2" offset="0%" />
+          <stop stop-color="#DADADA" offset="22.6371285%" />
+          <stop stop-color="#F2F2F2" offset="48.942854%" />
+          <stop stop-color="#DADADA" offset="80.1436844%" />
+          <stop stop-color="#C4C4C2" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-9">
+          <stop stop-color="#C4C4C2" offset="0%" />
+          <stop stop-color="#DADADA" offset="22.6371285%" />
+          <stop stop-color="#F2F2F2" offset="48.942854%" />
+          <stop stop-color="#DADADA" offset="80.1436844%" />
+          <stop stop-color="#C4C4C2" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-10">
+          <stop stop-color="#C4C4C2" offset="0%" />
+          <stop stop-color="#DADADA" offset="22.6371285%" />
+          <stop stop-color="#F2F2F2" offset="48.942854%" />
+          <stop stop-color="#DADADA" offset="80.1436844%" />
+          <stop stop-color="#C4C4C2" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-11">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-12">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-13">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-14">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-15">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-16">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-17">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-18">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-19">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient
+          x1="73.7304688%"
+          y1="71.0327148%"
+          x2="55.806108%"
+          y2="71.0327148%"
+          id="linearGradient-20"
+        >
+          <stop stop-color="#FFFFFF" offset="0%" />
+          <stop stop-color="#8AFF8A" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-21">
+          <stop stop-color="#7DFF7C" offset="0%" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" />
+          <stop stop-color="#C9FCCD" offset="75%" />
+          <stop stop-color="#8AFF8A" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="538.989258%" id="linearGradient-22">
+          <stop stop-color="#7DFF7C" offset="0%" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" />
+          <stop stop-color="#C9FCCD" offset="75%" />
+          <stop stop-color="#8AFF8A" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="538.989258%" id="linearGradient-23">
+          <stop stop-color="#7DFF7C" offset="0%" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" />
+          <stop stop-color="#C9FCCD" offset="75%" />
+          <stop stop-color="#8AFF8A" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="538.989258%" id="linearGradient-24">
+          <stop stop-color="#7DFF7C" offset="0%" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" />
+          <stop stop-color="#C9FCCD" offset="75%" />
+          <stop stop-color="#8AFF8A" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-25">
+          <stop stop-color="#7DFF7C" offset="0%" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" />
+          <stop stop-color="#C9FCCD" offset="75%" />
+          <stop stop-color="#8AFF8A" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="537.182617%" id="linearGradient-26">
+          <stop stop-color="#7DFF7C" offset="0%" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" />
+          <stop stop-color="#C9FCCD" offset="75%" />
+          <stop stop-color="#8AFF8A" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="497.631836%" id="linearGradient-27">
+          <stop stop-color="#7DFF7C" offset="0%" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" />
+          <stop stop-color="#C9FCCD" offset="75%" />
+          <stop stop-color="#8AFF8A" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="497.631836%" id="linearGradient-28">
+          <stop stop-color="#7DFF7C" offset="0%" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" />
+          <stop stop-color="#C9FCCD" offset="75%" />
+          <stop stop-color="#8AFF8A" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="497.631836%" id="linearGradient-29">
+          <stop stop-color="#7DFF7C" offset="0%" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" />
+          <stop stop-color="#C9FCCD" offset="75%" />
+          <stop stop-color="#8AFF8A" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="538.989258%" id="linearGradient-30">
+          <stop stop-color="#7DFF7C" offset="0%" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" />
+          <stop stop-color="#C9FCCD" offset="75%" />
+          <stop stop-color="#8AFF8A" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-31">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-32"
+        />
+        <linearGradient
+          x1="100%"
+          y1="75.3967285%"
+          x2="-1.60982339e-13%"
+          y2="75.3967285%"
+          id="linearGradient-34"
+        >
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-35"
+        />
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-37">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="1.51961776e-13%" y2="50%" id="linearGradient-38">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-39">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-40"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-42"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-44"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-46"
+        />
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-48">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient
+          x1="27.7714844%"
+          y1="15.5109922%"
+          x2="111.154297%"
+          y2="14.9340404%"
+          id="linearGradient-49"
+        >
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient
+          x1="-112.358941%"
+          y1="14.9340874%"
+          x2="100%"
+          y2="14.9340874%"
+          id="linearGradient-50"
+        >
+          <stop stop-color="#88898C" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="20.5173733%" />
+          <stop stop-color="#EFF1EE" offset="50.4858398%" />
+          <stop stop-color="#BBB9BA" offset="76.8920898%" />
+          <stop stop-color="#7B7C80" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-51">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient
+          x1="-1.55431223e-13%"
+          y1="50%"
+          x2="100%"
+          y2="50.0216274%"
+          id="linearGradient-52"
+        >
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-53"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-55"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-57"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-59"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-61"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-63"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-65"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-67"
+        />
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-69">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient
+          x1="100%"
+          y1="45.9533691%"
+          x2="2.30371278e-13%"
+          y2="45.9533691%"
+          id="linearGradient-70"
+        >
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-71">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-72">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="-1.63757896e-13%" y2="50%" id="linearGradient-73">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="11.3850911%" y1="50%" x2="100%" y2="50%" id="linearGradient-74">
+          <stop stop-color="#0A7A14" offset="0%" />
+          <stop stop-color="#30962F" offset="22.6371285%" />
+          <stop stop-color="#CAE6CC" offset="48.942854%" />
+          <stop stop-color="#30962F" offset="80.1436844%" />
+          <stop stop-color="#007B07" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="3.96728516%" y1="50%" x2="100%" y2="50%" id="linearGradient-75">
+          <stop stop-color="#0A7A14" offset="0%" />
+          <stop stop-color="#30962F" offset="22.6371285%" />
+          <stop stop-color="#CAE6CC" offset="48.942854%" />
+          <stop stop-color="#30962F" offset="80.1436844%" />
+          <stop stop-color="#147F1D" offset="100%" />
+        </linearGradient>
+        <linearGradient
+          x1="-3.35842465e-13%"
+          y1="49.7974633%"
+          x2="100%"
+          y2="50%"
+          id="linearGradient-76"
+        >
+          <stop stop-color="#0A7A14" offset="0%" />
+          <stop stop-color="#30962F" offset="22.6371285%" />
+          <stop stop-color="#CAE6CC" offset="48.942854%" />
+          <stop stop-color="#30962F" offset="80.1436844%" />
+          <stop stop-color="#147F1D" offset="100%" />
+        </linearGradient>
+        <linearGradient
+          x1="4.03843625e-13%"
+          y1="343.055556%"
+          x2="107.495117%"
+          y2="343.055556%"
+          id="linearGradient-77"
+        >
+          <stop stop-color="#0A7A14" offset="0%" />
+          <stop stop-color="#30962F" offset="22.6371285%" />
+          <stop stop-color="#CAE6CC" offset="48.942854%" />
+          <stop stop-color="#30962F" offset="80.1436844%" />
+          <stop stop-color="#007B07" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-78">
+          <stop stop-color="#0A7A14" offset="0%" />
+          <stop stop-color="#30962F" offset="22.6371285%" />
+          <stop stop-color="#CAE6CC" offset="48.942854%" />
+          <stop stop-color="#30962F" offset="80.1436844%" />
+          <stop stop-color="#147F1D" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-79">
+          <stop stop-color="#0A7A14" offset="0%" />
+          <stop stop-color="#30962F" offset="22.6371285%" />
+          <stop stop-color="#CAE6CC" offset="48.942854%" />
+          <stop stop-color="#30962F" offset="80.1436844%" />
+          <stop stop-color="#147F1D" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-80">
+          <stop stop-color="#0A7A14" offset="0%" />
+          <stop stop-color="#30962F" offset="22.6371285%" />
+          <stop stop-color="#CAE6CC" offset="48.942854%" />
+          <stop stop-color="#30962F" offset="80.1436844%" />
+          <stop stop-color="#147F1D" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-81">
+          <stop stop-color="#0A7A14" offset="0%" />
+          <stop stop-color="#30962F" offset="22.6371285%" />
+          <stop stop-color="#CAE6CC" offset="48.942854%" />
+          <stop stop-color="#30962F" offset="80.1436844%" />
+          <stop stop-color="#147F1D" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="13.5777065%" x2="50%" y2="85.9688895%" id="linearGradient-82">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-83">
+          <stop stop-color="#7DFF7C" offset="0%" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" />
+          <stop stop-color="#C9FCCD" offset="75%" />
+          <stop stop-color="#8AFF8A" offset="100%" />
+        </linearGradient>
+        <polygon id="path-84" points="4 -2.23154828e-13 34 -2.23154828e-13 38 10 0 10" />
+        <polygon
+          id="path-86"
+          points="4 -4.13864492e-13 34 -4.13864492e-13 38 10 2.51521026e-13 10"
+        />
+        <polygon
+          id="path-88"
+          points="4 -1.85851334e-13 34 -1.85851334e-13 38 10 2.52242671e-13 10"
+        />
+        <polygon
+          id="path-90"
+          points="-8.23273989e-14 7.52731211e-14 42 7.52731211e-14 21 48.1054688"
+        />
+        <polygon
+          id="path-92"
+          points="-6.02397959e-14 5.22107635e-14 42 5.22107635e-14 21 48.1054688"
+        />
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-94">
+          <stop stop-color="#7DFF7C" offset="0%" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" />
+          <stop stop-color="#C9FCCD" offset="75%" />
+          <stop stop-color="#8AFF8A" offset="100%" />
+        </linearGradient>
+        <linearGradient
+          x1="100%"
+          y1="50%"
+          x2="-4.16333634e-15%"
+          y2="50.0018613%"
+          id="linearGradient-95"
+        >
+          <stop stop-color="#BC9F9C" offset="0%" />
+          <stop stop-color="#DAC2BC" offset="21.4847675%" />
+          <stop stop-color="#E2D6CE" offset="49.5141602%" />
+          <stop stop-color="#DAC2BC" offset="79.4826267%" />
+          <stop stop-color="#BC9F9C" offset="100%" />
+        </linearGradient>
+        <linearGradient
+          x1="100%"
+          y1="50.0220824%"
+          x2="-4.16333634e-15%"
+          y2="50.0220824%"
+          id="linearGradient-96"
+        >
+          <stop stop-color="#BC9F9C" offset="0%" />
+          <stop stop-color="#DAC2BC" offset="21.4847675%" />
+          <stop stop-color="#E2D6CE" offset="49.5141602%" />
+          <stop stop-color="#DAC2BC" offset="79.4826267%" />
+          <stop stop-color="#BC9F9C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-97">
+          <stop stop-color="#7DFF7C" offset="0%" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" />
+          <stop stop-color="#C9FCCD" offset="75%" />
+          <stop stop-color="#8AFF8A" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-98">
+          <stop stop-color="#7DFF7C" offset="0%" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" />
+          <stop stop-color="#C9FCCD" offset="75%" />
+          <stop stop-color="#8AFF8A" offset="100%" />
+        </linearGradient>
+        <circle id="path-99" cx="17" cy="17" r="17" />
+        <linearGradient
+          x1="-1.74166237e-13%"
+          y1="21.6701794%"
+          x2="100%"
+          y2="21.6701794%"
+          id="linearGradient-101"
+        >
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-102"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-104"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-106"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-108"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-110"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-112"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-114"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-116"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-118"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-120"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-122"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-124"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-126"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-128"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-130"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-132"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-134"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-136"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-138"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-140"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-142"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-144"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-146"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-148"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-150"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-152"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-154"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-156"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-158"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-160"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-162"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-164"
+        />
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-166">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-167">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient
+          x1="35.1239669%"
+          y1="41.3636364%"
+          x2="64.8760331%"
+          y2="41.4188847%"
+          id="linearGradient-168"
+        >
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient
+          x1="86.9511721%"
+          y1="50%"
+          x2="15.4336574%"
+          y2="50.0220824%"
+          id="linearGradient-169"
+        >
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#232323" offset="49.5141602%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient
+          x1="86.9511721%"
+          y1="50%"
+          x2="15.4336574%"
+          y2="50.0220824%"
+          id="linearGradient-170"
+        >
+          <stop stop-color="#BC9F9C" offset="0%" />
+          <stop stop-color="#DAC2BC" offset="21.4847675%" />
+          <stop stop-color="#E2D6CE" offset="49.5141602%" />
+          <stop stop-color="#DAC2BC" offset="79.4826267%" />
+          <stop stop-color="#BC9F9C" offset="100%" />
+        </linearGradient>
+        <polygon
+          id="path-171"
+          points="2 4.75730566e-14 28 4.75730566e-14 30 2 30 46 0 46 1.58206781e-14 2"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-173"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-175"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-177"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-179"
+        />
+        <polygon
+          id="path-181"
+          points="2 4.75730566e-14 28 4.75730566e-14 30 2 30 46 0 46 1.58206781e-14 2"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-183"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-185"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-187"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-189"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-191"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-193"
+        />
+        <linearGradient
+          x1="50%"
+          y1="-7.21644966e-14%"
+          x2="50%"
+          y2="95.6665039%"
+          id="linearGradient-195"
+        >
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-196">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient
+          x1="3.4139358e-13%"
+          y1="14.9341393%"
+          x2="100%"
+          y2="14.9341393%"
+          id="linearGradient-197"
+        >
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <circle id="path-198" cx="17" cy="17" r="17" />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-200"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-202"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-204"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-206"
+        />
+        <linearGradient
+          x1="8.33361158e-13%"
+          y1="15.5109922%"
+          x2="100%"
+          y2="15.5109922%"
+          id="linearGradient-208"
+        >
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-209"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-211"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-213"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-215"
+        />
+        <polygon
+          id="path-217"
+          points="2 4.75730566e-14 28 4.75730566e-14 30 2 30 46 0 46 1.58206781e-14 2"
+        />
+        <linearGradient
+          x1="88.19698%"
+          y1="50%"
+          x2="14.268254%"
+          y2="50.0220824%"
+          id="linearGradient-219"
+        >
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#232323" offset="49.5141602%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient
+          x1="88.1969802%"
+          y1="50%"
+          x2="14.2682538%"
+          y2="50.0220824%"
+          id="linearGradient-220"
+        >
+          <stop stop-color="#BC9F9C" offset="0%" />
+          <stop stop-color="#DAC2BC" offset="21.4847675%" />
+          <stop stop-color="#E2D6CE" offset="49.5141602%" />
+          <stop stop-color="#DAC2BC" offset="79.4826267%" />
+          <stop stop-color="#BC9F9C" offset="100%" />
+        </linearGradient>
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-221"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-223"
+        />
+        <polygon
+          id="path-225"
+          points="2 4.75730566e-14 28 4.75730566e-14 30 2 30 46 0 46 1.58206781e-14 2"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-227"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-229"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-231"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-233"
+        />
+        <polygon
+          id="path-235"
+          points="2 4.75730566e-14 28 4.75730566e-14 30 2 30 46 0 46 1.58206781e-14 2"
+        />
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-237">
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-238"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-240"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-242"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-244"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-246"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-248"
+        />
+        <linearGradient
+          x1="1.69309011e-13%"
+          y1="23.0634541%"
+          x2="100%"
+          y2="23.0634541%"
+          id="linearGradient-250"
+        >
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-251">
+          <stop stop-color="#7DFF7C" offset="0%" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" />
+          <stop stop-color="#C9FCCD" offset="75%" />
+          <stop stop-color="#8AFF8A" offset="100%" />
+        </linearGradient>
+        <linearGradient
+          x1="87.2295227%"
+          y1="50%"
+          x2="15.1732715%"
+          y2="50.0220824%"
+          id="linearGradient-252"
+        >
+          <stop stop-color="#7B7C80" offset="0%" />
+          <stop stop-color="#232323" offset="49.5141602%" />
+          <stop stop-color="#88898C" offset="100%" />
+        </linearGradient>
+        <path
+          d="M5.27426147,3.05962598 C22.0161743,1.01987533 38.7580872,0 55.5,0 C72.2419128,0 88.9838257,1.01987533 105.725739,3.05962598 C108.737451,3.42661718 111.001268,5.98410428 111,9.01809384 L111,77.2640449 L111,77.2640449 L61,132.846538 L45.5,133 L0,77.2640449 L0,9.01809384 C-0.0012684063,5.98410428 2.26254906,3.42661718 5.27426147,3.05962598 Z"
+          id="path-253"
+        />
+        <linearGradient
+          x1="87.3155865%"
+          y1="50%"
+          x2="15.0927623%"
+          y2="50.0220824%"
+          id="linearGradient-255"
+        >
+          <stop stop-color="#BC9F9C" offset="0%" />
+          <stop stop-color="#DAC2BC" offset="21.4847675%" />
+          <stop stop-color="#E2D6CE" offset="49.5141602%" />
+          <stop stop-color="#DAC2BC" offset="79.4826267%" />
+          <stop stop-color="#BC9F9C" offset="100%" />
+        </linearGradient>
+        <polygon
+          id="path-256"
+          points="2 4.75730566e-14 28 4.75730566e-14 30 2 30 46 0 46 1.58206781e-14 2"
+        />
+        <polygon
+          id="path-258"
+          points="2 4.75730566e-14 28 4.75730566e-14 30 2 30 46 0 46 1.58206781e-14 2"
+        />
+        <polygon
+          id="path-260"
+          points="2 4.75730566e-14 28 4.75730566e-14 30 2 30 46 0 46 1.58206781e-14 2"
+        />
+        <linearGradient
+          x1="100%"
+          y1="50.0220824%"
+          x2="-4.16333634e-15%"
+          y2="50.0220824%"
+          id="linearGradient-262"
+        >
+          <stop stop-color="#0E0F17" offset="0%" />
+          <stop stop-color="#908CA1" offset="24.456403%" />
+          <stop stop-color="#B3AFC1" offset="49.5141602%" />
+          <stop stop-color="#908CA1" offset="79.4826267%" />
+          <stop stop-color="#0E0F17" offset="100%" />
+        </linearGradient>
+      </defs>
+      <g id="完成版" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#B3D2D1" x="0" y="0" width="2872" height="1474" />
+        <g id="编组-17" transform="translate(1413, 517)">
+          <rect
+            id="矩形"
+            stroke="#417E83"
+            fill="#FFFFFF"
+            x="727.5"
+            y="568.5"
+            width="93"
+            height="31"
+          />
+          <text
+            id="一号酸泵"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="734" y="590">一号酸泵</tspan>
+          </text>
+          <rect id="矩形" fill="#4A44FF" x="330" y="616" width="400" height="4" />
+          <g id="组件2备份-12" transform="translate(177, 51)">
+            <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="416" />
+            <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="416" />
+            <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="416" />
+            <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="416" />
+            <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="416" />
+            <path
+              d="M8,40 L8,58 L10,58 L10,60 L8,60 L8,72 L6,72 L6,60 L4,60 L4,58 L6,58 L6,40 L8,40 Z"
+              id="形状结合"
+              fill="#FFFFFF"
+            />
+            <path
+              d="M8,176 L8,194 L10,194 L10,196 L8,196 L8,208 L6,208 L6,196 L4,196 L4,194 L6,194 L6,176 L8,176 Z"
+              id="形状结合备份-7"
+              fill="#FFFFFF"
+            />
+            <path
+              d="M8,312 L8,330 L10,330 L10,332 L8,332 L8,344 L6,344 L6,332 L4,332 L4,330 L6,330 L6,312 L8,312 Z"
+              id="形状结合备份-8"
+              fill="#FFFFFF"
+            />
+          </g>
+          <rect id="矩形" fill="#191919" x="151" y="9" width="40" height="6" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-1)"
+            x="151.5"
+            y="15.5"
+            width="39"
+            height="36"
+          />
+          <rect
+            id="矩形备份-119"
+            stroke="#191919"
+            fill="#8DC088"
+            x="159.5"
+            y="10.5"
+            width="5"
+            height="2"
+          />
+          <rect id="矩形" stroke="#191919" fill="#75BB6D" x="162.5" y="51.5" width="8" height="3" />
+          <rect
+            id="矩形备份-120"
+            stroke="#191919"
+            fill="#8DC088"
+            x="170.5"
+            y="10.5"
+            width="8"
+            height="3"
+          />
+          <rect id="矩形" stroke="#191919" fill="#75BB6D" x="176.5" y="51.5" width="6" height="2" />
+          <rect
+            id="矩形备份-121"
+            stroke="#191919"
+            fill="#8DC088"
+            x="184.5"
+            y="10.5"
+            width="6"
+            height="2"
+          />
+          <rect id="矩形" stroke="#191919" fill="#99C195" x="169.5" y="0.5" width="3" height="9" />
+          <rect id="矩形" stroke="#191919" fill="#75BB6D" x="152.5" y="51.5" width="5" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="0.5" y="9.5" width="151" height="47" />
+          <rect id="矩形" stroke="#191919" fill="#817F80" x="45.5" y="9.5" width="13" height="42" />
+        </g>
+        <g id="编组-26" transform="translate(2436, 81)">
+          <rect id="矩形" fill="#8D989E" x="0" y="15" width="20" height="26" />
+          <path
+            d="M29,14 L41,14 L41,32 C41,35.3137085 38.3137085,38 35,38 C31.6862915,38 29,35.3137085 29,32 L29,14 L29,14 Z"
+            id="矩形备份-139"
+            fill="#8D989E"
+          />
+          <rect id="矩形" fill="#8D989E" x="34" y="38" width="2" height="4" />
+          <polygon id="矩形" fill="#8D989E" points="46 6 64 6 64 30 59 42 51 42 46 30" />
+          <rect id="矩形" fill="#515D5F" x="8" y="41" width="12" height="29" />
+          <rect id="矩形" fill="#8A979C" x="20" y="42" width="82" height="42" />
+          <rect id="矩形" fill="#515D5F" x="5" y="80" width="97" height="4" />
+          <rect id="矩形" fill="#8D989E" x="8" y="84" width="2" height="62" />
+          <rect id="矩形" fill="#515D5F" x="5" y="146" width="8" height="2" />
+          <rect id="矩形备份-144" fill="#515D5F" x="96" y="146" width="8" height="2" />
+          <rect id="矩形备份-143" fill="#8A979C" x="99" y="84" width="2" height="62" />
+          <rect id="矩形备份-142" fill="#8A979C" x="161" y="85" width="2" height="62" />
+          <rect id="矩形备份-145" fill="#515D5F" x="158" y="146" width="8" height="2" />
+          <rect id="矩形" fill="#8A979C" x="286" y="134" width="2" height="13" />
+          <rect id="矩形备份-145" fill="#515D5F" x="283" y="146" width="8" height="2" />
+          <rect id="矩形" fill="#859398" x="99" y="121" width="106" height="13" />
+          <rect id="矩形" fill="#515D5F" x="102" y="64" width="97" height="2" />
+          <rect id="矩形" fill="#515D5F" x="196" y="35" width="3" height="30" />
+          <rect id="矩形" fill="#67757A" x="182" y="108" width="90" height="11" />
+          <rect id="矩形" fill="#737E84" x="203" y="118" width="62" height="5" />
+          <rect id="矩形" fill="#859398" x="203" y="123" width="85" height="11" />
+          <rect id="矩形" fill="#737E84" x="256" y="134" width="9" height="5" />
+          <rect id="矩形" fill="#737E84" x="203" y="134" width="8" height="5" />
+          <rect id="矩形备份-140" fill="#8D989E" x="32" y="84" width="2" height="48" />
+          <rect id="矩形备份-141" fill="#8D989E" x="53" y="84" width="2" height="48" />
+          <rect id="矩形" fill="#8D989E" x="9" y="132" width="90" height="2" />
+          <rect id="矩形" fill="#8D989E" x="131" y="24" width="6" height="60" />
+          <rect id="矩形" fill="#8D989E" x="99" y="82" width="65" height="31" />
+          <rect id="矩形" fill="#8D989E" x="145" y="66" width="19" height="17" />
+          <rect id="矩形" fill="#9FB2B5" x="80" y="65" width="5" height="19" />
+          <rect id="矩形" fill="#9FB2B5" x="93" y="64" width="9" height="20" />
+          <rect id="矩形" fill="#9FB2B5" x="8" y="69" width="12" height="15" />
+          <rect id="矩形" fill="#9FB2B5" x="57" y="75" width="23" height="9" />
+          <rect id="矩形" fill="#5B656D" x="233" y="18" width="25" height="8" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#606C73"
+            x="241.5"
+            y="0.5"
+            width="9"
+            height="33"
+            rx="4.5"
+          />
+          <rect id="矩形" fill="#74848A" x="183" y="34" width="128" height="3" />
+          <rect id="矩形" fill="#91AAAC" x="233" y="8" width="2" height="24" rx="1" />
+          <rect id="矩形" fill="#91AAAC" x="257" y="8" width="2" height="24" rx="1" />
+          <g id="编组-25" transform="translate(199, 11)">
+            <ellipse id="椭圆形" fill="#607279" cx="9" cy="12" rx="9" ry="12" />
+            <ellipse id="椭圆形" fill="#313032" cx="8.5" cy="12" rx="3.5" ry="6" />
+          </g>
+          <g
+            id="编组-25备份-2"
+            transform="translate(286, 22) scale(-1, 1) translate(-286, -22)translate(277, 10)"
+          >
+            <ellipse id="椭圆形" fill="#607279" cx="9" cy="12" rx="9" ry="12" />
+            <ellipse id="椭圆形" fill="#313032" cx="8.5" cy="12" rx="3.5" ry="6" />
+          </g>
+          <g id="编组-25备份" transform="translate(207, 11)">
+            <ellipse id="椭圆形" fill="#607279" cx="9" cy="12" rx="9" ry="12" />
+            <ellipse id="椭圆形" fill="#313032" cx="8.5" cy="12" rx="3.5" ry="6" />
+          </g>
+          <rect id="矩形" fill="#91AAAC" x="225" y="22" width="10" height="2" />
+          <rect id="矩形备份-146" fill="#91AAAC" x="259" y="22" width="11" height="2" />
+          <g
+            id="编组-25备份-3"
+            transform="translate(278, 22) scale(-1, 1) translate(-278, -22)translate(269, 10)"
+          >
+            <ellipse id="椭圆形" fill="#607279" cx="9" cy="12" rx="9" ry="12" />
+            <ellipse id="椭圆形" fill="#313032" cx="8.5" cy="12" rx="3.5" ry="6" />
+          </g>
+          <rect id="矩形" fill="#737E84" x="233" y="37" width="28" height="71" />
+        </g>
+        <g id="组件12" transform="translate(1178, 274)">
+          <rect id="矩形" fill="#D428B6" x="0" y="42" width="78" height="4" />
+          <g id="编组" transform="translate(15, 0)">
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-2)"
+              x="17.5"
+              y="36.5"
+              width="17"
+              height="15"
+            />
+            <rect
+              id="矩形备份-71"
+              stroke="#191919"
+              fill="url(#linearGradient-3)"
+              x="33.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-4)"
+              x="23.5"
+              y="27.5"
+              width="5"
+              height="10"
+            />
+            <circle id="椭圆形" fill="#191919" cx="17" cy="2" r="2" />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#9BBF8D"
+              x="12.5"
+              y="2.5"
+              width="27"
+              height="25"
+              rx="3"
+            />
+            <path
+              d="M17,4 L39,4 L39,4 L39,25 C39,26.1045695 38.1045695,27 37,27 L14,27 L14,27 L14,7 C14,5.34314575 15.3431458,4 17,4 Z"
+              id="矩形"
+              fill="#2F9931"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#2F9931"
+              x="11.5"
+              y="13.5"
+              width="29"
+              height="4"
+            />
+            <path
+              d="M12.5,19.5 L12.5,22.5 L3.5,22.5 L3.5,36.5 L0.5,36.5 L0.5,22 C0.5,21.3096441 0.779822031,20.6846441 1.23223305,20.232233 C1.68464406,19.779822 2.30964406,19.5 3,19.5 L12.5,19.5 Z"
+              id="形状结合"
+              stroke="#191919"
+              fill="#2F9931"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-3)"
+              x="12.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+          </g>
+        </g>
+        <rect
+          id="矩形"
+          stroke="#191919"
+          fill="url(#linearGradient-5)"
+          x="1370.5"
+          y="317.5"
+          width="27"
+          height="19"
+        />
+        <path
+          d="M1369.70318,228.5 L1375.5,239.127497 L1375.5,336.872503 L1369.70318,347.5 L1258.29682,347.5 L1252.5,336.872503 L1252.5,239.127497 L1258.29682,228.5 L1369.70318,228.5 Z"
+          id="形状结合"
+          stroke="#191919"
+          fill="url(#linearGradient-6)"
+        />
+        <rect id="矩形" fill="#191919" x="1279" y="226" width="70" height="3" />
+        <g id="报警记录" transform="translate(2250, 1081)">
+          <rect id="矩形" stroke="#000C0B" fill="#F3F524" x="0.5" y="0.5" width="105" height="55" />
+          <polygon id="矩形" fill="#FFFEFF" points="1 1 105 1 105 6 1 6" />
+          <polygon id="矩形备份-13" fill="#A1A19F" points="100 6 105 1 105 55 100 55" />
+          <polygon id="矩形备份-14" fill="#A1A19F" points="1 50 105 50 105 55 1 55" />
+          <polygon id="矩形" fill="#FFFEFF" points="1 1 6 1 6 50 1 55" />
+          <text
+            id="一号酸泵"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="13" y="34">一号酸泵</tspan>
+          </text>
+        </g>
+        <g id="报警记录备份" transform="translate(2250, 1139)">
+          <rect id="矩形" stroke="#000C0B" fill="#EDE9D8" x="0.5" y="0.5" width="105" height="55" />
+          <polygon id="矩形" fill="#FFFEFF" points="1 1 105 1 105 6 1 6" />
+          <polygon id="矩形备份-13" fill="#A1A19F" points="100 6 105 1 105 55 100 55" />
+          <polygon id="矩形备份-14" fill="#A1A19F" points="1 50 105 50 105 55 1 55" />
+          <polygon id="矩形" fill="#FFFEFF" points="1 1 6 1 6 50 1 55" />
+          <text
+            id="二号酸泵"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="13" y="34">二号酸泵</tspan>
+          </text>
+        </g>
+        <rect id="矩形" fill="#F3F524" x="2162" y="661" width="238" height="4" />
+        <rect id="矩形" fill="#F3F524" x="2396" y="661" width="4" height="367" />
+        <rect id="矩形" fill="#F3F524" x="1927" y="619" width="229" height="4" />
+        <rect id="矩形" fill="#F3F524" x="2152" y="619" width="4" height="26" />
+        <rect id="矩形" fill="#F3F524" x="2393" y="316" width="4" height="220" />
+        <rect id="矩形" fill="#F3F524" x="2154" y="532" width="243" height="4" />
+        <rect id="矩形" fill="#F3F524" x="1925" y="443" width="233" height="4" />
+        <rect id="矩形" fill="#F3F524" x="2154" y="443" width="4" height="76" />
+        <rect id="矩形备份-130" fill="#F3F524" x="1925" y="443" width="4" height="227" />
+        <rect id="矩形备份-131" fill="#F3F524" x="1865" y="622" width="4" height="48" />
+        <rect id="矩形" fill="#F3F524" x="1865" y="666" width="64" height="4" />
+        <g id="编组-14" transform="translate(2014, 980)">
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#CBCBCB"
+            x="69.5"
+            y="42.5"
+            width="32"
+            height="23"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-7)"
+            x="9.5"
+            y="34.5"
+            width="51"
+            height="45"
+          />
+          <path
+            d="M60.5,38.9342585 L65.5,42.2675919 L65.5,71.7324081 L60.5,75.0657415 L60.5,38.9342585 Z"
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-8)"
+          />
+          <rect
+            id="矩形备份-110"
+            stroke="#191919"
+            fill="url(#linearGradient-9)"
+            x="3.5"
+            y="36.5"
+            width="6"
+            height="41"
+          />
+          <rect
+            id="矩形备份-109"
+            stroke="#191919"
+            fill="#191919"
+            x="65.5"
+            y="42.5"
+            width="4"
+            height="29"
+          />
+          <rect
+            id="矩形备份-111"
+            stroke="#191919"
+            fill="url(#linearGradient-10)"
+            x="0.5"
+            y="38.5"
+            width="3"
+            height="37"
+          />
+          <rect id="矩形" fill="#191919" x="16" y="40" width="41" height="2" />
+          <rect id="矩形" fill="#191919" x="16" y="44" width="41" height="2" />
+          <rect id="矩形" fill="#191919" x="16" y="48" width="41" height="3" />
+          <rect id="矩形" fill="#191919" x="16" y="52" width="41" height="2" />
+          <rect id="矩形" fill="#191919" x="16" y="55" width="41" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#CBCBCB"
+            x="96.5"
+            y="40.5"
+            width="30"
+            height="27"
+          />
+          <rect id="矩形" fill="#191919" x="16" y="80" width="38" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#CACAC9"
+            x="20.5"
+            y="62.5"
+            width="18"
+            height="21"
+          />
+          <rect id="矩形" fill="#FFFFFF" x="22" y="65" width="15" height="2" />
+          <rect id="矩形" fill="#FFFFFF" x="22" y="67" width="2" height="15" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#4B4B4B"
+            x="100.5"
+            y="45.5"
+            width="18"
+            height="18"
+          />
+          <rect id="矩形" fill="#D3D3D3" x="101" y="46" width="4" height="5" />
+          <rect id="矩形" fill="#D3D3D3" x="105" y="46" width="3" height="3" />
+          <rect id="矩形" fill="#D3D3D3" x="101" y="53" width="4" height="4" />
+          <rect id="矩形" fill="#D3D3D3" x="101" y="59" width="3" height="2" />
+          <rect id="矩形" fill="#D3D3D3" x="101" y="61" width="6" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#4B4B4B"
+            x="105.5"
+            y="49.5"
+            width="2"
+            height="11"
+          />
+          <rect id="矩形" stroke="#191919" fill="#CBCBCB" x="69.5" y="55.5" width="4" height="20" />
+          <path
+            d="M86.25,64.5 L81.6666667,75.5 L73.5,75.5 L73.5,64.5 L86.25,64.5 Z"
+            id="矩形"
+            stroke="#191919"
+            fill="#7E807F"
+          />
+          <rect id="矩形" fill="#191919" x="121" y="41" width="2" height="26" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#CBCBCB"
+            x="106.5"
+            y="68.5"
+            width="13"
+            height="7"
+          />
+          <path
+            d="M115.5,68.5 L115.5,75.5 L106.3465,75.5 L103.7215,68.5 L115.5,68.5 Z"
+            id="矩形"
+            stroke="#191919"
+            fill="#7E807F"
+          />
+          <path
+            d="M171.5,43.5 L171.5,64.5 L145.5,64.5 L145.5,63.5 L131.5,63.5 L131.5,61.5 L126.5,61.5 L126.5,46.5 L131.5,46.5 L131.5,44.5 L145.5,44.5 L145.5,43.5 L171.5,43.5 Z"
+            id="形状结合"
+            stroke="#191919"
+            fill="url(#linearGradient-11)"
+          />
+          <rect
+            id="矩形备份-106"
+            stroke="#191919"
+            fill="#9A9A9A"
+            x="171.5"
+            y="43.5"
+            width="22"
+            height="21"
+          />
+          <rect id="矩形" fill="#FFFFFF" x="172" y="44" width="21" height="1" />
+          <rect id="矩形" fill="#191919" x="172" y="45" width="3" height="3" />
+          <rect id="矩形备份-114" fill="#191919" x="172" y="61" width="3" height="3" />
+          <rect id="矩形备份-112" fill="#191919" x="181" y="45" width="2" height="3" />
+          <rect id="矩形备份-115" fill="#191919" x="181" y="61" width="2" height="3" />
+          <rect id="矩形备份-113" fill="#191919" x="189" y="45" width="3" height="3" />
+          <rect id="矩形备份-116" fill="#191919" x="189" y="61" width="3" height="3" />
+          <rect id="矩形" fill="#FFFFFF" x="192" y="45" width="1" height="19" />
+          <path
+            d="M162.5,36.5 L162.5,46.7151022 C159.333381,48.5680413 156.167645,49.5 153,49.5 C149.832355,49.5 146.666619,48.5680413 143.5,46.7151022 L143.5,36.5 L162.5,36.5 Z"
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-12)"
+          />
+          <circle id="椭圆形" stroke="#858585" cx="153" cy="53" r="2.5" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-13)"
+            x="132.5"
+            y="34.5"
+            width="41"
+            height="2"
+          />
+          <g id="编组-13" transform="translate(218, 0)">
+            <path
+              d="M20.5,29.5 L20.5,50.5 L25.5,50.5 L25.5,58.5 L5.5,58.5 L5.5,50.5 L10.5,50.5 L10.5,29.5 L20.5,29.5 Z"
+              id="形状结合"
+              stroke="#191919"
+              fill="#93CE96"
+            />
+            <circle id="椭圆形" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="15" />
+            <rect id="矩形" fill="#191919" x="14" y="30" width="3" height="2" />
+            <circle id="椭圆形" stroke="#191919" fill="#E3F3E3" cx="15.5" cy="15.5" r="12" />
+            <circle id="椭圆形" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="2" />
+            <rect id="矩形" fill="#191919" x="24" y="15" width="4" height="1" />
+            <rect id="矩形备份-118" fill="#191919" x="4" y="15" width="4" height="1" />
+            <rect id="矩形" fill="#191919" x="15" y="24" width="1" height="4" />
+            <rect id="矩形" fill="#191919" x="10" y="42" width="11" height="1" />
+          </g>
+          <rect
+            id="矩形备份-107"
+            stroke="#191919"
+            fill="url(#linearGradient-14)"
+            x="193.5"
+            y="40.5"
+            width="4"
+            height="27"
+          />
+          <rect
+            id="矩形备份-107"
+            stroke="#191919"
+            fill="url(#linearGradient-14)"
+            x="197.5"
+            y="40.5"
+            width="4"
+            height="27"
+          />
+          <rect
+            id="矩形备份-107"
+            stroke="#191919"
+            fill="url(#linearGradient-14)"
+            x="228.5"
+            y="40.5"
+            width="4"
+            height="27"
+          />
+          <rect
+            id="矩形备份-107"
+            stroke="#191919"
+            fill="url(#linearGradient-14)"
+            x="232.5"
+            y="40.5"
+            width="4"
+            height="27"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-15)"
+            x="236.5"
+            y="43.5"
+            width="35"
+            height="19"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-16)"
+            x="201.5"
+            y="45.5"
+            width="8"
+            height="17"
+          />
+          <rect
+            id="矩形备份-129"
+            stroke="#191919"
+            fill="url(#linearGradient-16)"
+            x="220.5"
+            y="45.5"
+            width="8"
+            height="17"
+          />
+          <rect
+            id="矩形备份-128"
+            stroke="#191919"
+            fill="url(#linearGradient-17)"
+            x="209.5"
+            y="44.5"
+            width="11"
+            height="31"
+          />
+          <rect
+            id="矩形备份-128"
+            stroke="#191919"
+            fill="url(#linearGradient-17)"
+            x="209.5"
+            y="42.5"
+            width="11"
+            height="31"
+          />
+          <rect id="矩形" fill="#191919" x="210" y="42" width="9" height="2" />
+        </g>
+        <g id="编组-19" transform="translate(2106, 891)">
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="45.5"
+            y="100.5"
+            width="33"
+            height="23"
+          />
+          <g
+            id="编组-15"
+            transform="translate(122.5, 76.5) rotate(90) translate(-122.5, -76.5)translate(114, 46)"
+          >
+            <rect id="矩形" stroke="#191919" fill="#B3ACAC" x="12.5" y="0.5" width="4" height="7" />
+            <rect id="矩形" stroke="#191919" fill="#1000DC" x="3.5" y="0.5" width="8" height="13" />
+            <rect id="矩形" fill="#191919" x="1" y="14" width="14" height="3" />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#B3ACAC"
+              x="6.5"
+              y="15.5"
+              width="3"
+              height="17"
+            />
+            <rect id="矩形" fill="#191919" x="7" y="32" width="2" height="29" />
+            <circle id="椭圆形" stroke="#191919" fill="#B3ACAC" cx="4" cy="5" r="3.5" />
+          </g>
+          <path
+            d="M0,0 L127,0 L127,22 L64,122 L0,22 L0,0 Z"
+            id="形状结合"
+            stroke="#191919"
+            fill="#B2B2B2"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#808080"
+            x="48.5"
+            y="0.5"
+            width="31"
+            height="115"
+          />
+          <rect id="矩形" fill="#191919" x="51" y="119" width="25" height="5" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#9FA29D"
+            x="51.5"
+            y="116.5"
+            width="22"
+            height="4"
+          />
+          <rect id="矩形" fill="#15FD10" x="49" y="85" width="30" height="30" />
+        </g>
+        <g id="组件7" transform="translate(2285, 974)">
+          <g id="编组-2" transform="translate(59, 49)">
+            <rect id="矩形" fill="url(#linearGradient-18)" x="0" y="0" width="9" height="20" />
+            <rect id="矩形" fill="#B4B2B3" x="8" y="1" width="1" height="18" />
+            <rect id="矩形备份-59" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="矩形" fill="#191919" x="1" y="0" width="8" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="1" y="19" width="8" height="1" />
+          </g>
+          <g id="编组-2备份" transform="translate(0, 49)">
+            <rect id="矩形" fill="url(#linearGradient-19)" x="0" y="0" width="13" height="20" />
+            <rect id="矩形" fill="#191919" x="12" y="2" width="1" height="17" />
+            <rect id="矩形" fill="#191919" x="0" y="0" width="12" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="0" y="19" width="12" height="1" />
+          </g>
+          <rect id="矩形" fill="#191919" x="27" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="29.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="24" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#02C90F" x="25" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="30" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#02C90F" x="36" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="15" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="15" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="12.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="15" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="14" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="21" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#02C90F" x="46" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="31" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="21.5" y="4.5" width="29" height="9" />
+          <path
+            d="M30.5,4 L30.5,2 C30.5,0.8954305 31.3954305,2.02906125e-16 32.5,0 L38.5,0 C40.1568542,-3.04359188e-16 41.5,1.34314575 41.5,3 L41.5,4 L41.5,4 L30.5,4 Z"
+            id="路径-10"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="路径-3" stroke="#191919" points="31 2 31 -9.10729825e-18 36 0" />
+          <path
+            d="M38,0 L39,0 C40.1045695,-2.02906125e-16 41,0.8954305 41,2 L41,2 L41,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M30,2 L30,3 C30,3.55228475 30.4477153,4 31,4 L41,4 C41.5522847,4 42,3.55228475 42,3 L42,2 L42,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="32.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#02C90F" x="22" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#02C90F" x="22" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="51" y="12" width="3" height="7" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="39.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="45.5" cy="13.5" r="3" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="13.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="12.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="17.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="43.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="30" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="29" y="45" width="14" height="4" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="31.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="32" y="44" width="7" height="1" />
+          <rect id="矩形" fill="url(#linearGradient-27)" x="30" y="49" width="12" height="4" />
+          <rect id="矩形" fill="url(#linearGradient-28)" x="31" y="55" width="10" height="11" />
+          <rect id="矩形" fill="url(#linearGradient-29)" x="30" y="67" width="12" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="13.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="55.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="55.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="55.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="编组-13" transform="translate(2559, 980)">
+          <path
+            d="M20.5,29.5 L20.5,50.5 L25.5,50.5 L25.5,58.5 L5.5,58.5 L5.5,50.5 L10.5,50.5 L10.5,29.5 L20.5,29.5 Z"
+            id="形状结合"
+            stroke="#191919"
+            fill="#93CE96"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="15" />
+          <rect id="矩形" fill="#191919" x="14" y="30" width="3" height="2" />
+          <circle id="椭圆形" stroke="#191919" fill="#E3F3E3" cx="15.5" cy="15.5" r="12" />
+          <circle id="椭圆形" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="2" />
+          <rect id="矩形" fill="#191919" x="24" y="15" width="4" height="1" />
+          <rect id="矩形备份-118" fill="#191919" x="4" y="15" width="4" height="1" />
+          <rect id="矩形" fill="#191919" x="15" y="24" width="1" height="4" />
+          <rect id="矩形" fill="#191919" x="10" y="42" width="11" height="1" />
+        </g>
+        <g id="编组-15" transform="translate(2602, 974)">
+          <rect id="矩形" stroke="#191919" fill="#B3ACAC" x="12.5" y="0.5" width="4" height="7" />
+          <rect id="矩形" stroke="#191919" fill="#1000DC" x="3.5" y="0.5" width="8" height="13" />
+          <rect id="矩形" fill="#191919" x="1" y="14" width="14" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#B3ACAC" x="6.5" y="15.5" width="3" height="17" />
+          <rect id="矩形" fill="#191919" x="7" y="32" width="2" height="29" />
+          <circle id="椭圆形" stroke="#191919" fill="#B3ACAC" cx="4" cy="5" r="3.5" />
+        </g>
+        <g id="编组-15" transform="translate(2350, 974)">
+          <rect id="矩形" stroke="#191919" fill="#B3ACAC" x="12.5" y="0.5" width="4" height="7" />
+          <rect id="矩形" stroke="#191919" fill="#1000DC" x="3.5" y="0.5" width="8" height="13" />
+          <rect id="矩形" fill="#191919" x="1" y="14" width="14" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#B3ACAC" x="6.5" y="15.5" width="3" height="17" />
+          <rect id="矩形" fill="#191919" x="7" y="32" width="2" height="29" />
+          <circle id="椭圆形" stroke="#191919" fill="#B3ACAC" cx="4" cy="5" r="3.5" />
+        </g>
+        <g id="组件2" transform="translate(2353, 1026)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="282" height="14" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="282" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="1" width="282" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="12" width="282" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="0" y="13" width="282" height="1" />
+          <path
+            d="M57,4 L57,6 L69,6 L69,8 L57,8 L57,10 L55,10 L55,8 L23,8 L23,6 L55,6 L55,4 L57,4 Z"
+            id="形状结合备份-2"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件2备份-14" transform="translate(2635, 972)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="118" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="118" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="118" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="118" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="118" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="45" width="2" height="32" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="57" width="6" height="2" />
+        </g>
+        <g
+          id="组件10备份-6"
+          transform="translate(2663.5, 1035) rotate(90) translate(-2663.5, -1035)translate(2639.5, 998.5)"
+        >
+          <rect id="矩形" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="17.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="0.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="9.5" y="4.5" width="29" height="9" />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="路径-10"
+            fill="#F6F4F5"
+          />
+          <polyline id="路径-3" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="20.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect id="矩形" stroke="#191919" fill="#EFEFEF" x="27.5" y="41.5" width="4" height="3" />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="48.5" width="4" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="51.5" width="3" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="55.5" width="4" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="5.5" y="44.5" width="12" height="28" />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="19.5" y="45.5" width="9" height="3" />
+          <rect id="矩形" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="矩形" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="60.5" width="3" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="65.5" width="4" height="3" />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <rect
+          id="矩形"
+          stroke="#191919"
+          fill="url(#linearGradient-31)"
+          x="2428.5"
+          y="1023.5"
+          width="126"
+          height="19"
+        />
+        <text
+          id="乳胶泵1#"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="2021" y="1085">乳胶泵1#</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD60"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2062.986" y="1120">10</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD272"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2027.2" y="1186">30</tspan>
+        </text>
+        <text
+          id="乳胶泵1温度"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="1874.386" y="1120">乳胶泵1温度</tspan>
+        </text>
+        <text
+          id="发泡剂泵1#"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="2061" y="702">发泡剂泵1#</tspan>
+        </text>
+        <text
+          id="发泡剂泵2#"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="2061" y="573">发泡剂泵2#</tspan>
+        </text>
+        <text
+          id="乳胶泵2#"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1821" y="361">乳胶泵2#</tspan>
+        </text>
+        <text
+          id="乳胶料仓一"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="2140" y="878">乳胶料仓一</tspan>
+        </text>
+        <text
+          id="乳胶料仓二"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1954" y="154">乳胶料仓二</tspan>
+        </text>
+        <text
+          id="酸泵"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="2165" y="1186">酸泵</tspan>
+        </text>
+        <path
+          d="M1994.5,1123.91907 L2010.1323,1134.03409 L1994.5,1145.98821 L1994.5,1138.5 L1955.5,1138.5 L1955.5,1131.5 L1994.5,1131.5 L1994.5,1123.91907 Z"
+          id="形状结合备份-3"
+          stroke="#191919"
+          fill="#AA7880"
+          transform="translate(1983, 1135) scale(-1, 1) translate(-1983, -1135)"
+        />
+        <path
+          d="M2418.5,898.934259 L2435.09861,910 L2418.5,921.065741 L2418.5,913.498991 L2360.5,913.499991 L2360.5,906.499991 L2418.5,906.498991 L2418.5,898.934259 Z"
+          id="形状结合备份-3"
+          stroke="#191919"
+          fill="#AA7880"
+          transform="translate(2398, 910) scale(-1, -1) rotate(-90) translate(-2398, -910)"
+        />
+        <path
+          d="M2415.5,393.934259 L2432.09861,405 L2415.5,416.065741 L2415.5,408.498991 L2357.5,408.499991 L2357.5,401.499991 L2415.5,401.498991 L2415.5,393.934259 Z"
+          id="形状结合备份-14"
+          stroke="#191919"
+          fill="#AA7880"
+          transform="translate(2395, 405) scale(-1, 1) rotate(-90) translate(-2395, -405)"
+        />
+        <g id="组件2" transform="translate(1673, 1127)">
+          <rect id="矩形" fill="#16A2BC" x="2" y="0" width="56" height="14" />
+          <rect id="矩形" fill="#191919" x="2" y="0" width="56" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="2" y="1" width="56" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="2" y="12" width="56" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="2" y="13" width="56" height="1" />
+          <path
+            d="M14,4 L14,6 L26,6 L26,8 L14,8 L14,10 L12,10 L12,8 L0,8 L0,6 L12,6 L12,4 L14,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件2备份-18" transform="translate(1678, 974)">
+          <rect id="矩形" fill="#16A2BC" x="2" y="0" width="56" height="14" />
+          <rect id="矩形" fill="#191919" x="2" y="0" width="56" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="2" y="1" width="56" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="2" y="12" width="56" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="2" y="13" width="56" height="1" />
+          <path
+            d="M14,4 L14,6 L26,6 L26,8 L14,8 L14,10 L12,10 L12,8 L0,8 L0,6 L12,6 L12,4 L14,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件2备份-12" transform="translate(1656, 561)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="423" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="423" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="423" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="423" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="423" />
+          <path
+            d="M8,47 L8,59 L10,59 L10,61 L8,61 L8,79 L6,79 L6,61 L4,61 L4,59 L6,59 L6,47 L8,47 Z"
+            id="形状结合"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M8,183 L8,195 L10,195 L10,197 L8,197 L8,215 L6,215 L6,197 L4,197 L4,195 L6,195 L6,183 L8,183 Z"
+            id="形状结合备份-7"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M8,319 L8,331 L10,331 L10,333 L8,333 L8,351 L6,351 L6,333 L4,333 L4,331 L6,331 L6,319 L8,319 Z"
+            id="形状结合备份-8"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件2" transform="translate(1681, 536)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="42" height="14" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="42" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="1" width="42" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="12" width="42" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="0" y="13" width="42" height="1" />
+          <path
+            d="M13,4 L13,6 L20,6 L20,8 L13,8 L13,10 L11,10 L11,8 L0,8 L0,6 L11,6 L11,4 L13,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件2备份-12" transform="translate(1722, 155)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="675" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="675" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="675" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="675" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="675" />
+          <path
+            d="M8,45 L8,63 L10,63 L10,65 L8,65 L8,77 L6,77 L6,65 L4,65 L4,63 L6,63 L6,45 L8,45 Z"
+            id="形状结合"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M8,177 L8,195 L10,195 L10,197 L8,197 L8,209 L6,209 L6,197 L4,197 L4,195 L6,195 L6,177 L8,177 Z"
+            id="形状结合备份-9"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M8,309 L8,327 L10,327 L10,329 L8,329 L8,341 L6,341 L6,329 L4,329 L4,327 L6,327 L6,309 L8,309 Z"
+            id="形状结合备份-10"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M8,441 L8,459 L10,459 L10,461 L8,461 L8,473 L6,473 L6,461 L4,461 L4,459 L6,459 L6,441 L8,441 Z"
+            id="形状结合备份-11"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M8,573 L8,591 L10,591 L10,593 L8,593 L8,605 L6,605 L6,593 L4,593 L4,591 L6,591 L6,573 L8,573 Z"
+            id="形状结合备份-12"
+            fill="#FFFFFF"
+          />
+        </g>
+        <text
+          id="KLRH3_DB2DD64"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="1885.772" y="406">11</tspan>
+        </text>
+        <text
+          id="乳胶泵2温度"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="1700.6" y="406">乳胶泵2温度</tspan>
+        </text>
+        <text
+          id="乳胶仓2温度"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="1670.6" y="212">乳胶仓2温度</tspan>
+        </text>
+        <g id="组件2" transform="translate(1748, 132)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="96" height="14" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="96" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="1" width="96" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="12" width="96" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="0" y="13" width="96" height="1" />
+          <path
+            d="M20,4 L20,6 L32,6 L32,8 L20,8 L20,10 L18,10 L18,8 L0,8 L0,6 L18,6 L18,4 L20,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件7" transform="translate(1844, 80)">
+          <g id="编组-2" transform="translate(59, 49)">
+            <rect id="矩形" fill="url(#linearGradient-18)" x="0" y="0" width="9" height="20" />
+            <rect id="矩形" fill="#B4B2B3" x="8" y="1" width="1" height="18" />
+            <rect id="矩形备份-59" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="矩形" fill="#191919" x="1" y="0" width="8" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="1" y="19" width="8" height="1" />
+          </g>
+          <g id="编组-2备份" transform="translate(0, 49)">
+            <rect id="矩形" fill="url(#linearGradient-19)" x="0" y="0" width="13" height="20" />
+            <rect id="矩形" fill="#191919" x="12" y="2" width="1" height="17" />
+            <rect id="矩形" fill="#191919" x="0" y="0" width="12" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="0" y="19" width="12" height="1" />
+          </g>
+          <rect id="矩形" fill="#191919" x="27" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="29.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="24" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#02C90F" x="25" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="30" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#02C90F" x="36" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="15" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="15" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="12.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="15" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="14" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="21" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#02C90F" x="46" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="31" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="21.5" y="4.5" width="29" height="9" />
+          <path
+            d="M30.5,4 L30.5,2 C30.5,0.8954305 31.3954305,2.02906125e-16 32.5,0 L38.5,0 C40.1568542,-3.04359188e-16 41.5,1.34314575 41.5,3 L41.5,4 L41.5,4 L30.5,4 Z"
+            id="路径-10"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="路径-3" stroke="#191919" points="31 2 31 -9.10729825e-18 36 0" />
+          <path
+            d="M38,0 L39,0 C40.1045695,-2.02906125e-16 41,0.8954305 41,2 L41,2 L41,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M30,2 L30,3 C30,3.55228475 30.4477153,4 31,4 L41,4 C41.5522847,4 42,3.55228475 42,3 L42,2 L42,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="32.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#02C90F" x="22" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#02C90F" x="22" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="51" y="12" width="3" height="7" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="39.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="45.5" cy="13.5" r="3" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="13.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="12.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="17.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="43.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="30" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="29" y="45" width="14" height="4" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="31.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="32" y="44" width="7" height="1" />
+          <rect id="矩形" fill="url(#linearGradient-27)" x="30" y="49" width="12" height="4" />
+          <rect id="矩形" fill="url(#linearGradient-28)" x="31" y="55" width="10" height="11" />
+          <rect id="矩形" fill="url(#linearGradient-29)" x="30" y="67" width="12" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="13.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="55.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="55.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="55.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g
+          id="组件3备份-19"
+          transform="translate(1733.5, 144) scale(-1, 1) translate(-1733.5, -144)translate(1719, 129)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-33" fill="white">
+              <use xlink:href="#path-32" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-33)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-33)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-36" fill="white">
+              <use xlink:href="#path-35" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-35" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件2" transform="translate(1745, 843)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="305" height="14" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="305" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="1" width="305" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="12" width="305" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="0" y="13" width="305" height="1" />
+          <path
+            d="M67,4 L67,6 L79,6 L79,8 L67,8 L67,10 L65,10 L65,8 L47,8 L47,6 L65,6 L65,4 L67,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M188,4 L188,6 L200,6 L200,8 L188,8 L188,10 L186,10 L186,8 L168,8 L168,6 L186,6 L186,4 L188,4 Z"
+            id="形状结合备份-6"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M309,4 L309,6 L321,6 L321,8 L309,8 L309,10 L307,10 L307,8 L289,8 L289,6 L307,6 L307,4 L309,4 Z"
+            id="形状结合备份-13"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件10" transform="translate(2040, 791)">
+          <g id="编组-2" transform="translate(55, 49)">
+            <rect id="矩形" fill="url(#linearGradient-39)" x="0" y="0" width="10" height="20" />
+            <rect id="矩形备份-59" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="矩形" fill="#191919" x="0" y="0" width="10" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="0" y="19" width="10" height="1" />
+          </g>
+          <g id="编组-2备份" transform="translate(0, 49)">
+            <rect id="矩形" fill="url(#linearGradient-18)" x="0" y="0" width="9" height="20" />
+            <rect id="矩形" fill="#191919" x="8" y="2" width="1" height="17" />
+            <rect id="矩形" fill="#191919" x="0" y="0" width="8.30769231" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="0" y="19" width="8.30769231" height="1" />
+          </g>
+          <rect id="矩形" fill="#191919" x="23" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="25.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="20" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#696969" x="21" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="26" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#696969" x="32" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="11" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="11" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="8.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="11" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="10" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="17" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#696969" x="42" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="27" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="17.5" y="4.5" width="29" height="9" />
+          <path
+            d="M26.5,4 L26.5,2 C26.5,0.8954305 27.3954305,2.02906125e-16 28.5,0 L34.5,0 C36.1568542,-3.04359188e-16 37.5,1.34314575 37.5,3 L37.5,4 L37.5,4 L26.5,4 Z"
+            id="路径-10"
+            fill="#F6F4F5"
+          />
+          <polyline id="路径-3" stroke="#191919" points="27 2 27 -9.10729825e-18 32 0" />
+          <path
+            d="M34,0 L35,0 C36.1045695,-2.02906125e-16 37,0.8954305 37,2 L37,2 L37,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M26,2 L26,3 C26,3.55228475 26.4477153,4 27,4 L37,4 C37.5522847,4 38,3.55228475 38,3 L38,2 L38,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="28.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#9B999A" x="18" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#696969" x="18" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="47" y="12" width="3" height="7" />
+          <rect id="矩形" stroke="#191919" fill="#EFEFEF" x="35.5" y="41.5" width="4" height="3" />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="23.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="41.5" cy="13.5" r="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="8.5" y="48.5" width="4" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="9.5" y="51.5" width="3" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="8.5" y="55.5" width="4" height="5" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="13.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="39.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="26" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="25" y="45" width="14" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="27.5" y="45.5" width="9" height="3" />
+          <rect id="矩形" fill="#191919" x="28" y="44" width="7" height="1" />
+          <rect id="矩形" fill="#F1F1F1" x="26" y="49" width="12" height="4" />
+          <rect id="矩形" fill="#F1F1F1" x="27" y="55" width="10" height="11" />
+          <rect id="矩形" fill="#F1F1F1" x="26" y="67" width="12" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="9.5" y="60.5" width="3" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="8.5" y="65.5" width="4" height="3" />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件2备份-15" transform="translate(2117, 858)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="42" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="42" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="42" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="42" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="42" />
+        </g>
+        <g id="组件3备份-19" transform="translate(2105, 840)">
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-41" fill="white">
+              <use xlink:href="#path-40" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-41)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-41)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-43" fill="white">
+              <use xlink:href="#path-42" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-42" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-19"
+          transform="translate(1733.5, 845) scale(-1, -1) translate(-1733.5, -845)translate(1719, 830)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-45" fill="white">
+              <use xlink:href="#path-44" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-45)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-45)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-47" fill="white">
+              <use xlink:href="#path-46" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-46" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件9"
+          transform="translate(1723, 543) rotate(90) translate(-1723, -543)translate(1700, 526)"
+        >
+          <rect id="矩形" fill="url(#linearGradient-48)" x="7" y="1" width="32" height="22" />
+          <polygon id="矩形" fill="url(#linearGradient-49)" points="14 21 23 12 23 27 14 27" />
+          <polygon
+            id="矩形备份-66"
+            fill="url(#linearGradient-50)"
+            points="23 12 32 21 32 27 23 27"
+          />
+          <rect id="矩形" fill="url(#linearGradient-51)" x="0" y="0" width="7" height="24" />
+          <rect id="矩形备份-64" fill="#B4B2B3" x="0" y="1" width="1" height="22" />
+          <rect
+            id="矩形备份-67"
+            fill="url(#linearGradient-52)"
+            x="11"
+            y="27"
+            width="24"
+            height="7"
+          />
+          <rect id="矩形备份-70" fill="#B4B2B3" x="12" y="27" width="22" height="1" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-61" fill="#191919" x="0" y="23" width="7" height="1" />
+          <rect id="矩形备份-68" fill="#191919" x="11" y="27" width="1" height="7" />
+          <rect id="矩形备份-69" fill="#191919" x="34" y="27" width="1" height="7" />
+          <rect
+            id="矩形备份-60"
+            fill="url(#linearGradient-51)"
+            x="39"
+            y="0"
+            width="7"
+            height="24"
+          />
+          <rect id="矩形备份-65" fill="#B4B2B3" x="39" y="1" width="1" height="22" />
+          <rect id="矩形备份-62" fill="#191919" x="39" y="0" width="7" height="1" />
+          <rect id="矩形备份-63" fill="#191919" x="39" y="23" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-19"
+          transform="translate(1667.5, 548) scale(-1, 1) translate(-1667.5, -548)translate(1653, 533)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-54" fill="white">
+              <use xlink:href="#path-53" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-54)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-54)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-56" fill="white">
+              <use xlink:href="#path-55" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-55" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件3备份-19" transform="translate(1910, 129)">
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-58" fill="white">
+              <use xlink:href="#path-57" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-58)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-58)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-60" fill="white">
+              <use xlink:href="#path-59" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-59" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-19"
+          transform="translate(1667.5, 976) scale(-1, -1) translate(-1667.5, -976)translate(1653, 961)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-62" fill="white">
+              <use xlink:href="#path-61" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-62)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-62)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-64" fill="white">
+              <use xlink:href="#path-63" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-63" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-17"
+          transform="translate(1733.5, 1129) scale(1, -1) translate(-1733.5, -1129)translate(1719, 1114)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-66" fill="white">
+              <use xlink:href="#path-65" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-66)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-66)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-68" fill="white">
+              <use xlink:href="#path-67" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-67" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <rect
+          id="矩形"
+          stroke="#191919"
+          fill="#DADADA"
+          x="1473.5"
+          y="1177.5"
+          width="160"
+          height="41"
+        />
+        <rect
+          id="矩形"
+          stroke="#191919"
+          fill="#7F7F7F"
+          x="1482.5"
+          y="1182.5"
+          width="11"
+          height="11"
+        />
+        <rect
+          id="矩形备份-123"
+          stroke="#191919"
+          fill="#7F7F7F"
+          x="1518.5"
+          y="1182.5"
+          width="11"
+          height="11"
+        />
+        <rect
+          id="矩形备份-126"
+          stroke="#191919"
+          fill="#7F7F7F"
+          x="1610.5"
+          y="1182.5"
+          width="11"
+          height="11"
+        />
+        <rect
+          id="矩形备份-124"
+          stroke="#191919"
+          fill="#7F7F7F"
+          x="1518.5"
+          y="1202.5"
+          width="11"
+          height="11"
+        />
+        <rect
+          id="矩形备份-127"
+          stroke="#191919"
+          fill="#7F7F7F"
+          x="1610.5"
+          y="1202.5"
+          width="11"
+          height="11"
+        />
+        <rect
+          id="矩形备份-125"
+          stroke="#191919"
+          fill="#7F7F7F"
+          x="1482.5"
+          y="1202.5"
+          width="11"
+          height="11"
+        />
+        <g id="组件2备份-15" transform="translate(1654, 1144)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="30" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="30" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="30" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="30" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="30" />
+        </g>
+        <g id="编组-19" transform="translate(1505, 975)">
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="45.5"
+            y="100.5"
+            width="33"
+            height="23"
+          />
+          <g
+            id="编组-15"
+            transform="translate(122.5, 76.5) rotate(90) translate(-122.5, -76.5)translate(114, 46)"
+          >
+            <rect id="矩形" stroke="#191919" fill="#B3ACAC" x="12.5" y="0.5" width="4" height="7" />
+            <rect id="矩形" stroke="#191919" fill="#1000DC" x="3.5" y="0.5" width="8" height="13" />
+            <rect id="矩形" fill="#191919" x="1" y="14" width="14" height="3" />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#B3ACAC"
+              x="6.5"
+              y="15.5"
+              width="3"
+              height="17"
+            />
+            <rect id="矩形" fill="#191919" x="7" y="32" width="2" height="29" />
+            <circle id="椭圆形" stroke="#191919" fill="#B3ACAC" cx="4" cy="5" r="3.5" />
+          </g>
+          <path
+            d="M0,0 L127,0 L127,22 L64,122 L0,22 L0,0 Z"
+            id="形状结合"
+            stroke="#191919"
+            fill="#B2B2B2"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#808080"
+            x="48.5"
+            y="0.5"
+            width="31"
+            height="115"
+          />
+          <rect id="矩形" fill="#191919" x="51" y="119" width="25" height="5" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#9FA29D"
+            x="51.5"
+            y="116.5"
+            width="22"
+            height="4"
+          />
+          <rect id="矩形" fill="#15FD10" x="49" y="85" width="30" height="30" />
+        </g>
+        <rect id="矩形" fill="#999999" x="1506" y="976" width="124" height="18" />
+        <rect
+          id="矩形"
+          stroke="#191919"
+          fill="url(#linearGradient-69)"
+          x="1584.5"
+          y="1126.5"
+          width="60"
+          height="18"
+        />
+        <g
+          id="编组-12"
+          transform="translate(1668, 1127.5) rotate(90) translate(-1668, -1127.5)translate(1646, 1097)"
+        >
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-70)"
+            x="20.5"
+            y="21.5"
+            width="19"
+            height="31"
+          />
+          <rect id="矩形" fill="#191919" x="28" y="21" width="4" height="3" />
+          <rect id="矩形备份-102" fill="#191919" x="28" y="50" width="4" height="3" />
+          <path
+            d="M16,27.5 C18.8994949,27.5 21.5244949,28.6752525 23.4246212,30.5753788 C25.3247475,32.4755051 26.5,35.1005051 26.5,38 C26.5,40.8994949 25.3247475,43.5244949 23.4246212,45.4246212 C21.5244949,47.3247475 18.8994949,48.5 16,48.5 L3.5,48.5 L3.5,27.5 Z"
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-71)"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-72)"
+            x="6.5"
+            y="24.5"
+            width="5"
+            height="27"
+          />
+          <rect
+            id="矩形备份-101"
+            stroke="#191919"
+            fill="#BCB6BA"
+            x="0.5"
+            y="0.5"
+            width="3"
+            height="33"
+          />
+          <rect id="矩形" fill="#191919" x="0" y="36" width="3" height="6" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-73)"
+            x="16.5"
+            y="17.5"
+            width="27"
+            height="4"
+          />
+          <rect
+            id="矩形备份-95"
+            stroke="#191919"
+            fill="url(#linearGradient-73)"
+            x="16.5"
+            y="52.5"
+            width="27"
+            height="4"
+          />
+          <rect id="矩形" stroke="#191919" fill="#C2C4C3" x="16.5" y="15.5" width="6" height="2" />
+          <rect
+            id="矩形备份-97"
+            stroke="#191919"
+            fill="#C2C4C3"
+            x="16.5"
+            y="56.5"
+            width="6"
+            height="2"
+          />
+          <rect id="矩形" stroke="#191919" fill="#C2C4C3" x="37.5" y="15.5" width="6" height="2" />
+          <rect
+            id="矩形备份-98"
+            stroke="#191919"
+            fill="#C2C4C3"
+            x="37.5"
+            y="56.5"
+            width="6"
+            height="2"
+          />
+          <rect id="矩形" fill="#191919" x="39" y="13" width="4" height="3" />
+          <rect id="矩形备份-99" fill="#191919" x="39" y="58" width="4" height="3" />
+          <rect id="矩形" fill="#191919" x="17" y="13" width="4" height="3" />
+          <rect id="矩形备份-100" fill="#191919" x="17" y="58" width="4" height="3" />
+        </g>
+        <g id="编组-18" transform="translate(1471, 1099)">
+          <rect id="矩形" stroke="#191919" fill="#003B00" x="92.5" y="0.5" width="11" height="67" />
+          <rect id="矩形" fill="#538A4E" x="93" y="1" width="2" height="66" />
+          <rect id="矩形" fill="#191919" x="86" y="70" width="18" height="3" />
+          <rect id="矩形" fill="#191919" x="96" y="68" width="3" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#003B00" x="103.5" y="9.5" width="2" height="55" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#003B00"
+            x="105.5"
+            y="20.5"
+            width="1"
+            height="33"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#003B00"
+            x="109.5"
+            y="24.5"
+            width="4"
+            height="25"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#003B00"
+            x="107.5"
+            y="28.5"
+            width="2"
+            height="17"
+          />
+          <rect id="矩形" stroke="#191919" fill="#003B00" x="83.5" y="20.5" width="8" height="31" />
+          <rect id="矩形" stroke="#191919" fill="#003B00" x="86.5" y="11.5" width="5" height="53" />
+          <rect id="矩形" stroke="#191919" fill="#003B00" x="78.5" y="16.5" width="4" height="41" />
+          <path
+            d="M77.5,13.5 L77.5,57.5 L16.5,57.5 L16.5,60.5 L5.5,60.5 L5.5,13.5 L77.5,13.5 Z"
+            id="形状结合"
+            stroke="#191919"
+            fill="#003B00"
+          />
+          <rect id="矩形" stroke="#191919" fill="#003B00" x="2.5" y="16.5" width="2" height="41" />
+          <rect id="矩形" stroke="#191919" fill="#003B00" x="0.5" y="24.5" width="1" height="21" />
+          <rect id="矩形" fill="#538A4E" x="17" y="16" width="51" height="2" />
+          <rect id="矩形" fill="#538A4E" x="17" y="20" width="53" height="2" />
+          <rect id="矩形" stroke="#191919" x="17.5" y="26.5" width="52" height="21" />
+          <rect id="矩形" stroke="#191919" x="17.5" y="50.5" width="52" height="5" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#538A4E"
+            x="22.5"
+            y="30.5"
+            width="41"
+            height="15"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#003B00"
+            x="29.5"
+            y="33.5"
+            width="26"
+            height="10"
+          />
+          <rect id="矩形" fill="#191919" x="19" y="58" width="3" height="12" />
+          <rect id="矩形备份-122" fill="#191919" x="64" y="58" width="3" height="12" />
+          <rect id="矩形" fill="#191919" x="17" y="70" width="53" height="3" />
+        </g>
+        <g id="编组-13" transform="translate(1599, 1076)">
+          <path
+            d="M20.5,29.5 L20.5,50.5 L25.5,50.5 L25.5,58.5 L5.5,58.5 L5.5,50.5 L10.5,50.5 L10.5,29.5 L20.5,29.5 Z"
+            id="形状结合"
+            stroke="#191919"
+            fill="#93CE96"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="15" />
+          <rect id="矩形" fill="#191919" x="14" y="30" width="3" height="2" />
+          <circle id="椭圆形" stroke="#191919" fill="#E3F3E3" cx="15.5" cy="15.5" r="12" />
+          <circle id="椭圆形" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="2" />
+          <rect id="矩形" fill="#191919" x="24" y="15" width="4" height="1" />
+          <rect id="矩形备份-118" fill="#191919" x="4" y="15" width="4" height="1" />
+          <rect id="矩形" fill="#191919" x="15" y="24" width="1" height="4" />
+          <rect id="矩形" fill="#191919" x="10" y="42" width="11" height="1" />
+        </g>
+        <g id="编组-16" transform="translate(1452, 568)">
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-74)"
+            x="10.5"
+            y="0.5"
+            width="5"
+            height="5"
+          />
+          <rect id="矩形" stroke="#191919" fill="#191919" x="4.5" y="6.5" width="17" height="2" />
+          <path
+            d="M20.5,9.5 L20.5,11.5 L22.5,11.5 L22.5,32.5 L3.5,32.5 L3.5,11.5 L5.5,11.5 L5.5,9.5 L20.5,9.5 Z"
+            id="形状结合"
+            stroke="#191919"
+            fill="url(#linearGradient-75)"
+          />
+          <rect id="矩形" fill="#191919" x="12" y="13" width="2" height="19" />
+          <rect id="矩形" fill="#191919" x="4" y="16" width="6" height="2" />
+          <rect id="矩形" fill="#191919" x="8" y="16" width="2" height="17" />
+          <rect id="矩形" fill="#191919" x="4" y="28" width="4" height="4" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-76)"
+            x="0.5"
+            y="32.5"
+            width="23"
+            height="4"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-77)"
+            x="3.5"
+            y="36.5"
+            width="19"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="0" y="12" width="2" height="7" />
+          <rect id="矩形" fill="#191919" x="1" y="15" width="2" height="13" />
+        </g>
+        <g
+          id="编组-16备份"
+          transform="translate(1570, 585) rotate(90) translate(-1570, -585)translate(1558, 563)"
+        >
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-74)"
+            x="10.5"
+            y="0.5"
+            width="5"
+            height="5"
+          />
+          <rect id="矩形" stroke="#191919" fill="#191919" x="4.5" y="6.5" width="17" height="2" />
+          <path
+            d="M20.5,9.5 L20.5,11.5 L22.5,11.5 L22.5,32.5 L3.5,32.5 L3.5,11.5 L5.5,11.5 L5.5,9.5 L20.5,9.5 Z"
+            id="形状结合"
+            stroke="#191919"
+            fill="url(#linearGradient-75)"
+          />
+          <rect id="矩形" fill="#191919" x="12" y="13" width="2" height="19" />
+          <rect id="矩形" fill="#191919" x="4" y="16" width="6" height="2" />
+          <rect id="矩形" fill="#191919" x="8" y="16" width="2" height="17" />
+          <rect id="矩形" fill="#191919" x="4" y="28" width="4" height="4" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-76)"
+            x="0.5"
+            y="32.5"
+            width="23"
+            height="4"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-77)"
+            x="3.5"
+            y="36.5"
+            width="19"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="0" y="12" width="2" height="7" />
+          <rect id="矩形" fill="#191919" x="1" y="15" width="2" height="13" />
+        </g>
+        <g id="组件2" transform="translate(1348, 909)">
+          <rect id="矩形" fill="#16A2BC" x="2" y="0" width="56" height="14" />
+          <rect id="矩形" fill="#191919" x="2" y="0" width="56" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="2" y="1" width="56" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="2" y="12" width="56" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="2" y="13" width="56" height="1" />
+          <path
+            d="M14,4 L14,6 L26,6 L26,8 L14,8 L14,10 L12,10 L12,8 L0,8 L0,6 L12,6 L12,4 L14,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件2" transform="translate(1430, 544)">
+          <rect id="矩形" fill="#16A2BC" x="2" y="0" width="21" height="14" />
+          <rect id="矩形" fill="#191919" x="2" y="0" width="21" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="2" y="1" width="21" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="2" y="12" width="21" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="2" y="13" width="21" height="1" />
+          <path
+            d="M14,4 L14,6 L21,6 L21,8 L14,8 L14,10 L12,10 L12,8 L0,8 L0,6 L12,6 L12,4 L14,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="编组-15" transform="translate(1340, 876)">
+          <rect id="矩形" stroke="#191919" fill="#B3ACAC" x="12.5" y="0.5" width="4" height="7" />
+          <rect id="矩形" stroke="#191919" fill="#1000DC" x="3.5" y="0.5" width="8" height="13" />
+          <rect id="矩形" fill="#191919" x="1" y="14" width="14" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#B3ACAC" x="6.5" y="15.5" width="3" height="17" />
+          <rect id="矩形" fill="#191919" x="7" y="32" width="2" height="29" />
+          <circle id="椭圆形" stroke="#191919" fill="#B3ACAC" cx="4" cy="5" r="3.5" />
+        </g>
+        <g id="编组-14" transform="translate(1040, 855)">
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#CBCBCB"
+            x="69.5"
+            y="50.5"
+            width="32"
+            height="23"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-78)"
+            x="9.5"
+            y="42.5"
+            width="51"
+            height="45"
+          />
+          <path
+            d="M60.5,46.9342585 L65.5,50.2675919 L65.5,79.7324081 L60.5,83.0657415 L60.5,46.9342585 Z"
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-79)"
+          />
+          <rect
+            id="矩形备份-110"
+            stroke="#191919"
+            fill="url(#linearGradient-80)"
+            x="3.5"
+            y="44.5"
+            width="6"
+            height="41"
+          />
+          <rect
+            id="矩形备份-109"
+            stroke="#191919"
+            fill="#191919"
+            x="65.5"
+            y="50.5"
+            width="4"
+            height="29"
+          />
+          <rect
+            id="矩形备份-111"
+            stroke="#191919"
+            fill="url(#linearGradient-81)"
+            x="0.5"
+            y="46.5"
+            width="3"
+            height="37"
+          />
+          <rect id="矩形" fill="#191919" x="16" y="48" width="41" height="2" />
+          <rect id="矩形" fill="#191919" x="16" y="52" width="41" height="2" />
+          <rect id="矩形" fill="#191919" x="16" y="56" width="41" height="3" />
+          <rect id="矩形" fill="#191919" x="16" y="60" width="41" height="2" />
+          <rect id="矩形" fill="#191919" x="16" y="63" width="41" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#CBCBCB"
+            x="96.5"
+            y="48.5"
+            width="30"
+            height="27"
+          />
+          <rect id="矩形" fill="#191919" x="16" y="88" width="38" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#68B063"
+            x="20.5"
+            y="70.5"
+            width="18"
+            height="21"
+          />
+          <rect id="矩形" fill="#FFFFFF" x="22" y="73" width="15" height="2" />
+          <rect id="矩形" fill="#FFFFFF" x="22" y="75" width="2" height="15" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#4B4B4B"
+            x="100.5"
+            y="53.5"
+            width="18"
+            height="18"
+          />
+          <rect id="矩形" fill="#D3D3D3" x="101" y="54" width="4" height="5" />
+          <rect id="矩形" fill="#D3D3D3" x="105" y="54" width="3" height="3" />
+          <rect id="矩形" fill="#D3D3D3" x="101" y="61" width="4" height="4" />
+          <rect id="矩形" fill="#D3D3D3" x="101" y="67" width="3" height="2" />
+          <rect id="矩形" fill="#D3D3D3" x="101" y="69" width="6" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#4B4B4B"
+            x="105.5"
+            y="57.5"
+            width="2"
+            height="11"
+          />
+          <rect id="矩形" stroke="#191919" fill="#CBCBCB" x="69.5" y="63.5" width="4" height="20" />
+          <path
+            d="M86.25,72.5 L81.6666667,83.5 L73.5,83.5 L73.5,72.5 L86.25,72.5 Z"
+            id="矩形"
+            stroke="#191919"
+            fill="#7E807F"
+          />
+          <rect id="矩形" fill="#191919" x="121" y="49" width="2" height="26" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#CBCBCB"
+            x="106.5"
+            y="76.5"
+            width="13"
+            height="7"
+          />
+          <path
+            d="M115.5,76.5 L115.5,83.5 L106.3465,83.5 L103.7215,76.5 L115.5,76.5 Z"
+            id="矩形"
+            stroke="#191919"
+            fill="#7E807F"
+          />
+          <path
+            d="M171.5,51.5 L171.5,72.5 L145.5,72.5 L145.5,71.5 L131.5,71.5 L131.5,69.5 L126.5,69.5 L126.5,54.5 L131.5,54.5 L131.5,52.5 L145.5,52.5 L145.5,51.5 L171.5,51.5 Z"
+            id="形状结合"
+            stroke="#191919"
+            fill="url(#linearGradient-11)"
+          />
+          <rect
+            id="矩形备份-106"
+            stroke="#191919"
+            fill="#9A9A9A"
+            x="171.5"
+            y="51.5"
+            width="22"
+            height="21"
+          />
+          <rect id="矩形" fill="#FFFFFF" x="172" y="52" width="21" height="1" />
+          <rect id="矩形" fill="#191919" x="172" y="53" width="3" height="3" />
+          <rect id="矩形备份-114" fill="#191919" x="172" y="69" width="3" height="3" />
+          <rect id="矩形备份-112" fill="#191919" x="181" y="53" width="2" height="3" />
+          <rect id="矩形备份-115" fill="#191919" x="181" y="69" width="2" height="3" />
+          <rect id="矩形备份-113" fill="#191919" x="189" y="53" width="3" height="3" />
+          <rect id="矩形备份-116" fill="#191919" x="189" y="69" width="3" height="3" />
+          <rect id="矩形" fill="#FFFFFF" x="192" y="53" width="1" height="19" />
+          <path
+            d="M162.5,44.5 L162.5,54.7151022 C159.333381,56.5680413 156.167645,57.5 153,57.5 C149.832355,57.5 146.666619,56.5680413 143.5,54.7151022 L143.5,44.5 L162.5,44.5 Z"
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-12)"
+          />
+          <circle id="椭圆形" stroke="#858585" cx="153" cy="61" r="2.5" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-13)"
+            x="132.5"
+            y="42.5"
+            width="41"
+            height="2"
+          />
+          <rect
+            id="矩形备份-107"
+            stroke="#191919"
+            fill="url(#linearGradient-72)"
+            x="193.5"
+            y="48.5"
+            width="5"
+            height="27"
+          />
+          <rect id="矩形" stroke="#191919" fill="#7E807F" x="233.5" y="47.5" width="4" height="5" />
+          <rect
+            id="矩形备份-117"
+            stroke="#191919"
+            fill="#7E807F"
+            x="237.5"
+            y="47.5"
+            width="4"
+            height="5"
+          />
+          <path
+            d="M201.5,48.5 L201.5,52.5 L251.5,52.5 L251.5,71.5 L201.5,71.5 L201.5,75.5 L198.5,75.5 L198.5,48.5 L201.5,48.5 Z"
+            id="形状结合"
+            stroke="#191919"
+            fill="url(#linearGradient-82)"
+          />
+          <g id="编组-13" transform="translate(213, 0)">
+            <path
+              d="M20.5,29.5 L20.5,50.5 L25.5,50.5 L25.5,58.5 L5.5,58.5 L5.5,50.5 L10.5,50.5 L10.5,29.5 L20.5,29.5 Z"
+              id="形状结合"
+              stroke="#191919"
+              fill="#93CE96"
+            />
+            <circle id="椭圆形" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="15" />
+            <rect id="矩形" fill="#191919" x="14" y="30" width="3" height="2" />
+            <circle id="椭圆形" stroke="#191919" fill="#E3F3E3" cx="15.5" cy="15.5" r="12" />
+            <circle id="椭圆形" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="2" />
+            <rect id="矩形" fill="#191919" x="24" y="15" width="4" height="1" />
+            <rect id="矩形备份-118" fill="#191919" x="4" y="15" width="4" height="1" />
+            <rect id="矩形" fill="#191919" x="15" y="24" width="1" height="4" />
+            <rect id="矩形" fill="#191919" x="10" y="42" width="11" height="1" />
+          </g>
+          <rect id="矩形" fill="#191919" x="211" y="50" width="8" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#7E807F"
+            x="211.5"
+            y="71.5"
+            width="13"
+            height="11"
+          />
+          <rect id="矩形" fill="#191919" x="211" y="78" width="13" height="1" />
+          <rect id="矩形" stroke="#191919" fill="#7E807F" x="234.5" y="72.5" width="8" height="3" />
+          <rect id="矩形" fill="#191919" x="236" y="72" width="2" height="3" />
+        </g>
+        <g id="编组-14" transform="translate(1818, 256)">
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#CBCBCB"
+            x="69.5"
+            y="42.5"
+            width="32"
+            height="23"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-78)"
+            x="9.5"
+            y="34.5"
+            width="51"
+            height="45"
+          />
+          <path
+            d="M60.5,38.9342585 L65.5,42.2675919 L65.5,71.7324081 L60.5,75.0657415 L60.5,38.9342585 Z"
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-79)"
+          />
+          <rect
+            id="矩形备份-110"
+            stroke="#191919"
+            fill="url(#linearGradient-80)"
+            x="3.5"
+            y="36.5"
+            width="6"
+            height="41"
+          />
+          <rect
+            id="矩形备份-109"
+            stroke="#191919"
+            fill="#191919"
+            x="65.5"
+            y="42.5"
+            width="4"
+            height="29"
+          />
+          <rect
+            id="矩形备份-111"
+            stroke="#191919"
+            fill="url(#linearGradient-81)"
+            x="0.5"
+            y="38.5"
+            width="3"
+            height="37"
+          />
+          <rect id="矩形" fill="#191919" x="16" y="40" width="41" height="2" />
+          <rect id="矩形" fill="#191919" x="16" y="44" width="41" height="2" />
+          <rect id="矩形" fill="#191919" x="16" y="48" width="41" height="3" />
+          <rect id="矩形" fill="#191919" x="16" y="52" width="41" height="2" />
+          <rect id="矩形" fill="#191919" x="16" y="55" width="41" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#CBCBCB"
+            x="96.5"
+            y="40.5"
+            width="30"
+            height="27"
+          />
+          <rect id="矩形" fill="#191919" x="16" y="80" width="38" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#68B063"
+            x="20.5"
+            y="62.5"
+            width="18"
+            height="21"
+          />
+          <rect id="矩形" fill="#FFFFFF" x="22" y="65" width="15" height="2" />
+          <rect id="矩形" fill="#FFFFFF" x="22" y="67" width="2" height="15" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#4B4B4B"
+            x="100.5"
+            y="45.5"
+            width="18"
+            height="18"
+          />
+          <rect id="矩形" fill="#D3D3D3" x="101" y="46" width="4" height="5" />
+          <rect id="矩形" fill="#D3D3D3" x="105" y="46" width="3" height="3" />
+          <rect id="矩形" fill="#D3D3D3" x="101" y="53" width="4" height="4" />
+          <rect id="矩形" fill="#D3D3D3" x="101" y="59" width="3" height="2" />
+          <rect id="矩形" fill="#D3D3D3" x="101" y="61" width="6" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#4B4B4B"
+            x="105.5"
+            y="49.5"
+            width="2"
+            height="11"
+          />
+          <rect id="矩形" stroke="#191919" fill="#CBCBCB" x="69.5" y="55.5" width="4" height="20" />
+          <path
+            d="M86.25,64.5 L81.6666667,75.5 L73.5,75.5 L73.5,64.5 L86.25,64.5 Z"
+            id="矩形"
+            stroke="#191919"
+            fill="#7E807F"
+          />
+          <rect id="矩形" fill="#191919" x="121" y="41" width="2" height="26" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#CBCBCB"
+            x="106.5"
+            y="68.5"
+            width="13"
+            height="7"
+          />
+          <path
+            d="M115.5,68.5 L115.5,75.5 L106.3465,75.5 L103.7215,68.5 L115.5,68.5 Z"
+            id="矩形"
+            stroke="#191919"
+            fill="#7E807F"
+          />
+          <path
+            d="M171.5,43.5 L171.5,64.5 L145.5,64.5 L145.5,63.5 L131.5,63.5 L131.5,61.5 L126.5,61.5 L126.5,46.5 L131.5,46.5 L131.5,44.5 L145.5,44.5 L145.5,43.5 L171.5,43.5 Z"
+            id="形状结合"
+            stroke="#191919"
+            fill="url(#linearGradient-11)"
+          />
+          <rect
+            id="矩形备份-106"
+            stroke="#191919"
+            fill="#9A9A9A"
+            x="171.5"
+            y="43.5"
+            width="22"
+            height="21"
+          />
+          <rect id="矩形" fill="#FFFFFF" x="172" y="44" width="21" height="1" />
+          <rect id="矩形" fill="#191919" x="172" y="45" width="3" height="3" />
+          <rect id="矩形备份-114" fill="#191919" x="172" y="61" width="3" height="3" />
+          <rect id="矩形备份-112" fill="#191919" x="181" y="45" width="2" height="3" />
+          <rect id="矩形备份-115" fill="#191919" x="181" y="61" width="2" height="3" />
+          <rect id="矩形备份-113" fill="#191919" x="189" y="45" width="3" height="3" />
+          <rect id="矩形备份-116" fill="#191919" x="189" y="61" width="3" height="3" />
+          <rect id="矩形" fill="#FFFFFF" x="192" y="45" width="1" height="19" />
+          <path
+            d="M162.5,36.5 L162.5,46.7151022 C159.333381,48.5680413 156.167645,49.5 153,49.5 C149.832355,49.5 146.666619,48.5680413 143.5,46.7151022 L143.5,36.5 L162.5,36.5 Z"
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-12)"
+          />
+          <circle id="椭圆形" stroke="#858585" cx="153" cy="53" r="2.5" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-13)"
+            x="132.5"
+            y="34.5"
+            width="41"
+            height="2"
+          />
+          <g id="编组-13" transform="translate(218, 0)">
+            <path
+              d="M20.5,29.5 L20.5,50.5 L25.5,50.5 L25.5,58.5 L5.5,58.5 L5.5,50.5 L10.5,50.5 L10.5,29.5 L20.5,29.5 Z"
+              id="形状结合"
+              stroke="#191919"
+              fill="#93CE96"
+            />
+            <circle id="椭圆形" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="15" />
+            <rect id="矩形" fill="#191919" x="14" y="30" width="3" height="2" />
+            <circle id="椭圆形" stroke="#191919" fill="#E3F3E3" cx="15.5" cy="15.5" r="12" />
+            <circle id="椭圆形" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="2" />
+            <rect id="矩形" fill="#191919" x="24" y="15" width="4" height="1" />
+            <rect id="矩形备份-118" fill="#191919" x="4" y="15" width="4" height="1" />
+            <rect id="矩形" fill="#191919" x="15" y="24" width="1" height="4" />
+            <rect id="矩形" fill="#191919" x="10" y="42" width="11" height="1" />
+          </g>
+          <rect
+            id="矩形备份-107"
+            stroke="#191919"
+            fill="url(#linearGradient-14)"
+            x="193.5"
+            y="40.5"
+            width="4"
+            height="27"
+          />
+          <rect
+            id="矩形备份-107"
+            stroke="#191919"
+            fill="url(#linearGradient-14)"
+            x="197.5"
+            y="40.5"
+            width="4"
+            height="27"
+          />
+          <rect
+            id="矩形备份-107"
+            stroke="#191919"
+            fill="url(#linearGradient-14)"
+            x="228.5"
+            y="40.5"
+            width="4"
+            height="27"
+          />
+          <rect
+            id="矩形备份-107"
+            stroke="#191919"
+            fill="url(#linearGradient-14)"
+            x="232.5"
+            y="40.5"
+            width="4"
+            height="27"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-15)"
+            x="236.5"
+            y="43.5"
+            width="35"
+            height="19"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-16)"
+            x="201.5"
+            y="45.5"
+            width="8"
+            height="17"
+          />
+          <rect
+            id="矩形备份-129"
+            stroke="#191919"
+            fill="url(#linearGradient-16)"
+            x="220.5"
+            y="45.5"
+            width="8"
+            height="17"
+          />
+          <rect
+            id="矩形备份-128"
+            stroke="#191919"
+            fill="url(#linearGradient-17)"
+            x="209.5"
+            y="44.5"
+            width="11"
+            height="31"
+          />
+          <rect
+            id="矩形备份-128"
+            stroke="#191919"
+            fill="url(#linearGradient-17)"
+            x="209.5"
+            y="42.5"
+            width="11"
+            height="31"
+          />
+          <rect id="矩形" fill="#191919" x="210" y="42" width="9" height="2" />
+        </g>
+        <g id="编组-19" transform="translate(1909, 167)">
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="45.5"
+            y="100.5"
+            width="33"
+            height="23"
+          />
+          <g
+            id="编组-15"
+            transform="translate(122.5, 76.5) rotate(90) translate(-122.5, -76.5)translate(114, 46)"
+          >
+            <rect id="矩形" stroke="#191919" fill="#B3ACAC" x="12.5" y="0.5" width="4" height="7" />
+            <rect id="矩形" stroke="#191919" fill="#1000DC" x="3.5" y="0.5" width="8" height="13" />
+            <rect id="矩形" fill="#191919" x="1" y="14" width="14" height="3" />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#B3ACAC"
+              x="6.5"
+              y="15.5"
+              width="3"
+              height="17"
+            />
+            <rect id="矩形" fill="#191919" x="7" y="32" width="2" height="29" />
+            <circle id="椭圆形" stroke="#191919" fill="#B3ACAC" cx="4" cy="5" r="3.5" />
+          </g>
+          <path
+            d="M0,0 L127,0 L127,22 L64,122 L0,22 L0,0 Z"
+            id="形状结合"
+            stroke="#191919"
+            fill="#B2B2B2"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#808080"
+            x="48.5"
+            y="0.5"
+            width="31"
+            height="115"
+          />
+          <rect id="矩形" fill="#191919" x="51" y="119" width="25" height="5" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#9FA29D"
+            x="51.5"
+            y="116.5"
+            width="22"
+            height="4"
+          />
+          <rect id="矩形" fill="#15FD10" x="49" y="85" width="30" height="30" />
+        </g>
+        <g id="组件2备份-15" transform="translate(1922, 159)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="30" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="30" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="30" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="30" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="30" />
+        </g>
+        <g id="组件7" transform="translate(2089, 250)">
+          <g id="编组-2" transform="translate(59, 49)">
+            <rect id="矩形" fill="url(#linearGradient-18)" x="0" y="0" width="9" height="20" />
+            <rect id="矩形" fill="#B4B2B3" x="8" y="1" width="1" height="18" />
+            <rect id="矩形备份-59" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="矩形" fill="#191919" x="1" y="0" width="8" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="1" y="19" width="8" height="1" />
+          </g>
+          <g id="编组-2备份" transform="translate(0, 49)">
+            <rect id="矩形" fill="url(#linearGradient-19)" x="0" y="0" width="13" height="20" />
+            <rect id="矩形" fill="#191919" x="12" y="2" width="1" height="17" />
+            <rect id="矩形" fill="#191919" x="0" y="0" width="12" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="0" y="19" width="12" height="1" />
+          </g>
+          <rect id="矩形" fill="#191919" x="27" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="29.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="24" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#02C90F" x="25" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="30" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#02C90F" x="36" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="15" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="15" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="12.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="15" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="14" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="21" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#02C90F" x="46" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="31" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="21.5" y="4.5" width="29" height="9" />
+          <path
+            d="M30.5,4 L30.5,2 C30.5,0.8954305 31.3954305,2.02906125e-16 32.5,0 L38.5,0 C40.1568542,-3.04359188e-16 41.5,1.34314575 41.5,3 L41.5,4 L41.5,4 L30.5,4 Z"
+            id="路径-10"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="路径-3" stroke="#191919" points="31 2 31 -9.10729825e-18 36 0" />
+          <path
+            d="M38,0 L39,0 C40.1045695,-2.02906125e-16 41,0.8954305 41,2 L41,2 L41,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M30,2 L30,3 C30,3.55228475 30.4477153,4 31,4 L41,4 C41.5522847,4 42,3.55228475 42,3 L42,2 L42,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="32.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#02C90F" x="22" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#02C90F" x="22" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="51" y="12" width="3" height="7" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="39.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="45.5" cy="13.5" r="3" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="13.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="12.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="17.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="43.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="30" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="29" y="45" width="14" height="4" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="31.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="32" y="44" width="7" height="1" />
+          <rect id="矩形" fill="url(#linearGradient-27)" x="30" y="49" width="12" height="4" />
+          <rect id="矩形" fill="url(#linearGradient-28)" x="31" y="55" width="10" height="11" />
+          <rect id="矩形" fill="url(#linearGradient-29)" x="30" y="67" width="12" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="13.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="55.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="55.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="55.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="编组-15" transform="translate(2154, 250)">
+          <rect id="矩形" stroke="#191919" fill="#B3ACAC" x="12.5" y="0.5" width="4" height="7" />
+          <rect id="矩形" stroke="#191919" fill="#1000DC" x="3.5" y="0.5" width="8" height="13" />
+          <rect id="矩形" fill="#191919" x="1" y="14" width="14" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#B3ACAC" x="6.5" y="15.5" width="3" height="17" />
+          <rect id="矩形" fill="#191919" x="7" y="32" width="2" height="29" />
+          <circle id="椭圆形" stroke="#191919" fill="#B3ACAC" cx="4" cy="5" r="3.5" />
+        </g>
+        <g id="编组-13" transform="translate(2560, 256)">
+          <path
+            d="M20.5,29.5 L20.5,50.5 L25.5,50.5 L25.5,58.5 L5.5,58.5 L5.5,50.5 L10.5,50.5 L10.5,29.5 L20.5,29.5 Z"
+            id="形状结合"
+            stroke="#191919"
+            fill="#93CE96"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="15" />
+          <rect id="矩形" fill="#191919" x="14" y="30" width="3" height="2" />
+          <circle id="椭圆形" stroke="#191919" fill="#E3F3E3" cx="15.5" cy="15.5" r="12" />
+          <circle id="椭圆形" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="2" />
+          <rect id="矩形" fill="#191919" x="24" y="15" width="4" height="1" />
+          <rect id="矩形备份-118" fill="#191919" x="4" y="15" width="4" height="1" />
+          <rect id="矩形" fill="#191919" x="15" y="24" width="1" height="4" />
+          <rect id="矩形" fill="#191919" x="10" y="42" width="11" height="1" />
+        </g>
+        <g id="编组-15" transform="translate(2603, 250)">
+          <rect id="矩形" stroke="#191919" fill="#B3ACAC" x="12.5" y="0.5" width="4" height="7" />
+          <rect id="矩形" stroke="#191919" fill="#1000DC" x="3.5" y="0.5" width="8" height="13" />
+          <rect id="矩形" fill="#191919" x="1" y="14" width="14" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#B3ACAC" x="6.5" y="15.5" width="3" height="17" />
+          <rect id="矩形" fill="#191919" x="7" y="32" width="2" height="29" />
+          <circle id="椭圆形" stroke="#191919" fill="#B3ACAC" cx="4" cy="5" r="3.5" />
+        </g>
+        <g id="组件2" transform="translate(2156, 302)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="473" height="14" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="473" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="1" width="473" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="12" width="473" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="0" y="13" width="473" height="1" />
+          <path
+            d="M81,4 L81,6 L93,6 L93,8 L81,8 L81,10 L79,10 L79,8 L47,8 L47,6 L79,6 L79,4 L81,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M255,4 L255,6 L267,6 L267,8 L255,8 L255,10 L253,10 L253,8 L221,8 L221,6 L253,6 L253,4 L255,4 Z"
+            id="形状结合备份-2"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件2备份-14" transform="translate(2628, 248)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="118" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="118" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="118" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="118" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="118" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="45" width="2" height="32" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="57" width="6" height="2" />
+        </g>
+        <rect
+          id="矩形"
+          stroke="#191919"
+          fill="url(#linearGradient-31)"
+          x="2429.5"
+          y="299.5"
+          width="126"
+          height="19"
+        />
+        <g id="组件7" transform="translate(1291, 858)">
+          <g id="编组-2" transform="translate(53, 48)">
+            <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+            <rect id="矩形备份-59" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="0" y="19" width="7" height="1" />
+          </g>
+          <g id="编组-2备份" transform="translate(0, 49)">
+            <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+            <rect id="矩形" fill="#191919" x="6" y="2" width="1" height="17" />
+            <rect id="矩形" fill="#191919" x="0" y="0" width="6.46153846" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="0" y="19" width="6.46153846" height="1" />
+          </g>
+          <rect id="矩形" fill="#191919" x="21" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="23.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="18" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#02C90F" x="19" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="24" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#02C90F" x="30" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="9" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="9" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="6.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="9" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="8" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="15" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#02C90F" x="40" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="25" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="15.5" y="4.5" width="29" height="9" />
+          <path
+            d="M24.5,4 L24.5,2 C24.5,0.8954305 25.3954305,2.02906125e-16 26.5,0 L32.5,0 C34.1568542,-3.04359188e-16 35.5,1.34314575 35.5,3 L35.5,4 L35.5,4 L24.5,4 Z"
+            id="路径-10"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="路径-3" stroke="#191919" points="25 2 25 -9.10729825e-18 30 0" />
+          <path
+            d="M32,0 L33,0 C34.1045695,-2.02906125e-16 35,0.8954305 35,2 L35,2 L35,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M24,2 L24,3 C24,3.55228475 24.4477153,4 25,4 L35,4 C35.5522847,4 36,3.55228475 36,3 L36,2 L36,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="26.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#02C90F" x="16" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#02C90F" x="16" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="45" y="12" width="3" height="7" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="33.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="21.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="39.5" cy="13.5" r="3" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="6.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="7.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="6.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="11.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="37.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="24" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="23" y="45" width="14" height="4" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="25.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="26" y="44" width="7" height="1" />
+          <rect id="矩形" fill="url(#linearGradient-27)" x="24" y="49" width="12" height="4" />
+          <rect id="矩形" fill="url(#linearGradient-28)" x="25" y="55" width="10" height="11" />
+          <rect id="矩形" fill="url(#linearGradient-29)" x="24" y="67" width="12" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="7.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="6.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="49.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="49.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="49.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="49.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="49.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件2备份-16" transform="translate(1417, 789)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="114" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="114" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="114" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="114" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="114" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="45" width="2" height="32" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="57" width="6" height="2" />
+        </g>
+        <g id="开始初始化" transform="translate(1261, 717)">
+          <rect
+            id="矩形备份-16"
+            stroke="#AAA598"
+            fill="#EDE9D8"
+            x="0.5"
+            y="0.5"
+            width="83"
+            height="38"
+          />
+          <text
+            id="开盖"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="22"
+            font-weight="normal"
+            line-spacing="33"
+            fill="#191919"
+          >
+            <tspan x="20" y="26">开盖</tspan>
+          </text>
+        </g>
+        <g id="开始初始化备份" transform="translate(1261, 776)">
+          <rect
+            id="矩形备份-16"
+            stroke="#AAA598"
+            fill="#EDE9D8"
+            x="0.5"
+            y="0.5"
+            width="83"
+            height="38"
+          />
+          <text
+            id="关盖"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="22"
+            font-weight="normal"
+            line-spacing="33"
+            fill="#191919"
+          >
+            <tspan x="20" y="26">关盖</tspan>
+          </text>
+        </g>
+        <g id="编组-11" transform="translate(1236, 655)" stroke="#191919">
+          <rect id="矩形" fill="#075400" x="0.5" y="7.5" width="3" height="10" />
+          <path
+            d="M8,0.5 C10.0710678,0.5 11.9460678,1.33946609 13.3033009,2.69669914 C14.6605339,4.05393219 15.5,5.92893219 15.5,8 C15.5,10.0710678 14.6605339,11.9460678 13.3033009,13.3033009 C11.9460678,14.6605339 10.0710678,15.5 8,15.5 C5.92893219,15.5 4.05393219,14.6605339 2.69669914,13.3033009 C1.33946609,11.9460678 0.5,10.0710678 0.5,8 C0.5,5.92893219 1.33946609,4.05393219 2.69669914,2.69669914 C4.05393219,1.33946609 5.92893219,0.5 8,0.5 Z M8,3.5 C6.75735931,3.5 5.63235931,4.00367966 4.81801948,4.81801948 C4.00367966,5.63235931 3.5,6.75735931 3.5,8 C3.5,9.24264069 4.00367966,10.3676407 4.81801948,11.1819805 C5.63235931,11.9963203 6.75735931,12.5 8,12.5 C9.24264069,12.5 10.3676407,11.9963203 11.1819805,11.1819805 C11.9963203,10.3676407 12.5,9.24264069 12.5,8 C12.5,6.75735931 11.9963203,5.63235931 11.1819805,4.81801948 C10.3676407,4.00367966 9.24264069,3.5 8,3.5 Z"
+            id="形状结合"
+            fill="#075400"
+          />
+          <rect id="矩形" fill="#075400" x="0.5" y="14.5" width="15" height="23" />
+          <path
+            d="M16.5,16.8497572 L24.5,21.2942017 L24.5,37.5 L16.5,37.5 L16.5,16.8497572 Z"
+            id="矩形"
+            fill="#075400"
+          />
+          <rect id="矩形" fill="url(#linearGradient-83)" x="24.5" y="26.5" width="14" height="8" />
+        </g>
+        <g
+          id="编组-10"
+          transform="translate(1238.7896, 639.3816) rotate(30) translate(-1238.7896, -639.3816)translate(1217.7896, 592.1756)"
+        >
+          <rect id="矩形" stroke="#191919" fill="#034B08" x="6.5" y="9.5" width="29" height="35" />
+          <g id="矩形" transform="translate(2, 0)">
+            <mask id="mask-85" fill="white">
+              <use xlink:href="#path-84" />
+            </mask>
+            <path
+              stroke="#191919"
+              d="M33.6614835,0.5 L37.2614835,9.5 L0.738516481,9.5 L4.33851648,0.5 L33.6614835,0.5 Z"
+            />
+            <polygon fill="#52A856" mask="url(#mask-85)" points="12 0 26 0 19 86" />
+            <rect fill="#191919" mask="url(#mask-85)" x="12" y="9" width="14" height="1" />
+            <mask id="mask-87" fill="white">
+              <use xlink:href="#path-86" />
+            </mask>
+            <use id="蒙版" fill="#034B08" xlink:href="#path-86" />
+            <mask id="mask-89" fill="white">
+              <use xlink:href="#path-88" />
+            </mask>
+            <path
+              stroke="#191919"
+              d="M33.6614835,0.5 L37.2614835,9.5 L0.738516481,9.5 L4.33851648,0.5 L33.6614835,0.5 Z"
+            />
+          </g>
+          <g id="矩形" transform="translate(0, 44)">
+            <mask id="mask-91" fill="white">
+              <use xlink:href="#path-90" />
+            </mask>
+            <path
+              stroke="#191919"
+              d="M41.2361639,0.5 L21,46.8557214 L0.763836134,0.5 L41.2361639,0.5 Z"
+            />
+            <polygon
+              id="蒙版"
+              fill="#034B08"
+              mask="url(#mask-91)"
+              points="-3.45228211e-13 7.17204074e-14 42 7.17204074e-14 21 48.1054688"
+            />
+            <polygon fill="#52A856" mask="url(#mask-91)" points="14 0 28 0 21 86" />
+            <mask id="mask-93" fill="white">
+              <use xlink:href="#path-92" />
+            </mask>
+            <path
+              stroke="#191919"
+              d="M41.2361639,0.5 L21,46.8557214 L0.763836134,0.5 L41.2361639,0.5 Z"
+            />
+          </g>
+          <path
+            d="M27.1067421,83.5 L21,93.4558298 L14.8932579,83.5 L27.1067421,83.5 Z"
+            id="矩形备份-96"
+            stroke="#191919"
+            fill="url(#linearGradient-94)"
+          />
+        </g>
+        <text
+          id="Kg/m"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="2079" y="1184">Kg/m</tspan>
+        </text>
+        <text
+          id="Mpa"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1671" y="1065">Mpa</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD140"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="1679.2" y="1025">24</tspan>
+        </text>
+        <text
+          id="Mpa"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="2271" y="961">Mpa</tspan>
+        </text>
+        <text
+          id="Mpa"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="2078" y="218">Mpa</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD88"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2087.986" y="180">16</tspan>
+        </text>
+        <text
+          id="℃"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1357" y="996">℃</tspan>
+        </text>
+        <text
+          id="℃备份"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1520" y="1012">℃</tspan>
+        </text>
+        <text
+          id="KLRH3_DB50DBD280"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="1475.386" y="1014">1</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD48"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="1312.342" y="998">7</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD80"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="1305.986" y="1054">14</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD196"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="1464.2" y="1066">29</tspan>
+        </text>
+        <text
+          id="Mpa"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1355" y="1052">Mpa</tspan>
+        </text>
+        <text
+          id="cm"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1510" y="1064">cm</tspan>
+        </text>
+        <text
+          id="℃备份"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="2093" y="942">℃</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD52"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2049.6" y="944">8</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD112"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2041.2" y="996">20</tspan>
+        </text>
+        <text
+          id="cm"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="2093" y="994">cm</tspan>
+        </text>
+        <text
+          id="℃备份"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1891" y="210">℃</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD56"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="1855.6" y="212">9</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD116"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="1849.986" y="264">21</tspan>
+        </text>
+        <text
+          id="cm"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1891" y="262">cm</tspan>
+        </text>
+        <text
+          id="静态敏化器二"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="2440" y="348">静态敏化器二</tspan>
+        </text>
+        <text
+          id="装药机二"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="2654" y="248">装药机二</tspan>
+        </text>
+        <g id="编组-26" transform="translate(2436, 1117)">
+          <rect id="矩形" fill="#8D989E" x="0" y="15" width="20" height="26" />
+          <path
+            d="M29,14 L41,14 L41,32 C41,35.3137085 38.3137085,38 35,38 C31.6862915,38 29,35.3137085 29,32 L29,14 L29,14 Z"
+            id="矩形备份-139"
+            fill="#8D989E"
+          />
+          <rect id="矩形" fill="#8D989E" x="34" y="38" width="2" height="4" />
+          <polygon id="矩形" fill="#8D989E" points="46 6 64 6 64 30 59 42 51 42 46 30" />
+          <rect id="矩形" fill="#515D5F" x="8" y="41" width="12" height="29" />
+          <rect id="矩形" fill="#8A979C" x="20" y="42" width="82" height="42" />
+          <rect id="矩形" fill="#515D5F" x="5" y="80" width="97" height="4" />
+          <rect id="矩形" fill="#8D989E" x="8" y="84" width="2" height="62" />
+          <rect id="矩形" fill="#515D5F" x="5" y="146" width="8" height="2" />
+          <rect id="矩形备份-144" fill="#515D5F" x="96" y="146" width="8" height="2" />
+          <rect id="矩形备份-143" fill="#8A979C" x="99" y="84" width="2" height="62" />
+          <rect id="矩形备份-142" fill="#8A979C" x="161" y="85" width="2" height="62" />
+          <rect id="矩形备份-145" fill="#515D5F" x="158" y="146" width="8" height="2" />
+          <rect id="矩形" fill="#8A979C" x="286" y="134" width="2" height="13" />
+          <rect id="矩形备份-145" fill="#515D5F" x="283" y="146" width="8" height="2" />
+          <rect id="矩形" fill="#859398" x="99" y="121" width="106" height="13" />
+          <rect id="矩形" fill="#515D5F" x="102" y="64" width="97" height="2" />
+          <rect id="矩形" fill="#515D5F" x="196" y="35" width="3" height="30" />
+          <rect id="矩形" fill="#67757A" x="182" y="108" width="90" height="11" />
+          <rect id="矩形" fill="#737E84" x="203" y="118" width="62" height="5" />
+          <rect id="矩形" fill="#859398" x="203" y="123" width="85" height="11" />
+          <rect id="矩形" fill="#737E84" x="256" y="134" width="9" height="5" />
+          <rect id="矩形" fill="#737E84" x="203" y="134" width="8" height="5" />
+          <rect id="矩形备份-140" fill="#8D989E" x="32" y="84" width="2" height="48" />
+          <rect id="矩形备份-141" fill="#8D989E" x="53" y="84" width="2" height="48" />
+          <rect id="矩形" fill="#8D989E" x="9" y="132" width="90" height="2" />
+          <rect id="矩形" fill="#8D989E" x="131" y="24" width="6" height="60" />
+          <rect id="矩形" fill="#8D989E" x="99" y="82" width="65" height="31" />
+          <rect id="矩形" fill="#8D989E" x="145" y="66" width="19" height="17" />
+          <rect id="矩形" fill="#9FB2B5" x="80" y="65" width="5" height="19" />
+          <rect id="矩形" fill="#9FB2B5" x="93" y="64" width="9" height="20" />
+          <rect id="矩形" fill="#9FB2B5" x="8" y="69" width="12" height="15" />
+          <rect id="矩形" fill="#9FB2B5" x="57" y="75" width="23" height="9" />
+          <rect id="矩形" fill="#5B656D" x="233" y="18" width="25" height="8" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#606C73"
+            x="241.5"
+            y="0.5"
+            width="9"
+            height="33"
+            rx="4.5"
+          />
+          <rect id="矩形" fill="#74848A" x="183" y="34" width="128" height="3" />
+          <rect id="矩形" fill="#91AAAC" x="233" y="8" width="2" height="24" rx="1" />
+          <rect id="矩形" fill="#91AAAC" x="257" y="8" width="2" height="24" rx="1" />
+          <g id="编组-25" transform="translate(199, 11)">
+            <ellipse id="椭圆形" fill="#607279" cx="9" cy="12" rx="9" ry="12" />
+            <ellipse id="椭圆形" fill="#313032" cx="8.5" cy="12" rx="3.5" ry="6" />
+          </g>
+          <g
+            id="编组-25备份-2"
+            transform="translate(286, 22) scale(-1, 1) translate(-286, -22)translate(277, 10)"
+          >
+            <ellipse id="椭圆形" fill="#607279" cx="9" cy="12" rx="9" ry="12" />
+            <ellipse id="椭圆形" fill="#313032" cx="8.5" cy="12" rx="3.5" ry="6" />
+          </g>
+          <g id="编组-25备份" transform="translate(207, 11)">
+            <ellipse id="椭圆形" fill="#607279" cx="9" cy="12" rx="9" ry="12" />
+            <ellipse id="椭圆形" fill="#313032" cx="8.5" cy="12" rx="3.5" ry="6" />
+          </g>
+          <rect id="矩形" fill="#91AAAC" x="225" y="22" width="10" height="2" />
+          <rect id="矩形备份-146" fill="#91AAAC" x="259" y="22" width="11" height="2" />
+          <g
+            id="编组-25备份-3"
+            transform="translate(278, 22) scale(-1, 1) translate(-278, -22)translate(269, 10)"
+          >
+            <ellipse id="椭圆形" fill="#607279" cx="9" cy="12" rx="9" ry="12" />
+            <ellipse id="椭圆形" fill="#313032" cx="8.5" cy="12" rx="3.5" ry="6" />
+          </g>
+          <rect id="矩形" fill="#737E84" x="233" y="37" width="28" height="71" />
+        </g>
+        <text
+          id="装药机一"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="2654" y="1284">装药机一</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD68"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2692.486" y="1336">12</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD92"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2692.228" y="1382">17</tspan>
+        </text>
+        <text
+          id="装药1温度"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2552.386" y="1336">装药1温度</tspan>
+        </text>
+        <text
+          id="装药1压力"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2552.386" y="1382">装药1压力</tspan>
+        </text>
+        <text
+          id="静态敏化器一"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="2417" y="1072">静态敏化器一</tspan>
+        </text>
+        <g id="组件2备份-6" transform="translate(1128, 602)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="38" height="14" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="38" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="1" width="38" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="12" width="38" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="0" y="13" width="38" height="1" />
+        </g>
+        <g id="组件2备份-6" transform="translate(1023, 792)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="38" height="14" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="38" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="1" width="38" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="12" width="38" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="0" y="13" width="38" height="1" />
+        </g>
+        <g id="组件2备份-10" transform="translate(1113, 629)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="154" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="154" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="154" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="154" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="154" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="40" width="2" height="32" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="52" width="6" height="2" />
+        </g>
+        <g id="组件2备份-7" transform="translate(1168, 628)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="72" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="72" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="72" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="72" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="72" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="9" width="2" height="32" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="21" width="6" height="2" />
+        </g>
+        <g id="编组-9" transform="translate(1133, 677)">
+          <rect id="矩形" fill="#191919" x="7" y="0" width="6" height="4" />
+          <rect id="矩形备份-84" fill="#191919" x="17" y="0" width="6" height="4" />
+          <rect id="矩形备份-85" fill="#191919" x="27" y="0" width="6" height="4" />
+          <rect id="矩形备份-86" fill="#191919" x="37" y="0" width="6" height="4" />
+          <rect id="矩形备份-87" fill="#191919" x="47" y="0" width="6" height="4" />
+          <rect id="矩形备份-88" fill="#191919" x="57" y="0" width="6" height="4" />
+          <rect id="矩形备份-89" fill="#191919" x="67" y="0" width="6" height="4" />
+          <rect id="矩形备份-90" fill="#191919" x="77" y="0" width="6" height="4" />
+          <rect id="矩形备份-91" fill="#191919" x="87" y="0" width="6" height="4" />
+          <rect id="矩形备份-92" fill="#191919" x="97" y="0" width="6" height="4" />
+          <rect id="矩形备份-93" fill="#191919" x="107" y="0" width="6" height="4" />
+          <rect id="矩形备份-86" fill="#191919" x="32" y="154" width="6" height="4" />
+          <rect id="矩形备份-87" fill="#191919" x="42" y="154" width="6" height="4" />
+          <rect id="矩形备份-88" fill="#191919" x="52" y="154" width="6" height="4" />
+          <rect id="矩形备份-89" fill="#191919" x="62" y="154" width="6" height="4" />
+          <rect id="矩形备份-90" fill="#191919" x="72" y="154" width="6" height="4" />
+          <rect id="矩形备份-94" fill="#191919" x="82" y="154" width="6" height="4" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-95)"
+            x="29.5"
+            y="137.5"
+            width="61"
+            height="17"
+          />
+          <rect id="矩形" fill="#191919" x="29" y="145" width="62" height="1" />
+          <path
+            d="M119.5,3.5 L119.5,129.81582 C119.500735,131.187695 118.995869,132.454925 118.151161,133.42675 C117.306482,134.39854 116.121984,135.074943 114.763181,135.265247 C96.5087874,137.830587 78.2543948,139.113281 60,139.113281 C41.7456052,139.113281 23.4912126,137.830587 5.23658566,135.265214 C3.87801599,135.074943 2.69351784,134.39854 1.84883904,133.42675 C1.00413105,132.454925 0.499265283,131.187695 0.5,129.815552 L0.5,3.5 L119.5,3.5 Z"
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-96)"
+          />
+          <rect id="矩形" fill="#191919" x="0" y="11" width="120" height="1" />
+          <rect id="矩形" fill="#191919" x="0" y="18" width="12" height="1" />
+          <rect id="矩形备份-83" fill="#191919" x="108" y="18" width="12" height="1" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#02C90F"
+            x="14.5"
+            y="48.5"
+            width="91"
+            height="78"
+          />
+          <text
+            id="粗乳器"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="31" y="36">粗乳器</tspan>
+          </text>
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#BDA09D"
+            x="14.5"
+            y="48.5"
+            width="91"
+            height="12"
+          />
+        </g>
+        <rect id="矩形" fill="#191919" x="887" y="903" width="73" height="2" />
+        <rect id="矩形备份-82" fill="#191919" x="970" y="668" width="73" height="2" />
+        <g id="组件10" transform="translate(899, 843)">
+          <rect id="矩形" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="17.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="0.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="9.5" y="4.5" width="29" height="9" />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="路径-10"
+            fill="#F6F4F5"
+          />
+          <polyline id="路径-3" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="20.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect id="矩形" stroke="#191919" fill="#EFEFEF" x="27.5" y="41.5" width="4" height="3" />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="48.5" width="4" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="51.5" width="3" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="55.5" width="4" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="5.5" y="44.5" width="12" height="28" />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="19.5" y="45.5" width="9" height="3" />
+          <rect id="矩形" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="矩形" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="60.5" width="3" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="65.5" width="4" height="3" />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件10备份-5" transform="translate(982, 608)">
+          <rect id="矩形" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="17.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="0.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="9.5" y="4.5" width="29" height="9" />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="路径-10"
+            fill="#F6F4F5"
+          />
+          <polyline id="路径-3" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="20.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect id="矩形" stroke="#191919" fill="#EFEFEF" x="27.5" y="41.5" width="4" height="3" />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="48.5" width="4" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="51.5" width="3" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="55.5" width="4" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="5.5" y="44.5" width="12" height="28" />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="19.5" y="45.5" width="9" height="3" />
+          <rect id="矩形" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="矩形" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="60.5" width="3" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="65.5" width="4" height="3" />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <rect id="矩形" fill="#191919" x="1042" y="683" width="2" height="110" />
+        <g
+          id="组件10备份-6"
+          transform="translate(1064, 716.5) rotate(90) translate(-1064, -716.5)translate(1040, 680)"
+        >
+          <rect id="矩形" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="17.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="0.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="9.5" y="4.5" width="29" height="9" />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="路径-10"
+            fill="#F6F4F5"
+          />
+          <polyline id="路径-3" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="20.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect id="矩形" stroke="#191919" fill="#EFEFEF" x="27.5" y="41.5" width="4" height="3" />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="48.5" width="4" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="51.5" width="3" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="55.5" width="4" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="5.5" y="44.5" width="12" height="28" />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="19.5" y="45.5" width="9" height="3" />
+          <rect id="矩形" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="矩形" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="60.5" width="3" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="65.5" width="4" height="3" />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件2" transform="translate(785, 1040)">
+          <rect id="矩形" fill="#16A2BC" x="2" y="0" width="58" height="14" />
+          <rect id="矩形" fill="#191919" x="2" y="0" width="58" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="2" y="1" width="58" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="2" y="12" width="58" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="2" y="13" width="57" height="1" />
+          <path
+            d="M14,4 L14,6 L26,6 L26,8 L14,8 L14,10 L12,10 L12,8 L0,8 L0,6 L12,6 L12,4 L14,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+        </g>
+        <text
+          id="KLRH3_DB2DD8"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="838.6" y="768">4</tspan>
+        </text>
+        <text
+          id="45.00"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1514" y="448">45.00</tspan>
+        </text>
+        <text
+          id="KLRH3_DB50DBD280"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="1537.942" y="500">37</tspan>
+        </text>
+        <text
+          id="水相泵"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="834" y="1102">水相泵</tspan>
+        </text>
+        <text
+          id="基质泵"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1051" y="975">基质泵</tspan>
+        </text>
+        <text
+          id="基质压力"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1256" y="964">基质压力</tspan>
+        </text>
+        <text
+          id="中转泵"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1481" y="1099">中转泵</tspan>
+        </text>
+        <text
+          id="中转料仓"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1510" y="965">中转料仓</tspan>
+        </text>
+        <text
+          id="油相泵"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="800" y="684">油相泵</tspan>
+        </text>
+        <g id="编组-8" transform="translate(838, 1013)">
+          <circle id="椭圆形" stroke="#979797" fill="#D8D8D8" cx="27.5" cy="30" r="7.5" />
+          <path
+            d="M53.5,3.5 L53.5,30 C53.5,37.3177729 50.5338865,43.9427729 45.7383297,48.7383297 C40.9427729,53.5338865 34.3177729,56.5 27,56.5 C19.6822271,56.5 13.0572271,53.5338865 8.2616703,48.7383297 C3.46611353,43.9427729 0.5,37.3177729 0.5,30 C0.5,22.6822271 3.46611353,16.0572271 8.2616703,11.2616703 C13.0572271,6.46611353 19.6822271,3.5 27,3.5 C32.7877139,3.5 38.1421419,5.35528236 42.5007371,8.50390224 L42.500067,3.5 L53.5,3.5 Z"
+            id="形状结合"
+            stroke="#191919"
+            fill="url(#linearGradient-97)"
+          />
+          <rect id="矩形" stroke="#191919" fill="#077717" x="13.5" y="56.5" width="29" height="3" />
+          <rect
+            id="矩形备份-81"
+            stroke="#191919"
+            fill="url(#linearGradient-98)"
+            x="41.5"
+            y="0.5"
+            width="13"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#077717" cx="27" cy="30" r="20.5" />
+          <g id="编组-7" transform="translate(10, 13)">
+            <mask id="mask-100" fill="white">
+              <use xlink:href="#path-99" />
+            </mask>
+            <circle stroke="#191919" cx="17" cy="17" r="16.5" />
+            <g mask="url(#mask-100)" fill="#191919" id="矩形">
+              <rect x="16" y="0" width="1" height="12" />
+              <rect
+                transform="translate(23.9246, 9.0754) rotate(45) translate(-23.9246, -9.0754)"
+                x="23.4246212"
+                y="3.0753788"
+                width="1"
+                height="12"
+              />
+              <rect
+                transform="translate(27, 16.5) rotate(90) translate(-27, -16.5)"
+                x="26.5"
+                y="10.5"
+                width="1"
+                height="12"
+              />
+              <rect
+                transform="translate(23.9246, 24.4246) rotate(135) translate(-23.9246, -24.4246)"
+                x="23.4246212"
+                y="17.9246212"
+                width="1"
+                height="13"
+              />
+              <rect
+                transform="translate(16.5, 27) rotate(180) translate(-16.5, -27)"
+                x="16"
+                y="21"
+                width="1"
+                height="12"
+              />
+              <rect
+                transform="translate(9.0754, 23.9246) rotate(225) translate(-9.0754, -23.9246)"
+                x="8.5753788"
+                y="17.9246212"
+                width="1"
+                height="12"
+              />
+              <rect
+                transform="translate(6, 16.5) rotate(270) translate(-6, -16.5)"
+                x="5.5"
+                y="10.5"
+                width="1"
+                height="12"
+              />
+              <rect
+                transform="translate(9.0754, 9.0754) rotate(315) translate(-9.0754, -9.0754)"
+                x="8.5753788"
+                y="3.0753788"
+                width="1"
+                height="12"
+              />
+            </g>
+          </g>
+          <circle id="椭圆形" fill="#191919" cx="27" cy="30" r="7" />
+        </g>
+        <text
+          id="A"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="885" y="1140">A</tspan>
+        </text>
+        <text
+          id="KLRH3_DB50DBD84"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="833.2" y="1142">35</tspan>
+        </text>
+        <text
+          id="A备份"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="830" y="721">A</tspan>
+        </text>
+        <text
+          id="KLRH3_DB50DBD80"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="778.2" y="723">34</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD160"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="641.2" y="771">28</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD136"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="641.2" y="824">23</tspan>
+        </text>
+        <text
+          id="Kg/m"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="995" y="1084">Kg/m</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD0"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="949.6" y="1086">2</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD4"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="949.6" y="1142">3</tspan>
+        </text>
+        <text
+          id="水相密度"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="995" y="1142">水相密度</tspan>
+        </text>
+        <text
+          id="Kg/m备份"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="884" y="766">Kg/m</tspan>
+        </text>
+        <text
+          id="Kg/m备份"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="2174" y="454">Kg/m</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD24"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2197.6" y="414">6</tspan>
+        </text>
+        <text
+          id="Kg/m备份-2"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="2174" y="759">Kg/m</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD12"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2197.6" y="719">5</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD84"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2280.986" y="921">15</tspan>
+        </text>
+        <text
+          id="HZ"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1599" y="448">HZ</tspan>
+        </text>
+        <text
+          id="钢带运行正常"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1359" y="499">钢带运行正常</tspan>
+        </text>
+        <text
+          id="钢带"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1494" y="596">钢带</tspan>
+        </text>
+        <text
+          id="cm"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1274" y="519">cm</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD108"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="1221.986" y="521">19</tspan>
+        </text>
+        <text
+          id="KLRH3_DB50DBD88"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="1219.2" y="577">36</tspan>
+        </text>
+        <text
+          id="A"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1591" y="498">A</tspan>
+        </text>
+        <text
+          id="A"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1274" y="575">A</tspan>
+        </text>
+        <g id="组件2" transform="translate(753, 796)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="201" height="14" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="201" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="1" width="201" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="12" width="201" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="0" y="13" width="201" height="1" />
+          <path
+            d="M61,4 L61,6 L93,6 L93,8 L61,8 L61,10 L59,10 L59,8 L47,8 L47,6 L59,6 L59,4 L61,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M182,4 L182,6 L214,6 L214,8 L182,8 L182,10 L180,10 L180,8 L168,8 L168,6 L180,6 L180,4 L182,4 Z"
+            id="形状结合备份-6"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件2备份-11" transform="translate(763, 512)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="201" height="14" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="201" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="1" width="201" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="12" width="201" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="0" y="13" width="201" height="1" />
+          <path
+            d="M61,4 L61,6 L93,6 L93,8 L61,8 L61,10 L59,10 L59,8 L47,8 L47,6 L59,6 L59,4 L61,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M182,4 L182,6 L194,6 L194,8 L182,8 L182,10 L180,10 L180,8 L168,8 L168,6 L180,6 L180,4 L182,4 Z"
+            id="形状结合备份-6"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件2备份-2" transform="translate(728, 820)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="101" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="101" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="101" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="101" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="101" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="40" width="2" height="32" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="58" width="6" height="2" />
+        </g>
+        <g id="组件2备份-8" transform="translate(958, 822)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="154" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="154" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="154" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="154" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="154" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="40" width="2" height="32" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="52" width="6" height="2" />
+        </g>
+        <g id="组件2备份-12" transform="translate(957, 539)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="162" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="162" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="162" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="162" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="162" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="40" width="2" height="32" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="52" width="6" height="2" />
+        </g>
+        <g
+          id="组件7备份"
+          transform="translate(966, 1006.5) scale(-1, -1) translate(-966, -1006.5)translate(942, 970)"
+        >
+          <rect id="矩形" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="17.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#02C90F" x="13" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="18" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#02C90F" x="24" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="0.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="3" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="2" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#02C90F" x="34" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="19" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="9.5" y="4.5" width="29" height="9" />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="路径-10"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="路径-3" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="20.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#02C90F" x="10" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#02C90F" x="10" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="矩形" fill="url(#linearGradient-27)" x="18" y="49" width="12" height="4" />
+          <rect id="矩形" fill="url(#linearGradient-28)" x="19" y="55" width="10" height="11" />
+          <rect id="矩形" fill="url(#linearGradient-29)" x="18" y="67" width="12" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件2备份-9" transform="translate(1000, 816)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="154" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="154" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="154" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="154" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="154" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="40" width="2" height="32" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="52" width="6" height="2" />
+        </g>
+        <g id="组件2备份-10" transform="translate(1000, 707)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="154" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="154" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="154" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="154" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="154" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="40" width="2" height="32" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="52" width="6" height="2" />
+        </g>
+        <g
+          id="组件9"
+          transform="translate(1012, 799) scale(-1, 1) rotate(90) translate(-1012, -799)translate(989, 782)"
+        >
+          <rect id="矩形" fill="url(#linearGradient-48)" x="7" y="1" width="32" height="22" />
+          <path
+            d="M14,27 L14,21 L23,12 L32,21 L32,27 L14,27 Z"
+            id="形状结合"
+            fill="url(#linearGradient-101)"
+          />
+          <rect id="矩形" fill="url(#linearGradient-51)" x="0" y="0" width="7" height="24" />
+          <rect id="矩形备份-64" fill="#B4B2B3" x="0" y="1" width="1" height="22" />
+          <rect
+            id="矩形备份-67"
+            fill="url(#linearGradient-52)"
+            x="11"
+            y="27"
+            width="24"
+            height="7"
+          />
+          <rect id="矩形备份-70" fill="#B4B2B3" x="12" y="27" width="22" height="1" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-61" fill="#191919" x="0" y="23" width="7" height="1" />
+          <rect id="矩形备份-68" fill="#191919" x="11" y="27" width="1" height="7" />
+          <rect id="矩形备份-69" fill="#191919" x="34" y="27" width="1" height="7" />
+          <rect
+            id="矩形备份-60"
+            fill="url(#linearGradient-51)"
+            x="39"
+            y="0"
+            width="7"
+            height="24"
+          />
+          <rect id="矩形备份-65" fill="#B4B2B3" x="39" y="1" width="1" height="22" />
+          <rect id="矩形备份-62" fill="#191919" x="39" y="0" width="7" height="1" />
+          <rect id="矩形备份-63" fill="#191919" x="39" y="23" width="7" height="1" />
+        </g>
+        <g id="组件2备份-13" transform="translate(1467, 674)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="86" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="86" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="86" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="86" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="86" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="45" width="2" height="32" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="57" width="6" height="2" />
+        </g>
+        <g id="组件2备份-17" transform="translate(1731, 998)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="117" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="117" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="117" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="117" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="117" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="76" width="2" height="32" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="88" width="6" height="2" />
+        </g>
+        <g id="组件3备份-19" transform="translate(1719, 971)">
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-103" fill="white">
+              <use xlink:href="#path-102" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-103)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-103)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-105" fill="white">
+              <use xlink:href="#path-104" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-104" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件2备份-15" transform="translate(1462, 857)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="30" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="30" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="30" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="30" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="30" />
+        </g>
+        <g id="组件2" transform="translate(1430, 830)">
+          <rect id="矩形" fill="#16A2BC" x="2" y="0" width="39" height="14" />
+          <rect id="矩形" fill="#191919" x="2" y="0" width="39" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="2" y="1" width="39" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="2" y="12" width="39" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="2" y="13" width="39" height="1" />
+          <path
+            d="M14,4 L14,6 L26,6 L26,8 L14,8 L14,10 L12,10 L12,8 L0,8 L0,6 L12,6 L12,4 L14,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g
+          id="组件3备份-3"
+          transform="translate(739.5, 808) scale(-1, 1) translate(-739.5, -808)translate(725, 793)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-107" fill="white">
+              <use xlink:href="#path-106" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-107)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-107)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-109" fill="white">
+              <use xlink:href="#path-108" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-108" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件3备份-5" transform="translate(946, 793)">
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-111" fill="white">
+              <use xlink:href="#path-110" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-111)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-111)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-113" fill="white">
+              <use xlink:href="#path-112" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-112" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件3备份-9" transform="translate(945, 509)">
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-115" fill="white">
+              <use xlink:href="#path-114" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-115)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-115)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-117" fill="white">
+              <use xlink:href="#path-116" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-116" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件3备份-7" transform="translate(988, 699)">
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-119" fill="white">
+              <use xlink:href="#path-118" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-119)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-119)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-121" fill="white">
+              <use xlink:href="#path-120" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-120" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-10"
+          transform="translate(1115.5, 792) scale(1, -1) translate(-1115.5, -792)translate(1101, 777)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-123" fill="white">
+              <use xlink:href="#path-122" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-123)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-123)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-125" fill="white">
+              <use xlink:href="#path-124" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-124" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-11"
+          transform="translate(1124.5, 614) scale(-1, 1) translate(-1124.5, -614)translate(1110, 599)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-127" fill="white">
+              <use xlink:href="#path-126" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-127)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-127)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-129" fill="white">
+              <use xlink:href="#path-128" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-128" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-11"
+          transform="translate(1373.5, 659) scale(-1, 1) translate(-1373.5, -659)translate(1359, 644)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-131" fill="white">
+              <use xlink:href="#path-130" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-131)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-131)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-133" fill="white">
+              <use xlink:href="#path-132" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-132" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-18"
+          transform="translate(1419.5, 556) scale(-1, 1) translate(-1419.5, -556)translate(1405, 541)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-135" fill="white">
+              <use xlink:href="#path-134" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-135)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-135)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-137" fill="white">
+              <use xlink:href="#path-136" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-136" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件3备份-13" transform="translate(1455, 644)">
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-139" fill="white">
+              <use xlink:href="#path-138" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-139)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-139)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-141" fill="white">
+              <use xlink:href="#path-140" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-140" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-14"
+          transform="translate(1469.5, 774) scale(1, -1) translate(-1469.5, -774)translate(1455, 759)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-143" fill="white">
+              <use xlink:href="#path-142" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-143)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-143)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-145" fill="white">
+              <use xlink:href="#path-144" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-144" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-15"
+          transform="translate(1373.5, 774) scale(-1, -1) translate(-1373.5, -774)translate(1359, 759)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-147" fill="white">
+              <use xlink:href="#path-146" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-147)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-147)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-149" fill="white">
+              <use xlink:href="#path-148" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-148" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件2备份-10" transform="translate(1362, 674)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="86" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="86" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="86" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="86" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="86" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="45" width="2" height="32" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="57" width="6" height="2" />
+        </g>
+        <g id="组件2备份-14" transform="translate(1408, 571)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="86" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="86" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="86" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="86" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="86" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="45" width="2" height="32" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="57" width="6" height="2" />
+        </g>
+        <g id="组件3备份-16" transform="translate(1450, 827)">
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-151" fill="white">
+              <use xlink:href="#path-150" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-151)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-151)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-153" fill="white">
+              <use xlink:href="#path-152" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-152" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-17"
+          transform="translate(1419.5, 911) scale(1, -1) translate(-1419.5, -911)translate(1405, 896)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-155" fill="white">
+              <use xlink:href="#path-154" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-155)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-155)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-157" fill="white">
+              <use xlink:href="#path-156" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-156" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件3备份-12" transform="translate(1156, 599)">
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-159" fill="white">
+              <use xlink:href="#path-158" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-159)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-159)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-161" fill="white">
+              <use xlink:href="#path-160" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-160" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-6"
+          transform="translate(1002.5, 980) scale(1, -1) translate(-1002.5, -980)translate(988, 965)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-163" fill="white">
+              <use xlink:href="#path-162" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-163)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-163)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-165" fill="white">
+              <use xlink:href="#path-164" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-164" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件2备份-2" transform="translate(646, 424)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="72" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="72" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="72" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="72" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="72" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="40" width="2" height="32" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="52" width="6" height="2" />
+        </g>
+        <g
+          id="组件10备份-3"
+          transform="translate(631.5, 454) rotate(-90) translate(-631.5, -454)translate(607.5, 417.5)"
+        >
+          <rect id="矩形" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="17.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="0.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="9.5" y="4.5" width="29" height="9" />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="路径-10"
+            fill="#F6F4F5"
+          />
+          <polyline id="路径-3" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="20.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect id="矩形" stroke="#191919" fill="#EFEFEF" x="27.5" y="41.5" width="4" height="3" />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="48.5" width="4" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="51.5" width="3" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="55.5" width="4" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="5.5" y="44.5" width="12" height="28" />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="19.5" y="45.5" width="9" height="3" />
+          <rect id="矩形" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="矩形" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="60.5" width="3" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="65.5" width="4" height="3" />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件2备份-6" transform="translate(664.5, 446.5)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="38" height="14" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="38" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="1" width="38" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="12" width="38" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="0" y="13" width="38" height="1" />
+        </g>
+        <text
+          id="℃"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="693" y="768">℃</tspan>
+        </text>
+        <text
+          id="cm"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="693" y="821">cm</tspan>
+        </text>
+        <g id="组件2备份-7" transform="translate(1071, 807)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="46" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="46" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="46" />
+          <rect
+            id="矩形"
+            fill="#99A5AF"
+            transform="translate(1.5, 23) scale(-1, 1) translate(-1.5, -23)"
+            x="1"
+            y="0"
+            width="1"
+            height="46"
+          />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="46" />
+        </g>
+        <g id="组件2" transform="translate(785, 623)">
+          <rect id="矩形" fill="#16A2BC" x="2" y="0" width="53" height="14" />
+          <rect id="矩形" fill="#191919" x="2" y="0" width="53" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="2" y="1" width="53" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="2" y="12" width="53" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="2" y="13" width="53" height="1" />
+          <path
+            d="M14,4 L14,6 L26,6 L26,8 L14,8 L14,10 L12,10 L12,8 L0,8 L0,6 L12,6 L12,4 L14,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件7" transform="translate(769, 572)">
+          <rect id="矩形" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="17.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#02C90F" x="13" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="18" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#02C90F" x="24" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="0.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="3" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="2" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#02C90F" x="34" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="19" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="9.5" y="4.5" width="29" height="9" />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="路径-10"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="路径-3" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="20.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#02C90F" x="10" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#02C90F" x="10" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="矩形" fill="url(#linearGradient-27)" x="18" y="49" width="12" height="4" />
+          <rect id="矩形" fill="url(#linearGradient-28)" x="19" y="55" width="10" height="11" />
+          <rect id="矩形" fill="url(#linearGradient-29)" x="18" y="67" width="12" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件7备份-3" transform="translate(1054, 739)">
+          <rect id="矩形" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="17.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#02C90F" x="13" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="18" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#02C90F" x="24" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="0.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="3" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="2" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#02C90F" x="34" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="19" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="9.5" y="4.5" width="29" height="9" />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="路径-10"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="路径-3" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="20.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#02C90F" x="10" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#02C90F" x="10" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="矩形" fill="url(#linearGradient-27)" x="18" y="49" width="12" height="4" />
+          <rect id="矩形" fill="url(#linearGradient-28)" x="19" y="55" width="10" height="11" />
+          <rect id="矩形" fill="url(#linearGradient-29)" x="18" y="67" width="12" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g
+          id="组件7备份-4"
+          transform="translate(1170, 864.5) rotate(-90) translate(-1170, -864.5)translate(1146, 828)"
+        >
+          <rect id="矩形" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="17.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#02C90F" x="13" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="18" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#02C90F" x="24" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="0.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="3" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="2" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#02C90F" x="34" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="19" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="9.5" y="4.5" width="29" height="9" />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="路径-10"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="路径-3" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="20.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#02C90F" x="10" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#02C90F" x="10" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="矩形" fill="url(#linearGradient-27)" x="18" y="49" width="12" height="4" />
+          <rect id="矩形" fill="url(#linearGradient-28)" x="19" y="55" width="10" height="11" />
+          <rect id="矩形" fill="url(#linearGradient-29)" x="18" y="67" width="12" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件12" transform="translate(556, 602)">
+          <rect id="矩形" fill="#D428B6" x="0" y="42" width="78" height="4" />
+          <g id="编组" transform="translate(15, 0)">
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-166)"
+              x="17.5"
+              y="36.5"
+              width="17"
+              height="15"
+            />
+            <rect
+              id="矩形备份-71"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="33.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-168)"
+              x="23.5"
+              y="27.5"
+              width="5"
+              height="10"
+            />
+            <circle id="椭圆形" fill="#191919" cx="17" cy="2" r="2" />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#C1C3C2"
+              x="12.5"
+              y="2.5"
+              width="27"
+              height="25"
+              rx="3"
+            />
+            <path
+              d="M17,4 L39,4 L39,4 L39,25 C39,26.1045695 38.1045695,27 37,27 L14,27 L14,27 L14,7 C14,5.34314575 15.3431458,4 17,4 Z"
+              id="矩形"
+              fill="#9A9899"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#9A9899"
+              x="11.5"
+              y="13.5"
+              width="29"
+              height="4"
+            />
+            <path
+              d="M12.5,19.5 L12.5,22.5 L3.5,22.5 L3.5,36.5 L0.5,36.5 L0.5,22 C0.5,21.3096441 0.779822031,20.6846441 1.23223305,20.232233 C1.68464406,19.779822 2.30964406,19.5 3,19.5 L12.5,19.5 Z"
+              id="形状结合"
+              stroke="#191919"
+              fill="#9A9899"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="12.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+          </g>
+        </g>
+        <g id="编组-5" transform="translate(621, 447)">
+          <g id="组件6" transform="translate(0, 46)">
+            <path
+              d="M5.25280762,4.31535469 C28.1685384,1.43845156 51.0842692,0 74,0 C96.9157308,0 119.831462,1.43845156 142.747192,4.31535469 C145.748185,4.69198334 147.999658,7.24341044 148,10.2679443 L148,167.732056 C147.999658,170.75659 145.748185,173.308017 142.747192,173.684645 C119.831462,176.561548 96.9157308,178 74,178 C51.0842692,178 28.1685384,176.561548 5.25280762,173.684645 C2.25181507,173.308017 0.000342381206,170.75659 0,167.732056 L0,10.2679443 C0.000342381206,7.24341044 2.25181507,4.69198334 5.25280762,4.31535469 Z"
+              id="矩形"
+              fill="url(#linearGradient-169)"
+            />
+            <rect id="矩形" fill="#64D9E4" x="12" y="94" width="122" height="74" />
+            <path
+              d="M66.0005932,12.3978196 C81.9118898,12.1624274 97.9392858,13.3305535 102.901271,14.9916106 C111.726898,17.9460466 115.466981,21.2289407 119.045541,24.3760315 L119.831091,25.0647523 C120.177087,25.3662228 120.525359,25.6659722 120.881307,25.9633901 C134.102741,37.0107595 135.174391,59.592598 134.616181,81.9372207 L134.576199,83.4431068 C134.512881,85.7009962 134.435313,87.9537547 134.354374,90.1892093 C134.155633,95.678255 133.960938,101.038939 133.960938,106.066406 C133.960938,117.033527 135.345303,126.114384 136.502173,133.736657 C138.294717,145.547195 139.289346,154.021361 135.119023,160.682998 C129.821557,169.145123 109.142498,170.947314 87.0756232,170.963735 L85.4379519,170.963008 C85.1645428,170.962582 84.8911071,170.962011 84.6154753,170.961304 L82.9782084,170.955669 C82.1594032,170.952184 81.3412566,170.947785 80.5237131,170.94284 L78.895063,170.932369 C78.2266329,170.927861 77.5596571,170.923158 76.8946337,170.918469 C73.7924442,170.896595 70.7328364,170.875 67.7666016,170.875 C54.4334447,170.875 43.44891,169.148891 35.283632,165.886546 C26.5885069,162.412505 21.0217476,157.183437 18.8083427,150.553378 C16.6963815,144.227184 17.6067671,129.594716 19.0864454,114.801968 L19.214612,113.533815 C19.3224839,112.477011 19.4329028,111.420577 19.5449746,110.367481 L19.6801971,109.105558 L19.8166632,107.84798 L19.9540296,106.595887 C20.1376324,104.930592 20.3227206,103.282964 20.5056325,101.665161 C21.5220574,92.6751745 22.4359346,84.6482109 22.5218813,79.8255705 C22.6426081,73.0513502 22.6916384,66.9022809 22.7359612,61.3472393 C22.9268416,37.4239707 23.4949093,24.3093645 28.3016998,19.1262102 C31.5766012,15.5948894 43.7126684,13.3292338 57.8184298,12.6503605 C60.1202272,12.539581 62.4669894,12.46306 64.8223593,12.4178368 Z"
+              id="路径-7"
+              stroke="#191919"
+              stroke-width="5"
+            />
+            <path
+              d="M60.0005932,8.39781961 C75.9118898,8.16242737 91.9392858,9.3305535 96.9012714,10.9916106 C105.726898,13.9460466 109.466981,17.2289407 113.045541,20.3760315 L113.831091,21.0647523 C114.177087,21.3662228 114.525359,21.6659722 114.881307,21.9633901 C128.102741,33.0107595 129.174391,55.592598 128.616181,77.9372207 L128.576199,79.4431068 C128.512881,81.7009962 128.435313,83.9537547 128.354374,86.1892093 C128.155633,91.678255 127.960938,97.0389394 127.960938,102.066406 C127.960938,113.033527 129.345303,122.114384 130.502173,129.736657 C132.294717,141.547195 133.289346,150.021361 129.119023,156.682998 C123.821557,165.145123 103.142498,166.947314 81.0756232,166.963735 L79.4379519,166.963008 C79.1645428,166.962582 78.8911071,166.962011 78.6154753,166.961304 L76.9782084,166.955669 C76.1594032,166.952184 75.3412566,166.947785 74.5237131,166.94284 L72.895063,166.932369 C72.2266329,166.927861 71.5596571,166.923158 70.8946337,166.918469 C67.7924442,166.896595 64.7328364,166.875 61.7666016,166.875 C48.4334447,166.875 37.44891,165.148891 29.283632,161.886546 C20.5885069,158.412505 15.0217476,153.183437 12.8083427,146.553378 C10.6963815,140.227184 11.6067671,125.594716 13.0864454,110.801968 L13.214612,109.533815 C13.3224839,108.477011 13.4329028,107.420577 13.5449746,106.367481 L13.6801971,105.105558 L13.8166632,103.84798 L13.9540296,102.595887 C14.1376324,100.930592 14.3227206,99.2829636 14.5056325,97.6651606 C15.5220574,88.6751745 16.4359346,80.6482109 16.5218813,75.8255705 C16.6426081,69.0513502 16.6916384,62.9022809 16.7359612,57.3472393 C16.9268416,33.4239707 17.4949093,20.3093645 22.3016998,15.1262102 C25.5766012,11.5948894 37.7126684,9.32923384 51.8184298,8.65036049 C54.1202272,8.53958101 56.4669894,8.46306005 58.8223593,8.4178368 Z"
+              id="路径-7"
+              stroke="#FFFFFF"
+              stroke-width="5"
+            />
+            <path
+              d="M74,0 C96.9157308,0 119.831462,1.43845156 142.747192,4.31535469 C145.748185,4.69198334 147.999658,7.24341044 148,10.2679443 L148,167.732056 C147.999658,170.75659 145.748185,173.308017 142.747192,173.684645 C119.831462,176.561548 96.9157308,178 74,178 C51.0842692,178 28.1685384,176.561548 5.25280762,173.684645 C2.25181507,173.308017 0.000342381206,170.75659 0,167.732056 L0,10.2679443 C0.000342381206,7.24341044 2.25181507,4.69198334 5.25280762,4.31535469 C28.1685384,1.43845156 51.0842692,0 74,0 Z M99.107666,15.3623047 C89.215332,12.0507813 34.4123392,10.9787763 27.1347656,18.8261719 C21.3918709,25.0187257 22.6370719,43.3282793 22.0214844,77.8701172 C21.7627242,92.3896618 14.1357422,135.648438 18.1796875,147.761719 C22.2236328,159.875 38.9980469,166.375 64.7666016,166.375 C68.3741992,166.375 72.1196477,166.40685 75.9119233,166.432426 L77.5397858,166.442892 C78.3548852,166.447822 79.1715377,166.452213 79.9888477,166.455692 L81.6240791,166.461319 C81.8966753,166.462017 82.1692782,166.462586 82.4418546,166.463011 L84.0767304,166.463736 C104.774413,166.448331 124.936055,165.445547 130,157.356445 C136.663086,146.712891 128.460938,131 128.460938,104.066406 C128.460938,77.1328125 134,40.6894531 116.27832,25.8818359 C115.909057,25.5732921 115.547711,25.2623836 115.188771,24.9496353 L114.758846,24.5734879 C111.251461,21.4949534 107.763458,18.2598877 99.107666,15.3623047 Z"
+              id="形状结合"
+              fill="url(#linearGradient-170)"
+            />
+            <path
+              d="M74,0.5 C96.8949706,0.5 119.78994,1.93716366 142.68493,4.81146296 C144.060382,4.98408409 145.26407,5.65509512 146.123935,6.62951122 C146.983801,7.60392994 147.499843,8.88175524 147.5,10.2679443 L147.5,167.731999 C147.499843,169.118245 146.983801,170.39607 146.123935,171.370489 C145.26407,172.344905 144.060382,173.015916 142.68491,173.18854 C119.78994,176.062836 96.8949706,177.5 74,177.5 C51.1050294,177.5 28.2100601,176.062836 5.31506988,173.188537 C3.93961761,173.015916 2.73592984,172.344905 1.87606537,171.370489 C1.01619859,170.39607 0.500156922,169.118245 0.5,167.732056 L0.499999997,10.2680009 C0.500156922,8.88175524 1.01619859,7.60392994 1.87606537,6.62951122 C2.73592984,5.65509512 3.93961761,4.98408409 5.31509008,4.81146042 C28.2100601,1.93716366 51.1050294,0.5 74,0.5 Z"
+              id="矩形"
+              stroke="#191919"
+            />
+          </g>
+          <text
+            id="油相储罐"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="34" y="253">油相储罐</tspan>
+          </text>
+          <path
+            d="M70.331543,182.512695 L37.4863343,193.305583 C35.9122828,193.822814 34.2169634,192.966092 33.6997324,191.39204 C33.6004129,191.089789 33.5498047,190.773662 33.5498047,190.455511 L33.5498047,174.789257 C33.5498047,173.132403 34.8929504,171.789257 36.5498047,171.789257 C36.8618803,171.789257 37.1720449,171.837951 37.4691071,171.933581 L70.331543,182.512695 L70.331543,182.512695 Z"
+            id="路径-2"
+            stroke="#191919"
+            fill="#006900"
+          />
+          <path
+            d="M71.9433594,181.916992 L116.73804,171.108532 C118.885549,170.590362 121.046508,171.911202 121.564679,174.058711 C121.638811,174.365948 121.67627,174.680888 121.67627,174.996941 L121.67627,189.451095 C121.67627,191.660234 119.885409,193.451095 117.67627,193.451095 C117.342925,193.451095 117.010888,193.409427 116.687881,193.327058 L71.9433594,181.916992 L71.9433594,181.916992 Z"
+            id="路径-4"
+            stroke="#191919"
+            fill="#006900"
+          />
+          <rect
+            id="矩形"
+            stroke="#006506"
+            fill="#CEEDC9"
+            x="68.831543"
+            y="59.5"
+            width="3"
+            height="126"
+          />
+          <path
+            d="M70.331543,182.635498 L29.7816387,171.692415 C28.1820099,171.260728 26.535303,172.207531 26.1036159,173.80716 C26.0348395,174.062013 26,174.324829 26,174.588799 L26,189.725209 C26,191.382064 27.3431458,192.725209 29,192.725209 C29.2417733,192.725209 29.4826602,192.695982 29.7174185,192.638165 L70.331543,182.635498 L70.331543,182.635498 Z"
+            id="路径-6"
+            stroke="#191919"
+            fill="#00650F"
+          />
+          <path
+            d="M71.9433594,182.635498 L113.113764,170.916791 C114.707321,170.463203 116.36686,171.38733 116.820448,172.980887 C116.896487,173.248026 116.935059,173.524431 116.935059,173.802181 L116.935059,189.738625 C116.935059,191.395479 115.591913,192.738625 113.935059,192.738625 C113.696707,192.738625 113.459206,192.71022 113.227577,192.65401 L71.9433594,182.635498 L71.9433594,182.635498 Z"
+            id="路径-5"
+            stroke="#191919"
+            fill="#00650F"
+          />
+          <g id="组件5" transform="translate(59, 0)">
+            <mask id="mask-172" fill="white">
+              <use xlink:href="#path-171" />
+            </mask>
+            <use id="蒙版" fill="#D8D8D8" xlink:href="#path-171" />
+            <g mask="url(#mask-172)">
+              <rect id="矩形" fill="#191919" x="0" y="0" width="30" height="42" />
+              <rect id="矩形" fill="#191919" x="2" y="41" width="26" height="5" />
+              <rect id="矩形" fill="#007404" x="3" y="42" width="4" height="3" />
+              <rect id="矩形备份-47" fill="#429A4B" x="7" y="42" width="5" height="3" />
+              <rect id="矩形备份-48" fill="#5CB365" x="12" y="42" width="5" height="3" />
+              <rect id="矩形备份-49" fill="#429A4B" x="17" y="42" width="5" height="3" />
+              <rect id="矩形备份-50" fill="#007404" x="22" y="42" width="5" height="3" />
+              <rect id="矩形" fill="#D8D8D8" x="1" y="0" width="28" height="5" />
+              <rect id="矩形" fill="#007404" x="1" y="0" width="5" height="5" />
+              <rect id="矩形备份-47" fill="#429A4B" x="6" y="0" width="6" height="5" />
+              <rect id="矩形备份-48" fill="#5CB365" x="12" y="0" width="6" height="5" />
+              <rect id="矩形备份-49" fill="#429A4B" x="18" y="0" width="6" height="5" />
+              <rect id="矩形备份-50" fill="#007404" x="24" y="0" width="5" height="5" />
+              <rect id="矩形" fill="#429A4B" x="27" y="12" width="1" height="26" />
+              <rect id="矩形备份-46" fill="#429A4B" x="2" y="7" width="3" height="14" />
+              <rect id="矩形" fill="#429A4B" x="1" y="22" width="16" height="16" />
+              <rect id="矩形" fill="#FFFFFF" x="1" y="22" width="16" height="2" />
+              <rect id="矩形" fill="#FFFFFF" x="15" y="22" width="2" height="15" />
+              <rect id="矩形" fill="#191919" x="1" y="37" width="16" height="2" />
+              <rect id="矩形" fill="#191919" x="1" y="22" width="2" height="16" />
+            </g>
+            <rect
+              id="矩形"
+              fill="#191919"
+              mask="url(#mask-172)"
+              x="0"
+              y="0"
+              width="30"
+              height="1"
+            />
+            <path
+              d="M27.8060756,0.5 L29.5,2.04662659 L29.5,41.5 L0.5,41.5 L0.5,2.04662659 L2.19392436,0.5 L27.8060756,0.5 Z"
+              id="蒙版"
+              stroke="#191919"
+              mask="url(#mask-172)"
+            />
+          </g>
+        </g>
+        <g id="组件12" transform="translate(273, 370)">
+          <rect id="矩形" fill="#D428B6" x="0" y="42" width="78" height="4" />
+          <g id="编组" transform="translate(15, 0)">
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-166)"
+              x="17.5"
+              y="36.5"
+              width="17"
+              height="15"
+            />
+            <rect
+              id="矩形备份-71"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="33.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-168)"
+              x="23.5"
+              y="27.5"
+              width="5"
+              height="10"
+            />
+            <circle id="椭圆形" fill="#191919" cx="17" cy="2" r="2" />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#C1C3C2"
+              x="12.5"
+              y="2.5"
+              width="27"
+              height="25"
+              rx="3"
+            />
+            <path
+              d="M17,4 L39,4 L39,4 L39,25 C39,26.1045695 38.1045695,27 37,27 L14,27 L14,27 L14,7 C14,5.34314575 15.3431458,4 17,4 Z"
+              id="矩形"
+              fill="#9A9899"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#9A9899"
+              x="11.5"
+              y="13.5"
+              width="29"
+              height="4"
+            />
+            <path
+              d="M12.5,19.5 L12.5,22.5 L3.5,22.5 L3.5,36.5 L0.5,36.5 L0.5,22 C0.5,21.3096441 0.779822031,20.6846441 1.23223305,20.232233 C1.68464406,19.779822 2.30964406,19.5 3,19.5 L12.5,19.5 Z"
+              id="形状结合"
+              stroke="#191919"
+              fill="#9A9899"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="12.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+          </g>
+        </g>
+        <g id="组件12" transform="translate(558, 1018)">
+          <rect id="矩形" fill="#D428B6" x="0" y="42" width="78" height="4" />
+          <g id="编组" transform="translate(15, 0)">
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-2)"
+              x="17.5"
+              y="36.5"
+              width="17"
+              height="15"
+            />
+            <rect
+              id="矩形备份-71"
+              stroke="#191919"
+              fill="url(#linearGradient-3)"
+              x="33.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-4)"
+              x="23.5"
+              y="27.5"
+              width="5"
+              height="10"
+            />
+            <circle id="椭圆形" fill="#191919" cx="17" cy="2" r="2" />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#9BBF8D"
+              x="12.5"
+              y="2.5"
+              width="27"
+              height="25"
+              rx="3"
+            />
+            <path
+              d="M17,4 L39,4 L39,4 L39,25 C39,26.1045695 38.1045695,27 37,27 L14,27 L14,27 L14,7 C14,5.34314575 15.3431458,4 17,4 Z"
+              id="矩形"
+              fill="#2F9931"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#2F9931"
+              x="11.5"
+              y="13.5"
+              width="29"
+              height="4"
+            />
+            <path
+              d="M12.5,19.5 L12.5,22.5 L3.5,22.5 L3.5,36.5 L0.5,36.5 L0.5,22 C0.5,21.3096441 0.779822031,20.6846441 1.23223305,20.232233 C1.68464406,19.779822 2.30964406,19.5 3,19.5 L12.5,19.5 Z"
+              id="形状结合"
+              stroke="#191919"
+              fill="#2F9931"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-3)"
+              x="12.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+          </g>
+        </g>
+        <g id="组件2" transform="translate(545, 956)">
+          <rect id="矩形" fill="#16A2BC" x="2" y="0" width="39" height="14" />
+          <rect id="矩形" fill="#191919" x="2" y="0" width="39" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="2" y="1" width="39" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="2" y="12" width="39" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="2" y="13" width="39" height="1" />
+          <path
+            d="M14,4 L14,6 L26,6 L26,8 L14,8 L14,10 L12,10 L12,8 L0,8 L0,6 L12,6 L12,4 L14,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件2备份-3" transform="translate(519, 902)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="262" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="262" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="262" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="262" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="262" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="81" width="2" height="46" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="113" width="6" height="2" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="216" width="2" height="46" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="248" width="6" height="2" />
+        </g>
+        <g
+          id="组件10备份-3"
+          transform="translate(504, 1077.5) rotate(-90) translate(-504, -1077.5)translate(480, 1041)"
+        >
+          <rect id="矩形" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="17.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="0.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="9.5" y="4.5" width="29" height="9" />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="路径-10"
+            fill="#F6F4F5"
+          />
+          <polyline id="路径-3" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="20.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect id="矩形" stroke="#191919" fill="#EFEFEF" x="27.5" y="41.5" width="4" height="3" />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="48.5" width="4" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="51.5" width="3" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="55.5" width="4" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="5.5" y="44.5" width="12" height="28" />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="19.5" y="45.5" width="9" height="3" />
+          <rect id="矩形" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="矩形" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="60.5" width="3" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="65.5" width="4" height="3" />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件2备份-2" transform="translate(596, 871)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="72" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="72" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="72" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="72" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="72" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="40" width="2" height="32" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="52" width="6" height="2" />
+        </g>
+        <g id="组件2备份-7" transform="translate(649, 874)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="72" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="72" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="72" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="72" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="72" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="40" width="2" height="32" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="58" width="6" height="2" />
+        </g>
+        <g id="组件3" transform="translate(507, 874)">
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-174" fill="white">
+              <use xlink:href="#path-173" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-174)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-174)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-176" fill="white">
+              <use xlink:href="#path-175" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-175" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-2"
+          transform="translate(598.5, 958) scale(1, -1) translate(-598.5, -958)translate(584, 943)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-178" fill="white">
+              <use xlink:href="#path-177" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-178)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-178)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-180" fill="white">
+              <use xlink:href="#path-179" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-179" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="编组-5" transform="translate(621, 871)">
+          <g id="组件6" transform="translate(0, 46)">
+            <path
+              d="M5.25280762,4.31535469 C28.1685384,1.43845156 51.0842692,0 74,0 C96.9157308,0 119.831462,1.43845156 142.747192,4.31535469 C145.748185,4.69198334 147.999658,7.24341044 148,10.2679443 L148,167.732056 C147.999658,170.75659 145.748185,173.308017 142.747192,173.684645 C119.831462,176.561548 96.9157308,178 74,178 C51.0842692,178 28.1685384,176.561548 5.25280762,173.684645 C2.25181507,173.308017 0.000342381206,170.75659 0,167.732056 L0,10.2679443 C0.000342381206,7.24341044 2.25181507,4.69198334 5.25280762,4.31535469 Z"
+              id="矩形"
+              fill="url(#linearGradient-169)"
+            />
+            <rect id="矩形" fill="#64D9E4" x="12" y="94" width="122" height="74" />
+            <path
+              d="M66.0005932,12.3978196 C81.9118898,12.1624274 97.9392858,13.3305535 102.901271,14.9916106 C111.726898,17.9460466 115.466981,21.2289407 119.045541,24.3760315 L119.831091,25.0647523 C120.177087,25.3662228 120.525359,25.6659722 120.881307,25.9633901 C134.102741,37.0107595 135.174391,59.592598 134.616181,81.9372207 L134.576199,83.4431068 C134.512881,85.7009962 134.435313,87.9537547 134.354374,90.1892093 C134.155633,95.678255 133.960938,101.038939 133.960938,106.066406 C133.960938,117.033527 135.345303,126.114384 136.502173,133.736657 C138.294717,145.547195 139.289346,154.021361 135.119023,160.682998 C129.821557,169.145123 109.142498,170.947314 87.0756232,170.963735 L85.4379519,170.963008 C85.1645428,170.962582 84.8911071,170.962011 84.6154753,170.961304 L82.9782084,170.955669 C82.1594032,170.952184 81.3412566,170.947785 80.5237131,170.94284 L78.895063,170.932369 C78.2266329,170.927861 77.5596571,170.923158 76.8946337,170.918469 C73.7924442,170.896595 70.7328364,170.875 67.7666016,170.875 C54.4334447,170.875 43.44891,169.148891 35.283632,165.886546 C26.5885069,162.412505 21.0217476,157.183437 18.8083427,150.553378 C16.6963815,144.227184 17.6067671,129.594716 19.0864454,114.801968 L19.214612,113.533815 C19.3224839,112.477011 19.4329028,111.420577 19.5449746,110.367481 L19.6801971,109.105558 L19.8166632,107.84798 L19.9540296,106.595887 C20.1376324,104.930592 20.3227206,103.282964 20.5056325,101.665161 C21.5220574,92.6751745 22.4359346,84.6482109 22.5218813,79.8255705 C22.6426081,73.0513502 22.6916384,66.9022809 22.7359612,61.3472393 C22.9268416,37.4239707 23.4949093,24.3093645 28.3016998,19.1262102 C31.5766012,15.5948894 43.7126684,13.3292338 57.8184298,12.6503605 C60.1202272,12.539581 62.4669894,12.46306 64.8223593,12.4178368 Z"
+              id="路径-7"
+              stroke="#191919"
+              stroke-width="5"
+            />
+            <path
+              d="M60.0005932,8.39781961 C75.9118898,8.16242737 91.9392858,9.3305535 96.9012714,10.9916106 C105.726898,13.9460466 109.466981,17.2289407 113.045541,20.3760315 L113.831091,21.0647523 C114.177087,21.3662228 114.525359,21.6659722 114.881307,21.9633901 C128.102741,33.0107595 129.174391,55.592598 128.616181,77.9372207 L128.576199,79.4431068 C128.512881,81.7009962 128.435313,83.9537547 128.354374,86.1892093 C128.155633,91.678255 127.960938,97.0389394 127.960938,102.066406 C127.960938,113.033527 129.345303,122.114384 130.502173,129.736657 C132.294717,141.547195 133.289346,150.021361 129.119023,156.682998 C123.821557,165.145123 103.142498,166.947314 81.0756232,166.963735 L79.4379519,166.963008 C79.1645428,166.962582 78.8911071,166.962011 78.6154753,166.961304 L76.9782084,166.955669 C76.1594032,166.952184 75.3412566,166.947785 74.5237131,166.94284 L72.895063,166.932369 C72.2266329,166.927861 71.5596571,166.923158 70.8946337,166.918469 C67.7924442,166.896595 64.7328364,166.875 61.7666016,166.875 C48.4334447,166.875 37.44891,165.148891 29.283632,161.886546 C20.5885069,158.412505 15.0217476,153.183437 12.8083427,146.553378 C10.6963815,140.227184 11.6067671,125.594716 13.0864454,110.801968 L13.214612,109.533815 C13.3224839,108.477011 13.4329028,107.420577 13.5449746,106.367481 L13.6801971,105.105558 L13.8166632,103.84798 L13.9540296,102.595887 C14.1376324,100.930592 14.3227206,99.2829636 14.5056325,97.6651606 C15.5220574,88.6751745 16.4359346,80.6482109 16.5218813,75.8255705 C16.6426081,69.0513502 16.6916384,62.9022809 16.7359612,57.3472393 C16.9268416,33.4239707 17.4949093,20.3093645 22.3016998,15.1262102 C25.5766012,11.5948894 37.7126684,9.32923384 51.8184298,8.65036049 C54.1202272,8.53958101 56.4669894,8.46306005 58.8223593,8.4178368 Z"
+              id="路径-7"
+              stroke="#FFFFFF"
+              stroke-width="5"
+            />
+            <path
+              d="M74,0 C96.9157308,0 119.831462,1.43845156 142.747192,4.31535469 C145.748185,4.69198334 147.999658,7.24341044 148,10.2679443 L148,167.732056 C147.999658,170.75659 145.748185,173.308017 142.747192,173.684645 C119.831462,176.561548 96.9157308,178 74,178 C51.0842692,178 28.1685384,176.561548 5.25280762,173.684645 C2.25181507,173.308017 0.000342381206,170.75659 0,167.732056 L0,10.2679443 C0.000342381206,7.24341044 2.25181507,4.69198334 5.25280762,4.31535469 C28.1685384,1.43845156 51.0842692,0 74,0 Z M99.107666,15.3623047 C89.215332,12.0507813 34.4123392,10.9787763 27.1347656,18.8261719 C21.3918709,25.0187257 22.6370719,43.3282793 22.0214844,77.8701172 C21.7627242,92.3896618 14.1357422,135.648438 18.1796875,147.761719 C22.2236328,159.875 38.9980469,166.375 64.7666016,166.375 C68.3741992,166.375 72.1196477,166.40685 75.9119233,166.432426 L77.5397858,166.442892 C78.3548852,166.447822 79.1715377,166.452213 79.9888477,166.455692 L81.6240791,166.461319 C81.8966753,166.462017 82.1692782,166.462586 82.4418546,166.463011 L84.0767304,166.463736 C104.774413,166.448331 124.936055,165.445547 130,157.356445 C136.663086,146.712891 128.460938,131 128.460938,104.066406 C128.460938,77.1328125 134,40.6894531 116.27832,25.8818359 C115.909057,25.5732921 115.547711,25.2623836 115.188771,24.9496353 L114.758846,24.5734879 C111.251461,21.4949534 107.763458,18.2598877 99.107666,15.3623047 Z"
+              id="形状结合"
+              fill="url(#linearGradient-170)"
+            />
+            <path
+              d="M74,0.5 C96.8949706,0.5 119.78994,1.93716366 142.68493,4.81146296 C144.060382,4.98408409 145.26407,5.65509512 146.123935,6.62951122 C146.983801,7.60392994 147.499843,8.88175524 147.5,10.2679443 L147.5,167.731999 C147.499843,169.118245 146.983801,170.39607 146.123935,171.370489 C145.26407,172.344905 144.060382,173.015916 142.68491,173.18854 C119.78994,176.062836 96.8949706,177.5 74,177.5 C51.1050294,177.5 28.2100601,176.062836 5.31506988,173.188537 C3.93961761,173.015916 2.73592984,172.344905 1.87606537,171.370489 C1.01619859,170.39607 0.500156922,169.118245 0.5,167.732056 L0.499999997,10.2680009 C0.500156922,8.88175524 1.01619859,7.60392994 1.87606537,6.62951122 C2.73592984,5.65509512 3.93961761,4.98408409 5.31509008,4.81146042 C28.2100601,1.93716366 51.1050294,0.5 74,0.5 Z"
+              id="矩形"
+              stroke="#191919"
+            />
+          </g>
+          <text
+            id="水相储罐"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="34" y="253">水相储罐</tspan>
+          </text>
+          <path
+            d="M70.331543,182.512695 L37.4863343,193.305583 C35.9122828,193.822814 34.2169634,192.966092 33.6997324,191.39204 C33.6004129,191.089789 33.5498047,190.773662 33.5498047,190.455511 L33.5498047,174.789257 C33.5498047,173.132403 34.8929504,171.789257 36.5498047,171.789257 C36.8618803,171.789257 37.1720449,171.837951 37.4691071,171.933581 L70.331543,182.512695 L70.331543,182.512695 Z"
+            id="路径-2"
+            stroke="#191919"
+            fill="#006900"
+          />
+          <path
+            d="M71.9433594,181.916992 L116.73804,171.108532 C118.885549,170.590362 121.046508,171.911202 121.564679,174.058711 C121.638811,174.365948 121.67627,174.680888 121.67627,174.996941 L121.67627,189.451095 C121.67627,191.660234 119.885409,193.451095 117.67627,193.451095 C117.342925,193.451095 117.010888,193.409427 116.687881,193.327058 L71.9433594,181.916992 L71.9433594,181.916992 Z"
+            id="路径-4"
+            stroke="#191919"
+            fill="#006900"
+          />
+          <rect
+            id="矩形"
+            stroke="#006506"
+            fill="#CEEDC9"
+            x="68.831543"
+            y="59.5"
+            width="3"
+            height="126"
+          />
+          <path
+            d="M70.331543,182.635498 L29.7816387,171.692415 C28.1820099,171.260728 26.535303,172.207531 26.1036159,173.80716 C26.0348395,174.062013 26,174.324829 26,174.588799 L26,189.725209 C26,191.382064 27.3431458,192.725209 29,192.725209 C29.2417733,192.725209 29.4826602,192.695982 29.7174185,192.638165 L70.331543,182.635498 L70.331543,182.635498 Z"
+            id="路径-6"
+            stroke="#191919"
+            fill="#00650F"
+          />
+          <path
+            d="M71.9433594,182.635498 L113.113764,170.916791 C114.707321,170.463203 116.36686,171.38733 116.820448,172.980887 C116.896487,173.248026 116.935059,173.524431 116.935059,173.802181 L116.935059,189.738625 C116.935059,191.395479 115.591913,192.738625 113.935059,192.738625 C113.696707,192.738625 113.459206,192.71022 113.227577,192.65401 L71.9433594,182.635498 L71.9433594,182.635498 Z"
+            id="路径-5"
+            stroke="#191919"
+            fill="#00650F"
+          />
+          <g id="组件5" transform="translate(59, 0)">
+            <mask id="mask-182" fill="white">
+              <use xlink:href="#path-181" />
+            </mask>
+            <use id="蒙版" fill="#D8D8D8" xlink:href="#path-181" />
+            <g mask="url(#mask-182)">
+              <rect id="矩形" fill="#191919" x="0" y="0" width="30" height="42" />
+              <rect id="矩形" fill="#191919" x="2" y="41" width="26" height="5" />
+              <rect id="矩形" fill="#007404" x="3" y="42" width="4" height="3" />
+              <rect id="矩形备份-47" fill="#429A4B" x="7" y="42" width="5" height="3" />
+              <rect id="矩形备份-48" fill="#5CB365" x="12" y="42" width="5" height="3" />
+              <rect id="矩形备份-49" fill="#429A4B" x="17" y="42" width="5" height="3" />
+              <rect id="矩形备份-50" fill="#007404" x="22" y="42" width="5" height="3" />
+              <rect id="矩形" fill="#D8D8D8" x="1" y="0" width="28" height="5" />
+              <rect id="矩形" fill="#007404" x="1" y="0" width="5" height="5" />
+              <rect id="矩形备份-47" fill="#429A4B" x="6" y="0" width="6" height="5" />
+              <rect id="矩形备份-48" fill="#5CB365" x="12" y="0" width="6" height="5" />
+              <rect id="矩形备份-49" fill="#429A4B" x="18" y="0" width="6" height="5" />
+              <rect id="矩形备份-50" fill="#007404" x="24" y="0" width="5" height="5" />
+              <rect id="矩形" fill="#429A4B" x="27" y="12" width="1" height="26" />
+              <rect id="矩形备份-46" fill="#429A4B" x="2" y="7" width="3" height="14" />
+              <rect id="矩形" fill="#429A4B" x="1" y="22" width="16" height="16" />
+              <rect id="矩形" fill="#FFFFFF" x="1" y="22" width="16" height="2" />
+              <rect id="矩形" fill="#FFFFFF" x="15" y="22" width="2" height="15" />
+              <rect id="矩形" fill="#191919" x="1" y="37" width="16" height="2" />
+              <rect id="矩形" fill="#191919" x="1" y="22" width="2" height="16" />
+            </g>
+            <rect
+              id="矩形"
+              fill="#191919"
+              mask="url(#mask-182)"
+              x="0"
+              y="0"
+              width="30"
+              height="1"
+            />
+            <path
+              d="M27.8060756,0.5 L29.5,2.04662659 L29.5,41.5 L0.5,41.5 L0.5,2.04662659 L2.19392436,0.5 L27.8060756,0.5 Z"
+              id="蒙版"
+              stroke="#191919"
+              mask="url(#mask-182)"
+            />
+          </g>
+        </g>
+        <g id="组件2" transform="translate(617, 847)">
+          <rect id="矩形" fill="#16A2BC" x="2" y="0" width="39" height="14" />
+          <rect id="矩形" fill="#191919" x="2" y="0" width="39" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="2" y="1" width="39" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="2" y="12" width="39" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="2" y="13" width="39" height="1" />
+          <path
+            d="M14,4 L14,6 L26,6 L26,8 L14,8 L14,10 L12,10 L12,8 L0,8 L0,6 L12,6 L12,4 L14,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g
+          id="组件3备份-3"
+          transform="translate(607.5, 859) scale(-1, 1) translate(-607.5, -859)translate(593, 844)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-184" fill="white">
+              <use xlink:href="#path-183" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-184)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-184)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-186" fill="white">
+              <use xlink:href="#path-185" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-185" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件3备份-4" transform="translate(637, 844)">
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-188" fill="white">
+              <use xlink:href="#path-187" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-188)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-188)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-190" fill="white">
+              <use xlink:href="#path-189" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-189" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份"
+          transform="translate(521.5, 1177) scale(1, -1) translate(-521.5, -1177)translate(507, 1162)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-192" fill="white">
+              <use xlink:href="#path-191" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-192)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-192)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-194" fill="white">
+              <use xlink:href="#path-193" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-193" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-195)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件10" transform="translate(444, 1123)">
+          <g id="编组-2" transform="translate(55, 49)">
+            <rect id="矩形" fill="url(#linearGradient-196)" x="0" y="0" width="8" height="20" />
+            <rect id="矩形备份-59" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="矩形" fill="#191919" x="0" y="0" width="8" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="0" y="19" width="8" height="1" />
+          </g>
+          <g id="编组-2备份" transform="translate(0, 49)">
+            <rect id="矩形" fill="url(#linearGradient-18)" x="0" y="0" width="9" height="20" />
+            <rect id="矩形" fill="#191919" x="8" y="2" width="1" height="17" />
+            <rect id="矩形" fill="#191919" x="0" y="0" width="8.30769231" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="0" y="19" width="8.30769231" height="1" />
+          </g>
+          <rect id="矩形" fill="#191919" x="23" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="25.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="20" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#696969" x="21" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="26" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#696969" x="32" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="11" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="11" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="8.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="11" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="10" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="17" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#696969" x="42" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="27" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="17.5" y="4.5" width="29" height="9" />
+          <path
+            d="M26.5,4 L26.5,2 C26.5,0.8954305 27.3954305,2.02906125e-16 28.5,0 L34.5,0 C36.1568542,-3.04359188e-16 37.5,1.34314575 37.5,3 L37.5,4 L37.5,4 L26.5,4 Z"
+            id="路径-10"
+            fill="#F6F4F5"
+          />
+          <polyline id="路径-3" stroke="#191919" points="27 2 27 -9.10729825e-18 32 0" />
+          <path
+            d="M34,0 L35,0 C36.1045695,-2.02906125e-16 37,0.8954305 37,2 L37,2 L37,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M26,2 L26,3 C26,3.55228475 26.4477153,4 27,4 L37,4 C37.5522847,4 38,3.55228475 38,3 L38,2 L38,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="28.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#9B999A" x="18" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#696969" x="18" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="47" y="12" width="3" height="7" />
+          <rect id="矩形" stroke="#191919" fill="#EFEFEF" x="35.5" y="41.5" width="4" height="3" />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="23.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="41.5" cy="13.5" r="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="8.5" y="48.5" width="4" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="9.5" y="51.5" width="3" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="8.5" y="55.5" width="4" height="5" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="13.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="39.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="26" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="25" y="45" width="14" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="27.5" y="45.5" width="9" height="3" />
+          <rect id="矩形" fill="#191919" x="28" y="44" width="7" height="1" />
+          <rect id="矩形" fill="#F1F1F1" x="26" y="49" width="12" height="4" />
+          <rect id="矩形" fill="#F1F1F1" x="27" y="55" width="10" height="11" />
+          <rect id="矩形" fill="#F1F1F1" x="26" y="67" width="12" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="9.5" y="60.5" width="3" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="8.5" y="65.5" width="4" height="3" />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g
+          id="组件9"
+          transform="translate(532, 963) scale(-1, 1) rotate(90) translate(-532, -963)translate(509, 946)"
+        >
+          <rect id="矩形" fill="url(#linearGradient-48)" x="7" y="1" width="32" height="22" />
+          <path
+            d="M14,27 L14,21 L23,12 L32,21 L32,27 L14,27 Z"
+            id="形状结合"
+            fill="url(#linearGradient-197)"
+          />
+          <rect id="矩形" fill="url(#linearGradient-51)" x="0" y="0" width="7" height="24" />
+          <rect id="矩形备份-64" fill="#B4B2B3" x="0" y="1" width="1" height="22" />
+          <rect
+            id="矩形备份-67"
+            fill="url(#linearGradient-52)"
+            x="11"
+            y="27"
+            width="24"
+            height="7"
+          />
+          <rect id="矩形备份-70" fill="#B4B2B3" x="12" y="27" width="22" height="1" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-61" fill="#191919" x="0" y="23" width="7" height="1" />
+          <rect id="矩形备份-68" fill="#191919" x="11" y="27" width="1" height="7" />
+          <rect id="矩形备份-69" fill="#191919" x="34" y="27" width="1" height="7" />
+          <rect
+            id="矩形备份-60"
+            fill="url(#linearGradient-51)"
+            x="39"
+            y="0"
+            width="7"
+            height="24"
+          />
+          <rect id="矩形备份-65" fill="#B4B2B3" x="39" y="1" width="1" height="22" />
+          <rect id="矩形备份-62" fill="#191919" x="39" y="0" width="7" height="1" />
+          <rect id="矩形备份-63" fill="#191919" x="39" y="23" width="7" height="1" />
+        </g>
+        <g id="组件2备份-6" transform="translate(537, 1070)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="38" height="14" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="38" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="1" width="38" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="12" width="38" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="0" y="13" width="38" height="1" />
+        </g>
+        <g
+          id="编组-8备份"
+          transform="translate(864.5, 633) scale(1, -1) translate(-864.5, -633)translate(837, 603)"
+        >
+          <circle id="椭圆形" stroke="#979797" fill="#D8D8D8" cx="27.5" cy="30" r="7.5" />
+          <path
+            d="M53.5,3.5 L53.5,30 C53.5,37.3177729 50.5338865,43.9427729 45.7383297,48.7383297 C40.9427729,53.5338865 34.3177729,56.5 27,56.5 C19.6822271,56.5 13.0572271,53.5338865 8.2616703,48.7383297 C3.46611353,43.9427729 0.5,37.3177729 0.5,30 C0.5,22.6822271 3.46611353,16.0572271 8.2616703,11.2616703 C13.0572271,6.46611353 19.6822271,3.5 27,3.5 C32.7877139,3.5 38.1421419,5.35528236 42.5007371,8.50390224 L42.500067,3.5 L53.5,3.5 Z"
+            id="形状结合"
+            stroke="#191919"
+            fill="url(#linearGradient-97)"
+          />
+          <rect id="矩形" stroke="#191919" fill="#077717" x="13.5" y="56.5" width="29" height="3" />
+          <rect
+            id="矩形备份-81"
+            stroke="#191919"
+            fill="url(#linearGradient-98)"
+            x="41.5"
+            y="0.5"
+            width="13"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#077717" cx="27" cy="30" r="20.5" />
+          <g id="编组-7" transform="translate(10, 13)">
+            <mask id="mask-199" fill="white">
+              <use xlink:href="#path-198" />
+            </mask>
+            <circle stroke="#191919" cx="17" cy="17" r="16.5" />
+            <g mask="url(#mask-199)" fill="#191919" id="矩形">
+              <rect x="16" y="0" width="1" height="12" />
+              <rect
+                transform="translate(23.9246, 9.0754) rotate(45) translate(-23.9246, -9.0754)"
+                x="23.4246212"
+                y="3.0753788"
+                width="1"
+                height="12"
+              />
+              <rect
+                transform="translate(27, 16.5) rotate(90) translate(-27, -16.5)"
+                x="26.5"
+                y="10.5"
+                width="1"
+                height="12"
+              />
+              <rect
+                transform="translate(23.9246, 24.4246) rotate(135) translate(-23.9246, -24.4246)"
+                x="23.4246212"
+                y="17.9246212"
+                width="1"
+                height="13"
+              />
+              <rect
+                transform="translate(16.5, 27) rotate(180) translate(-16.5, -27)"
+                x="16"
+                y="21"
+                width="1"
+                height="12"
+              />
+              <rect
+                transform="translate(9.0754, 23.9246) rotate(225) translate(-9.0754, -23.9246)"
+                x="8.5753788"
+                y="17.9246212"
+                width="1"
+                height="12"
+              />
+              <rect
+                transform="translate(6, 16.5) rotate(270) translate(-6, -16.5)"
+                x="5.5"
+                y="10.5"
+                width="1"
+                height="12"
+              />
+              <rect
+                transform="translate(9.0754, 9.0754) rotate(315) translate(-9.0754, -9.0754)"
+                x="8.5753788"
+                y="3.0753788"
+                width="1"
+                height="12"
+              />
+            </g>
+          </g>
+          <circle id="椭圆形" fill="#191919" cx="27" cy="30" r="7" />
+        </g>
+        <path
+          d="M272.5,481.919072 L288.132304,492.034093 L272.5,503.988208 L272.5,496.5 L249.5,496.5 L249.5,489.5 L272.5,489.5 L272.5,481.919072 Z"
+          id="形状结合"
+          stroke="#191919"
+          fill="#AA7880"
+        />
+        <path
+          d="M272.5,511.919072 L288.132304,522.034093 L272.5,533.988208 L272.5,526.5 L249.5,526.5 L249.5,519.5 L272.5,519.5 L272.5,511.919072 Z"
+          id="形状结合备份-3"
+          stroke="#191919"
+          fill="#AA7880"
+        />
+        <path
+          d="M1473.5,262.919072 L1489.1323,273.034093 L1473.5,284.988208 L1473.5,277.5 L1450.5,277.5 L1450.5,270.5 L1473.5,270.5 L1473.5,262.919072 Z"
+          id="形状结合备份-3"
+          stroke="#191919"
+          fill="#AA7880"
+        />
+        <path
+          d="M272.5,541.919072 L288.132304,552.034093 L272.5,563.988208 L272.5,556.5 L249.5,556.5 L249.5,549.5 L272.5,549.5 L272.5,541.919072 Z"
+          id="形状结合备份-4"
+          stroke="#191919"
+          fill="#AA7880"
+        />
+        <g id="组件3" transform="translate(650, 166)">
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-201" fill="white">
+              <use xlink:href="#path-200" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-201)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-201)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-203" fill="white">
+              <use xlink:href="#path-202" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-202" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3"
+          transform="translate(459.5, 222) scale(-1, 1) translate(-459.5, -222)translate(445, 207)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-205" fill="white">
+              <use xlink:href="#path-204" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-205)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-205)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-207" fill="white">
+              <use xlink:href="#path-206" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-206" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件2" transform="translate(448, 237)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="24" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="24" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="24" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="24" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="24" />
+        </g>
+        <text
+          id="KLRH3_DB2DD156"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="524.942" y="531">27</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD132"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="524.2" y="584">22</tspan>
+        </text>
+        <text
+          id="℃"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="576" y="528">℃</tspan>
+        </text>
+        <text
+          id="cm"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="576" y="581">cm</tspan>
+        </text>
+        <g id="组件12备份-2" transform="translate(209, 862)">
+          <rect id="矩形" fill="#D428B6" x="0" y="42" width="78" height="4" />
+          <g id="编组" transform="translate(15, 0)">
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-166)"
+              x="17.5"
+              y="36.5"
+              width="17"
+              height="15"
+            />
+            <rect
+              id="矩形备份-71"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="33.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-168)"
+              x="23.5"
+              y="27.5"
+              width="5"
+              height="10"
+            />
+            <circle id="椭圆形" fill="#191919" cx="17" cy="2" r="2" />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#C1C3C2"
+              x="12.5"
+              y="2.5"
+              width="27"
+              height="25"
+              rx="3"
+            />
+            <path
+              d="M17,4 L39,4 L39,4 L39,25 C39,26.1045695 38.1045695,27 37,27 L14,27 L14,27 L14,7 C14,5.34314575 15.3431458,4 17,4 Z"
+              id="矩形"
+              fill="#9A9899"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#9A9899"
+              x="11.5"
+              y="13.5"
+              width="29"
+              height="4"
+            />
+            <path
+              d="M12.5,19.5 L12.5,22.5 L3.5,22.5 L3.5,36.5 L0.5,36.5 L0.5,22 C0.5,21.3096441 0.779822031,20.6846441 1.23223305,20.232233 C1.68464406,19.779822 2.30964406,19.5 3,19.5 L12.5,19.5 Z"
+              id="形状结合"
+              stroke="#191919"
+              fill="#9A9899"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="12.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+          </g>
+        </g>
+        <g id="组件12备份-3" transform="translate(209, 1140)">
+          <rect id="矩形" fill="#D428B6" x="0" y="42" width="78" height="4" />
+          <g id="编组" transform="translate(15, 0)">
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-166)"
+              x="17.5"
+              y="36.5"
+              width="17"
+              height="15"
+            />
+            <rect
+              id="矩形备份-71"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="33.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-168)"
+              x="23.5"
+              y="27.5"
+              width="5"
+              height="10"
+            />
+            <circle id="椭圆形" fill="#191919" cx="17" cy="2" r="2" />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#C1C3C2"
+              x="12.5"
+              y="2.5"
+              width="27"
+              height="25"
+              rx="3"
+            />
+            <path
+              d="M17,4 L39,4 L39,4 L39,25 C39,26.1045695 38.1045695,27 37,27 L14,27 L14,27 L14,7 C14,5.34314575 15.3431458,4 17,4 Z"
+              id="矩形"
+              fill="#9A9899"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#9A9899"
+              x="11.5"
+              y="13.5"
+              width="29"
+              height="4"
+            />
+            <path
+              d="M12.5,19.5 L12.5,22.5 L3.5,22.5 L3.5,36.5 L0.5,36.5 L0.5,22 C0.5,21.3096441 0.779822031,20.6846441 1.23223305,20.232233 C1.68464406,19.779822 2.30964406,19.5 3,19.5 L12.5,19.5 Z"
+              id="形状结合"
+              stroke="#191919"
+              fill="#9A9899"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="12.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+          </g>
+        </g>
+        <text
+          id="消防阀"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="132" y="386">消防阀</tspan>
+        </text>
+        <text
+          id="油相熔罐一"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="361" y="459">油相熔罐一</tspan>
+        </text>
+        <g id="组件2" transform="translate(140, 811)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="152" height="14" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="152" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="1" width="152" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="12" width="152" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="0" y="13" width="152" height="1" />
+          <path
+            d="M81,4 L81,6 L93,6 L93,8 L81,8 L81,10 L79,10 L79,8 L47,8 L47,6 L79,6 L79,4 L81,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件2备份-3" transform="translate(114, 834)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="254" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="0" width="2" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="254" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="254" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="254" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="254" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="98" width="2" height="46" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="130" width="6" height="2" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="211" width="2" height="38" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="243" width="6" height="2" />
+        </g>
+        <g id="组件2" transform="translate(19, 948)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="85" height="14" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="85" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="1" width="85" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="12" width="85" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="0" y="13" width="85" height="1" />
+          <path
+            d="M81,4 L81,6 L93,6 L93,8 L81,8 L81,10 L79,10 L79,8 L23,8 L23,6 L79,6 L79,4 L81,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g
+          id="组件9"
+          transform="translate(117, 955) rotate(90) translate(-117, -955)translate(94, 938)"
+        >
+          <rect id="矩形" fill="url(#linearGradient-48)" x="7" y="1" width="32" height="22" />
+          <path
+            d="M14,27 L14,21 L23,12 L32,21 L32,27 L14,27 Z"
+            id="形状结合"
+            fill="url(#linearGradient-208)"
+          />
+          <rect id="矩形" fill="url(#linearGradient-51)" x="0" y="0" width="7" height="24" />
+          <rect id="矩形备份-64" fill="#B4B2B3" x="0" y="1" width="1" height="22" />
+          <rect
+            id="矩形备份-67"
+            fill="url(#linearGradient-52)"
+            x="11"
+            y="27"
+            width="24"
+            height="7"
+          />
+          <rect id="矩形备份-70" fill="#B4B2B3" x="12" y="27" width="22" height="1" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-61" fill="#191919" x="0" y="23" width="7" height="1" />
+          <rect id="矩形备份-68" fill="#191919" x="11" y="27" width="1" height="7" />
+          <rect id="矩形备份-69" fill="#191919" x="34" y="27" width="1" height="7" />
+          <rect
+            id="矩形备份-60"
+            fill="url(#linearGradient-51)"
+            x="39"
+            y="0"
+            width="7"
+            height="24"
+          />
+          <rect id="矩形备份-65" fill="#B4B2B3" x="39" y="1" width="1" height="22" />
+          <rect id="矩形备份-62" fill="#191919" x="39" y="0" width="7" height="1" />
+          <rect id="矩形备份-63" fill="#191919" x="39" y="23" width="7" height="1" />
+        </g>
+        <g
+          id="组件3"
+          transform="translate(125.5, 823) scale(-1, 1) translate(-125.5, -823)translate(111, 808)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-210" fill="white">
+              <use xlink:href="#path-209" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-210)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-210)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-212" fill="white">
+              <use xlink:href="#path-211" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-211" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3"
+          transform="translate(125.5, 1097) scale(-1, -1) translate(-125.5, -1097)translate(111, 1082)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-214" fill="white">
+              <use xlink:href="#path-213" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-214)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-214)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-216" fill="white">
+              <use xlink:href="#path-215" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-215" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件2备份-5" transform="translate(140, 1095)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="152" height="14" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="152" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="1" width="152" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="12" width="152" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="0" y="13" width="152" height="1" />
+          <path
+            d="M81,4 L81,6 L93,6 L93,8 L81,8 L81,10 L79,10 L79,8 L47,8 L47,6 L79,6 L79,4 L81,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="编组-4" transform="translate(283, 683)">
+          <text
+            id="水相熔罐一"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="32" y="269">水相熔罐一</tspan>
+          </text>
+          <g id="组件5" transform="translate(67, 0)">
+            <mask id="mask-218" fill="white">
+              <use xlink:href="#path-217" />
+            </mask>
+            <use id="蒙版" fill="#D8D8D8" xlink:href="#path-217" />
+            <g mask="url(#mask-218)">
+              <rect id="矩形" fill="#191919" x="0" y="0" width="30" height="42" />
+              <rect id="矩形" fill="#191919" x="2" y="41" width="26" height="5" />
+              <rect id="矩形" fill="#A4A4A4" x="3" y="42" width="4" height="3" />
+              <rect id="矩形备份-47" fill="#B4B2B3" x="7" y="42" width="5" height="3" />
+              <rect id="矩形备份-48" fill="#D4D4D4" x="12" y="42" width="5" height="3" />
+              <rect id="矩形备份-49" fill="#B4B2B3" x="17" y="42" width="5" height="3" />
+              <rect id="矩形备份-50" fill="#A4A4A4" x="22" y="42" width="5" height="3" />
+              <rect id="矩形" fill="#D8D8D8" x="1" y="0" width="28" height="5" />
+              <rect id="矩形" fill="#A4A4A4" x="1" y="0" width="5" height="5" />
+              <rect id="矩形备份-47" fill="#B4B2B3" x="6" y="0" width="6" height="5" />
+              <rect id="矩形备份-48" fill="#D4D4D4" x="12" y="0" width="6" height="5" />
+              <rect id="矩形备份-49" fill="#B4B2B3" x="18" y="0" width="6" height="5" />
+              <rect id="矩形备份-50" fill="#A4A4A4" x="24" y="0" width="5" height="5" />
+              <rect id="矩形" fill="#818483" x="27" y="12" width="1" height="26" />
+              <rect id="矩形备份-46" fill="#818483" x="2" y="7" width="3" height="14" />
+              <rect id="矩形" fill="#B2B2B2" x="1" y="22" width="16" height="16" />
+              <rect id="矩形" fill="#FFFFFF" x="1" y="22" width="16" height="2" />
+              <rect id="矩形" fill="#FFFFFF" x="15" y="22" width="2" height="15" />
+              <rect id="矩形" fill="#191919" x="1" y="37" width="16" height="2" />
+              <rect id="矩形" fill="#191919" x="1" y="22" width="2" height="16" />
+            </g>
+            <rect
+              id="矩形"
+              fill="#191919"
+              mask="url(#mask-218)"
+              x="0"
+              y="0"
+              width="30"
+              height="1"
+            />
+            <path
+              d="M27.8060756,0.5 L29.5,2.04662659 L29.5,41.5 L0.5,41.5 L0.5,2.04662659 L2.19392436,0.5 L27.8060756,0.5 Z"
+              id="蒙版"
+              stroke="#191919"
+              mask="url(#mask-218)"
+            />
+          </g>
+          <g id="组件6" transform="translate(0, 46)">
+            <g id="编组-3" transform="translate(-0, 0)">
+              <path
+                d="M5.26013184,4.77272185 C30.8400879,1.59090728 56.4200439,0 82,0 C107.579956,0 133.159912,1.59090728 158.739868,4.77272185 C161.74448,5.1459871 164.000142,7.69940911 164,10.727118 L164,183.272882 C164.000142,186.300591 161.74448,188.854013 158.739868,189.227278 C133.159912,192.409093 107.579956,194 82,194 C56.4200439,194 30.8400879,192.409093 5.26013184,189.227278 C2.2555197,188.854013 -0.000141662411,186.300591 0,183.272882 L0,10.727118 C-0.000141662412,7.69940911 2.2555197,5.1459871 5.26013184,4.77272185 Z"
+                id="矩形"
+                fill="url(#linearGradient-219)"
+              />
+              <rect
+                id="矩形"
+                fill="#64D9E4"
+                x="13.2972973"
+                y="62.1011236"
+                width="135.189189"
+                height="121"
+              />
+              <path
+                d="M78.2366596,13.7036581 L79.4662284,13.7079503 C94.8098084,13.7907211 109.102441,14.9594786 113.928174,16.5483617 C123.655648,19.7511535 127.77724,23.3108346 131.72456,26.72514 C132.39827,27.3078773 133.066418,27.8861485 133.76058,28.4566293 C150.183319,41.9532632 149.602769,71.2944502 148.609022,98.2894837 C148.388711,104.274216 148.17293,110.118995 148.17293,115.600465 C148.17293,127.564317 149.707907,137.470501 150.991017,145.785524 C152.967975,158.596937 154.088261,167.794486 149.487414,175.022993 C143.497577,184.433779 119.590739,186.144008 94.6725575,186.105746 L92.8579851,186.101206 C90.2979605,186.092498 87.7411077,186.074771 85.2097623,186.057216 C81.7714549,186.03337 78.3803427,186.009831 75.0927204,186.009831 C60.3655415,186.009831 48.2310383,184.138627 39.2115514,180.594245 C29.6588533,176.840329 23.5344067,171.19313 21.102037,164.026983 C18.7982774,157.239742 19.6873279,141.737374 21.3235244,125.860199 L21.5171906,124.006051 C21.5499376,123.696481 21.5828815,123.386909 21.616297,123.074651 L21.8165852,121.22233 C22.2013723,117.698263 22.603524,114.199718 22.9915451,110.824214 C24.1186747,101.018998 25.1316124,92.2641239 25.2269199,87.0041624 C25.3607102,79.6203634 25.4150483,72.9179697 25.4641673,66.8630574 C25.6749621,40.8782908 26.2629836,26.61543 31.5736352,20.9831226 C35.1803731,17.1579317 48.5713223,14.7461469 64.0840347,14.0118367 C68.7174937,13.7925072 73.5159415,13.6961822 78.2366596,13.7036581 Z"
+                id="路径-7"
+                stroke="#191919"
+                stroke-width="5"
+              />
+              <path
+                d="M69.1192513,9.34972667 C85.8137503,9.24685812 102.067734,10.4728174 107.279526,12.1888112 C117.006999,15.391603 121.128591,18.9512841 125.07401,22.3639463 L125.781363,22.9745486 C126.219706,23.3513946 126.660273,23.7258935 127.111932,24.0970788 C142.316666,36.5927255 143.01274,62.6222602 142.175029,87.8974364 L142.108534,89.8421371 C142.060493,91.2101665 142.010303,92.573621 141.960374,93.9299332 C141.740063,99.9146651 141.524282,105.759444 141.524282,111.240915 C141.524282,123.204767 143.059258,133.110951 144.342368,141.425973 C146.319327,154.237386 147.439612,163.434935 142.838766,170.663443 C137.067937,179.730139 114.719981,181.69737 90.7486484,181.745755 L88.93504,181.747111 C88.3294213,181.746837 87.7235376,181.745877 87.115517,181.744345 L85.3015018,181.738204 C83.0450821,181.728759 80.7931803,181.713145 78.5611137,181.697665 C75.1228063,181.67382 71.7316941,181.650281 68.4440718,181.650281 C53.7168928,181.650281 41.5823897,179.779076 32.5629028,176.234695 C23.0102046,172.480778 16.8857581,166.833579 14.4533884,159.667432 C12.157057,152.902076 13.0513825,137.456792 14.6627029,121.63803 L14.7948729,120.354773 C14.8839685,119.498941 14.9749638,118.642674 15.067468,117.787284 L15.2694564,115.937131 C15.6230838,112.726594 15.9888732,109.544411 16.3428965,106.464663 C17.4700261,96.6594474 18.4829637,87.9045734 18.5782713,82.6446118 C18.7120616,75.2608129 18.7663997,68.5584192 18.8155186,62.5035068 C19.0263135,36.5187403 19.614335,22.2558794 24.9249866,16.623572 C28.5317244,12.7983812 41.9226737,10.3865964 57.435386,9.65228618 C60.0542977,9.5283173 62.7259184,9.44364477 65.4064204,9.39480098 L66.6440462,9.37478912 C67.0566919,9.3689581 67.4693883,9.36396247 67.8819757,9.3597896 Z"
+                id="路径-7"
+                stroke="#FFFFFF"
+                stroke-width="5"
+              />
+              <path
+                d="M82,0 C107.579956,0 133.159912,1.59090728 158.739868,4.77272185 C161.74448,5.1459871 164.000142,7.69940911 164,10.727118 L164,183.272882 C164.000142,186.300591 161.74448,188.854013 158.739868,189.227278 C133.159912,192.409093 107.579956,194 82,194 C56.4200439,194 30.8400879,192.409093 5.26013184,189.227278 C2.2555197,188.854013 -0.000141662411,186.300591 0,183.272882 L0,10.727118 C-0.000141662412,7.69940911 2.2555197,5.1459871 5.26013184,4.77272185 C30.8400879,1.59090728 56.4200439,0 82,0 Z M109.822008,16.743186 C98.8602325,13.1339975 38.132592,11.9656326 30.0682537,20.518412 C23.7045055,27.2676 25.0843229,47.222956 24.4021853,84.8696783 C24.2731549,91.9907808 22.4907553,105.454696 20.9774902,119.313912 L20.7774852,121.163628 C19.0278439,137.514253 17.7700609,154.04655 20.1450591,161.043671 C24.6261876,174.245787 43.2140518,181.330056 71.7683961,181.330056 C77.1937216,181.330056 82.9003941,181.393992 88.6362905,181.418001 L90.4483036,181.424135 L92.2604951,181.426887 C115.510551,181.437403 138.368821,180.433059 144.054054,171.500845 C151.437473,159.900566 142.348606,142.775281 142.348606,113.42069 C142.348606,84.066099 148.486486,44.3469321 128.848949,28.2082931 C128.538247,27.9529497 128.232603,27.6961204 127.929344,27.4380556 L127.47591,27.050063 C127.249753,26.8556347 127.024186,26.6605819 126.79808,26.4650102 L126.344816,26.0732062 C122.707614,22.9337408 118.740063,19.6794749 109.822008,16.743186 Z"
+                id="形状结合"
+                fill="url(#linearGradient-220)"
+              />
+            </g>
+            <path
+              d="M82,0.5 C107.559384,0.5 133.118767,2.08964253 158.678227,5.26890762 C160.055331,5.4399863 161.260802,6.11067894 162.121983,7.0855238 C162.983172,8.06037845 163.500065,9.33939097 163.5,10.727118 L163.5,183.272905 C163.500065,184.660609 162.983172,185.939622 162.121983,186.914476 C161.260802,187.889321 160.055331,188.560014 158.67815,188.731102 C133.118767,191.910357 107.559384,193.5 82,193.5 C56.440616,193.5 30.8812332,191.910357 5.32177339,188.731092 C3.94466941,188.560014 2.73919824,187.889321 1.8780173,186.914476 C1.0168277,185.939622 0.499935084,184.660609 0.500000013,183.272882 L0.500000013,10.7270946 C0.499935084,9.33939097 1.0168277,8.06037845 1.8780173,7.0855238 C2.73919824,6.11067894 3.94466941,5.4399863 5.32184974,5.26889813 C30.8812332,2.08964253 56.440616,0.5 82,0.5 Z"
+              id="矩形"
+              stroke="#191919"
+            />
+            <path
+              d="M85.6118164,137.916992 L94.5198972,127.957254 C94.888083,127.545602 95.5202667,127.510365 95.9319191,127.878551 C96.1516188,128.075052 96.2734369,128.358471 96.2648339,128.653101 L95.7042953,147.85003 C95.6881757,148.402079 95.2275838,148.836536 94.6755343,148.820417 C94.3798397,148.811782 94.1031421,148.672671 93.9198385,148.440487 L85.6118164,137.916992 L85.6118164,137.916992 Z"
+              id="路径-4"
+              stroke="#191919"
+              fill="#4F4C4F"
+            />
+            <path
+              d="M84,138.635498 L43.4500957,127.692415 C41.8504669,127.260728 40.20376,128.207531 39.7720729,129.80716 C39.7032965,130.062013 39.668457,130.324829 39.668457,130.588799 L39.668457,145.725209 C39.668457,147.382064 41.0116028,148.725209 42.668457,148.725209 C42.9102304,148.725209 43.1511172,148.695982 43.3858756,148.638165 L84,138.635498 L84,138.635498 Z"
+              id="路径-6"
+              stroke="#191919"
+              fill="#737476"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#EAEAEA"
+              x="82.5"
+              y="15.5"
+              width="3"
+              height="126"
+            />
+            <path
+              d="M85.6118164,138.635498 L126.782221,126.916791 C128.375778,126.463203 130.035317,127.38733 130.488906,128.980887 C130.564944,129.248026 130.603516,129.524431 130.603516,129.802181 L130.603516,145.738625 C130.603516,147.395479 129.26037,148.738625 127.603516,148.738625 C127.365164,148.738625 127.127663,148.71022 126.896034,148.65401 L85.6118164,138.635498 L85.6118164,138.635498 Z"
+              id="路径-5"
+              stroke="#191919"
+              fill="#737476"
+            />
+            <path
+              d="M84,138.512695 L74.9644973,148.641575 C74.5968512,149.05371 73.9647142,149.089775 73.5525797,148.722129 C73.3398858,148.532394 73.2182617,148.260916 73.2182617,147.975893 L73.2182617,129.255401 C73.2182617,128.703117 73.665977,128.255401 74.2182617,128.255401 C74.4997275,128.255401 74.7681608,128.37402 74.9576621,128.582135 L84,138.512695 L84,138.512695 Z"
+              id="路径-2"
+              stroke="#191919"
+              fill="#4F4C4F"
+            />
+          </g>
+        </g>
+        <g id="编组-23" transform="translate(140, 925)">
+          <g id="编组-22" transform="translate(80, 62)">
+            <rect id="矩形" fill="#FFFFFF" x="0" y="0" width="42" height="14" />
+            <polyline
+              id="路径-14"
+              stroke="#191919"
+              points="1 1 6 11.9550781 11 2 16 12 21 2 26 12 31 2 36 12 41 2"
+            />
+            <rect id="矩形" stroke="#B1B1B1" x="0.5" y="0.5" width="41" height="13" />
+          </g>
+          <g
+            id="编组-22"
+            transform="translate(120, 32.5) rotate(90) translate(-120, -32.5)translate(89.5, 25.5)"
+          >
+            <rect id="矩形" fill="#FFFFFF" x="0" y="-8.10397203e-17" width="61" height="14" />
+            <polyline
+              id="路径-14"
+              stroke="#191919"
+              points="0.859130859 13 5.02392578 2 10.0268555 12 12.9338379 2 18 12 23 2 28 12 33 2 38 12 43 2 48 12 53 2 60 13.7131348"
+            />
+            <rect id="矩形" stroke="#B1B1B1" x="0.5" y="0.5" width="60" height="13" />
+          </g>
+          <g
+            id="编组-22备份"
+            transform="translate(120, 105.5) rotate(90) translate(-120, -105.5)translate(89.5, 98.5)"
+          >
+            <rect id="矩形" fill="#FFFFFF" x="0" y="4.3889211e-15" width="61" height="14" />
+            <polyline
+              id="路径-14"
+              stroke="#191919"
+              points="0.859130859 13 5.02392578 2 10.0268555 12 12.9338379 2 18 12 23 2 28 12 33 2 38 12 43 2 48 12 53 2 60 13.7131348"
+            />
+            <rect id="矩形" stroke="#B1B1B1" x="0.5" y="0.5" width="60" height="13" />
+          </g>
+          <path
+            d="M142,94.4342585 L158.598612,105.5 L142,116.565741 L142,109 L99,109 L99,102 L142,102 L142,94.4342585 Z"
+            id="形状结合备份-14"
+            stroke="#191919"
+            fill="#AA7880"
+            transform="translate(129, 105.5) scale(1, -1) rotate(-90) translate(-129, -105.5)"
+          />
+          <path
+            d="M142,21.4342585 L158.598612,32.5 L142,43.5657415 L142,36 L99,36 L99,29 L142,29 L142,21.4342585 Z"
+            id="形状结合备份-15"
+            stroke="#191919"
+            fill="#AA7880"
+            transform="translate(129, 32.5) rotate(-90) translate(-129, -32.5)"
+          />
+          <path
+            d="M90.5,0.5 L90.5,3.5 L92.5,3.5 L92.5,16.5 L78.5,16.5 L78.5,29.5 L48.5,29.5 L48.5,3.5 L87.5,3.5 L87.5,0.5 L90.5,0.5 Z"
+            id="形状结合"
+            stroke="#191919"
+            fill="#ADE8E3"
+          />
+          <path
+            d="M80.5,29.5 L80.5,43.5 L82.5,43.5 L82.5,56.5 L46.5,56.5 L46.5,29.5 L80.5,29.5 Z"
+            id="形状结合"
+            stroke="#191919"
+            fill="#ADE8E3"
+          />
+          <rect id="矩形" fill="#FEFFB1" x="60" y="36" width="8" height="8" />
+          <rect id="矩形备份-137" fill="#D8B838" x="60" y="44" width="8" height="2" />
+          <rect id="矩形备份-138" fill="#FEFFB1" x="60" y="46" width="8" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#B9D8D7"
+            x="46.5"
+            y="56.5"
+            width="34"
+            height="31"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#83B0B2"
+            x="46.5"
+            y="58.5"
+            width="32"
+            height="30"
+          />
+          <rect id="矩形" stroke="#191919" fill="#ADE8E3" x="0.5" y="88.5" width="82" height="14" />
+          <rect id="矩形" fill="#FFFFFF" x="29" y="92" width="25" height="7" />
+          <rect id="矩形" fill="#191919" x="30" y="94" width="22" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#9ECBCF" x="80.5" y="76.5" width="23" height="9" />
+          <rect id="矩形" stroke="#191919" fill="#ADE8E3" x="0.5" y="41.5" width="32" height="22" />
+          <rect id="矩形" fill="#FFFFFF" x="2" y="54" width="30" height="9" />
+          <rect id="矩形" fill="#ADE8E3" x="3" y="55" width="30" height="8" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#ADE8E3"
+            x="36.5"
+            y="45.5"
+            width="10"
+            height="11"
+          />
+          <rect id="矩形" fill="#FEFFB1" x="39" y="46" width="5" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#ADE8E3" x="4.5" y="63.5" width="26" height="7" />
+          <rect
+            id="矩形备份-135"
+            stroke="#191919"
+            fill="#191919"
+            x="4.5"
+            y="61.5"
+            width="26"
+            height="1"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#72AAA6"
+            x="11.5"
+            y="41.5"
+            width="21"
+            height="13"
+          />
+          <rect id="矩形" fill="#191919" x="7" y="41" width="23" height="10" />
+          <rect
+            id="矩形备份-136"
+            stroke="#191919"
+            fill="#72AAA6"
+            x="11.5"
+            y="54.5"
+            width="21"
+            height="9"
+          />
+          <rect id="矩形" stroke="#191919" fill="#ADE8E3" x="4.5" y="70.5" width="26" height="18" />
+          <rect id="矩形" stroke="#191919" fill="#164D4E" x="12.5" y="63.5" width="10" height="7" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#B9D8D7"
+            x="36.5"
+            y="56.5"
+            width="10"
+            height="32"
+          />
+          <rect id="矩形" fill="#191919" x="79" y="0" width="3" height="4" />
+          <rect id="矩形" fill="#191919" x="49" y="28" width="6" height="1" />
+          <rect id="矩形备份-133" fill="#191919" x="61" y="28" width="6" height="1" />
+          <rect id="矩形备份-134" fill="#191919" x="72" y="28" width="6" height="1" />
+        </g>
+        <text
+          id="液铵罐"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="138" y="701">液铵罐</tspan>
+        </text>
+        <text
+          id="油相熔罐二"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="856" y="465">油相熔罐二</tspan>
+        </text>
+        <g id="组件3" transform="translate(830, 207)">
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-222" fill="white">
+              <use xlink:href="#path-221" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-222)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-222)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-224" fill="white">
+              <use xlink:href="#path-223" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-223" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件8" transform="translate(667, 361)" />
+        <g id="组件2" transform="translate(662, 196)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="9" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="9" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="9" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="9" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="9" />
+        </g>
+        <g id="组件2" transform="translate(842, 237)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="24" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="24" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="24" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="24" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="24" />
+        </g>
+        <g id="组件2备份" transform="translate(80, 441)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="26" height="14" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="26" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="1" width="26" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="12" width="26" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="0" y="13" width="26" height="1" />
+        </g>
+        <g id="组件2" transform="translate(118, 457)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="24" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="24" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="24" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="24" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="24" />
+        </g>
+        <g id="组件2备份-2" transform="translate(223, 426)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="58" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="58" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="58" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="58" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="58" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="44" width="2" height="13" />
+        </g>
+        <g id="组件5" transform="translate(396, 206)">
+          <mask id="mask-226" fill="white">
+            <use xlink:href="#path-225" />
+          </mask>
+          <use id="蒙版" fill="#D8D8D8" xlink:href="#path-225" />
+          <g mask="url(#mask-226)">
+            <rect id="矩形" fill="#191919" x="0" y="0" width="30" height="42" />
+            <rect id="矩形" fill="#191919" x="2" y="41" width="26" height="5" />
+            <rect id="矩形" fill="#A4A4A4" x="3" y="42" width="4" height="3" />
+            <rect id="矩形备份-47" fill="#B4B2B3" x="7" y="42" width="5" height="3" />
+            <rect id="矩形备份-48" fill="#D4D4D4" x="12" y="42" width="5" height="3" />
+            <rect id="矩形备份-49" fill="#B4B2B3" x="17" y="42" width="5" height="3" />
+            <rect id="矩形备份-50" fill="#A4A4A4" x="22" y="42" width="5" height="3" />
+            <rect id="矩形" fill="#D8D8D8" x="1" y="0" width="28" height="5" />
+            <rect id="矩形" fill="#A4A4A4" x="1" y="0" width="5" height="5" />
+            <rect id="矩形备份-47" fill="#B4B2B3" x="6" y="0" width="6" height="5" />
+            <rect id="矩形备份-48" fill="#D4D4D4" x="12" y="0" width="6" height="5" />
+            <rect id="矩形备份-49" fill="#B4B2B3" x="18" y="0" width="6" height="5" />
+            <rect id="矩形备份-50" fill="#A4A4A4" x="24" y="0" width="5" height="5" />
+            <rect id="矩形" fill="#818483" x="27" y="12" width="1" height="26" />
+            <rect id="矩形备份-46" fill="#818483" x="2" y="7" width="3" height="14" />
+            <rect id="矩形" fill="#B2B2B2" x="1" y="22" width="16" height="16" />
+            <rect id="矩形" fill="#FFFFFF" x="1" y="22" width="16" height="2" />
+            <rect id="矩形" fill="#FFFFFF" x="15" y="22" width="2" height="15" />
+            <rect id="矩形" fill="#191919" x="1" y="37" width="16" height="2" />
+            <rect id="矩形" fill="#191919" x="1" y="22" width="2" height="16" />
+          </g>
+          <rect id="矩形" fill="#191919" mask="url(#mask-226)" x="0" y="0" width="30" height="1" />
+          <path
+            d="M27.8060756,0.5 L29.5,2.04662659 L29.5,41.5 L0.5,41.5 L0.5,2.04662659 L2.19392436,0.5 L27.8060756,0.5 Z"
+            id="蒙版"
+            stroke="#191919"
+            mask="url(#mask-226)"
+          />
+        </g>
+        <g id="组件6" transform="translate(337, 252)">
+          <path
+            d="M5.25280762,4.31535469 C28.1685384,1.43845156 51.0842692,0 74,0 C96.9157308,0 119.831462,1.43845156 142.747192,4.31535469 C145.748185,4.69198334 147.999658,7.24341044 148,10.2679443 L148,167.732056 C147.999658,170.75659 145.748185,173.308017 142.747192,173.684645 C119.831462,176.561548 96.9157308,178 74,178 C51.0842692,178 28.1685384,176.561548 5.25280762,173.684645 C2.25181507,173.308017 0.000342381206,170.75659 0,167.732056 L0,10.2679443 C0.000342381206,7.24341044 2.25181507,4.69198334 5.25280762,4.31535469 Z"
+            id="矩形"
+            fill="url(#linearGradient-169)"
+          />
+          <rect id="矩形" fill="#965941" x="12" y="94" width="122" height="74" />
+          <path
+            d="M66.0005932,12.3978196 C81.9118898,12.1624274 97.9392858,13.3305535 102.901271,14.9916106 C111.726898,17.9460466 115.466981,21.2289407 119.045541,24.3760315 L119.831091,25.0647523 C120.177087,25.3662228 120.525359,25.6659722 120.881307,25.9633901 C134.102741,37.0107595 135.174391,59.592598 134.616181,81.9372207 L134.576199,83.4431068 C134.512881,85.7009962 134.435313,87.9537547 134.354374,90.1892093 C134.155633,95.678255 133.960938,101.038939 133.960938,106.066406 C133.960938,117.033527 135.345303,126.114384 136.502173,133.736657 C138.294717,145.547195 139.289346,154.021361 135.119023,160.682998 C129.821557,169.145123 109.142498,170.947314 87.0756232,170.963735 L85.4379519,170.963008 C85.1645428,170.962582 84.8911071,170.962011 84.6154753,170.961304 L82.9782084,170.955669 C82.1594032,170.952184 81.3412566,170.947785 80.5237131,170.94284 L78.895063,170.932369 C78.2266329,170.927861 77.5596571,170.923158 76.8946337,170.918469 C73.7924442,170.896595 70.7328364,170.875 67.7666016,170.875 C54.4334447,170.875 43.44891,169.148891 35.283632,165.886546 C26.5885069,162.412505 21.0217476,157.183437 18.8083427,150.553378 C16.6963815,144.227184 17.6067671,129.594716 19.0864454,114.801968 L19.214612,113.533815 C19.3224839,112.477011 19.4329028,111.420577 19.5449746,110.367481 L19.6801971,109.105558 L19.8166632,107.84798 L19.9540296,106.595887 C20.1376324,104.930592 20.3227206,103.282964 20.5056325,101.665161 C21.5220574,92.6751745 22.4359346,84.6482109 22.5218813,79.8255705 C22.6426081,73.0513502 22.6916384,66.9022809 22.7359612,61.3472393 C22.9268416,37.4239707 23.4949093,24.3093645 28.3016998,19.1262102 C31.5766012,15.5948894 43.7126684,13.3292338 57.8184298,12.6503605 C60.1202272,12.539581 62.4669894,12.46306 64.8223593,12.4178368 Z"
+            id="路径-7"
+            stroke="#191919"
+            stroke-width="5"
+          />
+          <path
+            d="M60.0005932,8.39781961 C75.9118898,8.16242737 91.9392858,9.3305535 96.9012714,10.9916106 C105.726898,13.9460466 109.466981,17.2289407 113.045541,20.3760315 L113.831091,21.0647523 C114.177087,21.3662228 114.525359,21.6659722 114.881307,21.9633901 C128.102741,33.0107595 129.174391,55.592598 128.616181,77.9372207 L128.576199,79.4431068 C128.512881,81.7009962 128.435313,83.9537547 128.354374,86.1892093 C128.155633,91.678255 127.960938,97.0389394 127.960938,102.066406 C127.960938,113.033527 129.345303,122.114384 130.502173,129.736657 C132.294717,141.547195 133.289346,150.021361 129.119023,156.682998 C123.821557,165.145123 103.142498,166.947314 81.0756232,166.963735 L79.4379519,166.963008 C79.1645428,166.962582 78.8911071,166.962011 78.6154753,166.961304 L76.9782084,166.955669 C76.1594032,166.952184 75.3412566,166.947785 74.5237131,166.94284 L72.895063,166.932369 C72.2266329,166.927861 71.5596571,166.923158 70.8946337,166.918469 C67.7924442,166.896595 64.7328364,166.875 61.7666016,166.875 C48.4334447,166.875 37.44891,165.148891 29.283632,161.886546 C20.5885069,158.412505 15.0217476,153.183437 12.8083427,146.553378 C10.6963815,140.227184 11.6067671,125.594716 13.0864454,110.801968 L13.214612,109.533815 C13.3224839,108.477011 13.4329028,107.420577 13.5449746,106.367481 L13.6801971,105.105558 L13.8166632,103.84798 L13.9540296,102.595887 C14.1376324,100.930592 14.3227206,99.2829636 14.5056325,97.6651606 C15.5220574,88.6751745 16.4359346,80.6482109 16.5218813,75.8255705 C16.6426081,69.0513502 16.6916384,62.9022809 16.7359612,57.3472393 C16.9268416,33.4239707 17.4949093,20.3093645 22.3016998,15.1262102 C25.5766012,11.5948894 37.7126684,9.32923384 51.8184298,8.65036049 C54.1202272,8.53958101 56.4669894,8.46306005 58.8223593,8.4178368 Z"
+            id="路径-7"
+            stroke="#FFFFFF"
+            stroke-width="5"
+          />
+          <path
+            d="M74,0 C96.9157308,0 119.831462,1.43845156 142.747192,4.31535469 C145.748185,4.69198334 147.999658,7.24341044 148,10.2679443 L148,167.732056 C147.999658,170.75659 145.748185,173.308017 142.747192,173.684645 C119.831462,176.561548 96.9157308,178 74,178 C51.0842692,178 28.1685384,176.561548 5.25280762,173.684645 C2.25181507,173.308017 0.000342381206,170.75659 0,167.732056 L0,10.2679443 C0.000342381206,7.24341044 2.25181507,4.69198334 5.25280762,4.31535469 C28.1685384,1.43845156 51.0842692,0 74,0 Z M99.107666,15.3623047 C89.215332,12.0507813 34.4123392,10.9787763 27.1347656,18.8261719 C21.3918709,25.0187257 22.6370719,43.3282793 22.0214844,77.8701172 C21.7627242,92.3896618 14.1357422,135.648438 18.1796875,147.761719 C22.2236328,159.875 38.9980469,166.375 64.7666016,166.375 C68.3741992,166.375 72.1196477,166.40685 75.9119233,166.432426 L77.5397858,166.442892 C78.3548852,166.447822 79.1715377,166.452213 79.9888477,166.455692 L81.6240791,166.461319 C81.8966753,166.462017 82.1692782,166.462586 82.4418546,166.463011 L84.0767304,166.463736 C104.774413,166.448331 124.936055,165.445547 130,157.356445 C136.663086,146.712891 128.460938,131 128.460938,104.066406 C128.460938,77.1328125 134,40.6894531 116.27832,25.8818359 C115.909057,25.5732921 115.547711,25.2623836 115.188771,24.9496353 L114.758846,24.5734879 C111.251461,21.4949534 107.763458,18.2598877 99.107666,15.3623047 Z"
+            id="形状结合"
+            fill="url(#linearGradient-170)"
+          />
+          <path
+            d="M74,0.5 C96.8949706,0.5 119.78994,1.93716366 142.68493,4.81146296 C144.060382,4.98408409 145.26407,5.65509512 146.123935,6.62951122 C146.983801,7.60392994 147.499843,8.88175524 147.5,10.2679443 L147.5,167.731999 C147.499843,169.118245 146.983801,170.39607 146.123935,171.370489 C145.26407,172.344905 144.060382,173.015916 142.68491,173.18854 C119.78994,176.062836 96.8949706,177.5 74,177.5 C51.1050294,177.5 28.2100601,176.062836 5.31506988,173.188537 C3.93961761,173.015916 2.73592984,172.344905 1.87606537,171.370489 C1.01619859,170.39607 0.500156922,169.118245 0.5,167.732056 L0.499999997,10.2680009 C0.500156922,8.88175524 1.01619859,7.60392994 1.87606537,6.62951122 C2.73592984,5.65509512 3.93961761,4.98408409 5.31509008,4.81146042 C28.2100601,1.93716366 51.1050294,0.5 74,0.5 Z"
+            id="矩形"
+            stroke="#191919"
+          />
+          <path
+            d="M75.6118164,137.916992 L84.5198972,127.957254 C84.8880829,127.545602 85.5202667,127.510365 85.9319191,127.878551 C86.1516188,128.075052 86.2734369,128.358471 86.2648339,128.653101 L85.7042952,147.85003 C85.6881757,148.402079 85.2275838,148.836536 84.6755343,148.820417 C84.3798397,148.811782 84.1031421,148.672671 83.9198385,148.440487 L75.6118164,137.916992 L75.6118164,137.916992 Z"
+            id="路径-4"
+            stroke="#191919"
+            fill="#4F4C4F"
+          />
+          <path
+            d="M74,138.635498 L33.4500957,127.692415 C31.8504669,127.260728 30.20376,128.207531 29.7720729,129.80716 C29.7032965,130.062013 29.668457,130.324829 29.668457,130.588799 L29.668457,145.725209 C29.668457,147.382064 31.0116028,148.725209 32.668457,148.725209 C32.9102304,148.725209 33.1511172,148.695982 33.3858756,148.638165 L74,138.635498 L74,138.635498 Z"
+            id="路径-6"
+            stroke="#191919"
+            fill="#737476"
+          />
+          <rect id="矩形" fill="#EAEAEA" x="72" y="13" width="4" height="129" />
+          <path
+            d="M75.6118164,138.635498 L116.782221,126.916791 C118.375778,126.463203 120.035317,127.38733 120.488906,128.980887 C120.564944,129.248026 120.603516,129.524431 120.603516,129.802181 L120.603516,145.738625 C120.603516,147.395479 119.26037,148.738625 117.603516,148.738625 C117.365164,148.738625 117.127663,148.71022 116.896034,148.65401 L75.6118164,138.635498 L75.6118164,138.635498 Z"
+            id="路径-5"
+            stroke="#191919"
+            fill="#737476"
+          />
+          <path
+            d="M74,138.512695 L64.9644972,148.641575 C64.5968512,149.05371 63.9647142,149.089775 63.5525797,148.722129 C63.3398858,148.532394 63.2182617,148.260916 63.2182617,147.975893 L63.2182617,129.255401 C63.2182617,128.703117 63.665977,128.255401 64.2182617,128.255401 C64.4997275,128.255401 64.7681608,128.37402 64.9576621,128.582135 L74,138.512695 L74,138.512695 Z"
+            id="路径-2"
+            stroke="#191919"
+            fill="#4F4C4F"
+          />
+        </g>
+        <g id="组件3" transform="translate(106, 438)">
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-228" fill="white">
+              <use xlink:href="#path-227" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-228)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-228)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-230" fill="white">
+              <use xlink:href="#path-229" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-229" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件1" transform="translate(257, 158)">
+          <polygon id="矩形" fill="#A4A4A4" points="4 9 45.9921875 9 48 12 1.0729107e-14 12" />
+          <rect id="矩形备份-21" fill="#B2B4B3" x="1" y="12" width="46" height="4" />
+          <rect id="矩形备份-23" fill="#D4D4D4" x="1" y="16" width="46" height="4" />
+          <rect id="矩形备份-24" fill="#B4B2B3" x="1" y="20" width="46" height="4" />
+          <polygon id="矩形备份-25" fill="#A4A4A4" points="1.0729107e-14 24 48 24 45 27 3 27" />
+          <path
+            d="M44.7928932,8.5 L47.5,11.2071068 L47.5,23.8333333 L44.75,27.5 L4.16623768,27.5 L0.5,24.7591606 L0.5,11.25 L4.16666667,8.5 L44.7928932,8.5 Z"
+            id="矩形"
+            stroke="#191919"
+          />
+          <rect id="矩形" fill="#191919" x="6" y="9" width="1" height="18" />
+          <rect id="矩形" fill="#000000" x="10" y="6" width="31" height="18" />
+          <rect id="矩形" stroke="#979797" fill="#C9C9C9" x="11.5" y="12.5" width="27" height="1" />
+          <rect id="矩形" stroke="#191919" x="11.5" y="15.5" width="12" height="11" />
+          <rect id="矩形" fill="#FFFFFF" x="12" y="16" width="11" height="2" />
+          <rect id="矩形备份-22" fill="#74676B" x="12" y="24" width="11" height="2" />
+          <rect id="矩形备份-26" fill="#74676B" x="21" y="16" width="2" height="10" />
+          <rect id="矩形" fill="#FFFFFF" x="12" y="18" width="2" height="8" />
+          <polygon id="矩形" fill="#191919" points="6 26 46 26 45 27 6 27" />
+          <rect id="矩形" stroke="#191919" fill="#D4D4D4" x="47.5" y="11.5" width="4" height="4" />
+          <rect
+            id="矩形备份-27"
+            stroke="#191919"
+            fill="#B2B4B3"
+            x="47.5"
+            y="15.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="矩形备份-28"
+            stroke="#191919"
+            fill="#A4A4A4"
+            x="47.5"
+            y="19.5"
+            width="4"
+            height="4"
+          />
+          <rect id="矩形" stroke="#191919" fill="#D8D8D8" x="51.5" y="8.5" width="3" height="19" />
+          <rect id="矩形" fill="#A4A4A4" x="52" y="9" width="2" height="3" />
+          <rect id="矩形备份-29" fill="#B2B4B3" x="52" y="12" width="2" height="4" />
+          <rect id="矩形备份-31" fill="#D4D4D4" x="52" y="16" width="2" height="4" />
+          <rect id="矩形备份-32" fill="#B2B4B3" x="52" y="20" width="2" height="4" />
+          <rect id="矩形备份-33" fill="#A4A4A4" x="52" y="24" width="2" height="3" />
+          <rect id="矩形" fill="#191919" x="64" y="8" width="3" height="20" />
+          <rect id="矩形" fill="#191919" x="48" y="0" width="20" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#474948" x="54.5" y="2.5" width="7" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#474948" x="55.5" y="5.5" width="5" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#D8D8D8" x="55.5" y="8.5" width="5" height="19" />
+          <rect id="矩形" fill="#A4A4A4" x="56" y="9" width="4" height="3" />
+          <rect id="矩形备份-29" fill="#B2B4B3" x="56" y="12" width="4" height="4" />
+          <rect id="矩形备份-31" fill="#D4D4D4" x="56" y="16" width="4" height="4" />
+          <rect id="矩形备份-32" fill="#B2B4B3" x="56" y="20" width="4" height="4" />
+          <rect id="矩形备份-33" fill="#A4A4A4" x="56" y="24" width="4" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#D8D8D8" x="60.5" y="11.5" width="3" height="13" />
+          <rect id="矩形" fill="#191919" x="63" y="11" width="2" height="14" />
+          <rect id="矩形" fill="#B2B4B3" x="61" y="12" width="2" height="4" />
+          <rect id="矩形备份-30" fill="#D4D4D4" x="61" y="16" width="2" height="4" />
+          <rect id="矩形备份-34" fill="#B2B4B3" x="61" y="20" width="2" height="4" />
+          <rect id="矩形" fill="#191919" x="54" y="8" width="2" height="20" />
+        </g>
+        <g id="组件1" transform="translate(14, 430)">
+          <polygon id="矩形" fill="#A4A4A4" points="4 9 45.9921875 9 48 12 1.0729107e-14 12" />
+          <rect id="矩形备份-21" fill="#B2B4B3" x="1" y="12" width="46" height="4" />
+          <rect id="矩形备份-23" fill="#D4D4D4" x="1" y="16" width="46" height="4" />
+          <rect id="矩形备份-24" fill="#B4B2B3" x="1" y="20" width="46" height="4" />
+          <polygon id="矩形备份-25" fill="#A4A4A4" points="1.0729107e-14 24 48 24 45 27 3 27" />
+          <path
+            d="M44.7928932,8.5 L47.5,11.2071068 L47.5,23.8333333 L44.75,27.5 L4.16623768,27.5 L0.5,24.7591606 L0.5,11.25 L4.16666667,8.5 L44.7928932,8.5 Z"
+            id="矩形"
+            stroke="#191919"
+          />
+          <rect id="矩形" fill="#191919" x="6" y="9" width="1" height="18" />
+          <rect id="矩形" fill="#000000" x="10" y="6" width="31" height="18" />
+          <rect id="矩形" stroke="#979797" fill="#C9C9C9" x="11.5" y="12.5" width="27" height="1" />
+          <rect id="矩形" stroke="#191919" x="11.5" y="15.5" width="12" height="11" />
+          <rect id="矩形" fill="#FFFFFF" x="12" y="16" width="11" height="2" />
+          <rect id="矩形备份-22" fill="#74676B" x="12" y="24" width="11" height="2" />
+          <rect id="矩形备份-26" fill="#74676B" x="21" y="16" width="2" height="10" />
+          <rect id="矩形" fill="#FFFFFF" x="12" y="18" width="2" height="8" />
+          <polygon id="矩形" fill="#191919" points="6 26 46 26 45 27 6 27" />
+          <rect id="矩形" stroke="#191919" fill="#D4D4D4" x="47.5" y="11.5" width="4" height="4" />
+          <rect
+            id="矩形备份-27"
+            stroke="#191919"
+            fill="#B2B4B3"
+            x="47.5"
+            y="15.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="矩形备份-28"
+            stroke="#191919"
+            fill="#A4A4A4"
+            x="47.5"
+            y="19.5"
+            width="4"
+            height="4"
+          />
+          <rect id="矩形" stroke="#191919" fill="#D8D8D8" x="51.5" y="8.5" width="3" height="19" />
+          <rect id="矩形" fill="#A4A4A4" x="52" y="9" width="2" height="3" />
+          <rect id="矩形备份-29" fill="#B2B4B3" x="52" y="12" width="2" height="4" />
+          <rect id="矩形备份-31" fill="#D4D4D4" x="52" y="16" width="2" height="4" />
+          <rect id="矩形备份-32" fill="#B2B4B3" x="52" y="20" width="2" height="4" />
+          <rect id="矩形备份-33" fill="#A4A4A4" x="52" y="24" width="2" height="3" />
+          <rect id="矩形" fill="#191919" x="64" y="8" width="3" height="20" />
+          <rect id="矩形" fill="#191919" x="48" y="0" width="20" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#474948" x="54.5" y="2.5" width="7" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#474948" x="55.5" y="5.5" width="5" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#D8D8D8" x="55.5" y="8.5" width="5" height="19" />
+          <rect id="矩形" fill="#A4A4A4" x="56" y="9" width="4" height="3" />
+          <rect id="矩形备份-29" fill="#B2B4B3" x="56" y="12" width="4" height="4" />
+          <rect id="矩形备份-31" fill="#D4D4D4" x="56" y="16" width="4" height="4" />
+          <rect id="矩形备份-32" fill="#B2B4B3" x="56" y="20" width="4" height="4" />
+          <rect id="矩形备份-33" fill="#A4A4A4" x="56" y="24" width="4" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#D8D8D8" x="60.5" y="11.5" width="3" height="13" />
+          <rect id="矩形" fill="#191919" x="63" y="11" width="2" height="14" />
+          <rect id="矩形" fill="#B2B4B3" x="61" y="12" width="2" height="4" />
+          <rect id="矩形备份-30" fill="#D4D4D4" x="61" y="16" width="2" height="4" />
+          <rect id="矩形备份-34" fill="#B2B4B3" x="61" y="20" width="2" height="4" />
+          <rect id="矩形" fill="#191919" x="54" y="8" width="2" height="20" />
+        </g>
+        <g id="组件2备份-2" transform="translate(878, 662)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="30" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="30" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="30" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="30" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="30" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="19" width="2" height="11" />
+        </g>
+        <g id="组件2" transform="translate(21, 399)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="198" height="14" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="198" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="1" width="198" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="12" width="198" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="0" y="13" width="198" height="1" />
+          <path
+            d="M90,4 L90,6 L102,6 L102,8 L90,8 L90,10 L88,10 L88,8 L56,8 L56,6 L88,6 L88,4 L90,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+          <rect id="形状结合备份-2" fill="#FFFFFF" x="178" y="6" width="17" height="2" />
+        </g>
+        <g id="组件10" transform="translate(87, 348)">
+          <rect id="矩形" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="17.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="0.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="9.5" y="4.5" width="29" height="9" />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="路径-10"
+            fill="#F6F4F5"
+          />
+          <polyline id="路径-3" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="20.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect id="矩形" stroke="#191919" fill="#EFEFEF" x="27.5" y="41.5" width="4" height="3" />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="48.5" width="4" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="51.5" width="3" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="55.5" width="4" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="5.5" y="44.5" width="12" height="28" />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="19.5" y="45.5" width="9" height="3" />
+          <rect id="矩形" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="矩形" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="60.5" width="3" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="65.5" width="4" height="3" />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件3" transform="translate(211, 396)">
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-232" fill="white">
+              <use xlink:href="#path-231" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-232)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-232)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-234" fill="white">
+              <use xlink:href="#path-233" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-233" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件5" transform="translate(884, 212)">
+          <mask id="mask-236" fill="white">
+            <use xlink:href="#path-235" />
+          </mask>
+          <use id="蒙版" fill="#D8D8D8" xlink:href="#path-235" />
+          <g mask="url(#mask-236)">
+            <rect id="矩形" fill="#191919" x="0" y="0" width="30" height="42" />
+            <rect id="矩形" fill="#191919" x="2" y="41" width="26" height="5" />
+            <rect id="矩形" fill="#A4A4A4" x="3" y="42" width="4" height="3" />
+            <rect id="矩形备份-47" fill="#B4B2B3" x="7" y="42" width="5" height="3" />
+            <rect id="矩形备份-48" fill="#D4D4D4" x="12" y="42" width="5" height="3" />
+            <rect id="矩形备份-49" fill="#B4B2B3" x="17" y="42" width="5" height="3" />
+            <rect id="矩形备份-50" fill="#A4A4A4" x="22" y="42" width="5" height="3" />
+            <rect id="矩形" fill="#D8D8D8" x="1" y="0" width="28" height="5" />
+            <rect id="矩形" fill="#A4A4A4" x="1" y="0" width="5" height="5" />
+            <rect id="矩形备份-47" fill="#B4B2B3" x="6" y="0" width="6" height="5" />
+            <rect id="矩形备份-48" fill="#D4D4D4" x="12" y="0" width="6" height="5" />
+            <rect id="矩形备份-49" fill="#B4B2B3" x="18" y="0" width="6" height="5" />
+            <rect id="矩形备份-50" fill="#A4A4A4" x="24" y="0" width="5" height="5" />
+            <rect id="矩形" fill="#818483" x="27" y="12" width="1" height="26" />
+            <rect id="矩形备份-46" fill="#818483" x="2" y="7" width="3" height="14" />
+            <rect id="矩形" fill="#B2B2B2" x="1" y="22" width="16" height="16" />
+            <rect id="矩形" fill="#FFFFFF" x="1" y="22" width="16" height="2" />
+            <rect id="矩形" fill="#FFFFFF" x="15" y="22" width="2" height="15" />
+            <rect id="矩形" fill="#191919" x="1" y="37" width="16" height="2" />
+            <rect id="矩形" fill="#191919" x="1" y="22" width="2" height="16" />
+          </g>
+          <rect id="矩形" fill="#191919" mask="url(#mask-236)" x="0" y="0" width="30" height="1" />
+          <path
+            d="M27.8060756,0.5 L29.5,2.04662659 L29.5,41.5 L0.5,41.5 L0.5,2.04662659 L2.19392436,0.5 L27.8060756,0.5 Z"
+            id="蒙版"
+            stroke="#191919"
+            mask="url(#mask-236)"
+          />
+        </g>
+        <g id="组件2" transform="translate(327, 169)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="323" height="14" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="323" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="1" width="323" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="12" width="323" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="0" y="13" width="323" height="1" />
+          <path
+            d="M20,4 L20,6 L32,6 L32,8 L20,8 L20,10 L18,10 L18,8 L0,8 L0,6 L18,6 L18,4 L20,4 Z"
+            id="形状结合"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M154,4 L154,6 L166,6 L166,8 L154,8 L154,10 L152,10 L152,8 L120,8 L120,6 L152,6 L152,4 L154,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M288,4 L288,6 L300,6 L300,8 L288,8 L288,10 L286,10 L286,8 L254,8 L254,6 L286,6 L286,4 L288,4 Z"
+            id="形状结合备份-2"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件2" transform="translate(474, 210)">
+          <rect id="矩形" fill="#16A2BC" x="-5.68434189e-14" y="0" width="356" height="14" />
+          <rect id="矩形" fill="#191919" x="-5.68434189e-14" y="0" width="356" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="-5.68434189e-14" y="1" width="356" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="-5.68434189e-14" y="12" width="356" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="-5.68434189e-14" y="13" width="356" height="1" />
+          <path
+            d="M81,4 L81,6 L93,6 L93,8 L81,8 L81,10 L79,10 L79,8 L47,8 L47,6 L79,6 L79,4 L81,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M255,4 L255,6 L267,6 L267,8 L255,8 L255,10 L253,10 L253,8 L221,8 L221,6 L253,6 L253,4 L255,4 Z"
+            id="形状结合备份-2"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件2" transform="translate(485, 403)">
+          <rect id="矩形" fill="#16A2BC" x="-5.68434189e-14" y="0" width="356" height="14" />
+          <rect id="矩形" fill="#191919" x="-5.68434189e-14" y="0" width="356" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="-5.68434189e-14" y="1" width="356" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="-5.68434189e-14" y="12" width="356" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="-5.68434189e-14" y="13" width="356" height="1" />
+          <path
+            d="M81,4 L81,6 L93,6 L93,8 L81,8 L81,10 L79,10 L79,8 L47,8 L47,6 L79,6 L79,4 L81,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M243,4 L243,6 L255,6 L255,8 L243,8 L243,10 L241,10 L241,8 L209,8 L209,6 L241,6 L241,4 L243,4 Z"
+            id="形状结合备份-2"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件7" transform="translate(485, 351)">
+          <g id="编组-2" transform="translate(59, 49)">
+            <rect id="矩形" fill="url(#linearGradient-18)" x="0" y="0" width="9" height="20" />
+            <rect id="矩形" fill="#B4B2B3" x="8" y="1" width="1" height="18" />
+            <rect id="矩形备份-59" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="矩形" fill="#191919" x="1" y="0" width="8" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="1" y="19" width="8" height="1" />
+          </g>
+          <g id="编组-2备份" transform="translate(0, 49)">
+            <rect id="矩形" fill="url(#linearGradient-19)" x="0" y="0" width="13" height="20" />
+            <rect id="矩形" fill="#191919" x="12" y="2" width="1" height="17" />
+            <rect id="矩形" fill="#191919" x="0" y="0" width="12" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="0" y="19" width="12" height="1" />
+          </g>
+          <rect id="矩形" fill="#191919" x="27" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="29.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="24" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#02C90F" x="25" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="30" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#02C90F" x="36" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="15" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="15" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="12.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="15" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="14" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="21" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#02C90F" x="46" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="31" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="21.5" y="4.5" width="29" height="9" />
+          <path
+            d="M30.5,4 L30.5,2 C30.5,0.8954305 31.3954305,2.02906125e-16 32.5,0 L38.5,0 C40.1568542,-3.04359188e-16 41.5,1.34314575 41.5,3 L41.5,4 L41.5,4 L30.5,4 Z"
+            id="路径-10"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="路径-3" stroke="#191919" points="31 2 31 -9.10729825e-18 36 0" />
+          <path
+            d="M38,0 L39,0 C40.1045695,-2.02906125e-16 41,0.8954305 41,2 L41,2 L41,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M30,2 L30,3 C30,3.55228475 30.4477153,4 31,4 L41,4 C41.5522847,4 42,3.55228475 42,3 L42,2 L42,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="32.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#02C90F" x="22" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#02C90F" x="22" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="51" y="12" width="3" height="7" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="39.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="45.5" cy="13.5" r="3" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="13.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="12.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="17.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="43.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="30" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="29" y="45" width="14" height="4" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="31.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="32" y="44" width="7" height="1" />
+          <rect id="矩形" fill="url(#linearGradient-27)" x="30" y="49" width="12" height="4" />
+          <rect id="矩形" fill="url(#linearGradient-28)" x="31" y="55" width="10" height="11" />
+          <rect id="矩形" fill="url(#linearGradient-29)" x="30" y="67" width="12" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="13.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="55.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="55.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="55.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g
+          id="组件7"
+          transform="translate(1422, 676.5) scale(-1, -1) translate(-1422, -676.5)translate(1388, 640)"
+        >
+          <g id="编组-2" transform="translate(59, 49)">
+            <rect id="矩形" fill="url(#linearGradient-18)" x="0" y="0" width="9" height="20" />
+            <rect id="矩形备份-59" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="矩形" fill="#191919" x="1" y="0" width="8" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="1" y="19" width="8" height="1" />
+          </g>
+          <g id="编组-2备份" transform="translate(0, 49)">
+            <rect id="矩形" fill="url(#linearGradient-19)" x="0" y="0" width="13" height="20" />
+            <rect id="矩形" fill="#191919" x="12" y="2" width="1" height="17" />
+            <rect id="矩形" fill="#191919" x="0" y="0" width="12" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="0" y="19" width="12" height="1" />
+          </g>
+          <rect id="矩形" fill="#191919" x="27" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="29.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="24" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#02C90F" x="25" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="30" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#02C90F" x="36" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="15" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="15" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="12.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="15" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="14" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="21" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#02C90F" x="46" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="31" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="21.5" y="4.5" width="29" height="9" />
+          <path
+            d="M30.5,4 L30.5,2 C30.5,0.8954305 31.3954305,2.02906125e-16 32.5,0 L38.5,0 C40.1568542,-3.04359188e-16 41.5,1.34314575 41.5,3 L41.5,4 L41.5,4 L30.5,4 Z"
+            id="路径-10"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="路径-3" stroke="#191919" points="31 2 31 -9.10729825e-18 36 0" />
+          <path
+            d="M38,0 L39,0 C40.1045695,-2.02906125e-16 41,0.8954305 41,2 L41,2 L41,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M30,2 L30,3 C30,3.55228475 30.4477153,4 31,4 L41,4 C41.5522847,4 42,3.55228475 42,3 L42,2 L42,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="32.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#02C90F" x="22" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#02C90F" x="22" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="51" y="12" width="3" height="7" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="39.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="45.5" cy="13.5" r="3" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="13.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="12.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="17.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="43.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="30" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="29" y="45" width="14" height="4" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="31.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="32" y="44" width="7" height="1" />
+          <rect id="矩形" fill="url(#linearGradient-27)" x="30" y="49" width="12" height="4" />
+          <rect id="矩形" fill="url(#linearGradient-28)" x="31" y="55" width="10" height="11" />
+          <rect id="矩形" fill="url(#linearGradient-29)" x="30" y="67" width="12" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="13.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="55.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="55.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="55.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件7备份-5" transform="translate(1388, 720)">
+          <g id="编组-2" transform="translate(59, 49)">
+            <rect id="矩形" fill="url(#linearGradient-18)" x="0" y="0" width="9" height="20" />
+            <rect id="矩形备份-59" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="矩形" fill="#191919" x="1" y="0" width="8" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="1" y="19" width="8" height="1" />
+          </g>
+          <g id="编组-2备份" transform="translate(0, 49)">
+            <rect id="矩形" fill="url(#linearGradient-19)" x="0" y="0" width="13" height="20" />
+            <rect id="矩形" fill="#191919" x="12" y="2" width="1" height="17" />
+            <rect id="矩形" fill="#191919" x="0" y="0" width="12" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="0" y="19" width="12" height="1" />
+          </g>
+          <rect id="矩形" fill="#191919" x="27" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="29.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="24" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#02C90F" x="25" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="30" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#02C90F" x="36" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="15" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="15" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="12.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="15" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="14" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="21" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#02C90F" x="46" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="31" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="21.5" y="4.5" width="29" height="9" />
+          <path
+            d="M30.5,4 L30.5,2 C30.5,0.8954305 31.3954305,2.02906125e-16 32.5,0 L38.5,0 C40.1568542,-3.04359188e-16 41.5,1.34314575 41.5,3 L41.5,4 L41.5,4 L30.5,4 Z"
+            id="路径-10"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="路径-3" stroke="#191919" points="31 2 31 -9.10729825e-18 36 0" />
+          <path
+            d="M38,0 L39,0 C40.1045695,-2.02906125e-16 41,0.8954305 41,2 L41,2 L41,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M30,2 L30,3 C30,3.55228475 30.4477153,4 31,4 L41,4 C41.5522847,4 42,3.55228475 42,3 L42,2 L42,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="32.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#02C90F" x="22" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#02C90F" x="22" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="51" y="12" width="3" height="7" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="39.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="45.5" cy="13.5" r="3" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="13.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="12.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="17.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="43.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="30" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="29" y="45" width="14" height="4" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="31.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="32" y="44" width="7" height="1" />
+          <rect id="矩形" fill="url(#linearGradient-27)" x="30" y="49" width="12" height="4" />
+          <rect id="矩形" fill="url(#linearGradient-28)" x="31" y="55" width="10" height="11" />
+          <rect id="矩形" fill="url(#linearGradient-29)" x="30" y="67" width="12" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="13.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="55.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="55.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="55.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件12" transform="translate(968, 375)">
+          <rect id="矩形" fill="#D428B6" x="0" y="42" width="78" height="4" />
+          <g id="编组" transform="translate(15, 0)">
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-166)"
+              x="17.5"
+              y="36.5"
+              width="17"
+              height="15"
+            />
+            <rect
+              id="矩形备份-71"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="33.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-168)"
+              x="23.5"
+              y="27.5"
+              width="5"
+              height="10"
+            />
+            <circle id="椭圆形" fill="#191919" cx="17" cy="2" r="2" />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#C1C3C2"
+              x="12.5"
+              y="2.5"
+              width="27"
+              height="25"
+              rx="3"
+            />
+            <path
+              d="M17,4 L39,4 L39,4 L39,25 C39,26.1045695 38.1045695,27 37,27 L14,27 L14,27 L14,7 C14,5.34314575 15.3431458,4 17,4 Z"
+              id="矩形"
+              fill="#9A9899"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#9A9899"
+              x="11.5"
+              y="13.5"
+              width="29"
+              height="4"
+            />
+            <path
+              d="M12.5,19.5 L12.5,22.5 L3.5,22.5 L3.5,36.5 L0.5,36.5 L0.5,22 C0.5,21.3096441 0.779822031,20.6846441 1.23223305,20.232233 C1.68464406,19.779822 2.30964406,19.5 3,19.5 L12.5,19.5 Z"
+              id="形状结合"
+              stroke="#191919"
+              fill="#9A9899"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="12.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+          </g>
+        </g>
+        <g id="组件10" transform="translate(755, 351)">
+          <g id="编组-2" transform="translate(55, 49)">
+            <rect id="矩形" fill="url(#linearGradient-237)" x="0" y="0" width="15" height="20" />
+            <rect id="矩形备份-59" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="矩形" fill="#191919" x="0" y="0" width="15" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="0" y="19" width="15" height="1" />
+          </g>
+          <g id="编组-2备份" transform="translate(0, 49)">
+            <rect id="矩形" fill="url(#linearGradient-18)" x="0" y="0" width="9" height="20" />
+            <rect id="矩形" fill="#191919" x="8" y="2" width="1" height="17" />
+            <rect id="矩形" fill="#191919" x="0" y="0" width="8.30769231" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="0" y="19" width="8.30769231" height="1" />
+          </g>
+          <rect id="矩形" fill="#191919" x="23" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="25.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="20" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#696969" x="21" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="26" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#696969" x="32" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="11" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="11" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="8.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="11" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="10" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="17" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#696969" x="42" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="27" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="17.5" y="4.5" width="29" height="9" />
+          <path
+            d="M26.5,4 L26.5,2 C26.5,0.8954305 27.3954305,2.02906125e-16 28.5,0 L34.5,0 C36.1568542,-3.04359188e-16 37.5,1.34314575 37.5,3 L37.5,4 L37.5,4 L26.5,4 Z"
+            id="路径-10"
+            fill="#F6F4F5"
+          />
+          <polyline id="路径-3" stroke="#191919" points="27 2 27 -9.10729825e-18 32 0" />
+          <path
+            d="M34,0 L35,0 C36.1045695,-2.02906125e-16 37,0.8954305 37,2 L37,2 L37,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M26,2 L26,3 C26,3.55228475 26.4477153,4 27,4 L37,4 C37.5522847,4 38,3.55228475 38,3 L38,2 L38,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="28.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#9B999A" x="18" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#696969" x="18" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="47" y="12" width="3" height="7" />
+          <rect id="矩形" stroke="#191919" fill="#EFEFEF" x="35.5" y="41.5" width="4" height="3" />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="23.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="41.5" cy="13.5" r="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="8.5" y="48.5" width="4" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="9.5" y="51.5" width="3" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="8.5" y="55.5" width="4" height="5" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="13.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="39.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="26" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="25" y="45" width="14" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="27.5" y="45.5" width="9" height="3" />
+          <rect id="矩形" fill="#191919" x="28" y="44" width="7" height="1" />
+          <rect id="矩形" fill="#F1F1F1" x="26" y="49" width="12" height="4" />
+          <rect id="矩形" fill="#F1F1F1" x="27" y="55" width="10" height="11" />
+          <rect id="矩形" fill="#F1F1F1" x="26" y="67" width="12" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="9.5" y="60.5" width="3" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="8.5" y="65.5" width="4" height="3" />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件10" transform="translate(445, 825)">
+          <g id="编组-2" transform="translate(55, 49)">
+            <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+            <rect id="矩形备份-59" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="0" y="19" width="7" height="1" />
+          </g>
+          <g id="编组-2备份" transform="translate(0, 49)">
+            <rect id="矩形" fill="url(#linearGradient-18)" x="0" y="0" width="9" height="20" />
+            <rect id="矩形" fill="#191919" x="8" y="2" width="1" height="17" />
+            <rect id="矩形" fill="#191919" x="0" y="0" width="8.30769231" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="0" y="19" width="8.30769231" height="1" />
+          </g>
+          <rect id="矩形" fill="#191919" x="23" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="25.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="20" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#696969" x="21" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="26" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#696969" x="32" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="11" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="11" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="8.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="11" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="10" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="17" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#696969" x="42" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="27" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="17.5" y="4.5" width="29" height="9" />
+          <path
+            d="M26.5,4 L26.5,2 C26.5,0.8954305 27.3954305,2.02906125e-16 28.5,0 L34.5,0 C36.1568542,-3.04359188e-16 37.5,1.34314575 37.5,3 L37.5,4 L37.5,4 L26.5,4 Z"
+            id="路径-10"
+            fill="#F6F4F5"
+          />
+          <polyline id="路径-3" stroke="#191919" points="27 2 27 -9.10729825e-18 32 0" />
+          <path
+            d="M34,0 L35,0 C36.1045695,-2.02906125e-16 37,0.8954305 37,2 L37,2 L37,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M26,2 L26,3 C26,3.55228475 26.4477153,4 27,4 L37,4 C37.5522847,4 38,3.55228475 38,3 L38,2 L38,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="28.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#9B999A" x="18" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#696969" x="18" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="47" y="12" width="3" height="7" />
+          <rect id="矩形" stroke="#191919" fill="#EFEFEF" x="35.5" y="41.5" width="4" height="3" />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="23.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="41.5" cy="13.5" r="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="8.5" y="48.5" width="4" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="9.5" y="51.5" width="3" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="8.5" y="55.5" width="4" height="5" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="13.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="39.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="26" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="25" y="45" width="14" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="27.5" y="45.5" width="9" height="3" />
+          <rect id="矩形" fill="#191919" x="28" y="44" width="7" height="1" />
+          <rect id="矩形" fill="#F1F1F1" x="26" y="49" width="12" height="4" />
+          <rect id="矩形" fill="#F1F1F1" x="27" y="55" width="10" height="11" />
+          <rect id="矩形" fill="#F1F1F1" x="26" y="67" width="12" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="9.5" y="60.5" width="3" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="8.5" y="65.5" width="4" height="3" />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件2" transform="translate(245, 648)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="198" height="14" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="198" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="1" width="198" height="1" />
+          <rect id="矩形" fill="#99A5AF" x="0" y="12" width="198" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="0" y="13" width="198" height="1" />
+          <path
+            d="M90,4 L90,6 L102,6 L102,8 L90,8 L90,10 L88,10 L88,8 L56,8 L56,6 L88,6 L88,4 L90,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M152,4 L152,6 L164,6 L164,8 L152,8 L152,10 L150,10 L150,8 L118,8 L118,6 L150,6 L150,4 L152,4 Z"
+            id="形状结合备份-5"
+            fill="#FFFFFF"
+          />
+          <rect id="形状结合备份-2" fill="#FFFFFF" x="178" y="6" width="17" height="2" />
+        </g>
+        <g id="组件10备份" transform="translate(250, 597)">
+          <rect id="矩形" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="17.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="0.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="9.5" y="4.5" width="29" height="9" />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="路径-10"
+            fill="#F6F4F5"
+          />
+          <polyline id="路径-3" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="20.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect id="矩形" stroke="#191919" fill="#EFEFEF" x="27.5" y="41.5" width="4" height="3" />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="48.5" width="4" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="51.5" width="3" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="55.5" width="4" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="5.5" y="44.5" width="12" height="28" />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="19.5" y="45.5" width="9" height="3" />
+          <rect id="矩形" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="矩形" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="60.5" width="3" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="65.5" width="4" height="3" />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件10备份-3" transform="translate(153, 759)">
+          <rect id="矩形" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="17.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="0.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="9.5" y="4.5" width="29" height="9" />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="路径-10"
+            fill="#F6F4F5"
+          />
+          <polyline id="路径-3" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="20.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect id="矩形" stroke="#191919" fill="#EFEFEF" x="27.5" y="41.5" width="4" height="3" />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="48.5" width="4" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="51.5" width="3" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="55.5" width="4" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="5.5" y="44.5" width="12" height="28" />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="19.5" y="45.5" width="9" height="3" />
+          <rect id="矩形" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="矩形" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="60.5" width="3" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="65.5" width="4" height="3" />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件10备份-4" transform="translate(150, 1043)">
+          <rect id="矩形" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="17.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="0.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="9.5" y="4.5" width="29" height="9" />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="路径-10"
+            fill="#F6F4F5"
+          />
+          <polyline id="路径-3" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="20.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect id="矩形" stroke="#191919" fill="#EFEFEF" x="27.5" y="41.5" width="4" height="3" />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="48.5" width="4" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="51.5" width="3" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="55.5" width="4" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="5.5" y="44.5" width="12" height="28" />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="19.5" y="45.5" width="9" height="3" />
+          <rect id="矩形" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="矩形" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="60.5" width="3" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="65.5" width="4" height="3" />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件10备份-2" transform="translate(304, 597)">
+          <rect id="矩形" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="17.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="0.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#9B999A" x="9.5" y="4.5" width="29" height="9" />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="路径-10"
+            fill="#F6F4F5"
+          />
+          <polyline id="路径-3" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="20.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect id="矩形" stroke="#191919" fill="#EFEFEF" x="27.5" y="41.5" width="4" height="3" />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="48.5" width="4" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="51.5" width="3" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="55.5" width="4" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="5.5" y="44.5" width="12" height="28" />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect id="矩形" stroke="#191919" fill="#696969" x="19.5" y="45.5" width="9" height="3" />
+          <rect id="矩形" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="矩形" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="矩形" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="1.5" y="60.5" width="3" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#F1F1F1" x="0.5" y="65.5" width="4" height="3" />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件2备份-2" transform="translate(321, 666)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="22" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="22" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="22" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="22" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="22" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="11" width="2" height="11" />
+        </g>
+        <g id="组件2备份-4" transform="translate(390, 666)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="63" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="63" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="63" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="63" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="63" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="42" width="2" height="21" />
+        </g>
+        <g id="组件7" transform="translate(373, 597)">
+          <rect id="矩形" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="17.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#02C90F" x="13" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="18" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#02C90F" x="24" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="0.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="3" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="2" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#02C90F" x="34" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="19" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="9.5" y="4.5" width="29" height="9" />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="路径-10"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="路径-3" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="20.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#02C90F" x="10" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#02C90F" x="10" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="矩形" fill="url(#linearGradient-27)" x="18" y="49" width="12" height="4" />
+          <rect id="矩形" fill="url(#linearGradient-28)" x="19" y="55" width="10" height="11" />
+          <rect id="矩形" fill="url(#linearGradient-29)" x="18" y="67" width="12" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件7" transform="translate(769, 989)">
+          <rect id="矩形" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="17.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#02C90F" x="13" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="18" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#02C90F" x="24" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="0.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="3" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="2" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#02C90F" x="34" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="19" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="9.5" y="4.5" width="29" height="9" />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="路径-10"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="路径-3" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="20.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#02C90F" x="10" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#02C90F" x="10" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="矩形" fill="url(#linearGradient-27)" x="18" y="49" width="12" height="4" />
+          <rect id="矩形" fill="url(#linearGradient-28)" x="19" y="55" width="10" height="11" />
+          <rect id="矩形" fill="url(#linearGradient-29)" x="18" y="67" width="12" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g
+          id="组件7备份-2"
+          transform="translate(965, 731.5) scale(-1, -1) translate(-965, -731.5)translate(941, 695)"
+        >
+          <rect id="矩形" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="17.5" y="33.5" width="13" height="9" />
+          <rect id="矩形" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="矩形" fill="#02C90F" x="13" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="18" y="28" width="4" height="4" />
+          <rect id="矩形" fill="#02C90F" x="24" y="28" width="8" height="5" />
+          <rect id="矩形" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="矩形" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="0.5" y="11.5" width="2" height="11" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="3" cy="23" r="2.5" />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="2" cy="11" r="1.5" />
+          <rect id="矩形" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="矩形" fill="#02C90F" x="34" y="28" width="1" height="3" />
+          <rect id="矩形" fill="#02C90F" x="19" y="21" width="12" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="9.5" y="4.5" width="29" height="9" />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="路径-10"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="路径-3" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="20.5" y="33.5" width="7" height="10" />
+          <rect id="矩形" fill="#02C90F" x="10" y="14" width="28" height="2" />
+          <rect id="矩形" fill="#02C90F" x="10" y="17" width="28" height="2" />
+          <rect id="矩形" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="椭圆形" stroke="#191919" fill="#02C90F" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="矩形" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="矩形" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="矩形" fill="url(#linearGradient-27)" x="18" y="49" width="12" height="4" />
+          <rect id="矩形" fill="url(#linearGradient-28)" x="19" y="55" width="10" height="11" />
+          <rect id="矩形" fill="url(#linearGradient-29)" x="18" y="67" width="12" height="2" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="编组-6" transform="translate(905, 942)">
+          <path
+            d="M4.5,3 C5.46649831,3 6.34149831,3.39175084 6.97487373,4.02512627 C7.60824916,4.65850169 8,5.53350169 8,6.5 L8,16 L1,16 L1,6.5 C1,5.53350169 1.39175084,4.65850169 2.02512627,4.02512627 C2.65850169,3.39175084 3.53350169,3 4.5,3 Z"
+            id="形状结合"
+            stroke="#191919"
+            stroke-width="2"
+            fill="#191919"
+          />
+          <rect id="矩形" fill="#FFFFFF" x="2" y="12" width="5" height="2" />
+          <path
+            d="M4.5,4 C5.88071187,4 7,5.11928813 7,6.5 L7,7 L7,7 L2,7 L2,6.5 C2,5.11928813 3.11928813,4 4.5,4 Z"
+            id="矩形备份-80"
+            fill="#FFFFFF"
+          />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="0.5" y="30.5" width="37" height="25" />
+          <rect id="矩形" fill="#191919" x="3" y="30" width="3" height="26" />
+          <rect id="矩形" fill="#191919" x="13" y="43" width="7" height="3" />
+          <rect id="矩形备份-72" fill="#191919" x="32" y="31" width="3" height="25" />
+          <rect id="矩形" fill="#191919" x="0" y="43" width="6" height="3" />
+          <rect
+            id="矩形"
+            fill="#191919"
+            transform="translate(11.5, 29.5) scale(-1, 1) translate(-11.5, -29.5)"
+            x="11"
+            y="28"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="矩形备份-73"
+            fill="#191919"
+            transform="translate(12.5, 26.5) scale(-1, 1) translate(-12.5, -26.5)"
+            x="12"
+            y="25"
+            width="1"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="13" y="19" width="12" height="3" />
+          <rect
+            id="矩形备份-74"
+            fill="#191919"
+            transform="translate(13.5, 23.5) scale(-1, 1) translate(-13.5, -23.5)"
+            x="13"
+            y="22"
+            width="1"
+            height="3"
+          />
+          <rect id="矩形" fill="#FFFFFF" x="14" y="22" width="10" height="3" />
+          <rect id="矩形备份-78" fill="#FFFFFF" x="13" y="25" width="12" height="3" />
+          <rect id="矩形备份-79" fill="#FFFFFF" x="12" y="28" width="14" height="2" />
+          <rect
+            id="矩形备份-75"
+            fill="#191919"
+            transform="translate(24.5, 23.5) scale(-1, 1) translate(-24.5, -23.5)"
+            x="24"
+            y="22"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="矩形备份-76"
+            fill="#191919"
+            transform="translate(25.5, 26.5) scale(-1, 1) translate(-25.5, -26.5)"
+            x="25"
+            y="25"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="矩形备份-77"
+            fill="#191919"
+            transform="translate(26.5, 29.5) scale(-1, 1) translate(-26.5, -29.5)"
+            x="26"
+            y="28"
+            width="1"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="33" y="43" width="4" height="3" />
+          <path
+            d="M16,0 C16,0 22,0 22,0 C22,0 24.3333333,2 29,6 L29,17 L19,22 L9,17 L9,6 C13.6666667,2 16,0 16,0 Z"
+            id="路径-11"
+            fill="#010000"
+          />
+          <rect id="矩形" fill="#191919" x="29" y="10" width="1" height="2" />
+          <path
+            d="M16.9,3 C16.9,3 21.1,3 21.1,3 C21.1,3 22.7333333,4.45454545 26,7.36363636 L26,15.3636364 L19,19 L12,15.3636364 L12,7.36363636 C15.2666667,4.45454545 16.9,3 16.9,3 Z"
+            id="路径-11"
+            stroke="#979797"
+          />
+          <path
+            d="M18.8,6 C18.8,6 20.2,6.90909091 23,8.72727273 L23,11.4177628 C23,12.8469106 22.2376199,14.1675161 21,14.8821911 C19.762427,15.5968389 18.237573,15.5968389 17,14.8821911 C15.7623801,14.1675161 15,12.8469106 15,11.4177628 L15,8.72727273 L15,8.72727273 C17.5333333,6.90909091 18.8,6 18.8,6 Z"
+            id="路径-11"
+            stroke="#979797"
+          />
+          <rect id="矩形" fill="#979797" x="15" y="9" width="8" height="1" />
+          <circle id="椭圆形" stroke="#191919" fill="#FFFFFF" cx="23" cy="19" r="1.5" />
+          <circle id="椭圆形备份" stroke="#191919" fill="#FFFFFF" cx="15" cy="19" r="1.5" />
+          <rect id="矩形" fill="#979797" x="15" y="11" width="6" height="1" />
+          <path
+            d="M17.0166016,40.5 C17.0166016,40.5 18.1510417,40.5 20.4199219,40.5 L24,44.5 L20.5151367,48.9648438 L17.0166016,48.9648438 C18.3388672,46.9882812 19,46 19,46 C19,46 19,45 19,43 C17.6777344,41.3333333 17.0166016,40.5 17.0166016,40.5 Z"
+            id="路径-12"
+            fill="#191919"
+          />
+        </g>
+        <g id="编组-6备份" transform="translate(904, 666)">
+          <path
+            d="M4.5,3 C5.46649831,3 6.34149831,3.39175084 6.97487373,4.02512627 C7.60824916,4.65850169 8,5.53350169 8,6.5 L8,16 L1,16 L1,6.5 C1,5.53350169 1.39175084,4.65850169 2.02512627,4.02512627 C2.65850169,3.39175084 3.53350169,3 4.5,3 Z"
+            id="形状结合"
+            stroke="#191919"
+            stroke-width="2"
+            fill="#191919"
+          />
+          <rect id="矩形" fill="#FFFFFF" x="2" y="12" width="5" height="2" />
+          <path
+            d="M4.5,4 C5.88071187,4 7,5.11928813 7,6.5 L7,7 L7,7 L2,7 L2,6.5 C2,5.11928813 3.11928813,4 4.5,4 Z"
+            id="矩形备份-80"
+            fill="#FFFFFF"
+          />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="0.5" y="30.5" width="37" height="25" />
+          <rect id="矩形" fill="#191919" x="3" y="30" width="3" height="26" />
+          <rect id="矩形" fill="#191919" x="13" y="43" width="7" height="3" />
+          <rect id="矩形备份-72" fill="#191919" x="32" y="31" width="3" height="25" />
+          <rect id="矩形" fill="#191919" x="0" y="43" width="6" height="3" />
+          <rect
+            id="矩形"
+            fill="#191919"
+            transform="translate(11.5, 29.5) scale(-1, 1) translate(-11.5, -29.5)"
+            x="11"
+            y="28"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="矩形备份-73"
+            fill="#191919"
+            transform="translate(12.5, 26.5) scale(-1, 1) translate(-12.5, -26.5)"
+            x="12"
+            y="25"
+            width="1"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="13" y="19" width="12" height="3" />
+          <rect
+            id="矩形备份-74"
+            fill="#191919"
+            transform="translate(13.5, 23.5) scale(-1, 1) translate(-13.5, -23.5)"
+            x="13"
+            y="22"
+            width="1"
+            height="3"
+          />
+          <rect id="矩形" fill="#FFFFFF" x="14" y="22" width="10" height="3" />
+          <rect id="矩形备份-78" fill="#FFFFFF" x="13" y="25" width="12" height="3" />
+          <rect id="矩形备份-79" fill="#FFFFFF" x="12" y="28" width="14" height="2" />
+          <rect
+            id="矩形备份-75"
+            fill="#191919"
+            transform="translate(24.5, 23.5) scale(-1, 1) translate(-24.5, -23.5)"
+            x="24"
+            y="22"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="矩形备份-76"
+            fill="#191919"
+            transform="translate(25.5, 26.5) scale(-1, 1) translate(-25.5, -26.5)"
+            x="25"
+            y="25"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="矩形备份-77"
+            fill="#191919"
+            transform="translate(26.5, 29.5) scale(-1, 1) translate(-26.5, -29.5)"
+            x="26"
+            y="28"
+            width="1"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="33" y="43" width="4" height="3" />
+          <path
+            d="M16,0 C16,0 22,0 22,0 C22,0 24.3333333,2 29,6 L29,17 L19,22 L9,17 L9,6 C13.6666667,2 16,0 16,0 Z"
+            id="路径-11"
+            fill="#010000"
+          />
+          <rect id="矩形" fill="#191919" x="29" y="10" width="1" height="2" />
+          <path
+            d="M16.9,3 C16.9,3 21.1,3 21.1,3 C21.1,3 22.7333333,4.45454545 26,7.36363636 L26,15.3636364 L19,19 L12,15.3636364 L12,7.36363636 C15.2666667,4.45454545 16.9,3 16.9,3 Z"
+            id="路径-11"
+            stroke="#979797"
+          />
+          <path
+            d="M18.8,6 C18.8,6 20.2,6.90909091 23,8.72727273 L23,11.4177628 C23,12.8469106 22.2376199,14.1675161 21,14.8821911 C19.762427,15.5968389 18.237573,15.5968389 17,14.8821911 C15.7623801,14.1675161 15,12.8469106 15,11.4177628 L15,8.72727273 L15,8.72727273 C17.5333333,6.90909091 18.8,6 18.8,6 Z"
+            id="路径-11"
+            stroke="#979797"
+          />
+          <rect id="矩形" fill="#979797" x="15" y="9" width="8" height="1" />
+          <circle id="椭圆形" stroke="#191919" fill="#FFFFFF" cx="23" cy="19" r="1.5" />
+          <circle id="椭圆形备份" stroke="#191919" fill="#FFFFFF" cx="15" cy="19" r="1.5" />
+          <rect id="矩形" fill="#979797" x="15" y="11" width="6" height="1" />
+          <path
+            d="M17.0166016,40.5 C17.0166016,40.5 18.1510417,40.5 20.4199219,40.5 L24,44.5 L20.5151367,48.9648438 L17.0166016,48.9648438 C18.3388672,46.9882812 19,46 19,46 C19,46 19,45 19,43 C17.6777344,41.3333333 17.0166016,40.5 17.0166016,40.5 Z"
+            id="路径-12"
+            fill="#191919"
+          />
+        </g>
+        <g id="组件2备份-2" transform="translate(879, 991)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="22" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="22" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="22" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="22" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="22" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="11" width="2" height="11" />
+        </g>
+        <g
+          id="组件3备份-5"
+          transform="translate(890.5, 989) scale(-1, 1) translate(-890.5, -989)translate(876, 974)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-239" fill="white">
+              <use xlink:href="#path-238" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-239)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-239)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-241" fill="white">
+              <use xlink:href="#path-240" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-240" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-8"
+          transform="translate(889.5, 704) scale(-1, -1) translate(-889.5, -704)translate(875, 689)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-243" fill="white">
+              <use xlink:href="#path-242" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-243)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-243)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-245" fill="white">
+              <use xlink:href="#path-244" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-244" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="矩形" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件3" transform="translate(420, 645)">
+          <g id="矩形-+-矩形蒙版" transform="translate(7, 3)">
+            <mask id="mask-247" fill="white">
+              <use xlink:href="#path-246" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-247)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="矩形"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-247)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-249" fill="white">
+              <use xlink:href="#path-248" />
+            </mask>
+            <use id="蒙版" stroke="#191919" xlink:href="#path-248" />
+          </g>
+          <rect id="矩形" fill="url(#linearGradient-196)" x="0" y="0" width="8" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="10"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="矩形" fill="#191919" x="26" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="11" y="23" width="3" height="1" />
+          <rect id="矩形" fill="#B4B2B3" x="14" y="23" width="12" height="1" />
+          <rect id="矩形" fill="#191919" x="7" y="1" width="1" height="3" />
+          <rect id="矩形" fill="#B4B2B3" x="7" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="7" y="16" width="1" height="3" />
+          <polygon id="矩形" fill="#191919" points="7 16 14 16 13 17 7 17" />
+          <rect id="矩形" fill="#191919" x="13" y="16" width="1" height="8" />
+          <rect id="矩形" fill="#191919" x="10" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="29" y="23" width="1" height="7" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="8" height="1" />
+          <rect id="矩形" fill="#191919" x="0" y="1" width="1" height="18" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="8" height="1" />
+        </g>
+        <g id="组件9" transform="translate(630, 398)">
+          <rect id="矩形" fill="url(#linearGradient-48)" x="7" y="1" width="32" height="22" />
+          <path
+            d="M14,27 L14,21 L23,12 L32,21 L32,27 L14,27 Z"
+            id="形状结合"
+            fill="url(#linearGradient-250)"
+          />
+          <rect id="矩形" fill="url(#linearGradient-51)" x="0" y="0" width="7" height="24" />
+          <rect id="矩形备份-64" fill="#B4B2B3" x="0" y="1" width="1" height="22" />
+          <rect
+            id="矩形备份-67"
+            fill="url(#linearGradient-52)"
+            x="11"
+            y="27"
+            width="24"
+            height="7"
+          />
+          <rect id="矩形备份-70" fill="#B4B2B3" x="12" y="27" width="22" height="1" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-61" fill="#191919" x="0" y="23" width="7" height="1" />
+          <rect id="矩形备份-68" fill="#191919" x="11" y="27" width="1" height="7" />
+          <rect id="矩形备份-69" fill="#191919" x="34" y="27" width="1" height="7" />
+          <rect
+            id="矩形备份-60"
+            fill="url(#linearGradient-51)"
+            x="39"
+            y="0"
+            width="7"
+            height="24"
+          />
+          <rect id="矩形备份-65" fill="#B4B2B3" x="39" y="1" width="1" height="22" />
+          <rect id="矩形备份-62" fill="#191919" x="39" y="0" width="7" height="1" />
+          <rect id="矩形备份-63" fill="#191919" x="39" y="23" width="7" height="1" />
+        </g>
+        <g id="组件4" transform="translate(651, 208)">
+          <path
+            d="M33,41 C33.5522847,41 34.0522847,41.2238576 34.4142136,41.5857864 C34.7761424,41.9477153 35,42.4477153 35,43 L35,48 C35,48.5522847 34.7761424,49.0522847 34.4142136,49.4142136 C34.0522847,49.7761424 33.5522847,50 33,50 L28,50 L28,41 Z"
+            id="矩形"
+            stroke="#191919"
+            stroke-width="2"
+          />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="11.5" y="38.5" width="16" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#191919" x="6.5" y="41.5" width="22" height="4" />
+          <rect id="矩形" fill="#02C90F" x="7" y="42" width="21" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="6.5" y="45.5" width="23" height="8" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="10.5" y="44.5" width="5" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="12.5" y="54.5" width="11" height="3" />
+          <rect id="矩形" fill="#191919" x="5" y="42" width="2" height="6" />
+          <rect id="矩形" fill="#191919" x="26" y="33" width="2" height="6" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-251)"
+            x="23.5"
+            y="0.5"
+            width="9"
+            height="22"
+          />
+          <rect id="矩形" fill="#191919" x="11" y="17" width="2" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#2BFD0F" x="28.5" y="38.5" width="3" height="2" />
+          <rect id="矩形" fill="#191919" x="27" y="38" width="2" height="3" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-251)"
+            x="3.5"
+            y="0.5"
+            width="9"
+            height="22"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-97)"
+            x="12.5"
+            y="3.5"
+            width="11"
+            height="11"
+          />
+          <rect id="矩形" stroke="#191919" fill="#8BFE8B" x="11.5" y="14.5" width="13" height="4" />
+          <rect id="矩形" fill="#191919" x="12" y="27" width="12" height="3" />
+          <rect id="矩形" fill="#191919" x="8" y="33" width="3" height="4" />
+          <rect id="矩形" fill="#191919" x="11" y="30" width="15" height="9" />
+          <rect id="矩形" fill="#02C90F" x="12" y="32" width="6" height="5" />
+          <rect id="矩形" fill="#02C90F" x="20" y="33" width="3" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#2BFD0F" x="12.5" y="17.5" width="11" height="4" />
+          <rect id="矩形" fill="#191919" x="23" y="17" width="2" height="2" />
+          <rect id="矩形备份-45" fill="#191919" x="11" y="17" width="2" height="2" />
+          <rect id="矩形" fill="#191919" x="32" y="3" width="4" height="17" />
+          <rect id="矩形" fill="#2BFD0F" x="33" y="11" width="2" height="2" />
+          <rect id="矩形备份-43" fill="#191919" x="0" y="3" width="4" height="17" />
+          <rect id="矩形备份-44" fill="#2BFD0F" x="1" y="11" width="2" height="2" />
+          <rect id="矩形" fill="#191919" x="12" y="21" width="11" height="2" />
+          <rect id="矩形" fill="#191919" x="11" y="22" width="14" height="5" />
+          <rect id="矩形" fill="#02C90F" x="17" y="22" width="2" height="3" />
+          <rect id="矩形" fill="#02C90F" x="15" y="25" width="6" height="3" />
+        </g>
+        <g
+          id="组件4"
+          transform="translate(2653, 316) rotate(-90) translate(-2653, -316)translate(2635, 287)"
+        >
+          <path
+            d="M33,41 C33.5522847,41 34.0522847,41.2238576 34.4142136,41.5857864 C34.7761424,41.9477153 35,42.4477153 35,43 L35,48 C35,48.5522847 34.7761424,49.0522847 34.4142136,49.4142136 C34.0522847,49.7761424 33.5522847,50 33,50 L28,50 L28,41 Z"
+            id="矩形"
+            stroke="#191919"
+            stroke-width="2"
+          />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="11.5" y="38.5" width="16" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#191919" x="6.5" y="41.5" width="22" height="4" />
+          <rect id="矩形" fill="#02C90F" x="7" y="42" width="21" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="6.5" y="45.5" width="23" height="8" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="10.5" y="44.5" width="5" height="5" />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="12.5" y="54.5" width="11" height="3" />
+          <rect id="矩形" fill="#191919" x="5" y="42" width="2" height="6" />
+          <rect id="矩形" fill="#191919" x="26" y="33" width="2" height="6" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-251)"
+            x="23.5"
+            y="0.5"
+            width="9"
+            height="22"
+          />
+          <rect id="矩形" fill="#191919" x="11" y="17" width="2" height="2" />
+          <rect id="矩形" stroke="#191919" fill="#2BFD0F" x="28.5" y="38.5" width="3" height="2" />
+          <rect id="矩形" fill="#191919" x="27" y="38" width="2" height="3" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-251)"
+            x="3.5"
+            y="0.5"
+            width="9"
+            height="22"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-97)"
+            x="12.5"
+            y="3.5"
+            width="11"
+            height="11"
+          />
+          <rect id="矩形" stroke="#191919" fill="#8BFE8B" x="11.5" y="14.5" width="13" height="4" />
+          <rect id="矩形" fill="#191919" x="12" y="27" width="12" height="3" />
+          <rect id="矩形" fill="#191919" x="8" y="33" width="3" height="4" />
+          <rect id="矩形" fill="#191919" x="11" y="30" width="15" height="9" />
+          <rect id="矩形" fill="#02C90F" x="12" y="32" width="6" height="5" />
+          <rect id="矩形" fill="#02C90F" x="20" y="33" width="3" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#2BFD0F" x="12.5" y="17.5" width="11" height="4" />
+          <rect id="矩形" fill="#191919" x="23" y="17" width="2" height="2" />
+          <rect id="矩形备份-45" fill="#191919" x="11" y="17" width="2" height="2" />
+          <rect id="矩形" fill="#191919" x="32" y="3" width="4" height="17" />
+          <rect id="矩形" fill="#2BFD0F" x="33" y="11" width="2" height="2" />
+          <rect id="矩形备份-43" fill="#191919" x="0" y="3" width="4" height="17" />
+          <rect id="矩形备份-44" fill="#2BFD0F" x="1" y="11" width="2" height="2" />
+          <rect id="矩形" fill="#191919" x="12" y="21" width="11" height="2" />
+          <rect id="矩形" fill="#191919" x="11" y="22" width="14" height="5" />
+          <rect id="矩形" fill="#02C90F" x="17" y="22" width="2" height="3" />
+          <rect id="矩形" fill="#02C90F" x="15" y="25" width="6" height="3" />
+        </g>
+        <g id="组件12" transform="translate(19, 487)">
+          <rect id="矩形" fill="#D428B6" x="0" y="42" width="78" height="4" />
+          <g id="编组" transform="translate(15, 0)">
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-166)"
+              x="17.5"
+              y="36.5"
+              width="17"
+              height="15"
+            />
+            <rect
+              id="矩形备份-71"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="33.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-168)"
+              x="23.5"
+              y="27.5"
+              width="5"
+              height="10"
+            />
+            <circle id="椭圆形" fill="#191919" cx="17" cy="2" r="2" />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#C1C3C2"
+              x="12.5"
+              y="2.5"
+              width="27"
+              height="25"
+              rx="3"
+            />
+            <path
+              d="M17,4 L39,4 L39,4 L39,25 C39,26.1045695 38.1045695,27 37,27 L14,27 L14,27 L14,7 C14,5.34314575 15.3431458,4 17,4 Z"
+              id="矩形"
+              fill="#9A9899"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#9A9899"
+              x="11.5"
+              y="13.5"
+              width="29"
+              height="4"
+            />
+            <path
+              d="M12.5,19.5 L12.5,22.5 L3.5,22.5 L3.5,36.5 L0.5,36.5 L0.5,22 C0.5,21.3096441 0.779822031,20.6846441 1.23223305,20.232233 C1.68464406,19.779822 2.30964406,19.5 3,19.5 L12.5,19.5 Z"
+              id="形状结合"
+              stroke="#191919"
+              fill="#9A9899"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="12.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+          </g>
+        </g>
+        <g id="组件12" transform="translate(18, 550)">
+          <rect id="矩形" fill="#D428B6" x="0" y="42" width="78" height="4" />
+          <g id="编组" transform="translate(15, 0)">
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-166)"
+              x="17.5"
+              y="36.5"
+              width="17"
+              height="15"
+            />
+            <rect
+              id="矩形备份-71"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="33.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-168)"
+              x="23.5"
+              y="27.5"
+              width="5"
+              height="10"
+            />
+            <circle id="椭圆形" fill="#191919" cx="17" cy="2" r="2" />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#C1C3C2"
+              x="12.5"
+              y="2.5"
+              width="27"
+              height="25"
+              rx="3"
+            />
+            <path
+              d="M17,4 L39,4 L39,4 L39,25 C39,26.1045695 38.1045695,27 37,27 L14,27 L14,27 L14,7 C14,5.34314575 15.3431458,4 17,4 Z"
+              id="矩形"
+              fill="#9A9899"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#9A9899"
+              x="11.5"
+              y="13.5"
+              width="29"
+              height="4"
+            />
+            <path
+              d="M12.5,19.5 L12.5,22.5 L3.5,22.5 L3.5,36.5 L0.5,36.5 L0.5,22 C0.5,21.3096441 0.779822031,20.6846441 1.23223305,20.232233 C1.68464406,19.779822 2.30964406,19.5 3,19.5 L12.5,19.5 Z"
+              id="形状结合"
+              stroke="#191919"
+              fill="#9A9899"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="12.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+          </g>
+        </g>
+        <g id="组件12备份" transform="translate(19, 613)">
+          <rect id="矩形" fill="#D428B6" x="0" y="42" width="78" height="4" />
+          <g id="编组" transform="translate(15, 0)">
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-166)"
+              x="17.5"
+              y="36.5"
+              width="17"
+              height="15"
+            />
+            <rect
+              id="矩形备份-71"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="33.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-168)"
+              x="23.5"
+              y="27.5"
+              width="5"
+              height="10"
+            />
+            <circle id="椭圆形" fill="#191919" cx="17" cy="2" r="2" />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#C1C3C2"
+              x="12.5"
+              y="2.5"
+              width="27"
+              height="25"
+              rx="3"
+            />
+            <path
+              d="M17,4 L39,4 L39,4 L39,25 C39,26.1045695 38.1045695,27 37,27 L14,27 L14,27 L14,7 C14,5.34314575 15.3431458,4 17,4 Z"
+              id="矩形"
+              fill="#9A9899"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="#9A9899"
+              x="11.5"
+              y="13.5"
+              width="29"
+              height="4"
+            />
+            <path
+              d="M12.5,19.5 L12.5,22.5 L3.5,22.5 L3.5,36.5 L0.5,36.5 L0.5,22 C0.5,21.3096441 0.779822031,20.6846441 1.23223305,20.232233 C1.68464406,19.779822 2.30964406,19.5 3,19.5 L12.5,19.5 Z"
+              id="形状结合"
+              stroke="#191919"
+              fill="#9A9899"
+            />
+            <rect
+              id="矩形"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="12.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+          </g>
+        </g>
+        <g id="组件6" transform="translate(825, 258)">
+          <path
+            d="M5.25280762,4.31535469 C28.1685384,1.43845156 51.0842692,0 74,0 C96.9157308,0 119.831462,1.43845156 142.747192,4.31535469 C145.748185,4.69198334 147.999658,7.24341044 148,10.2679443 L148,167.732056 C147.999658,170.75659 145.748185,173.308017 142.747192,173.684645 C119.831462,176.561548 96.9157308,178 74,178 C51.0842692,178 28.1685384,176.561548 5.25280762,173.684645 C2.25181507,173.308017 0.000342381206,170.75659 0,167.732056 L0,10.2679443 C0.000342381206,7.24341044 2.25181507,4.69198334 5.25280762,4.31535469 Z"
+            id="矩形"
+            fill="url(#linearGradient-169)"
+          />
+          <rect id="矩形" fill="#965941" x="12" y="94" width="122" height="74" />
+          <path
+            d="M66.0005932,12.3978196 C81.9118898,12.1624274 97.9392858,13.3305535 102.901271,14.9916106 C111.726898,17.9460466 115.466981,21.2289407 119.045541,24.3760315 L119.831091,25.0647523 C120.177087,25.3662228 120.525359,25.6659722 120.881307,25.9633901 C134.102741,37.0107595 135.174391,59.592598 134.616181,81.9372207 L134.576199,83.4431068 C134.512881,85.7009962 134.435313,87.9537547 134.354374,90.1892093 C134.155633,95.678255 133.960938,101.038939 133.960938,106.066406 C133.960938,117.033527 135.345303,126.114384 136.502173,133.736657 C138.294717,145.547195 139.289346,154.021361 135.119023,160.682998 C129.821557,169.145123 109.142498,170.947314 87.0756232,170.963735 L85.4379519,170.963008 C85.1645428,170.962582 84.8911071,170.962011 84.6154753,170.961304 L82.9782084,170.955669 C82.1594032,170.952184 81.3412566,170.947785 80.5237131,170.94284 L78.895063,170.932369 C78.2266329,170.927861 77.5596571,170.923158 76.8946337,170.918469 C73.7924442,170.896595 70.7328364,170.875 67.7666016,170.875 C54.4334447,170.875 43.44891,169.148891 35.283632,165.886546 C26.5885069,162.412505 21.0217476,157.183437 18.8083427,150.553378 C16.6963815,144.227184 17.6067671,129.594716 19.0864454,114.801968 L19.214612,113.533815 C19.3224839,112.477011 19.4329028,111.420577 19.5449746,110.367481 L19.6801971,109.105558 L19.8166632,107.84798 L19.9540296,106.595887 C20.1376324,104.930592 20.3227206,103.282964 20.5056325,101.665161 C21.5220574,92.6751745 22.4359346,84.6482109 22.5218813,79.8255705 C22.6426081,73.0513502 22.6916384,66.9022809 22.7359612,61.3472393 C22.9268416,37.4239707 23.4949093,24.3093645 28.3016998,19.1262102 C31.5766012,15.5948894 43.7126684,13.3292338 57.8184298,12.6503605 C60.1202272,12.539581 62.4669894,12.46306 64.8223593,12.4178368 Z"
+            id="路径-7"
+            stroke="#191919"
+            stroke-width="5"
+          />
+          <path
+            d="M60.0005932,8.39781961 C75.9118898,8.16242737 91.9392858,9.3305535 96.9012714,10.9916106 C105.726898,13.9460466 109.466981,17.2289407 113.045541,20.3760315 L113.831091,21.0647523 C114.177087,21.3662228 114.525359,21.6659722 114.881307,21.9633901 C128.102741,33.0107595 129.174391,55.592598 128.616181,77.9372207 L128.576199,79.4431068 C128.512881,81.7009962 128.435313,83.9537547 128.354374,86.1892093 C128.155633,91.678255 127.960938,97.0389394 127.960938,102.066406 C127.960938,113.033527 129.345303,122.114384 130.502173,129.736657 C132.294717,141.547195 133.289346,150.021361 129.119023,156.682998 C123.821557,165.145123 103.142498,166.947314 81.0756232,166.963735 L79.4379519,166.963008 C79.1645428,166.962582 78.8911071,166.962011 78.6154753,166.961304 L76.9782084,166.955669 C76.1594032,166.952184 75.3412566,166.947785 74.5237131,166.94284 L72.895063,166.932369 C72.2266329,166.927861 71.5596571,166.923158 70.8946337,166.918469 C67.7924442,166.896595 64.7328364,166.875 61.7666016,166.875 C48.4334447,166.875 37.44891,165.148891 29.283632,161.886546 C20.5885069,158.412505 15.0217476,153.183437 12.8083427,146.553378 C10.6963815,140.227184 11.6067671,125.594716 13.0864454,110.801968 L13.214612,109.533815 C13.3224839,108.477011 13.4329028,107.420577 13.5449746,106.367481 L13.6801971,105.105558 L13.8166632,103.84798 L13.9540296,102.595887 C14.1376324,100.930592 14.3227206,99.2829636 14.5056325,97.6651606 C15.5220574,88.6751745 16.4359346,80.6482109 16.5218813,75.8255705 C16.6426081,69.0513502 16.6916384,62.9022809 16.7359612,57.3472393 C16.9268416,33.4239707 17.4949093,20.3093645 22.3016998,15.1262102 C25.5766012,11.5948894 37.7126684,9.32923384 51.8184298,8.65036049 C54.1202272,8.53958101 56.4669894,8.46306005 58.8223593,8.4178368 Z"
+            id="路径-7"
+            stroke="#FFFFFF"
+            stroke-width="5"
+          />
+          <path
+            d="M74,0 C96.9157308,0 119.831462,1.43845156 142.747192,4.31535469 C145.748185,4.69198334 147.999658,7.24341044 148,10.2679443 L148,167.732056 C147.999658,170.75659 145.748185,173.308017 142.747192,173.684645 C119.831462,176.561548 96.9157308,178 74,178 C51.0842692,178 28.1685384,176.561548 5.25280762,173.684645 C2.25181507,173.308017 0.000342381206,170.75659 0,167.732056 L0,10.2679443 C0.000342381206,7.24341044 2.25181507,4.69198334 5.25280762,4.31535469 C28.1685384,1.43845156 51.0842692,0 74,0 Z M99.107666,15.3623047 C89.215332,12.0507813 34.4123392,10.9787763 27.1347656,18.8261719 C21.3918709,25.0187257 22.6370719,43.3282793 22.0214844,77.8701172 C21.7627242,92.3896618 14.1357422,135.648438 18.1796875,147.761719 C22.2236328,159.875 38.9980469,166.375 64.7666016,166.375 C68.3741992,166.375 72.1196477,166.40685 75.9119233,166.432426 L77.5397858,166.442892 C78.3548852,166.447822 79.1715377,166.452213 79.9888477,166.455692 L81.6240791,166.461319 C81.8966753,166.462017 82.1692782,166.462586 82.4418546,166.463011 L84.0767304,166.463736 C104.774413,166.448331 124.936055,165.445547 130,157.356445 C136.663086,146.712891 128.460938,131 128.460938,104.066406 C128.460938,77.1328125 134,40.6894531 116.27832,25.8818359 C115.909057,25.5732921 115.547711,25.2623836 115.188771,24.9496353 L114.758846,24.5734879 C111.251461,21.4949534 107.763458,18.2598877 99.107666,15.3623047 Z"
+            id="形状结合"
+            fill="url(#linearGradient-170)"
+          />
+          <path
+            d="M74,0.5 C96.8949706,0.5 119.78994,1.93716366 142.68493,4.81146296 C144.060382,4.98408409 145.26407,5.65509512 146.123935,6.62951122 C146.983801,7.60392994 147.499843,8.88175524 147.5,10.2679443 L147.5,167.731999 C147.499843,169.118245 146.983801,170.39607 146.123935,171.370489 C145.26407,172.344905 144.060382,173.015916 142.68491,173.18854 C119.78994,176.062836 96.8949706,177.5 74,177.5 C51.1050294,177.5 28.2100601,176.062836 5.31506988,173.188537 C3.93961761,173.015916 2.73592984,172.344905 1.87606537,171.370489 C1.01619859,170.39607 0.500156922,169.118245 0.5,167.732056 L0.499999997,10.2680009 C0.500156922,8.88175524 1.01619859,7.60392994 1.87606537,6.62951122 C2.73592984,5.65509512 3.93961761,4.98408409 5.31509008,4.81146042 C28.2100601,1.93716366 51.1050294,0.5 74,0.5 Z"
+            id="矩形"
+            stroke="#191919"
+          />
+          <path
+            d="M75.6118164,137.916992 L84.5198972,127.957254 C84.8880829,127.545602 85.5202667,127.510365 85.9319191,127.878551 C86.1516188,128.075052 86.2734369,128.358471 86.2648339,128.653101 L85.7042952,147.85003 C85.6881757,148.402079 85.2275838,148.836536 84.6755343,148.820417 C84.3798397,148.811782 84.1031421,148.672671 83.9198385,148.440487 L75.6118164,137.916992 L75.6118164,137.916992 Z"
+            id="路径-4"
+            stroke="#191919"
+            fill="#4F4C4F"
+          />
+          <path
+            d="M74,138.635498 L33.4500957,127.692415 C31.8504669,127.260728 30.20376,128.207531 29.7720729,129.80716 C29.7032965,130.062013 29.668457,130.324829 29.668457,130.588799 L29.668457,145.725209 C29.668457,147.382064 31.0116028,148.725209 32.668457,148.725209 C32.9102304,148.725209 33.1511172,148.695982 33.3858756,148.638165 L74,138.635498 L74,138.635498 Z"
+            id="路径-6"
+            stroke="#191919"
+            fill="#737476"
+          />
+          <rect id="矩形" fill="#EAEAEA" x="72" y="13" width="4" height="129" />
+          <path
+            d="M75.6118164,138.635498 L116.782221,126.916791 C118.375778,126.463203 120.035317,127.38733 120.488906,128.980887 C120.564944,129.248026 120.603516,129.524431 120.603516,129.802181 L120.603516,145.738625 C120.603516,147.395479 119.26037,148.738625 117.603516,148.738625 C117.365164,148.738625 117.127663,148.71022 116.896034,148.65401 L75.6118164,138.635498 L75.6118164,138.635498 Z"
+            id="路径-5"
+            stroke="#191919"
+            fill="#737476"
+          />
+          <path
+            d="M74,138.512695 L64.9644972,148.641575 C64.5968512,149.05371 63.9647142,149.089775 63.5525797,148.722129 C63.3398858,148.532394 63.2182617,148.260916 63.2182617,147.975893 L63.2182617,129.255401 C63.2182617,128.703117 63.665977,128.255401 64.2182617,128.255401 C64.4997275,128.255401 64.7681608,128.37402 64.9576621,128.582135 L74,138.512695 L74,138.512695 Z"
+            id="路径-2"
+            stroke="#191919"
+            fill="#4F4C4F"
+          />
+        </g>
+        <g id="编组-24" transform="translate(1822, 578)">
+          <rect id="矩形" stroke="#191919" fill="#605A5E" x="2.5" y="0.5" width="3" height="42" />
+          <rect id="矩形" fill="#191919" x="0" y="40" width="15" height="3" />
+          <rect
+            id="矩形备份-139"
+            stroke="#191919"
+            fill="#9E9E9E"
+            x="7.5"
+            y="5.5"
+            width="3"
+            height="35"
+          />
+          <rect
+            id="矩形备份-140"
+            stroke="#191919"
+            fill="#C3C3C3"
+            x="12.5"
+            y="9.5"
+            width="3"
+            height="29"
+          />
+          <rect id="矩形" stroke="#191919" fill="#3F3F3F" x="16.5" y="9.5" width="7" height="27" />
+          <rect id="矩形备份-141" fill="#191919" x="11" y="36" width="15" height="3" />
+        </g>
+        <g
+          id="编组-24备份"
+          transform="translate(1904, 599.5) scale(-1, 1) translate(-1904, -599.5)translate(1891, 578)"
+        >
+          <rect id="矩形" stroke="#191919" fill="#605A5E" x="2.5" y="0.5" width="3" height="42" />
+          <rect id="矩形" fill="#191919" x="0" y="40" width="15" height="3" />
+          <rect
+            id="矩形备份-139"
+            stroke="#191919"
+            fill="#9E9E9E"
+            x="7.5"
+            y="5.5"
+            width="3"
+            height="35"
+          />
+          <rect
+            id="矩形备份-140"
+            stroke="#191919"
+            fill="#C3C3C3"
+            x="12.5"
+            y="9.5"
+            width="3"
+            height="29"
+          />
+          <rect id="矩形" stroke="#191919" fill="#3F3F3F" x="16.5" y="9.5" width="7" height="27" />
+          <rect id="矩形备份-141" fill="#191919" x="11" y="36" width="15" height="3" />
+        </g>
+        <g id="组件6" transform="translate(1814, 489)">
+          <path
+            d="M5.27426168,3.05962598 C22.0161745,1.01987533 38.7580874,0 55.5000002,0 C72.241913,0 88.9838259,1.01987533 105.725739,3.05962598 C108.737451,3.42661718 111.001269,5.98410428 111,9.01809384 L111,77.2640449 L111,77.2640449 L61.0000002,132.846538 L45.5000002,133 L2.07659468e-07,77.2640449 L2.07659468e-07,9.01809384 C-0.00126819864,5.98410428 2.26254926,3.42661718 5.27426168,3.05962598 Z"
+            id="矩形"
+            fill="url(#linearGradient-252)"
+          />
+          <path
+            d="M9.00000021,51 L101,51 L99.1484377,86.3730469 C98.4398681,89.5709304 97.680428,91.7799148 96.8701174,93 C96.0598068,94.2200852 94.5637131,95.4072597 92.3818361,96.5615234 C79.1434202,98.4768366 67.0161415,99.6867975 56.0000002,100.191406 C44.9838589,100.696015 30.4319383,97.4605007 12.3442385,90.4848633 L9.00000021,51 Z"
+            id="矩形"
+            fill="#FFFF98"
+          />
+          <g id="路径-7-+-路径-7蒙版" transform="translate(0, 0)">
+            <mask id="mask-254" fill="white">
+              <use xlink:href="#path-253" />
+            </mask>
+            <g id="蒙版" />
+            <path
+              d="M18.1421415,9.88422481 C23.5599675,5.27785015 64.3882398,5.6382391 71.7910218,7.59221538 C78.1226168,9.26345011 80.8032542,11.1236468 83.3722779,12.9050566 C83.8147122,13.2118489 84.2535274,13.516299 84.7093931,13.8166385 C94.1117258,20.0112086 95.1483823,32.4366936 94.7566656,45.0352388 L94.7221206,46.0640639 C94.709787,46.4076417 94.6967159,46.7510377 94.6829813,47.0964151 L94.6406686,48.120809 C94.6260961,48.4621589 94.6111237,48.8030411 94.595878,49.1442184 L94.54983,50.1609357 L94.5213325,50.7823448 C94.3771996,53.9211692 94.2358569,56.9865878 94.2358569,59.8614701 C94.2358569,66.1176191 95.2388817,71.2973264 96.0758085,75.6452572 C97.40521,82.5516506 98.1022963,87.4532007 95.0288787,91.3242447 C91.4596,95.8198379 78.125155,97.0024501 63.4548727,97.0990417 L62.2712656,97.1052282 C59.215638,97.1172393 56.1265306,97.1000873 53.0932585,97.0832232 C50.8377351,97.0706832 48.6131717,97.0583072 46.4564975,97.0583072 C36.8626885,97.0583072 28.9547442,96.0846482 23.0780894,94.2333157 C16.8057746,92.2573377 12.8183212,89.2407066 11.225845,85.479521 C9.63282827,81.7170591 10.3721063,72.8610757 11.5065599,64.0555982 L11.6444672,62.9995125 C11.9003202,61.0650071 12.1715495,59.1429049 12.4375285,57.2879797 C13.1734771,52.1555095 13.8366804,47.5729957 13.8989125,44.8196192 C13.9865925,40.9403367 14.0221939,37.4190491 14.0543842,34.2379339 C14.1947669,20.36501 14.6255474,12.8741233 18.1421415,9.88422481 Z"
+              id="路径-7"
+              stroke="#FFFFFF"
+              stroke-width="3"
+              mask="url(#mask-254)"
+            />
+            <path
+              d="M22.1421415,12.8842248 C27.5599675,8.27785015 68.3882398,8.6382391 75.7910218,10.5922154 C82.1226168,12.2634501 84.8032542,14.1236468 87.3722779,15.9050566 C87.8147122,16.2118489 88.2535274,16.516299 88.7093931,16.8166385 C98.1117258,23.0112086 99.1483823,35.4366936 98.7566656,48.0352388 L98.7221206,49.0640639 C98.709787,49.4076417 98.6967159,49.7510377 98.6829813,50.0964151 L98.6406686,51.120809 C98.6260961,51.4621589 98.6111237,51.8030411 98.595878,52.1442184 L98.54983,53.1609357 L98.5213325,53.7823448 C98.3771996,56.9211692 98.2358569,59.9865878 98.2358569,62.8614701 C98.2358569,68.8072786 98.9872324,73.632642 99.6119496,77.6641323 C100.688341,84.6104153 101.205518,89.323191 98.0288787,93.3242447 C94.6653709,97.5606645 83.052278,99.2643504 69.7422549,99.8061038 L68.6880575,99.8464848 C67.4543262,99.8908379 66.207662,99.92564 64.953185,99.951962 L63.7855421,99.9746018 C62.2250419,100.002452 60.658293,100.021063 59.0952343,100.033497 L57.9274829,100.041686 C56.3715256,100.051194 54.8234974,100.055296 53.2942222,100.057044 L52.1526458,100.05796 L51.5848094,100.058177 L50.4564975,100.058307 C40.8626885,100.058307 32.9547442,99.0846482 27.0780894,97.2333157 C20.8057746,95.2573377 16.8183212,92.2407066 15.225845,88.479521 C13.6328283,84.7170591 14.3721063,75.8610757 15.5065599,67.0555982 L15.6444672,65.9995125 C15.9003202,64.0650071 16.1715495,62.1429049 16.4375285,60.2879797 C17.1734771,55.1555095 17.8366804,50.5729957 17.8989125,47.8196192 C17.9865925,43.9403367 18.0221939,40.4190491 18.0543842,37.2379339 C18.1947669,23.36501 18.6255474,15.8741233 22.1421415,12.8842248 Z"
+              id="路径-7"
+              stroke="#191919"
+              stroke-width="3"
+              mask="url(#mask-254)"
+            />
+          </g>
+          <path
+            d="M55.5000002,0 C72.241913,0 88.9838259,1.01987533 105.725739,3.05962598 C108.737094,3.42657369 111.000792,5.98352068 111,9.01715088 L111,75.8886397 C111,77.4146241 110.418561,78.8832734 109.374005,79.9957171 L59.7484474,132.846538 L45.5000002,132.846538 L1.39127841,79.9330435 C0.492325149,78.8546454 2.0765946e-07,77.4951543 2.07659468e-07,76.0912101 L2.07659468e-07,9.01715088 C-0.000791603874,5.98352068 2.26290615,3.42657369 5.27426168,3.05962598 C22.0161745,1.01987533 38.7580874,0 55.5000002,0 Z M73.4082056,11.0425435 C66.2205825,9.14535874 26.401541,8.5312029 21.113764,13.0270065 C16.9410619,16.5747449 17.8458065,27.0643597 17.3985297,46.8535137 C17.2105185,55.1718176 11.6688665,79.9549393 14.6071371,86.8946855 C17.5454078,93.8344317 29.7334482,97.5583072 48.4564977,97.5583072 C53.511721,97.5583072 58.9394795,97.6261748 64.2653697,97.6052398 L65.4470311,97.5990622 C79.4056193,97.5071552 92.4167945,96.7209331 95.8541171,92.3915419 C100.695416,86.2938078 94.7358571,77.2918313 94.7358571,61.8614701 C94.7358571,58.7753979 94.8968411,55.4713984 95.0514051,52.0922187 L95.0974143,51.0763521 C95.1125749,50.7370733 95.1275039,50.3971854 95.1420338,50.0568312 L95.1842593,49.0345124 C95.1978239,48.6933684 95.210822,48.3519007 95.2230864,48.0102523 L95.2575105,46.9849073 C95.6295356,35.0195512 94.8975649,23.0075633 85.8841482,17.0692241 C82.8791717,15.0894454 80.5958287,12.9397282 73.4082056,11.0425435 Z"
+            id="形状结合"
+            fill="url(#linearGradient-255)"
+          />
+          <path
+            d="M55.5000002,0.5 C72.2217568,0.5 88.9435123,1.51866099 105.665259,3.55595467 C107.045465,3.72413919 108.254332,4.3941992 109.118057,5.36981691 C109.981781,6.34543343 110.500363,7.62660697 110.5,9.01715088 L110.5,78.0696504 L60.7780775,132.34858 L44.7360915,132.497783 L0.500000208,78.0864409 L0.500000191,9.01702037 C0.499637277,7.62660697 1.01821957,6.34543343 1.88194347,5.36981691 C2.74566842,4.3941992 3.95453581,3.72413919 5.33473202,3.55595584 C22.0564881,1.51866099 38.7782436,0.5 55.5000002,0.5 Z"
+            id="矩形"
+            stroke="#191919"
+          />
+          <path
+            d="M57.0000002,74.751271 L63.1819894,67.9887382 C63.5546246,67.5811092 64.1871538,67.5527412 64.5947828,67.9253764 C64.8097,68.1218436 64.9283082,68.4022292 64.9196219,68.6932847 L64.5434312,81.2985416 C64.5269562,81.8505806 64.0660845,82.2847409 63.5140456,82.2682659 C63.2223007,82.2595591 62.9489211,82.1238245 62.7656341,81.8966753 L57.0000002,74.751271 L57.0000002,74.751271 Z"
+            id="路径-4"
+            stroke="#191919"
+            fill="#005800"
+          />
+          <path
+            d="M56.0000002,74.8883424 L25.7587666,66.9826236 C24.1557823,66.5635685 22.5165954,67.5233328 22.0975403,69.1263171 C22.03278,69.3740404 22.0000002,69.6290353 22.0000002,69.8850835 L22.0000002,79.2000677 C22.0000002,80.856922 23.343146,82.2000677 25.0000002,82.2000677 C25.2344683,82.2000677 25.4681281,82.1725804 25.6961953,82.1181685 L56.0000002,74.8883424 L56.0000002,74.8883424 Z"
+            id="路径-6"
+            stroke="#191919"
+            fill="#005800"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#7BBD7D"
+            x="54.5000002"
+            y="10.5"
+            width="2"
+            height="65"
+          />
+          <path
+            d="M57.0000002,74.716288 L87.1756798,66.0928882 C88.76876,65.6376286 90.4292676,66.5600145 90.8845272,68.1530947 C90.9611352,68.4211676 91.0000002,68.6986109 91.0000002,68.9774152 L91.0000002,79.1813281 C91.0000002,80.8381824 89.6568545,82.1813281 88.0000002,82.1813281 C87.7607329,82.1813281 87.5223247,82.1527041 87.2898576,82.0960661 L57.0000002,74.716288 L57.0000002,74.716288 Z"
+            id="路径-5"
+            stroke="#191919"
+            fill="#005800"
+          />
+          <path
+            d="M56.0000002,74.9076179 L49.7507668,82.0101701 C49.3859454,82.4248071 48.7540696,82.4651906 48.3394326,82.1003692 C48.1236585,81.9105187 48.0000002,81.6370077 48.0000002,81.3496026 L48.0000002,68.6100403 C48.0000002,68.0577556 48.4477155,67.6100403 49.0000002,67.6100403 C49.2838513,67.6100403 49.5543285,67.7306703 49.743994,67.9418538 L56.0000002,74.9076179 L56.0000002,74.9076179 Z"
+            id="路径-2"
+            stroke="#191919"
+            fill="#005800"
+          />
+        </g>
+        <g id="组件5" transform="translate(1855, 444)">
+          <mask id="mask-257" fill="white">
+            <use xlink:href="#path-256" />
+          </mask>
+          <g id="蒙版" />
+          <g mask="url(#mask-257)">
+            <rect id="矩形" fill="#191919" x="0" y="0" width="30" height="42" />
+            <rect id="矩形" fill="#191919" x="2" y="41" width="26" height="5" />
+            <rect id="矩形" fill="#007404" x="3" y="42" width="4" height="3" />
+            <rect id="矩形备份-47" fill="#429A4B" x="7" y="42" width="5" height="3" />
+            <rect id="矩形备份-48" fill="#5CB365" x="12" y="42" width="5" height="3" />
+            <rect id="矩形备份-49" fill="#429A4B" x="17" y="42" width="5" height="3" />
+            <rect id="矩形备份-50" fill="#007404" x="22" y="42" width="5" height="3" />
+            <rect id="矩形" fill="#D8D8D8" x="1" y="0" width="28" height="5" />
+            <rect id="矩形" fill="#007404" x="1" y="0" width="5" height="5" />
+            <rect id="矩形备份-47" fill="#429A4B" x="6" y="0" width="6" height="5" />
+            <rect id="矩形备份-48" fill="#5CB365" x="12" y="0" width="6" height="5" />
+            <rect id="矩形备份-49" fill="#429A4B" x="18" y="0" width="6" height="5" />
+            <rect id="矩形备份-50" fill="#007404" x="24" y="0" width="5" height="5" />
+            <rect id="矩形" fill="#429A4B" x="27" y="12" width="1" height="26" />
+            <rect id="矩形备份-46" fill="#429A4B" x="2" y="7" width="3" height="14" />
+            <rect id="矩形" fill="#429A4B" x="1" y="22" width="16" height="16" />
+            <rect id="矩形" fill="#FFFFFF" x="1" y="22" width="16" height="2" />
+            <rect id="矩形" fill="#FFFFFF" x="15" y="22" width="2" height="15" />
+            <rect id="矩形" fill="#191919" x="1" y="37" width="16" height="2" />
+            <rect id="矩形" fill="#191919" x="1" y="22" width="2" height="16" />
+          </g>
+          <rect id="矩形" fill="#191919" mask="url(#mask-257)" x="0" y="0" width="30" height="1" />
+          <path
+            d="M27.8060756,0.5 L29.5,2.04662659 L29.5,41.5 L0.5,41.5 L0.5,2.04662659 L2.19392436,0.5 L27.8060756,0.5 Z"
+            id="蒙版"
+            stroke="#191919"
+            mask="url(#mask-257)"
+          />
+        </g>
+        <g id="顶部文字" transform="translate(583, 24)">
+          <rect
+            id="矩形备份-3"
+            stroke="#418284"
+            stroke-width="2"
+            x="274"
+            y="1"
+            width="138"
+            height="44"
+            rx="2"
+          />
+          <rect
+            id="矩形备份-6"
+            stroke="#418284"
+            stroke-width="2"
+            x="1"
+            y="1"
+            width="108"
+            height="44"
+            rx="2"
+          />
+          <text
+            id="总电压"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="30"
+            font-weight="normal"
+            line-spacing="45"
+            fill="#191919"
+          >
+            <tspan x="10" y="32">总电压</tspan>
+          </text>
+          <path
+            d="M241,1 C241.276142,1 241.526142,1.11192881 241.707107,1.29289322 C241.888071,1.47385763 242,1.72385763 242,2 L242,44 C242,44.2761424 241.888071,44.5261424 241.707107,44.7071068 C241.526142,44.8880712 241.276142,45 241,45 L116,45 C115.723858,45 115.473858,44.8880712 115.292893,44.7071068 C115.111929,44.5261424 115,44.2761424 115,44 L115,2 C115,1.72385763 115.111929,1.47385763 115.292893,1.29289322 C115.473858,1.11192881 115.723858,1 116,1 Z"
+            id="矩形备份-5"
+            stroke="#2B393B"
+            stroke-width="2"
+          />
+          <text
+            id="KLRH3_DB2DD144"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="30"
+            font-weight="normal"
+            line-spacing="45"
+            fill="#191919"
+          >
+            <tspan x="160" y="33">25</tspan>
+          </text>
+          <rect
+            id="矩形备份-4"
+            stroke="#418284"
+            stroke-width="2"
+            x="557"
+            y="1"
+            width="56"
+            height="44"
+            rx="2"
+          />
+          <rect
+            id="矩形备份-6"
+            stroke="#418284"
+            stroke-width="2"
+            x="645"
+            y="1"
+            width="108"
+            height="44"
+            rx="2"
+          />
+          <path
+            d="M885,1 C885.276142,1 885.526142,1.11192881 885.707107,1.29289322 C885.888071,1.47385763 886,1.72385763 886,2 L886,44 C886,44.2761424 885.888071,44.5261424 885.707107,44.7071068 C885.526142,44.8880712 885.276142,45 885,45 L760,45 C759.723858,45 759.473858,44.8880712 759.292893,44.7071068 C759.111929,44.5261424 759,44.2761424 759,44 L759,2 C759,1.72385763 759.111929,1.47385763 759.292893,1.29289322 C759.473858,1.11192881 759.723858,1 760,1 Z"
+            id="矩形备份-5"
+            stroke="#2B393B"
+            stroke-width="2"
+          />
+          <text
+            id="KLRH3_DB2DD148"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="30"
+            font-weight="normal"
+            line-spacing="45"
+            fill="#191919"
+          >
+            <tspan x="804" y="33">26</tspan>
+          </text>
+          <text
+            id="T/H"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="24"
+            font-weight="normal"
+            line-spacing="36"
+            fill="#191919"
+          >
+            <tspan x="563" y="30">T/H</tspan>
+          </text>
+          <text
+            id="总电压"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="30"
+            font-weight="normal"
+            line-spacing="45"
+            fill="#191919"
+          >
+            <tspan x="654" y="33">总电压</tspan>
+          </text>
+          <path
+            d="M550,1 C550.276142,1 550.526142,1.11192881 550.707107,1.29289322 C550.888071,1.47385763 551,1.72385763 551,2 L551,44 C551,44.2761424 550.888071,44.5261424 550.707107,44.7071068 C550.526142,44.8880712 550.276142,45 550,45 L419,45 C418.723858,45 418.473858,44.8880712 418.292893,44.7071068 C418.111929,44.5261424 418,44.2761424 418,44 L418,2 C418,1.72385763 418.111929,1.47385763 418.292893,1.29289322 C418.473858,1.11192881 418.723858,1 419,1 Z"
+            id="矩形备份-5"
+            stroke="#2B393B"
+            stroke-width="2"
+          />
+          <text
+            id="KLRH3_DB54DBD16"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="30"
+            font-weight="normal"
+            line-spacing="45"
+            fill="#191919"
+          >
+            <tspan x="469.985" y="33">31</tspan>
+          </text>
+          <text
+            id="制药产能"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="30"
+            font-weight="normal"
+            line-spacing="45"
+            fill="#191919"
+          >
+            <tspan x="283" y="33">制药产能</tspan>
+          </text>
+          <rect
+            id="矩形备份-7"
+            stroke="#418284"
+            stroke-width="2"
+            x="918"
+            y="1"
+            width="198"
+            height="44"
+            rx="2"
+          />
+          <text
+            id="KLRH3_DB54DBD56"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="30"
+            font-weight="normal"
+            line-spacing="45"
+            fill="#191919"
+          >
+            <tspan x="1168" y="33">32</tspan>
+          </text>
+          <path
+            d="M1248,1 C1248.27614,1 1248.52614,1.11192881 1248.70711,1.29289322 C1248.88807,1.47385763 1249,1.72385763 1249,2 L1249,44 C1249,44.2761424 1248.88807,44.5261424 1248.70711,44.7071068 C1248.52614,44.8880712 1248.27614,45 1248,45 L1123,45 C1122.72386,45 1122.47386,44.8880712 1122.29289,44.7071068 C1122.11193,44.5261424 1122,44.2761424 1122,44 L1122,2 C1122,1.72385763 1122.11193,1.47385763 1122.29289,1.29289322 C1122.47386,1.11192881 1122.72386,1 1123,1 Z"
+            id="矩形备份-8"
+            stroke="#2B393B"
+            stroke-width="2"
+          />
+          <rect
+            id="矩形备份-9"
+            stroke="#418284"
+            stroke-width="2"
+            x="1255"
+            y="1"
+            width="56"
+            height="44"
+            rx="2"
+          />
+          <text
+            id="Kg备份"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="24"
+            font-weight="normal"
+            line-spacing="36"
+            fill="#191919"
+          >
+            <tspan x="1268" y="30">Kg</tspan>
+          </text>
+          <text
+            id="包装下线累计"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="30"
+            font-weight="normal"
+            line-spacing="45"
+            fill="#191919"
+          >
+            <tspan x="927" y="33">包装下线累计</tspan>
+          </text>
+          <rect
+            id="矩形备份-10"
+            stroke="#418284"
+            stroke-width="2"
+            x="1343"
+            y="1"
+            width="168"
+            height="44"
+            rx="2"
+          />
+          <path
+            d="M1643,1 C1643.27614,1 1643.52614,1.11192881 1643.70711,1.29289322 C1643.88807,1.47385763 1644,1.72385763 1644,2 L1644,44 C1644,44.2761424 1643.88807,44.5261424 1643.70711,44.7071068 C1643.52614,44.8880712 1643.27614,45 1643,45 L1518,45 C1517.72386,45 1517.47386,44.8880712 1517.29289,44.7071068 C1517.11193,44.5261424 1517,44.2761424 1517,44 L1517,2 C1517,1.72385763 1517.11193,1.47385763 1517.29289,1.29289322 C1517.47386,1.11192881 1517.72386,1 1518,1 Z"
+            id="矩形备份-11"
+            stroke="#2B393B"
+            stroke-width="2"
+          />
+          <text
+            id="KLRH3_DB54DBD64"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="30"
+            font-weight="normal"
+            line-spacing="45"
+            fill="#191919"
+          >
+            <tspan x="1563" y="33">33</tspan>
+          </text>
+          <rect
+            id="矩形备份-12"
+            stroke="#418284"
+            stroke-width="2"
+            x="1650"
+            y="1"
+            width="56"
+            height="44"
+            rx="2"
+          />
+          <text
+            id="Kg备份-2"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="24"
+            font-weight="normal"
+            line-spacing="36"
+            fill="#191919"
+          >
+            <tspan x="1663" y="30">Kg</tspan>
+          </text>
+          <text
+            id="在线存药量"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="30"
+            font-weight="normal"
+            line-spacing="45"
+            fill="#191919"
+          >
+            <tspan x="1352" y="33">在线存药量</tspan>
+          </text>
+        </g>
+        <g id="组件7" transform="translate(818, 223)">
+          <rect id="矩形" stroke="#191919" fill="#1C0AD5" x="2.5" y="0.5" width="8" height="3" />
+          <rect id="矩形" fill="#191919" x="0" y="3" width="13" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#B0AAAE" x="5.5" y="5.5" width="2" height="22" />
+          <rect id="矩形" fill="#191919" x="6" y="27" width="1" height="23" />
+        </g>
+        <g id="组件2备份-3" transform="translate(433, 672)">
+          <rect id="矩形" fill="#16A2BC" x="0" y="0" width="14" height="351" />
+          <rect id="矩形" fill="#191919" x="0" y="0" width="1" height="351" />
+          <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="351" />
+          <rect id="矩形" fill="#99A5AF" x="1" y="0" width="1" height="351" />
+          <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="351" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="81" width="2" height="46" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="113" width="6" height="2" />
+          <rect id="矩形" fill="#FFFFFF" x="6" y="216" width="2" height="46" />
+          <rect id="矩形" fill="#FFFFFF" x="4" y="248" width="6" height="2" />
+        </g>
+        <g id="编组-4备份" transform="translate(283, 969)">
+          <text
+            id="水相熔罐二"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="32" y="269">水相熔罐二</tspan>
+          </text>
+          <g id="组件5" transform="translate(67, 0)">
+            <mask id="mask-259" fill="white">
+              <use xlink:href="#path-258" />
+            </mask>
+            <use id="蒙版" fill="#D8D8D8" xlink:href="#path-258" />
+            <g mask="url(#mask-259)">
+              <rect id="矩形" fill="#191919" x="0" y="0" width="30" height="42" />
+              <rect id="矩形" fill="#191919" x="2" y="41" width="26" height="5" />
+              <rect id="矩形" fill="#007404" x="3" y="42" width="4" height="3" />
+              <rect id="矩形备份-47" fill="#429A4B" x="7" y="42" width="5" height="3" />
+              <rect id="矩形备份-48" fill="#5CB365" x="12" y="42" width="5" height="3" />
+              <rect id="矩形备份-49" fill="#429A4B" x="17" y="42" width="5" height="3" />
+              <rect id="矩形备份-50" fill="#007404" x="22" y="42" width="5" height="3" />
+              <rect id="矩形" fill="#D8D8D8" x="1" y="0" width="28" height="5" />
+              <rect id="矩形" fill="#007404" x="1" y="0" width="5" height="5" />
+              <rect id="矩形备份-47" fill="#429A4B" x="6" y="0" width="6" height="5" />
+              <rect id="矩形备份-48" fill="#5CB365" x="12" y="0" width="6" height="5" />
+              <rect id="矩形备份-49" fill="#429A4B" x="18" y="0" width="6" height="5" />
+              <rect id="矩形备份-50" fill="#007404" x="24" y="0" width="5" height="5" />
+              <rect id="矩形" fill="#429A4B" x="27" y="12" width="1" height="26" />
+              <rect id="矩形备份-46" fill="#429A4B" x="2" y="7" width="3" height="14" />
+              <rect id="矩形" fill="#429A4B" x="1" y="22" width="16" height="16" />
+              <rect id="矩形" fill="#FFFFFF" x="1" y="22" width="16" height="2" />
+              <rect id="矩形" fill="#FFFFFF" x="15" y="22" width="2" height="15" />
+              <rect id="矩形" fill="#191919" x="1" y="37" width="16" height="2" />
+              <rect id="矩形" fill="#191919" x="1" y="22" width="2" height="16" />
+            </g>
+            <rect
+              id="矩形"
+              fill="#191919"
+              mask="url(#mask-259)"
+              x="0"
+              y="0"
+              width="30"
+              height="1"
+            />
+            <path
+              d="M27.8060756,0.5 L29.5,2.04662659 L29.5,41.5 L0.5,41.5 L0.5,2.04662659 L2.19392436,0.5 L27.8060756,0.5 Z"
+              id="蒙版"
+              stroke="#191919"
+              mask="url(#mask-259)"
+            />
+          </g>
+          <g id="组件6" transform="translate(-0, 46)">
+            <g id="编组-3">
+              <path
+                d="M5.26013184,4.77272185 C30.8400879,1.59090728 56.4200439,0 82,0 C107.579956,0 133.159912,1.59090728 158.739868,4.77272185 C161.74448,5.1459871 164.000142,7.69940911 164,10.727118 L164,183.272882 C164.000142,186.300591 161.74448,188.854013 158.739868,189.227278 C133.159912,192.409093 107.579956,194 82,194 C56.4200439,194 30.8400879,192.409093 5.26013184,189.227278 C2.2555197,188.854013 -0.000141662411,186.300591 0,183.272882 L0,10.727118 C-0.000141662412,7.69940911 2.2555197,5.1459871 5.26013184,4.77272185 Z"
+                id="矩形"
+                fill="url(#linearGradient-219)"
+              />
+              <rect
+                id="矩形"
+                fill="#64D9E4"
+                x="13.2972973"
+                y="62.1011236"
+                width="135.189189"
+                height="121"
+              />
+              <path
+                d="M78.2366596,13.7036581 L79.4662284,13.7079503 C94.8098084,13.7907211 109.102441,14.9594786 113.928174,16.5483617 C123.655648,19.7511535 127.77724,23.3108346 131.72456,26.72514 C132.39827,27.3078773 133.066418,27.8861485 133.76058,28.4566293 C150.183319,41.9532632 149.602769,71.2944502 148.609022,98.2894837 C148.388711,104.274216 148.17293,110.118995 148.17293,115.600465 C148.17293,127.564317 149.707907,137.470501 150.991017,145.785524 C152.967975,158.596937 154.088261,167.794486 149.487414,175.022993 C143.497577,184.433779 119.590739,186.144008 94.6725575,186.105746 L92.8579851,186.101206 C90.2979605,186.092498 87.7411077,186.074771 85.2097623,186.057216 C81.7714549,186.03337 78.3803427,186.009831 75.0927204,186.009831 C60.3655415,186.009831 48.2310383,184.138627 39.2115514,180.594245 C29.6588533,176.840329 23.5344067,171.19313 21.102037,164.026983 C18.7982774,157.239742 19.6873279,141.737374 21.3235244,125.860199 L21.5171906,124.006051 C21.5499376,123.696481 21.5828815,123.386909 21.616297,123.074651 L21.8165852,121.22233 C22.2013723,117.698263 22.603524,114.199718 22.9915451,110.824214 C24.1186747,101.018998 25.1316124,92.2641239 25.2269199,87.0041624 C25.3607102,79.6203634 25.4150483,72.9179697 25.4641673,66.8630574 C25.6749621,40.8782908 26.2629836,26.61543 31.5736352,20.9831226 C35.1803731,17.1579317 48.5713223,14.7461469 64.0840347,14.0118367 C68.7174937,13.7925072 73.5159415,13.6961822 78.2366596,13.7036581 Z"
+                id="路径-7"
+                stroke="#191919"
+                stroke-width="5"
+              />
+              <path
+                d="M69.1192513,9.34972667 C85.8137503,9.24685812 102.067734,10.4728174 107.279526,12.1888112 C117.006999,15.391603 121.128591,18.9512841 125.07401,22.3639463 L125.781363,22.9745486 C126.219706,23.3513946 126.660273,23.7258935 127.111932,24.0970788 C142.316666,36.5927255 143.01274,62.6222602 142.175029,87.8974364 L142.108534,89.8421371 C142.060493,91.2101665 142.010303,92.573621 141.960374,93.9299332 C141.740063,99.9146651 141.524282,105.759444 141.524282,111.240915 C141.524282,123.204767 143.059258,133.110951 144.342368,141.425973 C146.319327,154.237386 147.439612,163.434935 142.838766,170.663443 C137.067937,179.730139 114.719981,181.69737 90.7486484,181.745755 L88.93504,181.747111 C88.3294213,181.746837 87.7235376,181.745877 87.115517,181.744345 L85.3015018,181.738204 C83.0450821,181.728759 80.7931803,181.713145 78.5611137,181.697665 C75.1228063,181.67382 71.7316941,181.650281 68.4440718,181.650281 C53.7168928,181.650281 41.5823897,179.779076 32.5629028,176.234695 C23.0102046,172.480778 16.8857581,166.833579 14.4533884,159.667432 C12.157057,152.902076 13.0513825,137.456792 14.6627029,121.63803 L14.7948729,120.354773 C14.8839685,119.498941 14.9749638,118.642674 15.067468,117.787284 L15.2694564,115.937131 C15.6230838,112.726594 15.9888732,109.544411 16.3428965,106.464663 C17.4700261,96.6594474 18.4829637,87.9045734 18.5782713,82.6446118 C18.7120616,75.2608129 18.7663997,68.5584192 18.8155186,62.5035068 C19.0263135,36.5187403 19.614335,22.2558794 24.9249866,16.623572 C28.5317244,12.7983812 41.9226737,10.3865964 57.435386,9.65228618 C60.0542977,9.5283173 62.7259184,9.44364477 65.4064204,9.39480098 L66.6440462,9.37478912 C67.0566919,9.3689581 67.4693883,9.36396247 67.8819757,9.3597896 Z"
+                id="路径-7"
+                stroke="#FFFFFF"
+                stroke-width="5"
+              />
+              <path
+                d="M82,0 C107.579956,0 133.159912,1.59090728 158.739868,4.77272185 C161.74448,5.1459871 164.000142,7.69940911 164,10.727118 L164,183.272882 C164.000142,186.300591 161.74448,188.854013 158.739868,189.227278 C133.159912,192.409093 107.579956,194 82,194 C56.4200439,194 30.8400879,192.409093 5.26013184,189.227278 C2.2555197,188.854013 -0.000141662411,186.300591 0,183.272882 L0,10.727118 C-0.000141662412,7.69940911 2.2555197,5.1459871 5.26013184,4.77272185 C30.8400879,1.59090728 56.4200439,0 82,0 Z M109.822008,16.743186 C98.8602325,13.1339975 38.132592,11.9656326 30.0682537,20.518412 C23.7045055,27.2676 25.0843229,47.222956 24.4021853,84.8696783 C24.2731549,91.9907808 22.4907553,105.454696 20.9774902,119.313912 L20.7774852,121.163628 C19.0278439,137.514253 17.7700609,154.04655 20.1450591,161.043671 C24.6261876,174.245787 43.2140518,181.330056 71.7683961,181.330056 C77.1937216,181.330056 82.9003941,181.393992 88.6362905,181.418001 L90.4483036,181.424135 L92.2604951,181.426887 C115.510551,181.437403 138.368821,180.433059 144.054054,171.500845 C151.437473,159.900566 142.348606,142.775281 142.348606,113.42069 C142.348606,84.066099 148.486486,44.3469321 128.848949,28.2082931 C128.538247,27.9529497 128.232603,27.6961204 127.929344,27.4380556 L127.47591,27.050063 C127.249753,26.8556347 127.024186,26.6605819 126.79808,26.4650102 L126.344816,26.0732062 C122.707614,22.9337408 118.740063,19.6794749 109.822008,16.743186 Z"
+                id="形状结合"
+                fill="url(#linearGradient-220)"
+              />
+            </g>
+            <path
+              d="M82,0.5 C107.559384,0.5 133.118767,2.08964253 158.678227,5.26890762 C160.055331,5.4399863 161.260802,6.11067894 162.121983,7.0855238 C162.983172,8.06037845 163.500065,9.33939097 163.5,10.727118 L163.5,183.272905 C163.500065,184.660609 162.983172,185.939622 162.121983,186.914476 C161.260802,187.889321 160.055331,188.560014 158.67815,188.731102 C133.118767,191.910357 107.559384,193.5 82,193.5 C56.440616,193.5 30.8812332,191.910357 5.32177339,188.731092 C3.94466941,188.560014 2.73919824,187.889321 1.8780173,186.914476 C1.0168277,185.939622 0.499935084,184.660609 0.500000013,183.272882 L0.500000013,10.7270946 C0.499935084,9.33939097 1.0168277,8.06037845 1.8780173,7.0855238 C2.73919824,6.11067894 3.94466941,5.4399863 5.32184974,5.26889813 C30.8812332,2.08964253 56.440616,0.5 82,0.5 Z"
+              id="矩形"
+              stroke="#191919"
+            />
+            <path
+              d="M84,138.512695 L51.1547914,149.305583 C49.5807399,149.822814 47.8854204,148.966092 47.3681894,147.39204 C47.2688699,147.089789 47.2182617,146.773662 47.2182617,146.455511 L47.2182617,130.789257 C47.2182617,129.132403 48.5614075,127.789257 50.2182617,127.789257 C50.5303373,127.789257 50.840502,127.837951 51.1375642,127.933581 L84,138.512695 L84,138.512695 Z"
+              id="路径-2"
+              stroke="#191919"
+              fill="#006900"
+            />
+            <path
+              d="M85.6118164,137.916992 L130.406497,127.108532 C132.554006,126.590362 134.714965,127.911202 135.233136,130.058711 C135.307268,130.365948 135.344727,130.680888 135.344727,130.996941 L135.344727,145.451095 C135.344727,147.660234 133.553866,149.451095 131.344727,149.451095 C131.011382,149.451095 130.679345,149.409427 130.356338,149.327058 L85.6118164,137.916992 L85.6118164,137.916992 Z"
+              id="路径-4"
+              stroke="#191919"
+              fill="#006900"
+            />
+            <rect
+              id="矩形"
+              stroke="#006506"
+              fill="#CEEDC9"
+              x="82.5"
+              y="15.5"
+              width="3"
+              height="126"
+            />
+            <path
+              d="M84,138.635498 L43.4500957,127.692415 C41.8504669,127.260728 40.20376,128.207531 39.7720729,129.80716 C39.7032965,130.062013 39.668457,130.324829 39.668457,130.588799 L39.668457,145.725209 C39.668457,147.382064 41.0116028,148.725209 42.668457,148.725209 C42.9102304,148.725209 43.1511172,148.695982 43.3858756,148.638165 L84,138.635498 L84,138.635498 Z"
+              id="路径-6"
+              stroke="#191919"
+              fill="#00650F"
+            />
+            <path
+              d="M85.6118164,138.635498 L126.782221,126.916791 C128.375778,126.463203 130.035317,127.38733 130.488906,128.980887 C130.564944,129.248026 130.603516,129.524431 130.603516,129.802181 L130.603516,145.738625 C130.603516,147.395479 129.26037,148.738625 127.603516,148.738625 C127.365164,148.738625 127.127663,148.71022 126.896034,148.65401 L85.6118164,138.635498 L85.6118164,138.635498 Z"
+              id="路径-5"
+              stroke="#191919"
+              fill="#00650F"
+            />
+          </g>
+        </g>
+        <g id="组件5" transform="translate(153, 432)">
+          <mask id="mask-261" fill="white">
+            <use xlink:href="#path-260" />
+          </mask>
+          <use id="蒙版" fill="#D8D8D8" xlink:href="#path-260" />
+          <g mask="url(#mask-261)">
+            <rect id="矩形" fill="#191919" x="0" y="0" width="30" height="42" />
+            <rect id="矩形" fill="#191919" x="2" y="41" width="26" height="5" />
+            <rect id="矩形" fill="#A4A4A4" x="3" y="42" width="4" height="3" />
+            <rect id="矩形备份-47" fill="#B4B2B3" x="7" y="42" width="5" height="3" />
+            <rect id="矩形备份-48" fill="#D4D4D4" x="12" y="42" width="5" height="3" />
+            <rect id="矩形备份-49" fill="#B4B2B3" x="17" y="42" width="5" height="3" />
+            <rect id="矩形备份-50" fill="#A4A4A4" x="22" y="42" width="5" height="3" />
+            <rect id="矩形" fill="#D8D8D8" x="1" y="0" width="28" height="5" />
+            <rect id="矩形" fill="#A4A4A4" x="1" y="0" width="5" height="5" />
+            <rect id="矩形备份-47" fill="#B4B2B3" x="6" y="0" width="6" height="5" />
+            <rect id="矩形备份-48" fill="#D4D4D4" x="12" y="0" width="6" height="5" />
+            <rect id="矩形备份-49" fill="#B4B2B3" x="18" y="0" width="6" height="5" />
+            <rect id="矩形备份-50" fill="#A4A4A4" x="24" y="0" width="5" height="5" />
+            <rect id="矩形" fill="#818483" x="27" y="12" width="1" height="26" />
+            <rect id="矩形备份-46" fill="#818483" x="2" y="7" width="3" height="14" />
+            <rect id="矩形" fill="#B2B2B2" x="1" y="22" width="16" height="16" />
+            <rect id="矩形" fill="#FFFFFF" x="1" y="22" width="16" height="2" />
+            <rect id="矩形" fill="#FFFFFF" x="15" y="22" width="2" height="15" />
+            <rect id="矩形" fill="#191919" x="1" y="37" width="16" height="2" />
+            <rect id="矩形" fill="#191919" x="1" y="22" width="2" height="16" />
+          </g>
+          <rect id="矩形" fill="#191919" mask="url(#mask-261)" x="0" y="0" width="30" height="1" />
+          <path
+            d="M27.8060756,0.5 L29.5,2.04662659 L29.5,41.5 L0.5,41.5 L0.5,2.04662659 L2.19392436,0.5 L27.8060756,0.5 Z"
+            id="蒙版"
+            stroke="#191919"
+            mask="url(#mask-261)"
+          />
+        </g>
+        <g id="组件6" transform="translate(86, 478)">
+          <g id="编组-3" transform="translate(-0, 0)">
+            <path
+              d="M5.26013184,4.77272185 C30.8400879,1.59090728 56.4200439,0 82,0 C107.579956,0 133.159912,1.59090728 158.739868,4.77272185 C161.74448,5.1459871 164.000142,7.69940911 164,10.727118 L164,183.272882 C164.000142,186.300591 161.74448,188.854013 158.739868,189.227278 C133.159912,192.409093 107.579956,194 82,194 C56.4200439,194 30.8400879,192.409093 5.26013184,189.227278 C2.2555197,188.854013 -0.000141662411,186.300591 0,183.272882 L0,10.727118 C-0.000141662412,7.69940911 2.2555197,5.1459871 5.26013184,4.77272185 Z"
+              id="矩形"
+              fill="url(#linearGradient-219)"
+            />
+            <rect
+              id="矩形"
+              fill="#64D9E4"
+              x="13.2972973"
+              y="14.1685393"
+              width="135.189189"
+              height="168.932584"
+            />
+            <path
+              d="M78.2366596,13.7036581 L79.4662284,13.7079503 C94.8098084,13.7907211 109.102441,14.9594786 113.928174,16.5483617 C123.655648,19.7511535 127.77724,23.3108346 131.72456,26.72514 C132.39827,27.3078773 133.066418,27.8861485 133.76058,28.4566293 C150.183319,41.9532632 149.602769,71.2944502 148.609022,98.2894837 C148.388711,104.274216 148.17293,110.118995 148.17293,115.600465 C148.17293,127.564317 149.707907,137.470501 150.991017,145.785524 C152.967975,158.596937 154.088261,167.794486 149.487414,175.022993 C143.497577,184.433779 119.590739,186.144008 94.6725575,186.105746 L92.8579851,186.101206 C90.2979605,186.092498 87.7411077,186.074771 85.2097623,186.057216 C81.7714549,186.03337 78.3803427,186.009831 75.0927204,186.009831 C60.3655415,186.009831 48.2310383,184.138627 39.2115514,180.594245 C29.6588533,176.840329 23.5344067,171.19313 21.102037,164.026983 C18.7982774,157.239742 19.6873279,141.737374 21.3235244,125.860199 L21.5171906,124.006051 C21.5499376,123.696481 21.5828815,123.386909 21.616297,123.074651 L21.8165852,121.22233 C22.2013723,117.698263 22.603524,114.199718 22.9915451,110.824214 C24.1186747,101.018998 25.1316124,92.2641239 25.2269199,87.0041624 C25.3607102,79.6203634 25.4150483,72.9179697 25.4641673,66.8630574 C25.6749621,40.8782908 26.2629836,26.61543 31.5736352,20.9831226 C35.1803731,17.1579317 48.5713223,14.7461469 64.0840347,14.0118367 C68.7174937,13.7925072 73.5159415,13.6961822 78.2366596,13.7036581 Z"
+              id="路径-7"
+              stroke="#191919"
+              stroke-width="5"
+            />
+            <path
+              d="M69.1192513,9.34972667 C85.8137503,9.24685812 102.067734,10.4728174 107.279526,12.1888112 C117.006999,15.391603 121.128591,18.9512841 125.07401,22.3639463 L125.781363,22.9745486 C126.219706,23.3513946 126.660273,23.7258935 127.111932,24.0970788 C142.316666,36.5927255 143.01274,62.6222602 142.175029,87.8974364 L142.108534,89.8421371 C142.060493,91.2101665 142.010303,92.573621 141.960374,93.9299332 C141.740063,99.9146651 141.524282,105.759444 141.524282,111.240915 C141.524282,123.204767 143.059258,133.110951 144.342368,141.425973 C146.319327,154.237386 147.439612,163.434935 142.838766,170.663443 C137.067937,179.730139 114.719981,181.69737 90.7486484,181.745755 L88.93504,181.747111 C88.3294213,181.746837 87.7235376,181.745877 87.115517,181.744345 L85.3015018,181.738204 C83.0450821,181.728759 80.7931803,181.713145 78.5611137,181.697665 C75.1228063,181.67382 71.7316941,181.650281 68.4440718,181.650281 C53.7168928,181.650281 41.5823897,179.779076 32.5629028,176.234695 C23.0102046,172.480778 16.8857581,166.833579 14.4533884,159.667432 C12.157057,152.902076 13.0513825,137.456792 14.6627029,121.63803 L14.7948729,120.354773 C14.8839685,119.498941 14.9749638,118.642674 15.067468,117.787284 L15.2694564,115.937131 C15.6230838,112.726594 15.9888732,109.544411 16.3428965,106.464663 C17.4700261,96.6594474 18.4829637,87.9045734 18.5782713,82.6446118 C18.7120616,75.2608129 18.7663997,68.5584192 18.8155186,62.5035068 C19.0263135,36.5187403 19.614335,22.2558794 24.9249866,16.623572 C28.5317244,12.7983812 41.9226737,10.3865964 57.435386,9.65228618 C60.0542977,9.5283173 62.7259184,9.44364477 65.4064204,9.39480098 L66.6440462,9.37478912 C67.0566919,9.3689581 67.4693883,9.36396247 67.8819757,9.3597896 Z"
+              id="路径-7"
+              stroke="#FFFFFF"
+              stroke-width="5"
+            />
+            <path
+              d="M82,0 C107.579956,0 133.159912,1.59090728 158.739868,4.77272185 C161.74448,5.1459871 164.000142,7.69940911 164,10.727118 L164,183.272882 C164.000142,186.300591 161.74448,188.854013 158.739868,189.227278 C133.159912,192.409093 107.579956,194 82,194 C56.4200439,194 30.8400879,192.409093 5.26013184,189.227278 C2.2555197,188.854013 -0.000141662411,186.300591 0,183.272882 L0,10.727118 C-0.000141662412,7.69940911 2.2555197,5.1459871 5.26013184,4.77272185 C30.8400879,1.59090728 56.4200439,0 82,0 Z M109.822008,16.743186 C98.8602325,13.1339975 38.132592,11.9656326 30.0682537,20.518412 C23.7045055,27.2676 25.0843229,47.222956 24.4021853,84.8696783 C24.2731549,91.9907808 22.4907553,105.454696 20.9774902,119.313912 L20.7774852,121.163628 C19.0278439,137.514253 17.7700609,154.04655 20.1450591,161.043671 C24.6261876,174.245787 43.2140518,181.330056 71.7683961,181.330056 C77.1937216,181.330056 82.9003941,181.393992 88.6362905,181.418001 L90.4483036,181.424135 L92.2604951,181.426887 C115.510551,181.437403 138.368821,180.433059 144.054054,171.500845 C151.437473,159.900566 142.348606,142.775281 142.348606,113.42069 C142.348606,84.066099 148.486486,44.3469321 128.848949,28.2082931 C128.538247,27.9529497 128.232603,27.6961204 127.929344,27.4380556 L127.47591,27.050063 C127.249753,26.8556347 127.024186,26.6605819 126.79808,26.4650102 L126.344816,26.0732062 C122.707614,22.9337408 118.740063,19.6794749 109.822008,16.743186 Z"
+              id="形状结合"
+              fill="url(#linearGradient-262)"
+            />
+          </g>
+          <path
+            d="M82,0.5 C107.559384,0.5 133.118767,2.08964253 158.678227,5.26890762 C160.055331,5.4399863 161.260802,6.11067894 162.121983,7.0855238 C162.983172,8.06037845 163.500065,9.33939097 163.5,10.727118 L163.5,183.272905 C163.500065,184.660609 162.983172,185.939622 162.121983,186.914476 C161.260802,187.889321 160.055331,188.560014 158.67815,188.731102 C133.118767,191.910357 107.559384,193.5 82,193.5 C56.440616,193.5 30.8812332,191.910357 5.32177339,188.731092 C3.94466941,188.560014 2.73919824,187.889321 1.8780173,186.914476 C1.0168277,185.939622 0.499935084,184.660609 0.500000013,183.272882 L0.500000013,10.7270946 C0.499935084,9.33939097 1.0168277,8.06037845 1.8780173,7.0855238 C2.73919824,6.11067894 3.94466941,5.4399863 5.32184974,5.26889813 C30.8812332,2.08964253 56.440616,0.5 82,0.5 Z"
+            id="矩形"
+            stroke="#191919"
+          />
+          <path
+            d="M85.6118164,137.916992 L94.5198972,127.957254 C94.888083,127.545602 95.5202667,127.510365 95.9319191,127.878551 C96.1516188,128.075052 96.2734369,128.358471 96.2648339,128.653101 L95.7042953,147.85003 C95.6881757,148.402079 95.2275838,148.836536 94.6755343,148.820417 C94.3798397,148.811782 94.1031421,148.672671 93.9198385,148.440487 L85.6118164,137.916992 L85.6118164,137.916992 Z"
+            id="路径-4"
+            stroke="#191919"
+            fill="#4F4C4F"
+          />
+          <path
+            d="M84,138.635498 L43.4500957,127.692415 C41.8504669,127.260728 40.20376,128.207531 39.7720729,129.80716 C39.7032965,130.062013 39.668457,130.324829 39.668457,130.588799 L39.668457,145.725209 C39.668457,147.382064 41.0116028,148.725209 42.668457,148.725209 C42.9102304,148.725209 43.1511172,148.695982 43.3858756,148.638165 L84,138.635498 L84,138.635498 Z"
+            id="路径-6"
+            stroke="#191919"
+            fill="#737476"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="#EAEAEA"
+            x="82.5"
+            y="15.5"
+            width="3"
+            height="126"
+          />
+          <path
+            d="M85.6118164,138.635498 L126.782221,126.916791 C128.375778,126.463203 130.035317,127.38733 130.488906,128.980887 C130.564944,129.248026 130.603516,129.524431 130.603516,129.802181 L130.603516,145.738625 C130.603516,147.395479 129.26037,148.738625 127.603516,148.738625 C127.365164,148.738625 127.127663,148.71022 126.896034,148.65401 L85.6118164,138.635498 L85.6118164,138.635498 Z"
+            id="路径-5"
+            stroke="#191919"
+            fill="#737476"
+          />
+          <path
+            d="M84,138.512695 L74.9644973,148.641575 C74.5968512,149.05371 73.9647142,149.089775 73.5525797,148.722129 C73.3398858,148.532394 73.2182617,148.260916 73.2182617,147.975893 L73.2182617,129.255401 C73.2182617,128.703117 73.665977,128.255401 74.2182617,128.255401 C74.4997275,128.255401 74.7681608,128.37402 74.9576621,128.582135 L84,138.512695 L84,138.512695 Z"
+            id="路径-2"
+            stroke="#191919"
+            fill="#4F4C4F"
+          />
+        </g>
+        <g id="编组-12" transform="translate(1394, 800)">
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-70)"
+            x="20.5"
+            y="21.5"
+            width="19"
+            height="31"
+          />
+          <rect id="矩形" fill="#191919" x="28" y="21" width="4" height="3" />
+          <rect id="矩形备份-102" fill="#191919" x="28" y="50" width="4" height="3" />
+          <path
+            d="M16,27.5 C18.8994949,27.5 21.5244949,28.6752525 23.4246212,30.5753788 C25.3247475,32.4755051 26.5,35.1005051 26.5,38 C26.5,40.8994949 25.3247475,43.5244949 23.4246212,45.4246212 C21.5244949,47.3247475 18.8994949,48.5 16,48.5 L3.5,48.5 L3.5,27.5 Z"
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-71)"
+          />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-72)"
+            x="6.5"
+            y="24.5"
+            width="5"
+            height="27"
+          />
+          <rect
+            id="矩形备份-101"
+            stroke="#191919"
+            fill="#BCB6BA"
+            x="0.5"
+            y="0.5"
+            width="3"
+            height="33"
+          />
+          <rect id="矩形" fill="#191919" x="0" y="36" width="3" height="6" />
+          <rect
+            id="矩形"
+            stroke="#191919"
+            fill="url(#linearGradient-73)"
+            x="16.5"
+            y="17.5"
+            width="27"
+            height="4"
+          />
+          <rect
+            id="矩形备份-95"
+            stroke="#191919"
+            fill="url(#linearGradient-73)"
+            x="16.5"
+            y="52.5"
+            width="27"
+            height="4"
+          />
+          <rect id="矩形" stroke="#191919" fill="#C2C4C3" x="16.5" y="15.5" width="6" height="2" />
+          <rect
+            id="矩形备份-97"
+            stroke="#191919"
+            fill="#C2C4C3"
+            x="16.5"
+            y="56.5"
+            width="6"
+            height="2"
+          />
+          <rect id="矩形" stroke="#191919" fill="#C2C4C3" x="37.5" y="15.5" width="6" height="2" />
+          <rect
+            id="矩形备份-98"
+            stroke="#191919"
+            fill="#C2C4C3"
+            x="37.5"
+            y="56.5"
+            width="6"
+            height="2"
+          />
+          <rect id="矩形" fill="#191919" x="39" y="13" width="4" height="3" />
+          <rect id="矩形备份-99" fill="#191919" x="39" y="58" width="4" height="3" />
+          <rect id="矩形" fill="#191919" x="17" y="13" width="4" height="3" />
+          <rect id="矩形备份-100" fill="#191919" x="17" y="58" width="4" height="3" />
+        </g>
+        <g id="编组-6" transform="translate(50, 912)">
+          <path
+            d="M4.5,3 C5.46649831,3 6.34149831,3.39175084 6.97487373,4.02512627 C7.60824916,4.65850169 8,5.53350169 8,6.5 L8,16 L1,16 L1,6.5 C1,5.53350169 1.39175084,4.65850169 2.02512627,4.02512627 C2.65850169,3.39175084 3.53350169,3 4.5,3 Z"
+            id="形状结合"
+            stroke="#191919"
+            stroke-width="2"
+            fill="#191919"
+          />
+          <rect id="矩形" fill="#FFFFFF" x="2" y="12" width="5" height="2" />
+          <path
+            d="M4.5,4 C5.88071187,4 7,5.11928813 7,6.5 L7,7 L7,7 L2,7 L2,6.5 C2,5.11928813 3.11928813,4 4.5,4 Z"
+            id="矩形备份-80"
+            fill="#FFFFFF"
+          />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="0.5" y="30.5" width="37" height="25" />
+          <rect id="矩形" fill="#191919" x="3" y="30" width="3" height="26" />
+          <rect id="矩形" fill="#191919" x="13" y="43" width="7" height="3" />
+          <rect id="矩形备份-72" fill="#191919" x="32" y="31" width="3" height="25" />
+          <rect id="矩形" fill="#191919" x="0" y="43" width="6" height="3" />
+          <rect
+            id="矩形"
+            fill="#191919"
+            transform="translate(11.5, 29.5) scale(-1, 1) translate(-11.5, -29.5)"
+            x="11"
+            y="28"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="矩形备份-73"
+            fill="#191919"
+            transform="translate(12.5, 26.5) scale(-1, 1) translate(-12.5, -26.5)"
+            x="12"
+            y="25"
+            width="1"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="13" y="19" width="12" height="3" />
+          <rect
+            id="矩形备份-74"
+            fill="#191919"
+            transform="translate(13.5, 23.5) scale(-1, 1) translate(-13.5, -23.5)"
+            x="13"
+            y="22"
+            width="1"
+            height="3"
+          />
+          <rect id="矩形" fill="#FFFFFF" x="14" y="22" width="10" height="3" />
+          <rect id="矩形备份-78" fill="#FFFFFF" x="13" y="25" width="12" height="3" />
+          <rect id="矩形备份-79" fill="#FFFFFF" x="12" y="28" width="14" height="2" />
+          <rect
+            id="矩形备份-75"
+            fill="#191919"
+            transform="translate(24.5, 23.5) scale(-1, 1) translate(-24.5, -23.5)"
+            x="24"
+            y="22"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="矩形备份-76"
+            fill="#191919"
+            transform="translate(25.5, 26.5) scale(-1, 1) translate(-25.5, -26.5)"
+            x="25"
+            y="25"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="矩形备份-77"
+            fill="#191919"
+            transform="translate(26.5, 29.5) scale(-1, 1) translate(-26.5, -29.5)"
+            x="26"
+            y="28"
+            width="1"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="33" y="43" width="4" height="3" />
+          <path
+            d="M16,0 C16,0 22,0 22,0 C22,0 24.3333333,2 29,6 L29,17 L19,22 L9,17 L9,6 C13.6666667,2 16,0 16,0 Z"
+            id="路径-11"
+            fill="#010000"
+          />
+          <rect id="矩形" fill="#191919" x="29" y="10" width="1" height="2" />
+          <path
+            d="M16.9,3 C16.9,3 21.1,3 21.1,3 C21.1,3 22.7333333,4.45454545 26,7.36363636 L26,15.3636364 L19,19 L12,15.3636364 L12,7.36363636 C15.2666667,4.45454545 16.9,3 16.9,3 Z"
+            id="路径-11"
+            stroke="#979797"
+          />
+          <path
+            d="M18.8,6 C18.8,6 20.2,6.90909091 23,8.72727273 L23,11.4177628 C23,12.8469106 22.2376199,14.1675161 21,14.8821911 C19.762427,15.5968389 18.237573,15.5968389 17,14.8821911 C15.7623801,14.1675161 15,12.8469106 15,11.4177628 L15,8.72727273 L15,8.72727273 C17.5333333,6.90909091 18.8,6 18.8,6 Z"
+            id="路径-11"
+            stroke="#979797"
+          />
+          <rect id="矩形" fill="#979797" x="15" y="9" width="8" height="1" />
+          <circle id="椭圆形" stroke="#191919" fill="#FFFFFF" cx="23" cy="19" r="1.5" />
+          <circle id="椭圆形备份" stroke="#191919" fill="#FFFFFF" cx="15" cy="19" r="1.5" />
+          <rect id="矩形" fill="#979797" x="15" y="11" width="6" height="1" />
+          <path
+            d="M17.0166016,40.5 C17.0166016,40.5 18.1510417,40.5 20.4199219,40.5 L24,44.5 L20.5151367,48.9648438 L17.0166016,48.9648438 C18.3388672,46.9882812 19,46 19,46 C19,46 19,45 19,43 C17.6777344,41.3333333 17.0166016,40.5 17.0166016,40.5 Z"
+            id="路径-12"
+            fill="#191919"
+          />
+        </g>
+        <g id="编组-6" transform="translate(2187, 491)">
+          <path
+            d="M4.5,3 C5.46649831,3 6.34149831,3.39175084 6.97487373,4.02512627 C7.60824916,4.65850169 8,5.53350169 8,6.5 L8,16 L1,16 L1,6.5 C1,5.53350169 1.39175084,4.65850169 2.02512627,4.02512627 C2.65850169,3.39175084 3.53350169,3 4.5,3 Z"
+            id="形状结合"
+            stroke="#191919"
+            stroke-width="2"
+            fill="#191919"
+          />
+          <rect id="矩形" fill="#FFFFFF" x="2" y="12" width="5" height="2" />
+          <path
+            d="M4.5,4 C5.88071187,4 7,5.11928813 7,6.5 L7,7 L7,7 L2,7 L2,6.5 C2,5.11928813 3.11928813,4 4.5,4 Z"
+            id="矩形备份-80"
+            fill="#FFFFFF"
+          />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="0.5" y="30.5" width="37" height="25" />
+          <rect id="矩形" fill="#191919" x="3" y="30" width="3" height="26" />
+          <rect id="矩形" fill="#191919" x="13" y="43" width="7" height="3" />
+          <rect id="矩形备份-72" fill="#191919" x="32" y="31" width="3" height="25" />
+          <rect id="矩形" fill="#191919" x="0" y="43" width="6" height="3" />
+          <rect
+            id="矩形"
+            fill="#191919"
+            transform="translate(11.5, 29.5) scale(-1, 1) translate(-11.5, -29.5)"
+            x="11"
+            y="28"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="矩形备份-73"
+            fill="#191919"
+            transform="translate(12.5, 26.5) scale(-1, 1) translate(-12.5, -26.5)"
+            x="12"
+            y="25"
+            width="1"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="13" y="19" width="12" height="3" />
+          <rect
+            id="矩形备份-74"
+            fill="#191919"
+            transform="translate(13.5, 23.5) scale(-1, 1) translate(-13.5, -23.5)"
+            x="13"
+            y="22"
+            width="1"
+            height="3"
+          />
+          <rect id="矩形" fill="#FFFFFF" x="14" y="22" width="10" height="3" />
+          <rect id="矩形备份-78" fill="#FFFFFF" x="13" y="25" width="12" height="3" />
+          <rect id="矩形备份-79" fill="#FFFFFF" x="12" y="28" width="14" height="2" />
+          <rect
+            id="矩形备份-75"
+            fill="#191919"
+            transform="translate(24.5, 23.5) scale(-1, 1) translate(-24.5, -23.5)"
+            x="24"
+            y="22"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="矩形备份-76"
+            fill="#191919"
+            transform="translate(25.5, 26.5) scale(-1, 1) translate(-25.5, -26.5)"
+            x="25"
+            y="25"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="矩形备份-77"
+            fill="#191919"
+            transform="translate(26.5, 29.5) scale(-1, 1) translate(-26.5, -29.5)"
+            x="26"
+            y="28"
+            width="1"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="33" y="43" width="4" height="3" />
+          <path
+            d="M16,0 C16,0 22,0 22,0 C22,0 24.3333333,2 29,6 L29,17 L19,22 L9,17 L9,6 C13.6666667,2 16,0 16,0 Z"
+            id="路径-11"
+            fill="#010000"
+          />
+          <rect id="矩形" fill="#191919" x="29" y="10" width="1" height="2" />
+          <path
+            d="M16.9,3 C16.9,3 21.1,3 21.1,3 C21.1,3 22.7333333,4.45454545 26,7.36363636 L26,15.3636364 L19,19 L12,15.3636364 L12,7.36363636 C15.2666667,4.45454545 16.9,3 16.9,3 Z"
+            id="路径-11"
+            stroke="#979797"
+          />
+          <path
+            d="M18.8,6 C18.8,6 20.2,6.90909091 23,8.72727273 L23,11.4177628 C23,12.8469106 22.2376199,14.1675161 21,14.8821911 C19.762427,15.5968389 18.237573,15.5968389 17,14.8821911 C15.7623801,14.1675161 15,12.8469106 15,11.4177628 L15,8.72727273 L15,8.72727273 C17.5333333,6.90909091 18.8,6 18.8,6 Z"
+            id="路径-11"
+            stroke="#979797"
+          />
+          <rect id="矩形" fill="#979797" x="15" y="9" width="8" height="1" />
+          <circle id="椭圆形" stroke="#191919" fill="#FFFFFF" cx="23" cy="19" r="1.5" />
+          <circle id="椭圆形备份" stroke="#191919" fill="#FFFFFF" cx="15" cy="19" r="1.5" />
+          <rect id="矩形" fill="#979797" x="15" y="11" width="6" height="1" />
+          <path
+            d="M17.0166016,40.5 C17.0166016,40.5 18.1510417,40.5 20.4199219,40.5 L24,44.5 L20.5151367,48.9648438 L17.0166016,48.9648438 C18.3388672,46.9882812 19,46 19,46 C19,46 19,45 19,43 C17.6777344,41.3333333 17.0166016,40.5 17.0166016,40.5 Z"
+            id="路径-12"
+            fill="#191919"
+          />
+        </g>
+        <g id="编组-6备份-2" transform="translate(2187, 620)">
+          <path
+            d="M4.5,3 C5.46649831,3 6.34149831,3.39175084 6.97487373,4.02512627 C7.60824916,4.65850169 8,5.53350169 8,6.5 L8,16 L1,16 L1,6.5 C1,5.53350169 1.39175084,4.65850169 2.02512627,4.02512627 C2.65850169,3.39175084 3.53350169,3 4.5,3 Z"
+            id="形状结合"
+            stroke="#191919"
+            stroke-width="2"
+            fill="#191919"
+          />
+          <rect id="矩形" fill="#FFFFFF" x="2" y="12" width="5" height="2" />
+          <path
+            d="M4.5,4 C5.88071187,4 7,5.11928813 7,6.5 L7,7 L7,7 L2,7 L2,6.5 C2,5.11928813 3.11928813,4 4.5,4 Z"
+            id="矩形备份-80"
+            fill="#FFFFFF"
+          />
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="0.5" y="30.5" width="37" height="25" />
+          <rect id="矩形" fill="#191919" x="3" y="30" width="3" height="26" />
+          <rect id="矩形" fill="#191919" x="13" y="43" width="7" height="3" />
+          <rect id="矩形备份-72" fill="#191919" x="32" y="31" width="3" height="25" />
+          <rect id="矩形" fill="#191919" x="0" y="43" width="6" height="3" />
+          <rect
+            id="矩形"
+            fill="#191919"
+            transform="translate(11.5, 29.5) scale(-1, 1) translate(-11.5, -29.5)"
+            x="11"
+            y="28"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="矩形备份-73"
+            fill="#191919"
+            transform="translate(12.5, 26.5) scale(-1, 1) translate(-12.5, -26.5)"
+            x="12"
+            y="25"
+            width="1"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="13" y="19" width="12" height="3" />
+          <rect
+            id="矩形备份-74"
+            fill="#191919"
+            transform="translate(13.5, 23.5) scale(-1, 1) translate(-13.5, -23.5)"
+            x="13"
+            y="22"
+            width="1"
+            height="3"
+          />
+          <rect id="矩形" fill="#FFFFFF" x="14" y="22" width="10" height="3" />
+          <rect id="矩形备份-78" fill="#FFFFFF" x="13" y="25" width="12" height="3" />
+          <rect id="矩形备份-79" fill="#FFFFFF" x="12" y="28" width="14" height="2" />
+          <rect
+            id="矩形备份-75"
+            fill="#191919"
+            transform="translate(24.5, 23.5) scale(-1, 1) translate(-24.5, -23.5)"
+            x="24"
+            y="22"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="矩形备份-76"
+            fill="#191919"
+            transform="translate(25.5, 26.5) scale(-1, 1) translate(-25.5, -26.5)"
+            x="25"
+            y="25"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="矩形备份-77"
+            fill="#191919"
+            transform="translate(26.5, 29.5) scale(-1, 1) translate(-26.5, -29.5)"
+            x="26"
+            y="28"
+            width="1"
+            height="3"
+          />
+          <rect id="矩形" fill="#191919" x="33" y="43" width="4" height="3" />
+          <path
+            d="M16,0 C16,0 22,0 22,0 C22,0 24.3333333,2 29,6 L29,17 L19,22 L9,17 L9,6 C13.6666667,2 16,0 16,0 Z"
+            id="路径-11"
+            fill="#010000"
+          />
+          <rect id="矩形" fill="#191919" x="29" y="10" width="1" height="2" />
+          <path
+            d="M16.9,3 C16.9,3 21.1,3 21.1,3 C21.1,3 22.7333333,4.45454545 26,7.36363636 L26,15.3636364 L19,19 L12,15.3636364 L12,7.36363636 C15.2666667,4.45454545 16.9,3 16.9,3 Z"
+            id="路径-11"
+            stroke="#979797"
+          />
+          <path
+            d="M18.8,6 C18.8,6 20.2,6.90909091 23,8.72727273 L23,11.4177628 C23,12.8469106 22.2376199,14.1675161 21,14.8821911 C19.762427,15.5968389 18.237573,15.5968389 17,14.8821911 C15.7623801,14.1675161 15,12.8469106 15,11.4177628 L15,8.72727273 L15,8.72727273 C17.5333333,6.90909091 18.8,6 18.8,6 Z"
+            id="路径-11"
+            stroke="#979797"
+          />
+          <rect id="矩形" fill="#979797" x="15" y="9" width="8" height="1" />
+          <circle id="椭圆形" stroke="#191919" fill="#FFFFFF" cx="23" cy="19" r="1.5" />
+          <circle id="椭圆形备份" stroke="#191919" fill="#FFFFFF" cx="15" cy="19" r="1.5" />
+          <rect id="矩形" fill="#979797" x="15" y="11" width="6" height="1" />
+          <path
+            d="M17.0166016,40.5 C17.0166016,40.5 18.1510417,40.5 20.4199219,40.5 L24,44.5 L20.5151367,48.9648438 L17.0166016,48.9648438 C18.3388672,46.9882812 19,46 19,46 C19,46 19,45 19,43 C17.6777344,41.3333333 17.0166016,40.5 17.0166016,40.5 Z"
+            id="路径-12"
+            fill="#191919"
+          />
+        </g>
+        <g id="组件1" transform="translate(2096, 645)">
+          <polygon id="矩形" fill="#A4A4A4" points="4 9 45.9921875 9 48 12 1.0729107e-14 12" />
+          <rect id="矩形备份-21" fill="#B2B4B3" x="1" y="12" width="46" height="4" />
+          <rect id="矩形备份-23" fill="#D4D4D4" x="1" y="16" width="46" height="4" />
+          <rect id="矩形备份-24" fill="#B4B2B3" x="1" y="20" width="46" height="4" />
+          <polygon id="矩形备份-25" fill="#A4A4A4" points="1.0729107e-14 24 48 24 45 27 3 27" />
+          <path
+            d="M44.7928932,8.5 L47.5,11.2071068 L47.5,23.8333333 L44.75,27.5 L4.16623768,27.5 L0.5,24.7591606 L0.5,11.25 L4.16666667,8.5 L44.7928932,8.5 Z"
+            id="矩形"
+            stroke="#191919"
+          />
+          <rect id="矩形" fill="#191919" x="6" y="9" width="1" height="18" />
+          <rect id="矩形" fill="#000000" x="10" y="6" width="31" height="18" />
+          <rect id="矩形" stroke="#979797" fill="#C9C9C9" x="11.5" y="12.5" width="27" height="1" />
+          <rect id="矩形" stroke="#191919" x="11.5" y="15.5" width="12" height="11" />
+          <rect id="矩形" fill="#FFFFFF" x="12" y="16" width="11" height="2" />
+          <rect id="矩形备份-22" fill="#74676B" x="12" y="24" width="11" height="2" />
+          <rect id="矩形备份-26" fill="#74676B" x="21" y="16" width="2" height="10" />
+          <rect id="矩形" fill="#FFFFFF" x="12" y="18" width="2" height="8" />
+          <polygon id="矩形" fill="#191919" points="6 26 46 26 45 27 6 27" />
+          <rect id="矩形" stroke="#191919" fill="#D4D4D4" x="47.5" y="11.5" width="4" height="4" />
+          <rect
+            id="矩形备份-27"
+            stroke="#191919"
+            fill="#B2B4B3"
+            x="47.5"
+            y="15.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="矩形备份-28"
+            stroke="#191919"
+            fill="#A4A4A4"
+            x="47.5"
+            y="19.5"
+            width="4"
+            height="4"
+          />
+          <rect id="矩形" stroke="#191919" fill="#D8D8D8" x="51.5" y="8.5" width="3" height="19" />
+          <rect id="矩形" fill="#A4A4A4" x="52" y="9" width="2" height="3" />
+          <rect id="矩形备份-29" fill="#B2B4B3" x="52" y="12" width="2" height="4" />
+          <rect id="矩形备份-31" fill="#D4D4D4" x="52" y="16" width="2" height="4" />
+          <rect id="矩形备份-32" fill="#B2B4B3" x="52" y="20" width="2" height="4" />
+          <rect id="矩形备份-33" fill="#A4A4A4" x="52" y="24" width="2" height="3" />
+          <rect id="矩形" fill="#191919" x="64" y="8" width="3" height="20" />
+          <rect id="矩形" fill="#191919" x="48" y="0" width="20" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#474948" x="54.5" y="2.5" width="7" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#474948" x="55.5" y="5.5" width="5" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#D8D8D8" x="55.5" y="8.5" width="5" height="19" />
+          <rect id="矩形" fill="#A4A4A4" x="56" y="9" width="4" height="3" />
+          <rect id="矩形备份-29" fill="#B2B4B3" x="56" y="12" width="4" height="4" />
+          <rect id="矩形备份-31" fill="#D4D4D4" x="56" y="16" width="4" height="4" />
+          <rect id="矩形备份-32" fill="#B2B4B3" x="56" y="20" width="4" height="4" />
+          <rect id="矩形备份-33" fill="#A4A4A4" x="56" y="24" width="4" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#D8D8D8" x="60.5" y="11.5" width="3" height="13" />
+          <rect id="矩形" fill="#191919" x="63" y="11" width="2" height="14" />
+          <rect id="矩形" fill="#B2B4B3" x="61" y="12" width="2" height="4" />
+          <rect id="矩形备份-30" fill="#D4D4D4" x="61" y="16" width="2" height="4" />
+          <rect id="矩形备份-34" fill="#B2B4B3" x="61" y="20" width="2" height="4" />
+          <rect id="矩形" fill="#191919" x="54" y="8" width="2" height="20" />
+        </g>
+        <g id="组件1" transform="translate(2096, 516)">
+          <polygon id="矩形" fill="#309632" points="4 9 45.9921875 9 48 12 1.0729107e-14 12" />
+          <rect id="矩形备份-21" fill="#60B460" x="1" y="12" width="46" height="4" />
+          <rect id="矩形备份-23" fill="#98C896" x="1" y="16" width="46" height="4" />
+          <rect id="矩形备份-24" fill="#60B460" x="1" y="20" width="46" height="4" />
+          <polygon id="矩形备份-25" fill="#309632" points="1.0729107e-14 24 48 24 45 27 3 27" />
+          <path
+            d="M44.7928932,8.5 L47.5,11.2071068 L47.5,23.8333333 L44.75,27.5 L4.16623768,27.5 L0.5,24.7591606 L0.5,11.25 L4.16666667,8.5 L44.7928932,8.5 Z"
+            id="矩形"
+            stroke="#191919"
+          />
+          <rect id="矩形" fill="#191919" x="6" y="9" width="1" height="18" />
+          <rect id="矩形" fill="#000000" x="10" y="6" width="31" height="18" />
+          <rect id="矩形" stroke="#979797" fill="#0C4806" x="11.5" y="12.5" width="27" height="1" />
+          <rect id="矩形" stroke="#191919" x="11.5" y="15.5" width="12" height="11" />
+          <rect id="矩形" fill="#FFFFFF" x="12" y="16" width="11" height="2" />
+          <rect id="矩形备份-22" fill="#004400" x="12" y="24" width="11" height="2" />
+          <rect id="矩形备份-26" fill="#004400" x="21" y="16" width="2" height="10" />
+          <rect id="矩形" fill="#FFFFFF" x="12" y="18" width="2" height="8" />
+          <polygon id="矩形" fill="#191919" points="6 26 46 26 45 27 6 27" />
+          <rect id="矩形" stroke="#191919" fill="#98C896" x="47.5" y="11.5" width="4" height="4" />
+          <rect
+            id="矩形备份-27"
+            stroke="#191919"
+            fill="#60B460"
+            x="47.5"
+            y="15.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="矩形备份-28"
+            stroke="#191919"
+            fill="#309632"
+            x="47.5"
+            y="19.5"
+            width="4"
+            height="4"
+          />
+          <rect id="矩形" stroke="#191919" fill="#D8D8D8" x="51.5" y="8.5" width="3" height="19" />
+          <rect id="矩形" fill="#309632" x="52" y="9" width="2" height="3" />
+          <rect id="矩形备份-29" fill="#60B460" x="52" y="12" width="2" height="4" />
+          <rect id="矩形备份-31" fill="#98C896" x="52" y="16" width="2" height="4" />
+          <rect id="矩形备份-32" fill="#60B460" x="52" y="20" width="2" height="4" />
+          <rect id="矩形备份-33" fill="#309632" x="52" y="24" width="2" height="3" />
+          <rect id="矩形" fill="#191919" x="64" y="8" width="3" height="20" />
+          <rect id="矩形" fill="#191919" x="48" y="0" width="20" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#309632" x="54.5" y="2.5" width="7" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#309632" x="55.5" y="5.5" width="5" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#D8D8D8" x="55.5" y="8.5" width="5" height="19" />
+          <rect id="矩形" fill="#309632" x="56" y="9" width="4" height="3" />
+          <rect id="矩形备份-29" fill="#60B460" x="56" y="12" width="4" height="4" />
+          <rect id="矩形备份-31" fill="#98C896" x="56" y="16" width="4" height="4" />
+          <rect id="矩形备份-32" fill="#60B460" x="56" y="20" width="4" height="4" />
+          <rect id="矩形备份-33" fill="#309632" x="56" y="24" width="4" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#D8D8D8" x="60.5" y="11.5" width="3" height="13" />
+          <rect id="矩形" fill="#191919" x="63" y="11" width="2" height="14" />
+          <rect id="矩形" fill="#60B460" x="61" y="12" width="2" height="4" />
+          <rect id="矩形备份-30" fill="#98C896" x="61" y="16" width="2" height="4" />
+          <rect id="矩形备份-34" fill="#60B460" x="61" y="20" width="2" height="4" />
+          <rect id="矩形" fill="#191919" x="54" y="8" width="2" height="20" />
+        </g>
+        <g
+          id="组件1"
+          transform="translate(1428, 323) scale(-1, 1) translate(-1428, -323)translate(1394, 309)"
+        >
+          <polygon id="矩形" fill="#309632" points="4 9 45.9921875 9 48 12 1.0729107e-14 12" />
+          <rect id="矩形备份-21" fill="#60B460" x="1" y="12" width="46" height="4" />
+          <rect id="矩形备份-23" fill="#98C896" x="1" y="16" width="46" height="4" />
+          <rect id="矩形备份-24" fill="#60B460" x="1" y="20" width="46" height="4" />
+          <polygon id="矩形备份-25" fill="#309632" points="1.0729107e-14 24 48 24 45 27 3 27" />
+          <path
+            d="M44.7928932,8.5 L47.5,11.2071068 L47.5,23.8333333 L44.75,27.5 L4.16623768,27.5 L0.5,24.7591606 L0.5,11.25 L4.16666667,8.5 L44.7928932,8.5 Z"
+            id="矩形"
+            stroke="#191919"
+          />
+          <rect id="矩形" fill="#191919" x="6" y="9" width="1" height="18" />
+          <rect id="矩形" fill="#000000" x="10" y="6" width="31" height="18" />
+          <rect id="矩形" stroke="#979797" fill="#0C4806" x="11.5" y="12.5" width="27" height="1" />
+          <rect id="矩形" stroke="#191919" x="11.5" y="15.5" width="12" height="11" />
+          <rect id="矩形" fill="#FFFFFF" x="12" y="16" width="11" height="2" />
+          <rect id="矩形备份-22" fill="#004400" x="12" y="24" width="11" height="2" />
+          <rect id="矩形备份-26" fill="#004400" x="21" y="16" width="2" height="10" />
+          <rect id="矩形" fill="#FFFFFF" x="12" y="18" width="2" height="8" />
+          <polygon id="矩形" fill="#191919" points="6 26 46 26 45 27 6 27" />
+          <rect id="矩形" stroke="#191919" fill="#98C896" x="47.5" y="11.5" width="4" height="4" />
+          <rect
+            id="矩形备份-27"
+            stroke="#191919"
+            fill="#60B460"
+            x="47.5"
+            y="15.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="矩形备份-28"
+            stroke="#191919"
+            fill="#309632"
+            x="47.5"
+            y="19.5"
+            width="4"
+            height="4"
+          />
+          <rect id="矩形" stroke="#191919" fill="#D8D8D8" x="51.5" y="8.5" width="3" height="19" />
+          <rect id="矩形" fill="#309632" x="52" y="9" width="2" height="3" />
+          <rect id="矩形备份-29" fill="#60B460" x="52" y="12" width="2" height="4" />
+          <rect id="矩形备份-31" fill="#98C896" x="52" y="16" width="2" height="4" />
+          <rect id="矩形备份-32" fill="#60B460" x="52" y="20" width="2" height="4" />
+          <rect id="矩形备份-33" fill="#309632" x="52" y="24" width="2" height="3" />
+          <rect id="矩形" fill="#191919" x="64" y="8" width="3" height="20" />
+          <rect id="矩形" fill="#191919" x="48" y="0" width="20" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#309632" x="54.5" y="2.5" width="7" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#309632" x="55.5" y="5.5" width="5" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#D8D8D8" x="55.5" y="8.5" width="5" height="19" />
+          <rect id="矩形" fill="#309632" x="56" y="9" width="4" height="3" />
+          <rect id="矩形备份-29" fill="#60B460" x="56" y="12" width="4" height="4" />
+          <rect id="矩形备份-31" fill="#98C896" x="56" y="16" width="4" height="4" />
+          <rect id="矩形备份-32" fill="#60B460" x="56" y="20" width="4" height="4" />
+          <rect id="矩形备份-33" fill="#309632" x="56" y="24" width="4" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#D8D8D8" x="60.5" y="11.5" width="3" height="13" />
+          <rect id="矩形" fill="#191919" x="63" y="11" width="2" height="14" />
+          <rect id="矩形" fill="#60B460" x="61" y="12" width="2" height="4" />
+          <rect id="矩形备份-30" fill="#98C896" x="61" y="16" width="2" height="4" />
+          <rect id="矩形备份-34" fill="#60B460" x="61" y="20" width="2" height="4" />
+          <rect id="矩形" fill="#191919" x="54" y="8" width="2" height="20" />
+        </g>
+        <text
+          id="热水泵"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1406" y="376">热水泵</tspan>
+        </text>
+        <text
+          id="长在热水保温"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1426" y="230">长在热水保温</tspan>
+        </text>
+        <text
+          id="热水罐"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1284" y="275">热水罐</tspan>
+        </text>
+        <rect id="矩形" fill="#007274" x="1401" y="274" width="4" height="35" />
+        <rect id="矩形" fill="#007274" x="1401" y="272" width="49" height="4" />
+        <g
+          id="组件1"
+          transform="translate(2177, 1137) scale(-1, -1) translate(-2177, -1137)translate(2143, 1123)"
+        >
+          <polygon id="矩形" fill="#309632" points="4 9 45.9921875 9 48 12 1.0729107e-14 12" />
+          <rect id="矩形备份-21" fill="#60B460" x="1" y="12" width="46" height="4" />
+          <rect id="矩形备份-23" fill="#98C896" x="1" y="16" width="46" height="4" />
+          <rect id="矩形备份-24" fill="#60B460" x="1" y="20" width="46" height="4" />
+          <polygon id="矩形备份-25" fill="#309632" points="1.0729107e-14 24 48 24 45 27 3 27" />
+          <path
+            d="M44.7928932,8.5 L47.5,11.2071068 L47.5,23.8333333 L44.75,27.5 L4.16623768,27.5 L0.5,24.7591606 L0.5,11.25 L4.16666667,8.5 L44.7928932,8.5 Z"
+            id="矩形"
+            stroke="#191919"
+          />
+          <rect id="矩形" fill="#191919" x="6" y="9" width="1" height="18" />
+          <rect id="矩形" fill="#000000" x="10" y="6" width="31" height="18" />
+          <rect id="矩形" stroke="#979797" fill="#0C4806" x="11.5" y="12.5" width="27" height="1" />
+          <rect id="矩形" stroke="#191919" x="11.5" y="15.5" width="12" height="11" />
+          <rect id="矩形" fill="#FFFFFF" x="12" y="16" width="11" height="2" />
+          <rect id="矩形备份-22" fill="#004400" x="12" y="24" width="11" height="2" />
+          <rect id="矩形备份-26" fill="#004400" x="21" y="16" width="2" height="10" />
+          <rect id="矩形" fill="#FFFFFF" x="12" y="18" width="2" height="8" />
+          <polygon id="矩形" fill="#191919" points="6 26 46 26 45 27 6 27" />
+          <rect id="矩形" stroke="#191919" fill="#98C896" x="47.5" y="11.5" width="4" height="4" />
+          <rect
+            id="矩形备份-27"
+            stroke="#191919"
+            fill="#60B460"
+            x="47.5"
+            y="15.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="矩形备份-28"
+            stroke="#191919"
+            fill="#309632"
+            x="47.5"
+            y="19.5"
+            width="4"
+            height="4"
+          />
+          <rect id="矩形" stroke="#191919" fill="#D8D8D8" x="51.5" y="8.5" width="3" height="19" />
+          <rect id="矩形" fill="#309632" x="52" y="9" width="2" height="3" />
+          <rect id="矩形备份-29" fill="#60B460" x="52" y="12" width="2" height="4" />
+          <rect id="矩形备份-31" fill="#98C896" x="52" y="16" width="2" height="4" />
+          <rect id="矩形备份-32" fill="#60B460" x="52" y="20" width="2" height="4" />
+          <rect id="矩形备份-33" fill="#309632" x="52" y="24" width="2" height="3" />
+          <rect id="矩形" fill="#191919" x="64" y="8" width="3" height="20" />
+          <rect id="矩形" fill="#191919" x="48" y="0" width="20" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#309632" x="54.5" y="2.5" width="7" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#309632" x="55.5" y="5.5" width="5" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#D8D8D8" x="55.5" y="8.5" width="5" height="19" />
+          <rect id="矩形" fill="#309632" x="56" y="9" width="4" height="3" />
+          <rect id="矩形备份-29" fill="#60B460" x="56" y="12" width="4" height="4" />
+          <rect id="矩形备份-31" fill="#98C896" x="56" y="16" width="4" height="4" />
+          <rect id="矩形备份-32" fill="#60B460" x="56" y="20" width="4" height="4" />
+          <rect id="矩形备份-33" fill="#309632" x="56" y="24" width="4" height="3" />
+          <rect id="矩形" stroke="#191919" fill="#D8D8D8" x="60.5" y="11.5" width="3" height="13" />
+          <rect id="矩形" fill="#191919" x="63" y="11" width="2" height="14" />
+          <rect id="矩形" fill="#60B460" x="61" y="12" width="2" height="4" />
+          <rect id="矩形备份-30" fill="#98C896" x="61" y="16" width="2" height="4" />
+          <rect id="矩形备份-34" fill="#60B460" x="61" y="20" width="2" height="4" />
+          <rect id="矩形" fill="#191919" x="54" y="8" width="2" height="20" />
+        </g>
+        <g id="编组-20" transform="translate(2457, 364)">
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="0.5" y="0.5" width="201" height="53" />
+          <text
+            id="皮带二段"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="61" y="33">皮带二段</tspan>
+          </text>
+        </g>
+        <g id="编组-20备份-4" transform="translate(2457, 486)">
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="0.5" y="0.5" width="201" height="53" />
+          <text
+            id="皮带一段"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="61" y="33">皮带一段</tspan>
+          </text>
+        </g>
+        <g
+          id="编组-20"
+          transform="translate(2685, 414) rotate(90) translate(-2685, -414)translate(2635, 387)"
+        >
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="0.5" y="0.5" width="99" height="53" />
+          <text
+            id="皮带三段"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="10" y="33">皮带三段</tspan>
+          </text>
+        </g>
+        <g
+          id="编组-20备份"
+          transform="translate(2685, 513) rotate(90) translate(-2685, -513)translate(2635, 486)"
+        >
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="0.5" y="0.5" width="99" height="53" />
+          <text
+            id="皮带四段"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="10" y="33">皮带四段</tspan>
+          </text>
+        </g>
+        <g
+          id="编组-20备份-2"
+          transform="translate(2685, 612) rotate(90) translate(-2685, -612)translate(2635, 585)"
+        >
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="0.5" y="0.5" width="99" height="53" />
+          <text
+            id="皮带五段"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="10" y="33">皮带五段</tspan>
+          </text>
+        </g>
+        <g
+          id="编组-20备份-3"
+          transform="translate(2685, 711) rotate(90) translate(-2685, -711)translate(2635, 684)"
+        >
+          <rect id="矩形" stroke="#191919" fill="#02C90F" x="0.5" y="0.5" width="99" height="53" />
+          <text
+            id="皮带六段"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="10" y="33">皮带六段</tspan>
+          </text>
+        </g>
+        <text
+          id="KLRH3_DB2DD72"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2687.986" y="39">13</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD96"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2687.986" y="85">18</tspan>
+        </text>
+        <text
+          id="装药1温度"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2547.386" y="39">装药1温度</tspan>
+        </text>
+        <text
+          id="装药1压力"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2547.386" y="85">装药1压力</tspan>
+        </text>
+      </g>
+    </svg></PageWrapper
+  >
 
-<style>
-  .svg-image {
-    width: 100%;
-    height: 100%;
+  <Trend @register="registerModal" />
+</template>
+<script lang="ts" setup>
+  import { getPointsValues } from '/@/api/data/point';
+  import { onMounted, onBeforeUnmount } from 'vue';
+  import Trend from '../../warn/components/Trend.vue';
+  import { useModal } from '/@/components/Modal';
+  import { PageWrapper } from '/@/components/Page';
+
+  const [registerModal, { openModal }] = useModal();
+  let timer = null;
+  onMounted(() => {
+    const formattedTextElements = document.querySelectorAll('text[id^="KL"]');
+
+    const formattedTextElementsArray = Array.from(formattedTextElements);
+    let points: any[] = [];
+    formattedTextElementsArray.forEach((element) => {
+      const id = element.getAttribute('id');
+      element.addEventListener('click', pointClick.bind(this, element.id));
+      points.push(id);
+    });
+    timer = setInterval(() => {
+      getValues(points);
+    }, 1000);
+  });
+
+  onBeforeUnmount(() => {
+    if (timer !== null) {
+      clearInterval(timer);
+      timer = null;
+    }
+  });
+
+  const pointClick = (id) => {
+    openModal(true, {
+      name: id,
+    });
+  };
+
+  const getValues = async (points) => {
+    const params = {
+      names: points.join(','),
+    };
+    const values = await getPointsValues(params);
+    console.log(values);
+    for (let i = 0; i < points.length; i++) {
+      const textElement = document.getElementById(points[i]);
+      const tspanElement = textElement.querySelector('tspan');
+      tspanElement.textContent = values[i];
+    }
+  };
+</script>
+
+<style scoped>
+  [id^='KL']:hover {
+    cursor: pointer;
   }
 </style>
