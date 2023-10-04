@@ -258,7 +258,7 @@
         console.log(value);
         const res = await unfreezeInspection(value.id);
         if (res) {
-          createMessage.success('解冻成功 ');
+          createMessage.success('解冻成功');
           getHistory(formData.value.line);
         } else {
           createMessage.error('解冻异常,请重试');

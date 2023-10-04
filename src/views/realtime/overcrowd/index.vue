@@ -27,16 +27,14 @@
               <a-input-number :min="0.5" :max="24" step="0.5" addon-after="小时" value="0.5" />
             </a-form-item>
           </a-col>
-          <a-col :md="5">
-            <a-form-item label="上次抓拍时间">
-              <a-date-picker style="width: 100%" v-model:value="timeValue" />
-            </a-form-item>
-          </a-col>
-          <a-col :md="4">
-            <Alert style="width: 80%; height: 33px; margin-left: 30px" type="info" show-icon>
+          <a-col :md="6">
+            <Alert style="height: 33px; margin-left: 30px" type="info" show-icon>
               <template #message
                 ><span style="font-size: 18px; font-weight: bold"
-                  >上次抓拍超员人数:<span style="color: red; font-size: 22px">5</span></span
+                  >上次抓拍时间:<span style="color: rgb(26 7 240); font-size: 22px">{{
+                    '09月30日21时'
+                  }}</span
+                  >,超员人数: <span style="color: red; font-size: 22px">{{ 1 }}</span></span
                 ></template
               ></Alert
             >
@@ -134,30 +132,25 @@
         <div class="grid md:grid-cols-2 gap-1">
           <div ref="chartRef4" style="height: 400px; widows: 100%"></div>
           <div ref="chartRef5" style="height: 400px; widows: 100%"></div>
+          <Alert style="width: 90%; margin: 30px" type="info" show-icon>
+            <template #message
+              ><span style="font-size: 18px; font-weight: bold"
+                >主要结论:当月运行参数超限巡检次数呈现<span style="color: red; font-size: 22px"
+                  >下降</span
+                >趋势,拟合直线下降斜率为<span style="color: red; font-size: 22px">-1.5</span></span
+              ></template
+            ></Alert
+          >
+          <Alert style="width: 90%; margin: 30px" type="info" show-icon>
+            <template #message
+              ><span style="font-size: 18px; font-weight: bold"
+                >主要结论:当年运行参数超限巡检次数呈现<span style="color: red; font-size: 22px"
+                  >下降</span
+                >趋势,拟合直线下降斜率为<span style="color: red; font-size: 22px">-1.5</span></span
+              ></template
+            ></Alert
+          >
         </div>
-        <Alert style="width: 90%; margin: 30px" type="info" show-icon>
-          <template #message
-            ><span style="font-size: 18px; font-weight: bold"
-              >主要结论:当月运行参数超限巡检次数呈现<span style="color: red; font-size: 22px"
-                >下降</span
-              >趋势,拟合直线下降斜率为<span style="color: red; font-size: 22px">-1.5</span></span
-            ></template
-          ></Alert
-        >
-        <Divider />
-        <div class="grid md:grid-cols-2 gap-1">
-          <div ref="chartRef6" style="height: 400px; widows: 100%"></div>
-          <div ref="chartRef7" style="height: 400px; widows: 100%"></div>
-        </div>
-        <Alert style="width: 90%; margin: 30px" type="info" show-icon>
-          <template #message
-            ><span style="font-size: 18px; font-weight: bold"
-              >主要结论:当年运行参数超限巡检次数呈现<span style="color: red; font-size: 22px"
-                >下降</span
-              >趋势,拟合直线下降斜率为<span style="color: red; font-size: 22px">-1.5</span></span
-            ></template
-          ></Alert
-        >
       </div>
       <div class="grid md:grid-cols-3 gap-1" style="margin-top: 10px">
         <a-card style="width: 95%; height: 550px" title="季对标">
@@ -276,8 +269,6 @@
           nextTick(() => {
             resize4();
             resize5();
-            resize6();
-            resize7();
           });
         }
       });
@@ -291,26 +282,14 @@
       const chartRef5 = ref<HTMLDivElement | null>(null);
       const chartRef6 = ref<HTMLDivElement | null>(null);
       const chartRef7 = ref<HTMLDivElement | null>(null);
-      const { setOptions: setOptions1, resize: resize1 } = useECharts(
-        chartRef1 as Ref<HTMLDivElement>,
-      );
-      const { setOptions: setOptions2, resize: resize2 } = useECharts(
-        chartRef2 as Ref<HTMLDivElement>,
-      );
-      const { setOptions: setOptions3, resize: resize3 } = useECharts(
-        chartRef3 as Ref<HTMLDivElement>,
-      );
+      const { setOptions: setOptions1 } = useECharts(chartRef1 as Ref<HTMLDivElement>);
+      const { setOptions: setOptions2 } = useECharts(chartRef2 as Ref<HTMLDivElement>);
+      const { setOptions: setOptions3 } = useECharts(chartRef3 as Ref<HTMLDivElement>);
       const { setOptions: setOptions4, resize: resize4 } = useECharts(
         chartRef4 as Ref<HTMLDivElement>,
       );
       const { setOptions: setOptions5, resize: resize5 } = useECharts(
         chartRef5 as Ref<HTMLDivElement>,
-      );
-      const { setOptions: setOptions6, resize: resize6 } = useECharts(
-        chartRef6 as Ref<HTMLDivElement>,
-      );
-      const { setOptions: setOptions7, resize: resize7 } = useECharts(
-        chartRef7 as Ref<HTMLDivElement>,
       );
 
       onMounted(() => {
@@ -445,7 +424,7 @@
         });
       });
       onMounted(() => {
-        setOptions6({
+        setOptions5({
           title: {
             text: '生产线超员巡检总次数年趋势',
           },
@@ -462,178 +441,6 @@
               type: 'line',
               smooth: true,
             },
-          ],
-        });
-      });
-      onMounted(() => {
-        const cellSize = [80, 80];
-        const pieRadius = 30;
-        function getVirtualData() {
-          const date = 1485878400000;
-          const end = 1488297600000;
-          const dayTime = 3600 * 24 * 1000;
-          const data = [];
-          for (let time = date; time < end; time += dayTime) {
-            data.push([dayjs(time).format('YYYY-MM-DD'), Math.floor(Math.random() * 10000)]);
-          }
-          return data;
-        }
-        const scatterData = getVirtualData();
-        const pieSeries = scatterData.map(function (item, index) {
-          return {
-            type: 'pie',
-            id: 'pie-' + index,
-            center: item[0],
-            radius: pieRadius,
-            coordinateSystem: 'calendar',
-            label: {
-              formatter: '{c}',
-              position: 'inside',
-            },
-            data: [
-              { name: '制药工序1', value: Math.round(Math.random() * 10) },
-              { name: '制药工序2', value: Math.round(Math.random() * 10) },
-              { name: '装药工序', value: Math.round(Math.random() * 10) },
-              { name: '包装工序', value: Math.round(Math.random() * 10) },
-              { name: '装车工序', value: Math.round(Math.random() * 10) },
-            ],
-          };
-        });
-
-        setOptions5({
-          title: {
-            text: '生产线超员巡检详情',
-          },
-          tooltip: {},
-          legend: {
-            data: ['制药工序1', '制药工序2', '装药工序', '包装工序', '装车工序'],
-            orient: 'vertical',
-            right: 10,
-            top: 20,
-            bottom: 20,
-          },
-          calendar: {
-            top: 'middle',
-            left: 'center',
-            orient: 'vertical',
-            cellSize: cellSize,
-            yearLabel: {
-              show: false,
-              fontSize: 30,
-            },
-            dayLabel: {
-              margin: 20,
-              firstDay: 1,
-              nameMap: ['周日', '周一', '周二', '周三', '周四', '周五', '周六', '周日'],
-            },
-            monthLabel: {
-              show: false,
-            },
-            range: ['2017-02'],
-          },
-          series: [
-            {
-              id: 'label',
-              type: 'scatter',
-              coordinateSystem: 'calendar',
-              symbolSize: 0,
-              label: {
-                show: true,
-                formatter: function (params) {
-                  return dayjs(params.value[0]).format('DD');
-                },
-                offset: [-cellSize[0] / 2 + 10, -cellSize[1] / 2 + 10],
-                fontSize: 14,
-              },
-              data: scatterData,
-            },
-            ...pieSeries,
-          ],
-        });
-      });
-      onMounted(() => {
-        const cellSize = [80, 80];
-        const pieRadius = 30;
-        function getVirtualData() {
-          const date = 1485878400000;
-          const end = 1488297600000;
-          const dayTime = 3600 * 24 * 1000;
-          const data = [];
-          for (let time = date; time < end; time += dayTime) {
-            data.push([dayjs(time).format('YYYY-MM-DD'), Math.floor(Math.random() * 10000)]);
-          }
-          return data;
-        }
-        const scatterData = getVirtualData();
-        const pieSeries = scatterData.map(function (item, index) {
-          return {
-            type: 'pie',
-            id: 'pie-' + index,
-            center: item[0],
-            radius: pieRadius,
-            coordinateSystem: 'calendar',
-            label: {
-              formatter: '{c}',
-              position: 'inside',
-            },
-            data: [
-              { name: '制药工序1', value: Math.round(Math.random() * 10) },
-              { name: '制药工序2', value: Math.round(Math.random() * 10) },
-              { name: '装药工序', value: Math.round(Math.random() * 10) },
-              { name: '包装工序', value: Math.round(Math.random() * 10) },
-              { name: '装车工序', value: Math.round(Math.random() * 10) },
-            ],
-          };
-        });
-
-        setOptions7({
-          title: {
-            text: '生产线超员巡检详情',
-          },
-          tooltip: {},
-          legend: {
-            data: ['制药工序1', '制药工序2', '装药工序', '包装工序', '装车工序'],
-            orient: 'vertical',
-            right: 10,
-            top: 20,
-            bottom: 20,
-          },
-          calendar: {
-            top: 'middle',
-            left: 'center',
-            orient: 'vertical',
-            cellSize: cellSize,
-            yearLabel: {
-              show: false,
-              fontSize: 30,
-            },
-            dayLabel: {
-              margin: 20,
-              firstDay: 1,
-              nameMap: ['周日', '周一', '周二', '周三', '周四', '周五', '周六', '周日'],
-            },
-            monthLabel: {
-              show: false,
-            },
-            range: ['2017-02'],
-          },
-          series: [
-            {
-              id: 'label',
-              type: 'scatter',
-              coordinateSystem: 'calendar',
-              symbolSize: 0,
-              label: {
-                show: true,
-                formatter: function (params) {
-                  return dayjs(params.value[0]).format('DD');
-                },
-                offset: [-cellSize[0] / 2 + 10, -cellSize[1] / 2 + 10],
-                fontSize: 14,
-              },
-              data: scatterData,
-            },
-            ...pieSeries,
           ],
         });
       });

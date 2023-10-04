@@ -32,6 +32,14 @@ const realtime: AppRouteModule = {
       },
     },
     {
+      path: 'compare',
+      name: 'compare',
+      component: () => import('/@/views/history/compare/index.vue'),
+      meta: {
+        title: '巡检历史同比环比分析',
+      },
+    },
+    {
       path: 'correlation',
       name: 'correlation',
       component: () => import('/@/views/history/correlation/index.vue'),
