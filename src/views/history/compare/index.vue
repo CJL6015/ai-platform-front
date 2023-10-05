@@ -10,19 +10,22 @@
             bordered
           >
             <template #extra>
-              <a-select placeholder="参数选择" size="large" style="width: 400px" label="参数选择">
-                <a-select-option value="所有参数" selected>所有参数</a-select-option></a-select
-              >
+              <a-select
+                v-model:value="point"
+                style="width: 400px"
+                @change="onPointChange"
+                :options="pointData.map((point) => ({ value: point['id'], label: point['name'] }))"
+              />
             </template>
-            <a-descriptions-item label="当日超限次数" :span="3">1</a-descriptions-item>
-            <a-descriptions-item label="昨日超限次数" :span="3">1</a-descriptions-item>
-            <a-descriptions-item label="上个月今日超限次数" :span="3">1</a-descriptions-item>
-            <a-descriptions-item label="去年今日超限次数" :span="3">1</a-descriptions-item>
-            <a-descriptions-item label="当月超限次数" :span="4">1</a-descriptions-item>
-            <a-descriptions-item label="上个月超限次数" :span="4">1</a-descriptions-item>
-            <a-descriptions-item label="去年当月超限次数" :span="4">1</a-descriptions-item>
-            <a-descriptions-item label="今年超限次数" :span="6">1</a-descriptions-item>
-            <a-descriptions-item label="去年超限次数" :span="6">1</a-descriptions-item>
+            <a-descriptions-item label="当日超限次数" :span="3">待统计</a-descriptions-item>
+            <a-descriptions-item label="昨日超限次数" :span="3">待统计</a-descriptions-item>
+            <a-descriptions-item label="上个月今日超限次数" :span="3">待统计</a-descriptions-item>
+            <a-descriptions-item label="去年今日超限次数" :span="3">待统计</a-descriptions-item>
+            <a-descriptions-item label="当月超限次数" :span="4">待统计</a-descriptions-item>
+            <a-descriptions-item label="上个月超限次数" :span="4">待统计</a-descriptions-item>
+            <a-descriptions-item label="去年当月超限次数" :span="4">待统计</a-descriptions-item>
+            <a-descriptions-item label="今年超限次数" :span="6">待统计</a-descriptions-item>
+            <a-descriptions-item label="去年超限次数" :span="6">待统计</a-descriptions-item>
           </a-descriptions>
         </a-col>
         <a-col :md="6">
@@ -51,15 +54,15 @@
             <template #extra>
               <a-select placeholder="工序选择" size="large" style="width: 400px" label="工序选择" />
             </template>
-            <a-descriptions-item label="当日超限次数" :span="3">1</a-descriptions-item>
-            <a-descriptions-item label="昨日超限次数" :span="3">1</a-descriptions-item>
-            <a-descriptions-item label="上个月今日超限次数" :span="3">1</a-descriptions-item>
-            <a-descriptions-item label="去年今日超限次数" :span="3">1</a-descriptions-item>
-            <a-descriptions-item label="当月超限次数" :span="4">1</a-descriptions-item>
-            <a-descriptions-item label="上个月超限次数" :span="4">1</a-descriptions-item>
-            <a-descriptions-item label="去年当月超限次数" :span="4">1</a-descriptions-item>
-            <a-descriptions-item label="今年超限次数" :span="6">1</a-descriptions-item>
-            <a-descriptions-item label="去年超限次数" :span="6">1</a-descriptions-item>
+            <a-descriptions-item label="当日超限次数" :span="3">待统计</a-descriptions-item>
+            <a-descriptions-item label="昨日超限次数" :span="3">待统计</a-descriptions-item>
+            <a-descriptions-item label="上个月今日超限次数" :span="3">待统计</a-descriptions-item>
+            <a-descriptions-item label="去年今日超限次数" :span="3">待统计</a-descriptions-item>
+            <a-descriptions-item label="当月超限次数" :span="4">待统计</a-descriptions-item>
+            <a-descriptions-item label="上个月超限次数" :span="4">待统计</a-descriptions-item>
+            <a-descriptions-item label="去年当月超限次数" :span="4">待统计</a-descriptions-item>
+            <a-descriptions-item label="今年超限次数" :span="6">待统计</a-descriptions-item>
+            <a-descriptions-item label="去年超限次数" :span="6">待统计</a-descriptions-item>
           </a-descriptions>
         </a-col>
         <a-col :md="6">
@@ -87,6 +90,8 @@
 <script lang="ts">
   import { Form, Select, Descriptions, Card, Row, Col, Alert, Divider } from 'ant-design-vue';
   import { PageWrapper } from '/@/components/Page';
+  import { ref, onMounted } from 'vue';
+  import { pointOptionListApi } from '/@/api/warn/select';
 
   export default {
     components: {
@@ -104,7 +109,23 @@
       Divider,
     },
     setup() {
-      return {};
+      const pointData = ref([]);
+
+      const point = ref(-1);
+
+      onMounted(() => {
+        getPoints();
+      });
+
+      const getPoints = async () => {
+        pointData.value = await pointOptionListApi();
+      };
+
+      const onPointChange = () => {
+        console.log(point.value);
+      };
+
+      return { pointData, point, onPointChange };
     },
   };
 </script>

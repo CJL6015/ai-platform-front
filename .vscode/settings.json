@@ -169,5 +169,6 @@
     ".eslintrc.js": ".eslintignore,.prettierignore,.stylelintignore,.commitlintrc.js,.prettierrc.js,.stylelintrc.js"
   },
   "terminal.integrated.scrollback": 10000,
-  "seat.reminderIntervalInMinutes": 30
+  "seat.reminderIntervalInMinutes": 30,
+  "vue.codeActions.enabled": false
 }

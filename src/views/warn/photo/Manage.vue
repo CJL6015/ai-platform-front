@@ -130,7 +130,7 @@
         <BasicTable @register="registerTable">
           <template #bodyCell="{ column, record, text }">
             <template v-if="column.key === 'imageUrl'">
-              <TableImg :size="40" :imgList="[text]" :showBadge="false" :simpleShow="true" />
+              <TableImg :size="40" :imgList="text" :simpleShow="true" />
             </template>
             <template v-else-if="column.key === 'action'">
               <TableAction
@@ -350,14 +350,16 @@
             formatter: function (params) {
               methods.clearSelectedRowKeys();
               if (params[0].data == 1) {
-                console.log(params);
                 const date = new Date(params[0].name);
                 for (let d of tableValue) {
                   const st = d['st'];
                   const et = d['et'];
                   if (date >= new Date(st) && date <= new Date(et)) {
                     methods.setSelectedRowKeys([st]);
-                    return `<img src="${d['imageUrl']}"/>`;
+                    if (d['imageUrl'] && d['imageUrl'].length > 0) {
+                      console.log(d['imageUrl']);
+                      return `<img src="${d['imageUrl'][0]}"  width="400px"/>`;
+                    }
                   }
                 }
               }

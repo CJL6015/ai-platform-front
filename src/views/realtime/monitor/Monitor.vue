@@ -1,0 +1,17268 @@
+<template>
+  <div id=svgContainer>
+    <svg
+      width="100%"
+      height="100%"
+      viewBox="0 0 2872 1474"
+      version="1.1"
+      id="svg10104"
+      sodipodi:docname="完成版1.svg"
+      inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+      xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+      xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:svg="http://www.w3.org/2000/svg"
+    >
+      <sodipodi:namedview
+        id="namedview10106"
+        pagecolor="#ffffff"
+        bordercolor="#666666"
+        borderopacity="1.0"
+        inkscape:pageshadow="2"
+        inkscape:pageopacity="0.0"
+        inkscape:pagecheckerboard="0"
+        showgrid="false"
+        inkscape:zoom="0.59915944"
+        inkscape:cx="1449.5307"
+        inkscape:cy="988.88536"
+        inkscape:window-width="1440"
+        inkscape:window-height="763"
+        inkscape:window-x="0"
+        inkscape:window-y="25"
+        inkscape:window-maximized="0"
+        inkscape:current-layer="完成版"
+      />
+      <title id="title9">完成版</title>
+      <defs id="defs943">
+        <linearGradient x1="2.17187379e-13%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+          <stop stop-color="#0A7A14" offset="0%" id="stop11" />
+          <stop stop-color="#30962F" offset="22.6371285%" id="stop13" />
+          <stop stop-color="#CAE6CC" offset="48.942854%" id="stop15" />
+          <stop stop-color="#30962F" offset="80.1436844%" id="stop17" />
+          <stop stop-color="#147F1D" offset="100%" id="stop19" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+          <stop stop-color="#3F9C39" offset="0%" id="stop22" />
+          <stop stop-color="#81BB7B" offset="23.1079102%" id="stop24" />
+          <stop stop-color="#FEFFFD" offset="49.5141602%" id="stop26" />
+          <stop stop-color="#81BB7B" offset="79.4826267%" id="stop28" />
+          <stop stop-color="#238F1C" offset="100%" id="stop30" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+          <stop stop-color="#3F9C39" offset="0%" id="stop33" />
+          <stop stop-color="#81BB7B" offset="23.1079102%" id="stop35" />
+          <stop stop-color="#FEFFFD" offset="49.5141602%" id="stop37" />
+          <stop stop-color="#81BB7B" offset="79.4826267%" id="stop39" />
+          <stop stop-color="#238F1C" offset="100%" id="stop41" />
+        </linearGradient>
+        <linearGradient
+          x1="-3.16413562e-13%"
+          y1="41.0227273%"
+          x2="100%"
+          y2="41.0227273%"
+          id="linearGradient-4"
+        >
+          <stop stop-color="#3F9C39" offset="0%" id="stop44" />
+          <stop stop-color="#81BB7B" offset="23.1079102%" id="stop46" />
+          <stop stop-color="#FEFFFD" offset="49.5141602%" id="stop48" />
+          <stop stop-color="#81BB7B" offset="79.4826267%" id="stop50" />
+          <stop stop-color="#238F1C" offset="100%" id="stop52" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+          <stop stop-color="#7B7C80" offset="0%" id="stop55" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop57" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop59" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop61" />
+          <stop stop-color="#88898C" offset="100%" id="stop63" />
+        </linearGradient>
+        <linearGradient
+          x1="100%"
+          y1="50.0220824%"
+          x2="-4.16333634e-15%"
+          y2="50.0220824%"
+          id="linearGradient-6"
+        >
+          <stop stop-color="#BC9F9C" offset="0%" id="stop66" />
+          <stop stop-color="#DAC2BC" offset="21.4847675%" id="stop68" />
+          <stop stop-color="#E2D6CE" offset="49.5141602%" id="stop70" />
+          <stop stop-color="#DAC2BC" offset="79.4826267%" id="stop72" />
+          <stop stop-color="#BC9F9C" offset="100%" id="stop74" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-7">
+          <stop stop-color="#C4C4C2" offset="0%" id="stop77" />
+          <stop stop-color="#DADADA" offset="22.6371285%" id="stop79" />
+          <stop stop-color="#F2F2F2" offset="48.942854%" id="stop81" />
+          <stop stop-color="#DADADA" offset="80.1436844%" id="stop83" />
+          <stop stop-color="#C4C4C2" offset="100%" id="stop85" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-8">
+          <stop stop-color="#C4C4C2" offset="0%" id="stop88" />
+          <stop stop-color="#DADADA" offset="22.6371285%" id="stop90" />
+          <stop stop-color="#F2F2F2" offset="48.942854%" id="stop92" />
+          <stop stop-color="#DADADA" offset="80.1436844%" id="stop94" />
+          <stop stop-color="#C4C4C2" offset="100%" id="stop96" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-9">
+          <stop stop-color="#C4C4C2" offset="0%" id="stop99" />
+          <stop stop-color="#DADADA" offset="22.6371285%" id="stop101" />
+          <stop stop-color="#F2F2F2" offset="48.942854%" id="stop103" />
+          <stop stop-color="#DADADA" offset="80.1436844%" id="stop105" />
+          <stop stop-color="#C4C4C2" offset="100%" id="stop107" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-10">
+          <stop stop-color="#C4C4C2" offset="0%" id="stop110" />
+          <stop stop-color="#DADADA" offset="22.6371285%" id="stop112" />
+          <stop stop-color="#F2F2F2" offset="48.942854%" id="stop114" />
+          <stop stop-color="#DADADA" offset="80.1436844%" id="stop116" />
+          <stop stop-color="#C4C4C2" offset="100%" id="stop118" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-11">
+          <stop stop-color="#7B7C80" offset="0%" id="stop121" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop123" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop125" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop127" />
+          <stop stop-color="#88898C" offset="100%" id="stop129" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-12">
+          <stop stop-color="#7B7C80" offset="0%" id="stop132" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop134" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop136" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop138" />
+          <stop stop-color="#88898C" offset="100%" id="stop140" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-13">
+          <stop stop-color="#7B7C80" offset="0%" id="stop143" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop145" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop147" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop149" />
+          <stop stop-color="#88898C" offset="100%" id="stop151" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-14">
+          <stop stop-color="#7B7C80" offset="0%" id="stop154" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop156" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop158" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop160" />
+          <stop stop-color="#88898C" offset="100%" id="stop162" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-15">
+          <stop stop-color="#7B7C80" offset="0%" id="stop165" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop167" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop169" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop171" />
+          <stop stop-color="#88898C" offset="100%" id="stop173" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-16">
+          <stop stop-color="#7B7C80" offset="0%" id="stop176" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop178" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop180" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop182" />
+          <stop stop-color="#88898C" offset="100%" id="stop184" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-17">
+          <stop stop-color="#7B7C80" offset="0%" id="stop187" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop189" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop191" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop193" />
+          <stop stop-color="#88898C" offset="100%" id="stop195" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-18">
+          <stop stop-color="#7B7C80" offset="0%" id="stop198" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop200" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop202" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop204" />
+          <stop stop-color="#88898C" offset="100%" id="stop206" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-19">
+          <stop stop-color="#7B7C80" offset="0%" id="stop209" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop211" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop213" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop215" />
+          <stop stop-color="#88898C" offset="100%" id="stop217" />
+        </linearGradient>
+        <linearGradient
+          x1="73.7304688%"
+          y1="71.0327148%"
+          x2="55.806108%"
+          y2="71.0327148%"
+          id="linearGradient-20"
+        >
+          <stop stop-color="#FFFFFF" offset="0%" id="stop220" />
+          <stop stop-color="#8AFF8A" offset="100%" id="stop222" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-21">
+          <stop stop-color="#7DFF7C" offset="0%" id="stop225" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" id="stop227" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" id="stop229" />
+          <stop stop-color="#C9FCCD" offset="75%" id="stop231" />
+          <stop stop-color="#8AFF8A" offset="100%" id="stop233" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="538.989258%" id="linearGradient-22">
+          <stop stop-color="#7DFF7C" offset="0%" id="stop236" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" id="stop238" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" id="stop240" />
+          <stop stop-color="#C9FCCD" offset="75%" id="stop242" />
+          <stop stop-color="#8AFF8A" offset="100%" id="stop244" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="538.989258%" id="linearGradient-23">
+          <stop stop-color="#7DFF7C" offset="0%" id="stop247" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" id="stop249" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" id="stop251" />
+          <stop stop-color="#C9FCCD" offset="75%" id="stop253" />
+          <stop stop-color="#8AFF8A" offset="100%" id="stop255" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="538.989258%" id="linearGradient-24">
+          <stop stop-color="#7DFF7C" offset="0%" id="stop258" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" id="stop260" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" id="stop262" />
+          <stop stop-color="#C9FCCD" offset="75%" id="stop264" />
+          <stop stop-color="#8AFF8A" offset="100%" id="stop266" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-25">
+          <stop stop-color="#7DFF7C" offset="0%" id="stop269" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" id="stop271" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" id="stop273" />
+          <stop stop-color="#C9FCCD" offset="75%" id="stop275" />
+          <stop stop-color="#8AFF8A" offset="100%" id="stop277" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="537.182617%" id="linearGradient-26">
+          <stop stop-color="#7DFF7C" offset="0%" id="stop280" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" id="stop282" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" id="stop284" />
+          <stop stop-color="#C9FCCD" offset="75%" id="stop286" />
+          <stop stop-color="#8AFF8A" offset="100%" id="stop288" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="497.631836%" id="linearGradient-27">
+          <stop stop-color="#7DFF7C" offset="0%" id="stop291" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" id="stop293" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" id="stop295" />
+          <stop stop-color="#C9FCCD" offset="75%" id="stop297" />
+          <stop stop-color="#8AFF8A" offset="100%" id="stop299" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="497.631836%" id="linearGradient-28">
+          <stop stop-color="#7DFF7C" offset="0%" id="stop302" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" id="stop304" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" id="stop306" />
+          <stop stop-color="#C9FCCD" offset="75%" id="stop308" />
+          <stop stop-color="#8AFF8A" offset="100%" id="stop310" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="497.631836%" id="linearGradient-29">
+          <stop stop-color="#7DFF7C" offset="0%" id="stop313" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" id="stop315" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" id="stop317" />
+          <stop stop-color="#C9FCCD" offset="75%" id="stop319" />
+          <stop stop-color="#8AFF8A" offset="100%" id="stop321" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="538.989258%" id="linearGradient-30">
+          <stop stop-color="#7DFF7C" offset="0%" id="stop324" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" id="stop326" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" id="stop328" />
+          <stop stop-color="#C9FCCD" offset="75%" id="stop330" />
+          <stop stop-color="#8AFF8A" offset="100%" id="stop332" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-31">
+          <stop stop-color="#7B7C80" offset="0%" id="stop335" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop337" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop339" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop341" />
+          <stop stop-color="#88898C" offset="100%" id="stop343" />
+        </linearGradient>
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-32"
+        />
+        <linearGradient
+          x1="100%"
+          y1="75.3967285%"
+          x2="-1.60982339e-13%"
+          y2="75.3967285%"
+          id="linearGradient-34"
+        >
+          <stop stop-color="#7B7C80" offset="0%" id="stop347" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop349" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop351" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop353" />
+          <stop stop-color="#88898C" offset="100%" id="stop355" />
+        </linearGradient>
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-35"
+        />
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-37">
+          <stop stop-color="#7B7C80" offset="0%" id="stop359" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop361" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop363" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop365" />
+          <stop stop-color="#88898C" offset="100%" id="stop367" />
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="1.51961776e-13%" y2="50%" id="linearGradient-38">
+          <stop stop-color="#7B7C80" offset="0%" id="stop370" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop372" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop374" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop376" />
+          <stop stop-color="#88898C" offset="100%" id="stop378" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-39">
+          <stop stop-color="#7B7C80" offset="0%" id="stop381" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop383" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop385" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop387" />
+          <stop stop-color="#88898C" offset="100%" id="stop389" />
+        </linearGradient>
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-40"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-42"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-44"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-46"
+        />
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-48">
+          <stop stop-color="#7B7C80" offset="0%" id="stop396" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop398" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop400" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop402" />
+          <stop stop-color="#88898C" offset="100%" id="stop404" />
+        </linearGradient>
+        <linearGradient
+          x1="27.7714844%"
+          y1="15.5109922%"
+          x2="111.154297%"
+          y2="14.9340404%"
+          id="linearGradient-49"
+        >
+          <stop stop-color="#7B7C80" offset="0%" id="stop407" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop409" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop411" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop413" />
+          <stop stop-color="#88898C" offset="100%" id="stop415" />
+        </linearGradient>
+        <linearGradient
+          x1="-112.358941%"
+          y1="14.9340874%"
+          x2="100%"
+          y2="14.9340874%"
+          id="linearGradient-50"
+        >
+          <stop stop-color="#88898C" offset="0%" id="stop418" />
+          <stop stop-color="#BBB9BA" offset="20.5173733%" id="stop420" />
+          <stop stop-color="#EFF1EE" offset="50.4858398%" id="stop422" />
+          <stop stop-color="#BBB9BA" offset="76.8920898%" id="stop424" />
+          <stop stop-color="#7B7C80" offset="100%" id="stop426" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-51">
+          <stop stop-color="#7B7C80" offset="0%" id="stop429" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop431" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop433" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop435" />
+          <stop stop-color="#88898C" offset="100%" id="stop437" />
+        </linearGradient>
+        <linearGradient
+          x1="-1.55431223e-13%"
+          y1="50%"
+          x2="100%"
+          y2="50.0216274%"
+          id="linearGradient-52"
+        >
+          <stop stop-color="#7B7C80" offset="0%" id="stop440" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop442" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop444" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop446" />
+          <stop stop-color="#88898C" offset="100%" id="stop448" />
+        </linearGradient>
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-53"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-55"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-57"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-59"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-61"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-63"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-65"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-67"
+        />
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-69">
+          <stop stop-color="#7B7C80" offset="0%" id="stop459" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop461" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop463" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop465" />
+          <stop stop-color="#88898C" offset="100%" id="stop467" />
+        </linearGradient>
+        <linearGradient
+          x1="100%"
+          y1="45.9533691%"
+          x2="2.30371278e-13%"
+          y2="45.9533691%"
+          id="linearGradient-70"
+        >
+          <stop stop-color="#7B7C80" offset="0%" id="stop470" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop472" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop474" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop476" />
+          <stop stop-color="#88898C" offset="100%" id="stop478" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-71">
+          <stop stop-color="#7B7C80" offset="0%" id="stop481" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop483" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop485" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop487" />
+          <stop stop-color="#88898C" offset="100%" id="stop489" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-72">
+          <stop stop-color="#7B7C80" offset="0%" id="stop492" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop494" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop496" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop498" />
+          <stop stop-color="#88898C" offset="100%" id="stop500" />
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="-1.63757896e-13%" y2="50%" id="linearGradient-73">
+          <stop stop-color="#7B7C80" offset="0%" id="stop503" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop505" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop507" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop509" />
+          <stop stop-color="#88898C" offset="100%" id="stop511" />
+        </linearGradient>
+        <linearGradient x1="11.3850911%" y1="50%" x2="100%" y2="50%" id="linearGradient-74">
+          <stop stop-color="#0A7A14" offset="0%" id="stop514" />
+          <stop stop-color="#30962F" offset="22.6371285%" id="stop516" />
+          <stop stop-color="#CAE6CC" offset="48.942854%" id="stop518" />
+          <stop stop-color="#30962F" offset="80.1436844%" id="stop520" />
+          <stop stop-color="#007B07" offset="100%" id="stop522" />
+        </linearGradient>
+        <linearGradient x1="3.96728516%" y1="50%" x2="100%" y2="50%" id="linearGradient-75">
+          <stop stop-color="#0A7A14" offset="0%" id="stop525" />
+          <stop stop-color="#30962F" offset="22.6371285%" id="stop527" />
+          <stop stop-color="#CAE6CC" offset="48.942854%" id="stop529" />
+          <stop stop-color="#30962F" offset="80.1436844%" id="stop531" />
+          <stop stop-color="#147F1D" offset="100%" id="stop533" />
+        </linearGradient>
+        <linearGradient
+          x1="-3.35842465e-13%"
+          y1="49.7974633%"
+          x2="100%"
+          y2="50%"
+          id="linearGradient-76"
+        >
+          <stop stop-color="#0A7A14" offset="0%" id="stop536" />
+          <stop stop-color="#30962F" offset="22.6371285%" id="stop538" />
+          <stop stop-color="#CAE6CC" offset="48.942854%" id="stop540" />
+          <stop stop-color="#30962F" offset="80.1436844%" id="stop542" />
+          <stop stop-color="#147F1D" offset="100%" id="stop544" />
+        </linearGradient>
+        <linearGradient
+          x1="4.03843625e-13%"
+          y1="343.055556%"
+          x2="107.495117%"
+          y2="343.055556%"
+          id="linearGradient-77"
+        >
+          <stop stop-color="#0A7A14" offset="0%" id="stop547" />
+          <stop stop-color="#30962F" offset="22.6371285%" id="stop549" />
+          <stop stop-color="#CAE6CC" offset="48.942854%" id="stop551" />
+          <stop stop-color="#30962F" offset="80.1436844%" id="stop553" />
+          <stop stop-color="#007B07" offset="100%" id="stop555" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-78">
+          <stop stop-color="#0A7A14" offset="0%" id="stop558" />
+          <stop stop-color="#30962F" offset="22.6371285%" id="stop560" />
+          <stop stop-color="#CAE6CC" offset="48.942854%" id="stop562" />
+          <stop stop-color="#30962F" offset="80.1436844%" id="stop564" />
+          <stop stop-color="#147F1D" offset="100%" id="stop566" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-79">
+          <stop stop-color="#0A7A14" offset="0%" id="stop569" />
+          <stop stop-color="#30962F" offset="22.6371285%" id="stop571" />
+          <stop stop-color="#CAE6CC" offset="48.942854%" id="stop573" />
+          <stop stop-color="#30962F" offset="80.1436844%" id="stop575" />
+          <stop stop-color="#147F1D" offset="100%" id="stop577" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-80">
+          <stop stop-color="#0A7A14" offset="0%" id="stop580" />
+          <stop stop-color="#30962F" offset="22.6371285%" id="stop582" />
+          <stop stop-color="#CAE6CC" offset="48.942854%" id="stop584" />
+          <stop stop-color="#30962F" offset="80.1436844%" id="stop586" />
+          <stop stop-color="#147F1D" offset="100%" id="stop588" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-81">
+          <stop stop-color="#0A7A14" offset="0%" id="stop591" />
+          <stop stop-color="#30962F" offset="22.6371285%" id="stop593" />
+          <stop stop-color="#CAE6CC" offset="48.942854%" id="stop595" />
+          <stop stop-color="#30962F" offset="80.1436844%" id="stop597" />
+          <stop stop-color="#147F1D" offset="100%" id="stop599" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="13.5777065%" x2="50%" y2="85.9688895%" id="linearGradient-82">
+          <stop stop-color="#7B7C80" offset="0%" id="stop602" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop604" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop606" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop608" />
+          <stop stop-color="#88898C" offset="100%" id="stop610" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-83">
+          <stop stop-color="#7DFF7C" offset="0%" id="stop613" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" id="stop615" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" id="stop617" />
+          <stop stop-color="#C9FCCD" offset="75%" id="stop619" />
+          <stop stop-color="#8AFF8A" offset="100%" id="stop621" />
+        </linearGradient>
+        <polygon id="path-84" points="4 -2.23154828e-13 34 -2.23154828e-13 38 10 0 10" />
+        <polygon
+          id="path-86"
+          points="4 -4.13864492e-13 34 -4.13864492e-13 38 10 2.51521026e-13 10"
+        />
+        <polygon
+          id="path-88"
+          points="4 -1.85851334e-13 34 -1.85851334e-13 38 10 2.52242671e-13 10"
+        />
+        <polygon
+          id="path-90"
+          points="-8.23273989e-14 7.52731211e-14 42 7.52731211e-14 21 48.1054688"
+        />
+        <polygon
+          id="path-92"
+          points="-6.02397959e-14 5.22107635e-14 42 5.22107635e-14 21 48.1054688"
+        />
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-94">
+          <stop stop-color="#7DFF7C" offset="0%" id="stop629" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" id="stop631" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" id="stop633" />
+          <stop stop-color="#C9FCCD" offset="75%" id="stop635" />
+          <stop stop-color="#8AFF8A" offset="100%" id="stop637" />
+        </linearGradient>
+        <linearGradient
+          x1="100%"
+          y1="50%"
+          x2="-4.16333634e-15%"
+          y2="50.0018613%"
+          id="linearGradient-95"
+        >
+          <stop stop-color="#BC9F9C" offset="0%" id="stop640" />
+          <stop stop-color="#DAC2BC" offset="21.4847675%" id="stop642" />
+          <stop stop-color="#E2D6CE" offset="49.5141602%" id="stop644" />
+          <stop stop-color="#DAC2BC" offset="79.4826267%" id="stop646" />
+          <stop stop-color="#BC9F9C" offset="100%" id="stop648" />
+        </linearGradient>
+        <linearGradient
+          x1="100%"
+          y1="50.0220824%"
+          x2="-4.16333634e-15%"
+          y2="50.0220824%"
+          id="linearGradient-96"
+        >
+          <stop stop-color="#BC9F9C" offset="0%" id="stop651" />
+          <stop stop-color="#DAC2BC" offset="21.4847675%" id="stop653" />
+          <stop stop-color="#E2D6CE" offset="49.5141602%" id="stop655" />
+          <stop stop-color="#DAC2BC" offset="79.4826267%" id="stop657" />
+          <stop stop-color="#BC9F9C" offset="100%" id="stop659" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-97">
+          <stop stop-color="#7DFF7C" offset="0%" id="stop662" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" id="stop664" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" id="stop666" />
+          <stop stop-color="#C9FCCD" offset="75%" id="stop668" />
+          <stop stop-color="#8AFF8A" offset="100%" id="stop670" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-98">
+          <stop stop-color="#7DFF7C" offset="0%" id="stop673" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" id="stop675" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" id="stop677" />
+          <stop stop-color="#C9FCCD" offset="75%" id="stop679" />
+          <stop stop-color="#8AFF8A" offset="100%" id="stop681" />
+        </linearGradient>
+        <circle id="path-99" cx="17" cy="17" r="17" />
+        <linearGradient
+          x1="-1.74166237e-13%"
+          y1="21.6701794%"
+          x2="100%"
+          y2="21.6701794%"
+          id="linearGradient-101"
+        >
+          <stop stop-color="#7B7C80" offset="0%" id="stop685" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop687" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop689" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop691" />
+          <stop stop-color="#88898C" offset="100%" id="stop693" />
+        </linearGradient>
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-102"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-104"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-106"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-108"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-110"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-112"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-114"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-116"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-118"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-120"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-122"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-124"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-126"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-128"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-130"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-132"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-134"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-136"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-138"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-140"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-142"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-144"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-146"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-148"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-150"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-152"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-154"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-156"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-158"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-160"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-162"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-164"
+        />
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-166">
+          <stop stop-color="#7B7C80" offset="0%" id="stop728" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop730" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop732" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop734" />
+          <stop stop-color="#88898C" offset="100%" id="stop736" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-167">
+          <stop stop-color="#7B7C80" offset="0%" id="stop739" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop741" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop743" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop745" />
+          <stop stop-color="#88898C" offset="100%" id="stop747" />
+        </linearGradient>
+        <linearGradient
+          x1="35.1239669%"
+          y1="41.3636364%"
+          x2="64.8760331%"
+          y2="41.4188847%"
+          id="linearGradient-168"
+        >
+          <stop stop-color="#7B7C80" offset="0%" id="stop750" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop752" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop754" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop756" />
+          <stop stop-color="#88898C" offset="100%" id="stop758" />
+        </linearGradient>
+        <linearGradient
+          x1="86.9511721%"
+          y1="50%"
+          x2="15.4336574%"
+          y2="50.0220824%"
+          id="linearGradient-169"
+        >
+          <stop stop-color="#7B7C80" offset="0%" id="stop761" />
+          <stop stop-color="#232323" offset="49.5141602%" id="stop763" />
+          <stop stop-color="#88898C" offset="100%" id="stop765" />
+        </linearGradient>
+        <linearGradient
+          x1="86.9511721%"
+          y1="50%"
+          x2="15.4336574%"
+          y2="50.0220824%"
+          id="linearGradient-170"
+        >
+          <stop stop-color="#BC9F9C" offset="0%" id="stop768" />
+          <stop stop-color="#DAC2BC" offset="21.4847675%" id="stop770" />
+          <stop stop-color="#E2D6CE" offset="49.5141602%" id="stop772" />
+          <stop stop-color="#DAC2BC" offset="79.4826267%" id="stop774" />
+          <stop stop-color="#BC9F9C" offset="100%" id="stop776" />
+        </linearGradient>
+        <polygon
+          id="path-171"
+          points="2 4.75730566e-14 28 4.75730566e-14 30 2 30 46 0 46 1.58206781e-14 2"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-173"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-175"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-177"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-179"
+        />
+        <polygon
+          id="path-181"
+          points="2 4.75730566e-14 28 4.75730566e-14 30 2 30 46 0 46 1.58206781e-14 2"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-183"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-185"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-187"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-189"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-191"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-193"
+        />
+        <linearGradient
+          x1="50%"
+          y1="-7.21644966e-14%"
+          x2="50%"
+          y2="95.6665039%"
+          id="linearGradient-195"
+        >
+          <stop stop-color="#7B7C80" offset="0%" id="stop791" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop793" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop795" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop797" />
+          <stop stop-color="#88898C" offset="100%" id="stop799" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-196">
+          <stop stop-color="#7B7C80" offset="0%" id="stop802" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop804" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop806" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop808" />
+          <stop stop-color="#88898C" offset="100%" id="stop810" />
+        </linearGradient>
+        <linearGradient
+          x1="3.4139358e-13%"
+          y1="14.9341393%"
+          x2="100%"
+          y2="14.9341393%"
+          id="linearGradient-197"
+        >
+          <stop stop-color="#7B7C80" offset="0%" id="stop813" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop815" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop817" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop819" />
+          <stop stop-color="#88898C" offset="100%" id="stop821" />
+        </linearGradient>
+        <circle id="path-198" cx="17" cy="17" r="17" />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-200"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-202"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-204"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-206"
+        />
+        <linearGradient
+          x1="8.33361158e-13%"
+          y1="15.5109922%"
+          x2="100%"
+          y2="15.5109922%"
+          id="linearGradient-208"
+        >
+          <stop stop-color="#7B7C80" offset="0%" id="stop829" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop831" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop833" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop835" />
+          <stop stop-color="#88898C" offset="100%" id="stop837" />
+        </linearGradient>
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-209"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-211"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-213"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-215"
+        />
+        <polygon
+          id="path-217"
+          points="2 4.75730566e-14 28 4.75730566e-14 30 2 30 46 0 46 1.58206781e-14 2"
+        />
+        <linearGradient
+          x1="88.19698%"
+          y1="50%"
+          x2="14.268254%"
+          y2="50.0220824%"
+          id="linearGradient-219"
+        >
+          <stop stop-color="#7B7C80" offset="0%" id="stop845" />
+          <stop stop-color="#232323" offset="49.5141602%" id="stop847" />
+          <stop stop-color="#88898C" offset="100%" id="stop849" />
+        </linearGradient>
+        <linearGradient
+          x1="88.1969802%"
+          y1="50%"
+          x2="14.2682538%"
+          y2="50.0220824%"
+          id="linearGradient-220"
+        >
+          <stop stop-color="#BC9F9C" offset="0%" id="stop852" />
+          <stop stop-color="#DAC2BC" offset="21.4847675%" id="stop854" />
+          <stop stop-color="#E2D6CE" offset="49.5141602%" id="stop856" />
+          <stop stop-color="#DAC2BC" offset="79.4826267%" id="stop858" />
+          <stop stop-color="#BC9F9C" offset="100%" id="stop860" />
+        </linearGradient>
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-221"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-223"
+        />
+        <polygon
+          id="path-225"
+          points="2 4.75730566e-14 28 4.75730566e-14 30 2 30 46 0 46 1.58206781e-14 2"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-227"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-229"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-231"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-233"
+        />
+        <polygon
+          id="path-235"
+          points="2 4.75730566e-14 28 4.75730566e-14 30 2 30 46 0 46 1.58206781e-14 2"
+        />
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-237">
+          <stop stop-color="#7B7C80" offset="0%" id="stop871" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop873" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop875" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop877" />
+          <stop stop-color="#88898C" offset="100%" id="stop879" />
+        </linearGradient>
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-238"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-240"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-242"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-244"
+        />
+        <path
+          d="M0,0 L14,0 C16.7614237,-5.07265313e-16 19,2.23857625 19,5 L19,21 L19,21 L0,21 L0,0 Z"
+          id="path-246"
+        />
+        <path
+          d="M0.5,0.5 L14.5,0.5 C17.2614237,0.5 19.5,2.73857625 19.5,5.5 L19.5,20.5 L19.5,20.5"
+          id="path-248"
+        />
+        <linearGradient
+          x1="1.69309011e-13%"
+          y1="23.0634541%"
+          x2="100%"
+          y2="23.0634541%"
+          id="linearGradient-250"
+        >
+          <stop stop-color="#7B7C80" offset="0%" id="stop888" />
+          <stop stop-color="#BBB9BA" offset="23.1079102%" id="stop890" />
+          <stop stop-color="#EFF1EE" offset="49.5141602%" id="stop892" />
+          <stop stop-color="#BBB9BA" offset="79.4826267%" id="stop894" />
+          <stop stop-color="#88898C" offset="100%" id="stop896" />
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-251">
+          <stop stop-color="#7DFF7C" offset="0%" id="stop899" />
+          <stop stop-color="#CDFCD1" offset="27.904212%" id="stop901" />
+          <stop stop-color="#D1FDC7" offset="51.3714334%" id="stop903" />
+          <stop stop-color="#C9FCCD" offset="75%" id="stop905" />
+          <stop stop-color="#8AFF8A" offset="100%" id="stop907" />
+        </linearGradient>
+        <linearGradient
+          x1="87.2295227%"
+          y1="50%"
+          x2="15.1732715%"
+          y2="50.0220824%"
+          id="linearGradient-252"
+        >
+          <stop stop-color="#7B7C80" offset="0%" id="stop910" />
+          <stop stop-color="#232323" offset="49.5141602%" id="stop912" />
+          <stop stop-color="#88898C" offset="100%" id="stop914" />
+        </linearGradient>
+        <path
+          d="M5.27426147,3.05962598 C22.0161743,1.01987533 38.7580872,0 55.5,0 C72.2419128,0 88.9838257,1.01987533 105.725739,3.05962598 C108.737451,3.42661718 111.001268,5.98410428 111,9.01809384 L111,77.2640449 L111,77.2640449 L61,132.846538 L45.5,133 L0,77.2640449 L0,9.01809384 C-0.0012684063,5.98410428 2.26254906,3.42661718 5.27426147,3.05962598 Z"
+          id="path-253"
+        />
+        <linearGradient
+          x1="87.3155865%"
+          y1="50%"
+          x2="15.0927623%"
+          y2="50.0220824%"
+          id="linearGradient-255"
+        >
+          <stop stop-color="#BC9F9C" offset="0%" id="stop918" />
+          <stop stop-color="#DAC2BC" offset="21.4847675%" id="stop920" />
+          <stop stop-color="#E2D6CE" offset="49.5141602%" id="stop922" />
+          <stop stop-color="#DAC2BC" offset="79.4826267%" id="stop924" />
+          <stop stop-color="#BC9F9C" offset="100%" id="stop926" />
+        </linearGradient>
+        <polygon
+          id="path-256"
+          points="2 4.75730566e-14 28 4.75730566e-14 30 2 30 46 0 46 1.58206781e-14 2"
+        />
+        <polygon
+          id="path-258"
+          points="2 4.75730566e-14 28 4.75730566e-14 30 2 30 46 0 46 1.58206781e-14 2"
+        />
+        <polygon
+          id="path-260"
+          points="2 4.75730566e-14 28 4.75730566e-14 30 2 30 46 0 46 1.58206781e-14 2"
+        />
+        <linearGradient
+          x1="100%"
+          y1="50.0220824%"
+          x2="-4.16333634e-15%"
+          y2="50.0220824%"
+          id="linearGradient-262"
+        >
+          <stop stop-color="#0E0F17" offset="0%" id="stop932" />
+          <stop stop-color="#908CA1" offset="24.456403%" id="stop934" />
+          <stop stop-color="#B3AFC1" offset="49.5141602%" id="stop936" />
+          <stop stop-color="#908CA1" offset="79.4826267%" id="stop938" />
+          <stop stop-color="#0E0F17" offset="100%" id="stop940" />
+        </linearGradient>
+      </defs>
+      <g id="完成版" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#B3D2D1" x="0" y="0" width="2872" height="1474" id="rect945" />
+        <text
+          id="text5073-6"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="20px"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+          x="2074.0715"
+          y="565.25946"
+        >
+          <tspan x="2767.0715" y="1333.2595" id="tspan5071-5">℃</tspan>
+        </text>
+        <g id="编组-17" transform="translate(1413, 517)">
+          <rect
+            id="矩形"
+            stroke="#417E83"
+            fill="#FFFFFF"
+            x="727.5"
+            y="568.5"
+            width="93"
+            height="31"
+          />
+          <text
+            id="一号酸泵"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="734" y="590" id="tspan948">一号酸泵</tspan>
+          </text>
+          <rect id="rect951" fill="#4A44FF" x="330" y="616" width="400" height="4" />
+          <g id="组件2备份-12" transform="translate(177, 51)">
+            <rect id="rect953" fill="#16A2BC" x="0" y="0" width="14" height="416" />
+            <rect id="rect955" fill="#191919" x="0" y="0" width="1" height="416" />
+            <rect id="矩形备份-42" fill="#191919" x="13" y="0" width="1" height="416" />
+            <rect id="rect958" fill="#99A5AF" x="1" y="0" width="1" height="416" />
+            <rect id="矩形备份-41" fill="#99A5AF" x="12" y="0" width="1" height="416" />
+            <path
+              d="M8,40 L8,58 L10,58 L10,60 L8,60 L8,72 L6,72 L6,60 L4,60 L4,58 L6,58 L6,40 L8,40 Z"
+              id="形状结合"
+              fill="#FFFFFF"
+            />
+            <path
+              d="M8,176 L8,194 L10,194 L10,196 L8,196 L8,208 L6,208 L6,196 L4,196 L4,194 L6,194 L6,176 L8,176 Z"
+              id="形状结合备份-7"
+              fill="#FFFFFF"
+            />
+            <path
+              d="M8,312 L8,330 L10,330 L10,332 L8,332 L8,344 L6,344 L6,332 L4,332 L4,330 L6,330 L6,312 L8,312 Z"
+              id="形状结合备份-8"
+              fill="#FFFFFF"
+            />
+          </g>
+          <rect id="rect965" fill="#191919" x="151" y="9" width="40" height="6" />
+          <rect
+            id="rect967"
+            stroke="#191919"
+            fill="url(#linearGradient-1)"
+            x="151.5"
+            y="15.5"
+            width="39"
+            height="36"
+          />
+          <rect
+            id="矩形备份-119"
+            stroke="#191919"
+            fill="#8DC088"
+            x="159.5"
+            y="10.5"
+            width="5"
+            height="2"
+          />
+          <rect
+            id="rect970"
+            stroke="#191919"
+            fill="#75BB6D"
+            x="162.5"
+            y="51.5"
+            width="8"
+            height="3"
+          />
+          <rect
+            id="矩形备份-120"
+            stroke="#191919"
+            fill="#8DC088"
+            x="170.5"
+            y="10.5"
+            width="8"
+            height="3"
+          />
+          <rect
+            id="rect973"
+            stroke="#191919"
+            fill="#75BB6D"
+            x="176.5"
+            y="51.5"
+            width="6"
+            height="2"
+          />
+          <rect
+            id="矩形备份-121"
+            stroke="#191919"
+            fill="#8DC088"
+            x="184.5"
+            y="10.5"
+            width="6"
+            height="2"
+          />
+          <rect
+            id="rect976"
+            stroke="#191919"
+            fill="#99C195"
+            x="169.5"
+            y="0.5"
+            width="3"
+            height="9"
+          />
+          <rect
+            id="rect978"
+            stroke="#191919"
+            fill="#75BB6D"
+            x="152.5"
+            y="51.5"
+            width="5"
+            height="2"
+          />
+          <rect
+            id="rect980"
+            stroke="#191919"
+            fill="#02C90F"
+            x="0.5"
+            y="9.5"
+            width="151"
+            height="47"
+          />
+          <rect
+            id="rect982"
+            stroke="#191919"
+            fill="#817F80"
+            x="45.5"
+            y="9.5"
+            width="13"
+            height="42"
+          />
+        </g>
+        <g id="编组-26" transform="translate(2436, 81)">
+          <rect id="rect985" fill="#8D989E" x="0" y="15" width="20" height="26" />
+          <path
+            d="M29,14 L41,14 L41,32 C41,35.3137085 38.3137085,38 35,38 C31.6862915,38 29,35.3137085 29,32 L29,14 L29,14 Z"
+            id="矩形备份-139"
+            fill="#8D989E"
+          />
+          <rect id="rect988" fill="#8D989E" x="34" y="38" width="2" height="4" />
+          <polygon id="polygon990" fill="#8D989E" points="46 6 64 6 64 30 59 42 51 42 46 30" />
+          <rect id="rect992" fill="#515D5F" x="8" y="41" width="12" height="29" />
+          <rect id="rect994" fill="#8A979C" x="20" y="42" width="82" height="42" />
+          <rect id="rect996" fill="#515D5F" x="5" y="80" width="97" height="4" />
+          <rect id="rect998" fill="#8D989E" x="8" y="84" width="2" height="62" />
+          <rect id="rect1000" fill="#515D5F" x="5" y="146" width="8" height="2" />
+          <rect id="矩形备份-144" fill="#515D5F" x="96" y="146" width="8" height="2" />
+          <rect id="矩形备份-143" fill="#8A979C" x="99" y="84" width="2" height="62" />
+          <rect id="矩形备份-142" fill="#8A979C" x="161" y="85" width="2" height="62" />
+          <rect id="矩形备份-145" fill="#515D5F" x="158" y="146" width="8" height="2" />
+          <rect id="rect1006" fill="#8A979C" x="286" y="134" width="2" height="13" />
+          <rect id="rect1008" fill="#515D5F" x="283" y="146" width="8" height="2" />
+          <rect id="rect1010" fill="#859398" x="99" y="121" width="106" height="13" />
+          <rect id="rect1012" fill="#515D5F" x="102" y="64" width="97" height="2" />
+          <rect id="rect1014" fill="#515D5F" x="196" y="35" width="3" height="30" />
+          <rect id="rect1016" fill="#67757A" x="182" y="108" width="90" height="11" />
+          <rect id="rect1018" fill="#737E84" x="203" y="118" width="62" height="5" />
+          <rect id="rect1020" fill="#859398" x="203" y="123" width="85" height="11" />
+          <rect id="rect1022" fill="#737E84" x="256" y="134" width="9" height="5" />
+          <rect id="rect1024" fill="#737E84" x="203" y="134" width="8" height="5" />
+          <rect id="矩形备份-140" fill="#8D989E" x="32" y="84" width="2" height="48" />
+          <rect id="矩形备份-141" fill="#8D989E" x="53" y="84" width="2" height="48" />
+          <rect id="rect1028" fill="#8D989E" x="9" y="132" width="90" height="2" />
+          <rect id="rect1030" fill="#8D989E" x="131" y="24" width="6" height="60" />
+          <rect id="rect1032" fill="#8D989E" x="99" y="82" width="65" height="31" />
+          <rect id="rect1034" fill="#8D989E" x="145" y="66" width="19" height="17" />
+          <rect id="rect1036" fill="#9FB2B5" x="80" y="65" width="5" height="19" />
+          <rect id="rect1038" fill="#9FB2B5" x="93" y="64" width="9" height="20" />
+          <rect id="rect1040" fill="#9FB2B5" x="8" y="69" width="12" height="15" />
+          <rect id="rect1042" fill="#9FB2B5" x="57" y="75" width="23" height="9" />
+          <rect id="rect1044" fill="#5B656D" x="233" y="18" width="25" height="8" />
+          <rect
+            id="rect1046"
+            stroke="#191919"
+            fill="#606C73"
+            x="241.5"
+            y="0.5"
+            width="9"
+            height="33"
+            rx="4.5"
+          />
+          <rect id="rect1048" fill="#74848A" x="183" y="34" width="128" height="3" />
+          <rect id="rect1050" fill="#91AAAC" x="233" y="8" width="2" height="24" rx="1" />
+          <rect id="rect1052" fill="#91AAAC" x="257" y="8" width="2" height="24" rx="1" />
+          <g id="编组-25" transform="translate(199, 11)">
+            <ellipse id="椭圆形" fill="#607279" cx="9" cy="12" rx="9" ry="12" />
+            <ellipse id="ellipse1055" fill="#313032" cx="8.5" cy="12" rx="3.5" ry="6" />
+          </g>
+          <g
+            id="编组-25备份-2"
+            transform="translate(286, 22) scale(-1, 1) translate(-286, -22)translate(277, 10)"
+          >
+            <ellipse id="ellipse1058" fill="#607279" cx="9" cy="12" rx="9" ry="12" />
+            <ellipse id="ellipse1060" fill="#313032" cx="8.5" cy="12" rx="3.5" ry="6" />
+          </g>
+          <g id="编组-25备份" transform="translate(207, 11)">
+            <ellipse id="ellipse1063" fill="#607279" cx="9" cy="12" rx="9" ry="12" />
+            <ellipse id="ellipse1065" fill="#313032" cx="8.5" cy="12" rx="3.5" ry="6" />
+          </g>
+          <rect id="rect1068" fill="#91AAAC" x="225" y="22" width="10" height="2" />
+          <rect id="矩形备份-146" fill="#91AAAC" x="259" y="22" width="11" height="2" />
+          <g
+            id="编组-25备份-3"
+            transform="translate(278, 22) scale(-1, 1) translate(-278, -22)translate(269, 10)"
+          >
+            <ellipse id="ellipse1071" fill="#607279" cx="9" cy="12" rx="9" ry="12" />
+            <ellipse id="ellipse1073" fill="#313032" cx="8.5" cy="12" rx="3.5" ry="6" />
+          </g>
+          <rect id="rect1076" fill="#737E84" x="233" y="37" width="28" height="71" />
+        </g>
+        <g id="组件12" transform="translate(1178, 274)">
+          <rect id="rect1079" fill="#D428B6" x="0" y="42" width="78" height="4" />
+          <g id="编组" transform="translate(15, 0)">
+            <rect
+              id="rect1081"
+              stroke="#191919"
+              fill="url(#linearGradient-2)"
+              x="17.5"
+              y="36.5"
+              width="17"
+              height="15"
+            />
+            <rect
+              id="矩形备份-71"
+              stroke="#191919"
+              fill="url(#linearGradient-3)"
+              x="33.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+            <rect
+              id="rect1084"
+              stroke="#191919"
+              fill="url(#linearGradient-4)"
+              x="23.5"
+              y="27.5"
+              width="5"
+              height="10"
+            />
+            <circle id="circle1086" fill="#191919" cx="17" cy="2" r="2" />
+            <rect
+              id="rect1088"
+              stroke="#191919"
+              fill="#9BBF8D"
+              x="12.5"
+              y="2.5"
+              width="27"
+              height="25"
+              rx="3"
+            />
+            <path
+              d="M17,4 L39,4 L39,4 L39,25 C39,26.1045695 38.1045695,27 37,27 L14,27 L14,27 L14,7 C14,5.34314575 15.3431458,4 17,4 Z"
+              id="path1090"
+              fill="#2F9931"
+            />
+            <rect
+              id="rect1092"
+              stroke="#191919"
+              fill="#2F9931"
+              x="11.5"
+              y="13.5"
+              width="29"
+              height="4"
+            />
+            <path
+              d="M12.5,19.5 L12.5,22.5 L3.5,22.5 L3.5,36.5 L0.5,36.5 L0.5,22 C0.5,21.3096441 0.779822031,20.6846441 1.23223305,20.232233 C1.68464406,19.779822 2.30964406,19.5 3,19.5 L12.5,19.5 Z"
+              id="path1094"
+              stroke="#191919"
+              fill="#2F9931"
+            />
+            <rect
+              id="rect1096"
+              stroke="#191919"
+              fill="url(#linearGradient-3)"
+              x="12.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+          </g>
+        </g>
+        <rect
+          id="rect1100"
+          stroke="#191919"
+          fill="url(#linearGradient-5)"
+          x="1370.5"
+          y="317.5"
+          width="27"
+          height="19"
+        />
+        <path
+          d="M1369.70318,228.5 L1375.5,239.127497 L1375.5,336.872503 L1369.70318,347.5 L1258.29682,347.5 L1252.5,336.872503 L1252.5,239.127497 L1258.29682,228.5 L1369.70318,228.5 Z"
+          id="path1102"
+          stroke="#191919"
+          fill="url(#linearGradient-6)"
+        />
+        <rect id="rect1104" fill="#191919" x="1279" y="226" width="70" height="3" />
+        <g id="报警记录" transform="translate(2250, 1081)">
+          <rect
+            id="rect1106"
+            stroke="#000C0B"
+            fill="#F3F524"
+            x="0.5"
+            y="0.5"
+            width="105"
+            height="55"
+          />
+          <polygon id="polygon1108" fill="#FFFEFF" points="1 1 105 1 105 6 1 6" />
+          <polygon id="矩形备份-13" fill="#A1A19F" points="100 6 105 1 105 55 100 55" />
+          <polygon id="矩形备份-14" fill="#A1A19F" points="1 50 105 50 105 55 1 55" />
+          <polygon id="polygon1112" fill="#FFFEFF" points="1 1 6 1 6 50 1 55" />
+          <text
+            id="text1116"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="13" y="34" id="tspan1114">一号酸泵</tspan>
+          </text>
+        </g>
+        <g id="报警记录备份" transform="translate(2250, 1139)">
+          <rect
+            id="rect1119"
+            stroke="#000C0B"
+            fill="#EDE9D8"
+            x="0.5"
+            y="0.5"
+            width="105"
+            height="55"
+          />
+          <polygon id="polygon1121" fill="#FFFEFF" points="1 1 105 1 105 6 1 6" />
+          <polygon id="polygon1123" fill="#A1A19F" points="100 6 105 1 105 55 100 55" />
+          <polygon id="polygon1125" fill="#A1A19F" points="1 50 105 50 105 55 1 55" />
+          <polygon id="polygon1127" fill="#FFFEFF" points="1 1 6 1 6 50 1 55" />
+          <text
+            id="二号酸泵"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="13" y="34" id="tspan1129">二号酸泵</tspan>
+          </text>
+        </g>
+        <rect id="rect1133" fill="#F3F524" x="2162" y="661" width="238" height="4" />
+        <rect id="rect1135" fill="#F3F524" x="2396" y="661" width="4" height="367" />
+        <rect id="rect1137" fill="#F3F524" x="1927" y="619" width="229" height="4" />
+        <rect id="rect1139" fill="#F3F524" x="2152" y="619" width="4" height="26" />
+        <rect id="rect1141" fill="#F3F524" x="2393" y="316" width="4" height="220" />
+        <rect id="rect1143" fill="#F3F524" x="2154" y="532" width="243" height="4" />
+        <rect id="rect1145" fill="#F3F524" x="1925" y="443" width="233" height="4" />
+        <rect id="rect1147" fill="#F3F524" x="2154" y="443" width="4" height="76" />
+        <rect id="矩形备份-130" fill="#F3F524" x="1925" y="443" width="4" height="227" />
+        <rect id="矩形备份-131" fill="#F3F524" x="1865" y="622" width="4" height="48" />
+        <rect id="rect1151" fill="#F3F524" x="1865" y="666" width="64" height="4" />
+        <g id="编组-14" transform="translate(2014, 980)">
+          <rect
+            id="rect1153"
+            stroke="#191919"
+            fill="#CBCBCB"
+            x="69.5"
+            y="42.5"
+            width="32"
+            height="23"
+          />
+          <rect
+            id="rect1155"
+            stroke="#191919"
+            fill="url(#linearGradient-7)"
+            x="9.5"
+            y="34.5"
+            width="51"
+            height="45"
+          />
+          <path
+            d="M60.5,38.9342585 L65.5,42.2675919 L65.5,71.7324081 L60.5,75.0657415 L60.5,38.9342585 Z"
+            id="path1157"
+            stroke="#191919"
+            fill="url(#linearGradient-8)"
+          />
+          <rect
+            id="矩形备份-110"
+            stroke="#191919"
+            fill="url(#linearGradient-9)"
+            x="3.5"
+            y="36.5"
+            width="6"
+            height="41"
+          />
+          <rect
+            id="矩形备份-109"
+            stroke="#191919"
+            fill="#191919"
+            x="65.5"
+            y="42.5"
+            width="4"
+            height="29"
+          />
+          <rect
+            id="矩形备份-111"
+            stroke="#191919"
+            fill="url(#linearGradient-10)"
+            x="0.5"
+            y="38.5"
+            width="3"
+            height="37"
+          />
+          <rect id="rect1162" fill="#191919" x="16" y="40" width="41" height="2" />
+          <rect id="rect1164" fill="#191919" x="16" y="44" width="41" height="2" />
+          <rect id="rect1166" fill="#191919" x="16" y="48" width="41" height="3" />
+          <rect id="rect1168" fill="#191919" x="16" y="52" width="41" height="2" />
+          <rect id="rect1170" fill="#191919" x="16" y="55" width="41" height="2" />
+          <rect
+            id="rect1172"
+            stroke="#191919"
+            fill="#CBCBCB"
+            x="96.5"
+            y="40.5"
+            width="30"
+            height="27"
+          />
+          <rect id="rect1174" fill="#191919" x="16" y="80" width="38" height="2" />
+          <rect
+            id="rect1176"
+            stroke="#191919"
+            fill="#CACAC9"
+            x="20.5"
+            y="62.5"
+            width="18"
+            height="21"
+          />
+          <rect id="rect1178" fill="#FFFFFF" x="22" y="65" width="15" height="2" />
+          <rect id="rect1180" fill="#FFFFFF" x="22" y="67" width="2" height="15" />
+          <rect
+            id="rect1182"
+            stroke="#191919"
+            fill="#4B4B4B"
+            x="100.5"
+            y="45.5"
+            width="18"
+            height="18"
+          />
+          <rect id="rect1184" fill="#D3D3D3" x="101" y="46" width="4" height="5" />
+          <rect id="rect1186" fill="#D3D3D3" x="105" y="46" width="3" height="3" />
+          <rect id="rect1188" fill="#D3D3D3" x="101" y="53" width="4" height="4" />
+          <rect id="rect1190" fill="#D3D3D3" x="101" y="59" width="3" height="2" />
+          <rect id="rect1192" fill="#D3D3D3" x="101" y="61" width="6" height="2" />
+          <rect
+            id="rect1194"
+            stroke="#191919"
+            fill="#4B4B4B"
+            x="105.5"
+            y="49.5"
+            width="2"
+            height="11"
+          />
+          <rect
+            id="rect1196"
+            stroke="#191919"
+            fill="#CBCBCB"
+            x="69.5"
+            y="55.5"
+            width="4"
+            height="20"
+          />
+          <path
+            d="M86.25,64.5 L81.6666667,75.5 L73.5,75.5 L73.5,64.5 L86.25,64.5 Z"
+            id="path1198"
+            stroke="#191919"
+            fill="#7E807F"
+          />
+          <rect id="rect1200" fill="#191919" x="121" y="41" width="2" height="26" />
+          <rect
+            id="rect1202"
+            stroke="#191919"
+            fill="#CBCBCB"
+            x="106.5"
+            y="68.5"
+            width="13"
+            height="7"
+          />
+          <path
+            d="M115.5,68.5 L115.5,75.5 L106.3465,75.5 L103.7215,68.5 L115.5,68.5 Z"
+            id="path1204"
+            stroke="#191919"
+            fill="#7E807F"
+          />
+          <path
+            d="M171.5,43.5 L171.5,64.5 L145.5,64.5 L145.5,63.5 L131.5,63.5 L131.5,61.5 L126.5,61.5 L126.5,46.5 L131.5,46.5 L131.5,44.5 L145.5,44.5 L145.5,43.5 L171.5,43.5 Z"
+            id="path1206"
+            stroke="#191919"
+            fill="url(#linearGradient-11)"
+          />
+          <rect
+            id="矩形备份-106"
+            stroke="#191919"
+            fill="#9A9A9A"
+            x="171.5"
+            y="43.5"
+            width="22"
+            height="21"
+          />
+          <rect id="rect1209" fill="#FFFFFF" x="172" y="44" width="21" height="1" />
+          <rect id="rect1211" fill="#191919" x="172" y="45" width="3" height="3" />
+          <rect id="矩形备份-114" fill="#191919" x="172" y="61" width="3" height="3" />
+          <rect id="矩形备份-112" fill="#191919" x="181" y="45" width="2" height="3" />
+          <rect id="矩形备份-115" fill="#191919" x="181" y="61" width="2" height="3" />
+          <rect id="矩形备份-113" fill="#191919" x="189" y="45" width="3" height="3" />
+          <rect id="矩形备份-116" fill="#191919" x="189" y="61" width="3" height="3" />
+          <rect id="rect1218" fill="#FFFFFF" x="192" y="45" width="1" height="19" />
+          <path
+            d="M162.5,36.5 L162.5,46.7151022 C159.333381,48.5680413 156.167645,49.5 153,49.5 C149.832355,49.5 146.666619,48.5680413 143.5,46.7151022 L143.5,36.5 L162.5,36.5 Z"
+            id="path1220"
+            stroke="#191919"
+            fill="url(#linearGradient-12)"
+          />
+          <circle id="circle1222" stroke="#858585" cx="153" cy="53" r="2.5" />
+          <rect
+            id="rect1224"
+            stroke="#191919"
+            fill="url(#linearGradient-13)"
+            x="132.5"
+            y="34.5"
+            width="41"
+            height="2"
+          />
+          <g id="编组-13" transform="translate(218, 0)">
+            <path
+              d="M20.5,29.5 L20.5,50.5 L25.5,50.5 L25.5,58.5 L5.5,58.5 L5.5,50.5 L10.5,50.5 L10.5,29.5 L20.5,29.5 Z"
+              id="path1226"
+              stroke="#191919"
+              fill="#93CE96"
+            />
+            <circle id="circle1228" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="15" />
+            <rect id="rect1230" fill="#191919" x="14" y="30" width="3" height="2" />
+            <circle id="circle1232" stroke="#191919" fill="#E3F3E3" cx="15.5" cy="15.5" r="12" />
+            <circle id="circle1234" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="2" />
+            <rect id="rect1236" fill="#191919" x="24" y="15" width="4" height="1" />
+            <rect id="矩形备份-118" fill="#191919" x="4" y="15" width="4" height="1" />
+            <rect id="rect1239" fill="#191919" x="15" y="24" width="1" height="4" />
+            <rect id="rect1241" fill="#191919" x="10" y="42" width="11" height="1" />
+          </g>
+          <rect
+            id="矩形备份-107"
+            stroke="#191919"
+            fill="url(#linearGradient-14)"
+            x="193.5"
+            y="40.5"
+            width="4"
+            height="27"
+          />
+          <rect
+            id="rect1245"
+            stroke="#191919"
+            fill="url(#linearGradient-14)"
+            x="197.5"
+            y="40.5"
+            width="4"
+            height="27"
+          />
+          <rect
+            id="rect1247"
+            stroke="#191919"
+            fill="url(#linearGradient-14)"
+            x="228.5"
+            y="40.5"
+            width="4"
+            height="27"
+          />
+          <rect
+            id="rect1249"
+            stroke="#191919"
+            fill="url(#linearGradient-14)"
+            x="232.5"
+            y="40.5"
+            width="4"
+            height="27"
+          />
+          <rect
+            id="rect1251"
+            stroke="#191919"
+            fill="url(#linearGradient-15)"
+            x="236.5"
+            y="43.5"
+            width="35"
+            height="19"
+          />
+          <rect
+            id="rect1253"
+            stroke="#191919"
+            fill="url(#linearGradient-16)"
+            x="201.5"
+            y="45.5"
+            width="8"
+            height="17"
+          />
+          <rect
+            id="矩形备份-129"
+            stroke="#191919"
+            fill="url(#linearGradient-16)"
+            x="220.5"
+            y="45.5"
+            width="8"
+            height="17"
+          />
+          <rect
+            id="矩形备份-128"
+            stroke="#191919"
+            fill="url(#linearGradient-17)"
+            x="209.5"
+            y="44.5"
+            width="11"
+            height="31"
+          />
+          <rect
+            id="rect1257"
+            stroke="#191919"
+            fill="url(#linearGradient-17)"
+            x="209.5"
+            y="42.5"
+            width="11"
+            height="31"
+          />
+          <rect id="rect1259" fill="#191919" x="210" y="42" width="9" height="2" />
+        </g>
+        <g id="编组-19" transform="translate(2106, 891)">
+          <rect
+            id="rect1262"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="45.5"
+            y="100.5"
+            width="33"
+            height="23"
+          />
+          <g
+            id="编组-15"
+            transform="translate(122.5, 76.5) rotate(90) translate(-122.5, -76.5)translate(114, 46)"
+          >
+            <rect
+              id="rect1264"
+              stroke="#191919"
+              fill="#B3ACAC"
+              x="12.5"
+              y="0.5"
+              width="4"
+              height="7"
+            />
+            <rect
+              id="rect1266"
+              stroke="#191919"
+              fill="#1000DC"
+              x="3.5"
+              y="0.5"
+              width="8"
+              height="13"
+            />
+            <rect id="rect1268" fill="#191919" x="1" y="14" width="14" height="3" />
+            <rect
+              id="rect1270"
+              stroke="#191919"
+              fill="#B3ACAC"
+              x="6.5"
+              y="15.5"
+              width="3"
+              height="17"
+            />
+            <rect id="rect1272" fill="#191919" x="7" y="32" width="2" height="29" />
+            <circle id="circle1274" stroke="#191919" fill="#B3ACAC" cx="4" cy="5" r="3.5" />
+          </g>
+          <path
+            d="M0,0 L127,0 L127,22 L64,122 L0,22 L0,0 Z"
+            id="path1277"
+            stroke="#191919"
+            fill="#B2B2B2"
+          />
+          <rect
+            id="rect1279"
+            stroke="#191919"
+            fill="#808080"
+            x="48.5"
+            y="0.5"
+            width="31"
+            height="115"
+          />
+          <rect id="rect1281" fill="#191919" x="51" y="119" width="25" height="5" />
+          <rect
+            id="rect1283"
+            stroke="#191919"
+            fill="#9FA29D"
+            x="51.5"
+            y="116.5"
+            width="22"
+            height="4"
+          />
+          <rect id="rect1285" fill="#15FD10" x="49" y="85" width="30" height="30" />
+        </g>
+        <g id="组件7" transform="translate(2285, 974)">
+          <g id="编组-2" transform="translate(59, 49)">
+            <rect id="rect1288" fill="url(#linearGradient-18)" x="0" y="0" width="9" height="20" />
+            <rect id="rect1290" fill="#B4B2B3" x="8" y="1" width="1" height="18" />
+            <rect id="矩形备份-59" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="rect1293" fill="#191919" x="1" y="0" width="8" height="1" />
+            <rect id="矩形备份-58" fill="#191919" x="1" y="19" width="8" height="1" />
+          </g>
+          <g id="编组-2备份" transform="translate(0, 49)">
+            <rect id="rect1297" fill="url(#linearGradient-19)" x="0" y="0" width="13" height="20" />
+            <rect id="rect1299" fill="#191919" x="12" y="2" width="1" height="17" />
+            <rect id="rect1301" fill="#191919" x="0" y="0" width="12" height="1" />
+            <rect id="rect1303" fill="#191919" x="0" y="19" width="12" height="1" />
+          </g>
+          <rect id="rect1306" fill="#191919" x="27" y="19" width="19" height="17" />
+          <rect
+            id="rect1308"
+            stroke="#191919"
+            fill="#02C90F"
+            x="29.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect1310" fill="#191919" x="24" y="26" width="24" height="8" />
+          <rect id="rect1312" fill="#02C90F" x="25" y="28" width="1" height="3" />
+          <rect id="rect1314" fill="#02C90F" x="30" y="28" width="4" height="4" />
+          <rect id="rect1316" fill="#02C90F" x="36" y="28" width="8" height="5" />
+          <rect id="rect1318" fill="#191919" x="15" y="21" width="13" height="3" />
+          <rect id="rect1320" fill="#191919" x="15" y="10" width="10" height="2" />
+          <rect
+            id="rect1322"
+            stroke="#191919"
+            fill="#02C90F"
+            x="12.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle1324" stroke="#191919" fill="#02C90F" cx="15" cy="23" r="2.5" />
+          <circle id="circle1326" stroke="#191919" fill="#02C90F" cx="14" cy="11" r="1.5" />
+          <rect id="rect1328" fill="#191919" x="21" y="4" width="30" height="20" />
+          <rect id="rect1330" fill="#02C90F" x="46" y="28" width="1" height="3" />
+          <rect id="rect1332" fill="#02C90F" x="31" y="21" width="12" height="3" />
+          <rect
+            id="rect1334"
+            stroke="#191919"
+            fill="#02C90F"
+            x="21.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M30.5,4 L30.5,2 C30.5,0.8954305 31.3954305,2.02906125e-16 32.5,0 L38.5,0 C40.1568542,-3.04359188e-16 41.5,1.34314575 41.5,3 L41.5,4 L41.5,4 L30.5,4 Z"
+            id="路径-10"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="路径-3" stroke="#191919" points="31 2 31 -9.10729825e-18 36 0" />
+          <path
+            d="M38,0 L39,0 C40.1045695,-2.02906125e-16 41,0.8954305 41,2 L41,2 L41,2"
+            id="路径-8"
+            stroke="#191919"
+          />
+          <path
+            d="M30,2 L30,3 C30,3.55228475 30.4477153,4 31,4 L41,4 C41.5522847,4 42,3.55228475 42,3 L42,2 L42,2"
+            id="路径-9"
+            stroke="#191919"
+          />
+          <rect
+            id="rect1340"
+            stroke="#191919"
+            fill="#02C90F"
+            x="32.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect1342" fill="#02C90F" x="22" y="14" width="28" height="2" />
+          <rect id="rect1344" fill="#02C90F" x="22" y="17" width="28" height="2" />
+          <rect id="rect1346" fill="#191919" x="51" y="12" width="3" height="7" />
+          <rect
+            id="rect1348"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="39.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-57"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle1351" stroke="#191919" fill="#02C90F" cx="45.5" cy="13.5" r="3" />
+          <rect
+            id="rect1353"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect1355"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="13.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect1357"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="12.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect1359"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="17.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="矩形备份-51"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="43.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect1362" fill="#000000" x="30" y="45" width="13" height="25" />
+          <rect id="rect1364" fill="#191919" x="29" y="45" width="14" height="4" />
+          <rect
+            id="rect1366"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="31.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect1368" fill="#191919" x="32" y="44" width="7" height="1" />
+          <rect id="rect1370" fill="url(#linearGradient-27)" x="30" y="49" width="12" height="4" />
+          <rect id="rect1372" fill="url(#linearGradient-28)" x="31" y="55" width="10" height="11" />
+          <rect id="rect1374" fill="url(#linearGradient-29)" x="30" y="67" width="12" height="2" />
+          <rect
+            id="rect1376"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="13.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect1378"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-52"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="矩形备份-53"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="55.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="矩形备份-54"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="55.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-55"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="55.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="矩形备份-56"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="g1404" transform="translate(2559, 980)">
+          <path
+            d="M20.5,29.5 L20.5,50.5 L25.5,50.5 L25.5,58.5 L5.5,58.5 L5.5,50.5 L10.5,50.5 L10.5,29.5 L20.5,29.5 Z"
+            id="path1386"
+            stroke="#191919"
+            fill="#93CE96"
+          />
+          <circle id="circle1388" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="15" />
+          <rect id="rect1390" fill="#191919" x="14" y="30" width="3" height="2" />
+          <circle id="circle1392" stroke="#191919" fill="#E3F3E3" cx="15.5" cy="15.5" r="12" />
+          <circle id="circle1394" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="2" />
+          <rect id="rect1396" fill="#191919" x="24" y="15" width="4" height="1" />
+          <rect id="rect1398" fill="#191919" x="4" y="15" width="4" height="1" />
+          <rect id="rect1400" fill="#191919" x="15" y="24" width="1" height="4" />
+          <rect id="rect1402" fill="#191919" x="10" y="42" width="11" height="1" />
+        </g>
+        <g id="g1418" transform="translate(2602, 974)">
+          <rect
+            id="rect1406"
+            stroke="#191919"
+            fill="#B3ACAC"
+            x="12.5"
+            y="0.5"
+            width="4"
+            height="7"
+          />
+          <rect
+            id="rect1408"
+            stroke="#191919"
+            fill="#1000DC"
+            x="3.5"
+            y="0.5"
+            width="8"
+            height="13"
+          />
+          <rect id="rect1410" fill="#191919" x="1" y="14" width="14" height="3" />
+          <rect
+            id="rect1412"
+            stroke="#191919"
+            fill="#B3ACAC"
+            x="6.5"
+            y="15.5"
+            width="3"
+            height="17"
+          />
+          <rect id="rect1414" fill="#191919" x="7" y="32" width="2" height="29" />
+          <circle id="circle1416" stroke="#191919" fill="#B3ACAC" cx="4" cy="5" r="3.5" />
+        </g>
+        <g id="g1432" transform="translate(2350, 974)">
+          <rect
+            id="rect1420"
+            stroke="#191919"
+            fill="#B3ACAC"
+            x="12.5"
+            y="0.5"
+            width="4"
+            height="7"
+          />
+          <rect
+            id="rect1422"
+            stroke="#191919"
+            fill="#1000DC"
+            x="3.5"
+            y="0.5"
+            width="8"
+            height="13"
+          />
+          <rect id="rect1424" fill="#191919" x="1" y="14" width="14" height="3" />
+          <rect
+            id="rect1426"
+            stroke="#191919"
+            fill="#B3ACAC"
+            x="6.5"
+            y="15.5"
+            width="3"
+            height="17"
+          />
+          <rect id="rect1428" fill="#191919" x="7" y="32" width="2" height="29" />
+          <circle id="circle1430" stroke="#191919" fill="#B3ACAC" cx="4" cy="5" r="3.5" />
+        </g>
+        <g id="组件2" transform="translate(2353, 1026)">
+          <rect id="rect1434" fill="#16A2BC" x="0" y="0" width="282" height="14" />
+          <rect id="rect1436" fill="#191919" x="0" y="0" width="282" height="1" />
+          <rect id="rect1438" fill="#99A5AF" x="0" y="1" width="282" height="1" />
+          <rect id="rect1440" fill="#99A5AF" x="0" y="12" width="282" height="1" />
+          <rect id="矩形备份-35" fill="#191919" x="0" y="13" width="282" height="1" />
+          <path
+            d="M57,4 L57,6 L69,6 L69,8 L57,8 L57,10 L55,10 L55,8 L23,8 L23,6 L55,6 L55,4 L57,4 Z"
+            id="形状结合备份-2"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件2备份-14" transform="translate(2635, 972)">
+          <rect id="rect1445" fill="#16A2BC" x="0" y="0" width="14" height="118" />
+          <rect id="rect1447" fill="#191919" x="0" y="0" width="1" height="118" />
+          <rect id="rect1449" fill="#191919" x="13" y="0" width="1" height="118" />
+          <rect id="rect1451" fill="#99A5AF" x="1" y="0" width="1" height="118" />
+          <rect id="rect1453" fill="#99A5AF" x="12" y="0" width="1" height="118" />
+          <rect id="rect1455" fill="#FFFFFF" x="6" y="45" width="2" height="32" />
+          <rect id="rect1457" fill="#FFFFFF" x="4" y="57" width="6" height="2" />
+        </g>
+        <g
+          id="组件10备份-6"
+          transform="translate(2663.5, 1035) rotate(90) translate(-2663.5, -1035)translate(2639.5, 998.5)"
+        >
+          <rect id="rect1460" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect
+            id="rect1462"
+            stroke="#191919"
+            fill="#696969"
+            x="17.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect1464" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="rect1466" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="rect1468" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="rect1470" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="rect1472" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="rect1474" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect
+            id="rect1476"
+            stroke="#191919"
+            fill="#9B999A"
+            x="0.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle1478" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="circle1480" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="rect1482" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="rect1484" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="rect1486" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect
+            id="rect1488"
+            stroke="#191919"
+            fill="#9B999A"
+            x="9.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="path1490"
+            fill="#F6F4F5"
+          />
+          <polyline id="polyline1492" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="path1494"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="path1496"
+            stroke="#191919"
+          />
+          <rect
+            id="rect1498"
+            stroke="#191919"
+            fill="#696969"
+            x="20.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect1500" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="rect1502" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="rect1504" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="rect1506"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect1508"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle1510" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="rect1512"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect1514"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect1516"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect1518"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect1520"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect1522" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="rect1524" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="rect1526"
+            stroke="#191919"
+            fill="#696969"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect1528" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="rect1530" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="rect1532" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="rect1534" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect
+            id="rect1536"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect1538"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect1540"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect1542"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect1544"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect1546"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect1548"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <rect
+          id="rect1551"
+          stroke="#191919"
+          fill="url(#linearGradient-31)"
+          x="2428.5"
+          y="1023.5"
+          width="126"
+          height="19"
+        />
+        <text
+          id="乳胶泵1#"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="2021" y="1085" id="tspan1553">乳胶泵1#</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD60"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-38"
+        >
+          <tspan x="2024.9861" y="1120" id="tspan1556">10</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD272"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-16"
+        >
+          <tspan x="2011.2" y="1186" id="tspan1559">30</tspan>
+        </text>
+        <text
+          id="乳胶泵1温度"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-12"
+        >
+          <tspan x="1862.386" y="1120" id="tspan1562">乳胶泵1温度</tspan>
+        </text>
+        <text
+          id="发泡剂泵1#"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="2061" y="702" id="tspan1565">发泡剂泵1#</tspan>
+        </text>
+        <text
+          id="发泡剂泵2#"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="2061" y="573" id="tspan1568">发泡剂泵2#</tspan>
+        </text>
+        <text
+          id="乳胶泵2#"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1821" y="361" id="tspan1571">乳胶泵2#</tspan>
+        </text>
+        <text
+          id="乳胶料仓一"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="2140" y="878" id="tspan1574">乳胶料仓一</tspan>
+        </text>
+        <text
+          id="乳胶料仓二"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1954" y="154" id="tspan1577">乳胶料仓二</tspan>
+        </text>
+        <text
+          id="酸泵"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="2165" y="1186" id="tspan1580">酸泵</tspan>
+        </text>
+        <path
+          d="M1994.5,1123.91907 L2010.1323,1134.03409 L1994.5,1145.98821 L1994.5,1138.5 L1955.5,1138.5 L1955.5,1131.5 L1994.5,1131.5 L1994.5,1123.91907 Z"
+          id="形状结合备份-3"
+          stroke="#191919"
+          fill="#AA7880"
+          transform="translate(1983, 1135) scale(-1, 1) translate(-1983, -1135)"
+        />
+        <path
+          d="M2418.5,898.934259 L2435.09861,910 L2418.5,921.065741 L2418.5,913.498991 L2360.5,913.499991 L2360.5,906.499991 L2418.5,906.498991 L2418.5,898.934259 Z"
+          id="path1584"
+          stroke="#191919"
+          fill="#AA7880"
+          transform="translate(2398, 910) scale(-1, -1) rotate(-90) translate(-2398, -910)"
+        />
+        <path
+          d="M2415.5,393.934259 L2432.09861,405 L2415.5,416.065741 L2415.5,408.498991 L2357.5,408.499991 L2357.5,401.499991 L2415.5,401.498991 L2415.5,393.934259 Z"
+          id="形状结合备份-14"
+          stroke="#191919"
+          fill="#AA7880"
+          transform="translate(2395, 405) scale(-1, 1) rotate(-90) translate(-2395, -405)"
+        />
+        <g id="g1598" transform="translate(1673, 1127)">
+          <rect id="rect1587" fill="#16A2BC" x="2" y="0" width="56" height="14" />
+          <rect id="rect1589" fill="#191919" x="2" y="0" width="56" height="1" />
+          <rect id="rect1591" fill="#99A5AF" x="2" y="1" width="56" height="1" />
+          <rect id="rect1593" fill="#99A5AF" x="2" y="12" width="56" height="1" />
+          <rect id="rect1595" fill="#191919" x="2" y="13" width="56" height="1" />
+          <path
+            d="M14,4 L14,6 L26,6 L26,8 L14,8 L14,10 L12,10 L12,8 L0,8 L0,6 L12,6 L12,4 L14,4 Z"
+            id="形状结合备份"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件2备份-18" transform="translate(1678, 974)">
+          <rect id="rect1600" fill="#16A2BC" x="2" y="0" width="56" height="14" />
+          <rect id="rect1602" fill="#191919" x="2" y="0" width="56" height="1" />
+          <rect id="rect1604" fill="#99A5AF" x="2" y="1" width="56" height="1" />
+          <rect id="rect1606" fill="#99A5AF" x="2" y="12" width="56" height="1" />
+          <rect id="rect1608" fill="#191919" x="2" y="13" width="56" height="1" />
+          <path
+            d="M14,4 L14,6 L26,6 L26,8 L14,8 L14,10 L12,10 L12,8 L0,8 L0,6 L12,6 L12,4 L14,4 Z"
+            id="path1610"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="g1629" transform="translate(1656, 561)">
+          <rect id="rect1613" fill="#16A2BC" x="0" y="0" width="14" height="423" />
+          <rect id="rect1615" fill="#191919" x="0" y="0" width="1" height="423" />
+          <rect id="rect1617" fill="#191919" x="13" y="0" width="1" height="423" />
+          <rect id="rect1619" fill="#99A5AF" x="1" y="0" width="1" height="423" />
+          <rect id="rect1621" fill="#99A5AF" x="12" y="0" width="1" height="423" />
+          <path
+            d="M8,47 L8,59 L10,59 L10,61 L8,61 L8,79 L6,79 L6,61 L4,61 L4,59 L6,59 L6,47 L8,47 Z"
+            id="path1623"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M8,183 L8,195 L10,195 L10,197 L8,197 L8,215 L6,215 L6,197 L4,197 L4,195 L6,195 L6,183 L8,183 Z"
+            id="path1625"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M8,319 L8,331 L10,331 L10,333 L8,333 L8,351 L6,351 L6,333 L4,333 L4,331 L6,331 L6,319 L8,319 Z"
+            id="path1627"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="g1643" transform="translate(1681, 536)">
+          <rect id="rect1631" fill="#16A2BC" x="0" y="0" width="42" height="14" />
+          <rect id="rect1633" fill="#191919" x="0" y="0" width="42" height="1" />
+          <rect id="rect1635" fill="#99A5AF" x="0" y="1" width="42" height="1" />
+          <rect id="rect1637" fill="#99A5AF" x="0" y="12" width="42" height="1" />
+          <rect id="rect1639" fill="#191919" x="0" y="13" width="42" height="1" />
+          <path
+            d="M13,4 L13,6 L20,6 L20,8 L13,8 L13,10 L11,10 L11,8 L0,8 L0,6 L11,6 L11,4 L13,4 Z"
+            id="path1641"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="g1661" transform="translate(1722, 155)">
+          <rect id="rect1645" fill="#16A2BC" x="0" y="0" width="14" height="675" />
+          <rect id="rect1647" fill="#191919" x="0" y="0" width="1" height="675" />
+          <rect id="rect1649" fill="#191919" x="13" y="0" width="1" height="675" />
+          <rect id="rect1651" fill="#99A5AF" x="1" y="0" width="1" height="675" />
+          <rect id="rect1653" fill="#99A5AF" x="12" y="0" width="1" height="675" />
+          <path
+            d="M8,45 L8,63 L10,63 L10,65 L8,65 L8,77 L6,77 L6,65 L4,65 L4,63 L6,63 L6,45 L8,45 Z"
+            id="path1655"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M8,177 L8,195 L10,195 L10,197 L8,197 L8,209 L6,209 L6,197 L4,197 L4,195 L6,195 L6,177 L8,177 Z"
+            id="形状结合备份-9"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M8,309 L8,327 L10,327 L10,329 L8,329 L8,341 L6,341 L6,329 L4,329 L4,327 L6,327 L6,309 L8,309 Z"
+            id="形状结合备份-10"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M8,441 L8,459 L10,459 L10,461 L8,461 L8,473 L6,473 L6,461 L4,461 L4,459 L6,459 L6,441 L8,441 Z"
+            id="形状结合备份-11"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M8,573 L8,591 L10,591 L10,593 L8,593 L8,605 L6,605 L6,593 L4,593 L4,591 L6,591 L6,573 L8,573 Z"
+            id="形状结合备份-12"
+            fill="#FFFFFF"
+          />
+        </g>
+        <text
+          id="KLRH3_DB2DD64"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="1885.772" y="406" id="tspan1663">11</tspan>
+        </text>
+        <text
+          id="乳胶泵2温度"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="1700.6" y="406" id="tspan1666">乳胶泵2温度</tspan>
+        </text>
+        <text
+          id="乳胶仓2温度"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-30"
+        >
+          <tspan x="1640.6" y="212" id="tspan1669">乳胶仓2温度</tspan>
+        </text>
+        <g id="g1684" transform="translate(1748, 132)">
+          <rect id="rect1672" fill="#16A2BC" x="0" y="0" width="96" height="14" />
+          <rect id="rect1674" fill="#191919" x="0" y="0" width="96" height="1" />
+          <rect id="rect1676" fill="#99A5AF" x="0" y="1" width="96" height="1" />
+          <rect id="rect1678" fill="#99A5AF" x="0" y="12" width="96" height="1" />
+          <rect id="rect1680" fill="#191919" x="0" y="13" width="96" height="1" />
+          <path
+            d="M20,4 L20,6 L32,6 L32,8 L20,8 L20,10 L18,10 L18,8 L0,8 L0,6 L18,6 L18,4 L20,4 Z"
+            id="path1682"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="g1798" transform="translate(1844, 80)">
+          <g id="g1696" transform="translate(59, 49)">
+            <rect id="rect1686" fill="url(#linearGradient-18)" x="0" y="0" width="9" height="20" />
+            <rect id="rect1688" fill="#B4B2B3" x="8" y="1" width="1" height="18" />
+            <rect id="rect1690" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="rect1692" fill="#191919" x="1" y="0" width="8" height="1" />
+            <rect id="rect1694" fill="#191919" x="1" y="19" width="8" height="1" />
+          </g>
+          <g id="g1706" transform="translate(0, 49)">
+            <rect id="rect1698" fill="url(#linearGradient-19)" x="0" y="0" width="13" height="20" />
+            <rect id="rect1700" fill="#191919" x="12" y="2" width="1" height="17" />
+            <rect id="rect1702" fill="#191919" x="0" y="0" width="12" height="1" />
+            <rect id="rect1704" fill="#191919" x="0" y="19" width="12" height="1" />
+          </g>
+          <rect id="rect1708" fill="#191919" x="27" y="19" width="19" height="17" />
+          <rect
+            id="rect1710"
+            stroke="#191919"
+            fill="#02C90F"
+            x="29.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect1712" fill="#191919" x="24" y="26" width="24" height="8" />
+          <rect id="rect1714" fill="#02C90F" x="25" y="28" width="1" height="3" />
+          <rect id="rect1716" fill="#02C90F" x="30" y="28" width="4" height="4" />
+          <rect id="rect1718" fill="#02C90F" x="36" y="28" width="8" height="5" />
+          <rect id="rect1720" fill="#191919" x="15" y="21" width="13" height="3" />
+          <rect id="rect1722" fill="#191919" x="15" y="10" width="10" height="2" />
+          <rect
+            id="rect1724"
+            stroke="#191919"
+            fill="#02C90F"
+            x="12.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle1726" stroke="#191919" fill="#02C90F" cx="15" cy="23" r="2.5" />
+          <circle id="circle1728" stroke="#191919" fill="#02C90F" cx="14" cy="11" r="1.5" />
+          <rect id="rect1730" fill="#191919" x="21" y="4" width="30" height="20" />
+          <rect id="rect1732" fill="#02C90F" x="46" y="28" width="1" height="3" />
+          <rect id="rect1734" fill="#02C90F" x="31" y="21" width="12" height="3" />
+          <rect
+            id="rect1736"
+            stroke="#191919"
+            fill="#02C90F"
+            x="21.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M30.5,4 L30.5,2 C30.5,0.8954305 31.3954305,2.02906125e-16 32.5,0 L38.5,0 C40.1568542,-3.04359188e-16 41.5,1.34314575 41.5,3 L41.5,4 L41.5,4 L30.5,4 Z"
+            id="path1738"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="polyline1740" stroke="#191919" points="31 2 31 -9.10729825e-18 36 0" />
+          <path
+            d="M38,0 L39,0 C40.1045695,-2.02906125e-16 41,0.8954305 41,2 L41,2 L41,2"
+            id="path1742"
+            stroke="#191919"
+          />
+          <path
+            d="M30,2 L30,3 C30,3.55228475 30.4477153,4 31,4 L41,4 C41.5522847,4 42,3.55228475 42,3 L42,2 L42,2"
+            id="path1744"
+            stroke="#191919"
+          />
+          <rect
+            id="rect1746"
+            stroke="#191919"
+            fill="#02C90F"
+            x="32.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect1748" fill="#02C90F" x="22" y="14" width="28" height="2" />
+          <rect id="rect1750" fill="#02C90F" x="22" y="17" width="28" height="2" />
+          <rect id="rect1752" fill="#191919" x="51" y="12" width="3" height="7" />
+          <rect
+            id="rect1754"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="39.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect1756"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle1758" stroke="#191919" fill="#02C90F" cx="45.5" cy="13.5" r="3" />
+          <rect
+            id="rect1760"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect1762"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="13.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect1764"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="12.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect1766"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="17.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect1768"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="43.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect1770" fill="#000000" x="30" y="45" width="13" height="25" />
+          <rect id="rect1772" fill="#191919" x="29" y="45" width="14" height="4" />
+          <rect
+            id="rect1774"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="31.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect1776" fill="#191919" x="32" y="44" width="7" height="1" />
+          <rect id="rect1778" fill="url(#linearGradient-27)" x="30" y="49" width="12" height="4" />
+          <rect id="rect1780" fill="url(#linearGradient-28)" x="31" y="55" width="10" height="11" />
+          <rect id="rect1782" fill="url(#linearGradient-29)" x="30" y="67" width="12" height="2" />
+          <rect
+            id="rect1784"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="13.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect1786"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect1788"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect1790"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="55.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect1792"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="55.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect1794"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="55.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect1796"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g
+          id="组件3备份-19"
+          transform="translate(1733.5, 144) scale(-1, 1) translate(-1733.5, -144)translate(1719, 129)"
+        >
+          <g id="矩形-+-矩形蒙版" transform="translate(6, 3)">
+            <mask id="mask-33" fill="white">
+              <use xlink:href="#path-32" id="use1800" />
+            </mask>
+            <g id="蒙版" />
+            <polygon
+              id="polygon1804"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-33)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon1806"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-33)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-36" fill="white">
+              <use xlink:href="#path-35" id="use1808" />
+            </mask>
+            <use id="use1811" stroke="#191919" xlink:href="#path-35" />
+          </g>
+          <rect id="rect1814" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect
+            id="矩形备份-37"
+            fill="url(#linearGradient-38)"
+            x="9"
+            y="23"
+            width="20"
+            height="7"
+          />
+          <rect id="rect1817" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="矩形备份-40" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect1820" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect1822" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect1824" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="矩形备份-39" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon1827" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect1829" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect1831" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="矩形备份-38" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect1834" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-36" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="g1852" transform="translate(1745, 843)">
+          <rect id="rect1838" fill="#16A2BC" x="0" y="0" width="305" height="14" />
+          <rect id="rect1840" fill="#191919" x="0" y="0" width="305" height="1" />
+          <rect id="rect1842" fill="#99A5AF" x="0" y="1" width="305" height="1" />
+          <rect id="rect1844" fill="#99A5AF" x="0" y="12" width="305" height="1" />
+          <rect id="rect1846" fill="#191919" x="0" y="13" width="305" height="1" />
+          <path
+            d="M67,4 L67,6 L79,6 L79,8 L67,8 L67,10 L65,10 L65,8 L47,8 L47,6 L65,6 L65,4 L67,4 Z"
+            id="path1848"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M188,4 L188,6 L200,6 L200,8 L188,8 L188,10 L186,10 L186,8 L168,8 L168,6 L186,6 L186,4 L188,4 Z"
+            id="形状结合备份-6"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M309,4 L309,6 L321,6 L321,8 L309,8 L309,10 L307,10 L307,8 L289,8 L289,6 L307,6 L307,4 L309,4 Z"
+            id="形状结合备份-13"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件10" transform="translate(2040, 791)">
+          <g id="g1862" transform="translate(55, 49)">
+            <rect id="rect1854" fill="url(#linearGradient-39)" x="0" y="0" width="10" height="20" />
+            <rect id="rect1856" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="rect1858" fill="#191919" x="0" y="0" width="10" height="1" />
+            <rect id="rect1860" fill="#191919" x="0" y="19" width="10" height="1" />
+          </g>
+          <g id="g1872" transform="translate(0, 49)">
+            <rect id="rect1864" fill="url(#linearGradient-18)" x="0" y="0" width="9" height="20" />
+            <rect id="rect1866" fill="#191919" x="8" y="2" width="1" height="17" />
+            <rect id="rect1868" fill="#191919" x="0" y="0" width="8.30769231" height="1" />
+            <rect id="rect1870" fill="#191919" x="0" y="19" width="8.30769231" height="1" />
+          </g>
+          <rect id="rect1874" fill="#191919" x="23" y="19" width="19" height="17" />
+          <rect
+            id="rect1876"
+            stroke="#191919"
+            fill="#696969"
+            x="25.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect1878" fill="#191919" x="20" y="26" width="24" height="8" />
+          <rect id="rect1880" fill="#696969" x="21" y="28" width="1" height="3" />
+          <rect id="rect1882" fill="#696969" x="26" y="28" width="4" height="4" />
+          <rect id="rect1884" fill="#696969" x="32" y="28" width="8" height="5" />
+          <rect id="rect1886" fill="#191919" x="11" y="21" width="13" height="3" />
+          <rect id="rect1888" fill="#191919" x="11" y="10" width="10" height="2" />
+          <rect
+            id="rect1890"
+            stroke="#191919"
+            fill="#9B999A"
+            x="8.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle1892" stroke="#191919" fill="#9B999A" cx="11" cy="23" r="2.5" />
+          <circle id="circle1894" stroke="#191919" fill="#9B999A" cx="10" cy="11" r="1.5" />
+          <rect id="rect1896" fill="#191919" x="17" y="4" width="30" height="20" />
+          <rect id="rect1898" fill="#696969" x="42" y="28" width="1" height="3" />
+          <rect id="rect1900" fill="#696969" x="27" y="21" width="12" height="3" />
+          <rect
+            id="rect1902"
+            stroke="#191919"
+            fill="#9B999A"
+            x="17.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M26.5,4 L26.5,2 C26.5,0.8954305 27.3954305,2.02906125e-16 28.5,0 L34.5,0 C36.1568542,-3.04359188e-16 37.5,1.34314575 37.5,3 L37.5,4 L37.5,4 L26.5,4 Z"
+            id="path1904"
+            fill="#F6F4F5"
+          />
+          <polyline id="polyline1906" stroke="#191919" points="27 2 27 -9.10729825e-18 32 0" />
+          <path
+            d="M34,0 L35,0 C36.1045695,-2.02906125e-16 37,0.8954305 37,2 L37,2 L37,2"
+            id="path1908"
+            stroke="#191919"
+          />
+          <path
+            d="M26,2 L26,3 C26,3.55228475 26.4477153,4 27,4 L37,4 C37.5522847,4 38,3.55228475 38,3 L38,2 L38,2"
+            id="path1910"
+            stroke="#191919"
+          />
+          <rect
+            id="rect1912"
+            stroke="#191919"
+            fill="#696969"
+            x="28.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect1914" fill="#9B999A" x="18" y="14" width="28" height="2" />
+          <rect id="rect1916" fill="#696969" x="18" y="17" width="28" height="2" />
+          <rect id="rect1918" fill="#191919" x="47" y="12" width="3" height="7" />
+          <rect
+            id="rect1920"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="35.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect1922"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="23.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle1924" stroke="#191919" fill="#9B999A" cx="41.5" cy="13.5" r="3" />
+          <rect
+            id="rect1926"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="8.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect1928"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="9.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect1930"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="8.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect1932"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="13.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect1934"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="39.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect1936" fill="#000000" x="26" y="45" width="13" height="25" />
+          <rect id="rect1938" fill="#191919" x="25" y="45" width="14" height="4" />
+          <rect
+            id="rect1940"
+            stroke="#191919"
+            fill="#696969"
+            x="27.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect1942" fill="#191919" x="28" y="44" width="7" height="1" />
+          <rect id="rect1944" fill="#F1F1F1" x="26" y="49" width="12" height="4" />
+          <rect id="rect1946" fill="#F1F1F1" x="27" y="55" width="10" height="11" />
+          <rect id="rect1948" fill="#F1F1F1" x="26" y="67" width="12" height="2" />
+          <rect
+            id="rect1950"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="9.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect1952"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="8.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect1954"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect1956"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect1958"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect1960"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect1962"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件2备份-15" transform="translate(2117, 858)">
+          <rect id="rect1965" fill="#16A2BC" x="0" y="0" width="14" height="42" />
+          <rect id="rect1967" fill="#191919" x="0" y="0" width="1" height="42" />
+          <rect id="rect1969" fill="#191919" x="13" y="0" width="1" height="42" />
+          <rect id="rect1971" fill="#99A5AF" x="1" y="0" width="1" height="42" />
+          <rect id="rect1973" fill="#99A5AF" x="12" y="0" width="1" height="42" />
+        </g>
+        <g id="g2020" transform="translate(2105, 840)">
+          <g id="g1990" transform="translate(6, 3)">
+            <mask id="mask-41" fill="white">
+              <use xlink:href="#path-40" id="use1976" />
+            </mask>
+            <g id="g1979" />
+            <polygon
+              id="polygon1981"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-41)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon1983"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-41)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-43" fill="white">
+              <use xlink:href="#path-42" id="use1985" />
+            </mask>
+            <use id="use1988" stroke="#191919" xlink:href="#path-42" />
+          </g>
+          <rect id="rect1992" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect1994" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect1996" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect1998" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect2000" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect2002" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect2004" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect2006" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon2008" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect2010" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect2012" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect2014" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect2016" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect2018" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="g2066"
+          transform="translate(1733.5, 845) scale(-1, -1) translate(-1733.5, -845)translate(1719, 830)"
+        >
+          <g id="g2036" transform="translate(6, 3)">
+            <mask id="mask-45" fill="white">
+              <use xlink:href="#path-44" id="use2022" />
+            </mask>
+            <g id="g2025" />
+            <polygon
+              id="polygon2027"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-45)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon2029"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-45)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-47" fill="white">
+              <use xlink:href="#path-46" id="use2031" />
+            </mask>
+            <use id="use2034" stroke="#191919" xlink:href="#path-46" />
+          </g>
+          <rect id="rect2038" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect2040" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect2042" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect2044" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect2046" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect2048" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect2050" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect2052" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon2054" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect2056" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect2058" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect2060" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect2062" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect2064" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件9"
+          transform="translate(1723, 543) rotate(90) translate(-1723, -543)translate(1700, 526)"
+        >
+          <rect id="rect2068" fill="url(#linearGradient-48)" x="7" y="1" width="32" height="22" />
+          <polygon
+            id="polygon2070"
+            fill="url(#linearGradient-49)"
+            points="14 21 23 12 23 27 14 27"
+          />
+          <polygon
+            id="矩形备份-66"
+            fill="url(#linearGradient-50)"
+            points="23 12 32 21 32 27 23 27"
+          />
+          <rect id="rect2073" fill="url(#linearGradient-51)" x="0" y="0" width="7" height="24" />
+          <rect id="矩形备份-64" fill="#B4B2B3" x="0" y="1" width="1" height="22" />
+          <rect
+            id="矩形备份-67"
+            fill="url(#linearGradient-52)"
+            x="11"
+            y="27"
+            width="24"
+            height="7"
+          />
+          <rect id="矩形备份-70" fill="#B4B2B3" x="12" y="27" width="22" height="1" />
+          <rect id="rect2078" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="矩形备份-61" fill="#191919" x="0" y="23" width="7" height="1" />
+          <rect id="矩形备份-68" fill="#191919" x="11" y="27" width="1" height="7" />
+          <rect id="矩形备份-69" fill="#191919" x="34" y="27" width="1" height="7" />
+          <rect
+            id="矩形备份-60"
+            fill="url(#linearGradient-51)"
+            x="39"
+            y="0"
+            width="7"
+            height="24"
+          />
+          <rect id="矩形备份-65" fill="#B4B2B3" x="39" y="1" width="1" height="22" />
+          <rect id="矩形备份-62" fill="#191919" x="39" y="0" width="7" height="1" />
+          <rect id="矩形备份-63" fill="#191919" x="39" y="23" width="7" height="1" />
+        </g>
+        <g
+          id="g2132"
+          transform="translate(1667.5, 548) scale(-1, 1) translate(-1667.5, -548)translate(1653, 533)"
+        >
+          <g id="g2102" transform="translate(6, 3)">
+            <mask id="mask-54" fill="white">
+              <use xlink:href="#path-53" id="use2088" />
+            </mask>
+            <g id="g2091" />
+            <polygon
+              id="polygon2093"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-54)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon2095"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-54)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-56" fill="white">
+              <use xlink:href="#path-55" id="use2097" />
+            </mask>
+            <use id="use2100" stroke="#191919" xlink:href="#path-55" />
+          </g>
+          <rect id="rect2104" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect2106" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect2108" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect2110" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect2112" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect2114" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect2116" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect2118" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon2120" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect2122" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect2124" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect2126" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect2128" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect2130" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="g2178" transform="translate(1910, 129)">
+          <g id="g2148" transform="translate(6, 3)">
+            <mask id="mask-58" fill="white">
+              <use xlink:href="#path-57" id="use2134" />
+            </mask>
+            <g id="g2137" />
+            <polygon
+              id="polygon2139"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-58)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon2141"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-58)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-60" fill="white">
+              <use xlink:href="#path-59" id="use2143" />
+            </mask>
+            <use id="use2146" stroke="#191919" xlink:href="#path-59" />
+          </g>
+          <rect id="rect2150" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect2152" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect2154" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect2156" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect2158" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect2160" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect2162" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect2164" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon2166" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect2168" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect2170" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect2172" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect2174" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect2176" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="g2224"
+          transform="translate(1667.5, 976) scale(-1, -1) translate(-1667.5, -976)translate(1653, 961)"
+        >
+          <g id="g2194" transform="translate(6, 3)">
+            <mask id="mask-62" fill="white">
+              <use xlink:href="#path-61" id="use2180" />
+            </mask>
+            <g id="g2183" />
+            <polygon
+              id="polygon2185"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-62)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon2187"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-62)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-64" fill="white">
+              <use xlink:href="#path-63" id="use2189" />
+            </mask>
+            <use id="use2192" stroke="#191919" xlink:href="#path-63" />
+          </g>
+          <rect id="rect2196" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect2198" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect2200" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect2202" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect2204" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect2206" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect2208" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect2210" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon2212" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect2214" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect2216" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect2218" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect2220" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect2222" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-17"
+          transform="translate(1733.5, 1129) scale(1, -1) translate(-1733.5, -1129)translate(1719, 1114)"
+        >
+          <g id="g2240" transform="translate(6, 3)">
+            <mask id="mask-66" fill="white">
+              <use xlink:href="#path-65" id="use2226" />
+            </mask>
+            <g id="g2229" />
+            <polygon
+              id="polygon2231"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-66)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon2233"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-66)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-68" fill="white">
+              <use xlink:href="#path-67" id="use2235" />
+            </mask>
+            <use id="use2238" stroke="#191919" xlink:href="#path-67" />
+          </g>
+          <rect id="rect2242" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect2244" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect2246" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect2248" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect2250" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect2252" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect2254" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect2256" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon2258" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect2260" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect2262" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect2264" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect2266" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect2268" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <rect
+          id="rect2271"
+          stroke="#191919"
+          fill="#DADADA"
+          x="1473.5"
+          y="1177.5"
+          width="160"
+          height="41"
+        />
+        <rect
+          id="rect2273"
+          stroke="#191919"
+          fill="#7F7F7F"
+          x="1482.5"
+          y="1182.5"
+          width="11"
+          height="11"
+        />
+        <rect
+          id="矩形备份-123"
+          stroke="#191919"
+          fill="#7F7F7F"
+          x="1518.5"
+          y="1182.5"
+          width="11"
+          height="11"
+        />
+        <rect
+          id="矩形备份-126"
+          stroke="#191919"
+          fill="#7F7F7F"
+          x="1610.5"
+          y="1182.5"
+          width="11"
+          height="11"
+        />
+        <rect
+          id="矩形备份-124"
+          stroke="#191919"
+          fill="#7F7F7F"
+          x="1518.5"
+          y="1202.5"
+          width="11"
+          height="11"
+        />
+        <rect
+          id="矩形备份-127"
+          stroke="#191919"
+          fill="#7F7F7F"
+          x="1610.5"
+          y="1202.5"
+          width="11"
+          height="11"
+        />
+        <rect
+          id="矩形备份-125"
+          stroke="#191919"
+          fill="#7F7F7F"
+          x="1482.5"
+          y="1202.5"
+          width="11"
+          height="11"
+        />
+        <g id="g2290" transform="translate(1654, 1144)">
+          <rect id="rect2280" fill="#16A2BC" x="0" y="0" width="14" height="30" />
+          <rect id="rect2282" fill="#191919" x="0" y="0" width="1" height="30" />
+          <rect id="rect2284" fill="#191919" x="13" y="0" width="1" height="30" />
+          <rect id="rect2286" fill="#99A5AF" x="1" y="0" width="1" height="30" />
+          <rect id="rect2288" fill="#99A5AF" x="12" y="0" width="1" height="30" />
+        </g>
+        <g id="g2318" transform="translate(1505, 975)">
+          <rect
+            id="rect2292"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="45.5"
+            y="100.5"
+            width="33"
+            height="23"
+          />
+          <g
+            id="g2306"
+            transform="translate(122.5, 76.5) rotate(90) translate(-122.5, -76.5)translate(114, 46)"
+          >
+            <rect
+              id="rect2294"
+              stroke="#191919"
+              fill="#B3ACAC"
+              x="12.5"
+              y="0.5"
+              width="4"
+              height="7"
+            />
+            <rect
+              id="rect2296"
+              stroke="#191919"
+              fill="#1000DC"
+              x="3.5"
+              y="0.5"
+              width="8"
+              height="13"
+            />
+            <rect id="rect2298" fill="#191919" x="1" y="14" width="14" height="3" />
+            <rect
+              id="rect2300"
+              stroke="#191919"
+              fill="#B3ACAC"
+              x="6.5"
+              y="15.5"
+              width="3"
+              height="17"
+            />
+            <rect id="rect2302" fill="#191919" x="7" y="32" width="2" height="29" />
+            <circle id="circle2304" stroke="#191919" fill="#B3ACAC" cx="4" cy="5" r="3.5" />
+          </g>
+          <path
+            d="M0,0 L127,0 L127,22 L64,122 L0,22 L0,0 Z"
+            id="path2308"
+            stroke="#191919"
+            fill="#B2B2B2"
+          />
+          <rect
+            id="rect2310"
+            stroke="#191919"
+            fill="#808080"
+            x="48.5"
+            y="0.5"
+            width="31"
+            height="115"
+          />
+          <rect id="rect2312" fill="#191919" x="51" y="119" width="25" height="5" />
+          <rect
+            id="rect2314"
+            stroke="#191919"
+            fill="#9FA29D"
+            x="51.5"
+            y="116.5"
+            width="22"
+            height="4"
+          />
+          <rect id="rect2316" fill="#15FD10" x="49" y="85" width="30" height="30" />
+        </g>
+        <rect id="rect2320" fill="#999999" x="1506" y="976" width="124" height="18" />
+        <rect
+          id="rect2322"
+          stroke="#191919"
+          fill="url(#linearGradient-69)"
+          x="1584.5"
+          y="1126.5"
+          width="60"
+          height="18"
+        />
+        <g
+          id="编组-12"
+          transform="translate(1668, 1127.5) rotate(90) translate(-1668, -1127.5)translate(1646, 1097)"
+        >
+          <rect
+            id="rect2324"
+            stroke="#191919"
+            fill="url(#linearGradient-70)"
+            x="20.5"
+            y="21.5"
+            width="19"
+            height="31"
+          />
+          <rect id="rect2326" fill="#191919" x="28" y="21" width="4" height="3" />
+          <rect id="矩形备份-102" fill="#191919" x="28" y="50" width="4" height="3" />
+          <path
+            d="M16,27.5 C18.8994949,27.5 21.5244949,28.6752525 23.4246212,30.5753788 C25.3247475,32.4755051 26.5,35.1005051 26.5,38 C26.5,40.8994949 25.3247475,43.5244949 23.4246212,45.4246212 C21.5244949,47.3247475 18.8994949,48.5 16,48.5 L3.5,48.5 L3.5,27.5 Z"
+            id="path2329"
+            stroke="#191919"
+            fill="url(#linearGradient-71)"
+          />
+          <rect
+            id="rect2331"
+            stroke="#191919"
+            fill="url(#linearGradient-72)"
+            x="6.5"
+            y="24.5"
+            width="5"
+            height="27"
+          />
+          <rect
+            id="矩形备份-101"
+            stroke="#191919"
+            fill="#BCB6BA"
+            x="0.5"
+            y="0.5"
+            width="3"
+            height="33"
+          />
+          <rect id="rect2334" fill="#191919" x="0" y="36" width="3" height="6" />
+          <rect
+            id="rect2336"
+            stroke="#191919"
+            fill="url(#linearGradient-73)"
+            x="16.5"
+            y="17.5"
+            width="27"
+            height="4"
+          />
+          <rect
+            id="矩形备份-95"
+            stroke="#191919"
+            fill="url(#linearGradient-73)"
+            x="16.5"
+            y="52.5"
+            width="27"
+            height="4"
+          />
+          <rect
+            id="rect2339"
+            stroke="#191919"
+            fill="#C2C4C3"
+            x="16.5"
+            y="15.5"
+            width="6"
+            height="2"
+          />
+          <rect
+            id="矩形备份-97"
+            stroke="#191919"
+            fill="#C2C4C3"
+            x="16.5"
+            y="56.5"
+            width="6"
+            height="2"
+          />
+          <rect
+            id="rect2342"
+            stroke="#191919"
+            fill="#C2C4C3"
+            x="37.5"
+            y="15.5"
+            width="6"
+            height="2"
+          />
+          <rect
+            id="矩形备份-98"
+            stroke="#191919"
+            fill="#C2C4C3"
+            x="37.5"
+            y="56.5"
+            width="6"
+            height="2"
+          />
+          <rect id="rect2345" fill="#191919" x="39" y="13" width="4" height="3" />
+          <rect id="矩形备份-99" fill="#191919" x="39" y="58" width="4" height="3" />
+          <rect id="rect2348" fill="#191919" x="17" y="13" width="4" height="3" />
+          <rect id="矩形备份-100" fill="#191919" x="17" y="58" width="4" height="3" />
+        </g>
+        <g id="编组-18" transform="translate(1471, 1099)">
+          <rect
+            id="rect2352"
+            stroke="#191919"
+            fill="#003B00"
+            x="92.5"
+            y="0.5"
+            width="11"
+            height="67"
+          />
+          <rect id="rect2354" fill="#538A4E" x="93" y="1" width="2" height="66" />
+          <rect id="rect2356" fill="#191919" x="86" y="70" width="18" height="3" />
+          <rect id="rect2358" fill="#191919" x="96" y="68" width="3" height="2" />
+          <rect
+            id="rect2360"
+            stroke="#191919"
+            fill="#003B00"
+            x="103.5"
+            y="9.5"
+            width="2"
+            height="55"
+          />
+          <rect
+            id="rect2362"
+            stroke="#191919"
+            fill="#003B00"
+            x="105.5"
+            y="20.5"
+            width="1"
+            height="33"
+          />
+          <rect
+            id="rect2364"
+            stroke="#191919"
+            fill="#003B00"
+            x="109.5"
+            y="24.5"
+            width="4"
+            height="25"
+          />
+          <rect
+            id="rect2366"
+            stroke="#191919"
+            fill="#003B00"
+            x="107.5"
+            y="28.5"
+            width="2"
+            height="17"
+          />
+          <rect
+            id="rect2368"
+            stroke="#191919"
+            fill="#003B00"
+            x="83.5"
+            y="20.5"
+            width="8"
+            height="31"
+          />
+          <rect
+            id="rect2370"
+            stroke="#191919"
+            fill="#003B00"
+            x="86.5"
+            y="11.5"
+            width="5"
+            height="53"
+          />
+          <rect
+            id="rect2372"
+            stroke="#191919"
+            fill="#003B00"
+            x="78.5"
+            y="16.5"
+            width="4"
+            height="41"
+          />
+          <path
+            d="M77.5,13.5 L77.5,57.5 L16.5,57.5 L16.5,60.5 L5.5,60.5 L5.5,13.5 L77.5,13.5 Z"
+            id="path2374"
+            stroke="#191919"
+            fill="#003B00"
+          />
+          <rect
+            id="rect2376"
+            stroke="#191919"
+            fill="#003B00"
+            x="2.5"
+            y="16.5"
+            width="2"
+            height="41"
+          />
+          <rect
+            id="rect2378"
+            stroke="#191919"
+            fill="#003B00"
+            x="0.5"
+            y="24.5"
+            width="1"
+            height="21"
+          />
+          <rect id="rect2380" fill="#538A4E" x="17" y="16" width="51" height="2" />
+          <rect id="rect2382" fill="#538A4E" x="17" y="20" width="53" height="2" />
+          <rect id="rect2384" stroke="#191919" x="17.5" y="26.5" width="52" height="21" />
+          <rect id="rect2386" stroke="#191919" x="17.5" y="50.5" width="52" height="5" />
+          <rect
+            id="rect2388"
+            stroke="#191919"
+            fill="#538A4E"
+            x="22.5"
+            y="30.5"
+            width="41"
+            height="15"
+          />
+          <rect
+            id="rect2390"
+            stroke="#191919"
+            fill="#003B00"
+            x="29.5"
+            y="33.5"
+            width="26"
+            height="10"
+          />
+          <rect id="rect2392" fill="#191919" x="19" y="58" width="3" height="12" />
+          <rect id="矩形备份-122" fill="#191919" x="64" y="58" width="3" height="12" />
+          <rect id="rect2395" fill="#191919" x="17" y="70" width="53" height="3" />
+        </g>
+        <g id="g2416" transform="translate(1599, 1076)">
+          <path
+            d="M20.5,29.5 L20.5,50.5 L25.5,50.5 L25.5,58.5 L5.5,58.5 L5.5,50.5 L10.5,50.5 L10.5,29.5 L20.5,29.5 Z"
+            id="path2398"
+            stroke="#191919"
+            fill="#93CE96"
+          />
+          <circle id="circle2400" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="15" />
+          <rect id="rect2402" fill="#191919" x="14" y="30" width="3" height="2" />
+          <circle id="circle2404" stroke="#191919" fill="#E3F3E3" cx="15.5" cy="15.5" r="12" />
+          <circle id="circle2406" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="2" />
+          <rect id="rect2408" fill="#191919" x="24" y="15" width="4" height="1" />
+          <rect id="rect2410" fill="#191919" x="4" y="15" width="4" height="1" />
+          <rect id="rect2412" fill="#191919" x="15" y="24" width="1" height="4" />
+          <rect id="rect2414" fill="#191919" x="10" y="42" width="11" height="1" />
+        </g>
+        <g id="编组-16" transform="translate(1452, 568)">
+          <rect
+            id="rect2418"
+            stroke="#191919"
+            fill="url(#linearGradient-74)"
+            x="10.5"
+            y="0.5"
+            width="5"
+            height="5"
+          />
+          <rect
+            id="rect2420"
+            stroke="#191919"
+            fill="#191919"
+            x="4.5"
+            y="6.5"
+            width="17"
+            height="2"
+          />
+          <path
+            d="M20.5,9.5 L20.5,11.5 L22.5,11.5 L22.5,32.5 L3.5,32.5 L3.5,11.5 L5.5,11.5 L5.5,9.5 L20.5,9.5 Z"
+            id="path2422"
+            stroke="#191919"
+            fill="url(#linearGradient-75)"
+          />
+          <rect id="rect2424" fill="#191919" x="12" y="13" width="2" height="19" />
+          <rect id="rect2426" fill="#191919" x="4" y="16" width="6" height="2" />
+          <rect id="rect2428" fill="#191919" x="8" y="16" width="2" height="17" />
+          <rect id="rect2430" fill="#191919" x="4" y="28" width="4" height="4" />
+          <rect
+            id="rect2432"
+            stroke="#191919"
+            fill="url(#linearGradient-76)"
+            x="0.5"
+            y="32.5"
+            width="23"
+            height="4"
+          />
+          <rect
+            id="rect2434"
+            stroke="#191919"
+            fill="url(#linearGradient-77)"
+            x="3.5"
+            y="36.5"
+            width="19"
+            height="7"
+          />
+          <rect id="rect2436" fill="#191919" x="0" y="12" width="2" height="7" />
+          <rect id="rect2438" fill="#191919" x="1" y="15" width="2" height="13" />
+        </g>
+        <g
+          id="编组-16备份"
+          transform="translate(1570, 585) rotate(90) translate(-1570, -585)translate(1558, 563)"
+        >
+          <rect
+            id="rect2441"
+            stroke="#191919"
+            fill="url(#linearGradient-74)"
+            x="10.5"
+            y="0.5"
+            width="5"
+            height="5"
+          />
+          <rect
+            id="rect2443"
+            stroke="#191919"
+            fill="#191919"
+            x="4.5"
+            y="6.5"
+            width="17"
+            height="2"
+          />
+          <path
+            d="M20.5,9.5 L20.5,11.5 L22.5,11.5 L22.5,32.5 L3.5,32.5 L3.5,11.5 L5.5,11.5 L5.5,9.5 L20.5,9.5 Z"
+            id="path2445"
+            stroke="#191919"
+            fill="url(#linearGradient-75)"
+          />
+          <rect id="rect2447" fill="#191919" x="12" y="13" width="2" height="19" />
+          <rect id="rect2449" fill="#191919" x="4" y="16" width="6" height="2" />
+          <rect id="rect2451" fill="#191919" x="8" y="16" width="2" height="17" />
+          <rect id="rect2453" fill="#191919" x="4" y="28" width="4" height="4" />
+          <rect
+            id="rect2455"
+            stroke="#191919"
+            fill="url(#linearGradient-76)"
+            x="0.5"
+            y="32.5"
+            width="23"
+            height="4"
+          />
+          <rect
+            id="rect2457"
+            stroke="#191919"
+            fill="url(#linearGradient-77)"
+            x="3.5"
+            y="36.5"
+            width="19"
+            height="7"
+          />
+          <rect id="rect2459" fill="#191919" x="0" y="12" width="2" height="7" />
+          <rect id="rect2461" fill="#191919" x="1" y="15" width="2" height="13" />
+        </g>
+        <g id="g2476" transform="translate(1348, 909)">
+          <rect id="rect2464" fill="#16A2BC" x="2" y="0" width="56" height="14" />
+          <rect id="rect2466" fill="#191919" x="2" y="0" width="56" height="1" />
+          <rect id="rect2468" fill="#99A5AF" x="2" y="1" width="56" height="1" />
+          <rect id="rect2470" fill="#99A5AF" x="2" y="12" width="56" height="1" />
+          <rect id="rect2472" fill="#191919" x="2" y="13" width="56" height="1" />
+          <path
+            d="M14,4 L14,6 L26,6 L26,8 L14,8 L14,10 L12,10 L12,8 L0,8 L0,6 L12,6 L12,4 L14,4 Z"
+            id="path2474"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="g2490" transform="translate(1430, 544)">
+          <rect id="rect2478" fill="#16A2BC" x="2" y="0" width="21" height="14" />
+          <rect id="rect2480" fill="#191919" x="2" y="0" width="21" height="1" />
+          <rect id="rect2482" fill="#99A5AF" x="2" y="1" width="21" height="1" />
+          <rect id="rect2484" fill="#99A5AF" x="2" y="12" width="21" height="1" />
+          <rect id="rect2486" fill="#191919" x="2" y="13" width="21" height="1" />
+          <path
+            d="M14,4 L14,6 L21,6 L21,8 L14,8 L14,10 L12,10 L12,8 L0,8 L0,6 L12,6 L12,4 L14,4 Z"
+            id="path2488"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="g2504" transform="translate(1340, 876)">
+          <rect
+            id="rect2492"
+            stroke="#191919"
+            fill="#B3ACAC"
+            x="12.5"
+            y="0.5"
+            width="4"
+            height="7"
+          />
+          <rect
+            id="rect2494"
+            stroke="#191919"
+            fill="#1000DC"
+            x="3.5"
+            y="0.5"
+            width="8"
+            height="13"
+          />
+          <rect id="rect2496" fill="#191919" x="1" y="14" width="14" height="3" />
+          <rect
+            id="rect2498"
+            stroke="#191919"
+            fill="#B3ACAC"
+            x="6.5"
+            y="15.5"
+            width="3"
+            height="17"
+          />
+          <rect id="rect2500" fill="#191919" x="7" y="32" width="2" height="29" />
+          <circle id="circle2502" stroke="#191919" fill="#B3ACAC" cx="4" cy="5" r="3.5" />
+        </g>
+        <g id="g2625" transform="translate(1040, 855)">
+          <rect
+            id="rect2506"
+            stroke="#191919"
+            fill="#CBCBCB"
+            x="69.5"
+            y="50.5"
+            width="32"
+            height="23"
+          />
+          <rect
+            id="rect2508"
+            stroke="#191919"
+            fill="url(#linearGradient-78)"
+            x="9.5"
+            y="42.5"
+            width="51"
+            height="45"
+          />
+          <path
+            d="M60.5,46.9342585 L65.5,50.2675919 L65.5,79.7324081 L60.5,83.0657415 L60.5,46.9342585 Z"
+            id="path2510"
+            stroke="#191919"
+            fill="url(#linearGradient-79)"
+          />
+          <rect
+            id="rect2512"
+            stroke="#191919"
+            fill="url(#linearGradient-80)"
+            x="3.5"
+            y="44.5"
+            width="6"
+            height="41"
+          />
+          <rect
+            id="rect2514"
+            stroke="#191919"
+            fill="#191919"
+            x="65.5"
+            y="50.5"
+            width="4"
+            height="29"
+          />
+          <rect
+            id="rect2516"
+            stroke="#191919"
+            fill="url(#linearGradient-81)"
+            x="0.5"
+            y="46.5"
+            width="3"
+            height="37"
+          />
+          <rect id="rect2518" fill="#191919" x="16" y="48" width="41" height="2" />
+          <rect id="rect2520" fill="#191919" x="16" y="52" width="41" height="2" />
+          <rect id="rect2522" fill="#191919" x="16" y="56" width="41" height="3" />
+          <rect id="rect2524" fill="#191919" x="16" y="60" width="41" height="2" />
+          <rect id="rect2526" fill="#191919" x="16" y="63" width="41" height="2" />
+          <rect
+            id="rect2528"
+            stroke="#191919"
+            fill="#CBCBCB"
+            x="96.5"
+            y="48.5"
+            width="30"
+            height="27"
+          />
+          <rect id="rect2530" fill="#191919" x="16" y="88" width="38" height="2" />
+          <rect
+            id="rect2532"
+            stroke="#191919"
+            fill="#68B063"
+            x="20.5"
+            y="70.5"
+            width="18"
+            height="21"
+          />
+          <rect id="rect2534" fill="#FFFFFF" x="22" y="73" width="15" height="2" />
+          <rect id="rect2536" fill="#FFFFFF" x="22" y="75" width="2" height="15" />
+          <rect
+            id="rect2538"
+            stroke="#191919"
+            fill="#4B4B4B"
+            x="100.5"
+            y="53.5"
+            width="18"
+            height="18"
+          />
+          <rect id="rect2540" fill="#D3D3D3" x="101" y="54" width="4" height="5" />
+          <rect id="rect2542" fill="#D3D3D3" x="105" y="54" width="3" height="3" />
+          <rect id="rect2544" fill="#D3D3D3" x="101" y="61" width="4" height="4" />
+          <rect id="rect2546" fill="#D3D3D3" x="101" y="67" width="3" height="2" />
+          <rect id="rect2548" fill="#D3D3D3" x="101" y="69" width="6" height="2" />
+          <rect
+            id="rect2550"
+            stroke="#191919"
+            fill="#4B4B4B"
+            x="105.5"
+            y="57.5"
+            width="2"
+            height="11"
+          />
+          <rect
+            id="rect2552"
+            stroke="#191919"
+            fill="#CBCBCB"
+            x="69.5"
+            y="63.5"
+            width="4"
+            height="20"
+          />
+          <path
+            d="M86.25,72.5 L81.6666667,83.5 L73.5,83.5 L73.5,72.5 L86.25,72.5 Z"
+            id="path2554"
+            stroke="#191919"
+            fill="#7E807F"
+          />
+          <rect id="rect2556" fill="#191919" x="121" y="49" width="2" height="26" />
+          <rect
+            id="rect2558"
+            stroke="#191919"
+            fill="#CBCBCB"
+            x="106.5"
+            y="76.5"
+            width="13"
+            height="7"
+          />
+          <path
+            d="M115.5,76.5 L115.5,83.5 L106.3465,83.5 L103.7215,76.5 L115.5,76.5 Z"
+            id="path2560"
+            stroke="#191919"
+            fill="#7E807F"
+          />
+          <path
+            d="M171.5,51.5 L171.5,72.5 L145.5,72.5 L145.5,71.5 L131.5,71.5 L131.5,69.5 L126.5,69.5 L126.5,54.5 L131.5,54.5 L131.5,52.5 L145.5,52.5 L145.5,51.5 L171.5,51.5 Z"
+            id="path2562"
+            stroke="#191919"
+            fill="url(#linearGradient-11)"
+          />
+          <rect
+            id="rect2564"
+            stroke="#191919"
+            fill="#9A9A9A"
+            x="171.5"
+            y="51.5"
+            width="22"
+            height="21"
+          />
+          <rect id="rect2566" fill="#FFFFFF" x="172" y="52" width="21" height="1" />
+          <rect id="rect2568" fill="#191919" x="172" y="53" width="3" height="3" />
+          <rect id="rect2570" fill="#191919" x="172" y="69" width="3" height="3" />
+          <rect id="rect2572" fill="#191919" x="181" y="53" width="2" height="3" />
+          <rect id="rect2574" fill="#191919" x="181" y="69" width="2" height="3" />
+          <rect id="rect2576" fill="#191919" x="189" y="53" width="3" height="3" />
+          <rect id="rect2578" fill="#191919" x="189" y="69" width="3" height="3" />
+          <rect id="rect2580" fill="#FFFFFF" x="192" y="53" width="1" height="19" />
+          <path
+            d="M162.5,44.5 L162.5,54.7151022 C159.333381,56.5680413 156.167645,57.5 153,57.5 C149.832355,57.5 146.666619,56.5680413 143.5,54.7151022 L143.5,44.5 L162.5,44.5 Z"
+            id="path2582"
+            stroke="#191919"
+            fill="url(#linearGradient-12)"
+          />
+          <circle id="circle2584" stroke="#858585" cx="153" cy="61" r="2.5" />
+          <rect
+            id="rect2586"
+            stroke="#191919"
+            fill="url(#linearGradient-13)"
+            x="132.5"
+            y="42.5"
+            width="41"
+            height="2"
+          />
+          <rect
+            id="rect2588"
+            stroke="#191919"
+            fill="url(#linearGradient-72)"
+            x="193.5"
+            y="48.5"
+            width="5"
+            height="27"
+          />
+          <rect
+            id="rect2590"
+            stroke="#191919"
+            fill="#7E807F"
+            x="233.5"
+            y="47.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="矩形备份-117"
+            stroke="#191919"
+            fill="#7E807F"
+            x="237.5"
+            y="47.5"
+            width="4"
+            height="5"
+          />
+          <path
+            d="M201.5,48.5 L201.5,52.5 L251.5,52.5 L251.5,71.5 L201.5,71.5 L201.5,75.5 L198.5,75.5 L198.5,48.5 L201.5,48.5 Z"
+            id="path2593"
+            stroke="#191919"
+            fill="url(#linearGradient-82)"
+          />
+          <g id="g2613" transform="translate(213, 0)">
+            <path
+              d="M20.5,29.5 L20.5,50.5 L25.5,50.5 L25.5,58.5 L5.5,58.5 L5.5,50.5 L10.5,50.5 L10.5,29.5 L20.5,29.5 Z"
+              id="path2595"
+              stroke="#191919"
+              fill="#93CE96"
+            />
+            <circle id="circle2597" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="15" />
+            <rect id="rect2599" fill="#191919" x="14" y="30" width="3" height="2" />
+            <circle id="circle2601" stroke="#191919" fill="#E3F3E3" cx="15.5" cy="15.5" r="12" />
+            <circle id="circle2603" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="2" />
+            <rect id="rect2605" fill="#191919" x="24" y="15" width="4" height="1" />
+            <rect id="rect2607" fill="#191919" x="4" y="15" width="4" height="1" />
+            <rect id="rect2609" fill="#191919" x="15" y="24" width="1" height="4" />
+            <rect id="rect2611" fill="#191919" x="10" y="42" width="11" height="1" />
+          </g>
+          <rect id="rect2615" fill="#191919" x="211" y="50" width="8" height="2" />
+          <rect
+            id="rect2617"
+            stroke="#191919"
+            fill="#7E807F"
+            x="211.5"
+            y="71.5"
+            width="13"
+            height="11"
+          />
+          <rect id="rect2619" fill="#191919" x="211" y="78" width="13" height="1" />
+          <rect
+            id="rect2621"
+            stroke="#191919"
+            fill="#7E807F"
+            x="234.5"
+            y="72.5"
+            width="8"
+            height="3"
+          />
+          <rect id="rect2623" fill="#191919" x="236" y="72" width="2" height="3" />
+        </g>
+        <g id="g2749" transform="translate(1818, 256)">
+          <rect
+            id="rect2627"
+            stroke="#191919"
+            fill="#CBCBCB"
+            x="69.5"
+            y="42.5"
+            width="32"
+            height="23"
+          />
+          <rect
+            id="rect2629"
+            stroke="#191919"
+            fill="url(#linearGradient-78)"
+            x="9.5"
+            y="34.5"
+            width="51"
+            height="45"
+          />
+          <path
+            d="M60.5,38.9342585 L65.5,42.2675919 L65.5,71.7324081 L60.5,75.0657415 L60.5,38.9342585 Z"
+            id="path2631"
+            stroke="#191919"
+            fill="url(#linearGradient-79)"
+          />
+          <rect
+            id="rect2633"
+            stroke="#191919"
+            fill="url(#linearGradient-80)"
+            x="3.5"
+            y="36.5"
+            width="6"
+            height="41"
+          />
+          <rect
+            id="rect2635"
+            stroke="#191919"
+            fill="#191919"
+            x="65.5"
+            y="42.5"
+            width="4"
+            height="29"
+          />
+          <rect
+            id="rect2637"
+            stroke="#191919"
+            fill="url(#linearGradient-81)"
+            x="0.5"
+            y="38.5"
+            width="3"
+            height="37"
+          />
+          <rect id="rect2639" fill="#191919" x="16" y="40" width="41" height="2" />
+          <rect id="rect2641" fill="#191919" x="16" y="44" width="41" height="2" />
+          <rect id="rect2643" fill="#191919" x="16" y="48" width="41" height="3" />
+          <rect id="rect2645" fill="#191919" x="16" y="52" width="41" height="2" />
+          <rect id="rect2647" fill="#191919" x="16" y="55" width="41" height="2" />
+          <rect
+            id="rect2649"
+            stroke="#191919"
+            fill="#CBCBCB"
+            x="96.5"
+            y="40.5"
+            width="30"
+            height="27"
+          />
+          <rect id="rect2651" fill="#191919" x="16" y="80" width="38" height="2" />
+          <rect
+            id="rect2653"
+            stroke="#191919"
+            fill="#68B063"
+            x="20.5"
+            y="62.5"
+            width="18"
+            height="21"
+          />
+          <rect id="rect2655" fill="#FFFFFF" x="22" y="65" width="15" height="2" />
+          <rect id="rect2657" fill="#FFFFFF" x="22" y="67" width="2" height="15" />
+          <rect
+            id="rect2659"
+            stroke="#191919"
+            fill="#4B4B4B"
+            x="100.5"
+            y="45.5"
+            width="18"
+            height="18"
+          />
+          <rect id="rect2661" fill="#D3D3D3" x="101" y="46" width="4" height="5" />
+          <rect id="rect2663" fill="#D3D3D3" x="105" y="46" width="3" height="3" />
+          <rect id="rect2665" fill="#D3D3D3" x="101" y="53" width="4" height="4" />
+          <rect id="rect2667" fill="#D3D3D3" x="101" y="59" width="3" height="2" />
+          <rect id="rect2669" fill="#D3D3D3" x="101" y="61" width="6" height="2" />
+          <rect
+            id="rect2671"
+            stroke="#191919"
+            fill="#4B4B4B"
+            x="105.5"
+            y="49.5"
+            width="2"
+            height="11"
+          />
+          <rect
+            id="rect2673"
+            stroke="#191919"
+            fill="#CBCBCB"
+            x="69.5"
+            y="55.5"
+            width="4"
+            height="20"
+          />
+          <path
+            d="M86.25,64.5 L81.6666667,75.5 L73.5,75.5 L73.5,64.5 L86.25,64.5 Z"
+            id="path2675"
+            stroke="#191919"
+            fill="#7E807F"
+          />
+          <rect id="rect2677" fill="#191919" x="121" y="41" width="2" height="26" />
+          <rect
+            id="rect2679"
+            stroke="#191919"
+            fill="#CBCBCB"
+            x="106.5"
+            y="68.5"
+            width="13"
+            height="7"
+          />
+          <path
+            d="M115.5,68.5 L115.5,75.5 L106.3465,75.5 L103.7215,68.5 L115.5,68.5 Z"
+            id="path2681"
+            stroke="#191919"
+            fill="#7E807F"
+          />
+          <path
+            d="M171.5,43.5 L171.5,64.5 L145.5,64.5 L145.5,63.5 L131.5,63.5 L131.5,61.5 L126.5,61.5 L126.5,46.5 L131.5,46.5 L131.5,44.5 L145.5,44.5 L145.5,43.5 L171.5,43.5 Z"
+            id="path2683"
+            stroke="#191919"
+            fill="url(#linearGradient-11)"
+          />
+          <rect
+            id="rect2685"
+            stroke="#191919"
+            fill="#9A9A9A"
+            x="171.5"
+            y="43.5"
+            width="22"
+            height="21"
+          />
+          <rect id="rect2687" fill="#FFFFFF" x="172" y="44" width="21" height="1" />
+          <rect id="rect2689" fill="#191919" x="172" y="45" width="3" height="3" />
+          <rect id="rect2691" fill="#191919" x="172" y="61" width="3" height="3" />
+          <rect id="rect2693" fill="#191919" x="181" y="45" width="2" height="3" />
+          <rect id="rect2695" fill="#191919" x="181" y="61" width="2" height="3" />
+          <rect id="rect2697" fill="#191919" x="189" y="45" width="3" height="3" />
+          <rect id="rect2699" fill="#191919" x="189" y="61" width="3" height="3" />
+          <rect id="rect2701" fill="#FFFFFF" x="192" y="45" width="1" height="19" />
+          <path
+            d="M162.5,36.5 L162.5,46.7151022 C159.333381,48.5680413 156.167645,49.5 153,49.5 C149.832355,49.5 146.666619,48.5680413 143.5,46.7151022 L143.5,36.5 L162.5,36.5 Z"
+            id="path2703"
+            stroke="#191919"
+            fill="url(#linearGradient-12)"
+          />
+          <circle id="circle2705" stroke="#858585" cx="153" cy="53" r="2.5" />
+          <rect
+            id="rect2707"
+            stroke="#191919"
+            fill="url(#linearGradient-13)"
+            x="132.5"
+            y="34.5"
+            width="41"
+            height="2"
+          />
+          <g id="g2727" transform="translate(218, 0)">
+            <path
+              d="M20.5,29.5 L20.5,50.5 L25.5,50.5 L25.5,58.5 L5.5,58.5 L5.5,50.5 L10.5,50.5 L10.5,29.5 L20.5,29.5 Z"
+              id="path2709"
+              stroke="#191919"
+              fill="#93CE96"
+            />
+            <circle id="circle2711" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="15" />
+            <rect id="rect2713" fill="#191919" x="14" y="30" width="3" height="2" />
+            <circle id="circle2715" stroke="#191919" fill="#E3F3E3" cx="15.5" cy="15.5" r="12" />
+            <circle id="circle2717" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="2" />
+            <rect id="rect2719" fill="#191919" x="24" y="15" width="4" height="1" />
+            <rect id="rect2721" fill="#191919" x="4" y="15" width="4" height="1" />
+            <rect id="rect2723" fill="#191919" x="15" y="24" width="1" height="4" />
+            <rect id="rect2725" fill="#191919" x="10" y="42" width="11" height="1" />
+          </g>
+          <rect
+            id="rect2729"
+            stroke="#191919"
+            fill="url(#linearGradient-14)"
+            x="193.5"
+            y="40.5"
+            width="4"
+            height="27"
+          />
+          <rect
+            id="rect2731"
+            stroke="#191919"
+            fill="url(#linearGradient-14)"
+            x="197.5"
+            y="40.5"
+            width="4"
+            height="27"
+          />
+          <rect
+            id="rect2733"
+            stroke="#191919"
+            fill="url(#linearGradient-14)"
+            x="228.5"
+            y="40.5"
+            width="4"
+            height="27"
+          />
+          <rect
+            id="rect2735"
+            stroke="#191919"
+            fill="url(#linearGradient-14)"
+            x="232.5"
+            y="40.5"
+            width="4"
+            height="27"
+          />
+          <rect
+            id="rect2737"
+            stroke="#191919"
+            fill="url(#linearGradient-15)"
+            x="236.5"
+            y="43.5"
+            width="35"
+            height="19"
+          />
+          <rect
+            id="rect2739"
+            stroke="#191919"
+            fill="url(#linearGradient-16)"
+            x="201.5"
+            y="45.5"
+            width="8"
+            height="17"
+          />
+          <rect
+            id="rect2741"
+            stroke="#191919"
+            fill="url(#linearGradient-16)"
+            x="220.5"
+            y="45.5"
+            width="8"
+            height="17"
+          />
+          <rect
+            id="rect2743"
+            stroke="#191919"
+            fill="url(#linearGradient-17)"
+            x="209.5"
+            y="44.5"
+            width="11"
+            height="31"
+          />
+          <rect
+            id="rect2745"
+            stroke="#191919"
+            fill="url(#linearGradient-17)"
+            x="209.5"
+            y="42.5"
+            width="11"
+            height="31"
+          />
+          <rect id="rect2747" fill="#191919" x="210" y="42" width="9" height="2" />
+        </g>
+        <g id="g2777" transform="translate(1909, 167)">
+          <rect
+            id="rect2751"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="45.5"
+            y="100.5"
+            width="33"
+            height="23"
+          />
+          <g
+            id="g2765"
+            transform="translate(122.5, 76.5) rotate(90) translate(-122.5, -76.5)translate(114, 46)"
+          >
+            <rect
+              id="rect2753"
+              stroke="#191919"
+              fill="#B3ACAC"
+              x="12.5"
+              y="0.5"
+              width="4"
+              height="7"
+            />
+            <rect
+              id="rect2755"
+              stroke="#191919"
+              fill="#1000DC"
+              x="3.5"
+              y="0.5"
+              width="8"
+              height="13"
+            />
+            <rect id="rect2757" fill="#191919" x="1" y="14" width="14" height="3" />
+            <rect
+              id="rect2759"
+              stroke="#191919"
+              fill="#B3ACAC"
+              x="6.5"
+              y="15.5"
+              width="3"
+              height="17"
+            />
+            <rect id="rect2761" fill="#191919" x="7" y="32" width="2" height="29" />
+            <circle id="circle2763" stroke="#191919" fill="#B3ACAC" cx="4" cy="5" r="3.5" />
+          </g>
+          <path
+            d="M0,0 L127,0 L127,22 L64,122 L0,22 L0,0 Z"
+            id="path2767"
+            stroke="#191919"
+            fill="#B2B2B2"
+          />
+          <rect
+            id="rect2769"
+            stroke="#191919"
+            fill="#808080"
+            x="48.5"
+            y="0.5"
+            width="31"
+            height="115"
+          />
+          <rect id="rect2771" fill="#191919" x="51" y="119" width="25" height="5" />
+          <rect
+            id="rect2773"
+            stroke="#191919"
+            fill="#9FA29D"
+            x="51.5"
+            y="116.5"
+            width="22"
+            height="4"
+          />
+          <rect id="rect2775" fill="#15FD10" x="49" y="85" width="30" height="30" />
+        </g>
+        <g id="g2789" transform="translate(1922, 159)">
+          <rect id="rect2779" fill="#16A2BC" x="0" y="0" width="14" height="30" />
+          <rect id="rect2781" fill="#191919" x="0" y="0" width="1" height="30" />
+          <rect id="rect2783" fill="#191919" x="13" y="0" width="1" height="30" />
+          <rect id="rect2785" fill="#99A5AF" x="1" y="0" width="1" height="30" />
+          <rect id="rect2787" fill="#99A5AF" x="12" y="0" width="1" height="30" />
+        </g>
+        <g id="g2903" transform="translate(2089, 250)">
+          <g id="g2801" transform="translate(59, 49)">
+            <rect id="rect2791" fill="url(#linearGradient-18)" x="0" y="0" width="9" height="20" />
+            <rect id="rect2793" fill="#B4B2B3" x="8" y="1" width="1" height="18" />
+            <rect id="rect2795" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="rect2797" fill="#191919" x="1" y="0" width="8" height="1" />
+            <rect id="rect2799" fill="#191919" x="1" y="19" width="8" height="1" />
+          </g>
+          <g id="g2811" transform="translate(0, 49)">
+            <rect id="rect2803" fill="url(#linearGradient-19)" x="0" y="0" width="13" height="20" />
+            <rect id="rect2805" fill="#191919" x="12" y="2" width="1" height="17" />
+            <rect id="rect2807" fill="#191919" x="0" y="0" width="12" height="1" />
+            <rect id="rect2809" fill="#191919" x="0" y="19" width="12" height="1" />
+          </g>
+          <rect id="rect2813" fill="#191919" x="27" y="19" width="19" height="17" />
+          <rect
+            id="rect2815"
+            stroke="#191919"
+            fill="#02C90F"
+            x="29.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect2817" fill="#191919" x="24" y="26" width="24" height="8" />
+          <rect id="rect2819" fill="#02C90F" x="25" y="28" width="1" height="3" />
+          <rect id="rect2821" fill="#02C90F" x="30" y="28" width="4" height="4" />
+          <rect id="rect2823" fill="#02C90F" x="36" y="28" width="8" height="5" />
+          <rect id="rect2825" fill="#191919" x="15" y="21" width="13" height="3" />
+          <rect id="rect2827" fill="#191919" x="15" y="10" width="10" height="2" />
+          <rect
+            id="rect2829"
+            stroke="#191919"
+            fill="#02C90F"
+            x="12.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle2831" stroke="#191919" fill="#02C90F" cx="15" cy="23" r="2.5" />
+          <circle id="circle2833" stroke="#191919" fill="#02C90F" cx="14" cy="11" r="1.5" />
+          <rect id="rect2835" fill="#191919" x="21" y="4" width="30" height="20" />
+          <rect id="rect2837" fill="#02C90F" x="46" y="28" width="1" height="3" />
+          <rect id="rect2839" fill="#02C90F" x="31" y="21" width="12" height="3" />
+          <rect
+            id="rect2841"
+            stroke="#191919"
+            fill="#02C90F"
+            x="21.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M30.5,4 L30.5,2 C30.5,0.8954305 31.3954305,2.02906125e-16 32.5,0 L38.5,0 C40.1568542,-3.04359188e-16 41.5,1.34314575 41.5,3 L41.5,4 L41.5,4 L30.5,4 Z"
+            id="path2843"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="polyline2845" stroke="#191919" points="31 2 31 -9.10729825e-18 36 0" />
+          <path
+            d="M38,0 L39,0 C40.1045695,-2.02906125e-16 41,0.8954305 41,2 L41,2 L41,2"
+            id="path2847"
+            stroke="#191919"
+          />
+          <path
+            d="M30,2 L30,3 C30,3.55228475 30.4477153,4 31,4 L41,4 C41.5522847,4 42,3.55228475 42,3 L42,2 L42,2"
+            id="path2849"
+            stroke="#191919"
+          />
+          <rect
+            id="rect2851"
+            stroke="#191919"
+            fill="#02C90F"
+            x="32.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect2853" fill="#02C90F" x="22" y="14" width="28" height="2" />
+          <rect id="rect2855" fill="#02C90F" x="22" y="17" width="28" height="2" />
+          <rect id="rect2857" fill="#191919" x="51" y="12" width="3" height="7" />
+          <rect
+            id="rect2859"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="39.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect2861"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle2863" stroke="#191919" fill="#02C90F" cx="45.5" cy="13.5" r="3" />
+          <rect
+            id="rect2865"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect2867"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="13.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect2869"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="12.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect2871"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="17.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect2873"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="43.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect2875" fill="#000000" x="30" y="45" width="13" height="25" />
+          <rect id="rect2877" fill="#191919" x="29" y="45" width="14" height="4" />
+          <rect
+            id="rect2879"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="31.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect2881" fill="#191919" x="32" y="44" width="7" height="1" />
+          <rect id="rect2883" fill="url(#linearGradient-27)" x="30" y="49" width="12" height="4" />
+          <rect id="rect2885" fill="url(#linearGradient-28)" x="31" y="55" width="10" height="11" />
+          <rect id="rect2887" fill="url(#linearGradient-29)" x="30" y="67" width="12" height="2" />
+          <rect
+            id="rect2889"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="13.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect2891"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect2893"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect2895"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="55.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect2897"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="55.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect2899"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="55.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect2901"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="g2917" transform="translate(2154, 250)">
+          <rect
+            id="rect2905"
+            stroke="#191919"
+            fill="#B3ACAC"
+            x="12.5"
+            y="0.5"
+            width="4"
+            height="7"
+          />
+          <rect
+            id="rect2907"
+            stroke="#191919"
+            fill="#1000DC"
+            x="3.5"
+            y="0.5"
+            width="8"
+            height="13"
+          />
+          <rect id="rect2909" fill="#191919" x="1" y="14" width="14" height="3" />
+          <rect
+            id="rect2911"
+            stroke="#191919"
+            fill="#B3ACAC"
+            x="6.5"
+            y="15.5"
+            width="3"
+            height="17"
+          />
+          <rect id="rect2913" fill="#191919" x="7" y="32" width="2" height="29" />
+          <circle id="circle2915" stroke="#191919" fill="#B3ACAC" cx="4" cy="5" r="3.5" />
+        </g>
+        <g id="g2937" transform="translate(2560, 256)">
+          <path
+            d="M20.5,29.5 L20.5,50.5 L25.5,50.5 L25.5,58.5 L5.5,58.5 L5.5,50.5 L10.5,50.5 L10.5,29.5 L20.5,29.5 Z"
+            id="path2919"
+            stroke="#191919"
+            fill="#93CE96"
+          />
+          <circle id="circle2921" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="15" />
+          <rect id="rect2923" fill="#191919" x="14" y="30" width="3" height="2" />
+          <circle id="circle2925" stroke="#191919" fill="#E3F3E3" cx="15.5" cy="15.5" r="12" />
+          <circle id="circle2927" stroke="#191919" fill="#93CE96" cx="15.5" cy="15.5" r="2" />
+          <rect id="rect2929" fill="#191919" x="24" y="15" width="4" height="1" />
+          <rect id="rect2931" fill="#191919" x="4" y="15" width="4" height="1" />
+          <rect id="rect2933" fill="#191919" x="15" y="24" width="1" height="4" />
+          <rect id="rect2935" fill="#191919" x="10" y="42" width="11" height="1" />
+        </g>
+        <g id="g2951" transform="translate(2603, 250)">
+          <rect
+            id="rect2939"
+            stroke="#191919"
+            fill="#B3ACAC"
+            x="12.5"
+            y="0.5"
+            width="4"
+            height="7"
+          />
+          <rect
+            id="rect2941"
+            stroke="#191919"
+            fill="#1000DC"
+            x="3.5"
+            y="0.5"
+            width="8"
+            height="13"
+          />
+          <rect id="rect2943" fill="#191919" x="1" y="14" width="14" height="3" />
+          <rect
+            id="rect2945"
+            stroke="#191919"
+            fill="#B3ACAC"
+            x="6.5"
+            y="15.5"
+            width="3"
+            height="17"
+          />
+          <rect id="rect2947" fill="#191919" x="7" y="32" width="2" height="29" />
+          <circle id="circle2949" stroke="#191919" fill="#B3ACAC" cx="4" cy="5" r="3.5" />
+        </g>
+        <g id="g2967" transform="translate(2156, 302)">
+          <rect id="rect2953" fill="#16A2BC" x="0" y="0" width="473" height="14" />
+          <rect id="rect2955" fill="#191919" x="0" y="0" width="473" height="1" />
+          <rect id="rect2957" fill="#99A5AF" x="0" y="1" width="473" height="1" />
+          <rect id="rect2959" fill="#99A5AF" x="0" y="12" width="473" height="1" />
+          <rect id="rect2961" fill="#191919" x="0" y="13" width="473" height="1" />
+          <path
+            d="M81,4 L81,6 L93,6 L93,8 L81,8 L81,10 L79,10 L79,8 L47,8 L47,6 L79,6 L79,4 L81,4 Z"
+            id="path2963"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M255,4 L255,6 L267,6 L267,8 L255,8 L255,10 L253,10 L253,8 L221,8 L221,6 L253,6 L253,4 L255,4 Z"
+            id="path2965"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="g2983" transform="translate(2628, 248)">
+          <rect id="rect2969" fill="#16A2BC" x="0" y="0" width="14" height="118" />
+          <rect id="rect2971" fill="#191919" x="0" y="0" width="1" height="118" />
+          <rect id="rect2973" fill="#191919" x="13" y="0" width="1" height="118" />
+          <rect id="rect2975" fill="#99A5AF" x="1" y="0" width="1" height="118" />
+          <rect id="rect2977" fill="#99A5AF" x="12" y="0" width="1" height="118" />
+          <rect id="rect2979" fill="#FFFFFF" x="6" y="45" width="2" height="32" />
+          <rect id="rect2981" fill="#FFFFFF" x="4" y="57" width="6" height="2" />
+        </g>
+        <rect
+          id="rect2985"
+          stroke="#191919"
+          fill="url(#linearGradient-31)"
+          x="2429.5"
+          y="299.5"
+          width="126"
+          height="19"
+        />
+        <g id="g3097" transform="translate(1291, 858)">
+          <g id="g2995" transform="translate(53, 48)">
+            <rect id="rect2987" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+            <rect id="rect2989" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="rect2991" fill="#191919" x="0" y="0" width="7" height="1" />
+            <rect id="rect2993" fill="#191919" x="0" y="19" width="7" height="1" />
+          </g>
+          <g id="g3005" transform="translate(0, 49)">
+            <rect id="rect2997" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+            <rect id="rect2999" fill="#191919" x="6" y="2" width="1" height="17" />
+            <rect id="rect3001" fill="#191919" x="0" y="0" width="6.46153846" height="1" />
+            <rect id="rect3003" fill="#191919" x="0" y="19" width="6.46153846" height="1" />
+          </g>
+          <rect id="rect3007" fill="#191919" x="21" y="19" width="19" height="17" />
+          <rect
+            id="rect3009"
+            stroke="#191919"
+            fill="#02C90F"
+            x="23.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect3011" fill="#191919" x="18" y="26" width="24" height="8" />
+          <rect id="rect3013" fill="#02C90F" x="19" y="28" width="1" height="3" />
+          <rect id="rect3015" fill="#02C90F" x="24" y="28" width="4" height="4" />
+          <rect id="rect3017" fill="#02C90F" x="30" y="28" width="8" height="5" />
+          <rect id="rect3019" fill="#191919" x="9" y="21" width="13" height="3" />
+          <rect id="rect3021" fill="#191919" x="9" y="10" width="10" height="2" />
+          <rect
+            id="rect3023"
+            stroke="#191919"
+            fill="#02C90F"
+            x="6.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle3025" stroke="#191919" fill="#02C90F" cx="9" cy="23" r="2.5" />
+          <circle id="circle3027" stroke="#191919" fill="#02C90F" cx="8" cy="11" r="1.5" />
+          <rect id="rect3029" fill="#191919" x="15" y="4" width="30" height="20" />
+          <rect id="rect3031" fill="#02C90F" x="40" y="28" width="1" height="3" />
+          <rect id="rect3033" fill="#02C90F" x="25" y="21" width="12" height="3" />
+          <rect
+            id="rect3035"
+            stroke="#191919"
+            fill="#02C90F"
+            x="15.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M24.5,4 L24.5,2 C24.5,0.8954305 25.3954305,2.02906125e-16 26.5,0 L32.5,0 C34.1568542,-3.04359188e-16 35.5,1.34314575 35.5,3 L35.5,4 L35.5,4 L24.5,4 Z"
+            id="path3037"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="polyline3039" stroke="#191919" points="25 2 25 -9.10729825e-18 30 0" />
+          <path
+            d="M32,0 L33,0 C34.1045695,-2.02906125e-16 35,0.8954305 35,2 L35,2 L35,2"
+            id="path3041"
+            stroke="#191919"
+          />
+          <path
+            d="M24,2 L24,3 C24,3.55228475 24.4477153,4 25,4 L35,4 C35.5522847,4 36,3.55228475 36,3 L36,2 L36,2"
+            id="path3043"
+            stroke="#191919"
+          />
+          <rect
+            id="rect3045"
+            stroke="#191919"
+            fill="#02C90F"
+            x="26.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect3047" fill="#02C90F" x="16" y="14" width="28" height="2" />
+          <rect id="rect3049" fill="#02C90F" x="16" y="17" width="28" height="2" />
+          <rect id="rect3051" fill="#191919" x="45" y="12" width="3" height="7" />
+          <rect
+            id="rect3053"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="33.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect3055"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="21.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle3057" stroke="#191919" fill="#02C90F" cx="39.5" cy="13.5" r="3" />
+          <rect
+            id="rect3059"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="6.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect3061"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="7.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect3063"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="6.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect3065"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="11.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect3067"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="37.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect3069" fill="#000000" x="24" y="45" width="13" height="25" />
+          <rect id="rect3071" fill="#191919" x="23" y="45" width="14" height="4" />
+          <rect
+            id="rect3073"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="25.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect3075" fill="#191919" x="26" y="44" width="7" height="1" />
+          <rect id="rect3077" fill="url(#linearGradient-27)" x="24" y="49" width="12" height="4" />
+          <rect id="rect3079" fill="url(#linearGradient-28)" x="25" y="55" width="10" height="11" />
+          <rect id="rect3081" fill="url(#linearGradient-29)" x="24" y="67" width="12" height="2" />
+          <rect
+            id="rect3083"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="7.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect3085"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="6.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect3087"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="49.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect3089"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="49.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect3091"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="49.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect3093"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="49.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect3095"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="49.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件2备份-16" transform="translate(1417, 789)">
+          <rect id="rect3099" fill="#16A2BC" x="0" y="0" width="14" height="114" />
+          <rect id="rect3101" fill="#191919" x="0" y="0" width="1" height="114" />
+          <rect id="rect3103" fill="#191919" x="13" y="0" width="1" height="114" />
+          <rect id="rect3105" fill="#99A5AF" x="1" y="0" width="1" height="114" />
+          <rect id="rect3107" fill="#99A5AF" x="12" y="0" width="1" height="114" />
+          <rect id="rect3109" fill="#FFFFFF" x="6" y="45" width="2" height="32" />
+          <rect id="rect3111" fill="#FFFFFF" x="4" y="57" width="6" height="2" />
+        </g>
+        <g id="开始初始化" transform="translate(1261, 717)">
+          <rect
+            id="矩形备份-16"
+            stroke="#AAA598"
+            fill="#EDE9D8"
+            x="0.5"
+            y="0.5"
+            width="83"
+            height="38"
+          />
+          <text
+            id="开盖"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="22"
+            font-weight="normal"
+            line-spacing="33"
+            fill="#191919"
+          >
+            <tspan x="20" y="26" id="tspan3115">开盖</tspan>
+          </text>
+        </g>
+        <g id="开始初始化备份" transform="translate(1261, 776)">
+          <rect
+            id="rect3119"
+            stroke="#AAA598"
+            fill="#EDE9D8"
+            x="0.5"
+            y="0.5"
+            width="83"
+            height="38"
+          />
+          <text
+            id="关盖"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="22"
+            font-weight="normal"
+            line-spacing="33"
+            fill="#191919"
+          >
+            <tspan x="20" y="26" id="tspan3121">关盖</tspan>
+          </text>
+        </g>
+        <g id="编组-11" transform="translate(1236, 655)" stroke="#191919">
+          <rect id="rect3125" fill="#075400" x="0.5" y="7.5" width="3" height="10" />
+          <path
+            d="M8,0.5 C10.0710678,0.5 11.9460678,1.33946609 13.3033009,2.69669914 C14.6605339,4.05393219 15.5,5.92893219 15.5,8 C15.5,10.0710678 14.6605339,11.9460678 13.3033009,13.3033009 C11.9460678,14.6605339 10.0710678,15.5 8,15.5 C5.92893219,15.5 4.05393219,14.6605339 2.69669914,13.3033009 C1.33946609,11.9460678 0.5,10.0710678 0.5,8 C0.5,5.92893219 1.33946609,4.05393219 2.69669914,2.69669914 C4.05393219,1.33946609 5.92893219,0.5 8,0.5 Z M8,3.5 C6.75735931,3.5 5.63235931,4.00367966 4.81801948,4.81801948 C4.00367966,5.63235931 3.5,6.75735931 3.5,8 C3.5,9.24264069 4.00367966,10.3676407 4.81801948,11.1819805 C5.63235931,11.9963203 6.75735931,12.5 8,12.5 C9.24264069,12.5 10.3676407,11.9963203 11.1819805,11.1819805 C11.9963203,10.3676407 12.5,9.24264069 12.5,8 C12.5,6.75735931 11.9963203,5.63235931 11.1819805,4.81801948 C10.3676407,4.00367966 9.24264069,3.5 8,3.5 Z"
+            id="path3127"
+            fill="#075400"
+          />
+          <rect id="rect3129" fill="#075400" x="0.5" y="14.5" width="15" height="23" />
+          <path
+            d="M16.5,16.8497572 L24.5,21.2942017 L24.5,37.5 L16.5,37.5 L16.5,16.8497572 Z"
+            id="path3131"
+            fill="#075400"
+          />
+          <rect
+            id="rect3133"
+            fill="url(#linearGradient-83)"
+            x="24.5"
+            y="26.5"
+            width="14"
+            height="8"
+          />
+        </g>
+        <g
+          id="编组-10"
+          transform="translate(1238.7896, 639.3816) rotate(30) translate(-1238.7896, -639.3816)translate(1217.7896, 592.1756)"
+        >
+          <rect
+            id="rect3136"
+            stroke="#191919"
+            fill="#034B08"
+            x="6.5"
+            y="9.5"
+            width="29"
+            height="35"
+          />
+          <g id="g3157" transform="translate(2, 0)">
+            <mask id="mask-85" fill="white">
+              <use xlink:href="#path-84" id="use3138" />
+            </mask>
+            <path
+              stroke="#191919"
+              d="M33.6614835,0.5 L37.2614835,9.5 L0.738516481,9.5 L4.33851648,0.5 L33.6614835,0.5 Z"
+              id="path3141"
+            />
+            <polygon
+              fill="#52A856"
+              mask="url(#mask-85)"
+              points="12 0 26 0 19 86"
+              id="polygon3143"
+            />
+            <rect
+              fill="#191919"
+              mask="url(#mask-85)"
+              x="12"
+              y="9"
+              width="14"
+              height="1"
+              id="rect3145"
+            />
+            <mask id="mask-87" fill="white">
+              <use xlink:href="#path-86" id="use3147" />
+            </mask>
+            <use id="use3150" fill="#034B08" xlink:href="#path-86" />
+            <mask id="mask-89" fill="white">
+              <use xlink:href="#path-88" id="use3152" />
+            </mask>
+            <path
+              stroke="#191919"
+              d="M33.6614835,0.5 L37.2614835,9.5 L0.738516481,9.5 L4.33851648,0.5 L33.6614835,0.5 Z"
+              id="path3155"
+            />
+          </g>
+          <g id="g3173" transform="translate(0, 44)">
+            <mask id="mask-91" fill="white">
+              <use xlink:href="#path-90" id="use3159" />
+            </mask>
+            <path
+              stroke="#191919"
+              d="M41.2361639,0.5 L21,46.8557214 L0.763836134,0.5 L41.2361639,0.5 Z"
+              id="path3162"
+            />
+            <polygon
+              id="polygon3164"
+              fill="#034B08"
+              mask="url(#mask-91)"
+              points="-3.45228211e-13 7.17204074e-14 42 7.17204074e-14 21 48.1054688"
+            />
+            <polygon
+              fill="#52A856"
+              mask="url(#mask-91)"
+              points="14 0 28 0 21 86"
+              id="polygon3166"
+            />
+            <mask id="mask-93" fill="white">
+              <use xlink:href="#path-92" id="use3168" />
+            </mask>
+            <path
+              stroke="#191919"
+              d="M41.2361639,0.5 L21,46.8557214 L0.763836134,0.5 L41.2361639,0.5 Z"
+              id="path3171"
+            />
+          </g>
+          <path
+            d="M27.1067421,83.5 L21,93.4558298 L14.8932579,83.5 L27.1067421,83.5 Z"
+            id="矩形备份-96"
+            stroke="#191919"
+            fill="url(#linearGradient-94)"
+          />
+        </g>
+        <text
+          id="Kg/m"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="2079" y="1184" id="tspan3177">Kg/m</tspan>
+        </text>
+        <text
+          id="Mpa"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1671" y="1065" id="tspan3180">Mpa</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD140"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-8"
+        >
+          <tspan x="1671.2" y="1025" id="tspan3183">24</tspan>
+        </text>
+        <text
+          id="text3188"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="2271" y="961" id="tspan3186">Mpa</tspan>
+        </text>
+        <text
+          id="text3192"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="2078" y="218" id="tspan3190">Mpa</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD88"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-8"
+        >
+          <tspan x="2079.9861" y="180" id="tspan3194">16</tspan>
+        </text>
+        <text
+          id="℃"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1357" y="996" id="tspan3197">℃</tspan>
+        </text>
+        <text
+          id="℃备份"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1520" y="1012" id="tspan3200">℃</tspan>
+        </text>
+        <text
+          id="KLRH3_DB50DBD280"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-14"
+        >
+          <tspan x="1461.386" y="1014" id="tspan3203">1</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD48"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-14"
+        >
+          <tspan x="1298.342" y="998" id="tspan3206">7</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD80"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-14"
+        >
+          <tspan x="1291.986" y="1054" id="tspan3209">14</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD196"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-16"
+        >
+          <tspan x="1448.2" y="1066" id="tspan3212">29</tspan>
+        </text>
+        <text
+          id="text3217"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1355" y="1052" id="tspan3215">Mpa</tspan>
+        </text>
+        <text
+          id="cm"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1510" y="1064" id="tspan3219">cm</tspan>
+        </text>
+        <text
+          id="text3224"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="2093" y="942" id="tspan3222">℃</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD52"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-18"
+        >
+          <tspan x="2031.6001" y="944" id="tspan3226">8</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD112"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-18"
+        >
+          <tspan x="2023.2" y="996" id="tspan3229">20</tspan>
+        </text>
+        <text
+          id="text3234"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="2093" y="994" id="tspan3232">cm</tspan>
+        </text>
+        <text
+          id="text3238"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1891" y="210" id="tspan3236">℃</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD56"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-20"
+        >
+          <tspan x="1835.6" y="212" id="tspan3240">9</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD116"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-18"
+        >
+          <tspan x="1831.986" y="264" id="tspan3243">21</tspan>
+        </text>
+        <text
+          id="text3248"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1891" y="262" id="tspan3246">cm</tspan>
+        </text>
+        <text
+          id="静态敏化器二"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="2440" y="348" id="tspan3250">静态敏化器二</tspan>
+        </text>
+        <text
+          id="装药机二"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="2654" y="248" id="tspan3253">装药机二</tspan>
+        </text>
+        <g id="g3362" transform="translate(2436, 1117)">
+          <rect id="rect3256" fill="#8D989E" x="0" y="15" width="20" height="26" />
+          <path
+            d="M29,14 L41,14 L41,32 C41,35.3137085 38.3137085,38 35,38 C31.6862915,38 29,35.3137085 29,32 L29,14 L29,14 Z"
+            id="path3258"
+            fill="#8D989E"
+          />
+          <rect id="rect3260" fill="#8D989E" x="34" y="38" width="2" height="4" />
+          <polygon id="polygon3262" fill="#8D989E" points="46 6 64 6 64 30 59 42 51 42 46 30" />
+          <rect id="rect3264" fill="#515D5F" x="8" y="41" width="12" height="29" />
+          <rect id="rect3266" fill="#8A979C" x="20" y="42" width="82" height="42" />
+          <rect id="rect3268" fill="#515D5F" x="5" y="80" width="97" height="4" />
+          <rect id="rect3270" fill="#8D989E" x="8" y="84" width="2" height="62" />
+          <rect id="rect3272" fill="#515D5F" x="5" y="146" width="8" height="2" />
+          <rect id="rect3274" fill="#515D5F" x="96" y="146" width="8" height="2" />
+          <rect id="rect3276" fill="#8A979C" x="99" y="84" width="2" height="62" />
+          <rect id="rect3278" fill="#8A979C" x="161" y="85" width="2" height="62" />
+          <rect id="rect3280" fill="#515D5F" x="158" y="146" width="8" height="2" />
+          <rect id="rect3282" fill="#8A979C" x="286" y="134" width="2" height="13" />
+          <rect id="rect3284" fill="#515D5F" x="283" y="146" width="8" height="2" />
+          <rect id="rect3286" fill="#859398" x="99" y="121" width="106" height="13" />
+          <rect id="rect3288" fill="#515D5F" x="102" y="64" width="97" height="2" />
+          <rect id="rect3290" fill="#515D5F" x="196" y="35" width="3" height="30" />
+          <rect id="rect3292" fill="#67757A" x="182" y="108" width="90" height="11" />
+          <rect id="rect3294" fill="#737E84" x="203" y="118" width="62" height="5" />
+          <rect id="rect3296" fill="#859398" x="203" y="123" width="85" height="11" />
+          <rect id="rect3298" fill="#737E84" x="256" y="134" width="9" height="5" />
+          <rect id="rect3300" fill="#737E84" x="203" y="134" width="8" height="5" />
+          <rect id="rect3302" fill="#8D989E" x="32" y="84" width="2" height="48" />
+          <rect id="rect3304" fill="#8D989E" x="53" y="84" width="2" height="48" />
+          <rect id="rect3306" fill="#8D989E" x="9" y="132" width="90" height="2" />
+          <rect id="rect3308" fill="#8D989E" x="131" y="24" width="6" height="60" />
+          <rect id="rect3310" fill="#8D989E" x="99" y="82" width="65" height="31" />
+          <rect id="rect3312" fill="#8D989E" x="145" y="66" width="19" height="17" />
+          <rect id="rect3314" fill="#9FB2B5" x="80" y="65" width="5" height="19" />
+          <rect id="rect3316" fill="#9FB2B5" x="93" y="64" width="9" height="20" />
+          <rect id="rect3318" fill="#9FB2B5" x="8" y="69" width="12" height="15" />
+          <rect id="rect3320" fill="#9FB2B5" x="57" y="75" width="23" height="9" />
+          <rect id="rect3322" fill="#5B656D" x="233" y="18" width="25" height="8" />
+          <rect
+            id="rect3324"
+            stroke="#191919"
+            fill="#606C73"
+            x="241.5"
+            y="0.5"
+            width="9"
+            height="33"
+            rx="4.5"
+          />
+          <rect id="rect3326" fill="#74848A" x="183" y="34" width="128" height="3" />
+          <rect id="rect3328" fill="#91AAAC" x="233" y="8" width="2" height="24" rx="1" />
+          <rect id="rect3330" fill="#91AAAC" x="257" y="8" width="2" height="24" rx="1" />
+          <g id="g3336" transform="translate(199, 11)">
+            <ellipse id="ellipse3332" fill="#607279" cx="9" cy="12" rx="9" ry="12" />
+            <ellipse id="ellipse3334" fill="#313032" cx="8.5" cy="12" rx="3.5" ry="6" />
+          </g>
+          <g
+            id="g3342"
+            transform="translate(286, 22) scale(-1, 1) translate(-286, -22)translate(277, 10)"
+          >
+            <ellipse id="ellipse3338" fill="#607279" cx="9" cy="12" rx="9" ry="12" />
+            <ellipse id="ellipse3340" fill="#313032" cx="8.5" cy="12" rx="3.5" ry="6" />
+          </g>
+          <g id="g3348" transform="translate(207, 11)">
+            <ellipse id="ellipse3344" fill="#607279" cx="9" cy="12" rx="9" ry="12" />
+            <ellipse id="ellipse3346" fill="#313032" cx="8.5" cy="12" rx="3.5" ry="6" />
+          </g>
+          <rect id="rect3350" fill="#91AAAC" x="225" y="22" width="10" height="2" />
+          <rect id="rect3352" fill="#91AAAC" x="259" y="22" width="11" height="2" />
+          <g
+            id="g3358"
+            transform="translate(278, 22) scale(-1, 1) translate(-278, -22)translate(269, 10)"
+          >
+            <ellipse id="ellipse3354" fill="#607279" cx="9" cy="12" rx="9" ry="12" />
+            <ellipse id="ellipse3356" fill="#313032" cx="8.5" cy="12" rx="3.5" ry="6" />
+          </g>
+          <rect id="rect3360" fill="#737E84" x="233" y="37" width="28" height="71" />
+        </g>
+        <text
+          id="装药机一"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="2654" y="1284" id="tspan3364">装药机一</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD68"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2692.486" y="1336" id="tspan3367">12</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD92"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2692.228" y="1382" id="tspan3370">17</tspan>
+        </text>
+        <text
+          id="装药1温度"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2552.386" y="1336" id="tspan3373">装药1温度</tspan>
+        </text>
+        <text
+          id="装药1压力"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2552.386" y="1382" id="tspan3376">装药1压力</tspan>
+        </text>
+        <text
+          id="静态敏化器一"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="2417" y="1072" id="tspan3379">静态敏化器一</tspan>
+        </text>
+        <g id="组件2备份-6" transform="translate(1128, 602)">
+          <rect id="rect3382" fill="#16A2BC" x="0" y="0" width="38" height="14" />
+          <rect id="rect3384" fill="#191919" x="0" y="0" width="38" height="1" />
+          <rect id="rect3386" fill="#99A5AF" x="0" y="1" width="38" height="1" />
+          <rect id="rect3388" fill="#99A5AF" x="0" y="12" width="38" height="1" />
+          <rect id="rect3390" fill="#191919" x="0" y="13" width="38" height="1" />
+        </g>
+        <g id="g3403" transform="translate(1023, 792)">
+          <rect id="rect3393" fill="#16A2BC" x="0" y="0" width="38" height="14" />
+          <rect id="rect3395" fill="#191919" x="0" y="0" width="38" height="1" />
+          <rect id="rect3397" fill="#99A5AF" x="0" y="1" width="38" height="1" />
+          <rect id="rect3399" fill="#99A5AF" x="0" y="12" width="38" height="1" />
+          <rect id="rect3401" fill="#191919" x="0" y="13" width="38" height="1" />
+        </g>
+        <g id="组件2备份-10" transform="translate(1113, 629)">
+          <rect id="rect3405" fill="#16A2BC" x="0" y="0" width="14" height="154" />
+          <rect id="rect3407" fill="#191919" x="0" y="0" width="1" height="154" />
+          <rect id="rect3409" fill="#191919" x="13" y="0" width="1" height="154" />
+          <rect id="rect3411" fill="#99A5AF" x="1" y="0" width="1" height="154" />
+          <rect id="rect3413" fill="#99A5AF" x="12" y="0" width="1" height="154" />
+          <rect id="rect3415" fill="#FFFFFF" x="6" y="40" width="2" height="32" />
+          <rect id="rect3417" fill="#FFFFFF" x="4" y="52" width="6" height="2" />
+        </g>
+        <g id="组件2备份-7" transform="translate(1168, 628)">
+          <rect id="rect3420" fill="#16A2BC" x="0" y="0" width="14" height="72" />
+          <rect id="rect3422" fill="#191919" x="0" y="0" width="1" height="72" />
+          <rect id="rect3424" fill="#191919" x="13" y="0" width="1" height="72" />
+          <rect id="rect3426" fill="#99A5AF" x="1" y="0" width="1" height="72" />
+          <rect id="rect3428" fill="#99A5AF" x="12" y="0" width="1" height="72" />
+          <rect id="rect3430" fill="#FFFFFF" x="6" y="9" width="2" height="32" />
+          <rect id="rect3432" fill="#FFFFFF" x="4" y="21" width="6" height="2" />
+        </g>
+        <g id="编组-9" transform="translate(1133, 677)">
+          <rect id="rect3435" fill="#191919" x="7" y="0" width="6" height="4" />
+          <rect id="矩形备份-84" fill="#191919" x="17" y="0" width="6" height="4" />
+          <rect id="矩形备份-85" fill="#191919" x="27" y="0" width="6" height="4" />
+          <rect id="矩形备份-86" fill="#191919" x="37" y="0" width="6" height="4" />
+          <rect id="矩形备份-87" fill="#191919" x="47" y="0" width="6" height="4" />
+          <rect id="矩形备份-88" fill="#191919" x="57" y="0" width="6" height="4" />
+          <rect id="矩形备份-89" fill="#191919" x="67" y="0" width="6" height="4" />
+          <rect id="矩形备份-90" fill="#191919" x="77" y="0" width="6" height="4" />
+          <rect id="矩形备份-91" fill="#191919" x="87" y="0" width="6" height="4" />
+          <rect id="矩形备份-92" fill="#191919" x="97" y="0" width="6" height="4" />
+          <rect id="矩形备份-93" fill="#191919" x="107" y="0" width="6" height="4" />
+          <rect id="rect3447" fill="#191919" x="32" y="154" width="6" height="4" />
+          <rect id="rect3449" fill="#191919" x="42" y="154" width="6" height="4" />
+          <rect id="rect3451" fill="#191919" x="52" y="154" width="6" height="4" />
+          <rect id="rect3453" fill="#191919" x="62" y="154" width="6" height="4" />
+          <rect id="rect3455" fill="#191919" x="72" y="154" width="6" height="4" />
+          <rect id="矩形备份-94" fill="#191919" x="82" y="154" width="6" height="4" />
+          <rect
+            id="rect3458"
+            stroke="#191919"
+            fill="url(#linearGradient-95)"
+            x="29.5"
+            y="137.5"
+            width="61"
+            height="17"
+          />
+          <rect id="rect3460" fill="#191919" x="29" y="145" width="62" height="1" />
+          <path
+            d="M119.5,3.5 L119.5,129.81582 C119.500735,131.187695 118.995869,132.454925 118.151161,133.42675 C117.306482,134.39854 116.121984,135.074943 114.763181,135.265247 C96.5087874,137.830587 78.2543948,139.113281 60,139.113281 C41.7456052,139.113281 23.4912126,137.830587 5.23658566,135.265214 C3.87801599,135.074943 2.69351784,134.39854 1.84883904,133.42675 C1.00413105,132.454925 0.499265283,131.187695 0.5,129.815552 L0.5,3.5 L119.5,3.5 Z"
+            id="path3462"
+            stroke="#191919"
+            fill="url(#linearGradient-96)"
+          />
+          <rect id="rect3464" fill="#191919" x="0" y="11" width="120" height="1" />
+          <rect id="rect3466" fill="#191919" x="0" y="18" width="12" height="1" />
+          <rect id="矩形备份-83" fill="#191919" x="108" y="18" width="12" height="1" />
+          <rect
+            id="rect3469"
+            stroke="#191919"
+            fill="#02C90F"
+            x="14.5"
+            y="48.5"
+            width="91"
+            height="78"
+          />
+          <text
+            id="粗乳器"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="31" y="36" id="tspan3471">粗乳器</tspan>
+          </text>
+          <rect
+            id="rect3474"
+            stroke="#191919"
+            fill="#BDA09D"
+            x="14.5"
+            y="48.5"
+            width="91"
+            height="12"
+          />
+        </g>
+        <rect id="rect3477" fill="#191919" x="887" y="903" width="73" height="2" />
+        <rect id="矩形备份-82" fill="#191919" x="970" y="668" width="73" height="2" />
+        <g id="g3570" transform="translate(899, 843)">
+          <rect id="rect3480" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect
+            id="rect3482"
+            stroke="#191919"
+            fill="#696969"
+            x="17.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect3484" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="rect3486" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="rect3488" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="rect3490" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="rect3492" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="rect3494" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect
+            id="rect3496"
+            stroke="#191919"
+            fill="#9B999A"
+            x="0.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle3498" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="circle3500" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="rect3502" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="rect3504" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="rect3506" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect
+            id="rect3508"
+            stroke="#191919"
+            fill="#9B999A"
+            x="9.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="path3510"
+            fill="#F6F4F5"
+          />
+          <polyline id="polyline3512" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="path3514"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="path3516"
+            stroke="#191919"
+          />
+          <rect
+            id="rect3518"
+            stroke="#191919"
+            fill="#696969"
+            x="20.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect3520" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="rect3522" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="rect3524" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="rect3526"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect3528"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle3530" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="rect3532"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect3534"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect3536"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect3538"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect3540"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect3542" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="rect3544" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="rect3546"
+            stroke="#191919"
+            fill="#696969"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect3548" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="rect3550" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="rect3552" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="rect3554" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect
+            id="rect3556"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect3558"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect3560"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect3562"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect3564"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect3566"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect3568"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件10备份-5" transform="translate(982, 608)">
+          <rect id="rect3572" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect
+            id="rect3574"
+            stroke="#191919"
+            fill="#696969"
+            x="17.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect3576" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="rect3578" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="rect3580" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="rect3582" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="rect3584" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="rect3586" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect
+            id="rect3588"
+            stroke="#191919"
+            fill="#9B999A"
+            x="0.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle3590" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="circle3592" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="rect3594" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="rect3596" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="rect3598" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect
+            id="rect3600"
+            stroke="#191919"
+            fill="#9B999A"
+            x="9.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="path3602"
+            fill="#F6F4F5"
+          />
+          <polyline id="polyline3604" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="path3606"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="path3608"
+            stroke="#191919"
+          />
+          <rect
+            id="rect3610"
+            stroke="#191919"
+            fill="#696969"
+            x="20.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect3612" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="rect3614" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="rect3616" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="rect3618"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect3620"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle3622" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="rect3624"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect3626"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect3628"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect3630"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect3632"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect3634" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="rect3636" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="rect3638"
+            stroke="#191919"
+            fill="#696969"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect3640" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="rect3642" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="rect3644" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="rect3646" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect
+            id="rect3648"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect3650"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect3652"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect3654"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect3656"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect3658"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect3660"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <rect id="rect3663" fill="#191919" x="1042" y="683" width="2" height="110" />
+        <g
+          id="g3755"
+          transform="translate(1064, 716.5) rotate(90) translate(-1064, -716.5)translate(1040, 680)"
+        >
+          <rect id="rect3665" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect
+            id="rect3667"
+            stroke="#191919"
+            fill="#696969"
+            x="17.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect3669" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="rect3671" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="rect3673" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="rect3675" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="rect3677" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="rect3679" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect
+            id="rect3681"
+            stroke="#191919"
+            fill="#9B999A"
+            x="0.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle3683" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="circle3685" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="rect3687" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="rect3689" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="rect3691" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect
+            id="rect3693"
+            stroke="#191919"
+            fill="#9B999A"
+            x="9.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="path3695"
+            fill="#F6F4F5"
+          />
+          <polyline id="polyline3697" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="path3699"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="path3701"
+            stroke="#191919"
+          />
+          <rect
+            id="rect3703"
+            stroke="#191919"
+            fill="#696969"
+            x="20.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect3705" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="rect3707" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="rect3709" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="rect3711"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect3713"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle3715" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="rect3717"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect3719"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect3721"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect3723"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect3725"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect3727" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="rect3729" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="rect3731"
+            stroke="#191919"
+            fill="#696969"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect3733" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="rect3735" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="rect3737" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="rect3739" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect
+            id="rect3741"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect3743"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect3745"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect3747"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect3749"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect3751"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect3753"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="g3769" transform="translate(785, 1040)">
+          <rect id="rect3757" fill="#16A2BC" x="2" y="0" width="58" height="14" />
+          <rect id="rect3759" fill="#191919" x="2" y="0" width="58" height="1" />
+          <rect id="rect3761" fill="#99A5AF" x="2" y="1" width="58" height="1" />
+          <rect id="rect3763" fill="#99A5AF" x="2" y="12" width="58" height="1" />
+          <rect id="rect3765" fill="#191919" x="2" y="13" width="57" height="1" />
+          <path
+            d="M14,4 L14,6 L26,6 L26,8 L14,8 L14,10 L12,10 L12,8 L0,8 L0,6 L12,6 L12,4 L14,4 Z"
+            id="path3767"
+            fill="#FFFFFF"
+          />
+        </g>
+        <text
+          id="KLRH3_DB2DD8"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-14"
+        >
+          <tspan x="824.59998" y="768" id="tspan3771">4</tspan>
+        </text>
+        <text
+          id="45.00"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="24px"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1514" y="448" id="tspan3774" />
+        </text>
+        <text
+          id="text3779"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="1537.942" y="500" id="tspan3777">37</tspan>
+        </text>
+        <text
+          id="水相泵"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="834" y="1102" id="tspan3781">水相泵</tspan>
+        </text>
+        <text
+          id="基质泵"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1051" y="975" id="tspan3784">基质泵</tspan>
+        </text>
+        <text
+          id="基质压力"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1256" y="964" id="tspan3787">基质压力</tspan>
+        </text>
+        <text
+          id="中转泵"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1481" y="1099" id="tspan3790">中转泵</tspan>
+        </text>
+        <text
+          id="中转料仓"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1510" y="965" id="tspan3793">中转料仓</tspan>
+        </text>
+        <text
+          id="油相泵"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="800" y="684" id="tspan3796">油相泵</tspan>
+        </text>
+        <g id="编组-8" transform="translate(838, 1013)">
+          <circle id="circle3799" stroke="#979797" fill="#D8D8D8" cx="27.5" cy="30" r="7.5" />
+          <path
+            d="M53.5,3.5 L53.5,30 C53.5,37.3177729 50.5338865,43.9427729 45.7383297,48.7383297 C40.9427729,53.5338865 34.3177729,56.5 27,56.5 C19.6822271,56.5 13.0572271,53.5338865 8.2616703,48.7383297 C3.46611353,43.9427729 0.5,37.3177729 0.5,30 C0.5,22.6822271 3.46611353,16.0572271 8.2616703,11.2616703 C13.0572271,6.46611353 19.6822271,3.5 27,3.5 C32.7877139,3.5 38.1421419,5.35528236 42.5007371,8.50390224 L42.500067,3.5 L53.5,3.5 Z"
+            id="path3801"
+            stroke="#191919"
+            fill="url(#linearGradient-97)"
+          />
+          <rect
+            id="rect3803"
+            stroke="#191919"
+            fill="#077717"
+            x="13.5"
+            y="56.5"
+            width="29"
+            height="3"
+          />
+          <rect
+            id="矩形备份-81"
+            stroke="#191919"
+            fill="url(#linearGradient-98)"
+            x="41.5"
+            y="0.5"
+            width="13"
+            height="3"
+          />
+          <circle id="circle3806" stroke="#191919" fill="#077717" cx="27" cy="30" r="20.5" />
+          <g id="编组-7" transform="translate(10, 13)">
+            <mask id="mask-100" fill="white">
+              <use xlink:href="#path-99" id="use3808" />
+            </mask>
+            <circle stroke="#191919" cx="17" cy="17" r="16.5" id="circle3811" />
+            <g mask="url(#mask-100)" fill="#191919" id="g3829">
+              <rect x="16" y="0" width="1" height="12" id="rect3813" />
+              <rect
+                transform="translate(23.9246, 9.0754) rotate(45) translate(-23.9246, -9.0754)"
+                x="23.4246212"
+                y="3.0753788"
+                width="1"
+                height="12"
+                id="rect3815"
+              />
+              <rect
+                transform="translate(27, 16.5) rotate(90) translate(-27, -16.5)"
+                x="26.5"
+                y="10.5"
+                width="1"
+                height="12"
+                id="rect3817"
+              />
+              <rect
+                transform="translate(23.9246, 24.4246) rotate(135) translate(-23.9246, -24.4246)"
+                x="23.4246212"
+                y="17.9246212"
+                width="1"
+                height="13"
+                id="rect3819"
+              />
+              <rect
+                transform="translate(16.5, 27) rotate(180) translate(-16.5, -27)"
+                x="16"
+                y="21"
+                width="1"
+                height="12"
+                id="rect3821"
+              />
+              <rect
+                transform="translate(9.0754, 23.9246) rotate(225) translate(-9.0754, -23.9246)"
+                x="8.5753788"
+                y="17.9246212"
+                width="1"
+                height="12"
+                id="rect3823"
+              />
+              <rect
+                transform="translate(6, 16.5) rotate(270) translate(-6, -16.5)"
+                x="5.5"
+                y="10.5"
+                width="1"
+                height="12"
+                id="rect3825"
+              />
+              <rect
+                transform="translate(9.0754, 9.0754) rotate(315) translate(-9.0754, -9.0754)"
+                x="8.5753788"
+                y="3.0753788"
+                width="1"
+                height="12"
+                id="rect3827"
+              />
+            </g>
+          </g>
+          <circle id="circle3832" fill="#191919" cx="27" cy="30" r="7" />
+        </g>
+        <text
+          id="A"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="885" y="1140" id="tspan3835">A</tspan>
+        </text>
+        <text
+          id="KLRH3_DB50DBD84"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-12"
+        >
+          <tspan x="821.20001" y="1142" id="tspan3838">35</tspan>
+        </text>
+        <text
+          id="A备份"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="830" y="721" id="tspan3841">A</tspan>
+        </text>
+        <text
+          id="KLRH3_DB50DBD80"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-10"
+        >
+          <tspan x="768.20001" y="723" id="tspan3844">34</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD160"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-20"
+        >
+          <tspan x="621.20001" y="771" id="tspan3847">28</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD136"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-18"
+        >
+          <tspan x="623.20001" y="824" id="tspan3850">23</tspan>
+        </text>
+        <text
+          id="text3855"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="995" y="1084" id="tspan3853">Kg/m</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD0"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-14"
+        >
+          <tspan x="935.59998" y="1086" id="tspan3857">2</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD4"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-12"
+        >
+          <tspan x="937.59998" y="1142" id="tspan3860">3</tspan>
+        </text>
+        <text
+          id="水相密度"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="995" y="1142" id="tspan3863">水相密度</tspan>
+        </text>
+        <text
+          id="Kg/m备份"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="884" y="766" id="tspan3866">Kg/m</tspan>
+        </text>
+        <text
+          id="text3871"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="2174" y="454" id="tspan3869">Kg/m</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD24"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-14"
+        >
+          <tspan x="2183.6001" y="414" id="tspan3873">6</tspan>
+        </text>
+        <text
+          id="Kg/m备份-2"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="2174" y="759" id="tspan3876">Kg/m</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD12"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-16"
+        >
+          <tspan x="2181.6001" y="719" id="tspan3879">5</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD84"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-10"
+        >
+          <tspan x="2270.9861" y="921" id="tspan3882">15</tspan>
+        </text>
+        <text
+          id="HZ"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="24px"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1599" y="448" id="tspan3885" />
+        </text>
+        <text
+          id="钢带运行正常"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1359" y="499" id="tspan3888">钢带运行正常</tspan>
+        </text>
+        <text
+          id="钢带"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1494" y="596" id="tspan3891">钢带</tspan>
+        </text>
+        <text
+          id="text3896"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1274" y="519" id="tspan3894">cm</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD108"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-8"
+        >
+          <tspan x="1213.986" y="521" id="tspan3898">19</tspan>
+        </text>
+        <text
+          id="KLRH3_DB50DBD88"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-8"
+        >
+          <tspan x="1211.2" y="577" id="tspan3901">36</tspan>
+        </text>
+        <text
+          id="text3906"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1591" y="498" id="tspan3904">A</tspan>
+        </text>
+        <text
+          id="text3910"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="1274" y="575" id="tspan3908">A</tspan>
+        </text>
+        <g id="g3926" transform="translate(753, 796)">
+          <rect id="rect3912" fill="#16A2BC" x="0" y="0" width="201" height="14" />
+          <rect id="rect3914" fill="#191919" x="0" y="0" width="201" height="1" />
+          <rect id="rect3916" fill="#99A5AF" x="0" y="1" width="201" height="1" />
+          <rect id="rect3918" fill="#99A5AF" x="0" y="12" width="201" height="1" />
+          <rect id="rect3920" fill="#191919" x="0" y="13" width="201" height="1" />
+          <path
+            d="M61,4 L61,6 L93,6 L93,8 L61,8 L61,10 L59,10 L59,8 L47,8 L47,6 L59,6 L59,4 L61,4 Z"
+            id="path3922"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M182,4 L182,6 L214,6 L214,8 L182,8 L182,10 L180,10 L180,8 L168,8 L168,6 L180,6 L180,4 L182,4 Z"
+            id="path3924"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件2备份-11" transform="translate(763, 512)">
+          <rect id="rect3928" fill="#16A2BC" x="0" y="0" width="201" height="14" />
+          <rect id="rect3930" fill="#191919" x="0" y="0" width="201" height="1" />
+          <rect id="rect3932" fill="#99A5AF" x="0" y="1" width="201" height="1" />
+          <rect id="rect3934" fill="#99A5AF" x="0" y="12" width="201" height="1" />
+          <rect id="rect3936" fill="#191919" x="0" y="13" width="201" height="1" />
+          <path
+            d="M61,4 L61,6 L93,6 L93,8 L61,8 L61,10 L59,10 L59,8 L47,8 L47,6 L59,6 L59,4 L61,4 Z"
+            id="path3938"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M182,4 L182,6 L194,6 L194,8 L182,8 L182,10 L180,10 L180,8 L168,8 L168,6 L180,6 L180,4 L182,4 Z"
+            id="path3940"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件2备份-2" transform="translate(728, 820)">
+          <rect id="rect3943" fill="#16A2BC" x="0" y="0" width="14" height="101" />
+          <rect id="rect3945" fill="#191919" x="0" y="0" width="1" height="101" />
+          <rect id="rect3947" fill="#191919" x="13" y="0" width="1" height="101" />
+          <rect id="rect3949" fill="#99A5AF" x="1" y="0" width="1" height="101" />
+          <rect id="rect3951" fill="#99A5AF" x="12" y="0" width="1" height="101" />
+          <rect id="rect3953" fill="#FFFFFF" x="6" y="40" width="2" height="32" />
+          <rect id="rect3955" fill="#FFFFFF" x="4" y="58" width="6" height="2" />
+        </g>
+        <g id="组件2备份-8" transform="translate(958, 822)">
+          <rect id="rect3958" fill="#16A2BC" x="0" y="0" width="14" height="154" />
+          <rect id="rect3960" fill="#191919" x="0" y="0" width="1" height="154" />
+          <rect id="rect3962" fill="#191919" x="13" y="0" width="1" height="154" />
+          <rect id="rect3964" fill="#99A5AF" x="1" y="0" width="1" height="154" />
+          <rect id="rect3966" fill="#99A5AF" x="12" y="0" width="1" height="154" />
+          <rect id="rect3968" fill="#FFFFFF" x="6" y="40" width="2" height="32" />
+          <rect id="rect3970" fill="#FFFFFF" x="4" y="52" width="6" height="2" />
+        </g>
+        <g id="g3987" transform="translate(957, 539)">
+          <rect id="rect3973" fill="#16A2BC" x="0" y="0" width="14" height="162" />
+          <rect id="rect3975" fill="#191919" x="0" y="0" width="1" height="162" />
+          <rect id="rect3977" fill="#191919" x="13" y="0" width="1" height="162" />
+          <rect id="rect3979" fill="#99A5AF" x="1" y="0" width="1" height="162" />
+          <rect id="rect3981" fill="#99A5AF" x="12" y="0" width="1" height="162" />
+          <rect id="rect3983" fill="#FFFFFF" x="6" y="40" width="2" height="32" />
+          <rect id="rect3985" fill="#FFFFFF" x="4" y="52" width="6" height="2" />
+        </g>
+        <g
+          id="组件7备份"
+          transform="translate(966, 1006.5) scale(-1, -1) translate(-966, -1006.5)translate(942, 970)"
+        >
+          <rect id="rect3989" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect
+            id="rect3991"
+            stroke="#191919"
+            fill="#02C90F"
+            x="17.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect3993" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="rect3995" fill="#02C90F" x="13" y="28" width="1" height="3" />
+          <rect id="rect3997" fill="#02C90F" x="18" y="28" width="4" height="4" />
+          <rect id="rect3999" fill="#02C90F" x="24" y="28" width="8" height="5" />
+          <rect id="rect4001" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="rect4003" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect
+            id="rect4005"
+            stroke="#191919"
+            fill="#02C90F"
+            x="0.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle4007" stroke="#191919" fill="#02C90F" cx="3" cy="23" r="2.5" />
+          <circle id="circle4009" stroke="#191919" fill="#02C90F" cx="2" cy="11" r="1.5" />
+          <rect id="rect4011" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="rect4013" fill="#02C90F" x="34" y="28" width="1" height="3" />
+          <rect id="rect4015" fill="#02C90F" x="19" y="21" width="12" height="3" />
+          <rect
+            id="rect4017"
+            stroke="#191919"
+            fill="#02C90F"
+            x="9.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="path4019"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="polyline4021" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="path4023"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="path4025"
+            stroke="#191919"
+          />
+          <rect
+            id="rect4027"
+            stroke="#191919"
+            fill="#02C90F"
+            x="20.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect4029" fill="#02C90F" x="10" y="14" width="28" height="2" />
+          <rect id="rect4031" fill="#02C90F" x="10" y="17" width="28" height="2" />
+          <rect id="rect4033" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="rect4035"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect4037"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle4039" stroke="#191919" fill="#02C90F" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="rect4041"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect4043"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect4045"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect4047"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect4049"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect4051" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="rect4053" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="rect4055"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect4057" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="rect4059" fill="url(#linearGradient-27)" x="18" y="49" width="12" height="4" />
+          <rect id="rect4061" fill="url(#linearGradient-28)" x="19" y="55" width="10" height="11" />
+          <rect id="rect4063" fill="url(#linearGradient-29)" x="18" y="67" width="12" height="2" />
+          <rect
+            id="rect4065"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect4067"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect4069"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect4071"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect4073"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect4075"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect4077"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件2备份-9" transform="translate(1000, 816)">
+          <rect id="rect4080" fill="#16A2BC" x="0" y="0" width="14" height="154" />
+          <rect id="rect4082" fill="#191919" x="0" y="0" width="1" height="154" />
+          <rect id="rect4084" fill="#191919" x="13" y="0" width="1" height="154" />
+          <rect id="rect4086" fill="#99A5AF" x="1" y="0" width="1" height="154" />
+          <rect id="rect4088" fill="#99A5AF" x="12" y="0" width="1" height="154" />
+          <rect id="rect4090" fill="#FFFFFF" x="6" y="40" width="2" height="32" />
+          <rect id="rect4092" fill="#FFFFFF" x="4" y="52" width="6" height="2" />
+        </g>
+        <g id="g4109" transform="translate(1000, 707)">
+          <rect id="rect4095" fill="#16A2BC" x="0" y="0" width="14" height="154" />
+          <rect id="rect4097" fill="#191919" x="0" y="0" width="1" height="154" />
+          <rect id="rect4099" fill="#191919" x="13" y="0" width="1" height="154" />
+          <rect id="rect4101" fill="#99A5AF" x="1" y="0" width="1" height="154" />
+          <rect id="rect4103" fill="#99A5AF" x="12" y="0" width="1" height="154" />
+          <rect id="rect4105" fill="#FFFFFF" x="6" y="40" width="2" height="32" />
+          <rect id="rect4107" fill="#FFFFFF" x="4" y="52" width="6" height="2" />
+        </g>
+        <g
+          id="g4139"
+          transform="translate(1012, 799) scale(-1, 1) rotate(90) translate(-1012, -799)translate(989, 782)"
+        >
+          <rect id="rect4111" fill="url(#linearGradient-48)" x="7" y="1" width="32" height="22" />
+          <path
+            d="M14,27 L14,21 L23,12 L32,21 L32,27 L14,27 Z"
+            id="path4113"
+            fill="url(#linearGradient-101)"
+          />
+          <rect id="rect4115" fill="url(#linearGradient-51)" x="0" y="0" width="7" height="24" />
+          <rect id="rect4117" fill="#B4B2B3" x="0" y="1" width="1" height="22" />
+          <rect id="rect4119" fill="url(#linearGradient-52)" x="11" y="27" width="24" height="7" />
+          <rect id="rect4121" fill="#B4B2B3" x="12" y="27" width="22" height="1" />
+          <rect id="rect4123" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect4125" fill="#191919" x="0" y="23" width="7" height="1" />
+          <rect id="rect4127" fill="#191919" x="11" y="27" width="1" height="7" />
+          <rect id="rect4129" fill="#191919" x="34" y="27" width="1" height="7" />
+          <rect id="rect4131" fill="url(#linearGradient-51)" x="39" y="0" width="7" height="24" />
+          <rect id="rect4133" fill="#B4B2B3" x="39" y="1" width="1" height="22" />
+          <rect id="rect4135" fill="#191919" x="39" y="0" width="7" height="1" />
+          <rect id="rect4137" fill="#191919" x="39" y="23" width="7" height="1" />
+        </g>
+        <g id="组件2备份-13" transform="translate(1467, 674)">
+          <rect id="rect4141" fill="#16A2BC" x="0" y="0" width="14" height="86" />
+          <rect id="rect4143" fill="#191919" x="0" y="0" width="1" height="86" />
+          <rect id="rect4145" fill="#191919" x="13" y="0" width="1" height="86" />
+          <rect id="rect4147" fill="#99A5AF" x="1" y="0" width="1" height="86" />
+          <rect id="rect4149" fill="#99A5AF" x="12" y="0" width="1" height="86" />
+          <rect id="rect4151" fill="#FFFFFF" x="6" y="45" width="2" height="32" />
+          <rect id="rect4153" fill="#FFFFFF" x="4" y="57" width="6" height="2" />
+        </g>
+        <g id="组件2备份-17" transform="translate(1731, 998)">
+          <rect id="rect4156" fill="#16A2BC" x="0" y="0" width="14" height="117" />
+          <rect id="rect4158" fill="#191919" x="0" y="0" width="1" height="117" />
+          <rect id="rect4160" fill="#191919" x="13" y="0" width="1" height="117" />
+          <rect id="rect4162" fill="#99A5AF" x="1" y="0" width="1" height="117" />
+          <rect id="rect4164" fill="#99A5AF" x="12" y="0" width="1" height="117" />
+          <rect id="rect4166" fill="#FFFFFF" x="6" y="76" width="2" height="32" />
+          <rect id="rect4168" fill="#FFFFFF" x="4" y="88" width="6" height="2" />
+        </g>
+        <g id="g4215" transform="translate(1719, 971)">
+          <g id="g4185" transform="translate(6, 3)">
+            <mask id="mask-103" fill="white">
+              <use xlink:href="#path-102" id="use4171" />
+            </mask>
+            <g id="g4174" />
+            <polygon
+              id="polygon4176"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-103)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon4178"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-103)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-105" fill="white">
+              <use xlink:href="#path-104" id="use4180" />
+            </mask>
+            <use id="use4183" stroke="#191919" xlink:href="#path-104" />
+          </g>
+          <rect id="rect4187" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect4189" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect4191" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect4193" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect4195" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect4197" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect4199" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect4201" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon4203" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect4205" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect4207" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect4209" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect4211" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect4213" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="g4227" transform="translate(1462, 857)">
+          <rect id="rect4217" fill="#16A2BC" x="0" y="0" width="14" height="30" />
+          <rect id="rect4219" fill="#191919" x="0" y="0" width="1" height="30" />
+          <rect id="rect4221" fill="#191919" x="13" y="0" width="1" height="30" />
+          <rect id="rect4223" fill="#99A5AF" x="1" y="0" width="1" height="30" />
+          <rect id="rect4225" fill="#99A5AF" x="12" y="0" width="1" height="30" />
+        </g>
+        <g id="g4241" transform="translate(1430, 830)">
+          <rect id="rect4229" fill="#16A2BC" x="2" y="0" width="39" height="14" />
+          <rect id="rect4231" fill="#191919" x="2" y="0" width="39" height="1" />
+          <rect id="rect4233" fill="#99A5AF" x="2" y="1" width="39" height="1" />
+          <rect id="rect4235" fill="#99A5AF" x="2" y="12" width="39" height="1" />
+          <rect id="rect4237" fill="#191919" x="2" y="13" width="39" height="1" />
+          <path
+            d="M14,4 L14,6 L26,6 L26,8 L14,8 L14,10 L12,10 L12,8 L0,8 L0,6 L12,6 L12,4 L14,4 Z"
+            id="path4239"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g
+          id="组件3备份-3"
+          transform="translate(739.5, 808) scale(-1, 1) translate(-739.5, -808)translate(725, 793)"
+        >
+          <g id="g4257" transform="translate(6, 3)">
+            <mask id="mask-107" fill="white">
+              <use xlink:href="#path-106" id="use4243" />
+            </mask>
+            <g id="g4246" />
+            <polygon
+              id="polygon4248"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-107)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon4250"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-107)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-109" fill="white">
+              <use xlink:href="#path-108" id="use4252" />
+            </mask>
+            <use id="use4255" stroke="#191919" xlink:href="#path-108" />
+          </g>
+          <rect id="rect4259" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect4261" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect4263" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect4265" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect4267" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect4269" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect4271" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect4273" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon4275" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect4277" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect4279" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect4281" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect4283" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect4285" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件3备份-5" transform="translate(946, 793)">
+          <g id="g4302" transform="translate(6, 3)">
+            <mask id="mask-111" fill="white">
+              <use xlink:href="#path-110" id="use4288" />
+            </mask>
+            <g id="g4291" />
+            <polygon
+              id="polygon4293"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-111)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon4295"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-111)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-113" fill="white">
+              <use xlink:href="#path-112" id="use4297" />
+            </mask>
+            <use id="use4300" stroke="#191919" xlink:href="#path-112" />
+          </g>
+          <rect id="rect4304" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect4306" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect4308" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect4310" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect4312" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect4314" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect4316" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect4318" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon4320" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect4322" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect4324" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect4326" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect4328" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect4330" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件3备份-9" transform="translate(945, 509)">
+          <g id="g4347" transform="translate(6, 3)">
+            <mask id="mask-115" fill="white">
+              <use xlink:href="#path-114" id="use4333" />
+            </mask>
+            <g id="g4336" />
+            <polygon
+              id="polygon4338"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-115)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon4340"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-115)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-117" fill="white">
+              <use xlink:href="#path-116" id="use4342" />
+            </mask>
+            <use id="use4345" stroke="#191919" xlink:href="#path-116" />
+          </g>
+          <rect id="rect4349" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect4351" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect4353" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect4355" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect4357" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect4359" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect4361" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect4363" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon4365" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect4367" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect4369" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect4371" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect4373" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect4375" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件3备份-7" transform="translate(988, 699)">
+          <g id="g4392" transform="translate(6, 3)">
+            <mask id="mask-119" fill="white">
+              <use xlink:href="#path-118" id="use4378" />
+            </mask>
+            <g id="g4381" />
+            <polygon
+              id="polygon4383"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-119)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon4385"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-119)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-121" fill="white">
+              <use xlink:href="#path-120" id="use4387" />
+            </mask>
+            <use id="use4390" stroke="#191919" xlink:href="#path-120" />
+          </g>
+          <rect id="rect4394" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect4396" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect4398" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect4400" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect4402" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect4404" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect4406" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect4408" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon4410" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect4412" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect4414" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect4416" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect4418" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect4420" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-10"
+          transform="translate(1115.5, 792) scale(1, -1) translate(-1115.5, -792)translate(1101, 777)"
+        >
+          <g id="g4437" transform="translate(6, 3)">
+            <mask id="mask-123" fill="white">
+              <use xlink:href="#path-122" id="use4423" />
+            </mask>
+            <g id="g4426" />
+            <polygon
+              id="polygon4428"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-123)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon4430"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-123)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-125" fill="white">
+              <use xlink:href="#path-124" id="use4432" />
+            </mask>
+            <use id="use4435" stroke="#191919" xlink:href="#path-124" />
+          </g>
+          <rect id="rect4439" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect4441" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect4443" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect4445" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect4447" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect4449" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect4451" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect4453" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon4455" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect4457" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect4459" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect4461" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect4463" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect4465" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-11"
+          transform="translate(1124.5, 614) scale(-1, 1) translate(-1124.5, -614)translate(1110, 599)"
+        >
+          <g id="g4482" transform="translate(6, 3)">
+            <mask id="mask-127" fill="white">
+              <use xlink:href="#path-126" id="use4468" />
+            </mask>
+            <g id="g4471" />
+            <polygon
+              id="polygon4473"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-127)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon4475"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-127)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-129" fill="white">
+              <use xlink:href="#path-128" id="use4477" />
+            </mask>
+            <use id="use4480" stroke="#191919" xlink:href="#path-128" />
+          </g>
+          <rect id="rect4484" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect4486" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect4488" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect4490" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect4492" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect4494" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect4496" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect4498" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon4500" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect4502" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect4504" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect4506" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect4508" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect4510" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="g4557"
+          transform="translate(1373.5, 659) scale(-1, 1) translate(-1373.5, -659)translate(1359, 644)"
+        >
+          <g id="g4527" transform="translate(6, 3)">
+            <mask id="mask-131" fill="white">
+              <use xlink:href="#path-130" id="use4513" />
+            </mask>
+            <g id="g4516" />
+            <polygon
+              id="polygon4518"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-131)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon4520"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-131)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-133" fill="white">
+              <use xlink:href="#path-132" id="use4522" />
+            </mask>
+            <use id="use4525" stroke="#191919" xlink:href="#path-132" />
+          </g>
+          <rect id="rect4529" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect4531" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect4533" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect4535" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect4537" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect4539" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect4541" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect4543" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon4545" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect4547" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect4549" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect4551" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect4553" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect4555" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-18"
+          transform="translate(1419.5, 556) scale(-1, 1) translate(-1419.5, -556)translate(1405, 541)"
+        >
+          <g id="g4573" transform="translate(6, 3)">
+            <mask id="mask-135" fill="white">
+              <use xlink:href="#path-134" id="use4559" />
+            </mask>
+            <g id="g4562" />
+            <polygon
+              id="polygon4564"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-135)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon4566"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-135)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-137" fill="white">
+              <use xlink:href="#path-136" id="use4568" />
+            </mask>
+            <use id="use4571" stroke="#191919" xlink:href="#path-136" />
+          </g>
+          <rect id="rect4575" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect4577" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect4579" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect4581" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect4583" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect4585" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect4587" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect4589" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon4591" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect4593" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect4595" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect4597" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect4599" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect4601" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件3备份-13" transform="translate(1455, 644)">
+          <g id="g4618" transform="translate(6, 3)">
+            <mask id="mask-139" fill="white">
+              <use xlink:href="#path-138" id="use4604" />
+            </mask>
+            <g id="g4607" />
+            <polygon
+              id="polygon4609"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-139)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon4611"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-139)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-141" fill="white">
+              <use xlink:href="#path-140" id="use4613" />
+            </mask>
+            <use id="use4616" stroke="#191919" xlink:href="#path-140" />
+          </g>
+          <rect id="rect4620" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect4622" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect4624" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect4626" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect4628" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect4630" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect4632" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect4634" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon4636" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect4638" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect4640" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect4642" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect4644" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect4646" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-14"
+          transform="translate(1469.5, 774) scale(1, -1) translate(-1469.5, -774)translate(1455, 759)"
+        >
+          <g id="g4663" transform="translate(6, 3)">
+            <mask id="mask-143" fill="white">
+              <use xlink:href="#path-142" id="use4649" />
+            </mask>
+            <g id="g4652" />
+            <polygon
+              id="polygon4654"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-143)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon4656"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-143)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-145" fill="white">
+              <use xlink:href="#path-144" id="use4658" />
+            </mask>
+            <use id="use4661" stroke="#191919" xlink:href="#path-144" />
+          </g>
+          <rect id="rect4665" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect4667" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect4669" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect4671" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect4673" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect4675" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect4677" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect4679" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon4681" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect4683" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect4685" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect4687" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect4689" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect4691" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-15"
+          transform="translate(1373.5, 774) scale(-1, -1) translate(-1373.5, -774)translate(1359, 759)"
+        >
+          <g id="g4708" transform="translate(6, 3)">
+            <mask id="mask-147" fill="white">
+              <use xlink:href="#path-146" id="use4694" />
+            </mask>
+            <g id="g4697" />
+            <polygon
+              id="polygon4699"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-147)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon4701"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-147)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-149" fill="white">
+              <use xlink:href="#path-148" id="use4703" />
+            </mask>
+            <use id="use4706" stroke="#191919" xlink:href="#path-148" />
+          </g>
+          <rect id="rect4710" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect4712" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect4714" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect4716" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect4718" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect4720" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect4722" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect4724" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon4726" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect4728" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect4730" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect4732" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect4734" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect4736" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="g4753" transform="translate(1362, 674)">
+          <rect id="rect4739" fill="#16A2BC" x="0" y="0" width="14" height="86" />
+          <rect id="rect4741" fill="#191919" x="0" y="0" width="1" height="86" />
+          <rect id="rect4743" fill="#191919" x="13" y="0" width="1" height="86" />
+          <rect id="rect4745" fill="#99A5AF" x="1" y="0" width="1" height="86" />
+          <rect id="rect4747" fill="#99A5AF" x="12" y="0" width="1" height="86" />
+          <rect id="rect4749" fill="#FFFFFF" x="6" y="45" width="2" height="32" />
+          <rect id="rect4751" fill="#FFFFFF" x="4" y="57" width="6" height="2" />
+        </g>
+        <g id="g4769" transform="translate(1408, 571)">
+          <rect id="rect4755" fill="#16A2BC" x="0" y="0" width="14" height="86" />
+          <rect id="rect4757" fill="#191919" x="0" y="0" width="1" height="86" />
+          <rect id="rect4759" fill="#191919" x="13" y="0" width="1" height="86" />
+          <rect id="rect4761" fill="#99A5AF" x="1" y="0" width="1" height="86" />
+          <rect id="rect4763" fill="#99A5AF" x="12" y="0" width="1" height="86" />
+          <rect id="rect4765" fill="#FFFFFF" x="6" y="45" width="2" height="32" />
+          <rect id="rect4767" fill="#FFFFFF" x="4" y="57" width="6" height="2" />
+        </g>
+        <g id="组件3备份-16" transform="translate(1450, 827)">
+          <g id="g4785" transform="translate(6, 3)">
+            <mask id="mask-151" fill="white">
+              <use xlink:href="#path-150" id="use4771" />
+            </mask>
+            <g id="g4774" />
+            <polygon
+              id="polygon4776"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-151)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon4778"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-151)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-153" fill="white">
+              <use xlink:href="#path-152" id="use4780" />
+            </mask>
+            <use id="use4783" stroke="#191919" xlink:href="#path-152" />
+          </g>
+          <rect id="rect4787" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect4789" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect4791" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect4793" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect4795" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect4797" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect4799" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect4801" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon4803" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect4805" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect4807" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect4809" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect4811" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect4813" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="g4860"
+          transform="translate(1419.5, 911) scale(1, -1) translate(-1419.5, -911)translate(1405, 896)"
+        >
+          <g id="g4830" transform="translate(6, 3)">
+            <mask id="mask-155" fill="white">
+              <use xlink:href="#path-154" id="use4816" />
+            </mask>
+            <g id="g4819" />
+            <polygon
+              id="polygon4821"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-155)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon4823"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-155)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-157" fill="white">
+              <use xlink:href="#path-156" id="use4825" />
+            </mask>
+            <use id="use4828" stroke="#191919" xlink:href="#path-156" />
+          </g>
+          <rect id="rect4832" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect4834" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect4836" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect4838" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect4840" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect4842" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect4844" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect4846" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon4848" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect4850" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect4852" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect4854" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect4856" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect4858" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件3备份-12" transform="translate(1156, 599)">
+          <g id="g4876" transform="translate(6, 3)">
+            <mask id="mask-159" fill="white">
+              <use xlink:href="#path-158" id="use4862" />
+            </mask>
+            <g id="g4865" />
+            <polygon
+              id="polygon4867"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-159)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon4869"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-159)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-161" fill="white">
+              <use xlink:href="#path-160" id="use4871" />
+            </mask>
+            <use id="use4874" stroke="#191919" xlink:href="#path-160" />
+          </g>
+          <rect id="rect4878" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect4880" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect4882" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect4884" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect4886" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect4888" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect4890" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect4892" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon4894" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect4896" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect4898" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect4900" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect4902" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect4904" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-6"
+          transform="translate(1002.5, 980) scale(1, -1) translate(-1002.5, -980)translate(988, 965)"
+        >
+          <g id="g4921" transform="translate(6, 3)">
+            <mask id="mask-163" fill="white">
+              <use xlink:href="#path-162" id="use4907" />
+            </mask>
+            <g id="g4910" />
+            <polygon
+              id="polygon4912"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-163)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon4914"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-163)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-165" fill="white">
+              <use xlink:href="#path-164" id="use4916" />
+            </mask>
+            <use id="use4919" stroke="#191919" xlink:href="#path-164" />
+          </g>
+          <rect id="rect4923" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect4925" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect4927" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect4929" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect4931" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect4933" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect4935" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect4937" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon4939" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect4941" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect4943" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect4945" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect4947" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect4949" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="g4966" transform="translate(646, 424)">
+          <rect id="rect4952" fill="#16A2BC" x="0" y="0" width="14" height="72" />
+          <rect id="rect4954" fill="#191919" x="0" y="0" width="1" height="72" />
+          <rect id="rect4956" fill="#191919" x="13" y="0" width="1" height="72" />
+          <rect id="rect4958" fill="#99A5AF" x="1" y="0" width="1" height="72" />
+          <rect id="rect4960" fill="#99A5AF" x="12" y="0" width="1" height="72" />
+          <rect id="rect4962" fill="#FFFFFF" x="6" y="40" width="2" height="32" />
+          <rect id="rect4964" fill="#FFFFFF" x="4" y="52" width="6" height="2" />
+        </g>
+        <g
+          id="组件10备份-3"
+          transform="translate(631.5, 454) rotate(-90) translate(-631.5, -454)translate(607.5, 417.5)"
+        >
+          <rect id="rect4968" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect
+            id="rect4970"
+            stroke="#191919"
+            fill="#696969"
+            x="17.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect4972" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="rect4974" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="rect4976" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="rect4978" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="rect4980" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="rect4982" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect
+            id="rect4984"
+            stroke="#191919"
+            fill="#9B999A"
+            x="0.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle4986" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="circle4988" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="rect4990" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="rect4992" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="rect4994" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect
+            id="rect4996"
+            stroke="#191919"
+            fill="#9B999A"
+            x="9.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="path4998"
+            fill="#F6F4F5"
+          />
+          <polyline id="polyline5000" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="path5002"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="path5004"
+            stroke="#191919"
+          />
+          <rect
+            id="rect5006"
+            stroke="#191919"
+            fill="#696969"
+            x="20.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect5008" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="rect5010" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="rect5012" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="rect5014"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect5016"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle5018" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="rect5020"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect5022"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect5024"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect5026"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect5028"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect5030" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="rect5032" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="rect5034"
+            stroke="#191919"
+            fill="#696969"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect5036" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="rect5038" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="rect5040" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="rect5042" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect
+            id="rect5044"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect5046"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect5048"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect5050"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect5052"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect5054"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect5056"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="g5069" transform="translate(664.5, 446.5)">
+          <rect id="rect5059" fill="#16A2BC" x="0" y="0" width="38" height="14" />
+          <rect id="rect5061" fill="#191919" x="0" y="0" width="38" height="1" />
+          <rect id="rect5063" fill="#99A5AF" x="0" y="1" width="38" height="1" />
+          <rect id="rect5065" fill="#99A5AF" x="0" y="12" width="38" height="1" />
+          <rect id="rect5067" fill="#191919" x="0" y="13" width="38" height="1" />
+        </g>
+        <text
+          id="text5073"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="693" y="768" id="tspan5071">℃</tspan>
+        </text>
+        <text
+          id="text5077"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="693" y="821" id="tspan5075">cm</tspan>
+        </text>
+        <g id="g5089" transform="translate(1071, 807)">
+          <rect id="rect5079" fill="#16A2BC" x="0" y="0" width="14" height="46" />
+          <rect id="rect5081" fill="#191919" x="0" y="0" width="1" height="46" />
+          <rect id="rect5083" fill="#191919" x="13" y="0" width="1" height="46" />
+          <rect
+            id="rect5085"
+            fill="#99A5AF"
+            transform="translate(1.5, 23) scale(-1, 1) translate(-1.5, -23)"
+            x="1"
+            y="0"
+            width="1"
+            height="46"
+          />
+          <rect id="rect5087" fill="#99A5AF" x="12" y="0" width="1" height="46" />
+        </g>
+        <g id="g5103" transform="translate(785, 623)">
+          <rect id="rect5091" fill="#16A2BC" x="2" y="0" width="53" height="14" />
+          <rect id="rect5093" fill="#191919" x="2" y="0" width="53" height="1" />
+          <rect id="rect5095" fill="#99A5AF" x="2" y="1" width="53" height="1" />
+          <rect id="rect5097" fill="#99A5AF" x="2" y="12" width="53" height="1" />
+          <rect id="rect5099" fill="#191919" x="2" y="13" width="53" height="1" />
+          <path
+            d="M14,4 L14,6 L26,6 L26,8 L14,8 L14,10 L12,10 L12,8 L0,8 L0,6 L12,6 L12,4 L14,4 Z"
+            id="path5101"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="g5195" transform="translate(769, 572)">
+          <rect id="rect5105" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect
+            id="rect5107"
+            stroke="#191919"
+            fill="#02C90F"
+            x="17.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect5109" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="rect5111" fill="#02C90F" x="13" y="28" width="1" height="3" />
+          <rect id="rect5113" fill="#02C90F" x="18" y="28" width="4" height="4" />
+          <rect id="rect5115" fill="#02C90F" x="24" y="28" width="8" height="5" />
+          <rect id="rect5117" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="rect5119" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect
+            id="rect5121"
+            stroke="#191919"
+            fill="#02C90F"
+            x="0.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle5123" stroke="#191919" fill="#02C90F" cx="3" cy="23" r="2.5" />
+          <circle id="circle5125" stroke="#191919" fill="#02C90F" cx="2" cy="11" r="1.5" />
+          <rect id="rect5127" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="rect5129" fill="#02C90F" x="34" y="28" width="1" height="3" />
+          <rect id="rect5131" fill="#02C90F" x="19" y="21" width="12" height="3" />
+          <rect
+            id="rect5133"
+            stroke="#191919"
+            fill="#02C90F"
+            x="9.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="path5135"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="polyline5137" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="path5139"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="path5141"
+            stroke="#191919"
+          />
+          <rect
+            id="rect5143"
+            stroke="#191919"
+            fill="#02C90F"
+            x="20.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect5145" fill="#02C90F" x="10" y="14" width="28" height="2" />
+          <rect id="rect5147" fill="#02C90F" x="10" y="17" width="28" height="2" />
+          <rect id="rect5149" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="rect5151"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect5153"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle5155" stroke="#191919" fill="#02C90F" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="rect5157"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect5159"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect5161"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect5163"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect5165"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect5167" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="rect5169" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="rect5171"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect5173" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="rect5175" fill="url(#linearGradient-27)" x="18" y="49" width="12" height="4" />
+          <rect id="rect5177" fill="url(#linearGradient-28)" x="19" y="55" width="10" height="11" />
+          <rect id="rect5179" fill="url(#linearGradient-29)" x="18" y="67" width="12" height="2" />
+          <rect
+            id="rect5181"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect5183"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect5185"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect5187"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect5189"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect5191"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect5193"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件7备份-3" transform="translate(1054, 739)">
+          <rect id="rect5197" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect
+            id="rect5199"
+            stroke="#191919"
+            fill="#02C90F"
+            x="17.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect5201" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="rect5203" fill="#02C90F" x="13" y="28" width="1" height="3" />
+          <rect id="rect5205" fill="#02C90F" x="18" y="28" width="4" height="4" />
+          <rect id="rect5207" fill="#02C90F" x="24" y="28" width="8" height="5" />
+          <rect id="rect5209" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="rect5211" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect
+            id="rect5213"
+            stroke="#191919"
+            fill="#02C90F"
+            x="0.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle5215" stroke="#191919" fill="#02C90F" cx="3" cy="23" r="2.5" />
+          <circle id="circle5217" stroke="#191919" fill="#02C90F" cx="2" cy="11" r="1.5" />
+          <rect id="rect5219" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="rect5221" fill="#02C90F" x="34" y="28" width="1" height="3" />
+          <rect id="rect5223" fill="#02C90F" x="19" y="21" width="12" height="3" />
+          <rect
+            id="rect5225"
+            stroke="#191919"
+            fill="#02C90F"
+            x="9.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="path5227"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="polyline5229" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="path5231"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="path5233"
+            stroke="#191919"
+          />
+          <rect
+            id="rect5235"
+            stroke="#191919"
+            fill="#02C90F"
+            x="20.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect5237" fill="#02C90F" x="10" y="14" width="28" height="2" />
+          <rect id="rect5239" fill="#02C90F" x="10" y="17" width="28" height="2" />
+          <rect id="rect5241" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="rect5243"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect5245"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle5247" stroke="#191919" fill="#02C90F" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="rect5249"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect5251"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect5253"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect5255"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect5257"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect5259" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="rect5261" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="rect5263"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect5265" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="rect5267" fill="url(#linearGradient-27)" x="18" y="49" width="12" height="4" />
+          <rect id="rect5269" fill="url(#linearGradient-28)" x="19" y="55" width="10" height="11" />
+          <rect id="rect5271" fill="url(#linearGradient-29)" x="18" y="67" width="12" height="2" />
+          <rect
+            id="rect5273"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect5275"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect5277"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect5279"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect5281"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect5283"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect5285"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g
+          id="组件7备份-4"
+          transform="translate(1170, 864.5) rotate(-90) translate(-1170, -864.5)translate(1146, 828)"
+        >
+          <rect id="rect5288" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect
+            id="rect5290"
+            stroke="#191919"
+            fill="#02C90F"
+            x="17.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect5292" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="rect5294" fill="#02C90F" x="13" y="28" width="1" height="3" />
+          <rect id="rect5296" fill="#02C90F" x="18" y="28" width="4" height="4" />
+          <rect id="rect5298" fill="#02C90F" x="24" y="28" width="8" height="5" />
+          <rect id="rect5300" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="rect5302" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect
+            id="rect5304"
+            stroke="#191919"
+            fill="#02C90F"
+            x="0.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle5306" stroke="#191919" fill="#02C90F" cx="3" cy="23" r="2.5" />
+          <circle id="circle5308" stroke="#191919" fill="#02C90F" cx="2" cy="11" r="1.5" />
+          <rect id="rect5310" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="rect5312" fill="#02C90F" x="34" y="28" width="1" height="3" />
+          <rect id="rect5314" fill="#02C90F" x="19" y="21" width="12" height="3" />
+          <rect
+            id="rect5316"
+            stroke="#191919"
+            fill="#02C90F"
+            x="9.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="path5318"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="polyline5320" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="path5322"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="path5324"
+            stroke="#191919"
+          />
+          <rect
+            id="rect5326"
+            stroke="#191919"
+            fill="#02C90F"
+            x="20.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect5328" fill="#02C90F" x="10" y="14" width="28" height="2" />
+          <rect id="rect5330" fill="#02C90F" x="10" y="17" width="28" height="2" />
+          <rect id="rect5332" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="rect5334"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect5336"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle5338" stroke="#191919" fill="#02C90F" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="rect5340"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect5342"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect5344"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect5346"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect5348"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect5350" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="rect5352" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="rect5354"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect5356" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="rect5358" fill="url(#linearGradient-27)" x="18" y="49" width="12" height="4" />
+          <rect id="rect5360" fill="url(#linearGradient-28)" x="19" y="55" width="10" height="11" />
+          <rect id="rect5362" fill="url(#linearGradient-29)" x="18" y="67" width="12" height="2" />
+          <rect
+            id="rect5364"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect5366"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect5368"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect5370"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect5372"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect5374"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect5376"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="g5401" transform="translate(556, 602)">
+          <rect id="rect5379" fill="#D428B6" x="0" y="42" width="78" height="4" />
+          <g id="g5399" transform="translate(15, 0)">
+            <rect
+              id="rect5381"
+              stroke="#191919"
+              fill="url(#linearGradient-166)"
+              x="17.5"
+              y="36.5"
+              width="17"
+              height="15"
+            />
+            <rect
+              id="rect5383"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="33.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+            <rect
+              id="rect5385"
+              stroke="#191919"
+              fill="url(#linearGradient-168)"
+              x="23.5"
+              y="27.5"
+              width="5"
+              height="10"
+            />
+            <circle id="circle5387" fill="#191919" cx="17" cy="2" r="2" />
+            <rect
+              id="rect5389"
+              stroke="#191919"
+              fill="#C1C3C2"
+              x="12.5"
+              y="2.5"
+              width="27"
+              height="25"
+              rx="3"
+            />
+            <path
+              d="M17,4 L39,4 L39,4 L39,25 C39,26.1045695 38.1045695,27 37,27 L14,27 L14,27 L14,7 C14,5.34314575 15.3431458,4 17,4 Z"
+              id="path5391"
+              fill="#9A9899"
+            />
+            <rect
+              id="rect5393"
+              stroke="#191919"
+              fill="#9A9899"
+              x="11.5"
+              y="13.5"
+              width="29"
+              height="4"
+            />
+            <path
+              d="M12.5,19.5 L12.5,22.5 L3.5,22.5 L3.5,36.5 L0.5,36.5 L0.5,22 C0.5,21.3096441 0.779822031,20.6846441 1.23223305,20.232233 C1.68464406,19.779822 2.30964406,19.5 3,19.5 L12.5,19.5 Z"
+              id="path5395"
+              stroke="#191919"
+              fill="#9A9899"
+            />
+            <rect
+              id="rect5397"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="12.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+          </g>
+        </g>
+        <g id="编组-5" transform="translate(621, 447)">
+          <g id="组件6" transform="translate(0, 46)">
+            <path
+              d="M5.25280762,4.31535469 C28.1685384,1.43845156 51.0842692,0 74,0 C96.9157308,0 119.831462,1.43845156 142.747192,4.31535469 C145.748185,4.69198334 147.999658,7.24341044 148,10.2679443 L148,167.732056 C147.999658,170.75659 145.748185,173.308017 142.747192,173.684645 C119.831462,176.561548 96.9157308,178 74,178 C51.0842692,178 28.1685384,176.561548 5.25280762,173.684645 C2.25181507,173.308017 0.000342381206,170.75659 0,167.732056 L0,10.2679443 C0.000342381206,7.24341044 2.25181507,4.69198334 5.25280762,4.31535469 Z"
+              id="path5403"
+              fill="url(#linearGradient-169)"
+            />
+            <rect id="rect5405" fill="#64D9E4" x="12" y="94" width="122" height="74" />
+            <path
+              d="M66.0005932,12.3978196 C81.9118898,12.1624274 97.9392858,13.3305535 102.901271,14.9916106 C111.726898,17.9460466 115.466981,21.2289407 119.045541,24.3760315 L119.831091,25.0647523 C120.177087,25.3662228 120.525359,25.6659722 120.881307,25.9633901 C134.102741,37.0107595 135.174391,59.592598 134.616181,81.9372207 L134.576199,83.4431068 C134.512881,85.7009962 134.435313,87.9537547 134.354374,90.1892093 C134.155633,95.678255 133.960938,101.038939 133.960938,106.066406 C133.960938,117.033527 135.345303,126.114384 136.502173,133.736657 C138.294717,145.547195 139.289346,154.021361 135.119023,160.682998 C129.821557,169.145123 109.142498,170.947314 87.0756232,170.963735 L85.4379519,170.963008 C85.1645428,170.962582 84.8911071,170.962011 84.6154753,170.961304 L82.9782084,170.955669 C82.1594032,170.952184 81.3412566,170.947785 80.5237131,170.94284 L78.895063,170.932369 C78.2266329,170.927861 77.5596571,170.923158 76.8946337,170.918469 C73.7924442,170.896595 70.7328364,170.875 67.7666016,170.875 C54.4334447,170.875 43.44891,169.148891 35.283632,165.886546 C26.5885069,162.412505 21.0217476,157.183437 18.8083427,150.553378 C16.6963815,144.227184 17.6067671,129.594716 19.0864454,114.801968 L19.214612,113.533815 C19.3224839,112.477011 19.4329028,111.420577 19.5449746,110.367481 L19.6801971,109.105558 L19.8166632,107.84798 L19.9540296,106.595887 C20.1376324,104.930592 20.3227206,103.282964 20.5056325,101.665161 C21.5220574,92.6751745 22.4359346,84.6482109 22.5218813,79.8255705 C22.6426081,73.0513502 22.6916384,66.9022809 22.7359612,61.3472393 C22.9268416,37.4239707 23.4949093,24.3093645 28.3016998,19.1262102 C31.5766012,15.5948894 43.7126684,13.3292338 57.8184298,12.6503605 C60.1202272,12.539581 62.4669894,12.46306 64.8223593,12.4178368 Z"
+              id="路径-7"
+              stroke="#191919"
+              stroke-width="5"
+            />
+            <path
+              d="M60.0005932,8.39781961 C75.9118898,8.16242737 91.9392858,9.3305535 96.9012714,10.9916106 C105.726898,13.9460466 109.466981,17.2289407 113.045541,20.3760315 L113.831091,21.0647523 C114.177087,21.3662228 114.525359,21.6659722 114.881307,21.9633901 C128.102741,33.0107595 129.174391,55.592598 128.616181,77.9372207 L128.576199,79.4431068 C128.512881,81.7009962 128.435313,83.9537547 128.354374,86.1892093 C128.155633,91.678255 127.960938,97.0389394 127.960938,102.066406 C127.960938,113.033527 129.345303,122.114384 130.502173,129.736657 C132.294717,141.547195 133.289346,150.021361 129.119023,156.682998 C123.821557,165.145123 103.142498,166.947314 81.0756232,166.963735 L79.4379519,166.963008 C79.1645428,166.962582 78.8911071,166.962011 78.6154753,166.961304 L76.9782084,166.955669 C76.1594032,166.952184 75.3412566,166.947785 74.5237131,166.94284 L72.895063,166.932369 C72.2266329,166.927861 71.5596571,166.923158 70.8946337,166.918469 C67.7924442,166.896595 64.7328364,166.875 61.7666016,166.875 C48.4334447,166.875 37.44891,165.148891 29.283632,161.886546 C20.5885069,158.412505 15.0217476,153.183437 12.8083427,146.553378 C10.6963815,140.227184 11.6067671,125.594716 13.0864454,110.801968 L13.214612,109.533815 C13.3224839,108.477011 13.4329028,107.420577 13.5449746,106.367481 L13.6801971,105.105558 L13.8166632,103.84798 L13.9540296,102.595887 C14.1376324,100.930592 14.3227206,99.2829636 14.5056325,97.6651606 C15.5220574,88.6751745 16.4359346,80.6482109 16.5218813,75.8255705 C16.6426081,69.0513502 16.6916384,62.9022809 16.7359612,57.3472393 C16.9268416,33.4239707 17.4949093,20.3093645 22.3016998,15.1262102 C25.5766012,11.5948894 37.7126684,9.32923384 51.8184298,8.65036049 C54.1202272,8.53958101 56.4669894,8.46306005 58.8223593,8.4178368 Z"
+              id="path5408"
+              stroke="#FFFFFF"
+              stroke-width="5"
+            />
+            <path
+              d="M74,0 C96.9157308,0 119.831462,1.43845156 142.747192,4.31535469 C145.748185,4.69198334 147.999658,7.24341044 148,10.2679443 L148,167.732056 C147.999658,170.75659 145.748185,173.308017 142.747192,173.684645 C119.831462,176.561548 96.9157308,178 74,178 C51.0842692,178 28.1685384,176.561548 5.25280762,173.684645 C2.25181507,173.308017 0.000342381206,170.75659 0,167.732056 L0,10.2679443 C0.000342381206,7.24341044 2.25181507,4.69198334 5.25280762,4.31535469 C28.1685384,1.43845156 51.0842692,0 74,0 Z M99.107666,15.3623047 C89.215332,12.0507813 34.4123392,10.9787763 27.1347656,18.8261719 C21.3918709,25.0187257 22.6370719,43.3282793 22.0214844,77.8701172 C21.7627242,92.3896618 14.1357422,135.648438 18.1796875,147.761719 C22.2236328,159.875 38.9980469,166.375 64.7666016,166.375 C68.3741992,166.375 72.1196477,166.40685 75.9119233,166.432426 L77.5397858,166.442892 C78.3548852,166.447822 79.1715377,166.452213 79.9888477,166.455692 L81.6240791,166.461319 C81.8966753,166.462017 82.1692782,166.462586 82.4418546,166.463011 L84.0767304,166.463736 C104.774413,166.448331 124.936055,165.445547 130,157.356445 C136.663086,146.712891 128.460938,131 128.460938,104.066406 C128.460938,77.1328125 134,40.6894531 116.27832,25.8818359 C115.909057,25.5732921 115.547711,25.2623836 115.188771,24.9496353 L114.758846,24.5734879 C111.251461,21.4949534 107.763458,18.2598877 99.107666,15.3623047 Z"
+              id="path5410"
+              fill="url(#linearGradient-170)"
+            />
+            <path
+              d="M74,0.5 C96.8949706,0.5 119.78994,1.93716366 142.68493,4.81146296 C144.060382,4.98408409 145.26407,5.65509512 146.123935,6.62951122 C146.983801,7.60392994 147.499843,8.88175524 147.5,10.2679443 L147.5,167.731999 C147.499843,169.118245 146.983801,170.39607 146.123935,171.370489 C145.26407,172.344905 144.060382,173.015916 142.68491,173.18854 C119.78994,176.062836 96.8949706,177.5 74,177.5 C51.1050294,177.5 28.2100601,176.062836 5.31506988,173.188537 C3.93961761,173.015916 2.73592984,172.344905 1.87606537,171.370489 C1.01619859,170.39607 0.500156922,169.118245 0.5,167.732056 L0.499999997,10.2680009 C0.500156922,8.88175524 1.01619859,7.60392994 1.87606537,6.62951122 C2.73592984,5.65509512 3.93961761,4.98408409 5.31509008,4.81146042 C28.2100601,1.93716366 51.1050294,0.5 74,0.5 Z"
+              id="path5412"
+              stroke="#191919"
+            />
+          </g>
+          <text
+            id="油相储罐"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="34" y="253" id="tspan5415">油相储罐</tspan>
+          </text>
+          <path
+            d="M70.331543,182.512695 L37.4863343,193.305583 C35.9122828,193.822814 34.2169634,192.966092 33.6997324,191.39204 C33.6004129,191.089789 33.5498047,190.773662 33.5498047,190.455511 L33.5498047,174.789257 C33.5498047,173.132403 34.8929504,171.789257 36.5498047,171.789257 C36.8618803,171.789257 37.1720449,171.837951 37.4691071,171.933581 L70.331543,182.512695 L70.331543,182.512695 Z"
+            id="路径-2"
+            stroke="#191919"
+            fill="#006900"
+          />
+          <path
+            d="M71.9433594,181.916992 L116.73804,171.108532 C118.885549,170.590362 121.046508,171.911202 121.564679,174.058711 C121.638811,174.365948 121.67627,174.680888 121.67627,174.996941 L121.67627,189.451095 C121.67627,191.660234 119.885409,193.451095 117.67627,193.451095 C117.342925,193.451095 117.010888,193.409427 116.687881,193.327058 L71.9433594,181.916992 L71.9433594,181.916992 Z"
+            id="路径-4"
+            stroke="#191919"
+            fill="#006900"
+          />
+          <rect
+            id="rect5420"
+            stroke="#006506"
+            fill="#CEEDC9"
+            x="68.831543"
+            y="59.5"
+            width="3"
+            height="126"
+          />
+          <path
+            d="M70.331543,182.635498 L29.7816387,171.692415 C28.1820099,171.260728 26.535303,172.207531 26.1036159,173.80716 C26.0348395,174.062013 26,174.324829 26,174.588799 L26,189.725209 C26,191.382064 27.3431458,192.725209 29,192.725209 C29.2417733,192.725209 29.4826602,192.695982 29.7174185,192.638165 L70.331543,182.635498 L70.331543,182.635498 Z"
+            id="路径-6"
+            stroke="#191919"
+            fill="#00650F"
+          />
+          <path
+            d="M71.9433594,182.635498 L113.113764,170.916791 C114.707321,170.463203 116.36686,171.38733 116.820448,172.980887 C116.896487,173.248026 116.935059,173.524431 116.935059,173.802181 L116.935059,189.738625 C116.935059,191.395479 115.591913,192.738625 113.935059,192.738625 C113.696707,192.738625 113.459206,192.71022 113.227577,192.65401 L71.9433594,182.635498 L71.9433594,182.635498 Z"
+            id="路径-5"
+            stroke="#191919"
+            fill="#00650F"
+          />
+          <g id="组件5" transform="translate(59, 0)">
+            <mask id="mask-172" fill="white">
+              <use xlink:href="#path-171" id="use5424" />
+            </mask>
+            <use id="use5427" fill="#D8D8D8" xlink:href="#path-171" />
+            <g mask="url(#mask-172)" id="g5464">
+              <rect id="rect5429" fill="#191919" x="0" y="0" width="30" height="42" />
+              <rect id="rect5431" fill="#191919" x="2" y="41" width="26" height="5" />
+              <rect id="rect5433" fill="#007404" x="3" y="42" width="4" height="3" />
+              <rect id="矩形备份-47" fill="#429A4B" x="7" y="42" width="5" height="3" />
+              <rect id="矩形备份-48" fill="#5CB365" x="12" y="42" width="5" height="3" />
+              <rect id="矩形备份-49" fill="#429A4B" x="17" y="42" width="5" height="3" />
+              <rect id="矩形备份-50" fill="#007404" x="22" y="42" width="5" height="3" />
+              <rect id="rect5439" fill="#D8D8D8" x="1" y="0" width="28" height="5" />
+              <rect id="rect5441" fill="#007404" x="1" y="0" width="5" height="5" />
+              <rect id="rect5443" fill="#429A4B" x="6" y="0" width="6" height="5" />
+              <rect id="rect5445" fill="#5CB365" x="12" y="0" width="6" height="5" />
+              <rect id="rect5447" fill="#429A4B" x="18" y="0" width="6" height="5" />
+              <rect id="rect5449" fill="#007404" x="24" y="0" width="5" height="5" />
+              <rect id="rect5451" fill="#429A4B" x="27" y="12" width="1" height="26" />
+              <rect id="矩形备份-46" fill="#429A4B" x="2" y="7" width="3" height="14" />
+              <rect id="rect5454" fill="#429A4B" x="1" y="22" width="16" height="16" />
+              <rect id="rect5456" fill="#FFFFFF" x="1" y="22" width="16" height="2" />
+              <rect id="rect5458" fill="#FFFFFF" x="15" y="22" width="2" height="15" />
+              <rect id="rect5460" fill="#191919" x="1" y="37" width="16" height="2" />
+              <rect id="rect5462" fill="#191919" x="1" y="22" width="2" height="16" />
+            </g>
+            <rect
+              id="rect5466"
+              fill="#191919"
+              mask="url(#mask-172)"
+              x="0"
+              y="0"
+              width="30"
+              height="1"
+            />
+            <path
+              d="M27.8060756,0.5 L29.5,2.04662659 L29.5,41.5 L0.5,41.5 L0.5,2.04662659 L2.19392436,0.5 L27.8060756,0.5 Z"
+              id="path5468"
+              stroke="#191919"
+              mask="url(#mask-172)"
+            />
+          </g>
+        </g>
+        <g id="g5494" transform="translate(273, 370)">
+          <rect id="rect5472" fill="#D428B6" x="0" y="42" width="78" height="4" />
+          <g id="g5492" transform="translate(15, 0)">
+            <rect
+              id="rect5474"
+              stroke="#191919"
+              fill="url(#linearGradient-166)"
+              x="17.5"
+              y="36.5"
+              width="17"
+              height="15"
+            />
+            <rect
+              id="rect5476"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="33.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+            <rect
+              id="rect5478"
+              stroke="#191919"
+              fill="url(#linearGradient-168)"
+              x="23.5"
+              y="27.5"
+              width="5"
+              height="10"
+            />
+            <circle id="circle5480" fill="#191919" cx="17" cy="2" r="2" />
+            <rect
+              id="rect5482"
+              stroke="#191919"
+              fill="#C1C3C2"
+              x="12.5"
+              y="2.5"
+              width="27"
+              height="25"
+              rx="3"
+            />
+            <path
+              d="M17,4 L39,4 L39,4 L39,25 C39,26.1045695 38.1045695,27 37,27 L14,27 L14,27 L14,7 C14,5.34314575 15.3431458,4 17,4 Z"
+              id="path5484"
+              fill="#9A9899"
+            />
+            <rect
+              id="rect5486"
+              stroke="#191919"
+              fill="#9A9899"
+              x="11.5"
+              y="13.5"
+              width="29"
+              height="4"
+            />
+            <path
+              d="M12.5,19.5 L12.5,22.5 L3.5,22.5 L3.5,36.5 L0.5,36.5 L0.5,22 C0.5,21.3096441 0.779822031,20.6846441 1.23223305,20.232233 C1.68464406,19.779822 2.30964406,19.5 3,19.5 L12.5,19.5 Z"
+              id="path5488"
+              stroke="#191919"
+              fill="#9A9899"
+            />
+            <rect
+              id="rect5490"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="12.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+          </g>
+        </g>
+        <g id="g5518" transform="translate(558, 1018)">
+          <rect id="rect5496" fill="#D428B6" x="0" y="42" width="78" height="4" />
+          <g id="g5516" transform="translate(15, 0)">
+            <rect
+              id="rect5498"
+              stroke="#191919"
+              fill="url(#linearGradient-2)"
+              x="17.5"
+              y="36.5"
+              width="17"
+              height="15"
+            />
+            <rect
+              id="rect5500"
+              stroke="#191919"
+              fill="url(#linearGradient-3)"
+              x="33.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+            <rect
+              id="rect5502"
+              stroke="#191919"
+              fill="url(#linearGradient-4)"
+              x="23.5"
+              y="27.5"
+              width="5"
+              height="10"
+            />
+            <circle id="circle5504" fill="#191919" cx="17" cy="2" r="2" />
+            <rect
+              id="rect5506"
+              stroke="#191919"
+              fill="#9BBF8D"
+              x="12.5"
+              y="2.5"
+              width="27"
+              height="25"
+              rx="3"
+            />
+            <path
+              d="M17,4 L39,4 L39,4 L39,25 C39,26.1045695 38.1045695,27 37,27 L14,27 L14,27 L14,7 C14,5.34314575 15.3431458,4 17,4 Z"
+              id="path5508"
+              fill="#2F9931"
+            />
+            <rect
+              id="rect5510"
+              stroke="#191919"
+              fill="#2F9931"
+              x="11.5"
+              y="13.5"
+              width="29"
+              height="4"
+            />
+            <path
+              d="M12.5,19.5 L12.5,22.5 L3.5,22.5 L3.5,36.5 L0.5,36.5 L0.5,22 C0.5,21.3096441 0.779822031,20.6846441 1.23223305,20.232233 C1.68464406,19.779822 2.30964406,19.5 3,19.5 L12.5,19.5 Z"
+              id="path5512"
+              stroke="#191919"
+              fill="#2F9931"
+            />
+            <rect
+              id="rect5514"
+              stroke="#191919"
+              fill="url(#linearGradient-3)"
+              x="12.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+          </g>
+        </g>
+        <g id="g5532" transform="translate(545, 956)">
+          <rect id="rect5520" fill="#16A2BC" x="2" y="0" width="39" height="14" />
+          <rect id="rect5522" fill="#191919" x="2" y="0" width="39" height="1" />
+          <rect id="rect5524" fill="#99A5AF" x="2" y="1" width="39" height="1" />
+          <rect id="rect5526" fill="#99A5AF" x="2" y="12" width="39" height="1" />
+          <rect id="rect5528" fill="#191919" x="2" y="13" width="39" height="1" />
+          <path
+            d="M14,4 L14,6 L26,6 L26,8 L14,8 L14,10 L12,10 L12,8 L0,8 L0,6 L12,6 L12,4 L14,4 Z"
+            id="path5530"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="组件2备份-3" transform="translate(519, 902)">
+          <rect id="rect5534" fill="#16A2BC" x="0" y="0" width="14" height="262" />
+          <rect id="rect5536" fill="#191919" x="0" y="0" width="1" height="262" />
+          <rect id="rect5538" fill="#191919" x="13" y="0" width="1" height="262" />
+          <rect id="rect5540" fill="#99A5AF" x="1" y="0" width="1" height="262" />
+          <rect id="rect5542" fill="#99A5AF" x="12" y="0" width="1" height="262" />
+          <rect id="rect5544" fill="#FFFFFF" x="6" y="81" width="2" height="46" />
+          <rect id="rect5546" fill="#FFFFFF" x="4" y="113" width="6" height="2" />
+          <rect id="rect5548" fill="#FFFFFF" x="6" y="216" width="2" height="46" />
+          <rect id="rect5550" fill="#FFFFFF" x="4" y="248" width="6" height="2" />
+        </g>
+        <g
+          id="g5643"
+          transform="translate(504, 1077.5) rotate(-90) translate(-504, -1077.5)translate(480, 1041)"
+        >
+          <rect id="rect5553" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect
+            id="rect5555"
+            stroke="#191919"
+            fill="#696969"
+            x="17.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect5557" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="rect5559" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="rect5561" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="rect5563" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="rect5565" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="rect5567" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect
+            id="rect5569"
+            stroke="#191919"
+            fill="#9B999A"
+            x="0.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle5571" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="circle5573" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="rect5575" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="rect5577" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="rect5579" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect
+            id="rect5581"
+            stroke="#191919"
+            fill="#9B999A"
+            x="9.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="path5583"
+            fill="#F6F4F5"
+          />
+          <polyline id="polyline5585" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="path5587"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="path5589"
+            stroke="#191919"
+          />
+          <rect
+            id="rect5591"
+            stroke="#191919"
+            fill="#696969"
+            x="20.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect5593" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="rect5595" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="rect5597" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="rect5599"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect5601"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle5603" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="rect5605"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect5607"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect5609"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect5611"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect5613"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect5615" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="rect5617" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="rect5619"
+            stroke="#191919"
+            fill="#696969"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect5621" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="rect5623" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="rect5625" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="rect5627" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect
+            id="rect5629"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect5631"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect5633"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect5635"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect5637"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect5639"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect5641"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="g5659" transform="translate(596, 871)">
+          <rect id="rect5645" fill="#16A2BC" x="0" y="0" width="14" height="72" />
+          <rect id="rect5647" fill="#191919" x="0" y="0" width="1" height="72" />
+          <rect id="rect5649" fill="#191919" x="13" y="0" width="1" height="72" />
+          <rect id="rect5651" fill="#99A5AF" x="1" y="0" width="1" height="72" />
+          <rect id="rect5653" fill="#99A5AF" x="12" y="0" width="1" height="72" />
+          <rect id="rect5655" fill="#FFFFFF" x="6" y="40" width="2" height="32" />
+          <rect id="rect5657" fill="#FFFFFF" x="4" y="52" width="6" height="2" />
+        </g>
+        <g id="g5675" transform="translate(649, 874)">
+          <rect id="rect5661" fill="#16A2BC" x="0" y="0" width="14" height="72" />
+          <rect id="rect5663" fill="#191919" x="0" y="0" width="1" height="72" />
+          <rect id="rect5665" fill="#191919" x="13" y="0" width="1" height="72" />
+          <rect id="rect5667" fill="#99A5AF" x="1" y="0" width="1" height="72" />
+          <rect id="rect5669" fill="#99A5AF" x="12" y="0" width="1" height="72" />
+          <rect id="rect5671" fill="#FFFFFF" x="6" y="40" width="2" height="32" />
+          <rect id="rect5673" fill="#FFFFFF" x="4" y="58" width="6" height="2" />
+        </g>
+        <g id="组件3" transform="translate(507, 874)">
+          <g id="g5691" transform="translate(6, 3)">
+            <mask id="mask-174" fill="white">
+              <use xlink:href="#path-173" id="use5677" />
+            </mask>
+            <g id="g5680" />
+            <polygon
+              id="polygon5682"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-174)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon5684"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-174)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-176" fill="white">
+              <use xlink:href="#path-175" id="use5686" />
+            </mask>
+            <use id="use5689" stroke="#191919" xlink:href="#path-175" />
+          </g>
+          <rect id="rect5693" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect5695" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect5697" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect5699" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect5701" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect5703" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect5705" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect5707" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon5709" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect5711" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect5713" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect5715" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect5717" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect5719" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-2"
+          transform="translate(598.5, 958) scale(1, -1) translate(-598.5, -958)translate(584, 943)"
+        >
+          <g id="g5736" transform="translate(6, 3)">
+            <mask id="mask-178" fill="white">
+              <use xlink:href="#path-177" id="use5722" />
+            </mask>
+            <g id="g5725" />
+            <polygon
+              id="polygon5727"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-178)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon5729"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-178)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-180" fill="white">
+              <use xlink:href="#path-179" id="use5731" />
+            </mask>
+            <use id="use5734" stroke="#191919" xlink:href="#path-179" />
+          </g>
+          <rect id="rect5738" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect5740" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect5742" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect5744" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect5746" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect5748" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect5750" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect5752" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon5754" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect5756" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect5758" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect5760" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect5762" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect5764" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="g5847" transform="translate(621, 871)">
+          <g id="g5779" transform="translate(0, 46)">
+            <path
+              d="M5.25280762,4.31535469 C28.1685384,1.43845156 51.0842692,0 74,0 C96.9157308,0 119.831462,1.43845156 142.747192,4.31535469 C145.748185,4.69198334 147.999658,7.24341044 148,10.2679443 L148,167.732056 C147.999658,170.75659 145.748185,173.308017 142.747192,173.684645 C119.831462,176.561548 96.9157308,178 74,178 C51.0842692,178 28.1685384,176.561548 5.25280762,173.684645 C2.25181507,173.308017 0.000342381206,170.75659 0,167.732056 L0,10.2679443 C0.000342381206,7.24341044 2.25181507,4.69198334 5.25280762,4.31535469 Z"
+              id="path5767"
+              fill="url(#linearGradient-169)"
+            />
+            <rect id="rect5769" fill="#64D9E4" x="12" y="94" width="122" height="74" />
+            <path
+              d="M66.0005932,12.3978196 C81.9118898,12.1624274 97.9392858,13.3305535 102.901271,14.9916106 C111.726898,17.9460466 115.466981,21.2289407 119.045541,24.3760315 L119.831091,25.0647523 C120.177087,25.3662228 120.525359,25.6659722 120.881307,25.9633901 C134.102741,37.0107595 135.174391,59.592598 134.616181,81.9372207 L134.576199,83.4431068 C134.512881,85.7009962 134.435313,87.9537547 134.354374,90.1892093 C134.155633,95.678255 133.960938,101.038939 133.960938,106.066406 C133.960938,117.033527 135.345303,126.114384 136.502173,133.736657 C138.294717,145.547195 139.289346,154.021361 135.119023,160.682998 C129.821557,169.145123 109.142498,170.947314 87.0756232,170.963735 L85.4379519,170.963008 C85.1645428,170.962582 84.8911071,170.962011 84.6154753,170.961304 L82.9782084,170.955669 C82.1594032,170.952184 81.3412566,170.947785 80.5237131,170.94284 L78.895063,170.932369 C78.2266329,170.927861 77.5596571,170.923158 76.8946337,170.918469 C73.7924442,170.896595 70.7328364,170.875 67.7666016,170.875 C54.4334447,170.875 43.44891,169.148891 35.283632,165.886546 C26.5885069,162.412505 21.0217476,157.183437 18.8083427,150.553378 C16.6963815,144.227184 17.6067671,129.594716 19.0864454,114.801968 L19.214612,113.533815 C19.3224839,112.477011 19.4329028,111.420577 19.5449746,110.367481 L19.6801971,109.105558 L19.8166632,107.84798 L19.9540296,106.595887 C20.1376324,104.930592 20.3227206,103.282964 20.5056325,101.665161 C21.5220574,92.6751745 22.4359346,84.6482109 22.5218813,79.8255705 C22.6426081,73.0513502 22.6916384,66.9022809 22.7359612,61.3472393 C22.9268416,37.4239707 23.4949093,24.3093645 28.3016998,19.1262102 C31.5766012,15.5948894 43.7126684,13.3292338 57.8184298,12.6503605 C60.1202272,12.539581 62.4669894,12.46306 64.8223593,12.4178368 Z"
+              id="path5771"
+              stroke="#191919"
+              stroke-width="5"
+            />
+            <path
+              d="M60.0005932,8.39781961 C75.9118898,8.16242737 91.9392858,9.3305535 96.9012714,10.9916106 C105.726898,13.9460466 109.466981,17.2289407 113.045541,20.3760315 L113.831091,21.0647523 C114.177087,21.3662228 114.525359,21.6659722 114.881307,21.9633901 C128.102741,33.0107595 129.174391,55.592598 128.616181,77.9372207 L128.576199,79.4431068 C128.512881,81.7009962 128.435313,83.9537547 128.354374,86.1892093 C128.155633,91.678255 127.960938,97.0389394 127.960938,102.066406 C127.960938,113.033527 129.345303,122.114384 130.502173,129.736657 C132.294717,141.547195 133.289346,150.021361 129.119023,156.682998 C123.821557,165.145123 103.142498,166.947314 81.0756232,166.963735 L79.4379519,166.963008 C79.1645428,166.962582 78.8911071,166.962011 78.6154753,166.961304 L76.9782084,166.955669 C76.1594032,166.952184 75.3412566,166.947785 74.5237131,166.94284 L72.895063,166.932369 C72.2266329,166.927861 71.5596571,166.923158 70.8946337,166.918469 C67.7924442,166.896595 64.7328364,166.875 61.7666016,166.875 C48.4334447,166.875 37.44891,165.148891 29.283632,161.886546 C20.5885069,158.412505 15.0217476,153.183437 12.8083427,146.553378 C10.6963815,140.227184 11.6067671,125.594716 13.0864454,110.801968 L13.214612,109.533815 C13.3224839,108.477011 13.4329028,107.420577 13.5449746,106.367481 L13.6801971,105.105558 L13.8166632,103.84798 L13.9540296,102.595887 C14.1376324,100.930592 14.3227206,99.2829636 14.5056325,97.6651606 C15.5220574,88.6751745 16.4359346,80.6482109 16.5218813,75.8255705 C16.6426081,69.0513502 16.6916384,62.9022809 16.7359612,57.3472393 C16.9268416,33.4239707 17.4949093,20.3093645 22.3016998,15.1262102 C25.5766012,11.5948894 37.7126684,9.32923384 51.8184298,8.65036049 C54.1202272,8.53958101 56.4669894,8.46306005 58.8223593,8.4178368 Z"
+              id="path5773"
+              stroke="#FFFFFF"
+              stroke-width="5"
+            />
+            <path
+              d="M74,0 C96.9157308,0 119.831462,1.43845156 142.747192,4.31535469 C145.748185,4.69198334 147.999658,7.24341044 148,10.2679443 L148,167.732056 C147.999658,170.75659 145.748185,173.308017 142.747192,173.684645 C119.831462,176.561548 96.9157308,178 74,178 C51.0842692,178 28.1685384,176.561548 5.25280762,173.684645 C2.25181507,173.308017 0.000342381206,170.75659 0,167.732056 L0,10.2679443 C0.000342381206,7.24341044 2.25181507,4.69198334 5.25280762,4.31535469 C28.1685384,1.43845156 51.0842692,0 74,0 Z M99.107666,15.3623047 C89.215332,12.0507813 34.4123392,10.9787763 27.1347656,18.8261719 C21.3918709,25.0187257 22.6370719,43.3282793 22.0214844,77.8701172 C21.7627242,92.3896618 14.1357422,135.648438 18.1796875,147.761719 C22.2236328,159.875 38.9980469,166.375 64.7666016,166.375 C68.3741992,166.375 72.1196477,166.40685 75.9119233,166.432426 L77.5397858,166.442892 C78.3548852,166.447822 79.1715377,166.452213 79.9888477,166.455692 L81.6240791,166.461319 C81.8966753,166.462017 82.1692782,166.462586 82.4418546,166.463011 L84.0767304,166.463736 C104.774413,166.448331 124.936055,165.445547 130,157.356445 C136.663086,146.712891 128.460938,131 128.460938,104.066406 C128.460938,77.1328125 134,40.6894531 116.27832,25.8818359 C115.909057,25.5732921 115.547711,25.2623836 115.188771,24.9496353 L114.758846,24.5734879 C111.251461,21.4949534 107.763458,18.2598877 99.107666,15.3623047 Z"
+              id="path5775"
+              fill="url(#linearGradient-170)"
+            />
+            <path
+              d="M74,0.5 C96.8949706,0.5 119.78994,1.93716366 142.68493,4.81146296 C144.060382,4.98408409 145.26407,5.65509512 146.123935,6.62951122 C146.983801,7.60392994 147.499843,8.88175524 147.5,10.2679443 L147.5,167.731999 C147.499843,169.118245 146.983801,170.39607 146.123935,171.370489 C145.26407,172.344905 144.060382,173.015916 142.68491,173.18854 C119.78994,176.062836 96.8949706,177.5 74,177.5 C51.1050294,177.5 28.2100601,176.062836 5.31506988,173.188537 C3.93961761,173.015916 2.73592984,172.344905 1.87606537,171.370489 C1.01619859,170.39607 0.500156922,169.118245 0.5,167.732056 L0.499999997,10.2680009 C0.500156922,8.88175524 1.01619859,7.60392994 1.87606537,6.62951122 C2.73592984,5.65509512 3.93961761,4.98408409 5.31509008,4.81146042 C28.2100601,1.93716366 51.1050294,0.5 74,0.5 Z"
+              id="path5777"
+              stroke="#191919"
+            />
+          </g>
+          <text
+            id="水相储罐"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="34" y="253" id="tspan5781">水相储罐</tspan>
+          </text>
+          <path
+            d="M70.331543,182.512695 L37.4863343,193.305583 C35.9122828,193.822814 34.2169634,192.966092 33.6997324,191.39204 C33.6004129,191.089789 33.5498047,190.773662 33.5498047,190.455511 L33.5498047,174.789257 C33.5498047,173.132403 34.8929504,171.789257 36.5498047,171.789257 C36.8618803,171.789257 37.1720449,171.837951 37.4691071,171.933581 L70.331543,182.512695 L70.331543,182.512695 Z"
+            id="path5784"
+            stroke="#191919"
+            fill="#006900"
+          />
+          <path
+            d="M71.9433594,181.916992 L116.73804,171.108532 C118.885549,170.590362 121.046508,171.911202 121.564679,174.058711 C121.638811,174.365948 121.67627,174.680888 121.67627,174.996941 L121.67627,189.451095 C121.67627,191.660234 119.885409,193.451095 117.67627,193.451095 C117.342925,193.451095 117.010888,193.409427 116.687881,193.327058 L71.9433594,181.916992 L71.9433594,181.916992 Z"
+            id="path5786"
+            stroke="#191919"
+            fill="#006900"
+          />
+          <rect
+            id="rect5788"
+            stroke="#006506"
+            fill="#CEEDC9"
+            x="68.831543"
+            y="59.5"
+            width="3"
+            height="126"
+          />
+          <path
+            d="M70.331543,182.635498 L29.7816387,171.692415 C28.1820099,171.260728 26.535303,172.207531 26.1036159,173.80716 C26.0348395,174.062013 26,174.324829 26,174.588799 L26,189.725209 C26,191.382064 27.3431458,192.725209 29,192.725209 C29.2417733,192.725209 29.4826602,192.695982 29.7174185,192.638165 L70.331543,182.635498 L70.331543,182.635498 Z"
+            id="path5790"
+            stroke="#191919"
+            fill="#00650F"
+          />
+          <path
+            d="M71.9433594,182.635498 L113.113764,170.916791 C114.707321,170.463203 116.36686,171.38733 116.820448,172.980887 C116.896487,173.248026 116.935059,173.524431 116.935059,173.802181 L116.935059,189.738625 C116.935059,191.395479 115.591913,192.738625 113.935059,192.738625 C113.696707,192.738625 113.459206,192.71022 113.227577,192.65401 L71.9433594,182.635498 L71.9433594,182.635498 Z"
+            id="path5792"
+            stroke="#191919"
+            fill="#00650F"
+          />
+          <g id="g5845" transform="translate(59, 0)">
+            <mask id="mask-182" fill="white">
+              <use xlink:href="#path-181" id="use5794" />
+            </mask>
+            <use id="use5797" fill="#D8D8D8" xlink:href="#path-181" />
+            <g mask="url(#mask-182)" id="g5839">
+              <rect id="rect5799" fill="#191919" x="0" y="0" width="30" height="42" />
+              <rect id="rect5801" fill="#191919" x="2" y="41" width="26" height="5" />
+              <rect id="rect5803" fill="#007404" x="3" y="42" width="4" height="3" />
+              <rect id="rect5805" fill="#429A4B" x="7" y="42" width="5" height="3" />
+              <rect id="rect5807" fill="#5CB365" x="12" y="42" width="5" height="3" />
+              <rect id="rect5809" fill="#429A4B" x="17" y="42" width="5" height="3" />
+              <rect id="rect5811" fill="#007404" x="22" y="42" width="5" height="3" />
+              <rect id="rect5813" fill="#D8D8D8" x="1" y="0" width="28" height="5" />
+              <rect id="rect5815" fill="#007404" x="1" y="0" width="5" height="5" />
+              <rect id="rect5817" fill="#429A4B" x="6" y="0" width="6" height="5" />
+              <rect id="rect5819" fill="#5CB365" x="12" y="0" width="6" height="5" />
+              <rect id="rect5821" fill="#429A4B" x="18" y="0" width="6" height="5" />
+              <rect id="rect5823" fill="#007404" x="24" y="0" width="5" height="5" />
+              <rect id="rect5825" fill="#429A4B" x="27" y="12" width="1" height="26" />
+              <rect id="rect5827" fill="#429A4B" x="2" y="7" width="3" height="14" />
+              <rect id="rect5829" fill="#429A4B" x="1" y="22" width="16" height="16" />
+              <rect id="rect5831" fill="#FFFFFF" x="1" y="22" width="16" height="2" />
+              <rect id="rect5833" fill="#FFFFFF" x="15" y="22" width="2" height="15" />
+              <rect id="rect5835" fill="#191919" x="1" y="37" width="16" height="2" />
+              <rect id="rect5837" fill="#191919" x="1" y="22" width="2" height="16" />
+            </g>
+            <rect
+              id="rect5841"
+              fill="#191919"
+              mask="url(#mask-182)"
+              x="0"
+              y="0"
+              width="30"
+              height="1"
+            />
+            <path
+              d="M27.8060756,0.5 L29.5,2.04662659 L29.5,41.5 L0.5,41.5 L0.5,2.04662659 L2.19392436,0.5 L27.8060756,0.5 Z"
+              id="path5843"
+              stroke="#191919"
+              mask="url(#mask-182)"
+            />
+          </g>
+        </g>
+        <g id="g5861" transform="translate(617, 847)">
+          <rect id="rect5849" fill="#16A2BC" x="2" y="0" width="39" height="14" />
+          <rect id="rect5851" fill="#191919" x="2" y="0" width="39" height="1" />
+          <rect id="rect5853" fill="#99A5AF" x="2" y="1" width="39" height="1" />
+          <rect id="rect5855" fill="#99A5AF" x="2" y="12" width="39" height="1" />
+          <rect id="rect5857" fill="#191919" x="2" y="13" width="39" height="1" />
+          <path
+            d="M14,4 L14,6 L26,6 L26,8 L14,8 L14,10 L12,10 L12,8 L0,8 L0,6 L12,6 L12,4 L14,4 Z"
+            id="path5859"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g
+          id="g5907"
+          transform="translate(607.5, 859) scale(-1, 1) translate(-607.5, -859)translate(593, 844)"
+        >
+          <g id="g5877" transform="translate(6, 3)">
+            <mask id="mask-184" fill="white">
+              <use xlink:href="#path-183" id="use5863" />
+            </mask>
+            <g id="g5866" />
+            <polygon
+              id="polygon5868"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-184)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon5870"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-184)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-186" fill="white">
+              <use xlink:href="#path-185" id="use5872" />
+            </mask>
+            <use id="use5875" stroke="#191919" xlink:href="#path-185" />
+          </g>
+          <rect id="rect5879" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect5881" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect5883" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect5885" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect5887" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect5889" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect5891" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect5893" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon5895" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect5897" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect5899" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect5901" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect5903" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect5905" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件3备份-4" transform="translate(637, 844)">
+          <g id="g5923" transform="translate(6, 3)">
+            <mask id="mask-188" fill="white">
+              <use xlink:href="#path-187" id="use5909" />
+            </mask>
+            <g id="g5912" />
+            <polygon
+              id="polygon5914"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-188)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon5916"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-188)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-190" fill="white">
+              <use xlink:href="#path-189" id="use5918" />
+            </mask>
+            <use id="use5921" stroke="#191919" xlink:href="#path-189" />
+          </g>
+          <rect id="rect5925" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect5927" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect5929" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect5931" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect5933" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect5935" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect5937" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect5939" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon5941" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect5943" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect5945" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect5947" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect5949" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect5951" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份"
+          transform="translate(521.5, 1177) scale(1, -1) translate(-521.5, -1177)translate(507, 1162)"
+        >
+          <g id="g5968" transform="translate(6, 3)">
+            <mask id="mask-192" fill="white">
+              <use xlink:href="#path-191" id="use5954" />
+            </mask>
+            <g id="g5957" />
+            <polygon
+              id="polygon5959"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-192)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon5961"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-192)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-194" fill="white">
+              <use xlink:href="#path-193" id="use5963" />
+            </mask>
+            <use id="use5966" stroke="#191919" xlink:href="#path-193" />
+          </g>
+          <rect id="rect5970" fill="url(#linearGradient-195)" x="0" y="0" width="7" height="20" />
+          <rect id="rect5972" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect5974" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect5976" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect5978" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect5980" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect5982" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect5984" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon5986" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect5988" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect5990" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect5992" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect5994" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect5996" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="g6109" transform="translate(444, 1123)">
+          <g id="g6007" transform="translate(55, 49)">
+            <rect id="rect5999" fill="url(#linearGradient-196)" x="0" y="0" width="8" height="20" />
+            <rect id="rect6001" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="rect6003" fill="#191919" x="0" y="0" width="8" height="1" />
+            <rect id="rect6005" fill="#191919" x="0" y="19" width="8" height="1" />
+          </g>
+          <g id="g6017" transform="translate(0, 49)">
+            <rect id="rect6009" fill="url(#linearGradient-18)" x="0" y="0" width="9" height="20" />
+            <rect id="rect6011" fill="#191919" x="8" y="2" width="1" height="17" />
+            <rect id="rect6013" fill="#191919" x="0" y="0" width="8.30769231" height="1" />
+            <rect id="rect6015" fill="#191919" x="0" y="19" width="8.30769231" height="1" />
+          </g>
+          <rect id="rect6019" fill="#191919" x="23" y="19" width="19" height="17" />
+          <rect
+            id="rect6021"
+            stroke="#191919"
+            fill="#696969"
+            x="25.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect6023" fill="#191919" x="20" y="26" width="24" height="8" />
+          <rect id="rect6025" fill="#696969" x="21" y="28" width="1" height="3" />
+          <rect id="rect6027" fill="#696969" x="26" y="28" width="4" height="4" />
+          <rect id="rect6029" fill="#696969" x="32" y="28" width="8" height="5" />
+          <rect id="rect6031" fill="#191919" x="11" y="21" width="13" height="3" />
+          <rect id="rect6033" fill="#191919" x="11" y="10" width="10" height="2" />
+          <rect
+            id="rect6035"
+            stroke="#191919"
+            fill="#9B999A"
+            x="8.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle6037" stroke="#191919" fill="#9B999A" cx="11" cy="23" r="2.5" />
+          <circle id="circle6039" stroke="#191919" fill="#9B999A" cx="10" cy="11" r="1.5" />
+          <rect id="rect6041" fill="#191919" x="17" y="4" width="30" height="20" />
+          <rect id="rect6043" fill="#696969" x="42" y="28" width="1" height="3" />
+          <rect id="rect6045" fill="#696969" x="27" y="21" width="12" height="3" />
+          <rect
+            id="rect6047"
+            stroke="#191919"
+            fill="#9B999A"
+            x="17.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M26.5,4 L26.5,2 C26.5,0.8954305 27.3954305,2.02906125e-16 28.5,0 L34.5,0 C36.1568542,-3.04359188e-16 37.5,1.34314575 37.5,3 L37.5,4 L37.5,4 L26.5,4 Z"
+            id="path6049"
+            fill="#F6F4F5"
+          />
+          <polyline id="polyline6051" stroke="#191919" points="27 2 27 -9.10729825e-18 32 0" />
+          <path
+            d="M34,0 L35,0 C36.1045695,-2.02906125e-16 37,0.8954305 37,2 L37,2 L37,2"
+            id="path6053"
+            stroke="#191919"
+          />
+          <path
+            d="M26,2 L26,3 C26,3.55228475 26.4477153,4 27,4 L37,4 C37.5522847,4 38,3.55228475 38,3 L38,2 L38,2"
+            id="path6055"
+            stroke="#191919"
+          />
+          <rect
+            id="rect6057"
+            stroke="#191919"
+            fill="#696969"
+            x="28.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect6059" fill="#9B999A" x="18" y="14" width="28" height="2" />
+          <rect id="rect6061" fill="#696969" x="18" y="17" width="28" height="2" />
+          <rect id="rect6063" fill="#191919" x="47" y="12" width="3" height="7" />
+          <rect
+            id="rect6065"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="35.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect6067"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="23.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle6069" stroke="#191919" fill="#9B999A" cx="41.5" cy="13.5" r="3" />
+          <rect
+            id="rect6071"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="8.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect6073"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="9.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect6075"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="8.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect6077"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="13.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect6079"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="39.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect6081" fill="#000000" x="26" y="45" width="13" height="25" />
+          <rect id="rect6083" fill="#191919" x="25" y="45" width="14" height="4" />
+          <rect
+            id="rect6085"
+            stroke="#191919"
+            fill="#696969"
+            x="27.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect6087" fill="#191919" x="28" y="44" width="7" height="1" />
+          <rect id="rect6089" fill="#F1F1F1" x="26" y="49" width="12" height="4" />
+          <rect id="rect6091" fill="#F1F1F1" x="27" y="55" width="10" height="11" />
+          <rect id="rect6093" fill="#F1F1F1" x="26" y="67" width="12" height="2" />
+          <rect
+            id="rect6095"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="9.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect6097"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="8.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect6099"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect6101"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect6103"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect6105"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect6107"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g
+          id="g6139"
+          transform="translate(532, 963) scale(-1, 1) rotate(90) translate(-532, -963)translate(509, 946)"
+        >
+          <rect id="rect6111" fill="url(#linearGradient-48)" x="7" y="1" width="32" height="22" />
+          <path
+            d="M14,27 L14,21 L23,12 L32,21 L32,27 L14,27 Z"
+            id="path6113"
+            fill="url(#linearGradient-197)"
+          />
+          <rect id="rect6115" fill="url(#linearGradient-51)" x="0" y="0" width="7" height="24" />
+          <rect id="rect6117" fill="#B4B2B3" x="0" y="1" width="1" height="22" />
+          <rect id="rect6119" fill="url(#linearGradient-52)" x="11" y="27" width="24" height="7" />
+          <rect id="rect6121" fill="#B4B2B3" x="12" y="27" width="22" height="1" />
+          <rect id="rect6123" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect6125" fill="#191919" x="0" y="23" width="7" height="1" />
+          <rect id="rect6127" fill="#191919" x="11" y="27" width="1" height="7" />
+          <rect id="rect6129" fill="#191919" x="34" y="27" width="1" height="7" />
+          <rect id="rect6131" fill="url(#linearGradient-51)" x="39" y="0" width="7" height="24" />
+          <rect id="rect6133" fill="#B4B2B3" x="39" y="1" width="1" height="22" />
+          <rect id="rect6135" fill="#191919" x="39" y="0" width="7" height="1" />
+          <rect id="rect6137" fill="#191919" x="39" y="23" width="7" height="1" />
+        </g>
+        <g id="g6151" transform="translate(537, 1070)">
+          <rect id="rect6141" fill="#16A2BC" x="0" y="0" width="38" height="14" />
+          <rect id="rect6143" fill="#191919" x="0" y="0" width="38" height="1" />
+          <rect id="rect6145" fill="#99A5AF" x="0" y="1" width="38" height="1" />
+          <rect id="rect6147" fill="#99A5AF" x="0" y="12" width="38" height="1" />
+          <rect id="rect6149" fill="#191919" x="0" y="13" width="38" height="1" />
+        </g>
+        <g
+          id="编组-8备份"
+          transform="translate(864.5, 633) scale(1, -1) translate(-864.5, -633)translate(837, 603)"
+        >
+          <circle id="circle6153" stroke="#979797" fill="#D8D8D8" cx="27.5" cy="30" r="7.5" />
+          <path
+            d="M53.5,3.5 L53.5,30 C53.5,37.3177729 50.5338865,43.9427729 45.7383297,48.7383297 C40.9427729,53.5338865 34.3177729,56.5 27,56.5 C19.6822271,56.5 13.0572271,53.5338865 8.2616703,48.7383297 C3.46611353,43.9427729 0.5,37.3177729 0.5,30 C0.5,22.6822271 3.46611353,16.0572271 8.2616703,11.2616703 C13.0572271,6.46611353 19.6822271,3.5 27,3.5 C32.7877139,3.5 38.1421419,5.35528236 42.5007371,8.50390224 L42.500067,3.5 L53.5,3.5 Z"
+            id="path6155"
+            stroke="#191919"
+            fill="url(#linearGradient-97)"
+          />
+          <rect
+            id="rect6157"
+            stroke="#191919"
+            fill="#077717"
+            x="13.5"
+            y="56.5"
+            width="29"
+            height="3"
+          />
+          <rect
+            id="rect6159"
+            stroke="#191919"
+            fill="url(#linearGradient-98)"
+            x="41.5"
+            y="0.5"
+            width="13"
+            height="3"
+          />
+          <circle id="circle6161" stroke="#191919" fill="#077717" cx="27" cy="30" r="20.5" />
+          <g id="g6186" transform="translate(10, 13)">
+            <mask id="mask-199" fill="white">
+              <use xlink:href="#path-198" id="use6163" />
+            </mask>
+            <circle stroke="#191919" cx="17" cy="17" r="16.5" id="circle6166" />
+            <g mask="url(#mask-199)" fill="#191919" id="g6184">
+              <rect x="16" y="0" width="1" height="12" id="rect6168" />
+              <rect
+                transform="translate(23.9246, 9.0754) rotate(45) translate(-23.9246, -9.0754)"
+                x="23.4246212"
+                y="3.0753788"
+                width="1"
+                height="12"
+                id="rect6170"
+              />
+              <rect
+                transform="translate(27, 16.5) rotate(90) translate(-27, -16.5)"
+                x="26.5"
+                y="10.5"
+                width="1"
+                height="12"
+                id="rect6172"
+              />
+              <rect
+                transform="translate(23.9246, 24.4246) rotate(135) translate(-23.9246, -24.4246)"
+                x="23.4246212"
+                y="17.9246212"
+                width="1"
+                height="13"
+                id="rect6174"
+              />
+              <rect
+                transform="translate(16.5, 27) rotate(180) translate(-16.5, -27)"
+                x="16"
+                y="21"
+                width="1"
+                height="12"
+                id="rect6176"
+              />
+              <rect
+                transform="translate(9.0754, 23.9246) rotate(225) translate(-9.0754, -23.9246)"
+                x="8.5753788"
+                y="17.9246212"
+                width="1"
+                height="12"
+                id="rect6178"
+              />
+              <rect
+                transform="translate(6, 16.5) rotate(270) translate(-6, -16.5)"
+                x="5.5"
+                y="10.5"
+                width="1"
+                height="12"
+                id="rect6180"
+              />
+              <rect
+                transform="translate(9.0754, 9.0754) rotate(315) translate(-9.0754, -9.0754)"
+                x="8.5753788"
+                y="3.0753788"
+                width="1"
+                height="12"
+                id="rect6182"
+              />
+            </g>
+          </g>
+          <circle id="circle6188" fill="#191919" cx="27" cy="30" r="7" />
+        </g>
+        <path
+          d="M272.5,481.919072 L288.132304,492.034093 L272.5,503.988208 L272.5,496.5 L249.5,496.5 L249.5,489.5 L272.5,489.5 L272.5,481.919072 Z"
+          id="path6191"
+          stroke="#191919"
+          fill="#AA7880"
+        />
+        <path
+          d="M272.5,511.919072 L288.132304,522.034093 L272.5,533.988208 L272.5,526.5 L249.5,526.5 L249.5,519.5 L272.5,519.5 L272.5,511.919072 Z"
+          id="path6193"
+          stroke="#191919"
+          fill="#AA7880"
+        />
+        <path
+          d="M1473.5,262.919072 L1489.1323,273.034093 L1473.5,284.988208 L1473.5,277.5 L1450.5,277.5 L1450.5,270.5 L1473.5,270.5 L1473.5,262.919072 Z"
+          id="path6195"
+          stroke="#191919"
+          fill="#AA7880"
+        />
+        <path
+          d="M272.5,541.919072 L288.132304,552.034093 L272.5,563.988208 L272.5,556.5 L249.5,556.5 L249.5,549.5 L272.5,549.5 L272.5,541.919072 Z"
+          id="形状结合备份-4"
+          stroke="#191919"
+          fill="#AA7880"
+        />
+        <g id="g6242" transform="translate(650, 166)">
+          <g id="g6212" transform="translate(6, 3)">
+            <mask id="mask-201" fill="white">
+              <use xlink:href="#path-200" id="use6198" />
+            </mask>
+            <g id="g6201" />
+            <polygon
+              id="polygon6203"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-201)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon6205"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-201)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-203" fill="white">
+              <use xlink:href="#path-202" id="use6207" />
+            </mask>
+            <use id="use6210" stroke="#191919" xlink:href="#path-202" />
+          </g>
+          <rect id="rect6214" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect6216" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect6218" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect6220" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect6222" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect6224" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect6226" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect6228" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon6230" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect6232" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect6234" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect6236" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect6238" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect6240" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="g6288"
+          transform="translate(459.5, 222) scale(-1, 1) translate(-459.5, -222)translate(445, 207)"
+        >
+          <g id="g6258" transform="translate(6, 3)">
+            <mask id="mask-205" fill="white">
+              <use xlink:href="#path-204" id="use6244" />
+            </mask>
+            <g id="g6247" />
+            <polygon
+              id="polygon6249"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-205)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon6251"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-205)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-207" fill="white">
+              <use xlink:href="#path-206" id="use6253" />
+            </mask>
+            <use id="use6256" stroke="#191919" xlink:href="#path-206" />
+          </g>
+          <rect id="rect6260" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect6262" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect6264" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect6266" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect6268" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect6270" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect6272" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect6274" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon6276" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect6278" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect6280" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect6282" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect6284" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect6286" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="g6300" transform="translate(448, 237)">
+          <rect id="rect6290" fill="#16A2BC" x="0" y="0" width="14" height="24" />
+          <rect id="rect6292" fill="#191919" x="0" y="0" width="1" height="24" />
+          <rect id="rect6294" fill="#191919" x="13" y="0" width="1" height="24" />
+          <rect id="rect6296" fill="#99A5AF" x="1" y="0" width="1" height="24" />
+          <rect id="rect6298" fill="#99A5AF" x="12" y="0" width="1" height="24" />
+        </g>
+        <text
+          id="KLRH3_DB2DD156"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-24"
+        >
+          <tspan x="500.94202" y="531" id="tspan6302">27</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD132"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="28px"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+          x="-24"
+        >
+          <tspan x="500.20001" y="584" id="tspan6305">22</tspan>
+        </text>
+        <text
+          id="text6310"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="576" y="528" id="tspan6308">℃</tspan>
+        </text>
+        <text
+          id="text6314"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="576" y="581" id="tspan6312">cm</tspan>
+        </text>
+        <g id="组件12备份-2" transform="translate(209, 862)">
+          <rect id="rect6316" fill="#D428B6" x="0" y="42" width="78" height="4" />
+          <g id="g6336" transform="translate(15, 0)">
+            <rect
+              id="rect6318"
+              stroke="#191919"
+              fill="url(#linearGradient-166)"
+              x="17.5"
+              y="36.5"
+              width="17"
+              height="15"
+            />
+            <rect
+              id="rect6320"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="33.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+            <rect
+              id="rect6322"
+              stroke="#191919"
+              fill="url(#linearGradient-168)"
+              x="23.5"
+              y="27.5"
+              width="5"
+              height="10"
+            />
+            <circle id="circle6324" fill="#191919" cx="17" cy="2" r="2" />
+            <rect
+              id="rect6326"
+              stroke="#191919"
+              fill="#C1C3C2"
+              x="12.5"
+              y="2.5"
+              width="27"
+              height="25"
+              rx="3"
+            />
+            <path
+              d="M17,4 L39,4 L39,4 L39,25 C39,26.1045695 38.1045695,27 37,27 L14,27 L14,27 L14,7 C14,5.34314575 15.3431458,4 17,4 Z"
+              id="path6328"
+              fill="#9A9899"
+            />
+            <rect
+              id="rect6330"
+              stroke="#191919"
+              fill="#9A9899"
+              x="11.5"
+              y="13.5"
+              width="29"
+              height="4"
+            />
+            <path
+              d="M12.5,19.5 L12.5,22.5 L3.5,22.5 L3.5,36.5 L0.5,36.5 L0.5,22 C0.5,21.3096441 0.779822031,20.6846441 1.23223305,20.232233 C1.68464406,19.779822 2.30964406,19.5 3,19.5 L12.5,19.5 Z"
+              id="path6332"
+              stroke="#191919"
+              fill="#9A9899"
+            />
+            <rect
+              id="rect6334"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="12.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+          </g>
+        </g>
+        <g id="组件12备份-3" transform="translate(209, 1140)">
+          <rect id="rect6339" fill="#D428B6" x="0" y="42" width="78" height="4" />
+          <g id="g6359" transform="translate(15, 0)">
+            <rect
+              id="rect6341"
+              stroke="#191919"
+              fill="url(#linearGradient-166)"
+              x="17.5"
+              y="36.5"
+              width="17"
+              height="15"
+            />
+            <rect
+              id="rect6343"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="33.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+            <rect
+              id="rect6345"
+              stroke="#191919"
+              fill="url(#linearGradient-168)"
+              x="23.5"
+              y="27.5"
+              width="5"
+              height="10"
+            />
+            <circle id="circle6347" fill="#191919" cx="17" cy="2" r="2" />
+            <rect
+              id="rect6349"
+              stroke="#191919"
+              fill="#C1C3C2"
+              x="12.5"
+              y="2.5"
+              width="27"
+              height="25"
+              rx="3"
+            />
+            <path
+              d="M17,4 L39,4 L39,4 L39,25 C39,26.1045695 38.1045695,27 37,27 L14,27 L14,27 L14,7 C14,5.34314575 15.3431458,4 17,4 Z"
+              id="path6351"
+              fill="#9A9899"
+            />
+            <rect
+              id="rect6353"
+              stroke="#191919"
+              fill="#9A9899"
+              x="11.5"
+              y="13.5"
+              width="29"
+              height="4"
+            />
+            <path
+              d="M12.5,19.5 L12.5,22.5 L3.5,22.5 L3.5,36.5 L0.5,36.5 L0.5,22 C0.5,21.3096441 0.779822031,20.6846441 1.23223305,20.232233 C1.68464406,19.779822 2.30964406,19.5 3,19.5 L12.5,19.5 Z"
+              id="path6355"
+              stroke="#191919"
+              fill="#9A9899"
+            />
+            <rect
+              id="rect6357"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="12.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+          </g>
+        </g>
+        <text
+          id="消防阀"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+        >
+          <tspan x="132" y="386" id="tspan6362">消防阀</tspan>
+        </text>
+        <text
+          id="油相熔罐一"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="361" y="459" id="tspan6365">油相熔罐一</tspan>
+        </text>
+        <g id="g6380" transform="translate(140, 811)">
+          <rect id="rect6368" fill="#16A2BC" x="0" y="0" width="152" height="14" />
+          <rect id="rect6370" fill="#191919" x="0" y="0" width="152" height="1" />
+          <rect id="rect6372" fill="#99A5AF" x="0" y="1" width="152" height="1" />
+          <rect id="rect6374" fill="#99A5AF" x="0" y="12" width="152" height="1" />
+          <rect id="rect6376" fill="#191919" x="0" y="13" width="152" height="1" />
+          <path
+            d="M81,4 L81,6 L93,6 L93,8 L81,8 L81,10 L79,10 L79,8 L47,8 L47,6 L79,6 L79,4 L81,4 Z"
+            id="path6378"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="g6402" transform="translate(114, 834)">
+          <rect id="rect6382" fill="#16A2BC" x="0" y="0" width="14" height="254" />
+          <rect id="rect6384" fill="#FFFFFF" x="6" y="0" width="2" height="7" />
+          <rect id="rect6386" fill="#191919" x="0" y="0" width="1" height="254" />
+          <rect id="rect6388" fill="#191919" x="13" y="0" width="1" height="254" />
+          <rect id="rect6390" fill="#99A5AF" x="1" y="0" width="1" height="254" />
+          <rect id="rect6392" fill="#99A5AF" x="12" y="0" width="1" height="254" />
+          <rect id="rect6394" fill="#FFFFFF" x="6" y="98" width="2" height="46" />
+          <rect id="rect6396" fill="#FFFFFF" x="4" y="130" width="6" height="2" />
+          <rect id="rect6398" fill="#FFFFFF" x="6" y="211" width="2" height="38" />
+          <rect id="rect6400" fill="#FFFFFF" x="4" y="243" width="6" height="2" />
+        </g>
+        <g id="g6416" transform="translate(19, 948)">
+          <rect id="rect6404" fill="#16A2BC" x="0" y="0" width="85" height="14" />
+          <rect id="rect6406" fill="#191919" x="0" y="0" width="85" height="1" />
+          <rect id="rect6408" fill="#99A5AF" x="0" y="1" width="85" height="1" />
+          <rect id="rect6410" fill="#99A5AF" x="0" y="12" width="85" height="1" />
+          <rect id="rect6412" fill="#191919" x="0" y="13" width="85" height="1" />
+          <path
+            d="M81,4 L81,6 L93,6 L93,8 L81,8 L81,10 L79,10 L79,8 L23,8 L23,6 L79,6 L79,4 L81,4 Z"
+            id="path6414"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g
+          id="g6446"
+          transform="translate(117, 955) rotate(90) translate(-117, -955)translate(94, 938)"
+        >
+          <rect id="rect6418" fill="url(#linearGradient-48)" x="7" y="1" width="32" height="22" />
+          <path
+            d="M14,27 L14,21 L23,12 L32,21 L32,27 L14,27 Z"
+            id="path6420"
+            fill="url(#linearGradient-208)"
+          />
+          <rect id="rect6422" fill="url(#linearGradient-51)" x="0" y="0" width="7" height="24" />
+          <rect id="rect6424" fill="#B4B2B3" x="0" y="1" width="1" height="22" />
+          <rect id="rect6426" fill="url(#linearGradient-52)" x="11" y="27" width="24" height="7" />
+          <rect id="rect6428" fill="#B4B2B3" x="12" y="27" width="22" height="1" />
+          <rect id="rect6430" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect6432" fill="#191919" x="0" y="23" width="7" height="1" />
+          <rect id="rect6434" fill="#191919" x="11" y="27" width="1" height="7" />
+          <rect id="rect6436" fill="#191919" x="34" y="27" width="1" height="7" />
+          <rect id="rect6438" fill="url(#linearGradient-51)" x="39" y="0" width="7" height="24" />
+          <rect id="rect6440" fill="#B4B2B3" x="39" y="1" width="1" height="22" />
+          <rect id="rect6442" fill="#191919" x="39" y="0" width="7" height="1" />
+          <rect id="rect6444" fill="#191919" x="39" y="23" width="7" height="1" />
+        </g>
+        <g
+          id="g6492"
+          transform="translate(125.5, 823) scale(-1, 1) translate(-125.5, -823)translate(111, 808)"
+        >
+          <g id="g6462" transform="translate(6, 3)">
+            <mask id="mask-210" fill="white">
+              <use xlink:href="#path-209" id="use6448" />
+            </mask>
+            <g id="g6451" />
+            <polygon
+              id="polygon6453"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-210)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon6455"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-210)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-212" fill="white">
+              <use xlink:href="#path-211" id="use6457" />
+            </mask>
+            <use id="use6460" stroke="#191919" xlink:href="#path-211" />
+          </g>
+          <rect id="rect6464" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect6466" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect6468" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect6470" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect6472" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect6474" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect6476" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect6478" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon6480" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect6482" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect6484" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect6486" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect6488" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect6490" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="g6538"
+          transform="translate(125.5, 1097) scale(-1, -1) translate(-125.5, -1097)translate(111, 1082)"
+        >
+          <g id="g6508" transform="translate(6, 3)">
+            <mask id="mask-214" fill="white">
+              <use xlink:href="#path-213" id="use6494" />
+            </mask>
+            <g id="g6497" />
+            <polygon
+              id="polygon6499"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-214)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon6501"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-214)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-216" fill="white">
+              <use xlink:href="#path-215" id="use6503" />
+            </mask>
+            <use id="use6506" stroke="#191919" xlink:href="#path-215" />
+          </g>
+          <rect id="rect6510" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect6512" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect6514" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect6516" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect6518" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect6520" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect6522" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect6524" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon6526" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect6528" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect6530" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect6532" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect6534" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect6536" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件2备份-5" transform="translate(140, 1095)">
+          <rect id="rect6540" fill="#16A2BC" x="0" y="0" width="152" height="14" />
+          <rect id="rect6542" fill="#191919" x="0" y="0" width="152" height="1" />
+          <rect id="rect6544" fill="#99A5AF" x="0" y="1" width="152" height="1" />
+          <rect id="rect6546" fill="#99A5AF" x="0" y="12" width="152" height="1" />
+          <rect id="rect6548" fill="#191919" x="0" y="13" width="152" height="1" />
+          <path
+            d="M81,4 L81,6 L93,6 L93,8 L81,8 L81,10 L79,10 L79,8 L47,8 L47,6 L79,6 L79,4 L81,4 Z"
+            id="path6550"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="编组-4" transform="translate(283, 683)">
+          <text
+            id="水相熔罐一"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="32" y="269" id="tspan6553">水相熔罐一</tspan>
+          </text>
+          <g id="g6607" transform="translate(67, 0)">
+            <mask id="mask-218" fill="white">
+              <use xlink:href="#path-217" id="use6556" />
+            </mask>
+            <use id="use6559" fill="#D8D8D8" xlink:href="#path-217" />
+            <g mask="url(#mask-218)" id="g6601">
+              <rect id="rect6561" fill="#191919" x="0" y="0" width="30" height="42" />
+              <rect id="rect6563" fill="#191919" x="2" y="41" width="26" height="5" />
+              <rect id="rect6565" fill="#A4A4A4" x="3" y="42" width="4" height="3" />
+              <rect id="rect6567" fill="#B4B2B3" x="7" y="42" width="5" height="3" />
+              <rect id="rect6569" fill="#D4D4D4" x="12" y="42" width="5" height="3" />
+              <rect id="rect6571" fill="#B4B2B3" x="17" y="42" width="5" height="3" />
+              <rect id="rect6573" fill="#A4A4A4" x="22" y="42" width="5" height="3" />
+              <rect id="rect6575" fill="#D8D8D8" x="1" y="0" width="28" height="5" />
+              <rect id="rect6577" fill="#A4A4A4" x="1" y="0" width="5" height="5" />
+              <rect id="rect6579" fill="#B4B2B3" x="6" y="0" width="6" height="5" />
+              <rect id="rect6581" fill="#D4D4D4" x="12" y="0" width="6" height="5" />
+              <rect id="rect6583" fill="#B4B2B3" x="18" y="0" width="6" height="5" />
+              <rect id="rect6585" fill="#A4A4A4" x="24" y="0" width="5" height="5" />
+              <rect id="rect6587" fill="#818483" x="27" y="12" width="1" height="26" />
+              <rect id="rect6589" fill="#818483" x="2" y="7" width="3" height="14" />
+              <rect id="rect6591" fill="#B2B2B2" x="1" y="22" width="16" height="16" />
+              <rect id="rect6593" fill="#FFFFFF" x="1" y="22" width="16" height="2" />
+              <rect id="rect6595" fill="#FFFFFF" x="15" y="22" width="2" height="15" />
+              <rect id="rect6597" fill="#191919" x="1" y="37" width="16" height="2" />
+              <rect id="rect6599" fill="#191919" x="1" y="22" width="2" height="16" />
+            </g>
+            <rect
+              id="rect6603"
+              fill="#191919"
+              mask="url(#mask-218)"
+              x="0"
+              y="0"
+              width="30"
+              height="1"
+            />
+            <path
+              d="M27.8060756,0.5 L29.5,2.04662659 L29.5,41.5 L0.5,41.5 L0.5,2.04662659 L2.19392436,0.5 L27.8060756,0.5 Z"
+              id="path6605"
+              stroke="#191919"
+              mask="url(#mask-218)"
+            />
+          </g>
+          <g id="g6632" transform="translate(0, 46)">
+            <g id="编组-3" transform="translate(-0, 0)">
+              <path
+                d="M5.26013184,4.77272185 C30.8400879,1.59090728 56.4200439,0 82,0 C107.579956,0 133.159912,1.59090728 158.739868,4.77272185 C161.74448,5.1459871 164.000142,7.69940911 164,10.727118 L164,183.272882 C164.000142,186.300591 161.74448,188.854013 158.739868,189.227278 C133.159912,192.409093 107.579956,194 82,194 C56.4200439,194 30.8400879,192.409093 5.26013184,189.227278 C2.2555197,188.854013 -0.000141662411,186.300591 0,183.272882 L0,10.727118 C-0.000141662412,7.69940911 2.2555197,5.1459871 5.26013184,4.77272185 Z"
+                id="path6609"
+                fill="url(#linearGradient-219)"
+              />
+              <rect
+                id="rect6611"
+                fill="#64D9E4"
+                x="13.2972973"
+                y="62.1011236"
+                width="135.189189"
+                height="121"
+              />
+              <path
+                d="M78.2366596,13.7036581 L79.4662284,13.7079503 C94.8098084,13.7907211 109.102441,14.9594786 113.928174,16.5483617 C123.655648,19.7511535 127.77724,23.3108346 131.72456,26.72514 C132.39827,27.3078773 133.066418,27.8861485 133.76058,28.4566293 C150.183319,41.9532632 149.602769,71.2944502 148.609022,98.2894837 C148.388711,104.274216 148.17293,110.118995 148.17293,115.600465 C148.17293,127.564317 149.707907,137.470501 150.991017,145.785524 C152.967975,158.596937 154.088261,167.794486 149.487414,175.022993 C143.497577,184.433779 119.590739,186.144008 94.6725575,186.105746 L92.8579851,186.101206 C90.2979605,186.092498 87.7411077,186.074771 85.2097623,186.057216 C81.7714549,186.03337 78.3803427,186.009831 75.0927204,186.009831 C60.3655415,186.009831 48.2310383,184.138627 39.2115514,180.594245 C29.6588533,176.840329 23.5344067,171.19313 21.102037,164.026983 C18.7982774,157.239742 19.6873279,141.737374 21.3235244,125.860199 L21.5171906,124.006051 C21.5499376,123.696481 21.5828815,123.386909 21.616297,123.074651 L21.8165852,121.22233 C22.2013723,117.698263 22.603524,114.199718 22.9915451,110.824214 C24.1186747,101.018998 25.1316124,92.2641239 25.2269199,87.0041624 C25.3607102,79.6203634 25.4150483,72.9179697 25.4641673,66.8630574 C25.6749621,40.8782908 26.2629836,26.61543 31.5736352,20.9831226 C35.1803731,17.1579317 48.5713223,14.7461469 64.0840347,14.0118367 C68.7174937,13.7925072 73.5159415,13.6961822 78.2366596,13.7036581 Z"
+                id="path6613"
+                stroke="#191919"
+                stroke-width="5"
+              />
+              <path
+                d="M69.1192513,9.34972667 C85.8137503,9.24685812 102.067734,10.4728174 107.279526,12.1888112 C117.006999,15.391603 121.128591,18.9512841 125.07401,22.3639463 L125.781363,22.9745486 C126.219706,23.3513946 126.660273,23.7258935 127.111932,24.0970788 C142.316666,36.5927255 143.01274,62.6222602 142.175029,87.8974364 L142.108534,89.8421371 C142.060493,91.2101665 142.010303,92.573621 141.960374,93.9299332 C141.740063,99.9146651 141.524282,105.759444 141.524282,111.240915 C141.524282,123.204767 143.059258,133.110951 144.342368,141.425973 C146.319327,154.237386 147.439612,163.434935 142.838766,170.663443 C137.067937,179.730139 114.719981,181.69737 90.7486484,181.745755 L88.93504,181.747111 C88.3294213,181.746837 87.7235376,181.745877 87.115517,181.744345 L85.3015018,181.738204 C83.0450821,181.728759 80.7931803,181.713145 78.5611137,181.697665 C75.1228063,181.67382 71.7316941,181.650281 68.4440718,181.650281 C53.7168928,181.650281 41.5823897,179.779076 32.5629028,176.234695 C23.0102046,172.480778 16.8857581,166.833579 14.4533884,159.667432 C12.157057,152.902076 13.0513825,137.456792 14.6627029,121.63803 L14.7948729,120.354773 C14.8839685,119.498941 14.9749638,118.642674 15.067468,117.787284 L15.2694564,115.937131 C15.6230838,112.726594 15.9888732,109.544411 16.3428965,106.464663 C17.4700261,96.6594474 18.4829637,87.9045734 18.5782713,82.6446118 C18.7120616,75.2608129 18.7663997,68.5584192 18.8155186,62.5035068 C19.0263135,36.5187403 19.614335,22.2558794 24.9249866,16.623572 C28.5317244,12.7983812 41.9226737,10.3865964 57.435386,9.65228618 C60.0542977,9.5283173 62.7259184,9.44364477 65.4064204,9.39480098 L66.6440462,9.37478912 C67.0566919,9.3689581 67.4693883,9.36396247 67.8819757,9.3597896 Z"
+                id="path6615"
+                stroke="#FFFFFF"
+                stroke-width="5"
+              />
+              <path
+                d="M82,0 C107.579956,0 133.159912,1.59090728 158.739868,4.77272185 C161.74448,5.1459871 164.000142,7.69940911 164,10.727118 L164,183.272882 C164.000142,186.300591 161.74448,188.854013 158.739868,189.227278 C133.159912,192.409093 107.579956,194 82,194 C56.4200439,194 30.8400879,192.409093 5.26013184,189.227278 C2.2555197,188.854013 -0.000141662411,186.300591 0,183.272882 L0,10.727118 C-0.000141662412,7.69940911 2.2555197,5.1459871 5.26013184,4.77272185 C30.8400879,1.59090728 56.4200439,0 82,0 Z M109.822008,16.743186 C98.8602325,13.1339975 38.132592,11.9656326 30.0682537,20.518412 C23.7045055,27.2676 25.0843229,47.222956 24.4021853,84.8696783 C24.2731549,91.9907808 22.4907553,105.454696 20.9774902,119.313912 L20.7774852,121.163628 C19.0278439,137.514253 17.7700609,154.04655 20.1450591,161.043671 C24.6261876,174.245787 43.2140518,181.330056 71.7683961,181.330056 C77.1937216,181.330056 82.9003941,181.393992 88.6362905,181.418001 L90.4483036,181.424135 L92.2604951,181.426887 C115.510551,181.437403 138.368821,180.433059 144.054054,171.500845 C151.437473,159.900566 142.348606,142.775281 142.348606,113.42069 C142.348606,84.066099 148.486486,44.3469321 128.848949,28.2082931 C128.538247,27.9529497 128.232603,27.6961204 127.929344,27.4380556 L127.47591,27.050063 C127.249753,26.8556347 127.024186,26.6605819 126.79808,26.4650102 L126.344816,26.0732062 C122.707614,22.9337408 118.740063,19.6794749 109.822008,16.743186 Z"
+                id="path6617"
+                fill="url(#linearGradient-220)"
+              />
+            </g>
+            <path
+              d="M82,0.5 C107.559384,0.5 133.118767,2.08964253 158.678227,5.26890762 C160.055331,5.4399863 161.260802,6.11067894 162.121983,7.0855238 C162.983172,8.06037845 163.500065,9.33939097 163.5,10.727118 L163.5,183.272905 C163.500065,184.660609 162.983172,185.939622 162.121983,186.914476 C161.260802,187.889321 160.055331,188.560014 158.67815,188.731102 C133.118767,191.910357 107.559384,193.5 82,193.5 C56.440616,193.5 30.8812332,191.910357 5.32177339,188.731092 C3.94466941,188.560014 2.73919824,187.889321 1.8780173,186.914476 C1.0168277,185.939622 0.499935084,184.660609 0.500000013,183.272882 L0.500000013,10.7270946 C0.499935084,9.33939097 1.0168277,8.06037845 1.8780173,7.0855238 C2.73919824,6.11067894 3.94466941,5.4399863 5.32184974,5.26889813 C30.8812332,2.08964253 56.440616,0.5 82,0.5 Z"
+              id="path6620"
+              stroke="#191919"
+            />
+            <path
+              d="M85.6118164,137.916992 L94.5198972,127.957254 C94.888083,127.545602 95.5202667,127.510365 95.9319191,127.878551 C96.1516188,128.075052 96.2734369,128.358471 96.2648339,128.653101 L95.7042953,147.85003 C95.6881757,148.402079 95.2275838,148.836536 94.6755343,148.820417 C94.3798397,148.811782 94.1031421,148.672671 93.9198385,148.440487 L85.6118164,137.916992 L85.6118164,137.916992 Z"
+              id="path6622"
+              stroke="#191919"
+              fill="#4F4C4F"
+            />
+            <path
+              d="M84,138.635498 L43.4500957,127.692415 C41.8504669,127.260728 40.20376,128.207531 39.7720729,129.80716 C39.7032965,130.062013 39.668457,130.324829 39.668457,130.588799 L39.668457,145.725209 C39.668457,147.382064 41.0116028,148.725209 42.668457,148.725209 C42.9102304,148.725209 43.1511172,148.695982 43.3858756,148.638165 L84,138.635498 L84,138.635498 Z"
+              id="path6624"
+              stroke="#191919"
+              fill="#737476"
+            />
+            <rect
+              id="rect6626"
+              stroke="#191919"
+              fill="#EAEAEA"
+              x="82.5"
+              y="15.5"
+              width="3"
+              height="126"
+            />
+            <path
+              d="M85.6118164,138.635498 L126.782221,126.916791 C128.375778,126.463203 130.035317,127.38733 130.488906,128.980887 C130.564944,129.248026 130.603516,129.524431 130.603516,129.802181 L130.603516,145.738625 C130.603516,147.395479 129.26037,148.738625 127.603516,148.738625 C127.365164,148.738625 127.127663,148.71022 126.896034,148.65401 L85.6118164,138.635498 L85.6118164,138.635498 Z"
+              id="path6628"
+              stroke="#191919"
+              fill="#737476"
+            />
+            <path
+              d="M84,138.512695 L74.9644973,148.641575 C74.5968512,149.05371 73.9647142,149.089775 73.5525797,148.722129 C73.3398858,148.532394 73.2182617,148.260916 73.2182617,147.975893 L73.2182617,129.255401 C73.2182617,128.703117 73.665977,128.255401 74.2182617,128.255401 C74.4997275,128.255401 74.7681608,128.37402 74.9576621,128.582135 L84,138.512695 L84,138.512695 Z"
+              id="path6630"
+              stroke="#191919"
+              fill="#4F4C4F"
+            />
+          </g>
+        </g>
+        <g id="编组-23" transform="translate(140, 925)">
+          <g id="编组-22" transform="translate(80, 62)">
+            <rect id="rect6635" fill="#FFFFFF" x="0" y="0" width="42" height="14" />
+            <polyline
+              id="路径-14"
+              stroke="#191919"
+              points="1 1 6 11.9550781 11 2 16 12 21 2 26 12 31 2 36 12 41 2"
+            />
+            <rect id="rect6638" stroke="#B1B1B1" x="0.5" y="0.5" width="41" height="13" />
+          </g>
+          <g
+            id="g6647"
+            transform="translate(120, 32.5) rotate(90) translate(-120, -32.5)translate(89.5, 25.5)"
+          >
+            <rect id="rect6641" fill="#FFFFFF" x="0" y="-8.10397203e-17" width="61" height="14" />
+            <polyline
+              id="polyline6643"
+              stroke="#191919"
+              points="0.859130859 13 5.02392578 2 10.0268555 12 12.9338379 2 18 12 23 2 28 12 33 2 38 12 43 2 48 12 53 2 60 13.7131348"
+            />
+            <rect id="rect6645" stroke="#B1B1B1" x="0.5" y="0.5" width="60" height="13" />
+          </g>
+          <g
+            id="编组-22备份"
+            transform="translate(120, 105.5) rotate(90) translate(-120, -105.5)translate(89.5, 98.5)"
+          >
+            <rect id="rect6649" fill="#FFFFFF" x="0" y="4.3889211e-15" width="61" height="14" />
+            <polyline
+              id="polyline6651"
+              stroke="#191919"
+              points="0.859130859 13 5.02392578 2 10.0268555 12 12.9338379 2 18 12 23 2 28 12 33 2 38 12 43 2 48 12 53 2 60 13.7131348"
+            />
+            <rect id="rect6653" stroke="#B1B1B1" x="0.5" y="0.5" width="60" height="13" />
+          </g>
+          <path
+            d="M142,94.4342585 L158.598612,105.5 L142,116.565741 L142,109 L99,109 L99,102 L142,102 L142,94.4342585 Z"
+            id="path6656"
+            stroke="#191919"
+            fill="#AA7880"
+            transform="translate(129, 105.5) scale(1, -1) rotate(-90) translate(-129, -105.5)"
+          />
+          <path
+            d="M142,21.4342585 L158.598612,32.5 L142,43.5657415 L142,36 L99,36 L99,29 L142,29 L142,21.4342585 Z"
+            id="形状结合备份-15"
+            stroke="#191919"
+            fill="#AA7880"
+            transform="translate(129, 32.5) rotate(-90) translate(-129, -32.5)"
+          />
+          <path
+            d="M90.5,0.5 L90.5,3.5 L92.5,3.5 L92.5,16.5 L78.5,16.5 L78.5,29.5 L48.5,29.5 L48.5,3.5 L87.5,3.5 L87.5,0.5 L90.5,0.5 Z"
+            id="path6659"
+            stroke="#191919"
+            fill="#ADE8E3"
+          />
+          <path
+            d="M80.5,29.5 L80.5,43.5 L82.5,43.5 L82.5,56.5 L46.5,56.5 L46.5,29.5 L80.5,29.5 Z"
+            id="path6661"
+            stroke="#191919"
+            fill="#ADE8E3"
+          />
+          <rect id="rect6663" fill="#FEFFB1" x="60" y="36" width="8" height="8" />
+          <rect id="矩形备份-137" fill="#D8B838" x="60" y="44" width="8" height="2" />
+          <rect id="矩形备份-138" fill="#FEFFB1" x="60" y="46" width="8" height="2" />
+          <rect
+            id="rect6667"
+            stroke="#191919"
+            fill="#B9D8D7"
+            x="46.5"
+            y="56.5"
+            width="34"
+            height="31"
+          />
+          <rect
+            id="rect6669"
+            stroke="#191919"
+            fill="#83B0B2"
+            x="46.5"
+            y="58.5"
+            width="32"
+            height="30"
+          />
+          <rect
+            id="rect6671"
+            stroke="#191919"
+            fill="#ADE8E3"
+            x="0.5"
+            y="88.5"
+            width="82"
+            height="14"
+          />
+          <rect id="rect6673" fill="#FFFFFF" x="29" y="92" width="25" height="7" />
+          <rect id="rect6675" fill="#191919" x="30" y="94" width="22" height="3" />
+          <rect
+            id="rect6677"
+            stroke="#191919"
+            fill="#9ECBCF"
+            x="80.5"
+            y="76.5"
+            width="23"
+            height="9"
+          />
+          <rect
+            id="rect6679"
+            stroke="#191919"
+            fill="#ADE8E3"
+            x="0.5"
+            y="41.5"
+            width="32"
+            height="22"
+          />
+          <rect id="rect6681" fill="#FFFFFF" x="2" y="54" width="30" height="9" />
+          <rect id="rect6683" fill="#ADE8E3" x="3" y="55" width="30" height="8" />
+          <rect
+            id="rect6685"
+            stroke="#191919"
+            fill="#ADE8E3"
+            x="36.5"
+            y="45.5"
+            width="10"
+            height="11"
+          />
+          <rect id="rect6687" fill="#FEFFB1" x="39" y="46" width="5" height="5" />
+          <rect
+            id="rect6689"
+            stroke="#191919"
+            fill="#ADE8E3"
+            x="4.5"
+            y="63.5"
+            width="26"
+            height="7"
+          />
+          <rect
+            id="矩形备份-135"
+            stroke="#191919"
+            fill="#191919"
+            x="4.5"
+            y="61.5"
+            width="26"
+            height="1"
+          />
+          <rect
+            id="rect6692"
+            stroke="#191919"
+            fill="#72AAA6"
+            x="11.5"
+            y="41.5"
+            width="21"
+            height="13"
+          />
+          <rect id="rect6694" fill="#191919" x="7" y="41" width="23" height="10" />
+          <rect
+            id="矩形备份-136"
+            stroke="#191919"
+            fill="#72AAA6"
+            x="11.5"
+            y="54.5"
+            width="21"
+            height="9"
+          />
+          <rect
+            id="rect6697"
+            stroke="#191919"
+            fill="#ADE8E3"
+            x="4.5"
+            y="70.5"
+            width="26"
+            height="18"
+          />
+          <rect
+            id="rect6699"
+            stroke="#191919"
+            fill="#164D4E"
+            x="12.5"
+            y="63.5"
+            width="10"
+            height="7"
+          />
+          <rect
+            id="rect6701"
+            stroke="#191919"
+            fill="#B9D8D7"
+            x="36.5"
+            y="56.5"
+            width="10"
+            height="32"
+          />
+          <rect id="rect6703" fill="#191919" x="79" y="0" width="3" height="4" />
+          <rect id="rect6705" fill="#191919" x="49" y="28" width="6" height="1" />
+          <rect id="矩形备份-133" fill="#191919" x="61" y="28" width="6" height="1" />
+          <rect id="矩形备份-134" fill="#191919" x="72" y="28" width="6" height="1" />
+        </g>
+        <text
+          id="液铵罐"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="138" y="701" id="tspan6710">液铵罐</tspan>
+        </text>
+        <text
+          id="油相熔罐二"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="856" y="465" id="tspan6713">油相熔罐二</tspan>
+        </text>
+        <g id="g6760" transform="translate(830, 207)">
+          <g id="g6730" transform="translate(6, 3)">
+            <mask id="mask-222" fill="white">
+              <use xlink:href="#path-221" id="use6716" />
+            </mask>
+            <g id="g6719" />
+            <polygon
+              id="polygon6721"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-222)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon6723"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-222)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-224" fill="white">
+              <use xlink:href="#path-223" id="use6725" />
+            </mask>
+            <use id="use6728" stroke="#191919" xlink:href="#path-223" />
+          </g>
+          <rect id="rect6732" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect6734" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect6736" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect6738" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect6740" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect6742" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect6744" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect6746" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon6748" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect6750" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect6752" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect6754" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect6756" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect6758" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件8" transform="translate(667, 361)" />
+        <g id="g6773" transform="translate(662, 196)">
+          <rect id="rect6763" fill="#16A2BC" x="0" y="0" width="14" height="9" />
+          <rect id="rect6765" fill="#191919" x="0" y="0" width="1" height="9" />
+          <rect id="rect6767" fill="#191919" x="13" y="0" width="1" height="9" />
+          <rect id="rect6769" fill="#99A5AF" x="1" y="0" width="1" height="9" />
+          <rect id="rect6771" fill="#99A5AF" x="12" y="0" width="1" height="9" />
+        </g>
+        <g id="g6785" transform="translate(842, 237)">
+          <rect id="rect6775" fill="#16A2BC" x="0" y="0" width="14" height="24" />
+          <rect id="rect6777" fill="#191919" x="0" y="0" width="1" height="24" />
+          <rect id="rect6779" fill="#191919" x="13" y="0" width="1" height="24" />
+          <rect id="rect6781" fill="#99A5AF" x="1" y="0" width="1" height="24" />
+          <rect id="rect6783" fill="#99A5AF" x="12" y="0" width="1" height="24" />
+        </g>
+        <g id="组件2备份" transform="translate(80, 441)">
+          <rect id="rect6787" fill="#16A2BC" x="0" y="0" width="26" height="14" />
+          <rect id="rect6789" fill="#191919" x="0" y="0" width="26" height="1" />
+          <rect id="rect6791" fill="#99A5AF" x="0" y="1" width="26" height="1" />
+          <rect id="rect6793" fill="#99A5AF" x="0" y="12" width="26" height="1" />
+          <rect id="rect6795" fill="#191919" x="0" y="13" width="26" height="1" />
+        </g>
+        <g id="g6808" transform="translate(118, 457)">
+          <rect id="rect6798" fill="#16A2BC" x="0" y="0" width="14" height="24" />
+          <rect id="rect6800" fill="#191919" x="0" y="0" width="1" height="24" />
+          <rect id="rect6802" fill="#191919" x="13" y="0" width="1" height="24" />
+          <rect id="rect6804" fill="#99A5AF" x="1" y="0" width="1" height="24" />
+          <rect id="rect6806" fill="#99A5AF" x="12" y="0" width="1" height="24" />
+        </g>
+        <g id="g6822" transform="translate(223, 426)">
+          <rect id="rect6810" fill="#16A2BC" x="0" y="0" width="14" height="58" />
+          <rect id="rect6812" fill="#191919" x="0" y="0" width="1" height="58" />
+          <rect id="rect6814" fill="#191919" x="13" y="0" width="1" height="58" />
+          <rect id="rect6816" fill="#99A5AF" x="1" y="0" width="1" height="58" />
+          <rect id="rect6818" fill="#99A5AF" x="12" y="0" width="1" height="58" />
+          <rect id="rect6820" fill="#FFFFFF" x="6" y="44" width="2" height="13" />
+        </g>
+        <g id="g6875" transform="translate(396, 206)">
+          <mask id="mask-226" fill="white">
+            <use xlink:href="#path-225" id="use6824" />
+          </mask>
+          <use id="use6827" fill="#D8D8D8" xlink:href="#path-225" />
+          <g mask="url(#mask-226)" id="g6869">
+            <rect id="rect6829" fill="#191919" x="0" y="0" width="30" height="42" />
+            <rect id="rect6831" fill="#191919" x="2" y="41" width="26" height="5" />
+            <rect id="rect6833" fill="#A4A4A4" x="3" y="42" width="4" height="3" />
+            <rect id="rect6835" fill="#B4B2B3" x="7" y="42" width="5" height="3" />
+            <rect id="rect6837" fill="#D4D4D4" x="12" y="42" width="5" height="3" />
+            <rect id="rect6839" fill="#B4B2B3" x="17" y="42" width="5" height="3" />
+            <rect id="rect6841" fill="#A4A4A4" x="22" y="42" width="5" height="3" />
+            <rect id="rect6843" fill="#D8D8D8" x="1" y="0" width="28" height="5" />
+            <rect id="rect6845" fill="#A4A4A4" x="1" y="0" width="5" height="5" />
+            <rect id="rect6847" fill="#B4B2B3" x="6" y="0" width="6" height="5" />
+            <rect id="rect6849" fill="#D4D4D4" x="12" y="0" width="6" height="5" />
+            <rect id="rect6851" fill="#B4B2B3" x="18" y="0" width="6" height="5" />
+            <rect id="rect6853" fill="#A4A4A4" x="24" y="0" width="5" height="5" />
+            <rect id="rect6855" fill="#818483" x="27" y="12" width="1" height="26" />
+            <rect id="rect6857" fill="#818483" x="2" y="7" width="3" height="14" />
+            <rect id="rect6859" fill="#B2B2B2" x="1" y="22" width="16" height="16" />
+            <rect id="rect6861" fill="#FFFFFF" x="1" y="22" width="16" height="2" />
+            <rect id="rect6863" fill="#FFFFFF" x="15" y="22" width="2" height="15" />
+            <rect id="rect6865" fill="#191919" x="1" y="37" width="16" height="2" />
+            <rect id="rect6867" fill="#191919" x="1" y="22" width="2" height="16" />
+          </g>
+          <rect
+            id="rect6871"
+            fill="#191919"
+            mask="url(#mask-226)"
+            x="0"
+            y="0"
+            width="30"
+            height="1"
+          />
+          <path
+            d="M27.8060756,0.5 L29.5,2.04662659 L29.5,41.5 L0.5,41.5 L0.5,2.04662659 L2.19392436,0.5 L27.8060756,0.5 Z"
+            id="path6873"
+            stroke="#191919"
+            mask="url(#mask-226)"
+          />
+        </g>
+        <g id="g6899" transform="translate(337, 252)">
+          <path
+            d="M5.25280762,4.31535469 C28.1685384,1.43845156 51.0842692,0 74,0 C96.9157308,0 119.831462,1.43845156 142.747192,4.31535469 C145.748185,4.69198334 147.999658,7.24341044 148,10.2679443 L148,167.732056 C147.999658,170.75659 145.748185,173.308017 142.747192,173.684645 C119.831462,176.561548 96.9157308,178 74,178 C51.0842692,178 28.1685384,176.561548 5.25280762,173.684645 C2.25181507,173.308017 0.000342381206,170.75659 0,167.732056 L0,10.2679443 C0.000342381206,7.24341044 2.25181507,4.69198334 5.25280762,4.31535469 Z"
+            id="path6877"
+            fill="url(#linearGradient-169)"
+          />
+          <rect id="rect6879" fill="#965941" x="12" y="94" width="122" height="74" />
+          <path
+            d="M66.0005932,12.3978196 C81.9118898,12.1624274 97.9392858,13.3305535 102.901271,14.9916106 C111.726898,17.9460466 115.466981,21.2289407 119.045541,24.3760315 L119.831091,25.0647523 C120.177087,25.3662228 120.525359,25.6659722 120.881307,25.9633901 C134.102741,37.0107595 135.174391,59.592598 134.616181,81.9372207 L134.576199,83.4431068 C134.512881,85.7009962 134.435313,87.9537547 134.354374,90.1892093 C134.155633,95.678255 133.960938,101.038939 133.960938,106.066406 C133.960938,117.033527 135.345303,126.114384 136.502173,133.736657 C138.294717,145.547195 139.289346,154.021361 135.119023,160.682998 C129.821557,169.145123 109.142498,170.947314 87.0756232,170.963735 L85.4379519,170.963008 C85.1645428,170.962582 84.8911071,170.962011 84.6154753,170.961304 L82.9782084,170.955669 C82.1594032,170.952184 81.3412566,170.947785 80.5237131,170.94284 L78.895063,170.932369 C78.2266329,170.927861 77.5596571,170.923158 76.8946337,170.918469 C73.7924442,170.896595 70.7328364,170.875 67.7666016,170.875 C54.4334447,170.875 43.44891,169.148891 35.283632,165.886546 C26.5885069,162.412505 21.0217476,157.183437 18.8083427,150.553378 C16.6963815,144.227184 17.6067671,129.594716 19.0864454,114.801968 L19.214612,113.533815 C19.3224839,112.477011 19.4329028,111.420577 19.5449746,110.367481 L19.6801971,109.105558 L19.8166632,107.84798 L19.9540296,106.595887 C20.1376324,104.930592 20.3227206,103.282964 20.5056325,101.665161 C21.5220574,92.6751745 22.4359346,84.6482109 22.5218813,79.8255705 C22.6426081,73.0513502 22.6916384,66.9022809 22.7359612,61.3472393 C22.9268416,37.4239707 23.4949093,24.3093645 28.3016998,19.1262102 C31.5766012,15.5948894 43.7126684,13.3292338 57.8184298,12.6503605 C60.1202272,12.539581 62.4669894,12.46306 64.8223593,12.4178368 Z"
+            id="path6881"
+            stroke="#191919"
+            stroke-width="5"
+          />
+          <path
+            d="M60.0005932,8.39781961 C75.9118898,8.16242737 91.9392858,9.3305535 96.9012714,10.9916106 C105.726898,13.9460466 109.466981,17.2289407 113.045541,20.3760315 L113.831091,21.0647523 C114.177087,21.3662228 114.525359,21.6659722 114.881307,21.9633901 C128.102741,33.0107595 129.174391,55.592598 128.616181,77.9372207 L128.576199,79.4431068 C128.512881,81.7009962 128.435313,83.9537547 128.354374,86.1892093 C128.155633,91.678255 127.960938,97.0389394 127.960938,102.066406 C127.960938,113.033527 129.345303,122.114384 130.502173,129.736657 C132.294717,141.547195 133.289346,150.021361 129.119023,156.682998 C123.821557,165.145123 103.142498,166.947314 81.0756232,166.963735 L79.4379519,166.963008 C79.1645428,166.962582 78.8911071,166.962011 78.6154753,166.961304 L76.9782084,166.955669 C76.1594032,166.952184 75.3412566,166.947785 74.5237131,166.94284 L72.895063,166.932369 C72.2266329,166.927861 71.5596571,166.923158 70.8946337,166.918469 C67.7924442,166.896595 64.7328364,166.875 61.7666016,166.875 C48.4334447,166.875 37.44891,165.148891 29.283632,161.886546 C20.5885069,158.412505 15.0217476,153.183437 12.8083427,146.553378 C10.6963815,140.227184 11.6067671,125.594716 13.0864454,110.801968 L13.214612,109.533815 C13.3224839,108.477011 13.4329028,107.420577 13.5449746,106.367481 L13.6801971,105.105558 L13.8166632,103.84798 L13.9540296,102.595887 C14.1376324,100.930592 14.3227206,99.2829636 14.5056325,97.6651606 C15.5220574,88.6751745 16.4359346,80.6482109 16.5218813,75.8255705 C16.6426081,69.0513502 16.6916384,62.9022809 16.7359612,57.3472393 C16.9268416,33.4239707 17.4949093,20.3093645 22.3016998,15.1262102 C25.5766012,11.5948894 37.7126684,9.32923384 51.8184298,8.65036049 C54.1202272,8.53958101 56.4669894,8.46306005 58.8223593,8.4178368 Z"
+            id="path6883"
+            stroke="#FFFFFF"
+            stroke-width="5"
+          />
+          <path
+            d="M74,0 C96.9157308,0 119.831462,1.43845156 142.747192,4.31535469 C145.748185,4.69198334 147.999658,7.24341044 148,10.2679443 L148,167.732056 C147.999658,170.75659 145.748185,173.308017 142.747192,173.684645 C119.831462,176.561548 96.9157308,178 74,178 C51.0842692,178 28.1685384,176.561548 5.25280762,173.684645 C2.25181507,173.308017 0.000342381206,170.75659 0,167.732056 L0,10.2679443 C0.000342381206,7.24341044 2.25181507,4.69198334 5.25280762,4.31535469 C28.1685384,1.43845156 51.0842692,0 74,0 Z M99.107666,15.3623047 C89.215332,12.0507813 34.4123392,10.9787763 27.1347656,18.8261719 C21.3918709,25.0187257 22.6370719,43.3282793 22.0214844,77.8701172 C21.7627242,92.3896618 14.1357422,135.648438 18.1796875,147.761719 C22.2236328,159.875 38.9980469,166.375 64.7666016,166.375 C68.3741992,166.375 72.1196477,166.40685 75.9119233,166.432426 L77.5397858,166.442892 C78.3548852,166.447822 79.1715377,166.452213 79.9888477,166.455692 L81.6240791,166.461319 C81.8966753,166.462017 82.1692782,166.462586 82.4418546,166.463011 L84.0767304,166.463736 C104.774413,166.448331 124.936055,165.445547 130,157.356445 C136.663086,146.712891 128.460938,131 128.460938,104.066406 C128.460938,77.1328125 134,40.6894531 116.27832,25.8818359 C115.909057,25.5732921 115.547711,25.2623836 115.188771,24.9496353 L114.758846,24.5734879 C111.251461,21.4949534 107.763458,18.2598877 99.107666,15.3623047 Z"
+            id="path6885"
+            fill="url(#linearGradient-170)"
+          />
+          <path
+            d="M74,0.5 C96.8949706,0.5 119.78994,1.93716366 142.68493,4.81146296 C144.060382,4.98408409 145.26407,5.65509512 146.123935,6.62951122 C146.983801,7.60392994 147.499843,8.88175524 147.5,10.2679443 L147.5,167.731999 C147.499843,169.118245 146.983801,170.39607 146.123935,171.370489 C145.26407,172.344905 144.060382,173.015916 142.68491,173.18854 C119.78994,176.062836 96.8949706,177.5 74,177.5 C51.1050294,177.5 28.2100601,176.062836 5.31506988,173.188537 C3.93961761,173.015916 2.73592984,172.344905 1.87606537,171.370489 C1.01619859,170.39607 0.500156922,169.118245 0.5,167.732056 L0.499999997,10.2680009 C0.500156922,8.88175524 1.01619859,7.60392994 1.87606537,6.62951122 C2.73592984,5.65509512 3.93961761,4.98408409 5.31509008,4.81146042 C28.2100601,1.93716366 51.1050294,0.5 74,0.5 Z"
+            id="path6887"
+            stroke="#191919"
+          />
+          <path
+            d="M75.6118164,137.916992 L84.5198972,127.957254 C84.8880829,127.545602 85.5202667,127.510365 85.9319191,127.878551 C86.1516188,128.075052 86.2734369,128.358471 86.2648339,128.653101 L85.7042952,147.85003 C85.6881757,148.402079 85.2275838,148.836536 84.6755343,148.820417 C84.3798397,148.811782 84.1031421,148.672671 83.9198385,148.440487 L75.6118164,137.916992 L75.6118164,137.916992 Z"
+            id="path6889"
+            stroke="#191919"
+            fill="#4F4C4F"
+          />
+          <path
+            d="M74,138.635498 L33.4500957,127.692415 C31.8504669,127.260728 30.20376,128.207531 29.7720729,129.80716 C29.7032965,130.062013 29.668457,130.324829 29.668457,130.588799 L29.668457,145.725209 C29.668457,147.382064 31.0116028,148.725209 32.668457,148.725209 C32.9102304,148.725209 33.1511172,148.695982 33.3858756,148.638165 L74,138.635498 L74,138.635498 Z"
+            id="path6891"
+            stroke="#191919"
+            fill="#737476"
+          />
+          <rect id="rect6893" fill="#EAEAEA" x="72" y="13" width="4" height="129" />
+          <path
+            d="M75.6118164,138.635498 L116.782221,126.916791 C118.375778,126.463203 120.035317,127.38733 120.488906,128.980887 C120.564944,129.248026 120.603516,129.524431 120.603516,129.802181 L120.603516,145.738625 C120.603516,147.395479 119.26037,148.738625 117.603516,148.738625 C117.365164,148.738625 117.127663,148.71022 116.896034,148.65401 L75.6118164,138.635498 L75.6118164,138.635498 Z"
+            id="path6895"
+            stroke="#191919"
+            fill="#737476"
+          />
+          <path
+            d="M74,138.512695 L64.9644972,148.641575 C64.5968512,149.05371 63.9647142,149.089775 63.5525797,148.722129 C63.3398858,148.532394 63.2182617,148.260916 63.2182617,147.975893 L63.2182617,129.255401 C63.2182617,128.703117 63.665977,128.255401 64.2182617,128.255401 C64.4997275,128.255401 64.7681608,128.37402 64.9576621,128.582135 L74,138.512695 L74,138.512695 Z"
+            id="path6897"
+            stroke="#191919"
+            fill="#4F4C4F"
+          />
+        </g>
+        <g id="g6945" transform="translate(106, 438)">
+          <g id="g6915" transform="translate(6, 3)">
+            <mask id="mask-228" fill="white">
+              <use xlink:href="#path-227" id="use6901" />
+            </mask>
+            <g id="g6904" />
+            <polygon
+              id="polygon6906"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-228)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon6908"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-228)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-230" fill="white">
+              <use xlink:href="#path-229" id="use6910" />
+            </mask>
+            <use id="use6913" stroke="#191919" xlink:href="#path-229" />
+          </g>
+          <rect id="rect6917" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect6919" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect6921" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect6923" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect6925" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect6927" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect6929" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect6931" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon6933" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect6935" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect6937" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect6939" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect6941" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect6943" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="组件1" transform="translate(257, 158)">
+          <polygon
+            id="polygon6947"
+            fill="#A4A4A4"
+            points="4 9 45.9921875 9 48 12 1.0729107e-14 12"
+          />
+          <rect id="矩形备份-21" fill="#B2B4B3" x="1" y="12" width="46" height="4" />
+          <rect id="矩形备份-23" fill="#D4D4D4" x="1" y="16" width="46" height="4" />
+          <rect id="矩形备份-24" fill="#B4B2B3" x="1" y="20" width="46" height="4" />
+          <polygon id="矩形备份-25" fill="#A4A4A4" points="1.0729107e-14 24 48 24 45 27 3 27" />
+          <path
+            d="M44.7928932,8.5 L47.5,11.2071068 L47.5,23.8333333 L44.75,27.5 L4.16623768,27.5 L0.5,24.7591606 L0.5,11.25 L4.16666667,8.5 L44.7928932,8.5 Z"
+            id="path6953"
+            stroke="#191919"
+          />
+          <rect id="rect6955" fill="#191919" x="6" y="9" width="1" height="18" />
+          <rect id="rect6957" fill="#000000" x="10" y="6" width="31" height="18" />
+          <rect
+            id="rect6959"
+            stroke="#979797"
+            fill="#C9C9C9"
+            x="11.5"
+            y="12.5"
+            width="27"
+            height="1"
+          />
+          <rect id="rect6961" stroke="#191919" x="11.5" y="15.5" width="12" height="11" />
+          <rect id="rect6963" fill="#FFFFFF" x="12" y="16" width="11" height="2" />
+          <rect id="矩形备份-22" fill="#74676B" x="12" y="24" width="11" height="2" />
+          <rect id="矩形备份-26" fill="#74676B" x="21" y="16" width="2" height="10" />
+          <rect id="rect6967" fill="#FFFFFF" x="12" y="18" width="2" height="8" />
+          <polygon id="polygon6969" fill="#191919" points="6 26 46 26 45 27 6 27" />
+          <rect
+            id="rect6971"
+            stroke="#191919"
+            fill="#D4D4D4"
+            x="47.5"
+            y="11.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="矩形备份-27"
+            stroke="#191919"
+            fill="#B2B4B3"
+            x="47.5"
+            y="15.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="矩形备份-28"
+            stroke="#191919"
+            fill="#A4A4A4"
+            x="47.5"
+            y="19.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="rect6975"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="51.5"
+            y="8.5"
+            width="3"
+            height="19"
+          />
+          <rect id="rect6977" fill="#A4A4A4" x="52" y="9" width="2" height="3" />
+          <rect id="矩形备份-29" fill="#B2B4B3" x="52" y="12" width="2" height="4" />
+          <rect id="矩形备份-31" fill="#D4D4D4" x="52" y="16" width="2" height="4" />
+          <rect id="矩形备份-32" fill="#B2B4B3" x="52" y="20" width="2" height="4" />
+          <rect id="矩形备份-33" fill="#A4A4A4" x="52" y="24" width="2" height="3" />
+          <rect id="rect6983" fill="#191919" x="64" y="8" width="3" height="20" />
+          <rect id="rect6985" fill="#191919" x="48" y="0" width="20" height="3" />
+          <rect
+            id="rect6987"
+            stroke="#191919"
+            fill="#474948"
+            x="54.5"
+            y="2.5"
+            width="7"
+            height="3"
+          />
+          <rect
+            id="rect6989"
+            stroke="#191919"
+            fill="#474948"
+            x="55.5"
+            y="5.5"
+            width="5"
+            height="3"
+          />
+          <rect
+            id="rect6991"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="55.5"
+            y="8.5"
+            width="5"
+            height="19"
+          />
+          <rect id="rect6993" fill="#A4A4A4" x="56" y="9" width="4" height="3" />
+          <rect id="rect6995" fill="#B2B4B3" x="56" y="12" width="4" height="4" />
+          <rect id="rect6997" fill="#D4D4D4" x="56" y="16" width="4" height="4" />
+          <rect id="rect6999" fill="#B2B4B3" x="56" y="20" width="4" height="4" />
+          <rect id="rect7001" fill="#A4A4A4" x="56" y="24" width="4" height="3" />
+          <rect
+            id="rect7003"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="60.5"
+            y="11.5"
+            width="3"
+            height="13"
+          />
+          <rect id="rect7005" fill="#191919" x="63" y="11" width="2" height="14" />
+          <rect id="rect7007" fill="#B2B4B3" x="61" y="12" width="2" height="4" />
+          <rect id="矩形备份-30" fill="#D4D4D4" x="61" y="16" width="2" height="4" />
+          <rect id="矩形备份-34" fill="#B2B4B3" x="61" y="20" width="2" height="4" />
+          <rect id="rect7011" fill="#191919" x="54" y="8" width="2" height="20" />
+        </g>
+        <g id="g7094" transform="translate(14, 430)">
+          <polygon
+            id="polygon7014"
+            fill="#A4A4A4"
+            points="4 9 45.9921875 9 48 12 1.0729107e-14 12"
+          />
+          <rect id="rect7016" fill="#B2B4B3" x="1" y="12" width="46" height="4" />
+          <rect id="rect7018" fill="#D4D4D4" x="1" y="16" width="46" height="4" />
+          <rect id="rect7020" fill="#B4B2B3" x="1" y="20" width="46" height="4" />
+          <polygon id="polygon7022" fill="#A4A4A4" points="1.0729107e-14 24 48 24 45 27 3 27" />
+          <path
+            d="M44.7928932,8.5 L47.5,11.2071068 L47.5,23.8333333 L44.75,27.5 L4.16623768,27.5 L0.5,24.7591606 L0.5,11.25 L4.16666667,8.5 L44.7928932,8.5 Z"
+            id="path7024"
+            stroke="#191919"
+          />
+          <rect id="rect7026" fill="#191919" x="6" y="9" width="1" height="18" />
+          <rect id="rect7028" fill="#000000" x="10" y="6" width="31" height="18" />
+          <rect
+            id="rect7030"
+            stroke="#979797"
+            fill="#C9C9C9"
+            x="11.5"
+            y="12.5"
+            width="27"
+            height="1"
+          />
+          <rect id="rect7032" stroke="#191919" x="11.5" y="15.5" width="12" height="11" />
+          <rect id="rect7034" fill="#FFFFFF" x="12" y="16" width="11" height="2" />
+          <rect id="rect7036" fill="#74676B" x="12" y="24" width="11" height="2" />
+          <rect id="rect7038" fill="#74676B" x="21" y="16" width="2" height="10" />
+          <rect id="rect7040" fill="#FFFFFF" x="12" y="18" width="2" height="8" />
+          <polygon id="polygon7042" fill="#191919" points="6 26 46 26 45 27 6 27" />
+          <rect
+            id="rect7044"
+            stroke="#191919"
+            fill="#D4D4D4"
+            x="47.5"
+            y="11.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="rect7046"
+            stroke="#191919"
+            fill="#B2B4B3"
+            x="47.5"
+            y="15.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="rect7048"
+            stroke="#191919"
+            fill="#A4A4A4"
+            x="47.5"
+            y="19.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="rect7050"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="51.5"
+            y="8.5"
+            width="3"
+            height="19"
+          />
+          <rect id="rect7052" fill="#A4A4A4" x="52" y="9" width="2" height="3" />
+          <rect id="rect7054" fill="#B2B4B3" x="52" y="12" width="2" height="4" />
+          <rect id="rect7056" fill="#D4D4D4" x="52" y="16" width="2" height="4" />
+          <rect id="rect7058" fill="#B2B4B3" x="52" y="20" width="2" height="4" />
+          <rect id="rect7060" fill="#A4A4A4" x="52" y="24" width="2" height="3" />
+          <rect id="rect7062" fill="#191919" x="64" y="8" width="3" height="20" />
+          <rect id="rect7064" fill="#191919" x="48" y="0" width="20" height="3" />
+          <rect
+            id="rect7066"
+            stroke="#191919"
+            fill="#474948"
+            x="54.5"
+            y="2.5"
+            width="7"
+            height="3"
+          />
+          <rect
+            id="rect7068"
+            stroke="#191919"
+            fill="#474948"
+            x="55.5"
+            y="5.5"
+            width="5"
+            height="3"
+          />
+          <rect
+            id="rect7070"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="55.5"
+            y="8.5"
+            width="5"
+            height="19"
+          />
+          <rect id="rect7072" fill="#A4A4A4" x="56" y="9" width="4" height="3" />
+          <rect id="rect7074" fill="#B2B4B3" x="56" y="12" width="4" height="4" />
+          <rect id="rect7076" fill="#D4D4D4" x="56" y="16" width="4" height="4" />
+          <rect id="rect7078" fill="#B2B4B3" x="56" y="20" width="4" height="4" />
+          <rect id="rect7080" fill="#A4A4A4" x="56" y="24" width="4" height="3" />
+          <rect
+            id="rect7082"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="60.5"
+            y="11.5"
+            width="3"
+            height="13"
+          />
+          <rect id="rect7084" fill="#191919" x="63" y="11" width="2" height="14" />
+          <rect id="rect7086" fill="#B2B4B3" x="61" y="12" width="2" height="4" />
+          <rect id="rect7088" fill="#D4D4D4" x="61" y="16" width="2" height="4" />
+          <rect id="rect7090" fill="#B2B4B3" x="61" y="20" width="2" height="4" />
+          <rect id="rect7092" fill="#191919" x="54" y="8" width="2" height="20" />
+        </g>
+        <g id="g7108" transform="translate(878, 662)">
+          <rect id="rect7096" fill="#16A2BC" x="0" y="0" width="14" height="30" />
+          <rect id="rect7098" fill="#191919" x="0" y="0" width="1" height="30" />
+          <rect id="rect7100" fill="#191919" x="13" y="0" width="1" height="30" />
+          <rect id="rect7102" fill="#99A5AF" x="1" y="0" width="1" height="30" />
+          <rect id="rect7104" fill="#99A5AF" x="12" y="0" width="1" height="30" />
+          <rect id="rect7106" fill="#FFFFFF" x="6" y="19" width="2" height="11" />
+        </g>
+        <g id="g7124" transform="translate(21, 399)">
+          <rect id="rect7110" fill="#16A2BC" x="0" y="0" width="198" height="14" />
+          <rect id="rect7112" fill="#191919" x="0" y="0" width="198" height="1" />
+          <rect id="rect7114" fill="#99A5AF" x="0" y="1" width="198" height="1" />
+          <rect id="rect7116" fill="#99A5AF" x="0" y="12" width="198" height="1" />
+          <rect id="rect7118" fill="#191919" x="0" y="13" width="198" height="1" />
+          <path
+            d="M90,4 L90,6 L102,6 L102,8 L90,8 L90,10 L88,10 L88,8 L56,8 L56,6 L88,6 L88,4 L90,4 Z"
+            id="path7120"
+            fill="#FFFFFF"
+          />
+          <rect id="rect7122" fill="#FFFFFF" x="178" y="6" width="17" height="2" />
+        </g>
+        <g id="g7216" transform="translate(87, 348)">
+          <rect id="rect7126" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect
+            id="rect7128"
+            stroke="#191919"
+            fill="#696969"
+            x="17.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect7130" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="rect7132" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="rect7134" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="rect7136" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="rect7138" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="rect7140" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect
+            id="rect7142"
+            stroke="#191919"
+            fill="#9B999A"
+            x="0.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle7144" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="circle7146" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="rect7148" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="rect7150" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="rect7152" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect
+            id="rect7154"
+            stroke="#191919"
+            fill="#9B999A"
+            x="9.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="path7156"
+            fill="#F6F4F5"
+          />
+          <polyline id="polyline7158" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="path7160"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="path7162"
+            stroke="#191919"
+          />
+          <rect
+            id="rect7164"
+            stroke="#191919"
+            fill="#696969"
+            x="20.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect7166" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="rect7168" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="rect7170" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="rect7172"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7174"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle7176" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="rect7178"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7180"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect7182"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect7184"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect7186"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect7188" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="rect7190" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="rect7192"
+            stroke="#191919"
+            fill="#696969"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect7194" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="rect7196" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="rect7198" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="rect7200" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect
+            id="rect7202"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect7204"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7206"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7208"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect7210"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect7212"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect7214"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="g7262" transform="translate(211, 396)">
+          <g id="g7232" transform="translate(6, 3)">
+            <mask id="mask-232" fill="white">
+              <use xlink:href="#path-231" id="use7218" />
+            </mask>
+            <g id="g7221" />
+            <polygon
+              id="polygon7223"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-232)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon7225"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-232)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-234" fill="white">
+              <use xlink:href="#path-233" id="use7227" />
+            </mask>
+            <use id="use7230" stroke="#191919" xlink:href="#path-233" />
+          </g>
+          <rect id="rect7234" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect7236" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect7238" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect7240" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect7242" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect7244" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect7246" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect7248" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon7250" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect7252" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect7254" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect7256" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect7258" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect7260" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="g7315" transform="translate(884, 212)">
+          <mask id="mask-236" fill="white">
+            <use xlink:href="#path-235" id="use7264" />
+          </mask>
+          <use id="use7267" fill="#D8D8D8" xlink:href="#path-235" />
+          <g mask="url(#mask-236)" id="g7309">
+            <rect id="rect7269" fill="#191919" x="0" y="0" width="30" height="42" />
+            <rect id="rect7271" fill="#191919" x="2" y="41" width="26" height="5" />
+            <rect id="rect7273" fill="#A4A4A4" x="3" y="42" width="4" height="3" />
+            <rect id="rect7275" fill="#B4B2B3" x="7" y="42" width="5" height="3" />
+            <rect id="rect7277" fill="#D4D4D4" x="12" y="42" width="5" height="3" />
+            <rect id="rect7279" fill="#B4B2B3" x="17" y="42" width="5" height="3" />
+            <rect id="rect7281" fill="#A4A4A4" x="22" y="42" width="5" height="3" />
+            <rect id="rect7283" fill="#D8D8D8" x="1" y="0" width="28" height="5" />
+            <rect id="rect7285" fill="#A4A4A4" x="1" y="0" width="5" height="5" />
+            <rect id="rect7287" fill="#B4B2B3" x="6" y="0" width="6" height="5" />
+            <rect id="rect7289" fill="#D4D4D4" x="12" y="0" width="6" height="5" />
+            <rect id="rect7291" fill="#B4B2B3" x="18" y="0" width="6" height="5" />
+            <rect id="rect7293" fill="#A4A4A4" x="24" y="0" width="5" height="5" />
+            <rect id="rect7295" fill="#818483" x="27" y="12" width="1" height="26" />
+            <rect id="rect7297" fill="#818483" x="2" y="7" width="3" height="14" />
+            <rect id="rect7299" fill="#B2B2B2" x="1" y="22" width="16" height="16" />
+            <rect id="rect7301" fill="#FFFFFF" x="1" y="22" width="16" height="2" />
+            <rect id="rect7303" fill="#FFFFFF" x="15" y="22" width="2" height="15" />
+            <rect id="rect7305" fill="#191919" x="1" y="37" width="16" height="2" />
+            <rect id="rect7307" fill="#191919" x="1" y="22" width="2" height="16" />
+          </g>
+          <rect
+            id="rect7311"
+            fill="#191919"
+            mask="url(#mask-236)"
+            x="0"
+            y="0"
+            width="30"
+            height="1"
+          />
+          <path
+            d="M27.8060756,0.5 L29.5,2.04662659 L29.5,41.5 L0.5,41.5 L0.5,2.04662659 L2.19392436,0.5 L27.8060756,0.5 Z"
+            id="path7313"
+            stroke="#191919"
+            mask="url(#mask-236)"
+          />
+        </g>
+        <g id="g7333" transform="translate(327, 169)">
+          <rect id="rect7317" fill="#16A2BC" x="0" y="0" width="323" height="14" />
+          <rect id="rect7319" fill="#191919" x="0" y="0" width="323" height="1" />
+          <rect id="rect7321" fill="#99A5AF" x="0" y="1" width="323" height="1" />
+          <rect id="rect7323" fill="#99A5AF" x="0" y="12" width="323" height="1" />
+          <rect id="rect7325" fill="#191919" x="0" y="13" width="323" height="1" />
+          <path
+            d="M20,4 L20,6 L32,6 L32,8 L20,8 L20,10 L18,10 L18,8 L0,8 L0,6 L18,6 L18,4 L20,4 Z"
+            id="path7327"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M154,4 L154,6 L166,6 L166,8 L154,8 L154,10 L152,10 L152,8 L120,8 L120,6 L152,6 L152,4 L154,4 Z"
+            id="path7329"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M288,4 L288,6 L300,6 L300,8 L288,8 L288,10 L286,10 L286,8 L254,8 L254,6 L286,6 L286,4 L288,4 Z"
+            id="path7331"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="g7349" transform="translate(474, 210)">
+          <rect id="rect7335" fill="#16A2BC" x="-5.68434189e-14" y="0" width="356" height="14" />
+          <rect id="rect7337" fill="#191919" x="-5.68434189e-14" y="0" width="356" height="1" />
+          <rect id="rect7339" fill="#99A5AF" x="-5.68434189e-14" y="1" width="356" height="1" />
+          <rect id="rect7341" fill="#99A5AF" x="-5.68434189e-14" y="12" width="356" height="1" />
+          <rect id="rect7343" fill="#191919" x="-5.68434189e-14" y="13" width="356" height="1" />
+          <path
+            d="M81,4 L81,6 L93,6 L93,8 L81,8 L81,10 L79,10 L79,8 L47,8 L47,6 L79,6 L79,4 L81,4 Z"
+            id="path7345"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M255,4 L255,6 L267,6 L267,8 L255,8 L255,10 L253,10 L253,8 L221,8 L221,6 L253,6 L253,4 L255,4 Z"
+            id="path7347"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="g7365" transform="translate(485, 403)">
+          <rect id="rect7351" fill="#16A2BC" x="-5.68434189e-14" y="0" width="356" height="14" />
+          <rect id="rect7353" fill="#191919" x="-5.68434189e-14" y="0" width="356" height="1" />
+          <rect id="rect7355" fill="#99A5AF" x="-5.68434189e-14" y="1" width="356" height="1" />
+          <rect id="rect7357" fill="#99A5AF" x="-5.68434189e-14" y="12" width="356" height="1" />
+          <rect id="rect7359" fill="#191919" x="-5.68434189e-14" y="13" width="356" height="1" />
+          <path
+            d="M81,4 L81,6 L93,6 L93,8 L81,8 L81,10 L79,10 L79,8 L47,8 L47,6 L79,6 L79,4 L81,4 Z"
+            id="path7361"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M243,4 L243,6 L255,6 L255,8 L243,8 L243,10 L241,10 L241,8 L209,8 L209,6 L241,6 L241,4 L243,4 Z"
+            id="path7363"
+            fill="#FFFFFF"
+          />
+        </g>
+        <g id="g7479" transform="translate(485, 351)">
+          <g id="g7377" transform="translate(59, 49)">
+            <rect id="rect7367" fill="url(#linearGradient-18)" x="0" y="0" width="9" height="20" />
+            <rect id="rect7369" fill="#B4B2B3" x="8" y="1" width="1" height="18" />
+            <rect id="rect7371" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="rect7373" fill="#191919" x="1" y="0" width="8" height="1" />
+            <rect id="rect7375" fill="#191919" x="1" y="19" width="8" height="1" />
+          </g>
+          <g id="g7387" transform="translate(0, 49)">
+            <rect id="rect7379" fill="url(#linearGradient-19)" x="0" y="0" width="13" height="20" />
+            <rect id="rect7381" fill="#191919" x="12" y="2" width="1" height="17" />
+            <rect id="rect7383" fill="#191919" x="0" y="0" width="12" height="1" />
+            <rect id="rect7385" fill="#191919" x="0" y="19" width="12" height="1" />
+          </g>
+          <rect id="rect7389" fill="#191919" x="27" y="19" width="19" height="17" />
+          <rect
+            id="rect7391"
+            stroke="#191919"
+            fill="#02C90F"
+            x="29.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect7393" fill="#191919" x="24" y="26" width="24" height="8" />
+          <rect id="rect7395" fill="#02C90F" x="25" y="28" width="1" height="3" />
+          <rect id="rect7397" fill="#02C90F" x="30" y="28" width="4" height="4" />
+          <rect id="rect7399" fill="#02C90F" x="36" y="28" width="8" height="5" />
+          <rect id="rect7401" fill="#191919" x="15" y="21" width="13" height="3" />
+          <rect id="rect7403" fill="#191919" x="15" y="10" width="10" height="2" />
+          <rect
+            id="rect7405"
+            stroke="#191919"
+            fill="#02C90F"
+            x="12.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle7407" stroke="#191919" fill="#02C90F" cx="15" cy="23" r="2.5" />
+          <circle id="circle7409" stroke="#191919" fill="#02C90F" cx="14" cy="11" r="1.5" />
+          <rect id="rect7411" fill="#191919" x="21" y="4" width="30" height="20" />
+          <rect id="rect7413" fill="#02C90F" x="46" y="28" width="1" height="3" />
+          <rect id="rect7415" fill="#02C90F" x="31" y="21" width="12" height="3" />
+          <rect
+            id="rect7417"
+            stroke="#191919"
+            fill="#02C90F"
+            x="21.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M30.5,4 L30.5,2 C30.5,0.8954305 31.3954305,2.02906125e-16 32.5,0 L38.5,0 C40.1568542,-3.04359188e-16 41.5,1.34314575 41.5,3 L41.5,4 L41.5,4 L30.5,4 Z"
+            id="path7419"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="polyline7421" stroke="#191919" points="31 2 31 -9.10729825e-18 36 0" />
+          <path
+            d="M38,0 L39,0 C40.1045695,-2.02906125e-16 41,0.8954305 41,2 L41,2 L41,2"
+            id="path7423"
+            stroke="#191919"
+          />
+          <path
+            d="M30,2 L30,3 C30,3.55228475 30.4477153,4 31,4 L41,4 C41.5522847,4 42,3.55228475 42,3 L42,2 L42,2"
+            id="path7425"
+            stroke="#191919"
+          />
+          <rect
+            id="rect7427"
+            stroke="#191919"
+            fill="#02C90F"
+            x="32.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect7429" fill="#02C90F" x="22" y="14" width="28" height="2" />
+          <rect id="rect7431" fill="#02C90F" x="22" y="17" width="28" height="2" />
+          <rect id="rect7433" fill="#191919" x="51" y="12" width="3" height="7" />
+          <rect
+            id="rect7435"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="39.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7437"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle7439" stroke="#191919" fill="#02C90F" cx="45.5" cy="13.5" r="3" />
+          <rect
+            id="rect7441"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7443"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="13.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect7445"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="12.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect7447"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="17.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect7449"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="43.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect7451" fill="#000000" x="30" y="45" width="13" height="25" />
+          <rect id="rect7453" fill="#191919" x="29" y="45" width="14" height="4" />
+          <rect
+            id="rect7455"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="31.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect7457" fill="#191919" x="32" y="44" width="7" height="1" />
+          <rect id="rect7459" fill="url(#linearGradient-27)" x="30" y="49" width="12" height="4" />
+          <rect id="rect7461" fill="url(#linearGradient-28)" x="31" y="55" width="10" height="11" />
+          <rect id="rect7463" fill="url(#linearGradient-29)" x="30" y="67" width="12" height="2" />
+          <rect
+            id="rect7465"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="13.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect7467"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7469"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7471"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="55.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect7473"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="55.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect7475"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="55.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect7477"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g
+          id="g7591"
+          transform="translate(1422, 676.5) scale(-1, -1) translate(-1422, -676.5)translate(1388, 640)"
+        >
+          <g id="g7489" transform="translate(59, 49)">
+            <rect id="rect7481" fill="url(#linearGradient-18)" x="0" y="0" width="9" height="20" />
+            <rect id="rect7483" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="rect7485" fill="#191919" x="1" y="0" width="8" height="1" />
+            <rect id="rect7487" fill="#191919" x="1" y="19" width="8" height="1" />
+          </g>
+          <g id="g7499" transform="translate(0, 49)">
+            <rect id="rect7491" fill="url(#linearGradient-19)" x="0" y="0" width="13" height="20" />
+            <rect id="rect7493" fill="#191919" x="12" y="2" width="1" height="17" />
+            <rect id="rect7495" fill="#191919" x="0" y="0" width="12" height="1" />
+            <rect id="rect7497" fill="#191919" x="0" y="19" width="12" height="1" />
+          </g>
+          <rect id="rect7501" fill="#191919" x="27" y="19" width="19" height="17" />
+          <rect
+            id="rect7503"
+            stroke="#191919"
+            fill="#02C90F"
+            x="29.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect7505" fill="#191919" x="24" y="26" width="24" height="8" />
+          <rect id="rect7507" fill="#02C90F" x="25" y="28" width="1" height="3" />
+          <rect id="rect7509" fill="#02C90F" x="30" y="28" width="4" height="4" />
+          <rect id="rect7511" fill="#02C90F" x="36" y="28" width="8" height="5" />
+          <rect id="rect7513" fill="#191919" x="15" y="21" width="13" height="3" />
+          <rect id="rect7515" fill="#191919" x="15" y="10" width="10" height="2" />
+          <rect
+            id="rect7517"
+            stroke="#191919"
+            fill="#02C90F"
+            x="12.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle7519" stroke="#191919" fill="#02C90F" cx="15" cy="23" r="2.5" />
+          <circle id="circle7521" stroke="#191919" fill="#02C90F" cx="14" cy="11" r="1.5" />
+          <rect id="rect7523" fill="#191919" x="21" y="4" width="30" height="20" />
+          <rect id="rect7525" fill="#02C90F" x="46" y="28" width="1" height="3" />
+          <rect id="rect7527" fill="#02C90F" x="31" y="21" width="12" height="3" />
+          <rect
+            id="rect7529"
+            stroke="#191919"
+            fill="#02C90F"
+            x="21.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M30.5,4 L30.5,2 C30.5,0.8954305 31.3954305,2.02906125e-16 32.5,0 L38.5,0 C40.1568542,-3.04359188e-16 41.5,1.34314575 41.5,3 L41.5,4 L41.5,4 L30.5,4 Z"
+            id="path7531"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="polyline7533" stroke="#191919" points="31 2 31 -9.10729825e-18 36 0" />
+          <path
+            d="M38,0 L39,0 C40.1045695,-2.02906125e-16 41,0.8954305 41,2 L41,2 L41,2"
+            id="path7535"
+            stroke="#191919"
+          />
+          <path
+            d="M30,2 L30,3 C30,3.55228475 30.4477153,4 31,4 L41,4 C41.5522847,4 42,3.55228475 42,3 L42,2 L42,2"
+            id="path7537"
+            stroke="#191919"
+          />
+          <rect
+            id="rect7539"
+            stroke="#191919"
+            fill="#02C90F"
+            x="32.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect7541" fill="#02C90F" x="22" y="14" width="28" height="2" />
+          <rect id="rect7543" fill="#02C90F" x="22" y="17" width="28" height="2" />
+          <rect id="rect7545" fill="#191919" x="51" y="12" width="3" height="7" />
+          <rect
+            id="rect7547"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="39.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7549"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle7551" stroke="#191919" fill="#02C90F" cx="45.5" cy="13.5" r="3" />
+          <rect
+            id="rect7553"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7555"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="13.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect7557"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="12.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect7559"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="17.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect7561"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="43.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect7563" fill="#000000" x="30" y="45" width="13" height="25" />
+          <rect id="rect7565" fill="#191919" x="29" y="45" width="14" height="4" />
+          <rect
+            id="rect7567"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="31.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect7569" fill="#191919" x="32" y="44" width="7" height="1" />
+          <rect id="rect7571" fill="url(#linearGradient-27)" x="30" y="49" width="12" height="4" />
+          <rect id="rect7573" fill="url(#linearGradient-28)" x="31" y="55" width="10" height="11" />
+          <rect id="rect7575" fill="url(#linearGradient-29)" x="30" y="67" width="12" height="2" />
+          <rect
+            id="rect7577"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="13.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect7579"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7581"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7583"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="55.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect7585"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="55.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect7587"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="55.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect7589"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件7备份-5" transform="translate(1388, 720)">
+          <g id="g7601" transform="translate(59, 49)">
+            <rect id="rect7593" fill="url(#linearGradient-18)" x="0" y="0" width="9" height="20" />
+            <rect id="rect7595" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="rect7597" fill="#191919" x="1" y="0" width="8" height="1" />
+            <rect id="rect7599" fill="#191919" x="1" y="19" width="8" height="1" />
+          </g>
+          <g id="g7611" transform="translate(0, 49)">
+            <rect id="rect7603" fill="url(#linearGradient-19)" x="0" y="0" width="13" height="20" />
+            <rect id="rect7605" fill="#191919" x="12" y="2" width="1" height="17" />
+            <rect id="rect7607" fill="#191919" x="0" y="0" width="12" height="1" />
+            <rect id="rect7609" fill="#191919" x="0" y="19" width="12" height="1" />
+          </g>
+          <rect id="rect7613" fill="#191919" x="27" y="19" width="19" height="17" />
+          <rect
+            id="rect7615"
+            stroke="#191919"
+            fill="#02C90F"
+            x="29.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect7617" fill="#191919" x="24" y="26" width="24" height="8" />
+          <rect id="rect7619" fill="#02C90F" x="25" y="28" width="1" height="3" />
+          <rect id="rect7621" fill="#02C90F" x="30" y="28" width="4" height="4" />
+          <rect id="rect7623" fill="#02C90F" x="36" y="28" width="8" height="5" />
+          <rect id="rect7625" fill="#191919" x="15" y="21" width="13" height="3" />
+          <rect id="rect7627" fill="#191919" x="15" y="10" width="10" height="2" />
+          <rect
+            id="rect7629"
+            stroke="#191919"
+            fill="#02C90F"
+            x="12.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle7631" stroke="#191919" fill="#02C90F" cx="15" cy="23" r="2.5" />
+          <circle id="circle7633" stroke="#191919" fill="#02C90F" cx="14" cy="11" r="1.5" />
+          <rect id="rect7635" fill="#191919" x="21" y="4" width="30" height="20" />
+          <rect id="rect7637" fill="#02C90F" x="46" y="28" width="1" height="3" />
+          <rect id="rect7639" fill="#02C90F" x="31" y="21" width="12" height="3" />
+          <rect
+            id="rect7641"
+            stroke="#191919"
+            fill="#02C90F"
+            x="21.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M30.5,4 L30.5,2 C30.5,0.8954305 31.3954305,2.02906125e-16 32.5,0 L38.5,0 C40.1568542,-3.04359188e-16 41.5,1.34314575 41.5,3 L41.5,4 L41.5,4 L30.5,4 Z"
+            id="path7643"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="polyline7645" stroke="#191919" points="31 2 31 -9.10729825e-18 36 0" />
+          <path
+            d="M38,0 L39,0 C40.1045695,-2.02906125e-16 41,0.8954305 41,2 L41,2 L41,2"
+            id="path7647"
+            stroke="#191919"
+          />
+          <path
+            d="M30,2 L30,3 C30,3.55228475 30.4477153,4 31,4 L41,4 C41.5522847,4 42,3.55228475 42,3 L42,2 L42,2"
+            id="path7649"
+            stroke="#191919"
+          />
+          <rect
+            id="rect7651"
+            stroke="#191919"
+            fill="#02C90F"
+            x="32.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect7653" fill="#02C90F" x="22" y="14" width="28" height="2" />
+          <rect id="rect7655" fill="#02C90F" x="22" y="17" width="28" height="2" />
+          <rect id="rect7657" fill="#191919" x="51" y="12" width="3" height="7" />
+          <rect
+            id="rect7659"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="39.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7661"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle7663" stroke="#191919" fill="#02C90F" cx="45.5" cy="13.5" r="3" />
+          <rect
+            id="rect7665"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7667"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="13.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect7669"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="12.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect7671"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="17.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect7673"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="43.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect7675" fill="#000000" x="30" y="45" width="13" height="25" />
+          <rect id="rect7677" fill="#191919" x="29" y="45" width="14" height="4" />
+          <rect
+            id="rect7679"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="31.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect7681" fill="#191919" x="32" y="44" width="7" height="1" />
+          <rect id="rect7683" fill="url(#linearGradient-27)" x="30" y="49" width="12" height="4" />
+          <rect id="rect7685" fill="url(#linearGradient-28)" x="31" y="55" width="10" height="11" />
+          <rect id="rect7687" fill="url(#linearGradient-29)" x="30" y="67" width="12" height="2" />
+          <rect
+            id="rect7689"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="13.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect7691"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="12.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7693"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7695"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="55.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect7697"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="55.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect7699"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="55.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect7701"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="55.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="g7726" transform="translate(968, 375)">
+          <rect id="rect7704" fill="#D428B6" x="0" y="42" width="78" height="4" />
+          <g id="g7724" transform="translate(15, 0)">
+            <rect
+              id="rect7706"
+              stroke="#191919"
+              fill="url(#linearGradient-166)"
+              x="17.5"
+              y="36.5"
+              width="17"
+              height="15"
+            />
+            <rect
+              id="rect7708"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="33.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+            <rect
+              id="rect7710"
+              stroke="#191919"
+              fill="url(#linearGradient-168)"
+              x="23.5"
+              y="27.5"
+              width="5"
+              height="10"
+            />
+            <circle id="circle7712" fill="#191919" cx="17" cy="2" r="2" />
+            <rect
+              id="rect7714"
+              stroke="#191919"
+              fill="#C1C3C2"
+              x="12.5"
+              y="2.5"
+              width="27"
+              height="25"
+              rx="3"
+            />
+            <path
+              d="M17,4 L39,4 L39,4 L39,25 C39,26.1045695 38.1045695,27 37,27 L14,27 L14,27 L14,7 C14,5.34314575 15.3431458,4 17,4 Z"
+              id="path7716"
+              fill="#9A9899"
+            />
+            <rect
+              id="rect7718"
+              stroke="#191919"
+              fill="#9A9899"
+              x="11.5"
+              y="13.5"
+              width="29"
+              height="4"
+            />
+            <path
+              d="M12.5,19.5 L12.5,22.5 L3.5,22.5 L3.5,36.5 L0.5,36.5 L0.5,22 C0.5,21.3096441 0.779822031,20.6846441 1.23223305,20.232233 C1.68464406,19.779822 2.30964406,19.5 3,19.5 L12.5,19.5 Z"
+              id="path7720"
+              stroke="#191919"
+              fill="#9A9899"
+            />
+            <rect
+              id="rect7722"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="12.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+          </g>
+        </g>
+        <g id="g7838" transform="translate(755, 351)">
+          <g id="g7736" transform="translate(55, 49)">
+            <rect
+              id="rect7728"
+              fill="url(#linearGradient-237)"
+              x="0"
+              y="0"
+              width="15"
+              height="20"
+            />
+            <rect id="rect7730" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="rect7732" fill="#191919" x="0" y="0" width="15" height="1" />
+            <rect id="rect7734" fill="#191919" x="0" y="19" width="15" height="1" />
+          </g>
+          <g id="g7746" transform="translate(0, 49)">
+            <rect id="rect7738" fill="url(#linearGradient-18)" x="0" y="0" width="9" height="20" />
+            <rect id="rect7740" fill="#191919" x="8" y="2" width="1" height="17" />
+            <rect id="rect7742" fill="#191919" x="0" y="0" width="8.30769231" height="1" />
+            <rect id="rect7744" fill="#191919" x="0" y="19" width="8.30769231" height="1" />
+          </g>
+          <rect id="rect7748" fill="#191919" x="23" y="19" width="19" height="17" />
+          <rect
+            id="rect7750"
+            stroke="#191919"
+            fill="#696969"
+            x="25.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect7752" fill="#191919" x="20" y="26" width="24" height="8" />
+          <rect id="rect7754" fill="#696969" x="21" y="28" width="1" height="3" />
+          <rect id="rect7756" fill="#696969" x="26" y="28" width="4" height="4" />
+          <rect id="rect7758" fill="#696969" x="32" y="28" width="8" height="5" />
+          <rect id="rect7760" fill="#191919" x="11" y="21" width="13" height="3" />
+          <rect id="rect7762" fill="#191919" x="11" y="10" width="10" height="2" />
+          <rect
+            id="rect7764"
+            stroke="#191919"
+            fill="#9B999A"
+            x="8.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle7766" stroke="#191919" fill="#9B999A" cx="11" cy="23" r="2.5" />
+          <circle id="circle7768" stroke="#191919" fill="#9B999A" cx="10" cy="11" r="1.5" />
+          <rect id="rect7770" fill="#191919" x="17" y="4" width="30" height="20" />
+          <rect id="rect7772" fill="#696969" x="42" y="28" width="1" height="3" />
+          <rect id="rect7774" fill="#696969" x="27" y="21" width="12" height="3" />
+          <rect
+            id="rect7776"
+            stroke="#191919"
+            fill="#9B999A"
+            x="17.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M26.5,4 L26.5,2 C26.5,0.8954305 27.3954305,2.02906125e-16 28.5,0 L34.5,0 C36.1568542,-3.04359188e-16 37.5,1.34314575 37.5,3 L37.5,4 L37.5,4 L26.5,4 Z"
+            id="path7778"
+            fill="#F6F4F5"
+          />
+          <polyline id="polyline7780" stroke="#191919" points="27 2 27 -9.10729825e-18 32 0" />
+          <path
+            d="M34,0 L35,0 C36.1045695,-2.02906125e-16 37,0.8954305 37,2 L37,2 L37,2"
+            id="path7782"
+            stroke="#191919"
+          />
+          <path
+            d="M26,2 L26,3 C26,3.55228475 26.4477153,4 27,4 L37,4 C37.5522847,4 38,3.55228475 38,3 L38,2 L38,2"
+            id="path7784"
+            stroke="#191919"
+          />
+          <rect
+            id="rect7786"
+            stroke="#191919"
+            fill="#696969"
+            x="28.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect7788" fill="#9B999A" x="18" y="14" width="28" height="2" />
+          <rect id="rect7790" fill="#696969" x="18" y="17" width="28" height="2" />
+          <rect id="rect7792" fill="#191919" x="47" y="12" width="3" height="7" />
+          <rect
+            id="rect7794"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="35.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7796"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="23.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle7798" stroke="#191919" fill="#9B999A" cx="41.5" cy="13.5" r="3" />
+          <rect
+            id="rect7800"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="8.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7802"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="9.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect7804"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="8.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect7806"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="13.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect7808"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="39.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect7810" fill="#000000" x="26" y="45" width="13" height="25" />
+          <rect id="rect7812" fill="#191919" x="25" y="45" width="14" height="4" />
+          <rect
+            id="rect7814"
+            stroke="#191919"
+            fill="#696969"
+            x="27.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect7816" fill="#191919" x="28" y="44" width="7" height="1" />
+          <rect id="rect7818" fill="#F1F1F1" x="26" y="49" width="12" height="4" />
+          <rect id="rect7820" fill="#F1F1F1" x="27" y="55" width="10" height="11" />
+          <rect id="rect7822" fill="#F1F1F1" x="26" y="67" width="12" height="2" />
+          <rect
+            id="rect7824"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="9.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect7826"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="8.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7828"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7830"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect7832"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect7834"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect7836"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="g7950" transform="translate(445, 825)">
+          <g id="g7848" transform="translate(55, 49)">
+            <rect id="rect7840" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+            <rect id="rect7842" fill="#191919" x="0" y="1" width="1" height="18" />
+            <rect id="rect7844" fill="#191919" x="0" y="0" width="7" height="1" />
+            <rect id="rect7846" fill="#191919" x="0" y="19" width="7" height="1" />
+          </g>
+          <g id="g7858" transform="translate(0, 49)">
+            <rect id="rect7850" fill="url(#linearGradient-18)" x="0" y="0" width="9" height="20" />
+            <rect id="rect7852" fill="#191919" x="8" y="2" width="1" height="17" />
+            <rect id="rect7854" fill="#191919" x="0" y="0" width="8.30769231" height="1" />
+            <rect id="rect7856" fill="#191919" x="0" y="19" width="8.30769231" height="1" />
+          </g>
+          <rect id="rect7860" fill="#191919" x="23" y="19" width="19" height="17" />
+          <rect
+            id="rect7862"
+            stroke="#191919"
+            fill="#696969"
+            x="25.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect7864" fill="#191919" x="20" y="26" width="24" height="8" />
+          <rect id="rect7866" fill="#696969" x="21" y="28" width="1" height="3" />
+          <rect id="rect7868" fill="#696969" x="26" y="28" width="4" height="4" />
+          <rect id="rect7870" fill="#696969" x="32" y="28" width="8" height="5" />
+          <rect id="rect7872" fill="#191919" x="11" y="21" width="13" height="3" />
+          <rect id="rect7874" fill="#191919" x="11" y="10" width="10" height="2" />
+          <rect
+            id="rect7876"
+            stroke="#191919"
+            fill="#9B999A"
+            x="8.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle7878" stroke="#191919" fill="#9B999A" cx="11" cy="23" r="2.5" />
+          <circle id="circle7880" stroke="#191919" fill="#9B999A" cx="10" cy="11" r="1.5" />
+          <rect id="rect7882" fill="#191919" x="17" y="4" width="30" height="20" />
+          <rect id="rect7884" fill="#696969" x="42" y="28" width="1" height="3" />
+          <rect id="rect7886" fill="#696969" x="27" y="21" width="12" height="3" />
+          <rect
+            id="rect7888"
+            stroke="#191919"
+            fill="#9B999A"
+            x="17.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M26.5,4 L26.5,2 C26.5,0.8954305 27.3954305,2.02906125e-16 28.5,0 L34.5,0 C36.1568542,-3.04359188e-16 37.5,1.34314575 37.5,3 L37.5,4 L37.5,4 L26.5,4 Z"
+            id="path7890"
+            fill="#F6F4F5"
+          />
+          <polyline id="polyline7892" stroke="#191919" points="27 2 27 -9.10729825e-18 32 0" />
+          <path
+            d="M34,0 L35,0 C36.1045695,-2.02906125e-16 37,0.8954305 37,2 L37,2 L37,2"
+            id="path7894"
+            stroke="#191919"
+          />
+          <path
+            d="M26,2 L26,3 C26,3.55228475 26.4477153,4 27,4 L37,4 C37.5522847,4 38,3.55228475 38,3 L38,2 L38,2"
+            id="path7896"
+            stroke="#191919"
+          />
+          <rect
+            id="rect7898"
+            stroke="#191919"
+            fill="#696969"
+            x="28.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect7900" fill="#9B999A" x="18" y="14" width="28" height="2" />
+          <rect id="rect7902" fill="#696969" x="18" y="17" width="28" height="2" />
+          <rect id="rect7904" fill="#191919" x="47" y="12" width="3" height="7" />
+          <rect
+            id="rect7906"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="35.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7908"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="23.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle7910" stroke="#191919" fill="#9B999A" cx="41.5" cy="13.5" r="3" />
+          <rect
+            id="rect7912"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="8.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7914"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="9.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect7916"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="8.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect7918"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="13.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect7920"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="39.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect7922" fill="#000000" x="26" y="45" width="13" height="25" />
+          <rect id="rect7924" fill="#191919" x="25" y="45" width="14" height="4" />
+          <rect
+            id="rect7926"
+            stroke="#191919"
+            fill="#696969"
+            x="27.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect7928" fill="#191919" x="28" y="44" width="7" height="1" />
+          <rect id="rect7930" fill="#F1F1F1" x="26" y="49" width="12" height="4" />
+          <rect id="rect7932" fill="#F1F1F1" x="27" y="55" width="10" height="11" />
+          <rect id="rect7934" fill="#F1F1F1" x="26" y="67" width="12" height="2" />
+          <rect
+            id="rect7936"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="9.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect7938"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="8.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7940"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect7942"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect7944"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect7946"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect7948"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="51.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="g7967" transform="translate(245, 648)">
+          <rect id="rect7952" fill="#16A2BC" x="0" y="0" width="198" height="14" />
+          <rect id="rect7954" fill="#191919" x="0" y="0" width="198" height="1" />
+          <rect id="rect7956" fill="#99A5AF" x="0" y="1" width="198" height="1" />
+          <rect id="rect7958" fill="#99A5AF" x="0" y="12" width="198" height="1" />
+          <rect id="rect7960" fill="#191919" x="0" y="13" width="198" height="1" />
+          <path
+            d="M90,4 L90,6 L102,6 L102,8 L90,8 L90,10 L88,10 L88,8 L56,8 L56,6 L88,6 L88,4 L90,4 Z"
+            id="path7962"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M152,4 L152,6 L164,6 L164,8 L152,8 L152,10 L150,10 L150,8 L118,8 L118,6 L150,6 L150,4 L152,4 Z"
+            id="形状结合备份-5"
+            fill="#FFFFFF"
+          />
+          <rect id="rect7965" fill="#FFFFFF" x="178" y="6" width="17" height="2" />
+        </g>
+        <g id="组件10备份" transform="translate(250, 597)">
+          <rect id="rect7969" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect
+            id="rect7971"
+            stroke="#191919"
+            fill="#696969"
+            x="17.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect7973" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="rect7975" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="rect7977" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="rect7979" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="rect7981" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="rect7983" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect
+            id="rect7985"
+            stroke="#191919"
+            fill="#9B999A"
+            x="0.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle7987" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="circle7989" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="rect7991" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="rect7993" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="rect7995" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect
+            id="rect7997"
+            stroke="#191919"
+            fill="#9B999A"
+            x="9.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="path7999"
+            fill="#F6F4F5"
+          />
+          <polyline id="polyline8001" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="path8003"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="path8005"
+            stroke="#191919"
+          />
+          <rect
+            id="rect8007"
+            stroke="#191919"
+            fill="#696969"
+            x="20.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect8009" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="rect8011" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="rect8013" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="rect8015"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8017"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle8019" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="rect8021"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8023"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect8025"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect8027"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect8029"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect8031" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="rect8033" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="rect8035"
+            stroke="#191919"
+            fill="#696969"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect8037" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="rect8039" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="rect8041" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="rect8043" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect
+            id="rect8045"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect8047"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8049"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8051"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect8053"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect8055"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect8057"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="g8150" transform="translate(153, 759)">
+          <rect id="rect8060" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect
+            id="rect8062"
+            stroke="#191919"
+            fill="#696969"
+            x="17.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect8064" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="rect8066" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="rect8068" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="rect8070" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="rect8072" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="rect8074" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect
+            id="rect8076"
+            stroke="#191919"
+            fill="#9B999A"
+            x="0.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle8078" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="circle8080" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="rect8082" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="rect8084" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="rect8086" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect
+            id="rect8088"
+            stroke="#191919"
+            fill="#9B999A"
+            x="9.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="path8090"
+            fill="#F6F4F5"
+          />
+          <polyline id="polyline8092" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="path8094"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="path8096"
+            stroke="#191919"
+          />
+          <rect
+            id="rect8098"
+            stroke="#191919"
+            fill="#696969"
+            x="20.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect8100" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="rect8102" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="rect8104" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="rect8106"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8108"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle8110" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="rect8112"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8114"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect8116"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect8118"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect8120"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect8122" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="rect8124" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="rect8126"
+            stroke="#191919"
+            fill="#696969"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect8128" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="rect8130" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="rect8132" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="rect8134" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect
+            id="rect8136"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect8138"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8140"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8142"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect8144"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect8146"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect8148"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件10备份-4" transform="translate(150, 1043)">
+          <rect id="rect8152" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect
+            id="rect8154"
+            stroke="#191919"
+            fill="#696969"
+            x="17.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect8156" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="rect8158" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="rect8160" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="rect8162" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="rect8164" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="rect8166" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect
+            id="rect8168"
+            stroke="#191919"
+            fill="#9B999A"
+            x="0.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle8170" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="circle8172" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="rect8174" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="rect8176" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="rect8178" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect
+            id="rect8180"
+            stroke="#191919"
+            fill="#9B999A"
+            x="9.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="path8182"
+            fill="#F6F4F5"
+          />
+          <polyline id="polyline8184" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="path8186"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="path8188"
+            stroke="#191919"
+          />
+          <rect
+            id="rect8190"
+            stroke="#191919"
+            fill="#696969"
+            x="20.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect8192" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="rect8194" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="rect8196" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="rect8198"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8200"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle8202" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="rect8204"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8206"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect8208"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect8210"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect8212"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect8214" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="rect8216" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="rect8218"
+            stroke="#191919"
+            fill="#696969"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect8220" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="rect8222" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="rect8224" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="rect8226" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect
+            id="rect8228"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect8230"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8232"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8234"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect8236"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect8238"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect8240"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="组件10备份-2" transform="translate(304, 597)">
+          <rect id="rect8243" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect
+            id="rect8245"
+            stroke="#191919"
+            fill="#696969"
+            x="17.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect8247" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="rect8249" fill="#696969" x="13" y="28" width="1" height="3" />
+          <rect id="rect8251" fill="#696969" x="18" y="28" width="4" height="4" />
+          <rect id="rect8253" fill="#696969" x="24" y="28" width="8" height="5" />
+          <rect id="rect8255" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="rect8257" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect
+            id="rect8259"
+            stroke="#191919"
+            fill="#9B999A"
+            x="0.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle8261" stroke="#191919" fill="#9B999A" cx="3" cy="23" r="2.5" />
+          <circle id="circle8263" stroke="#191919" fill="#9B999A" cx="2" cy="11" r="1.5" />
+          <rect id="rect8265" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="rect8267" fill="#696969" x="34" y="28" width="1" height="3" />
+          <rect id="rect8269" fill="#696969" x="19" y="21" width="12" height="3" />
+          <rect
+            id="rect8271"
+            stroke="#191919"
+            fill="#9B999A"
+            x="9.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="path8273"
+            fill="#F6F4F5"
+          />
+          <polyline id="polyline8275" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="path8277"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="path8279"
+            stroke="#191919"
+          />
+          <rect
+            id="rect8281"
+            stroke="#191919"
+            fill="#696969"
+            x="20.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect8283" fill="#9B999A" x="10" y="14" width="28" height="2" />
+          <rect id="rect8285" fill="#696969" x="10" y="17" width="28" height="2" />
+          <rect id="rect8287" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="rect8289"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8291"
+            stroke="#191919"
+            fill="#EFEFEF"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle8293" stroke="#191919" fill="#9B999A" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="rect8295"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8297"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect8299"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect8301"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect8303"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect8305" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="rect8307" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="rect8309"
+            stroke="#191919"
+            fill="#696969"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect8311" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="rect8313" fill="#F1F1F1" x="18" y="49" width="12" height="4" />
+          <rect id="rect8315" fill="#F1F1F1" x="19" y="55" width="10" height="11" />
+          <rect id="rect8317" fill="#F1F1F1" x="18" y="67" width="12" height="2" />
+          <rect
+            id="rect8319"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect8321"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8323"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8325"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect8327"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect8329"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect8331"
+            stroke="#191919"
+            fill="#F1F1F1"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="g8346" transform="translate(321, 666)">
+          <rect id="rect8334" fill="#16A2BC" x="0" y="0" width="14" height="22" />
+          <rect id="rect8336" fill="#191919" x="0" y="0" width="1" height="22" />
+          <rect id="rect8338" fill="#191919" x="13" y="0" width="1" height="22" />
+          <rect id="rect8340" fill="#99A5AF" x="1" y="0" width="1" height="22" />
+          <rect id="rect8342" fill="#99A5AF" x="12" y="0" width="1" height="22" />
+          <rect id="rect8344" fill="#FFFFFF" x="6" y="11" width="2" height="11" />
+        </g>
+        <g id="组件2备份-4" transform="translate(390, 666)">
+          <rect id="rect8348" fill="#16A2BC" x="0" y="0" width="14" height="63" />
+          <rect id="rect8350" fill="#191919" x="0" y="0" width="1" height="63" />
+          <rect id="rect8352" fill="#191919" x="13" y="0" width="1" height="63" />
+          <rect id="rect8354" fill="#99A5AF" x="1" y="0" width="1" height="63" />
+          <rect id="rect8356" fill="#99A5AF" x="12" y="0" width="1" height="63" />
+          <rect id="rect8358" fill="#FFFFFF" x="6" y="42" width="2" height="21" />
+        </g>
+        <g id="g8451" transform="translate(373, 597)">
+          <rect id="rect8361" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect
+            id="rect8363"
+            stroke="#191919"
+            fill="#02C90F"
+            x="17.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect8365" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="rect8367" fill="#02C90F" x="13" y="28" width="1" height="3" />
+          <rect id="rect8369" fill="#02C90F" x="18" y="28" width="4" height="4" />
+          <rect id="rect8371" fill="#02C90F" x="24" y="28" width="8" height="5" />
+          <rect id="rect8373" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="rect8375" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect
+            id="rect8377"
+            stroke="#191919"
+            fill="#02C90F"
+            x="0.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle8379" stroke="#191919" fill="#02C90F" cx="3" cy="23" r="2.5" />
+          <circle id="circle8381" stroke="#191919" fill="#02C90F" cx="2" cy="11" r="1.5" />
+          <rect id="rect8383" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="rect8385" fill="#02C90F" x="34" y="28" width="1" height="3" />
+          <rect id="rect8387" fill="#02C90F" x="19" y="21" width="12" height="3" />
+          <rect
+            id="rect8389"
+            stroke="#191919"
+            fill="#02C90F"
+            x="9.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="path8391"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="polyline8393" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="path8395"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="path8397"
+            stroke="#191919"
+          />
+          <rect
+            id="rect8399"
+            stroke="#191919"
+            fill="#02C90F"
+            x="20.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect8401" fill="#02C90F" x="10" y="14" width="28" height="2" />
+          <rect id="rect8403" fill="#02C90F" x="10" y="17" width="28" height="2" />
+          <rect id="rect8405" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="rect8407"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8409"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle8411" stroke="#191919" fill="#02C90F" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="rect8413"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8415"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect8417"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect8419"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect8421"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect8423" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="rect8425" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="rect8427"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect8429" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="rect8431" fill="url(#linearGradient-27)" x="18" y="49" width="12" height="4" />
+          <rect id="rect8433" fill="url(#linearGradient-28)" x="19" y="55" width="10" height="11" />
+          <rect id="rect8435" fill="url(#linearGradient-29)" x="18" y="67" width="12" height="2" />
+          <rect
+            id="rect8437"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect8439"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8441"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8443"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect8445"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect8447"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect8449"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="g8543" transform="translate(769, 989)">
+          <rect id="rect8453" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect
+            id="rect8455"
+            stroke="#191919"
+            fill="#02C90F"
+            x="17.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect8457" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="rect8459" fill="#02C90F" x="13" y="28" width="1" height="3" />
+          <rect id="rect8461" fill="#02C90F" x="18" y="28" width="4" height="4" />
+          <rect id="rect8463" fill="#02C90F" x="24" y="28" width="8" height="5" />
+          <rect id="rect8465" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="rect8467" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect
+            id="rect8469"
+            stroke="#191919"
+            fill="#02C90F"
+            x="0.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle8471" stroke="#191919" fill="#02C90F" cx="3" cy="23" r="2.5" />
+          <circle id="circle8473" stroke="#191919" fill="#02C90F" cx="2" cy="11" r="1.5" />
+          <rect id="rect8475" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="rect8477" fill="#02C90F" x="34" y="28" width="1" height="3" />
+          <rect id="rect8479" fill="#02C90F" x="19" y="21" width="12" height="3" />
+          <rect
+            id="rect8481"
+            stroke="#191919"
+            fill="#02C90F"
+            x="9.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="path8483"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="polyline8485" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="path8487"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="path8489"
+            stroke="#191919"
+          />
+          <rect
+            id="rect8491"
+            stroke="#191919"
+            fill="#02C90F"
+            x="20.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect8493" fill="#02C90F" x="10" y="14" width="28" height="2" />
+          <rect id="rect8495" fill="#02C90F" x="10" y="17" width="28" height="2" />
+          <rect id="rect8497" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="rect8499"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8501"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle8503" stroke="#191919" fill="#02C90F" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="rect8505"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8507"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect8509"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect8511"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect8513"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect8515" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="rect8517" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="rect8519"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect8521" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="rect8523" fill="url(#linearGradient-27)" x="18" y="49" width="12" height="4" />
+          <rect id="rect8525" fill="url(#linearGradient-28)" x="19" y="55" width="10" height="11" />
+          <rect id="rect8527" fill="url(#linearGradient-29)" x="18" y="67" width="12" height="2" />
+          <rect
+            id="rect8529"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect8531"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8533"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8535"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect8537"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect8539"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect8541"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g
+          id="组件7备份-2"
+          transform="translate(965, 731.5) scale(-1, -1) translate(-965, -731.5)translate(941, 695)"
+        >
+          <rect id="rect8545" fill="#191919" x="15" y="19" width="19" height="17" />
+          <rect
+            id="rect8547"
+            stroke="#191919"
+            fill="#02C90F"
+            x="17.5"
+            y="33.5"
+            width="13"
+            height="9"
+          />
+          <rect id="rect8549" fill="#191919" x="12" y="26" width="24" height="8" />
+          <rect id="rect8551" fill="#02C90F" x="13" y="28" width="1" height="3" />
+          <rect id="rect8553" fill="#02C90F" x="18" y="28" width="4" height="4" />
+          <rect id="rect8555" fill="#02C90F" x="24" y="28" width="8" height="5" />
+          <rect id="rect8557" fill="#191919" x="3" y="21" width="13" height="3" />
+          <rect id="rect8559" fill="#191919" x="3" y="10" width="10" height="2" />
+          <rect
+            id="rect8561"
+            stroke="#191919"
+            fill="#02C90F"
+            x="0.5"
+            y="11.5"
+            width="2"
+            height="11"
+          />
+          <circle id="circle8563" stroke="#191919" fill="#02C90F" cx="3" cy="23" r="2.5" />
+          <circle id="circle8565" stroke="#191919" fill="#02C90F" cx="2" cy="11" r="1.5" />
+          <rect id="rect8567" fill="#191919" x="9" y="4" width="30" height="20" />
+          <rect id="rect8569" fill="#02C90F" x="34" y="28" width="1" height="3" />
+          <rect id="rect8571" fill="#02C90F" x="19" y="21" width="12" height="3" />
+          <rect
+            id="rect8573"
+            stroke="#191919"
+            fill="#02C90F"
+            x="9.5"
+            y="4.5"
+            width="29"
+            height="9"
+          />
+          <path
+            d="M18.5,4 L18.5,2 C18.5,0.8954305 19.3954305,2.02906125e-16 20.5,0 L26.5,0 C28.1568542,-3.04359188e-16 29.5,1.34314575 29.5,3 L29.5,4 L29.5,4 L18.5,4 Z"
+            id="path8575"
+            fill="url(#linearGradient-20)"
+          />
+          <polyline id="polyline8577" stroke="#191919" points="19 2 19 -9.10729825e-18 24 0" />
+          <path
+            d="M26,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,2 L29,2"
+            id="path8579"
+            stroke="#191919"
+          />
+          <path
+            d="M18,2 L18,3 C18,3.55228475 18.4477153,4 19,4 L29,4 C29.5522847,4 30,3.55228475 30,3 L30,2 L30,2"
+            id="path8581"
+            stroke="#191919"
+          />
+          <rect
+            id="rect8583"
+            stroke="#191919"
+            fill="#02C90F"
+            x="20.5"
+            y="33.5"
+            width="7"
+            height="10"
+          />
+          <rect id="rect8585" fill="#02C90F" x="10" y="14" width="28" height="2" />
+          <rect id="rect8587" fill="#02C90F" x="10" y="17" width="28" height="2" />
+          <rect id="rect8589" fill="#191919" x="39" y="12" width="3" height="7" />
+          <rect
+            id="rect8591"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="27.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8593"
+            stroke="#191919"
+            fill="url(#linearGradient-21)"
+            x="15.5"
+            y="41.5"
+            width="4"
+            height="3"
+          />
+          <circle id="circle8595" stroke="#191919" fill="#02C90F" cx="33.5" cy="13.5" r="3" />
+          <rect
+            id="rect8597"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8599"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="1.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect8601"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="0.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect8603"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="5.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect
+            id="rect8605"
+            stroke="#191919"
+            fill="url(#linearGradient-25)"
+            x="31.5"
+            y="44.5"
+            width="12"
+            height="28"
+          />
+          <rect id="rect8607" fill="#000000" x="18" y="45" width="13" height="25" />
+          <rect id="rect8609" fill="#191919" x="17" y="45" width="14" height="4" />
+          <rect
+            id="rect8611"
+            stroke="#191919"
+            fill="url(#linearGradient-26)"
+            x="19.5"
+            y="45.5"
+            width="9"
+            height="3"
+          />
+          <rect id="rect8613" fill="#191919" x="20" y="44" width="7" height="1" />
+          <rect id="rect8615" fill="url(#linearGradient-27)" x="18" y="49" width="12" height="4" />
+          <rect id="rect8617" fill="url(#linearGradient-28)" x="19" y="55" width="10" height="11" />
+          <rect id="rect8619" fill="url(#linearGradient-29)" x="18" y="67" width="12" height="2" />
+          <rect
+            id="rect8621"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="1.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect8623"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="0.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8625"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="48.5"
+            width="4"
+            height="3"
+          />
+          <rect
+            id="rect8627"
+            stroke="#191919"
+            fill="url(#linearGradient-23)"
+            x="43.5"
+            y="51.5"
+            width="3"
+            height="4"
+          />
+          <rect
+            id="rect8629"
+            stroke="#191919"
+            fill="url(#linearGradient-24)"
+            x="43.5"
+            y="55.5"
+            width="4"
+            height="5"
+          />
+          <rect
+            id="rect8631"
+            stroke="#191919"
+            fill="url(#linearGradient-30)"
+            x="43.5"
+            y="60.5"
+            width="3"
+            height="5"
+          />
+          <rect
+            id="rect8633"
+            stroke="#191919"
+            fill="url(#linearGradient-22)"
+            x="43.5"
+            y="65.5"
+            width="4"
+            height="3"
+          />
+        </g>
+        <g id="编组-6" transform="translate(905, 942)">
+          <path
+            d="M4.5,3 C5.46649831,3 6.34149831,3.39175084 6.97487373,4.02512627 C7.60824916,4.65850169 8,5.53350169 8,6.5 L8,16 L1,16 L1,6.5 C1,5.53350169 1.39175084,4.65850169 2.02512627,4.02512627 C2.65850169,3.39175084 3.53350169,3 4.5,3 Z"
+            id="path8636"
+            stroke="#191919"
+            stroke-width="2"
+            fill="#191919"
+          />
+          <rect id="rect8638" fill="#FFFFFF" x="2" y="12" width="5" height="2" />
+          <path
+            d="M4.5,4 C5.88071187,4 7,5.11928813 7,6.5 L7,7 L7,7 L2,7 L2,6.5 C2,5.11928813 3.11928813,4 4.5,4 Z"
+            id="矩形备份-80"
+            fill="#FFFFFF"
+          />
+          <rect
+            id="rect8641"
+            stroke="#191919"
+            fill="#02C90F"
+            x="0.5"
+            y="30.5"
+            width="37"
+            height="25"
+          />
+          <rect id="rect8643" fill="#191919" x="3" y="30" width="3" height="26" />
+          <rect id="rect8645" fill="#191919" x="13" y="43" width="7" height="3" />
+          <rect id="矩形备份-72" fill="#191919" x="32" y="31" width="3" height="25" />
+          <rect id="rect8648" fill="#191919" x="0" y="43" width="6" height="3" />
+          <rect
+            id="rect8650"
+            fill="#191919"
+            transform="translate(11.5, 29.5) scale(-1, 1) translate(-11.5, -29.5)"
+            x="11"
+            y="28"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="矩形备份-73"
+            fill="#191919"
+            transform="translate(12.5, 26.5) scale(-1, 1) translate(-12.5, -26.5)"
+            x="12"
+            y="25"
+            width="1"
+            height="3"
+          />
+          <rect id="rect8653" fill="#191919" x="13" y="19" width="12" height="3" />
+          <rect
+            id="矩形备份-74"
+            fill="#191919"
+            transform="translate(13.5, 23.5) scale(-1, 1) translate(-13.5, -23.5)"
+            x="13"
+            y="22"
+            width="1"
+            height="3"
+          />
+          <rect id="rect8656" fill="#FFFFFF" x="14" y="22" width="10" height="3" />
+          <rect id="矩形备份-78" fill="#FFFFFF" x="13" y="25" width="12" height="3" />
+          <rect id="矩形备份-79" fill="#FFFFFF" x="12" y="28" width="14" height="2" />
+          <rect
+            id="矩形备份-75"
+            fill="#191919"
+            transform="translate(24.5, 23.5) scale(-1, 1) translate(-24.5, -23.5)"
+            x="24"
+            y="22"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="矩形备份-76"
+            fill="#191919"
+            transform="translate(25.5, 26.5) scale(-1, 1) translate(-25.5, -26.5)"
+            x="25"
+            y="25"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="矩形备份-77"
+            fill="#191919"
+            transform="translate(26.5, 29.5) scale(-1, 1) translate(-26.5, -29.5)"
+            x="26"
+            y="28"
+            width="1"
+            height="3"
+          />
+          <rect id="rect8663" fill="#191919" x="33" y="43" width="4" height="3" />
+          <path
+            d="M16,0 C16,0 22,0 22,0 C22,0 24.3333333,2 29,6 L29,17 L19,22 L9,17 L9,6 C13.6666667,2 16,0 16,0 Z"
+            id="路径-11"
+            fill="#010000"
+          />
+          <rect id="rect8666" fill="#191919" x="29" y="10" width="1" height="2" />
+          <path
+            d="M16.9,3 C16.9,3 21.1,3 21.1,3 C21.1,3 22.7333333,4.45454545 26,7.36363636 L26,15.3636364 L19,19 L12,15.3636364 L12,7.36363636 C15.2666667,4.45454545 16.9,3 16.9,3 Z"
+            id="path8668"
+            stroke="#979797"
+          />
+          <path
+            d="M18.8,6 C18.8,6 20.2,6.90909091 23,8.72727273 L23,11.4177628 C23,12.8469106 22.2376199,14.1675161 21,14.8821911 C19.762427,15.5968389 18.237573,15.5968389 17,14.8821911 C15.7623801,14.1675161 15,12.8469106 15,11.4177628 L15,8.72727273 L15,8.72727273 C17.5333333,6.90909091 18.8,6 18.8,6 Z"
+            id="path8670"
+            stroke="#979797"
+          />
+          <rect id="rect8672" fill="#979797" x="15" y="9" width="8" height="1" />
+          <circle id="circle8674" stroke="#191919" fill="#FFFFFF" cx="23" cy="19" r="1.5" />
+          <circle id="椭圆形备份" stroke="#191919" fill="#FFFFFF" cx="15" cy="19" r="1.5" />
+          <rect id="rect8677" fill="#979797" x="15" y="11" width="6" height="1" />
+          <path
+            d="M17.0166016,40.5 C17.0166016,40.5 18.1510417,40.5 20.4199219,40.5 L24,44.5 L20.5151367,48.9648438 L17.0166016,48.9648438 C18.3388672,46.9882812 19,46 19,46 C19,46 19,45 19,43 C17.6777344,41.3333333 17.0166016,40.5 17.0166016,40.5 Z"
+            id="路径-12"
+            fill="#191919"
+          />
+        </g>
+        <g id="编组-6备份" transform="translate(904, 666)">
+          <path
+            d="M4.5,3 C5.46649831,3 6.34149831,3.39175084 6.97487373,4.02512627 C7.60824916,4.65850169 8,5.53350169 8,6.5 L8,16 L1,16 L1,6.5 C1,5.53350169 1.39175084,4.65850169 2.02512627,4.02512627 C2.65850169,3.39175084 3.53350169,3 4.5,3 Z"
+            id="path8681"
+            stroke="#191919"
+            stroke-width="2"
+            fill="#191919"
+          />
+          <rect id="rect8683" fill="#FFFFFF" x="2" y="12" width="5" height="2" />
+          <path
+            d="M4.5,4 C5.88071187,4 7,5.11928813 7,6.5 L7,7 L7,7 L2,7 L2,6.5 C2,5.11928813 3.11928813,4 4.5,4 Z"
+            id="path8685"
+            fill="#FFFFFF"
+          />
+          <rect
+            id="rect8687"
+            stroke="#191919"
+            fill="#02C90F"
+            x="0.5"
+            y="30.5"
+            width="37"
+            height="25"
+          />
+          <rect id="rect8689" fill="#191919" x="3" y="30" width="3" height="26" />
+          <rect id="rect8691" fill="#191919" x="13" y="43" width="7" height="3" />
+          <rect id="rect8693" fill="#191919" x="32" y="31" width="3" height="25" />
+          <rect id="rect8695" fill="#191919" x="0" y="43" width="6" height="3" />
+          <rect
+            id="rect8697"
+            fill="#191919"
+            transform="translate(11.5, 29.5) scale(-1, 1) translate(-11.5, -29.5)"
+            x="11"
+            y="28"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="rect8699"
+            fill="#191919"
+            transform="translate(12.5, 26.5) scale(-1, 1) translate(-12.5, -26.5)"
+            x="12"
+            y="25"
+            width="1"
+            height="3"
+          />
+          <rect id="rect8701" fill="#191919" x="13" y="19" width="12" height="3" />
+          <rect
+            id="rect8703"
+            fill="#191919"
+            transform="translate(13.5, 23.5) scale(-1, 1) translate(-13.5, -23.5)"
+            x="13"
+            y="22"
+            width="1"
+            height="3"
+          />
+          <rect id="rect8705" fill="#FFFFFF" x="14" y="22" width="10" height="3" />
+          <rect id="rect8707" fill="#FFFFFF" x="13" y="25" width="12" height="3" />
+          <rect id="rect8709" fill="#FFFFFF" x="12" y="28" width="14" height="2" />
+          <rect
+            id="rect8711"
+            fill="#191919"
+            transform="translate(24.5, 23.5) scale(-1, 1) translate(-24.5, -23.5)"
+            x="24"
+            y="22"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="rect8713"
+            fill="#191919"
+            transform="translate(25.5, 26.5) scale(-1, 1) translate(-25.5, -26.5)"
+            x="25"
+            y="25"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="rect8715"
+            fill="#191919"
+            transform="translate(26.5, 29.5) scale(-1, 1) translate(-26.5, -29.5)"
+            x="26"
+            y="28"
+            width="1"
+            height="3"
+          />
+          <rect id="rect8717" fill="#191919" x="33" y="43" width="4" height="3" />
+          <path
+            d="M16,0 C16,0 22,0 22,0 C22,0 24.3333333,2 29,6 L29,17 L19,22 L9,17 L9,6 C13.6666667,2 16,0 16,0 Z"
+            id="path8719"
+            fill="#010000"
+          />
+          <rect id="rect8721" fill="#191919" x="29" y="10" width="1" height="2" />
+          <path
+            d="M16.9,3 C16.9,3 21.1,3 21.1,3 C21.1,3 22.7333333,4.45454545 26,7.36363636 L26,15.3636364 L19,19 L12,15.3636364 L12,7.36363636 C15.2666667,4.45454545 16.9,3 16.9,3 Z"
+            id="path8723"
+            stroke="#979797"
+          />
+          <path
+            d="M18.8,6 C18.8,6 20.2,6.90909091 23,8.72727273 L23,11.4177628 C23,12.8469106 22.2376199,14.1675161 21,14.8821911 C19.762427,15.5968389 18.237573,15.5968389 17,14.8821911 C15.7623801,14.1675161 15,12.8469106 15,11.4177628 L15,8.72727273 L15,8.72727273 C17.5333333,6.90909091 18.8,6 18.8,6 Z"
+            id="path8725"
+            stroke="#979797"
+          />
+          <rect id="rect8727" fill="#979797" x="15" y="9" width="8" height="1" />
+          <circle id="circle8729" stroke="#191919" fill="#FFFFFF" cx="23" cy="19" r="1.5" />
+          <circle id="circle8731" stroke="#191919" fill="#FFFFFF" cx="15" cy="19" r="1.5" />
+          <rect id="rect8733" fill="#979797" x="15" y="11" width="6" height="1" />
+          <path
+            d="M17.0166016,40.5 C17.0166016,40.5 18.1510417,40.5 20.4199219,40.5 L24,44.5 L20.5151367,48.9648438 L17.0166016,48.9648438 C18.3388672,46.9882812 19,46 19,46 C19,46 19,45 19,43 C17.6777344,41.3333333 17.0166016,40.5 17.0166016,40.5 Z"
+            id="path8735"
+            fill="#191919"
+          />
+        </g>
+        <g id="g8750" transform="translate(879, 991)">
+          <rect id="rect8738" fill="#16A2BC" x="0" y="0" width="14" height="22" />
+          <rect id="rect8740" fill="#191919" x="0" y="0" width="1" height="22" />
+          <rect id="rect8742" fill="#191919" x="13" y="0" width="1" height="22" />
+          <rect id="rect8744" fill="#99A5AF" x="1" y="0" width="1" height="22" />
+          <rect id="rect8746" fill="#99A5AF" x="12" y="0" width="1" height="22" />
+          <rect id="rect8748" fill="#FFFFFF" x="6" y="11" width="2" height="11" />
+        </g>
+        <g
+          id="g8796"
+          transform="translate(890.5, 989) scale(-1, 1) translate(-890.5, -989)translate(876, 974)"
+        >
+          <g id="g8766" transform="translate(6, 3)">
+            <mask id="mask-239" fill="white">
+              <use xlink:href="#path-238" id="use8752" />
+            </mask>
+            <g id="g8755" />
+            <polygon
+              id="polygon8757"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-239)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon8759"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-239)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-241" fill="white">
+              <use xlink:href="#path-240" id="use8761" />
+            </mask>
+            <use id="use8764" stroke="#191919" xlink:href="#path-240" />
+          </g>
+          <rect id="rect8768" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect8770" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect8772" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect8774" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect8776" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect8778" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect8780" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect8782" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon8784" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect8786" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect8788" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect8790" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect8792" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect8794" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g
+          id="组件3备份-8"
+          transform="translate(889.5, 704) scale(-1, -1) translate(-889.5, -704)translate(875, 689)"
+        >
+          <g id="g8812" transform="translate(6, 3)">
+            <mask id="mask-243" fill="white">
+              <use xlink:href="#path-242" id="use8798" />
+            </mask>
+            <g id="g8801" />
+            <polygon
+              id="polygon8803"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-243)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon8805"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-243)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-245" fill="white">
+              <use xlink:href="#path-244" id="use8807" />
+            </mask>
+            <use id="use8810" stroke="#191919" xlink:href="#path-244" />
+          </g>
+          <rect id="rect8814" fill="url(#linearGradient-37)" x="0" y="0" width="7" height="20" />
+          <rect id="rect8816" fill="url(#linearGradient-38)" x="9" y="23" width="20" height="7" />
+          <rect id="rect8818" fill="#191919" x="25" y="23" width="3" height="1" />
+          <rect id="rect8820" fill="#191919" x="10" y="23" width="3" height="1" />
+          <rect id="rect8822" fill="#B4B2B3" x="13" y="23" width="12" height="1" />
+          <rect id="rect8824" fill="#191919" x="6" y="1" width="1" height="3" />
+          <rect id="rect8826" fill="#B4B2B3" x="6" y="4" width="1" height="12" />
+          <rect id="rect8828" fill="#191919" x="6" y="16" width="1" height="3" />
+          <polygon id="polygon8830" fill="#191919" points="6 16 13 16 12 17 6 17" />
+          <rect id="rect8832" fill="#191919" x="12" y="16" width="1" height="8" />
+          <rect id="rect8834" fill="#191919" x="9" y="23" width="1" height="7" />
+          <rect id="rect8836" fill="#191919" x="28" y="23" width="1" height="7" />
+          <rect id="rect8838" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect8840" fill="#191919" x="0" y="19" width="7" height="1" />
+        </g>
+        <g id="g8889" transform="translate(420, 645)">
+          <g id="g8857" transform="translate(7, 3)">
+            <mask id="mask-247" fill="white">
+              <use xlink:href="#path-246" id="use8843" />
+            </mask>
+            <g id="g8846" />
+            <polygon
+              id="polygon8848"
+              fill="url(#linearGradient-12)"
+              mask="url(#mask-247)"
+              points="1 8.35442826e-15 21 2.16178927e-14 6 14 1 14"
+            />
+            <polygon
+              id="polygon8850"
+              fill="url(#linearGradient-34)"
+              mask="url(#mask-247)"
+              points="6 14 20 0 20 20 6 20"
+            />
+            <mask id="mask-249" fill="white">
+              <use xlink:href="#path-248" id="use8852" />
+            </mask>
+            <use id="use8855" stroke="#191919" xlink:href="#path-248" />
+          </g>
+          <rect id="rect8859" fill="url(#linearGradient-196)" x="0" y="0" width="8" height="20" />
+          <rect id="rect8861" fill="url(#linearGradient-38)" x="10" y="23" width="20" height="7" />
+          <rect id="rect8863" fill="#191919" x="26" y="23" width="3" height="1" />
+          <rect id="rect8865" fill="#191919" x="11" y="23" width="3" height="1" />
+          <rect id="rect8867" fill="#B4B2B3" x="14" y="23" width="12" height="1" />
+          <rect id="rect8869" fill="#191919" x="7" y="1" width="1" height="3" />
+          <rect id="rect8871" fill="#B4B2B3" x="7" y="4" width="1" height="12" />
+          <rect id="rect8873" fill="#191919" x="7" y="16" width="1" height="3" />
+          <polygon id="polygon8875" fill="#191919" points="7 16 14 16 13 17 7 17" />
+          <rect id="rect8877" fill="#191919" x="13" y="16" width="1" height="8" />
+          <rect id="rect8879" fill="#191919" x="10" y="23" width="1" height="7" />
+          <rect id="rect8881" fill="#191919" x="29" y="23" width="1" height="7" />
+          <rect id="rect8883" fill="#191919" x="0" y="0" width="8" height="1" />
+          <rect id="rect8885" fill="#191919" x="0" y="1" width="1" height="18" />
+          <rect id="rect8887" fill="#191919" x="0" y="19" width="8" height="1" />
+        </g>
+        <g id="g8919" transform="translate(630, 398)">
+          <rect id="rect8891" fill="url(#linearGradient-48)" x="7" y="1" width="32" height="22" />
+          <path
+            d="M14,27 L14,21 L23,12 L32,21 L32,27 L14,27 Z"
+            id="path8893"
+            fill="url(#linearGradient-250)"
+          />
+          <rect id="rect8895" fill="url(#linearGradient-51)" x="0" y="0" width="7" height="24" />
+          <rect id="rect8897" fill="#B4B2B3" x="0" y="1" width="1" height="22" />
+          <rect id="rect8899" fill="url(#linearGradient-52)" x="11" y="27" width="24" height="7" />
+          <rect id="rect8901" fill="#B4B2B3" x="12" y="27" width="22" height="1" />
+          <rect id="rect8903" fill="#191919" x="0" y="0" width="7" height="1" />
+          <rect id="rect8905" fill="#191919" x="0" y="23" width="7" height="1" />
+          <rect id="rect8907" fill="#191919" x="11" y="27" width="1" height="7" />
+          <rect id="rect8909" fill="#191919" x="34" y="27" width="1" height="7" />
+          <rect id="rect8911" fill="url(#linearGradient-51)" x="39" y="0" width="7" height="24" />
+          <rect id="rect8913" fill="#B4B2B3" x="39" y="1" width="1" height="22" />
+          <rect id="rect8915" fill="#191919" x="39" y="0" width="7" height="1" />
+          <rect id="rect8917" fill="#191919" x="39" y="23" width="7" height="1" />
+        </g>
+        <g id="组件4" transform="translate(651, 208)">
+          <path
+            d="M33,41 C33.5522847,41 34.0522847,41.2238576 34.4142136,41.5857864 C34.7761424,41.9477153 35,42.4477153 35,43 L35,48 C35,48.5522847 34.7761424,49.0522847 34.4142136,49.4142136 C34.0522847,49.7761424 33.5522847,50 33,50 L28,50 L28,41 Z"
+            id="path8921"
+            stroke="#191919"
+            stroke-width="2"
+          />
+          <rect
+            id="rect8923"
+            stroke="#191919"
+            fill="#02C90F"
+            x="11.5"
+            y="38.5"
+            width="16"
+            height="3"
+          />
+          <rect
+            id="rect8925"
+            stroke="#191919"
+            fill="#191919"
+            x="6.5"
+            y="41.5"
+            width="22"
+            height="4"
+          />
+          <rect id="rect8927" fill="#02C90F" x="7" y="42" width="21" height="2" />
+          <rect
+            id="rect8929"
+            stroke="#191919"
+            fill="#02C90F"
+            x="6.5"
+            y="45.5"
+            width="23"
+            height="8"
+          />
+          <rect
+            id="rect8931"
+            stroke="#191919"
+            fill="#02C90F"
+            x="10.5"
+            y="44.5"
+            width="5"
+            height="5"
+          />
+          <rect
+            id="rect8933"
+            stroke="#191919"
+            fill="#02C90F"
+            x="12.5"
+            y="54.5"
+            width="11"
+            height="3"
+          />
+          <rect id="rect8935" fill="#191919" x="5" y="42" width="2" height="6" />
+          <rect id="rect8937" fill="#191919" x="26" y="33" width="2" height="6" />
+          <rect
+            id="rect8939"
+            stroke="#191919"
+            fill="url(#linearGradient-251)"
+            x="23.5"
+            y="0.5"
+            width="9"
+            height="22"
+          />
+          <rect id="rect8941" fill="#191919" x="11" y="17" width="2" height="2" />
+          <rect
+            id="rect8943"
+            stroke="#191919"
+            fill="#2BFD0F"
+            x="28.5"
+            y="38.5"
+            width="3"
+            height="2"
+          />
+          <rect id="rect8945" fill="#191919" x="27" y="38" width="2" height="3" />
+          <rect
+            id="rect8947"
+            stroke="#191919"
+            fill="url(#linearGradient-251)"
+            x="3.5"
+            y="0.5"
+            width="9"
+            height="22"
+          />
+          <rect
+            id="rect8949"
+            stroke="#191919"
+            fill="url(#linearGradient-97)"
+            x="12.5"
+            y="3.5"
+            width="11"
+            height="11"
+          />
+          <rect
+            id="rect8951"
+            stroke="#191919"
+            fill="#8BFE8B"
+            x="11.5"
+            y="14.5"
+            width="13"
+            height="4"
+          />
+          <rect id="rect8953" fill="#191919" x="12" y="27" width="12" height="3" />
+          <rect id="rect8955" fill="#191919" x="8" y="33" width="3" height="4" />
+          <rect id="rect8957" fill="#191919" x="11" y="30" width="15" height="9" />
+          <rect id="rect8959" fill="#02C90F" x="12" y="32" width="6" height="5" />
+          <rect id="rect8961" fill="#02C90F" x="20" y="33" width="3" height="3" />
+          <rect
+            id="rect8963"
+            stroke="#191919"
+            fill="#2BFD0F"
+            x="12.5"
+            y="17.5"
+            width="11"
+            height="4"
+          />
+          <rect id="rect8965" fill="#191919" x="23" y="17" width="2" height="2" />
+          <rect id="矩形备份-45" fill="#191919" x="11" y="17" width="2" height="2" />
+          <rect id="rect8968" fill="#191919" x="32" y="3" width="4" height="17" />
+          <rect id="rect8970" fill="#2BFD0F" x="33" y="11" width="2" height="2" />
+          <rect id="矩形备份-43" fill="#191919" x="0" y="3" width="4" height="17" />
+          <rect id="矩形备份-44" fill="#2BFD0F" x="1" y="11" width="2" height="2" />
+          <rect id="rect8974" fill="#191919" x="12" y="21" width="11" height="2" />
+          <rect id="rect8976" fill="#191919" x="11" y="22" width="14" height="5" />
+          <rect id="rect8978" fill="#02C90F" x="17" y="22" width="2" height="3" />
+          <rect id="rect8980" fill="#02C90F" x="15" y="25" width="6" height="3" />
+        </g>
+        <g
+          id="g9047"
+          transform="translate(2653, 316) rotate(-90) translate(-2653, -316)translate(2635, 287)"
+        >
+          <path
+            d="M33,41 C33.5522847,41 34.0522847,41.2238576 34.4142136,41.5857864 C34.7761424,41.9477153 35,42.4477153 35,43 L35,48 C35,48.5522847 34.7761424,49.0522847 34.4142136,49.4142136 C34.0522847,49.7761424 33.5522847,50 33,50 L28,50 L28,41 Z"
+            id="path8983"
+            stroke="#191919"
+            stroke-width="2"
+          />
+          <rect
+            id="rect8985"
+            stroke="#191919"
+            fill="#02C90F"
+            x="11.5"
+            y="38.5"
+            width="16"
+            height="3"
+          />
+          <rect
+            id="rect8987"
+            stroke="#191919"
+            fill="#191919"
+            x="6.5"
+            y="41.5"
+            width="22"
+            height="4"
+          />
+          <rect id="rect8989" fill="#02C90F" x="7" y="42" width="21" height="2" />
+          <rect
+            id="rect8991"
+            stroke="#191919"
+            fill="#02C90F"
+            x="6.5"
+            y="45.5"
+            width="23"
+            height="8"
+          />
+          <rect
+            id="rect8993"
+            stroke="#191919"
+            fill="#02C90F"
+            x="10.5"
+            y="44.5"
+            width="5"
+            height="5"
+          />
+          <rect
+            id="rect8995"
+            stroke="#191919"
+            fill="#02C90F"
+            x="12.5"
+            y="54.5"
+            width="11"
+            height="3"
+          />
+          <rect id="rect8997" fill="#191919" x="5" y="42" width="2" height="6" />
+          <rect id="rect8999" fill="#191919" x="26" y="33" width="2" height="6" />
+          <rect
+            id="rect9001"
+            stroke="#191919"
+            fill="url(#linearGradient-251)"
+            x="23.5"
+            y="0.5"
+            width="9"
+            height="22"
+          />
+          <rect id="rect9003" fill="#191919" x="11" y="17" width="2" height="2" />
+          <rect
+            id="rect9005"
+            stroke="#191919"
+            fill="#2BFD0F"
+            x="28.5"
+            y="38.5"
+            width="3"
+            height="2"
+          />
+          <rect id="rect9007" fill="#191919" x="27" y="38" width="2" height="3" />
+          <rect
+            id="rect9009"
+            stroke="#191919"
+            fill="url(#linearGradient-251)"
+            x="3.5"
+            y="0.5"
+            width="9"
+            height="22"
+          />
+          <rect
+            id="rect9011"
+            stroke="#191919"
+            fill="url(#linearGradient-97)"
+            x="12.5"
+            y="3.5"
+            width="11"
+            height="11"
+          />
+          <rect
+            id="rect9013"
+            stroke="#191919"
+            fill="#8BFE8B"
+            x="11.5"
+            y="14.5"
+            width="13"
+            height="4"
+          />
+          <rect id="rect9015" fill="#191919" x="12" y="27" width="12" height="3" />
+          <rect id="rect9017" fill="#191919" x="8" y="33" width="3" height="4" />
+          <rect id="rect9019" fill="#191919" x="11" y="30" width="15" height="9" />
+          <rect id="rect9021" fill="#02C90F" x="12" y="32" width="6" height="5" />
+          <rect id="rect9023" fill="#02C90F" x="20" y="33" width="3" height="3" />
+          <rect
+            id="rect9025"
+            stroke="#191919"
+            fill="#2BFD0F"
+            x="12.5"
+            y="17.5"
+            width="11"
+            height="4"
+          />
+          <rect id="rect9027" fill="#191919" x="23" y="17" width="2" height="2" />
+          <rect id="rect9029" fill="#191919" x="11" y="17" width="2" height="2" />
+          <rect id="rect9031" fill="#191919" x="32" y="3" width="4" height="17" />
+          <rect id="rect9033" fill="#2BFD0F" x="33" y="11" width="2" height="2" />
+          <rect id="rect9035" fill="#191919" x="0" y="3" width="4" height="17" />
+          <rect id="rect9037" fill="#2BFD0F" x="1" y="11" width="2" height="2" />
+          <rect id="rect9039" fill="#191919" x="12" y="21" width="11" height="2" />
+          <rect id="rect9041" fill="#191919" x="11" y="22" width="14" height="5" />
+          <rect id="rect9043" fill="#02C90F" x="17" y="22" width="2" height="3" />
+          <rect id="rect9045" fill="#02C90F" x="15" y="25" width="6" height="3" />
+        </g>
+        <g id="g9071" transform="translate(19, 487)">
+          <rect id="rect9049" fill="#D428B6" x="0" y="42" width="78" height="4" />
+          <g id="g9069" transform="translate(15, 0)">
+            <rect
+              id="rect9051"
+              stroke="#191919"
+              fill="url(#linearGradient-166)"
+              x="17.5"
+              y="36.5"
+              width="17"
+              height="15"
+            />
+            <rect
+              id="rect9053"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="33.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+            <rect
+              id="rect9055"
+              stroke="#191919"
+              fill="url(#linearGradient-168)"
+              x="23.5"
+              y="27.5"
+              width="5"
+              height="10"
+            />
+            <circle id="circle9057" fill="#191919" cx="17" cy="2" r="2" />
+            <rect
+              id="rect9059"
+              stroke="#191919"
+              fill="#C1C3C2"
+              x="12.5"
+              y="2.5"
+              width="27"
+              height="25"
+              rx="3"
+            />
+            <path
+              d="M17,4 L39,4 L39,4 L39,25 C39,26.1045695 38.1045695,27 37,27 L14,27 L14,27 L14,7 C14,5.34314575 15.3431458,4 17,4 Z"
+              id="path9061"
+              fill="#9A9899"
+            />
+            <rect
+              id="rect9063"
+              stroke="#191919"
+              fill="#9A9899"
+              x="11.5"
+              y="13.5"
+              width="29"
+              height="4"
+            />
+            <path
+              d="M12.5,19.5 L12.5,22.5 L3.5,22.5 L3.5,36.5 L0.5,36.5 L0.5,22 C0.5,21.3096441 0.779822031,20.6846441 1.23223305,20.232233 C1.68464406,19.779822 2.30964406,19.5 3,19.5 L12.5,19.5 Z"
+              id="path9065"
+              stroke="#191919"
+              fill="#9A9899"
+            />
+            <rect
+              id="rect9067"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="12.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+          </g>
+        </g>
+        <g id="g9095" transform="translate(18, 550)">
+          <rect id="rect9073" fill="#D428B6" x="0" y="42" width="78" height="4" />
+          <g id="g9093" transform="translate(15, 0)">
+            <rect
+              id="rect9075"
+              stroke="#191919"
+              fill="url(#linearGradient-166)"
+              x="17.5"
+              y="36.5"
+              width="17"
+              height="15"
+            />
+            <rect
+              id="rect9077"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="33.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+            <rect
+              id="rect9079"
+              stroke="#191919"
+              fill="url(#linearGradient-168)"
+              x="23.5"
+              y="27.5"
+              width="5"
+              height="10"
+            />
+            <circle id="circle9081" fill="#191919" cx="17" cy="2" r="2" />
+            <rect
+              id="rect9083"
+              stroke="#191919"
+              fill="#C1C3C2"
+              x="12.5"
+              y="2.5"
+              width="27"
+              height="25"
+              rx="3"
+            />
+            <path
+              d="M17,4 L39,4 L39,4 L39,25 C39,26.1045695 38.1045695,27 37,27 L14,27 L14,27 L14,7 C14,5.34314575 15.3431458,4 17,4 Z"
+              id="path9085"
+              fill="#9A9899"
+            />
+            <rect
+              id="rect9087"
+              stroke="#191919"
+              fill="#9A9899"
+              x="11.5"
+              y="13.5"
+              width="29"
+              height="4"
+            />
+            <path
+              d="M12.5,19.5 L12.5,22.5 L3.5,22.5 L3.5,36.5 L0.5,36.5 L0.5,22 C0.5,21.3096441 0.779822031,20.6846441 1.23223305,20.232233 C1.68464406,19.779822 2.30964406,19.5 3,19.5 L12.5,19.5 Z"
+              id="path9089"
+              stroke="#191919"
+              fill="#9A9899"
+            />
+            <rect
+              id="rect9091"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="12.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+          </g>
+        </g>
+        <g id="组件12备份" transform="translate(19, 613)">
+          <rect id="rect9097" fill="#D428B6" x="0" y="42" width="78" height="4" />
+          <g id="g9117" transform="translate(15, 0)">
+            <rect
+              id="rect9099"
+              stroke="#191919"
+              fill="url(#linearGradient-166)"
+              x="17.5"
+              y="36.5"
+              width="17"
+              height="15"
+            />
+            <rect
+              id="rect9101"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="33.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+            <rect
+              id="rect9103"
+              stroke="#191919"
+              fill="url(#linearGradient-168)"
+              x="23.5"
+              y="27.5"
+              width="5"
+              height="10"
+            />
+            <circle id="circle9105" fill="#191919" cx="17" cy="2" r="2" />
+            <rect
+              id="rect9107"
+              stroke="#191919"
+              fill="#C1C3C2"
+              x="12.5"
+              y="2.5"
+              width="27"
+              height="25"
+              rx="3"
+            />
+            <path
+              d="M17,4 L39,4 L39,4 L39,25 C39,26.1045695 38.1045695,27 37,27 L14,27 L14,27 L14,7 C14,5.34314575 15.3431458,4 17,4 Z"
+              id="path9109"
+              fill="#9A9899"
+            />
+            <rect
+              id="rect9111"
+              stroke="#191919"
+              fill="#9A9899"
+              x="11.5"
+              y="13.5"
+              width="29"
+              height="4"
+            />
+            <path
+              d="M12.5,19.5 L12.5,22.5 L3.5,22.5 L3.5,36.5 L0.5,36.5 L0.5,22 C0.5,21.3096441 0.779822031,20.6846441 1.23223305,20.232233 C1.68464406,19.779822 2.30964406,19.5 3,19.5 L12.5,19.5 Z"
+              id="path9113"
+              stroke="#191919"
+              fill="#9A9899"
+            />
+            <rect
+              id="rect9115"
+              stroke="#191919"
+              fill="url(#linearGradient-167)"
+              x="12.5"
+              y="33.5"
+              width="6"
+              height="21"
+            />
+          </g>
+        </g>
+        <g id="g9142" transform="translate(825, 258)">
+          <path
+            d="M5.25280762,4.31535469 C28.1685384,1.43845156 51.0842692,0 74,0 C96.9157308,0 119.831462,1.43845156 142.747192,4.31535469 C145.748185,4.69198334 147.999658,7.24341044 148,10.2679443 L148,167.732056 C147.999658,170.75659 145.748185,173.308017 142.747192,173.684645 C119.831462,176.561548 96.9157308,178 74,178 C51.0842692,178 28.1685384,176.561548 5.25280762,173.684645 C2.25181507,173.308017 0.000342381206,170.75659 0,167.732056 L0,10.2679443 C0.000342381206,7.24341044 2.25181507,4.69198334 5.25280762,4.31535469 Z"
+            id="path9120"
+            fill="url(#linearGradient-169)"
+          />
+          <rect id="rect9122" fill="#965941" x="12" y="94" width="122" height="74" />
+          <path
+            d="M66.0005932,12.3978196 C81.9118898,12.1624274 97.9392858,13.3305535 102.901271,14.9916106 C111.726898,17.9460466 115.466981,21.2289407 119.045541,24.3760315 L119.831091,25.0647523 C120.177087,25.3662228 120.525359,25.6659722 120.881307,25.9633901 C134.102741,37.0107595 135.174391,59.592598 134.616181,81.9372207 L134.576199,83.4431068 C134.512881,85.7009962 134.435313,87.9537547 134.354374,90.1892093 C134.155633,95.678255 133.960938,101.038939 133.960938,106.066406 C133.960938,117.033527 135.345303,126.114384 136.502173,133.736657 C138.294717,145.547195 139.289346,154.021361 135.119023,160.682998 C129.821557,169.145123 109.142498,170.947314 87.0756232,170.963735 L85.4379519,170.963008 C85.1645428,170.962582 84.8911071,170.962011 84.6154753,170.961304 L82.9782084,170.955669 C82.1594032,170.952184 81.3412566,170.947785 80.5237131,170.94284 L78.895063,170.932369 C78.2266329,170.927861 77.5596571,170.923158 76.8946337,170.918469 C73.7924442,170.896595 70.7328364,170.875 67.7666016,170.875 C54.4334447,170.875 43.44891,169.148891 35.283632,165.886546 C26.5885069,162.412505 21.0217476,157.183437 18.8083427,150.553378 C16.6963815,144.227184 17.6067671,129.594716 19.0864454,114.801968 L19.214612,113.533815 C19.3224839,112.477011 19.4329028,111.420577 19.5449746,110.367481 L19.6801971,109.105558 L19.8166632,107.84798 L19.9540296,106.595887 C20.1376324,104.930592 20.3227206,103.282964 20.5056325,101.665161 C21.5220574,92.6751745 22.4359346,84.6482109 22.5218813,79.8255705 C22.6426081,73.0513502 22.6916384,66.9022809 22.7359612,61.3472393 C22.9268416,37.4239707 23.4949093,24.3093645 28.3016998,19.1262102 C31.5766012,15.5948894 43.7126684,13.3292338 57.8184298,12.6503605 C60.1202272,12.539581 62.4669894,12.46306 64.8223593,12.4178368 Z"
+            id="path9124"
+            stroke="#191919"
+            stroke-width="5"
+          />
+          <path
+            d="M60.0005932,8.39781961 C75.9118898,8.16242737 91.9392858,9.3305535 96.9012714,10.9916106 C105.726898,13.9460466 109.466981,17.2289407 113.045541,20.3760315 L113.831091,21.0647523 C114.177087,21.3662228 114.525359,21.6659722 114.881307,21.9633901 C128.102741,33.0107595 129.174391,55.592598 128.616181,77.9372207 L128.576199,79.4431068 C128.512881,81.7009962 128.435313,83.9537547 128.354374,86.1892093 C128.155633,91.678255 127.960938,97.0389394 127.960938,102.066406 C127.960938,113.033527 129.345303,122.114384 130.502173,129.736657 C132.294717,141.547195 133.289346,150.021361 129.119023,156.682998 C123.821557,165.145123 103.142498,166.947314 81.0756232,166.963735 L79.4379519,166.963008 C79.1645428,166.962582 78.8911071,166.962011 78.6154753,166.961304 L76.9782084,166.955669 C76.1594032,166.952184 75.3412566,166.947785 74.5237131,166.94284 L72.895063,166.932369 C72.2266329,166.927861 71.5596571,166.923158 70.8946337,166.918469 C67.7924442,166.896595 64.7328364,166.875 61.7666016,166.875 C48.4334447,166.875 37.44891,165.148891 29.283632,161.886546 C20.5885069,158.412505 15.0217476,153.183437 12.8083427,146.553378 C10.6963815,140.227184 11.6067671,125.594716 13.0864454,110.801968 L13.214612,109.533815 C13.3224839,108.477011 13.4329028,107.420577 13.5449746,106.367481 L13.6801971,105.105558 L13.8166632,103.84798 L13.9540296,102.595887 C14.1376324,100.930592 14.3227206,99.2829636 14.5056325,97.6651606 C15.5220574,88.6751745 16.4359346,80.6482109 16.5218813,75.8255705 C16.6426081,69.0513502 16.6916384,62.9022809 16.7359612,57.3472393 C16.9268416,33.4239707 17.4949093,20.3093645 22.3016998,15.1262102 C25.5766012,11.5948894 37.7126684,9.32923384 51.8184298,8.65036049 C54.1202272,8.53958101 56.4669894,8.46306005 58.8223593,8.4178368 Z"
+            id="path9126"
+            stroke="#FFFFFF"
+            stroke-width="5"
+          />
+          <path
+            d="M74,0 C96.9157308,0 119.831462,1.43845156 142.747192,4.31535469 C145.748185,4.69198334 147.999658,7.24341044 148,10.2679443 L148,167.732056 C147.999658,170.75659 145.748185,173.308017 142.747192,173.684645 C119.831462,176.561548 96.9157308,178 74,178 C51.0842692,178 28.1685384,176.561548 5.25280762,173.684645 C2.25181507,173.308017 0.000342381206,170.75659 0,167.732056 L0,10.2679443 C0.000342381206,7.24341044 2.25181507,4.69198334 5.25280762,4.31535469 C28.1685384,1.43845156 51.0842692,0 74,0 Z M99.107666,15.3623047 C89.215332,12.0507813 34.4123392,10.9787763 27.1347656,18.8261719 C21.3918709,25.0187257 22.6370719,43.3282793 22.0214844,77.8701172 C21.7627242,92.3896618 14.1357422,135.648438 18.1796875,147.761719 C22.2236328,159.875 38.9980469,166.375 64.7666016,166.375 C68.3741992,166.375 72.1196477,166.40685 75.9119233,166.432426 L77.5397858,166.442892 C78.3548852,166.447822 79.1715377,166.452213 79.9888477,166.455692 L81.6240791,166.461319 C81.8966753,166.462017 82.1692782,166.462586 82.4418546,166.463011 L84.0767304,166.463736 C104.774413,166.448331 124.936055,165.445547 130,157.356445 C136.663086,146.712891 128.460938,131 128.460938,104.066406 C128.460938,77.1328125 134,40.6894531 116.27832,25.8818359 C115.909057,25.5732921 115.547711,25.2623836 115.188771,24.9496353 L114.758846,24.5734879 C111.251461,21.4949534 107.763458,18.2598877 99.107666,15.3623047 Z"
+            id="path9128"
+            fill="url(#linearGradient-170)"
+          />
+          <path
+            d="M74,0.5 C96.8949706,0.5 119.78994,1.93716366 142.68493,4.81146296 C144.060382,4.98408409 145.26407,5.65509512 146.123935,6.62951122 C146.983801,7.60392994 147.499843,8.88175524 147.5,10.2679443 L147.5,167.731999 C147.499843,169.118245 146.983801,170.39607 146.123935,171.370489 C145.26407,172.344905 144.060382,173.015916 142.68491,173.18854 C119.78994,176.062836 96.8949706,177.5 74,177.5 C51.1050294,177.5 28.2100601,176.062836 5.31506988,173.188537 C3.93961761,173.015916 2.73592984,172.344905 1.87606537,171.370489 C1.01619859,170.39607 0.500156922,169.118245 0.5,167.732056 L0.499999997,10.2680009 C0.500156922,8.88175524 1.01619859,7.60392994 1.87606537,6.62951122 C2.73592984,5.65509512 3.93961761,4.98408409 5.31509008,4.81146042 C28.2100601,1.93716366 51.1050294,0.5 74,0.5 Z"
+            id="path9130"
+            stroke="#191919"
+          />
+          <path
+            d="M75.6118164,137.916992 L84.5198972,127.957254 C84.8880829,127.545602 85.5202667,127.510365 85.9319191,127.878551 C86.1516188,128.075052 86.2734369,128.358471 86.2648339,128.653101 L85.7042952,147.85003 C85.6881757,148.402079 85.2275838,148.836536 84.6755343,148.820417 C84.3798397,148.811782 84.1031421,148.672671 83.9198385,148.440487 L75.6118164,137.916992 L75.6118164,137.916992 Z"
+            id="path9132"
+            stroke="#191919"
+            fill="#4F4C4F"
+          />
+          <path
+            d="M74,138.635498 L33.4500957,127.692415 C31.8504669,127.260728 30.20376,128.207531 29.7720729,129.80716 C29.7032965,130.062013 29.668457,130.324829 29.668457,130.588799 L29.668457,145.725209 C29.668457,147.382064 31.0116028,148.725209 32.668457,148.725209 C32.9102304,148.725209 33.1511172,148.695982 33.3858756,148.638165 L74,138.635498 L74,138.635498 Z"
+            id="path9134"
+            stroke="#191919"
+            fill="#737476"
+          />
+          <rect id="rect9136" fill="#EAEAEA" x="72" y="13" width="4" height="129" />
+          <path
+            d="M75.6118164,138.635498 L116.782221,126.916791 C118.375778,126.463203 120.035317,127.38733 120.488906,128.980887 C120.564944,129.248026 120.603516,129.524431 120.603516,129.802181 L120.603516,145.738625 C120.603516,147.395479 119.26037,148.738625 117.603516,148.738625 C117.365164,148.738625 117.127663,148.71022 116.896034,148.65401 L75.6118164,138.635498 L75.6118164,138.635498 Z"
+            id="path9138"
+            stroke="#191919"
+            fill="#737476"
+          />
+          <path
+            d="M74,138.512695 L64.9644972,148.641575 C64.5968512,149.05371 63.9647142,149.089775 63.5525797,148.722129 C63.3398858,148.532394 63.2182617,148.260916 63.2182617,147.975893 L63.2182617,129.255401 C63.2182617,128.703117 63.665977,128.255401 64.2182617,128.255401 C64.4997275,128.255401 64.7681608,128.37402 64.9576621,128.582135 L74,138.512695 L74,138.512695 Z"
+            id="path9140"
+            stroke="#191919"
+            fill="#4F4C4F"
+          />
+        </g>
+        <g id="编组-24" transform="translate(1822, 578)">
+          <rect
+            id="rect9144"
+            stroke="#191919"
+            fill="#605A5E"
+            x="2.5"
+            y="0.5"
+            width="3"
+            height="42"
+          />
+          <rect id="rect9146" fill="#191919" x="0" y="40" width="15" height="3" />
+          <rect
+            id="rect9148"
+            stroke="#191919"
+            fill="#9E9E9E"
+            x="7.5"
+            y="5.5"
+            width="3"
+            height="35"
+          />
+          <rect
+            id="rect9150"
+            stroke="#191919"
+            fill="#C3C3C3"
+            x="12.5"
+            y="9.5"
+            width="3"
+            height="29"
+          />
+          <rect
+            id="rect9152"
+            stroke="#191919"
+            fill="#3F3F3F"
+            x="16.5"
+            y="9.5"
+            width="7"
+            height="27"
+          />
+          <rect id="rect9154" fill="#191919" x="11" y="36" width="15" height="3" />
+        </g>
+        <g
+          id="编组-24备份"
+          transform="translate(1904, 599.5) scale(-1, 1) translate(-1904, -599.5)translate(1891, 578)"
+        >
+          <rect
+            id="rect9157"
+            stroke="#191919"
+            fill="#605A5E"
+            x="2.5"
+            y="0.5"
+            width="3"
+            height="42"
+          />
+          <rect id="rect9159" fill="#191919" x="0" y="40" width="15" height="3" />
+          <rect
+            id="rect9161"
+            stroke="#191919"
+            fill="#9E9E9E"
+            x="7.5"
+            y="5.5"
+            width="3"
+            height="35"
+          />
+          <rect
+            id="rect9163"
+            stroke="#191919"
+            fill="#C3C3C3"
+            x="12.5"
+            y="9.5"
+            width="3"
+            height="29"
+          />
+          <rect
+            id="rect9165"
+            stroke="#191919"
+            fill="#3F3F3F"
+            x="16.5"
+            y="9.5"
+            width="7"
+            height="27"
+          />
+          <rect id="rect9167" fill="#191919" x="11" y="36" width="15" height="3" />
+        </g>
+        <g id="g9198" transform="translate(1814, 489)">
+          <path
+            d="M5.27426168,3.05962598 C22.0161745,1.01987533 38.7580874,0 55.5000002,0 C72.241913,0 88.9838259,1.01987533 105.725739,3.05962598 C108.737451,3.42661718 111.001269,5.98410428 111,9.01809384 L111,77.2640449 L111,77.2640449 L61.0000002,132.846538 L45.5000002,133 L2.07659468e-07,77.2640449 L2.07659468e-07,9.01809384 C-0.00126819864,5.98410428 2.26254926,3.42661718 5.27426168,3.05962598 Z"
+            id="path9170"
+            fill="url(#linearGradient-252)"
+          />
+          <path
+            d="M9.00000021,51 L101,51 L99.1484377,86.3730469 C98.4398681,89.5709304 97.680428,91.7799148 96.8701174,93 C96.0598068,94.2200852 94.5637131,95.4072597 92.3818361,96.5615234 C79.1434202,98.4768366 67.0161415,99.6867975 56.0000002,100.191406 C44.9838589,100.696015 30.4319383,97.4605007 12.3442385,90.4848633 L9.00000021,51 Z"
+            id="path9172"
+            fill="#FFFF98"
+          />
+          <g id="路径-7-+-路径-7蒙版" transform="translate(0, 0)">
+            <mask id="mask-254" fill="white">
+              <use xlink:href="#path-253" id="use9174" />
+            </mask>
+            <g id="g9177" />
+            <path
+              d="M18.1421415,9.88422481 C23.5599675,5.27785015 64.3882398,5.6382391 71.7910218,7.59221538 C78.1226168,9.26345011 80.8032542,11.1236468 83.3722779,12.9050566 C83.8147122,13.2118489 84.2535274,13.516299 84.7093931,13.8166385 C94.1117258,20.0112086 95.1483823,32.4366936 94.7566656,45.0352388 L94.7221206,46.0640639 C94.709787,46.4076417 94.6967159,46.7510377 94.6829813,47.0964151 L94.6406686,48.120809 C94.6260961,48.4621589 94.6111237,48.8030411 94.595878,49.1442184 L94.54983,50.1609357 L94.5213325,50.7823448 C94.3771996,53.9211692 94.2358569,56.9865878 94.2358569,59.8614701 C94.2358569,66.1176191 95.2388817,71.2973264 96.0758085,75.6452572 C97.40521,82.5516506 98.1022963,87.4532007 95.0288787,91.3242447 C91.4596,95.8198379 78.125155,97.0024501 63.4548727,97.0990417 L62.2712656,97.1052282 C59.215638,97.1172393 56.1265306,97.1000873 53.0932585,97.0832232 C50.8377351,97.0706832 48.6131717,97.0583072 46.4564975,97.0583072 C36.8626885,97.0583072 28.9547442,96.0846482 23.0780894,94.2333157 C16.8057746,92.2573377 12.8183212,89.2407066 11.225845,85.479521 C9.63282827,81.7170591 10.3721063,72.8610757 11.5065599,64.0555982 L11.6444672,62.9995125 C11.9003202,61.0650071 12.1715495,59.1429049 12.4375285,57.2879797 C13.1734771,52.1555095 13.8366804,47.5729957 13.8989125,44.8196192 C13.9865925,40.9403367 14.0221939,37.4190491 14.0543842,34.2379339 C14.1947669,20.36501 14.6255474,12.8741233 18.1421415,9.88422481 Z"
+              id="path9179"
+              stroke="#FFFFFF"
+              stroke-width="3"
+              mask="url(#mask-254)"
+            />
+            <path
+              d="M22.1421415,12.8842248 C27.5599675,8.27785015 68.3882398,8.6382391 75.7910218,10.5922154 C82.1226168,12.2634501 84.8032542,14.1236468 87.3722779,15.9050566 C87.8147122,16.2118489 88.2535274,16.516299 88.7093931,16.8166385 C98.1117258,23.0112086 99.1483823,35.4366936 98.7566656,48.0352388 L98.7221206,49.0640639 C98.709787,49.4076417 98.6967159,49.7510377 98.6829813,50.0964151 L98.6406686,51.120809 C98.6260961,51.4621589 98.6111237,51.8030411 98.595878,52.1442184 L98.54983,53.1609357 L98.5213325,53.7823448 C98.3771996,56.9211692 98.2358569,59.9865878 98.2358569,62.8614701 C98.2358569,68.8072786 98.9872324,73.632642 99.6119496,77.6641323 C100.688341,84.6104153 101.205518,89.323191 98.0288787,93.3242447 C94.6653709,97.5606645 83.052278,99.2643504 69.7422549,99.8061038 L68.6880575,99.8464848 C67.4543262,99.8908379 66.207662,99.92564 64.953185,99.951962 L63.7855421,99.9746018 C62.2250419,100.002452 60.658293,100.021063 59.0952343,100.033497 L57.9274829,100.041686 C56.3715256,100.051194 54.8234974,100.055296 53.2942222,100.057044 L52.1526458,100.05796 L51.5848094,100.058177 L50.4564975,100.058307 C40.8626885,100.058307 32.9547442,99.0846482 27.0780894,97.2333157 C20.8057746,95.2573377 16.8183212,92.2407066 15.225845,88.479521 C13.6328283,84.7170591 14.3721063,75.8610757 15.5065599,67.0555982 L15.6444672,65.9995125 C15.9003202,64.0650071 16.1715495,62.1429049 16.4375285,60.2879797 C17.1734771,55.1555095 17.8366804,50.5729957 17.8989125,47.8196192 C17.9865925,43.9403367 18.0221939,40.4190491 18.0543842,37.2379339 C18.1947669,23.36501 18.6255474,15.8741233 22.1421415,12.8842248 Z"
+              id="path9181"
+              stroke="#191919"
+              stroke-width="3"
+              mask="url(#mask-254)"
+            />
+          </g>
+          <path
+            d="M55.5000002,0 C72.241913,0 88.9838259,1.01987533 105.725739,3.05962598 C108.737094,3.42657369 111.000792,5.98352068 111,9.01715088 L111,75.8886397 C111,77.4146241 110.418561,78.8832734 109.374005,79.9957171 L59.7484474,132.846538 L45.5000002,132.846538 L1.39127841,79.9330435 C0.492325149,78.8546454 2.0765946e-07,77.4951543 2.07659468e-07,76.0912101 L2.07659468e-07,9.01715088 C-0.000791603874,5.98352068 2.26290615,3.42657369 5.27426168,3.05962598 C22.0161745,1.01987533 38.7580874,0 55.5000002,0 Z M73.4082056,11.0425435 C66.2205825,9.14535874 26.401541,8.5312029 21.113764,13.0270065 C16.9410619,16.5747449 17.8458065,27.0643597 17.3985297,46.8535137 C17.2105185,55.1718176 11.6688665,79.9549393 14.6071371,86.8946855 C17.5454078,93.8344317 29.7334482,97.5583072 48.4564977,97.5583072 C53.511721,97.5583072 58.9394795,97.6261748 64.2653697,97.6052398 L65.4470311,97.5990622 C79.4056193,97.5071552 92.4167945,96.7209331 95.8541171,92.3915419 C100.695416,86.2938078 94.7358571,77.2918313 94.7358571,61.8614701 C94.7358571,58.7753979 94.8968411,55.4713984 95.0514051,52.0922187 L95.0974143,51.0763521 C95.1125749,50.7370733 95.1275039,50.3971854 95.1420338,50.0568312 L95.1842593,49.0345124 C95.1978239,48.6933684 95.210822,48.3519007 95.2230864,48.0102523 L95.2575105,46.9849073 C95.6295356,35.0195512 94.8975649,23.0075633 85.8841482,17.0692241 C82.8791717,15.0894454 80.5958287,12.9397282 73.4082056,11.0425435 Z"
+            id="path9184"
+            fill="url(#linearGradient-255)"
+          />
+          <path
+            d="M55.5000002,0.5 C72.2217568,0.5 88.9435123,1.51866099 105.665259,3.55595467 C107.045465,3.72413919 108.254332,4.3941992 109.118057,5.36981691 C109.981781,6.34543343 110.500363,7.62660697 110.5,9.01715088 L110.5,78.0696504 L60.7780775,132.34858 L44.7360915,132.497783 L0.500000208,78.0864409 L0.500000191,9.01702037 C0.499637277,7.62660697 1.01821957,6.34543343 1.88194347,5.36981691 C2.74566842,4.3941992 3.95453581,3.72413919 5.33473202,3.55595584 C22.0564881,1.51866099 38.7782436,0.5 55.5000002,0.5 Z"
+            id="path9186"
+            stroke="#191919"
+          />
+          <path
+            d="M57.0000002,74.751271 L63.1819894,67.9887382 C63.5546246,67.5811092 64.1871538,67.5527412 64.5947828,67.9253764 C64.8097,68.1218436 64.9283082,68.4022292 64.9196219,68.6932847 L64.5434312,81.2985416 C64.5269562,81.8505806 64.0660845,82.2847409 63.5140456,82.2682659 C63.2223007,82.2595591 62.9489211,82.1238245 62.7656341,81.8966753 L57.0000002,74.751271 L57.0000002,74.751271 Z"
+            id="path9188"
+            stroke="#191919"
+            fill="#005800"
+          />
+          <path
+            d="M56.0000002,74.8883424 L25.7587666,66.9826236 C24.1557823,66.5635685 22.5165954,67.5233328 22.0975403,69.1263171 C22.03278,69.3740404 22.0000002,69.6290353 22.0000002,69.8850835 L22.0000002,79.2000677 C22.0000002,80.856922 23.343146,82.2000677 25.0000002,82.2000677 C25.2344683,82.2000677 25.4681281,82.1725804 25.6961953,82.1181685 L56.0000002,74.8883424 L56.0000002,74.8883424 Z"
+            id="path9190"
+            stroke="#191919"
+            fill="#005800"
+          />
+          <rect
+            id="rect9192"
+            stroke="#191919"
+            fill="#7BBD7D"
+            x="54.5000002"
+            y="10.5"
+            width="2"
+            height="65"
+          />
+          <path
+            d="M57.0000002,74.716288 L87.1756798,66.0928882 C88.76876,65.6376286 90.4292676,66.5600145 90.8845272,68.1530947 C90.9611352,68.4211676 91.0000002,68.6986109 91.0000002,68.9774152 L91.0000002,79.1813281 C91.0000002,80.8381824 89.6568545,82.1813281 88.0000002,82.1813281 C87.7607329,82.1813281 87.5223247,82.1527041 87.2898576,82.0960661 L57.0000002,74.716288 L57.0000002,74.716288 Z"
+            id="path9194"
+            stroke="#191919"
+            fill="#005800"
+          />
+          <path
+            d="M56.0000002,74.9076179 L49.7507668,82.0101701 C49.3859454,82.4248071 48.7540696,82.4651906 48.3394326,82.1003692 C48.1236585,81.9105187 48.0000002,81.6370077 48.0000002,81.3496026 L48.0000002,68.6100403 C48.0000002,68.0577556 48.4477155,67.6100403 49.0000002,67.6100403 C49.2838513,67.6100403 49.5543285,67.7306703 49.743994,67.9418538 L56.0000002,74.9076179 L56.0000002,74.9076179 Z"
+            id="path9196"
+            stroke="#191919"
+            fill="#005800"
+          />
+        </g>
+        <g id="g9251" transform="translate(1855, 444)">
+          <mask id="mask-257" fill="white">
+            <use xlink:href="#path-256" id="use9200" />
+          </mask>
+          <g id="g9203" />
+          <g mask="url(#mask-257)" id="g9245">
+            <rect id="rect9205" fill="#191919" x="0" y="0" width="30" height="42" />
+            <rect id="rect9207" fill="#191919" x="2" y="41" width="26" height="5" />
+            <rect id="rect9209" fill="#007404" x="3" y="42" width="4" height="3" />
+            <rect id="rect9211" fill="#429A4B" x="7" y="42" width="5" height="3" />
+            <rect id="rect9213" fill="#5CB365" x="12" y="42" width="5" height="3" />
+            <rect id="rect9215" fill="#429A4B" x="17" y="42" width="5" height="3" />
+            <rect id="rect9217" fill="#007404" x="22" y="42" width="5" height="3" />
+            <rect id="rect9219" fill="#D8D8D8" x="1" y="0" width="28" height="5" />
+            <rect id="rect9221" fill="#007404" x="1" y="0" width="5" height="5" />
+            <rect id="rect9223" fill="#429A4B" x="6" y="0" width="6" height="5" />
+            <rect id="rect9225" fill="#5CB365" x="12" y="0" width="6" height="5" />
+            <rect id="rect9227" fill="#429A4B" x="18" y="0" width="6" height="5" />
+            <rect id="rect9229" fill="#007404" x="24" y="0" width="5" height="5" />
+            <rect id="rect9231" fill="#429A4B" x="27" y="12" width="1" height="26" />
+            <rect id="rect9233" fill="#429A4B" x="2" y="7" width="3" height="14" />
+            <rect id="rect9235" fill="#429A4B" x="1" y="22" width="16" height="16" />
+            <rect id="rect9237" fill="#FFFFFF" x="1" y="22" width="16" height="2" />
+            <rect id="rect9239" fill="#FFFFFF" x="15" y="22" width="2" height="15" />
+            <rect id="rect9241" fill="#191919" x="1" y="37" width="16" height="2" />
+            <rect id="rect9243" fill="#191919" x="1" y="22" width="2" height="16" />
+          </g>
+          <rect
+            id="rect9247"
+            fill="#191919"
+            mask="url(#mask-257)"
+            x="0"
+            y="0"
+            width="30"
+            height="1"
+          />
+          <path
+            d="M27.8060756,0.5 L29.5,2.04662659 L29.5,41.5 L0.5,41.5 L0.5,2.04662659 L2.19392436,0.5 L27.8060756,0.5 Z"
+            id="path9249"
+            stroke="#191919"
+            mask="url(#mask-257)"
+          />
+        </g>
+        <g id="顶部文字" transform="translate(583, 24)">
+          <rect
+            id="矩形备份-3"
+            stroke="#418284"
+            stroke-width="2"
+            x="274"
+            y="1"
+            width="138"
+            height="44"
+            rx="2"
+          />
+          <rect
+            id="矩形备份-6"
+            stroke="#418284"
+            stroke-width="2"
+            x="1"
+            y="1"
+            width="108"
+            height="44"
+            rx="2"
+          />
+          <text
+            id="总电压"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="30"
+            font-weight="normal"
+            line-spacing="45"
+            fill="#191919"
+          >
+            <tspan x="10" y="32" id="tspan9255">总电压</tspan>
+          </text>
+          <path
+            d="M241,1 C241.276142,1 241.526142,1.11192881 241.707107,1.29289322 C241.888071,1.47385763 242,1.72385763 242,2 L242,44 C242,44.2761424 241.888071,44.5261424 241.707107,44.7071068 C241.526142,44.8880712 241.276142,45 241,45 L116,45 C115.723858,45 115.473858,44.8880712 115.292893,44.7071068 C115.111929,44.5261424 115,44.2761424 115,44 L115,2 C115,1.72385763 115.111929,1.47385763 115.292893,1.29289322 C115.473858,1.11192881 115.723858,1 116,1 Z"
+            id="矩形备份-5"
+            stroke="#2B393B"
+            stroke-width="2"
+          />
+          <text
+            id="KLRH3_DB2DD144"
+            font-family="PingFangSC-Regular, 'PingFang SC'"
+            font-size="30px"
+            font-weight="normal"
+            line-spacing="45"
+            fill="#191919"
+            x="-22"
+          >
+            <tspan x="138" y="33" id="tspan9259">25</tspan>
+          </text>
+          <rect
+            id="矩形备份-4"
+            stroke="#418284"
+            stroke-width="2"
+            x="557"
+            y="1"
+            width="56"
+            height="44"
+            rx="2"
+          />
+          <rect
+            id="rect9263"
+            stroke="#418284"
+            stroke-width="2"
+            x="645"
+            y="1"
+            width="108"
+            height="44"
+            rx="2"
+          />
+          <path
+            d="M885,1 C885.276142,1 885.526142,1.11192881 885.707107,1.29289322 C885.888071,1.47385763 886,1.72385763 886,2 L886,44 C886,44.2761424 885.888071,44.5261424 885.707107,44.7071068 C885.526142,44.8880712 885.276142,45 885,45 L760,45 C759.723858,45 759.473858,44.8880712 759.292893,44.7071068 C759.111929,44.5261424 759,44.2761424 759,44 L759,2 C759,1.72385763 759.111929,1.47385763 759.292893,1.29289322 C759.473858,1.11192881 759.723858,1 760,1 Z"
+            id="path9265"
+            stroke="#2B393B"
+            stroke-width="2"
+          />
+          <text
+            id="KLRH3_DB2DD148"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="30"
+            font-weight="normal"
+            line-spacing="45"
+            fill="#191919"
+          >
+            <tspan x="804" y="33" id="tspan9267">26</tspan>
+          </text>
+          <text
+            id="T/H"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="24"
+            font-weight="normal"
+            line-spacing="36"
+            fill="#191919"
+          >
+            <tspan x="563" y="30" id="tspan9270">T/H</tspan>
+          </text>
+          <text
+            id="text9275"
+            font-family="PingFangSC-Regular, 'PingFang SC'"
+            font-size="30px"
+            font-weight="normal"
+            line-spacing="45"
+            fill="#191919"
+          >
+            <tspan x="654" y="33" id="tspan9273">总电流</tspan>
+          </text>
+          <path
+            d="M550,1 C550.276142,1 550.526142,1.11192881 550.707107,1.29289322 C550.888071,1.47385763 551,1.72385763 551,2 L551,44 C551,44.2761424 550.888071,44.5261424 550.707107,44.7071068 C550.526142,44.8880712 550.276142,45 550,45 L419,45 C418.723858,45 418.473858,44.8880712 418.292893,44.7071068 C418.111929,44.5261424 418,44.2761424 418,44 L418,2 C418,1.72385763 418.111929,1.47385763 418.292893,1.29289322 C418.473858,1.11192881 418.723858,1 419,1 Z"
+            id="path9277"
+            stroke="#2B393B"
+            stroke-width="2"
+          />
+          <text
+            id="KLRH3_DB54DBD16"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="30"
+            font-weight="normal"
+            line-spacing="45"
+            fill="#191919"
+          >
+            <tspan x="469.985" y="33" id="tspan9279">31</tspan>
+          </text>
+          <text
+            id="制药产能"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="30"
+            font-weight="normal"
+            line-spacing="45"
+            fill="#191919"
+          >
+            <tspan x="283" y="33" id="tspan9282">制药产能</tspan>
+          </text>
+          <rect
+            id="矩形备份-7"
+            stroke="#418284"
+            stroke-width="2"
+            x="918"
+            y="1"
+            width="198"
+            height="44"
+            rx="2"
+          />
+          <text
+            id="KLRH3_DB54DBD56"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="30"
+            font-weight="normal"
+            line-spacing="45"
+            fill="#191919"
+          >
+            <tspan x="1168" y="33" id="tspan9286">32</tspan>
+          </text>
+          <path
+            d="M1248,1 C1248.27614,1 1248.52614,1.11192881 1248.70711,1.29289322 C1248.88807,1.47385763 1249,1.72385763 1249,2 L1249,44 C1249,44.2761424 1248.88807,44.5261424 1248.70711,44.7071068 C1248.52614,44.8880712 1248.27614,45 1248,45 L1123,45 C1122.72386,45 1122.47386,44.8880712 1122.29289,44.7071068 C1122.11193,44.5261424 1122,44.2761424 1122,44 L1122,2 C1122,1.72385763 1122.11193,1.47385763 1122.29289,1.29289322 C1122.47386,1.11192881 1122.72386,1 1123,1 Z"
+            id="矩形备份-8"
+            stroke="#2B393B"
+            stroke-width="2"
+          />
+          <rect
+            id="矩形备份-9"
+            stroke="#418284"
+            stroke-width="2"
+            x="1255"
+            y="1"
+            width="56"
+            height="44"
+            rx="2"
+          />
+          <text
+            id="Kg备份"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="24"
+            font-weight="normal"
+            line-spacing="36"
+            fill="#191919"
+          >
+            <tspan x="1268" y="30" id="tspan9291">Kg</tspan>
+          </text>
+          <text
+            id="包装下线累计"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="30"
+            font-weight="normal"
+            line-spacing="45"
+            fill="#191919"
+          >
+            <tspan x="927" y="33" id="tspan9294">包装下线累计</tspan>
+          </text>
+          <rect
+            id="矩形备份-10"
+            stroke="#418284"
+            stroke-width="2"
+            x="1343"
+            y="1"
+            width="168"
+            height="44"
+            rx="2"
+          />
+          <path
+            d="M1643,1 C1643.27614,1 1643.52614,1.11192881 1643.70711,1.29289322 C1643.88807,1.47385763 1644,1.72385763 1644,2 L1644,44 C1644,44.2761424 1643.88807,44.5261424 1643.70711,44.7071068 C1643.52614,44.8880712 1643.27614,45 1643,45 L1518,45 C1517.72386,45 1517.47386,44.8880712 1517.29289,44.7071068 C1517.11193,44.5261424 1517,44.2761424 1517,44 L1517,2 C1517,1.72385763 1517.11193,1.47385763 1517.29289,1.29289322 C1517.47386,1.11192881 1517.72386,1 1518,1 Z"
+            id="矩形备份-11"
+            stroke="#2B393B"
+            stroke-width="2"
+          />
+          <text
+            id="KLRH3_DB54DBD64"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="30"
+            font-weight="normal"
+            line-spacing="45"
+            fill="#191919"
+          >
+            <tspan x="1563" y="33" id="tspan9299">33</tspan>
+          </text>
+          <rect
+            id="矩形备份-12"
+            stroke="#418284"
+            stroke-width="2"
+            x="1650"
+            y="1"
+            width="56"
+            height="44"
+            rx="2"
+          />
+          <text
+            id="Kg备份-2"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="24"
+            font-weight="normal"
+            line-spacing="36"
+            fill="#191919"
+          >
+            <tspan x="1663" y="30" id="tspan9303">Kg</tspan>
+          </text>
+          <text
+            id="在线存药量"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="30"
+            font-weight="normal"
+            line-spacing="45"
+            fill="#191919"
+          >
+            <tspan x="1352" y="33" id="tspan9306">在线存药量</tspan>
+          </text>
+        </g>
+        <g id="g9318" transform="translate(818, 223)">
+          <rect
+            id="rect9310"
+            stroke="#191919"
+            fill="#1C0AD5"
+            x="2.5"
+            y="0.5"
+            width="8"
+            height="3"
+          />
+          <rect id="rect9312" fill="#191919" x="0" y="3" width="13" height="3" />
+          <rect
+            id="rect9314"
+            stroke="#191919"
+            fill="#B0AAAE"
+            x="5.5"
+            y="5.5"
+            width="2"
+            height="22"
+          />
+          <rect id="rect9316" fill="#191919" x="6" y="27" width="1" height="23" />
+        </g>
+        <g id="g9338" transform="translate(433, 672)">
+          <rect id="rect9320" fill="#16A2BC" x="0" y="0" width="14" height="351" />
+          <rect id="rect9322" fill="#191919" x="0" y="0" width="1" height="351" />
+          <rect id="rect9324" fill="#191919" x="13" y="0" width="1" height="351" />
+          <rect id="rect9326" fill="#99A5AF" x="1" y="0" width="1" height="351" />
+          <rect id="rect9328" fill="#99A5AF" x="12" y="0" width="1" height="351" />
+          <rect id="rect9330" fill="#FFFFFF" x="6" y="81" width="2" height="46" />
+          <rect id="rect9332" fill="#FFFFFF" x="4" y="113" width="6" height="2" />
+          <rect id="rect9334" fill="#FFFFFF" x="6" y="216" width="2" height="46" />
+          <rect id="rect9336" fill="#FFFFFF" x="4" y="248" width="6" height="2" />
+        </g>
+        <g id="编组-4备份" transform="translate(283, 969)">
+          <text
+            id="水相熔罐二"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="32" y="269" id="tspan9340">水相熔罐二</tspan>
+          </text>
+          <g id="g9394" transform="translate(67, 0)">
+            <mask id="mask-259" fill="white">
+              <use xlink:href="#path-258" id="use9343" />
+            </mask>
+            <use id="use9346" fill="#D8D8D8" xlink:href="#path-258" />
+            <g mask="url(#mask-259)" id="g9388">
+              <rect id="rect9348" fill="#191919" x="0" y="0" width="30" height="42" />
+              <rect id="rect9350" fill="#191919" x="2" y="41" width="26" height="5" />
+              <rect id="rect9352" fill="#007404" x="3" y="42" width="4" height="3" />
+              <rect id="rect9354" fill="#429A4B" x="7" y="42" width="5" height="3" />
+              <rect id="rect9356" fill="#5CB365" x="12" y="42" width="5" height="3" />
+              <rect id="rect9358" fill="#429A4B" x="17" y="42" width="5" height="3" />
+              <rect id="rect9360" fill="#007404" x="22" y="42" width="5" height="3" />
+              <rect id="rect9362" fill="#D8D8D8" x="1" y="0" width="28" height="5" />
+              <rect id="rect9364" fill="#007404" x="1" y="0" width="5" height="5" />
+              <rect id="rect9366" fill="#429A4B" x="6" y="0" width="6" height="5" />
+              <rect id="rect9368" fill="#5CB365" x="12" y="0" width="6" height="5" />
+              <rect id="rect9370" fill="#429A4B" x="18" y="0" width="6" height="5" />
+              <rect id="rect9372" fill="#007404" x="24" y="0" width="5" height="5" />
+              <rect id="rect9374" fill="#429A4B" x="27" y="12" width="1" height="26" />
+              <rect id="rect9376" fill="#429A4B" x="2" y="7" width="3" height="14" />
+              <rect id="rect9378" fill="#429A4B" x="1" y="22" width="16" height="16" />
+              <rect id="rect9380" fill="#FFFFFF" x="1" y="22" width="16" height="2" />
+              <rect id="rect9382" fill="#FFFFFF" x="15" y="22" width="2" height="15" />
+              <rect id="rect9384" fill="#191919" x="1" y="37" width="16" height="2" />
+              <rect id="rect9386" fill="#191919" x="1" y="22" width="2" height="16" />
+            </g>
+            <rect
+              id="rect9390"
+              fill="#191919"
+              mask="url(#mask-259)"
+              x="0"
+              y="0"
+              width="30"
+              height="1"
+            />
+            <path
+              d="M27.8060756,0.5 L29.5,2.04662659 L29.5,41.5 L0.5,41.5 L0.5,2.04662659 L2.19392436,0.5 L27.8060756,0.5 Z"
+              id="path9392"
+              stroke="#191919"
+              mask="url(#mask-259)"
+            />
+          </g>
+          <g id="g9420" transform="translate(-0, 46)">
+            <g id="g9406">
+              <path
+                d="M5.26013184,4.77272185 C30.8400879,1.59090728 56.4200439,0 82,0 C107.579956,0 133.159912,1.59090728 158.739868,4.77272185 C161.74448,5.1459871 164.000142,7.69940911 164,10.727118 L164,183.272882 C164.000142,186.300591 161.74448,188.854013 158.739868,189.227278 C133.159912,192.409093 107.579956,194 82,194 C56.4200439,194 30.8400879,192.409093 5.26013184,189.227278 C2.2555197,188.854013 -0.000141662411,186.300591 0,183.272882 L0,10.727118 C-0.000141662412,7.69940911 2.2555197,5.1459871 5.26013184,4.77272185 Z"
+                id="path9396"
+                fill="url(#linearGradient-219)"
+              />
+              <rect
+                id="rect9398"
+                fill="#64D9E4"
+                x="13.2972973"
+                y="62.1011236"
+                width="135.189189"
+                height="121"
+              />
+              <path
+                d="M78.2366596,13.7036581 L79.4662284,13.7079503 C94.8098084,13.7907211 109.102441,14.9594786 113.928174,16.5483617 C123.655648,19.7511535 127.77724,23.3108346 131.72456,26.72514 C132.39827,27.3078773 133.066418,27.8861485 133.76058,28.4566293 C150.183319,41.9532632 149.602769,71.2944502 148.609022,98.2894837 C148.388711,104.274216 148.17293,110.118995 148.17293,115.600465 C148.17293,127.564317 149.707907,137.470501 150.991017,145.785524 C152.967975,158.596937 154.088261,167.794486 149.487414,175.022993 C143.497577,184.433779 119.590739,186.144008 94.6725575,186.105746 L92.8579851,186.101206 C90.2979605,186.092498 87.7411077,186.074771 85.2097623,186.057216 C81.7714549,186.03337 78.3803427,186.009831 75.0927204,186.009831 C60.3655415,186.009831 48.2310383,184.138627 39.2115514,180.594245 C29.6588533,176.840329 23.5344067,171.19313 21.102037,164.026983 C18.7982774,157.239742 19.6873279,141.737374 21.3235244,125.860199 L21.5171906,124.006051 C21.5499376,123.696481 21.5828815,123.386909 21.616297,123.074651 L21.8165852,121.22233 C22.2013723,117.698263 22.603524,114.199718 22.9915451,110.824214 C24.1186747,101.018998 25.1316124,92.2641239 25.2269199,87.0041624 C25.3607102,79.6203634 25.4150483,72.9179697 25.4641673,66.8630574 C25.6749621,40.8782908 26.2629836,26.61543 31.5736352,20.9831226 C35.1803731,17.1579317 48.5713223,14.7461469 64.0840347,14.0118367 C68.7174937,13.7925072 73.5159415,13.6961822 78.2366596,13.7036581 Z"
+                id="path9400"
+                stroke="#191919"
+                stroke-width="5"
+              />
+              <path
+                d="M69.1192513,9.34972667 C85.8137503,9.24685812 102.067734,10.4728174 107.279526,12.1888112 C117.006999,15.391603 121.128591,18.9512841 125.07401,22.3639463 L125.781363,22.9745486 C126.219706,23.3513946 126.660273,23.7258935 127.111932,24.0970788 C142.316666,36.5927255 143.01274,62.6222602 142.175029,87.8974364 L142.108534,89.8421371 C142.060493,91.2101665 142.010303,92.573621 141.960374,93.9299332 C141.740063,99.9146651 141.524282,105.759444 141.524282,111.240915 C141.524282,123.204767 143.059258,133.110951 144.342368,141.425973 C146.319327,154.237386 147.439612,163.434935 142.838766,170.663443 C137.067937,179.730139 114.719981,181.69737 90.7486484,181.745755 L88.93504,181.747111 C88.3294213,181.746837 87.7235376,181.745877 87.115517,181.744345 L85.3015018,181.738204 C83.0450821,181.728759 80.7931803,181.713145 78.5611137,181.697665 C75.1228063,181.67382 71.7316941,181.650281 68.4440718,181.650281 C53.7168928,181.650281 41.5823897,179.779076 32.5629028,176.234695 C23.0102046,172.480778 16.8857581,166.833579 14.4533884,159.667432 C12.157057,152.902076 13.0513825,137.456792 14.6627029,121.63803 L14.7948729,120.354773 C14.8839685,119.498941 14.9749638,118.642674 15.067468,117.787284 L15.2694564,115.937131 C15.6230838,112.726594 15.9888732,109.544411 16.3428965,106.464663 C17.4700261,96.6594474 18.4829637,87.9045734 18.5782713,82.6446118 C18.7120616,75.2608129 18.7663997,68.5584192 18.8155186,62.5035068 C19.0263135,36.5187403 19.614335,22.2558794 24.9249866,16.623572 C28.5317244,12.7983812 41.9226737,10.3865964 57.435386,9.65228618 C60.0542977,9.5283173 62.7259184,9.44364477 65.4064204,9.39480098 L66.6440462,9.37478912 C67.0566919,9.3689581 67.4693883,9.36396247 67.8819757,9.3597896 Z"
+                id="path9402"
+                stroke="#FFFFFF"
+                stroke-width="5"
+              />
+              <path
+                d="M82,0 C107.579956,0 133.159912,1.59090728 158.739868,4.77272185 C161.74448,5.1459871 164.000142,7.69940911 164,10.727118 L164,183.272882 C164.000142,186.300591 161.74448,188.854013 158.739868,189.227278 C133.159912,192.409093 107.579956,194 82,194 C56.4200439,194 30.8400879,192.409093 5.26013184,189.227278 C2.2555197,188.854013 -0.000141662411,186.300591 0,183.272882 L0,10.727118 C-0.000141662412,7.69940911 2.2555197,5.1459871 5.26013184,4.77272185 C30.8400879,1.59090728 56.4200439,0 82,0 Z M109.822008,16.743186 C98.8602325,13.1339975 38.132592,11.9656326 30.0682537,20.518412 C23.7045055,27.2676 25.0843229,47.222956 24.4021853,84.8696783 C24.2731549,91.9907808 22.4907553,105.454696 20.9774902,119.313912 L20.7774852,121.163628 C19.0278439,137.514253 17.7700609,154.04655 20.1450591,161.043671 C24.6261876,174.245787 43.2140518,181.330056 71.7683961,181.330056 C77.1937216,181.330056 82.9003941,181.393992 88.6362905,181.418001 L90.4483036,181.424135 L92.2604951,181.426887 C115.510551,181.437403 138.368821,180.433059 144.054054,171.500845 C151.437473,159.900566 142.348606,142.775281 142.348606,113.42069 C142.348606,84.066099 148.486486,44.3469321 128.848949,28.2082931 C128.538247,27.9529497 128.232603,27.6961204 127.929344,27.4380556 L127.47591,27.050063 C127.249753,26.8556347 127.024186,26.6605819 126.79808,26.4650102 L126.344816,26.0732062 C122.707614,22.9337408 118.740063,19.6794749 109.822008,16.743186 Z"
+                id="path9404"
+                fill="url(#linearGradient-220)"
+              />
+            </g>
+            <path
+              d="M82,0.5 C107.559384,0.5 133.118767,2.08964253 158.678227,5.26890762 C160.055331,5.4399863 161.260802,6.11067894 162.121983,7.0855238 C162.983172,8.06037845 163.500065,9.33939097 163.5,10.727118 L163.5,183.272905 C163.500065,184.660609 162.983172,185.939622 162.121983,186.914476 C161.260802,187.889321 160.055331,188.560014 158.67815,188.731102 C133.118767,191.910357 107.559384,193.5 82,193.5 C56.440616,193.5 30.8812332,191.910357 5.32177339,188.731092 C3.94466941,188.560014 2.73919824,187.889321 1.8780173,186.914476 C1.0168277,185.939622 0.499935084,184.660609 0.500000013,183.272882 L0.500000013,10.7270946 C0.499935084,9.33939097 1.0168277,8.06037845 1.8780173,7.0855238 C2.73919824,6.11067894 3.94466941,5.4399863 5.32184974,5.26889813 C30.8812332,2.08964253 56.440616,0.5 82,0.5 Z"
+              id="path9408"
+              stroke="#191919"
+            />
+            <path
+              d="M84,138.512695 L51.1547914,149.305583 C49.5807399,149.822814 47.8854204,148.966092 47.3681894,147.39204 C47.2688699,147.089789 47.2182617,146.773662 47.2182617,146.455511 L47.2182617,130.789257 C47.2182617,129.132403 48.5614075,127.789257 50.2182617,127.789257 C50.5303373,127.789257 50.840502,127.837951 51.1375642,127.933581 L84,138.512695 L84,138.512695 Z"
+              id="path9410"
+              stroke="#191919"
+              fill="#006900"
+            />
+            <path
+              d="M85.6118164,137.916992 L130.406497,127.108532 C132.554006,126.590362 134.714965,127.911202 135.233136,130.058711 C135.307268,130.365948 135.344727,130.680888 135.344727,130.996941 L135.344727,145.451095 C135.344727,147.660234 133.553866,149.451095 131.344727,149.451095 C131.011382,149.451095 130.679345,149.409427 130.356338,149.327058 L85.6118164,137.916992 L85.6118164,137.916992 Z"
+              id="path9412"
+              stroke="#191919"
+              fill="#006900"
+            />
+            <rect
+              id="rect9414"
+              stroke="#006506"
+              fill="#CEEDC9"
+              x="82.5"
+              y="15.5"
+              width="3"
+              height="126"
+            />
+            <path
+              d="M84,138.635498 L43.4500957,127.692415 C41.8504669,127.260728 40.20376,128.207531 39.7720729,129.80716 C39.7032965,130.062013 39.668457,130.324829 39.668457,130.588799 L39.668457,145.725209 C39.668457,147.382064 41.0116028,148.725209 42.668457,148.725209 C42.9102304,148.725209 43.1511172,148.695982 43.3858756,148.638165 L84,138.635498 L84,138.635498 Z"
+              id="path9416"
+              stroke="#191919"
+              fill="#00650F"
+            />
+            <path
+              d="M85.6118164,138.635498 L126.782221,126.916791 C128.375778,126.463203 130.035317,127.38733 130.488906,128.980887 C130.564944,129.248026 130.603516,129.524431 130.603516,129.802181 L130.603516,145.738625 C130.603516,147.395479 129.26037,148.738625 127.603516,148.738625 C127.365164,148.738625 127.127663,148.71022 126.896034,148.65401 L85.6118164,138.635498 L85.6118164,138.635498 Z"
+              id="path9418"
+              stroke="#191919"
+              fill="#00650F"
+            />
+          </g>
+        </g>
+        <g id="g9474" transform="translate(153, 432)">
+          <mask id="mask-261" fill="white">
+            <use xlink:href="#path-260" id="use9423" />
+          </mask>
+          <use id="use9426" fill="#D8D8D8" xlink:href="#path-260" />
+          <g mask="url(#mask-261)" id="g9468">
+            <rect id="rect9428" fill="#191919" x="0" y="0" width="30" height="42" />
+            <rect id="rect9430" fill="#191919" x="2" y="41" width="26" height="5" />
+            <rect id="rect9432" fill="#A4A4A4" x="3" y="42" width="4" height="3" />
+            <rect id="rect9434" fill="#B4B2B3" x="7" y="42" width="5" height="3" />
+            <rect id="rect9436" fill="#D4D4D4" x="12" y="42" width="5" height="3" />
+            <rect id="rect9438" fill="#B4B2B3" x="17" y="42" width="5" height="3" />
+            <rect id="rect9440" fill="#A4A4A4" x="22" y="42" width="5" height="3" />
+            <rect id="rect9442" fill="#D8D8D8" x="1" y="0" width="28" height="5" />
+            <rect id="rect9444" fill="#A4A4A4" x="1" y="0" width="5" height="5" />
+            <rect id="rect9446" fill="#B4B2B3" x="6" y="0" width="6" height="5" />
+            <rect id="rect9448" fill="#D4D4D4" x="12" y="0" width="6" height="5" />
+            <rect id="rect9450" fill="#B4B2B3" x="18" y="0" width="6" height="5" />
+            <rect id="rect9452" fill="#A4A4A4" x="24" y="0" width="5" height="5" />
+            <rect id="rect9454" fill="#818483" x="27" y="12" width="1" height="26" />
+            <rect id="rect9456" fill="#818483" x="2" y="7" width="3" height="14" />
+            <rect id="rect9458" fill="#B2B2B2" x="1" y="22" width="16" height="16" />
+            <rect id="rect9460" fill="#FFFFFF" x="1" y="22" width="16" height="2" />
+            <rect id="rect9462" fill="#FFFFFF" x="15" y="22" width="2" height="15" />
+            <rect id="rect9464" fill="#191919" x="1" y="37" width="16" height="2" />
+            <rect id="rect9466" fill="#191919" x="1" y="22" width="2" height="16" />
+          </g>
+          <rect
+            id="rect9470"
+            fill="#191919"
+            mask="url(#mask-261)"
+            x="0"
+            y="0"
+            width="30"
+            height="1"
+          />
+          <path
+            d="M27.8060756,0.5 L29.5,2.04662659 L29.5,41.5 L0.5,41.5 L0.5,2.04662659 L2.19392436,0.5 L27.8060756,0.5 Z"
+            id="path9472"
+            stroke="#191919"
+            mask="url(#mask-261)"
+          />
+        </g>
+        <g id="g9500" transform="translate(86, 478)">
+          <g id="g9486" transform="translate(-0, 0)">
+            <path
+              d="M5.26013184,4.77272185 C30.8400879,1.59090728 56.4200439,0 82,0 C107.579956,0 133.159912,1.59090728 158.739868,4.77272185 C161.74448,5.1459871 164.000142,7.69940911 164,10.727118 L164,183.272882 C164.000142,186.300591 161.74448,188.854013 158.739868,189.227278 C133.159912,192.409093 107.579956,194 82,194 C56.4200439,194 30.8400879,192.409093 5.26013184,189.227278 C2.2555197,188.854013 -0.000141662411,186.300591 0,183.272882 L0,10.727118 C-0.000141662412,7.69940911 2.2555197,5.1459871 5.26013184,4.77272185 Z"
+              id="path9476"
+              fill="url(#linearGradient-219)"
+            />
+            <rect
+              id="rect9478"
+              fill="#64D9E4"
+              x="13.2972973"
+              y="14.1685393"
+              width="135.189189"
+              height="168.932584"
+            />
+            <path
+              d="M78.2366596,13.7036581 L79.4662284,13.7079503 C94.8098084,13.7907211 109.102441,14.9594786 113.928174,16.5483617 C123.655648,19.7511535 127.77724,23.3108346 131.72456,26.72514 C132.39827,27.3078773 133.066418,27.8861485 133.76058,28.4566293 C150.183319,41.9532632 149.602769,71.2944502 148.609022,98.2894837 C148.388711,104.274216 148.17293,110.118995 148.17293,115.600465 C148.17293,127.564317 149.707907,137.470501 150.991017,145.785524 C152.967975,158.596937 154.088261,167.794486 149.487414,175.022993 C143.497577,184.433779 119.590739,186.144008 94.6725575,186.105746 L92.8579851,186.101206 C90.2979605,186.092498 87.7411077,186.074771 85.2097623,186.057216 C81.7714549,186.03337 78.3803427,186.009831 75.0927204,186.009831 C60.3655415,186.009831 48.2310383,184.138627 39.2115514,180.594245 C29.6588533,176.840329 23.5344067,171.19313 21.102037,164.026983 C18.7982774,157.239742 19.6873279,141.737374 21.3235244,125.860199 L21.5171906,124.006051 C21.5499376,123.696481 21.5828815,123.386909 21.616297,123.074651 L21.8165852,121.22233 C22.2013723,117.698263 22.603524,114.199718 22.9915451,110.824214 C24.1186747,101.018998 25.1316124,92.2641239 25.2269199,87.0041624 C25.3607102,79.6203634 25.4150483,72.9179697 25.4641673,66.8630574 C25.6749621,40.8782908 26.2629836,26.61543 31.5736352,20.9831226 C35.1803731,17.1579317 48.5713223,14.7461469 64.0840347,14.0118367 C68.7174937,13.7925072 73.5159415,13.6961822 78.2366596,13.7036581 Z"
+              id="path9480"
+              stroke="#191919"
+              stroke-width="5"
+            />
+            <path
+              d="M69.1192513,9.34972667 C85.8137503,9.24685812 102.067734,10.4728174 107.279526,12.1888112 C117.006999,15.391603 121.128591,18.9512841 125.07401,22.3639463 L125.781363,22.9745486 C126.219706,23.3513946 126.660273,23.7258935 127.111932,24.0970788 C142.316666,36.5927255 143.01274,62.6222602 142.175029,87.8974364 L142.108534,89.8421371 C142.060493,91.2101665 142.010303,92.573621 141.960374,93.9299332 C141.740063,99.9146651 141.524282,105.759444 141.524282,111.240915 C141.524282,123.204767 143.059258,133.110951 144.342368,141.425973 C146.319327,154.237386 147.439612,163.434935 142.838766,170.663443 C137.067937,179.730139 114.719981,181.69737 90.7486484,181.745755 L88.93504,181.747111 C88.3294213,181.746837 87.7235376,181.745877 87.115517,181.744345 L85.3015018,181.738204 C83.0450821,181.728759 80.7931803,181.713145 78.5611137,181.697665 C75.1228063,181.67382 71.7316941,181.650281 68.4440718,181.650281 C53.7168928,181.650281 41.5823897,179.779076 32.5629028,176.234695 C23.0102046,172.480778 16.8857581,166.833579 14.4533884,159.667432 C12.157057,152.902076 13.0513825,137.456792 14.6627029,121.63803 L14.7948729,120.354773 C14.8839685,119.498941 14.9749638,118.642674 15.067468,117.787284 L15.2694564,115.937131 C15.6230838,112.726594 15.9888732,109.544411 16.3428965,106.464663 C17.4700261,96.6594474 18.4829637,87.9045734 18.5782713,82.6446118 C18.7120616,75.2608129 18.7663997,68.5584192 18.8155186,62.5035068 C19.0263135,36.5187403 19.614335,22.2558794 24.9249866,16.623572 C28.5317244,12.7983812 41.9226737,10.3865964 57.435386,9.65228618 C60.0542977,9.5283173 62.7259184,9.44364477 65.4064204,9.39480098 L66.6440462,9.37478912 C67.0566919,9.3689581 67.4693883,9.36396247 67.8819757,9.3597896 Z"
+              id="path9482"
+              stroke="#FFFFFF"
+              stroke-width="5"
+            />
+            <path
+              d="M82,0 C107.579956,0 133.159912,1.59090728 158.739868,4.77272185 C161.74448,5.1459871 164.000142,7.69940911 164,10.727118 L164,183.272882 C164.000142,186.300591 161.74448,188.854013 158.739868,189.227278 C133.159912,192.409093 107.579956,194 82,194 C56.4200439,194 30.8400879,192.409093 5.26013184,189.227278 C2.2555197,188.854013 -0.000141662411,186.300591 0,183.272882 L0,10.727118 C-0.000141662412,7.69940911 2.2555197,5.1459871 5.26013184,4.77272185 C30.8400879,1.59090728 56.4200439,0 82,0 Z M109.822008,16.743186 C98.8602325,13.1339975 38.132592,11.9656326 30.0682537,20.518412 C23.7045055,27.2676 25.0843229,47.222956 24.4021853,84.8696783 C24.2731549,91.9907808 22.4907553,105.454696 20.9774902,119.313912 L20.7774852,121.163628 C19.0278439,137.514253 17.7700609,154.04655 20.1450591,161.043671 C24.6261876,174.245787 43.2140518,181.330056 71.7683961,181.330056 C77.1937216,181.330056 82.9003941,181.393992 88.6362905,181.418001 L90.4483036,181.424135 L92.2604951,181.426887 C115.510551,181.437403 138.368821,180.433059 144.054054,171.500845 C151.437473,159.900566 142.348606,142.775281 142.348606,113.42069 C142.348606,84.066099 148.486486,44.3469321 128.848949,28.2082931 C128.538247,27.9529497 128.232603,27.6961204 127.929344,27.4380556 L127.47591,27.050063 C127.249753,26.8556347 127.024186,26.6605819 126.79808,26.4650102 L126.344816,26.0732062 C122.707614,22.9337408 118.740063,19.6794749 109.822008,16.743186 Z"
+              id="path9484"
+              fill="url(#linearGradient-262)"
+            />
+          </g>
+          <path
+            d="M82,0.5 C107.559384,0.5 133.118767,2.08964253 158.678227,5.26890762 C160.055331,5.4399863 161.260802,6.11067894 162.121983,7.0855238 C162.983172,8.06037845 163.500065,9.33939097 163.5,10.727118 L163.5,183.272905 C163.500065,184.660609 162.983172,185.939622 162.121983,186.914476 C161.260802,187.889321 160.055331,188.560014 158.67815,188.731102 C133.118767,191.910357 107.559384,193.5 82,193.5 C56.440616,193.5 30.8812332,191.910357 5.32177339,188.731092 C3.94466941,188.560014 2.73919824,187.889321 1.8780173,186.914476 C1.0168277,185.939622 0.499935084,184.660609 0.500000013,183.272882 L0.500000013,10.7270946 C0.499935084,9.33939097 1.0168277,8.06037845 1.8780173,7.0855238 C2.73919824,6.11067894 3.94466941,5.4399863 5.32184974,5.26889813 C30.8812332,2.08964253 56.440616,0.5 82,0.5 Z"
+            id="path9488"
+            stroke="#191919"
+          />
+          <path
+            d="M85.6118164,137.916992 L94.5198972,127.957254 C94.888083,127.545602 95.5202667,127.510365 95.9319191,127.878551 C96.1516188,128.075052 96.2734369,128.358471 96.2648339,128.653101 L95.7042953,147.85003 C95.6881757,148.402079 95.2275838,148.836536 94.6755343,148.820417 C94.3798397,148.811782 94.1031421,148.672671 93.9198385,148.440487 L85.6118164,137.916992 L85.6118164,137.916992 Z"
+            id="path9490"
+            stroke="#191919"
+            fill="#4F4C4F"
+          />
+          <path
+            d="M84,138.635498 L43.4500957,127.692415 C41.8504669,127.260728 40.20376,128.207531 39.7720729,129.80716 C39.7032965,130.062013 39.668457,130.324829 39.668457,130.588799 L39.668457,145.725209 C39.668457,147.382064 41.0116028,148.725209 42.668457,148.725209 C42.9102304,148.725209 43.1511172,148.695982 43.3858756,148.638165 L84,138.635498 L84,138.635498 Z"
+            id="path9492"
+            stroke="#191919"
+            fill="#737476"
+          />
+          <rect
+            id="rect9494"
+            stroke="#191919"
+            fill="#EAEAEA"
+            x="82.5"
+            y="15.5"
+            width="3"
+            height="126"
+          />
+          <path
+            d="M85.6118164,138.635498 L126.782221,126.916791 C128.375778,126.463203 130.035317,127.38733 130.488906,128.980887 C130.564944,129.248026 130.603516,129.524431 130.603516,129.802181 L130.603516,145.738625 C130.603516,147.395479 129.26037,148.738625 127.603516,148.738625 C127.365164,148.738625 127.127663,148.71022 126.896034,148.65401 L85.6118164,138.635498 L85.6118164,138.635498 Z"
+            id="path9496"
+            stroke="#191919"
+            fill="#737476"
+          />
+          <path
+            d="M84,138.512695 L74.9644973,148.641575 C74.5968512,149.05371 73.9647142,149.089775 73.5525797,148.722129 C73.3398858,148.532394 73.2182617,148.260916 73.2182617,147.975893 L73.2182617,129.255401 C73.2182617,128.703117 73.665977,128.255401 74.2182617,128.255401 C74.4997275,128.255401 74.7681608,128.37402 74.9576621,128.582135 L84,138.512695 L84,138.512695 Z"
+            id="path9498"
+            stroke="#191919"
+            fill="#4F4C4F"
+          />
+        </g>
+        <g id="g9536" transform="translate(1394, 800)">
+          <rect
+            id="rect9502"
+            stroke="#191919"
+            fill="url(#linearGradient-70)"
+            x="20.5"
+            y="21.5"
+            width="19"
+            height="31"
+          />
+          <rect id="rect9504" fill="#191919" x="28" y="21" width="4" height="3" />
+          <rect id="rect9506" fill="#191919" x="28" y="50" width="4" height="3" />
+          <path
+            d="M16,27.5 C18.8994949,27.5 21.5244949,28.6752525 23.4246212,30.5753788 C25.3247475,32.4755051 26.5,35.1005051 26.5,38 C26.5,40.8994949 25.3247475,43.5244949 23.4246212,45.4246212 C21.5244949,47.3247475 18.8994949,48.5 16,48.5 L3.5,48.5 L3.5,27.5 Z"
+            id="path9508"
+            stroke="#191919"
+            fill="url(#linearGradient-71)"
+          />
+          <rect
+            id="rect9510"
+            stroke="#191919"
+            fill="url(#linearGradient-72)"
+            x="6.5"
+            y="24.5"
+            width="5"
+            height="27"
+          />
+          <rect
+            id="rect9512"
+            stroke="#191919"
+            fill="#BCB6BA"
+            x="0.5"
+            y="0.5"
+            width="3"
+            height="33"
+          />
+          <rect id="rect9514" fill="#191919" x="0" y="36" width="3" height="6" />
+          <rect
+            id="rect9516"
+            stroke="#191919"
+            fill="url(#linearGradient-73)"
+            x="16.5"
+            y="17.5"
+            width="27"
+            height="4"
+          />
+          <rect
+            id="rect9518"
+            stroke="#191919"
+            fill="url(#linearGradient-73)"
+            x="16.5"
+            y="52.5"
+            width="27"
+            height="4"
+          />
+          <rect
+            id="rect9520"
+            stroke="#191919"
+            fill="#C2C4C3"
+            x="16.5"
+            y="15.5"
+            width="6"
+            height="2"
+          />
+          <rect
+            id="rect9522"
+            stroke="#191919"
+            fill="#C2C4C3"
+            x="16.5"
+            y="56.5"
+            width="6"
+            height="2"
+          />
+          <rect
+            id="rect9524"
+            stroke="#191919"
+            fill="#C2C4C3"
+            x="37.5"
+            y="15.5"
+            width="6"
+            height="2"
+          />
+          <rect
+            id="rect9526"
+            stroke="#191919"
+            fill="#C2C4C3"
+            x="37.5"
+            y="56.5"
+            width="6"
+            height="2"
+          />
+          <rect id="rect9528" fill="#191919" x="39" y="13" width="4" height="3" />
+          <rect id="rect9530" fill="#191919" x="39" y="58" width="4" height="3" />
+          <rect id="rect9532" fill="#191919" x="17" y="13" width="4" height="3" />
+          <rect id="rect9534" fill="#191919" x="17" y="58" width="4" height="3" />
+        </g>
+        <g id="g9594" transform="translate(50, 912)">
+          <path
+            d="M4.5,3 C5.46649831,3 6.34149831,3.39175084 6.97487373,4.02512627 C7.60824916,4.65850169 8,5.53350169 8,6.5 L8,16 L1,16 L1,6.5 C1,5.53350169 1.39175084,4.65850169 2.02512627,4.02512627 C2.65850169,3.39175084 3.53350169,3 4.5,3 Z"
+            id="path9538"
+            stroke="#191919"
+            stroke-width="2"
+            fill="#191919"
+          />
+          <rect id="rect9540" fill="#FFFFFF" x="2" y="12" width="5" height="2" />
+          <path
+            d="M4.5,4 C5.88071187,4 7,5.11928813 7,6.5 L7,7 L7,7 L2,7 L2,6.5 C2,5.11928813 3.11928813,4 4.5,4 Z"
+            id="path9542"
+            fill="#FFFFFF"
+          />
+          <rect
+            id="rect9544"
+            stroke="#191919"
+            fill="#02C90F"
+            x="0.5"
+            y="30.5"
+            width="37"
+            height="25"
+          />
+          <rect id="rect9546" fill="#191919" x="3" y="30" width="3" height="26" />
+          <rect id="rect9548" fill="#191919" x="13" y="43" width="7" height="3" />
+          <rect id="rect9550" fill="#191919" x="32" y="31" width="3" height="25" />
+          <rect id="rect9552" fill="#191919" x="0" y="43" width="6" height="3" />
+          <rect
+            id="rect9554"
+            fill="#191919"
+            transform="translate(11.5, 29.5) scale(-1, 1) translate(-11.5, -29.5)"
+            x="11"
+            y="28"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="rect9556"
+            fill="#191919"
+            transform="translate(12.5, 26.5) scale(-1, 1) translate(-12.5, -26.5)"
+            x="12"
+            y="25"
+            width="1"
+            height="3"
+          />
+          <rect id="rect9558" fill="#191919" x="13" y="19" width="12" height="3" />
+          <rect
+            id="rect9560"
+            fill="#191919"
+            transform="translate(13.5, 23.5) scale(-1, 1) translate(-13.5, -23.5)"
+            x="13"
+            y="22"
+            width="1"
+            height="3"
+          />
+          <rect id="rect9562" fill="#FFFFFF" x="14" y="22" width="10" height="3" />
+          <rect id="rect9564" fill="#FFFFFF" x="13" y="25" width="12" height="3" />
+          <rect id="rect9566" fill="#FFFFFF" x="12" y="28" width="14" height="2" />
+          <rect
+            id="rect9568"
+            fill="#191919"
+            transform="translate(24.5, 23.5) scale(-1, 1) translate(-24.5, -23.5)"
+            x="24"
+            y="22"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="rect9570"
+            fill="#191919"
+            transform="translate(25.5, 26.5) scale(-1, 1) translate(-25.5, -26.5)"
+            x="25"
+            y="25"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="rect9572"
+            fill="#191919"
+            transform="translate(26.5, 29.5) scale(-1, 1) translate(-26.5, -29.5)"
+            x="26"
+            y="28"
+            width="1"
+            height="3"
+          />
+          <rect id="rect9574" fill="#191919" x="33" y="43" width="4" height="3" />
+          <path
+            d="M16,0 C16,0 22,0 22,0 C22,0 24.3333333,2 29,6 L29,17 L19,22 L9,17 L9,6 C13.6666667,2 16,0 16,0 Z"
+            id="path9576"
+            fill="#010000"
+          />
+          <rect id="rect9578" fill="#191919" x="29" y="10" width="1" height="2" />
+          <path
+            d="M16.9,3 C16.9,3 21.1,3 21.1,3 C21.1,3 22.7333333,4.45454545 26,7.36363636 L26,15.3636364 L19,19 L12,15.3636364 L12,7.36363636 C15.2666667,4.45454545 16.9,3 16.9,3 Z"
+            id="path9580"
+            stroke="#979797"
+          />
+          <path
+            d="M18.8,6 C18.8,6 20.2,6.90909091 23,8.72727273 L23,11.4177628 C23,12.8469106 22.2376199,14.1675161 21,14.8821911 C19.762427,15.5968389 18.237573,15.5968389 17,14.8821911 C15.7623801,14.1675161 15,12.8469106 15,11.4177628 L15,8.72727273 L15,8.72727273 C17.5333333,6.90909091 18.8,6 18.8,6 Z"
+            id="path9582"
+            stroke="#979797"
+          />
+          <rect id="rect9584" fill="#979797" x="15" y="9" width="8" height="1" />
+          <circle id="circle9586" stroke="#191919" fill="#FFFFFF" cx="23" cy="19" r="1.5" />
+          <circle id="circle9588" stroke="#191919" fill="#FFFFFF" cx="15" cy="19" r="1.5" />
+          <rect id="rect9590" fill="#979797" x="15" y="11" width="6" height="1" />
+          <path
+            d="M17.0166016,40.5 C17.0166016,40.5 18.1510417,40.5 20.4199219,40.5 L24,44.5 L20.5151367,48.9648438 L17.0166016,48.9648438 C18.3388672,46.9882812 19,46 19,46 C19,46 19,45 19,43 C17.6777344,41.3333333 17.0166016,40.5 17.0166016,40.5 Z"
+            id="path9592"
+            fill="#191919"
+          />
+        </g>
+        <g id="g9652" transform="translate(2187, 491)">
+          <path
+            d="M4.5,3 C5.46649831,3 6.34149831,3.39175084 6.97487373,4.02512627 C7.60824916,4.65850169 8,5.53350169 8,6.5 L8,16 L1,16 L1,6.5 C1,5.53350169 1.39175084,4.65850169 2.02512627,4.02512627 C2.65850169,3.39175084 3.53350169,3 4.5,3 Z"
+            id="path9596"
+            stroke="#191919"
+            stroke-width="2"
+            fill="#191919"
+          />
+          <rect id="rect9598" fill="#FFFFFF" x="2" y="12" width="5" height="2" />
+          <path
+            d="M4.5,4 C5.88071187,4 7,5.11928813 7,6.5 L7,7 L7,7 L2,7 L2,6.5 C2,5.11928813 3.11928813,4 4.5,4 Z"
+            id="path9600"
+            fill="#FFFFFF"
+          />
+          <rect
+            id="rect9602"
+            stroke="#191919"
+            fill="#02C90F"
+            x="0.5"
+            y="30.5"
+            width="37"
+            height="25"
+          />
+          <rect id="rect9604" fill="#191919" x="3" y="30" width="3" height="26" />
+          <rect id="rect9606" fill="#191919" x="13" y="43" width="7" height="3" />
+          <rect id="rect9608" fill="#191919" x="32" y="31" width="3" height="25" />
+          <rect id="rect9610" fill="#191919" x="0" y="43" width="6" height="3" />
+          <rect
+            id="rect9612"
+            fill="#191919"
+            transform="translate(11.5, 29.5) scale(-1, 1) translate(-11.5, -29.5)"
+            x="11"
+            y="28"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="rect9614"
+            fill="#191919"
+            transform="translate(12.5, 26.5) scale(-1, 1) translate(-12.5, -26.5)"
+            x="12"
+            y="25"
+            width="1"
+            height="3"
+          />
+          <rect id="rect9616" fill="#191919" x="13" y="19" width="12" height="3" />
+          <rect
+            id="rect9618"
+            fill="#191919"
+            transform="translate(13.5, 23.5) scale(-1, 1) translate(-13.5, -23.5)"
+            x="13"
+            y="22"
+            width="1"
+            height="3"
+          />
+          <rect id="rect9620" fill="#FFFFFF" x="14" y="22" width="10" height="3" />
+          <rect id="rect9622" fill="#FFFFFF" x="13" y="25" width="12" height="3" />
+          <rect id="rect9624" fill="#FFFFFF" x="12" y="28" width="14" height="2" />
+          <rect
+            id="rect9626"
+            fill="#191919"
+            transform="translate(24.5, 23.5) scale(-1, 1) translate(-24.5, -23.5)"
+            x="24"
+            y="22"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="rect9628"
+            fill="#191919"
+            transform="translate(25.5, 26.5) scale(-1, 1) translate(-25.5, -26.5)"
+            x="25"
+            y="25"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="rect9630"
+            fill="#191919"
+            transform="translate(26.5, 29.5) scale(-1, 1) translate(-26.5, -29.5)"
+            x="26"
+            y="28"
+            width="1"
+            height="3"
+          />
+          <rect id="rect9632" fill="#191919" x="33" y="43" width="4" height="3" />
+          <path
+            d="M16,0 C16,0 22,0 22,0 C22,0 24.3333333,2 29,6 L29,17 L19,22 L9,17 L9,6 C13.6666667,2 16,0 16,0 Z"
+            id="path9634"
+            fill="#010000"
+          />
+          <rect id="rect9636" fill="#191919" x="29" y="10" width="1" height="2" />
+          <path
+            d="M16.9,3 C16.9,3 21.1,3 21.1,3 C21.1,3 22.7333333,4.45454545 26,7.36363636 L26,15.3636364 L19,19 L12,15.3636364 L12,7.36363636 C15.2666667,4.45454545 16.9,3 16.9,3 Z"
+            id="path9638"
+            stroke="#979797"
+          />
+          <path
+            d="M18.8,6 C18.8,6 20.2,6.90909091 23,8.72727273 L23,11.4177628 C23,12.8469106 22.2376199,14.1675161 21,14.8821911 C19.762427,15.5968389 18.237573,15.5968389 17,14.8821911 C15.7623801,14.1675161 15,12.8469106 15,11.4177628 L15,8.72727273 L15,8.72727273 C17.5333333,6.90909091 18.8,6 18.8,6 Z"
+            id="path9640"
+            stroke="#979797"
+          />
+          <rect id="rect9642" fill="#979797" x="15" y="9" width="8" height="1" />
+          <circle id="circle9644" stroke="#191919" fill="#FFFFFF" cx="23" cy="19" r="1.5" />
+          <circle id="circle9646" stroke="#191919" fill="#FFFFFF" cx="15" cy="19" r="1.5" />
+          <rect id="rect9648" fill="#979797" x="15" y="11" width="6" height="1" />
+          <path
+            d="M17.0166016,40.5 C17.0166016,40.5 18.1510417,40.5 20.4199219,40.5 L24,44.5 L20.5151367,48.9648438 L17.0166016,48.9648438 C18.3388672,46.9882812 19,46 19,46 C19,46 19,45 19,43 C17.6777344,41.3333333 17.0166016,40.5 17.0166016,40.5 Z"
+            id="path9650"
+            fill="#191919"
+          />
+        </g>
+        <g id="编组-6备份-2" transform="translate(2187, 620)">
+          <path
+            d="M4.5,3 C5.46649831,3 6.34149831,3.39175084 6.97487373,4.02512627 C7.60824916,4.65850169 8,5.53350169 8,6.5 L8,16 L1,16 L1,6.5 C1,5.53350169 1.39175084,4.65850169 2.02512627,4.02512627 C2.65850169,3.39175084 3.53350169,3 4.5,3 Z"
+            id="path9654"
+            stroke="#191919"
+            stroke-width="2"
+            fill="#191919"
+          />
+          <rect id="rect9656" fill="#FFFFFF" x="2" y="12" width="5" height="2" />
+          <path
+            d="M4.5,4 C5.88071187,4 7,5.11928813 7,6.5 L7,7 L7,7 L2,7 L2,6.5 C2,5.11928813 3.11928813,4 4.5,4 Z"
+            id="path9658"
+            fill="#FFFFFF"
+          />
+          <rect
+            id="rect9660"
+            stroke="#191919"
+            fill="#02C90F"
+            x="0.5"
+            y="30.5"
+            width="37"
+            height="25"
+          />
+          <rect id="rect9662" fill="#191919" x="3" y="30" width="3" height="26" />
+          <rect id="rect9664" fill="#191919" x="13" y="43" width="7" height="3" />
+          <rect id="rect9666" fill="#191919" x="32" y="31" width="3" height="25" />
+          <rect id="rect9668" fill="#191919" x="0" y="43" width="6" height="3" />
+          <rect
+            id="rect9670"
+            fill="#191919"
+            transform="translate(11.5, 29.5) scale(-1, 1) translate(-11.5, -29.5)"
+            x="11"
+            y="28"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="rect9672"
+            fill="#191919"
+            transform="translate(12.5, 26.5) scale(-1, 1) translate(-12.5, -26.5)"
+            x="12"
+            y="25"
+            width="1"
+            height="3"
+          />
+          <rect id="rect9674" fill="#191919" x="13" y="19" width="12" height="3" />
+          <rect
+            id="rect9676"
+            fill="#191919"
+            transform="translate(13.5, 23.5) scale(-1, 1) translate(-13.5, -23.5)"
+            x="13"
+            y="22"
+            width="1"
+            height="3"
+          />
+          <rect id="rect9678" fill="#FFFFFF" x="14" y="22" width="10" height="3" />
+          <rect id="rect9680" fill="#FFFFFF" x="13" y="25" width="12" height="3" />
+          <rect id="rect9682" fill="#FFFFFF" x="12" y="28" width="14" height="2" />
+          <rect
+            id="rect9684"
+            fill="#191919"
+            transform="translate(24.5, 23.5) scale(-1, 1) translate(-24.5, -23.5)"
+            x="24"
+            y="22"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="rect9686"
+            fill="#191919"
+            transform="translate(25.5, 26.5) scale(-1, 1) translate(-25.5, -26.5)"
+            x="25"
+            y="25"
+            width="1"
+            height="3"
+          />
+          <rect
+            id="rect9688"
+            fill="#191919"
+            transform="translate(26.5, 29.5) scale(-1, 1) translate(-26.5, -29.5)"
+            x="26"
+            y="28"
+            width="1"
+            height="3"
+          />
+          <rect id="rect9690" fill="#191919" x="33" y="43" width="4" height="3" />
+          <path
+            d="M16,0 C16,0 22,0 22,0 C22,0 24.3333333,2 29,6 L29,17 L19,22 L9,17 L9,6 C13.6666667,2 16,0 16,0 Z"
+            id="path9692"
+            fill="#010000"
+          />
+          <rect id="rect9694" fill="#191919" x="29" y="10" width="1" height="2" />
+          <path
+            d="M16.9,3 C16.9,3 21.1,3 21.1,3 C21.1,3 22.7333333,4.45454545 26,7.36363636 L26,15.3636364 L19,19 L12,15.3636364 L12,7.36363636 C15.2666667,4.45454545 16.9,3 16.9,3 Z"
+            id="path9696"
+            stroke="#979797"
+          />
+          <path
+            d="M18.8,6 C18.8,6 20.2,6.90909091 23,8.72727273 L23,11.4177628 C23,12.8469106 22.2376199,14.1675161 21,14.8821911 C19.762427,15.5968389 18.237573,15.5968389 17,14.8821911 C15.7623801,14.1675161 15,12.8469106 15,11.4177628 L15,8.72727273 L15,8.72727273 C17.5333333,6.90909091 18.8,6 18.8,6 Z"
+            id="path9698"
+            stroke="#979797"
+          />
+          <rect id="rect9700" fill="#979797" x="15" y="9" width="8" height="1" />
+          <circle id="circle9702" stroke="#191919" fill="#FFFFFF" cx="23" cy="19" r="1.5" />
+          <circle id="circle9704" stroke="#191919" fill="#FFFFFF" cx="15" cy="19" r="1.5" />
+          <rect id="rect9706" fill="#979797" x="15" y="11" width="6" height="1" />
+          <path
+            d="M17.0166016,40.5 C17.0166016,40.5 18.1510417,40.5 20.4199219,40.5 L24,44.5 L20.5151367,48.9648438 L17.0166016,48.9648438 C18.3388672,46.9882812 19,46 19,46 C19,46 19,45 19,43 C17.6777344,41.3333333 17.0166016,40.5 17.0166016,40.5 Z"
+            id="path9708"
+            fill="#191919"
+          />
+        </g>
+        <g id="g9791" transform="translate(2096, 645)">
+          <polygon
+            id="polygon9711"
+            fill="#A4A4A4"
+            points="4 9 45.9921875 9 48 12 1.0729107e-14 12"
+          />
+          <rect id="rect9713" fill="#B2B4B3" x="1" y="12" width="46" height="4" />
+          <rect id="rect9715" fill="#D4D4D4" x="1" y="16" width="46" height="4" />
+          <rect id="rect9717" fill="#B4B2B3" x="1" y="20" width="46" height="4" />
+          <polygon id="polygon9719" fill="#A4A4A4" points="1.0729107e-14 24 48 24 45 27 3 27" />
+          <path
+            d="M44.7928932,8.5 L47.5,11.2071068 L47.5,23.8333333 L44.75,27.5 L4.16623768,27.5 L0.5,24.7591606 L0.5,11.25 L4.16666667,8.5 L44.7928932,8.5 Z"
+            id="path9721"
+            stroke="#191919"
+          />
+          <rect id="rect9723" fill="#191919" x="6" y="9" width="1" height="18" />
+          <rect id="rect9725" fill="#000000" x="10" y="6" width="31" height="18" />
+          <rect
+            id="rect9727"
+            stroke="#979797"
+            fill="#C9C9C9"
+            x="11.5"
+            y="12.5"
+            width="27"
+            height="1"
+          />
+          <rect id="rect9729" stroke="#191919" x="11.5" y="15.5" width="12" height="11" />
+          <rect id="rect9731" fill="#FFFFFF" x="12" y="16" width="11" height="2" />
+          <rect id="rect9733" fill="#74676B" x="12" y="24" width="11" height="2" />
+          <rect id="rect9735" fill="#74676B" x="21" y="16" width="2" height="10" />
+          <rect id="rect9737" fill="#FFFFFF" x="12" y="18" width="2" height="8" />
+          <polygon id="polygon9739" fill="#191919" points="6 26 46 26 45 27 6 27" />
+          <rect
+            id="rect9741"
+            stroke="#191919"
+            fill="#D4D4D4"
+            x="47.5"
+            y="11.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="rect9743"
+            stroke="#191919"
+            fill="#B2B4B3"
+            x="47.5"
+            y="15.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="rect9745"
+            stroke="#191919"
+            fill="#A4A4A4"
+            x="47.5"
+            y="19.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="rect9747"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="51.5"
+            y="8.5"
+            width="3"
+            height="19"
+          />
+          <rect id="rect9749" fill="#A4A4A4" x="52" y="9" width="2" height="3" />
+          <rect id="rect9751" fill="#B2B4B3" x="52" y="12" width="2" height="4" />
+          <rect id="rect9753" fill="#D4D4D4" x="52" y="16" width="2" height="4" />
+          <rect id="rect9755" fill="#B2B4B3" x="52" y="20" width="2" height="4" />
+          <rect id="rect9757" fill="#A4A4A4" x="52" y="24" width="2" height="3" />
+          <rect id="rect9759" fill="#191919" x="64" y="8" width="3" height="20" />
+          <rect id="rect9761" fill="#191919" x="48" y="0" width="20" height="3" />
+          <rect
+            id="rect9763"
+            stroke="#191919"
+            fill="#474948"
+            x="54.5"
+            y="2.5"
+            width="7"
+            height="3"
+          />
+          <rect
+            id="rect9765"
+            stroke="#191919"
+            fill="#474948"
+            x="55.5"
+            y="5.5"
+            width="5"
+            height="3"
+          />
+          <rect
+            id="rect9767"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="55.5"
+            y="8.5"
+            width="5"
+            height="19"
+          />
+          <rect id="rect9769" fill="#A4A4A4" x="56" y="9" width="4" height="3" />
+          <rect id="rect9771" fill="#B2B4B3" x="56" y="12" width="4" height="4" />
+          <rect id="rect9773" fill="#D4D4D4" x="56" y="16" width="4" height="4" />
+          <rect id="rect9775" fill="#B2B4B3" x="56" y="20" width="4" height="4" />
+          <rect id="rect9777" fill="#A4A4A4" x="56" y="24" width="4" height="3" />
+          <rect
+            id="rect9779"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="60.5"
+            y="11.5"
+            width="3"
+            height="13"
+          />
+          <rect id="rect9781" fill="#191919" x="63" y="11" width="2" height="14" />
+          <rect id="rect9783" fill="#B2B4B3" x="61" y="12" width="2" height="4" />
+          <rect id="rect9785" fill="#D4D4D4" x="61" y="16" width="2" height="4" />
+          <rect id="rect9787" fill="#B2B4B3" x="61" y="20" width="2" height="4" />
+          <rect id="rect9789" fill="#191919" x="54" y="8" width="2" height="20" />
+        </g>
+        <g id="g9873" transform="translate(2096, 516)">
+          <polygon
+            id="polygon9793"
+            fill="#309632"
+            points="4 9 45.9921875 9 48 12 1.0729107e-14 12"
+          />
+          <rect id="rect9795" fill="#60B460" x="1" y="12" width="46" height="4" />
+          <rect id="rect9797" fill="#98C896" x="1" y="16" width="46" height="4" />
+          <rect id="rect9799" fill="#60B460" x="1" y="20" width="46" height="4" />
+          <polygon id="polygon9801" fill="#309632" points="1.0729107e-14 24 48 24 45 27 3 27" />
+          <path
+            d="M44.7928932,8.5 L47.5,11.2071068 L47.5,23.8333333 L44.75,27.5 L4.16623768,27.5 L0.5,24.7591606 L0.5,11.25 L4.16666667,8.5 L44.7928932,8.5 Z"
+            id="path9803"
+            stroke="#191919"
+          />
+          <rect id="rect9805" fill="#191919" x="6" y="9" width="1" height="18" />
+          <rect id="rect9807" fill="#000000" x="10" y="6" width="31" height="18" />
+          <rect
+            id="rect9809"
+            stroke="#979797"
+            fill="#0C4806"
+            x="11.5"
+            y="12.5"
+            width="27"
+            height="1"
+          />
+          <rect id="rect9811" stroke="#191919" x="11.5" y="15.5" width="12" height="11" />
+          <rect id="rect9813" fill="#FFFFFF" x="12" y="16" width="11" height="2" />
+          <rect id="rect9815" fill="#004400" x="12" y="24" width="11" height="2" />
+          <rect id="rect9817" fill="#004400" x="21" y="16" width="2" height="10" />
+          <rect id="rect9819" fill="#FFFFFF" x="12" y="18" width="2" height="8" />
+          <polygon id="polygon9821" fill="#191919" points="6 26 46 26 45 27 6 27" />
+          <rect
+            id="rect9823"
+            stroke="#191919"
+            fill="#98C896"
+            x="47.5"
+            y="11.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="rect9825"
+            stroke="#191919"
+            fill="#60B460"
+            x="47.5"
+            y="15.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="rect9827"
+            stroke="#191919"
+            fill="#309632"
+            x="47.5"
+            y="19.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="rect9829"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="51.5"
+            y="8.5"
+            width="3"
+            height="19"
+          />
+          <rect id="rect9831" fill="#309632" x="52" y="9" width="2" height="3" />
+          <rect id="rect9833" fill="#60B460" x="52" y="12" width="2" height="4" />
+          <rect id="rect9835" fill="#98C896" x="52" y="16" width="2" height="4" />
+          <rect id="rect9837" fill="#60B460" x="52" y="20" width="2" height="4" />
+          <rect id="rect9839" fill="#309632" x="52" y="24" width="2" height="3" />
+          <rect id="rect9841" fill="#191919" x="64" y="8" width="3" height="20" />
+          <rect id="rect9843" fill="#191919" x="48" y="0" width="20" height="3" />
+          <rect
+            id="rect9845"
+            stroke="#191919"
+            fill="#309632"
+            x="54.5"
+            y="2.5"
+            width="7"
+            height="3"
+          />
+          <rect
+            id="rect9847"
+            stroke="#191919"
+            fill="#309632"
+            x="55.5"
+            y="5.5"
+            width="5"
+            height="3"
+          />
+          <rect
+            id="rect9849"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="55.5"
+            y="8.5"
+            width="5"
+            height="19"
+          />
+          <rect id="rect9851" fill="#309632" x="56" y="9" width="4" height="3" />
+          <rect id="rect9853" fill="#60B460" x="56" y="12" width="4" height="4" />
+          <rect id="rect9855" fill="#98C896" x="56" y="16" width="4" height="4" />
+          <rect id="rect9857" fill="#60B460" x="56" y="20" width="4" height="4" />
+          <rect id="rect9859" fill="#309632" x="56" y="24" width="4" height="3" />
+          <rect
+            id="rect9861"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="60.5"
+            y="11.5"
+            width="3"
+            height="13"
+          />
+          <rect id="rect9863" fill="#191919" x="63" y="11" width="2" height="14" />
+          <rect id="rect9865" fill="#60B460" x="61" y="12" width="2" height="4" />
+          <rect id="rect9867" fill="#98C896" x="61" y="16" width="2" height="4" />
+          <rect id="rect9869" fill="#60B460" x="61" y="20" width="2" height="4" />
+          <rect id="rect9871" fill="#191919" x="54" y="8" width="2" height="20" />
+        </g>
+        <g
+          id="g9955"
+          transform="translate(1428, 323) scale(-1, 1) translate(-1428, -323)translate(1394, 309)"
+        >
+          <polygon
+            id="polygon9875"
+            fill="#309632"
+            points="4 9 45.9921875 9 48 12 1.0729107e-14 12"
+          />
+          <rect id="rect9877" fill="#60B460" x="1" y="12" width="46" height="4" />
+          <rect id="rect9879" fill="#98C896" x="1" y="16" width="46" height="4" />
+          <rect id="rect9881" fill="#60B460" x="1" y="20" width="46" height="4" />
+          <polygon id="polygon9883" fill="#309632" points="1.0729107e-14 24 48 24 45 27 3 27" />
+          <path
+            d="M44.7928932,8.5 L47.5,11.2071068 L47.5,23.8333333 L44.75,27.5 L4.16623768,27.5 L0.5,24.7591606 L0.5,11.25 L4.16666667,8.5 L44.7928932,8.5 Z"
+            id="path9885"
+            stroke="#191919"
+          />
+          <rect id="rect9887" fill="#191919" x="6" y="9" width="1" height="18" />
+          <rect id="rect9889" fill="#000000" x="10" y="6" width="31" height="18" />
+          <rect
+            id="rect9891"
+            stroke="#979797"
+            fill="#0C4806"
+            x="11.5"
+            y="12.5"
+            width="27"
+            height="1"
+          />
+          <rect id="rect9893" stroke="#191919" x="11.5" y="15.5" width="12" height="11" />
+          <rect id="rect9895" fill="#FFFFFF" x="12" y="16" width="11" height="2" />
+          <rect id="rect9897" fill="#004400" x="12" y="24" width="11" height="2" />
+          <rect id="rect9899" fill="#004400" x="21" y="16" width="2" height="10" />
+          <rect id="rect9901" fill="#FFFFFF" x="12" y="18" width="2" height="8" />
+          <polygon id="polygon9903" fill="#191919" points="6 26 46 26 45 27 6 27" />
+          <rect
+            id="rect9905"
+            stroke="#191919"
+            fill="#98C896"
+            x="47.5"
+            y="11.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="rect9907"
+            stroke="#191919"
+            fill="#60B460"
+            x="47.5"
+            y="15.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="rect9909"
+            stroke="#191919"
+            fill="#309632"
+            x="47.5"
+            y="19.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="rect9911"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="51.5"
+            y="8.5"
+            width="3"
+            height="19"
+          />
+          <rect id="rect9913" fill="#309632" x="52" y="9" width="2" height="3" />
+          <rect id="rect9915" fill="#60B460" x="52" y="12" width="2" height="4" />
+          <rect id="rect9917" fill="#98C896" x="52" y="16" width="2" height="4" />
+          <rect id="rect9919" fill="#60B460" x="52" y="20" width="2" height="4" />
+          <rect id="rect9921" fill="#309632" x="52" y="24" width="2" height="3" />
+          <rect id="rect9923" fill="#191919" x="64" y="8" width="3" height="20" />
+          <rect id="rect9925" fill="#191919" x="48" y="0" width="20" height="3" />
+          <rect
+            id="rect9927"
+            stroke="#191919"
+            fill="#309632"
+            x="54.5"
+            y="2.5"
+            width="7"
+            height="3"
+          />
+          <rect
+            id="rect9929"
+            stroke="#191919"
+            fill="#309632"
+            x="55.5"
+            y="5.5"
+            width="5"
+            height="3"
+          />
+          <rect
+            id="rect9931"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="55.5"
+            y="8.5"
+            width="5"
+            height="19"
+          />
+          <rect id="rect9933" fill="#309632" x="56" y="9" width="4" height="3" />
+          <rect id="rect9935" fill="#60B460" x="56" y="12" width="4" height="4" />
+          <rect id="rect9937" fill="#98C896" x="56" y="16" width="4" height="4" />
+          <rect id="rect9939" fill="#60B460" x="56" y="20" width="4" height="4" />
+          <rect id="rect9941" fill="#309632" x="56" y="24" width="4" height="3" />
+          <rect
+            id="rect9943"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="60.5"
+            y="11.5"
+            width="3"
+            height="13"
+          />
+          <rect id="rect9945" fill="#191919" x="63" y="11" width="2" height="14" />
+          <rect id="rect9947" fill="#60B460" x="61" y="12" width="2" height="4" />
+          <rect id="rect9949" fill="#98C896" x="61" y="16" width="2" height="4" />
+          <rect id="rect9951" fill="#60B460" x="61" y="20" width="2" height="4" />
+          <rect id="rect9953" fill="#191919" x="54" y="8" width="2" height="20" />
+        </g>
+        <text
+          id="热水泵"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1406" y="376" id="tspan9957">热水泵</tspan>
+        </text>
+        <text
+          id="长在热水保温"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1426" y="230" id="tspan9960">长在热水保温</tspan>
+        </text>
+        <text
+          id="热水罐"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="20"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+        >
+          <tspan x="1284" y="275" id="tspan9963">热水罐</tspan>
+        </text>
+        <rect id="rect9966" fill="#007274" x="1401" y="274" width="4" height="35" />
+        <rect id="rect9968" fill="#007274" x="1401" y="272" width="49" height="4" />
+        <g
+          id="g10050"
+          transform="translate(2177, 1137) scale(-1, -1) translate(-2177, -1137)translate(2143, 1123)"
+        >
+          <polygon
+            id="polygon9970"
+            fill="#309632"
+            points="4 9 45.9921875 9 48 12 1.0729107e-14 12"
+          />
+          <rect id="rect9972" fill="#60B460" x="1" y="12" width="46" height="4" />
+          <rect id="rect9974" fill="#98C896" x="1" y="16" width="46" height="4" />
+          <rect id="rect9976" fill="#60B460" x="1" y="20" width="46" height="4" />
+          <polygon id="polygon9978" fill="#309632" points="1.0729107e-14 24 48 24 45 27 3 27" />
+          <path
+            d="M44.7928932,8.5 L47.5,11.2071068 L47.5,23.8333333 L44.75,27.5 L4.16623768,27.5 L0.5,24.7591606 L0.5,11.25 L4.16666667,8.5 L44.7928932,8.5 Z"
+            id="path9980"
+            stroke="#191919"
+          />
+          <rect id="rect9982" fill="#191919" x="6" y="9" width="1" height="18" />
+          <rect id="rect9984" fill="#000000" x="10" y="6" width="31" height="18" />
+          <rect
+            id="rect9986"
+            stroke="#979797"
+            fill="#0C4806"
+            x="11.5"
+            y="12.5"
+            width="27"
+            height="1"
+          />
+          <rect id="rect9988" stroke="#191919" x="11.5" y="15.5" width="12" height="11" />
+          <rect id="rect9990" fill="#FFFFFF" x="12" y="16" width="11" height="2" />
+          <rect id="rect9992" fill="#004400" x="12" y="24" width="11" height="2" />
+          <rect id="rect9994" fill="#004400" x="21" y="16" width="2" height="10" />
+          <rect id="rect9996" fill="#FFFFFF" x="12" y="18" width="2" height="8" />
+          <polygon id="polygon9998" fill="#191919" points="6 26 46 26 45 27 6 27" />
+          <rect
+            id="rect10000"
+            stroke="#191919"
+            fill="#98C896"
+            x="47.5"
+            y="11.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="rect10002"
+            stroke="#191919"
+            fill="#60B460"
+            x="47.5"
+            y="15.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="rect10004"
+            stroke="#191919"
+            fill="#309632"
+            x="47.5"
+            y="19.5"
+            width="4"
+            height="4"
+          />
+          <rect
+            id="rect10006"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="51.5"
+            y="8.5"
+            width="3"
+            height="19"
+          />
+          <rect id="rect10008" fill="#309632" x="52" y="9" width="2" height="3" />
+          <rect id="rect10010" fill="#60B460" x="52" y="12" width="2" height="4" />
+          <rect id="rect10012" fill="#98C896" x="52" y="16" width="2" height="4" />
+          <rect id="rect10014" fill="#60B460" x="52" y="20" width="2" height="4" />
+          <rect id="rect10016" fill="#309632" x="52" y="24" width="2" height="3" />
+          <rect id="rect10018" fill="#191919" x="64" y="8" width="3" height="20" />
+          <rect id="rect10020" fill="#191919" x="48" y="0" width="20" height="3" />
+          <rect
+            id="rect10022"
+            stroke="#191919"
+            fill="#309632"
+            x="54.5"
+            y="2.5"
+            width="7"
+            height="3"
+          />
+          <rect
+            id="rect10024"
+            stroke="#191919"
+            fill="#309632"
+            x="55.5"
+            y="5.5"
+            width="5"
+            height="3"
+          />
+          <rect
+            id="rect10026"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="55.5"
+            y="8.5"
+            width="5"
+            height="19"
+          />
+          <rect id="rect10028" fill="#309632" x="56" y="9" width="4" height="3" />
+          <rect id="rect10030" fill="#60B460" x="56" y="12" width="4" height="4" />
+          <rect id="rect10032" fill="#98C896" x="56" y="16" width="4" height="4" />
+          <rect id="rect10034" fill="#60B460" x="56" y="20" width="4" height="4" />
+          <rect id="rect10036" fill="#309632" x="56" y="24" width="4" height="3" />
+          <rect
+            id="rect10038"
+            stroke="#191919"
+            fill="#D8D8D8"
+            x="60.5"
+            y="11.5"
+            width="3"
+            height="13"
+          />
+          <rect id="rect10040" fill="#191919" x="63" y="11" width="2" height="14" />
+          <rect id="rect10042" fill="#60B460" x="61" y="12" width="2" height="4" />
+          <rect id="rect10044" fill="#98C896" x="61" y="16" width="2" height="4" />
+          <rect id="rect10046" fill="#60B460" x="61" y="20" width="2" height="4" />
+          <rect id="rect10048" fill="#191919" x="54" y="8" width="2" height="20" />
+        </g>
+        <g id="编组-20" transform="translate(2457, 364)">
+          <rect
+            id="rect10052"
+            stroke="#191919"
+            fill="#02C90F"
+            x="0.5"
+            y="0.5"
+            width="201"
+            height="53"
+          />
+          <text
+            id="皮带二段"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="61" y="33" id="tspan10054">皮带二段</tspan>
+          </text>
+        </g>
+        <g id="编组-20备份-4" transform="translate(2457, 486)">
+          <rect
+            id="rect10058"
+            stroke="#191919"
+            fill="#02C90F"
+            x="0.5"
+            y="0.5"
+            width="201"
+            height="53"
+          />
+          <text
+            id="皮带一段"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="61" y="33" id="tspan10060">皮带一段</tspan>
+          </text>
+        </g>
+        <g
+          id="g10069"
+          transform="translate(2685, 414) rotate(90) translate(-2685, -414)translate(2635, 387)"
+        >
+          <rect
+            id="rect10064"
+            stroke="#191919"
+            fill="#02C90F"
+            x="0.5"
+            y="0.5"
+            width="99"
+            height="53"
+          />
+          <text
+            id="皮带三段"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="10" y="33" id="tspan10066">皮带三段</tspan>
+          </text>
+        </g>
+        <g
+          id="编组-20备份"
+          transform="translate(2685, 513) rotate(90) translate(-2685, -513)translate(2635, 486)"
+        >
+          <rect
+            id="rect10071"
+            stroke="#191919"
+            fill="#02C90F"
+            x="0.5"
+            y="0.5"
+            width="99"
+            height="53"
+          />
+          <text
+            id="皮带四段"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="10" y="33" id="tspan10073">皮带四段</tspan>
+          </text>
+        </g>
+        <g
+          id="编组-20备份-2"
+          transform="translate(2685, 612) rotate(90) translate(-2685, -612)translate(2635, 585)"
+        >
+          <rect
+            id="rect10077"
+            stroke="#191919"
+            fill="#02C90F"
+            x="0.5"
+            y="0.5"
+            width="99"
+            height="53"
+          />
+          <text
+            id="皮带五段"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="10" y="33" id="tspan10079">皮带五段</tspan>
+          </text>
+        </g>
+        <g
+          id="编组-20备份-3"
+          transform="translate(2685, 711) rotate(90) translate(-2685, -711)translate(2635, 684)"
+        >
+          <rect
+            id="rect10083"
+            stroke="#191919"
+            fill="#02C90F"
+            x="0.5"
+            y="0.5"
+            width="99"
+            height="53"
+          />
+          <text
+            id="皮带六段"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="20"
+            font-weight="normal"
+            line-spacing="30"
+            fill="#191919"
+          >
+            <tspan x="10" y="33" id="tspan10085">皮带六段</tspan>
+          </text>
+        </g>
+        <text
+          id="KLRH3_DB2DD72"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2687.986" y="39" id="tspan10089">13</tspan>
+        </text>
+        <text
+          id="KLRH3_DB2DD96"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2687.986" y="85" id="tspan10092">18</tspan>
+        </text>
+        <text
+          id="text10097"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2547.386" y="39" id="tspan10095">装药1温度</tspan>
+        </text>
+        <text
+          id="text10101"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
+          font-weight="normal"
+          line-spacing="42"
+          fill="#191919"
+        >
+          <tspan x="2547.386" y="85" id="tspan10099">装药1压力</tspan>
+        </text>
+        <text
+          id="text3188-3"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="24px"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+          x="498.46106"
+          y="420.452"
+        >
+          <tspan x="2769.4612" y="1381.4519" id="tspan3186-1">Mpa</tspan>
+        </text>
+        <text
+          id="text5073-6-5"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="20px"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+          x="2089.2625"
+          y="-736.10217"
+        >
+          <tspan x="2782.2625" y="31.897915" id="tspan5071-5-7">℃</tspan>
+        </text>
+        <text
+          id="text3188-3-8"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="24px"
+          font-weight="normal"
+          line-spacing="36"
+          fill="#191919"
+          x="513.65179"
+          y="-880.90961"
+        >
+          <tspan x="2784.6521" y="80.090294" id="tspan3186-1-1">Mpa</tspan>
+        </text>
+        <text
+          id="text5073-6-5-8"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="20px"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+          x="1269.0746"
+          y="-364.28595"
+        >
+          <tspan x="1962.0746" y="403.71414" id="tspan5071-5-7-4">℃</tspan>
+        </text>
+        <text
+          id="text5073-6-5-1"
+          font-family="PingFangSC-Regular, 'PingFang SC'"
+          font-size="20px"
+          font-weight="normal"
+          line-spacing="30"
+          fill="#191919"
+          x="1424.2922"
+          y="350.04816"
+        >
+          <tspan x="2117.2922" y="1118.0482" id="tspan5071-5-7-5">℃</tspan>
+        </text>
+      </g>
+    </svg>
+  </div>
+</template>
+
+<script lang="ts">
+  import Trend from '../../warn/components/Trend.vue';
+  import { useModal } from '/@/components/Modal';
+  import { getPointsValues } from '/@/api/data/point';
+  import { Card, Divider } from 'ant-design-vue';
+  import { defineComponent, onMounted, onBeforeUnmount } from 'vue';
+
+  export default defineComponent({
+    name: 'monitorTrend',
+    components: {
+      Trend,
+      Divider,
+    },
+    setup() {
+      // let timer = null;
+      // const [registerModal, { openModal }] = useModal();
+      // onMounted(() => {
+      //   const formattedTextElements = document.querySelectorAll('text[id^="KL"]');
+      //   console.log(55);
+      //   const formattedTextElementsArray = Array.from(formattedTextElements);
+      //   let points: any[] = [];
+      //   formattedTextElementsArray.forEach((element) => {
+      //     const id = element.getAttribute('id');
+      //     // element.addEventListener('click', pointClick.bind(this, element.id));
+      //     points.push(id);
+      //   });
+      //   timer = setInterval(() => {
+      //     getValues(points);
+      //   }, 1000);
+      // });
+
+      // onBeforeUnmount(() => {
+      //   if (timer !== null) {
+      //     clearInterval(timer);
+      //     timer = null;
+      //   }
+      //   var elementToRemove = document.getElementById("svgContainer");
+
+      //   elementToRemove.remove();
+      //   console.log('删除');
+      // });
+
+      // const getValues = async (points) => {
+      //   const params = {
+      //     names: points.join(','),
+      //   };
+      //   const values = await getPointsValues(params);
+      //   for (let i = 0; i < points.length; i++) {
+      //     const textElement = document.getElementById(points[i]);
+      //     const tspanElement = textElement.querySelector('tspan');
+      //     tspanElement.textContent = values[i].toFixed(2);
+      //   }
+      // };
+
+      return {
+        // registerModal,
+      };
+    },
+  });
+</script>
+
+<style scoped>
+  [id^='KL']:hover {
+    cursor: pointer;
+  }
+</style>

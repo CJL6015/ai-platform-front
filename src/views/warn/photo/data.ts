@@ -10,7 +10,7 @@ export const columns: BasicColumn[] = [
     dataIndex: 'et',
   },
   {
-    title: '冻结时长(分)',
+    title: '冻结时长(小时)',
     dataIndex: 'freezeTime',
     sorter: (a, b) => a.freezeTime - b.freezeTime,
   },
@@ -18,6 +18,11 @@ export const columns: BasicColumn[] = [
     title: '超员次数',
     dataIndex: 'exceededNum',
     sorter: (a, b) => a.exceededNum - b.exceededNum,
+  },
+  {
+    title: '超位次数',
+    dataIndex: 'exceededPeople',
+    sorter: (a, b) => a.exceededPeople - b.exceededPeople,
   },
   {
     title: '抓拍照片',

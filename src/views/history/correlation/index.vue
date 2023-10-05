@@ -11,7 +11,7 @@
       <Alert type="error" style="margin-top: 10px">
         <template #message>
           <span style="color: red; font-size: 18px; font-weight: bold"
-            >置信度:A设备(测点)发生超限的情况下,B设备(测点)
+            >置信度:A设备(测点)发生超限的情况下,B设备(测点)发生超限的概率
           </span>
         </template>
       </Alert>
@@ -29,12 +29,13 @@
             <a-col :span="3" />
             <a-col :span="16">
               <a-slider
-                v-model:value="inputValue"
+                v-model:value="inputValue1"
                 :min="0"
                 :max="1"
                 :step="0.01"
                 :marks="{
                   0.5: '0.5',
+                  1.0: '1.0',
                 }"
               >
                 <template #mark="{ label, point }">
@@ -44,7 +45,7 @@
             </a-col>
             <a-col :span="4">
               <a-input-number
-                v-model:value="inputValue"
+                v-model:value="inputValue1"
                 :min="0"
                 :max="1"
                 :step="0.01"
@@ -57,12 +58,13 @@
             <a-col :span="3" />
             <a-col :span="16">
               <a-slider
-                v-model:value="inputValue"
+                v-model:value="inputValue2"
                 :min="0"
                 :max="1"
                 :step="0.01"
                 :marks="{
                   0.5: '0.5',
+                  1.0: '1.0',
                 }"
               >
                 <template #mark="{ label, point }">
@@ -72,7 +74,7 @@
             </a-col>
             <a-col :span="4">
               <a-input-number
-                v-model:value="inputValue"
+                v-model:value="inputValue2"
                 :min="0"
                 :max="1"
                 :step="0.01"
@@ -85,12 +87,13 @@
             <a-col :span="3" />
             <a-col :span="16">
               <a-slider
-                v-model:value="inputValue"
+                v-model:value="inputValue3"
                 :min="0"
                 :max="1"
                 :step="0.01"
                 :marks="{
                   0.5: '0.5',
+                  1.0: '1.0',
                 }"
               >
                 <template #mark="{ label, point }">
@@ -100,7 +103,7 @@
             </a-col>
             <a-col :span="4">
               <a-input-number
-                v-model:value="inputValue"
+                v-model:value="inputValue3"
                 :min="0"
                 :max="1"
                 :step="0.01"
@@ -108,7 +111,7 @@
               />
             </a-col>
           </a-row>
-          <Alert type="warning" style="width: 80%; margin-top: 10px; margin-left: 20px">
+          <Alert type="warning" style="width: 90%; margin-top: 10px; margin-left: 20px">
             <template #message>
               <span style="font-size: 18px; font-weight: bold"
                 >同时出现超限概率较大的设备组合包括:<br />
@@ -133,12 +136,13 @@
             <a-col :span="3" />
             <a-col :span="16">
               <a-slider
-                v-model:value="inputValue"
+                v-model:value="inputValue4"
                 :min="0"
                 :max="1"
                 :step="0.01"
                 :marks="{
                   0.5: '0.5',
+                  1.0: '1.0',
                 }"
               >
                 <template #mark="{ label, point }">
@@ -148,7 +152,7 @@
             </a-col>
             <a-col :span="4">
               <a-input-number
-                v-model:value="inputValue"
+                v-model:value="inputValue4"
                 :min="0"
                 :max="1"
                 :step="0.01"
@@ -161,12 +165,13 @@
             <a-col :span="3" />
             <a-col :span="16">
               <a-slider
-                v-model:value="inputValue"
+                v-model:value="inputValue5"
                 :min="0"
                 :max="1"
                 :step="0.01"
                 :marks="{
                   0.5: '0.5',
+                  1.0: '1.0',
                 }"
               >
                 <template #mark="{ label, point }">
@@ -176,7 +181,7 @@
             </a-col>
             <a-col :span="4">
               <a-input-number
-                v-model:value="inputValue"
+                v-model:value="inputValue5"
                 :min="0"
                 :max="1"
                 :step="0.01"
@@ -189,12 +194,13 @@
             <a-col :span="3" />
             <a-col :span="16">
               <a-slider
-                v-model:value="inputValue"
+                v-model:value="inputValue6"
                 :min="0"
                 :max="1"
                 :step="0.01"
                 :marks="{
                   0.5: '0.5',
+                  1.0: '1.0',
                 }"
               >
                 <template #mark="{ label, point }">
@@ -204,7 +210,7 @@
             </a-col>
             <a-col :span="4">
               <a-input-number
-                v-model:value="inputValue"
+                v-model:value="inputValue6"
                 :min="0"
                 :max="1"
                 :step="0.01"
@@ -212,7 +218,7 @@
               />
             </a-col>
           </a-row>
-          <Alert type="warning" style="width: 80%; margin-top: 10px; margin-left: 20px">
+          <Alert type="warning" style="width: 90%; margin-top: 10px; margin-left: 20px">
             <template #message>
               <span style="font-size: 18px; font-weight: bold"
                 >同时出现超限概率较大的设备组合包括:<br />
@@ -266,7 +272,12 @@
       AInputNumber: InputNumber,
     },
     setup() {
-      const inputValue = ref(0.5);
+      const inputValue1 = ref(0.6);
+      const inputValue2 = ref(0.5);
+      const inputValue3 = ref(0.3);
+      const inputValue4 = ref(0.8);
+      const inputValue5 = ref(0.3);
+      const inputValue6 = ref(0.9);
 
       const hours = [
         '12a',
@@ -358,7 +369,12 @@
       });
 
       return {
-        inputValue,
+        inputValue1,
+        inputValue2,
+        inputValue3,
+        inputValue4,
+        inputValue5,
+        inputValue6,
         chartRef1,
         chartRef2,
       };

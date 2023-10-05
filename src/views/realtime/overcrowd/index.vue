@@ -1,5 +1,5 @@
 <template>
-  <PageWrapper title="超限违规情况巡检抓拍">
+  <PageWrapper title="超员违规情况巡检抓拍">
     <a-card>
       <a-form :model="formData" :label-col="labelCol" @finish="submitForm">
         <a-row>
@@ -49,7 +49,7 @@
         <div class="grid md:grid-cols-5 gap-1">
           <a-card style="width: 95%" title="制药工序1">
             <template #cover>
-              <a-image alt="example" src="/src/assets/detection/制药工序1.png" />
+              <a-image alt="example" src="http://114.55.245.123/api/static/images/制药工序1.png" />
             </template>
             <a-card-meta>
               <template #description>
@@ -65,7 +65,7 @@
 
           <a-card style="width: 95%" title="制药工序2">
             <template #cover>
-              <a-image alt="example" src="/src/assets/detection/制药工序2.jpg" />
+              <a-image alt="example" src="http://114.55.245.123/api/static/images/制药工序2.jpg" />
             </template>
             <a-card-meta>
               <template #description>
@@ -81,7 +81,7 @@
 
           <a-card style="width: 95%" title="装药工序">
             <template #cover>
-              <a-image alt="example" src="/src/assets/detection/装药工序.png" />
+              <a-image alt="example" src="http://114.55.245.123/api/static/images/装药工序.png" />
             </template>
             <a-card-meta>
               <template #description>
@@ -97,7 +97,7 @@
 
           <a-card style="width: 95%" title="包装工序">
             <template #cover>
-              <a-image alt="example" src="/src/assets/detection/包装工序.jpg" />
+              <a-image alt="example" src="http://114.55.245.123/api/static/images/包装工序.jpg" />
             </template>
             <a-card-meta>
               <template #description>
@@ -113,7 +113,7 @@
 
           <a-card style="width: 95%" title="装车工序">
             <template #cover>
-              <a-image alt="example" src="/src/assets/detection/装车工序.jpg" />
+              <a-image alt="example" src="http://114.55.245.123/api/static/images/装车工序.jpg" />
             </template>
             <a-card-meta>
               <template #description>

@@ -75,16 +75,18 @@
         </div>
         <div>
           <Alert style="width: 100%; height: 220px" type="info">
-            <template #message
-              ><span style="font-size: 18px; font-weight: bold"
-                >超限峰值分析结论:<br />
-                1.参数超限单日最高为<span style="color: red; font-size: 22px">{{ maxCount }}次</span
-                >,于<span style="color: red; font-size: 22px">{{ maxTime }}</span
-                >发生<br />
-                2.{{ names }}峰值参数超限分别为<span style="color: red; font-size: 22px">{{
-                  equipmentCounts
-                }}</span
-                ><br /></span></template
+            <template #message>
+              <div style="width: 100%; height: 220px; overflow-y: scroll"
+                ><span style="font-size: 18px; font-weight: bold"
+                  >超限峰值分析结论:<br />
+                  1.参数超限单日最高为<span style="color: red; font-size: 22px"
+                    >{{ maxCount }}次</span
+                  >,于<span style="color: red; font-size: 22px">{{ maxTime }}</span
+                  >发生<br />
+                  2.{{ names }}峰值参数超限分别为<span style="color: red; font-size: 22px">{{
+                    equipmentCounts
+                  }}</span
+                  ><br /></span></div></template
           ></Alert>
         </div>
       </div>
