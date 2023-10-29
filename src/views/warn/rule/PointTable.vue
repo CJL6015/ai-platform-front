@@ -1,6 +1,6 @@
 <template>
   <div>
-    <BasicTable @register="registerTable" />
+    <BasicTable @register="registerTable" @edit-end="handleEdit" />
   </div>
 </template>
 <script lang="ts">
@@ -26,12 +26,6 @@
         bordered: true,
         showIndexColumn: false,
         canResize: false,
-        actionColumn: {
-          width: 80,
-          title: '操作',
-          dataIndex: 'action',
-          fixed: undefined,
-        },
       });
 
       function handleEdit(record) {

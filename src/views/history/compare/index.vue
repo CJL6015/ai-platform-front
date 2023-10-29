@@ -1,5 +1,5 @@
 <template>
-  <PageWrapper title="巡检历史同比环比分析">
+  <PageWrapper title="同比环比分析">
     <a-card>
       <a-row>
         <a-col :md="18">

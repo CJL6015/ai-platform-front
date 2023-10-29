@@ -107,7 +107,7 @@
         <template #message
           ><span style="font-size: 20px; font-weight: bold"
             >未冻结时间超员次数<span style="color: red; font-size: 22px">{{ unfreezeCount }}</span
-            >冻结时间超员次数<span style="color: red; font-size: 22px">{{
+            >&nbsp; 冻结时间超员次数<span style="color: red; font-size: 22px">{{
               freezeCount
             }}</span></span
           ></template

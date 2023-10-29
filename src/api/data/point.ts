@@ -7,10 +7,13 @@ enum Api {
   BENCHMARK = '/point/benchmark/line/',
   TREND_DETAIL_MONTH = '/point/trend/month/detail/line/',
   TREND_DETAIL_DAILY = '/point/trend/daily/detail/line/',
+  POINT_LIMIT = '/point/limits',
 }
 
 export const getPointsValues = (params: any) =>
   defHttp.get<any>({ url: Api.REAL_TIME_VALUES, params });
+
+export const getPointsLimits = (params: any) => defHttp.get<any>({ url: Api.POINT_LIMIT, params });
 
 export const getTrendMonth = (id: any, params: any) =>
   defHttp.get<any>({ url: Api.MONTH_TREND + id, params });

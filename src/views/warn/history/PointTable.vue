@@ -27,6 +27,11 @@
             {{ record.state === 0 ? '正常' : '异常' }}
           </Tag></template
         >
+        <template v-else-if="column.key === 'value'">
+          <span :style="{ color: record.isExceeded ? 'red' : 'blue' }">
+            {{ record.value }}
+          </span>
+        </template>
       </template>
     </BasicTable>
   </div>
@@ -35,7 +40,7 @@
 </template>
 
 <script lang="ts">
-  import { defineComponent, PropType, watch, toRaw } from 'vue';
+  import { defineComponent, PropType, watch, toRaw, onMounted, onBeforeUnmount } from 'vue';
 
   import { BasicTable, useTable, TableAction } from '/@/components/Table';
   import { getPointList } from '/@/api/data/table';
@@ -91,12 +96,37 @@
           methods.setTableData(tableData);
         }
       });
-
+      let timer = null;
       function handleEdit(record) {
         const data = toRaw(record);
         console.log(data);
         openModal(true, data);
       }
+      onMounted(() => {
+        timer = setInterval(() => {
+          freshTable();
+        }, 1000);
+      });
+
+      async function freshTable() {
+        const data = toRaw(props.selectData);
+        if (data && data['line'] && data['line'] > 0) {
+          const time = toRaw(data['time']);
+          const params = {
+            st: dayjs(time[0]).format('YYYY-MM-DD HH:mm:ss'),
+            et: dayjs(time[1]).format('YYYY-MM-DD HH:mm:ss'),
+          };
+          const tableData = await getPointList(data['line'], params);
+          methods.setTableData(tableData);
+        }
+      }
+
+      onBeforeUnmount(() => {
+        if (timer !== null) {
+          clearInterval(timer);
+          timer = null;
+        }
+      });
 
       function handleDelete(record) {
         const value = toRaw(record);

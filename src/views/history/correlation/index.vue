@@ -115,11 +115,11 @@
             <template #message>
               <span style="font-size: 18px; font-weight: bold"
                 >同时出现超限概率较大的设备组合包括:<br />
-                1.<span style="color: red; font-size: 22px">{{ '水相罐流量' }}</span
-                >与<span style="color: red; font-size: 22px">{{ '泵A电流超限' }}</span
+                1.<span style="color: red; font-size: 22px">{{ '水相罐参数超限' }}</span
+                >与<span style="color: red; font-size: 22px">{{ '泵A参数限' }}</span
                 >,支持度超过0.8<br />
-                2.<span style="color: red; font-size: 22px">{{ '泵A电流超限' }}</span
-                >与<span style="color: red; font-size: 22px">{{ '泵B电流超限' }}</span
+                2.<span style="color: red; font-size: 22px">{{ '泵A参数限' }}</span
+                >与<span style="color: red; font-size: 22px">{{ '泵B参数限' }}</span
                 >,支持度超过0.6<br />
               </span>
             </template> </Alert></div
@@ -223,10 +223,10 @@
               <span style="font-size: 18px; font-weight: bold"
                 >同时出现超限概率较大的设备组合包括:<br />
                 1.<span style="color: red; font-size: 22px">{{ '水相罐流量' }}</span
-                >与<span style="color: red; font-size: 22px">{{ '泵A电流超限' }}</span
+                >与<span style="color: red; font-size: 22px">{{ '泵A电流' }}</span
                 >,支持度超过0.8<br />
-                2.<span style="color: red; font-size: 22px">{{ '泵A电流超限' }}</span
-                >与<span style="color: red; font-size: 22px">{{ '泵B电流超限' }}</span
+                2.<span style="color: red; font-size: 22px">{{ '泵A电流' }}</span
+                >与<span style="color: red; font-size: 22px">{{ '泵B电流' }}</span
                 >,支持度超过0.6<br />
               </span>
             </template> </Alert></div

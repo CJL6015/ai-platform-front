@@ -4,9 +4,9 @@
       <a-form>
         <a-form-item label="历史时间">
           <a-range-picker
-            v-model:value="value"
+            v-model:value="historyTime"
             show-time
-            :placeholder="['冻结开始时间', '冻结结束时间']"
+            :placeholder="['开始时间', '结束时间']"
           />
         </a-form-item>
       </a-form>
@@ -45,14 +45,21 @@
         <div>
           <Alert style="width: 100%; height: 220px" type="info">
             <template #message
-              ><span style="font-size: 18px; font-weight: bold"
-                >超限走势分析结论:<br />
-                1.泵1参数超限整体呈现<span style="color: red; font-size: 22px">下降趋势</span><br />
-                2.泵2参数超限整体呈现<span style="color: red; font-size: 22px">上升趋势</span><br />
-                3.泵3参数超限整体呈现<span style="color: red; font-size: 22px">上升趋势</span><br />
-                4.泵4参数超限整体呈现<span style="color: red; font-size: 22px">下降趋势</span><br />
-                5.整体超限次数呈现<span style="color: red; font-size: 22px">下降趋势</span
-                ><br /></span></template
+              ><div style="width: 100%; height: 220px; overflow-y: scroll"
+                ><span style="font-size: 18px; font-weight: bold"
+                  >超限走势分析结论:<br />
+                  1.制药工序超限整体呈现<span style="color: red; font-size: 22px">下降趋势</span
+                  ><br />
+                  2.装药工序1超限整体呈现<span style="color: red; font-size: 22px">上升趋势</span
+                  ><br />
+                  3.装药工序2超限整体呈现<span style="color: red; font-size: 22px">上升趋势</span
+                  ><br />
+                  4.包装工序超限整体呈现<span style="color: red; font-size: 22px">下降趋势</span
+                  ><br />
+                  5.装车工序超限整体呈现<span style="color: red; font-size: 22px">下降趋势</span
+                  ><br />
+                  6.整体超限次数呈现<span style="color: red; font-size: 22px">下降趋势</span
+                  ><br /></span></div></template
           ></Alert>
         </div>
         <div>
@@ -60,7 +67,7 @@
             <template #message
               ><span style="font-size: 18px; font-weight: bold"
                 >超限高峰时间和工序位置分析结论:<br />
-                1.参数超限占比最高的工序为<span style="color: red; font-size: 22px">泵1</span
+                1.定员超限占比最高的工序为<span style="color: red; font-size: 22px">装药工序1</span
                 >,有提升的空间<br />
                 2.定员超限最高发的时间为<span style="color: red; font-size: 22px">09:00-10:00</span
                 >,可加强该时段的监控<br /></span></template
@@ -71,12 +78,13 @@
             <template #message
               ><span style="font-size: 18px; font-weight: bold"
                 >超限峰值分析结论:<br />
-                1.参数超限单日最高为<span style="color: red; font-size: 22px">15次</span>,于<span
+                1.定员超限单日最高为<span style="color: red; font-size: 22px">15次</span>,于<span
                   style="color: red; font-size: 22px"
                   >2023-03-06</span
                 >发生<br />
-                1.泵1、泵2、泵3、泵4峰值参数超限分别为<span style="color: red; font-size: 22px"
-                  >5次、4次、2次、3次</span
+                1.制药工序、装药工序1、装药工序2、包装工序、装车工序定员超限分别为<span
+                  style="color: red; font-size: 22px"
+                  >5次、2次、4次、2次、3次</span
                 ><br /></span></template
           ></Alert>
         </div>
@@ -86,7 +94,7 @@
 </template>
 <script lang="ts">
   import { useECharts } from '/@/hooks/web/useECharts';
-  import type { Dayjs } from 'dayjs';
+  import dayjs, { Dayjs } from 'dayjs';
   import { PageWrapper } from '/@/components/Page';
   import { computed, ref, watch, Ref, onMounted } from 'vue';
   import { Form, FormItem, RangePicker, Divider, Card, Alert } from 'ant-design-vue';
@@ -102,39 +110,13 @@
       Alert,
     },
     setup() {
-      const plantData = ['1号公司', '2号公司'];
-      const lineData = {
-        '1号公司': ['1号生产线', '2号生产线', '3号生产线'],
-        '2号公司': ['1号生产线', '2号生产线', '3号生产线'],
-      };
-      const plant = ref(plantData[0]);
-      const line = ref(lineData[plant.value][0]);
-      const types = computed(() => {
-        return lineData[plant.value];
-      });
-
-      watch(plant, (val) => {
-        line.value = lineData[val][0];
-      });
-      const formData = {
-        plant: plant.value,
-        line: line.value,
-      };
-      const submitForm = (values) => {
-        console.log('Success:', values);
-        console.log('Success:', formData);
-      };
-
-      const onFinishFailed = (errorInfo: any) => {
-        console.log('Failed:', errorInfo);
-      };
-      const labelCol = { style: { width: '120px' } };
-      const onPlantChange = (value) => {
-        formData.line = lineData[value][0];
-      };
-
       type RangeValue = [Dayjs, Dayjs];
       const value = ref<RangeValue>();
+      const historyTime = ref<RangeValue>();
+      const currentDate: Dayjs = dayjs();
+      const lastMonthDate: Dayjs = currentDate.subtract(1, 'month');
+      const rangeValue: RangeValue = [lastMonthDate, currentDate];
+      historyTime.value = rangeValue;
 
       const chartRef1 = ref<HTMLDivElement | null>(null);
       const chartRef2 = ref<HTMLDivElement | null>(null);
@@ -157,7 +139,7 @@
             trigger: 'axis',
           },
           legend: {
-            data: ['制药工序1', '制药工序2', '装药工序', '包装工序', '装车工序'],
+            data: ['制药工序', '装药工序1', '装药工序2', '包装工序', '装车工序'],
           },
           grid: {
             left: '3%',
@@ -173,26 +155,34 @@
           xAxis: {
             type: 'category',
             boundaryGap: false,
-            data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+            data: [
+              '2023-09-25',
+              '2023-09-26',
+              '2023-09-27',
+              '2023-09-28',
+              '2023-09-29',
+              '2023-09-30',
+              '2023-10-01',
+            ],
           },
           yAxis: {
             type: 'value',
           },
           series: [
             {
-              name: '制药工序1',
+              name: '制药工序',
               type: 'line',
               stack: 'Total',
               data: [120, 132, 101, 134, 90, 230, 210],
             },
             {
-              name: '制药工序2',
+              name: '装药工序1',
               type: 'line',
               stack: 'Total',
               data: [220, 182, 191, 234, 290, 330, 310],
             },
             {
-              name: '装药工序',
+              name: '装药工序2',
               type: 'line',
               stack: 'Total',
               data: [150, 232, 201, 154, 190, 330, 410],
@@ -202,6 +192,12 @@
               type: 'line',
               stack: 'Total',
               data: [320, 332, 301, 334, 390, 330, 320],
+            },
+            {
+              name: '包装工序',
+              type: 'line',
+              stack: 'Total',
+              data: [820, 932, 901, 934, 1290, 1330, 1320],
             },
             {
               name: '装车工序',
@@ -221,23 +217,19 @@
             trigger: 'item',
             formatter: '{a} <br/>{b} : {c} ({d}%)',
           },
-          legend: {
-            top: 'bottom',
-            data: ['停机时间', '运行时间'],
-          },
           series: [
             {
-              name: '本月停机比',
+              name: '超限份额',
               type: 'pie',
-              radius: [0, 100],
+              radius: [0, 140],
               center: ['50%', '50%'],
               data: [
-                { value: 30, name: '停机时间' },
-                { value: 28, name: '运行时间' },
+                { value: 30, name: '制药工序' },
+                { value: 28, name: '装药工序1' },
+                { value: 12, name: '装药工序2' },
+                { value: 56, name: '包装工序' },
+                { value: 21, name: '装车工序' },
               ],
-              label: {
-                show: false,
-              },
             },
           ],
         });
@@ -247,32 +239,24 @@
           title: {
             text: '工序超员峰值统计',
           },
-          legend: {
-            data: ['Allocated Budget', 'Actual Spending'],
-          },
           radar: {
             // shape: 'circle',
             indicator: [
-              { name: 'Sales', max: 6500 },
-              { name: 'Administration', max: 16000 },
-              { name: 'Information Technology', max: 30000 },
-              { name: 'Customer Support', max: 38000 },
-              { name: 'Development', max: 52000 },
-              { name: 'Marketing', max: 25000 },
+              { name: '制药工序', max: 6500 },
+              { name: '装药工序1', max: 16000 },
+              { name: '装药工序2', max: 30000 },
+              { name: '包装工序', max: 38000 },
+              { name: '装车工序', max: 52000 },
             ],
           },
           series: [
             {
-              name: 'Budget vs spending',
+              name: '工序超员峰值统计',
               type: 'radar',
               data: [
                 {
-                  value: [4200, 3000, 20000, 35000, 50000, 18000],
+                  value: [4200, 3000, 20000, 3500, 50000, 18000],
                   name: 'Allocated Budget',
-                },
-                {
-                  value: [5000, 14000, 28000, 26000, 42000, 21000],
-                  name: 'Actual Spending',
                 },
               ],
             },
@@ -295,7 +279,7 @@
             },
           },
           legend: {
-            data: ['乳化3线', '膨化生产线'],
+            data: ['乳化3线'],
           },
           toolbox: {
             feature: {
@@ -312,7 +296,15 @@
             {
               type: 'category',
               boundaryGap: false,
-              data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+              data: [
+                '2023-09-25',
+                '2023-09-26',
+                '2023-09-27',
+                '2023-09-28',
+                '2023-09-29',
+                '2023-09-30',
+                '2023-10-01',
+              ],
             },
           ],
           yAxis: [
@@ -330,16 +322,6 @@
                 focus: 'series',
               },
               data: [120, 132, 101, 134, 90, 230, 210],
-            },
-            {
-              name: '膨化生产线',
-              type: 'line',
-              stack: 'Total',
-              areaStyle: {},
-              emphasis: {
-                focus: 'series',
-              },
-              data: [220, 182, 191, 234, 290, 330, 310],
             },
           ],
         });
@@ -365,7 +347,15 @@
           xAxis: [
             {
               type: 'category',
-              data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+              data: [
+                '10月05日14时',
+                '10月05日15时',
+                '10月05日16时',
+                '10月05日17时',
+                '10月05日18时',
+                '10月05日19时',
+                '10月05日20时',
+              ],
               axisTick: {
                 alignWithLabel: true,
               },
@@ -392,18 +382,14 @@
           title: {
             text: '超员人数峰值统计',
           },
-          legend: {
-            data: ['Allocated Budget', 'Actual Spending'],
-          },
           radar: {
             // shape: 'circle',
             indicator: [
-              { name: 'Sales', max: 6500 },
-              { name: 'Administration', max: 16000 },
-              { name: 'Information Technology', max: 30000 },
-              { name: 'Customer Support', max: 38000 },
-              { name: 'Development', max: 52000 },
-              { name: 'Marketing', max: 25000 },
+              { name: '制药工序', max: 6500 },
+              { name: '装药工序1', max: 16000 },
+              { name: '装药工序2', max: 30000 },
+              { name: '包装工序', max: 38000 },
+              { name: '装车工序', max: 52000 },
             ],
             radius: 120,
             startAngle: 90,
@@ -413,28 +399,12 @@
               formatter: '【{value}】',
               color: '#428BD4',
             },
-            splitArea: {
-              areaStyle: {
-                color: ['#77EADF', '#26C3BE', '#64AFE9', '#428BD4'],
-                shadowColor: 'rgba(0, 0, 0, 0.1)',
-                shadowBlur: 10,
-              },
-            },
-            axisLine: {
-              lineStyle: {
-                color: 'rgba(211, 253, 250, 0.8)',
-              },
-            },
           },
           series: [
             {
               name: 'Budget vs spending',
               type: 'radar',
               data: [
-                {
-                  value: [4200, 3000, 20000, 35000, 50000, 18000],
-                  name: 'Allocated Budget',
-                },
                 {
                   value: [5000, 14000, 28000, 26000, 42000, 21000],
                   name: 'Actual Spending',
@@ -446,15 +416,7 @@
       });
 
       return {
-        formData,
-        types,
-        plantData,
-        lineData,
-        submitForm,
-        onFinishFailed,
-        labelCol,
-        onPlantChange,
-        value,
+        historyTime,
         chartRef1,
         chartRef2,
         chartRef3,

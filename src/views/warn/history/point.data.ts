@@ -10,11 +10,11 @@ export const columns: BasicColumn[] = [
     dataIndex: 'unit',
   },
   {
-    title: '时实值',
+    title: '实时值',
     dataIndex: 'value',
   },
   {
-    title: '时实刷新状态',
+    title: '实时刷新状态',
     dataIndex: 'state',
     sorter: (a, b) => a.state - b.state,
   },

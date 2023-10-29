@@ -27,7 +27,12 @@
               <a-input-number :min="0.5" :max="24" step="0.5" addon-after="小时" value="1" />
             </a-form-item>
           </a-col>
-          <a-col :md="6">
+          <a-col :md="1">
+            <a-button type="primary" html-type="submit" style="margin-left: 10px"
+              >查看上次</a-button
+            >
+          </a-col>
+          <a-col :md="7">
             <Alert style="height: 33px; margin-left: 30px" type="info" show-icon>
               <template #message
                 ><span style="font-size: 18px; font-weight: bold"
@@ -74,7 +79,9 @@
               >趋势,拟合直线{{ monthSlope > 0 ? '上升' : '下降' }}斜率为<span
                 style="color: red; font-size: 22px"
                 >{{ monthSlope.toFixed(2) }}</span
-              ></span
+              >,超限次数<span style="color: red; font-size: 22px">{{
+                monthSlope > 0 ? '小幅上升' : '大幅下降'
+              }}</span></span
             ></template
           ></Alert
         >
@@ -87,7 +94,9 @@
               >趋势,拟合直线{{ dailySlope > 0 ? '上升' : '下降' }}斜率为<span
                 style="color: red; font-size: 22px"
                 >{{ dailySlope.toFixed(2) }}</span
-              ></span
+              >,超限次数<span style="color: red; font-size: 22px">{{
+                dailySlope > 0 ? '小幅上升' : '大幅下降'
+              }}</span></span
             ></template
           ></Alert
         >

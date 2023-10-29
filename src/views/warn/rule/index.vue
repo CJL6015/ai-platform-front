@@ -58,7 +58,7 @@
       </a-form>
       <a-divider orientation="center"> 运行参数阈值设定 </a-divider>
       <div>
-        <BasicTable @register="registerTable" />
+        <BasicTable @register="registerTable" @edit-end="handleEdit"></BasicTable>
       </div>
     </a-card>
   </PageWrapper>
@@ -153,11 +153,33 @@
         canResize: false,
       });
 
+      let tableData;
       const getTable = async (id) => {
-        const tableData = await pointListApi(id);
+        tableData = await pointListApi(id);
+        for (let d of tableData) {
+          if (!d.upperLimit) {
+            d.upperLimit = '-';
+          }
+          if (!d.lowerLimit) {
+            d.lowerLimit = '-';
+          }
+          if (!d.upperUpperLimit) {
+            d.upperUpperLimit = '-';
+          }
+          if (!d.lowerLowerLimit) {
+            d.lowerLowerLimit = '-';
+          }
+          if (!d.duration) {
+            d.duration = '待统计';
+          }
+        }
         methods.setTableData(tableData);
       };
 
+      function handleEdit({ index, key, value }) {
+        tableData[index][key] = value;
+        console.log(tableData[index]);
+      }
       return {
         labelCol,
         ruleData,
@@ -168,6 +190,7 @@
         plantData,
         lineData,
         registerTable,
+        handleEdit,
       };
     },
   });
