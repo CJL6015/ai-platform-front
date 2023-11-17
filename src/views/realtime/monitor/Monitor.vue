@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id=svgContainer>
     <svg
       width="100%"
       height="100%"
@@ -24,8 +24,8 @@
         inkscape:pagecheckerboard="0"
         showgrid="false"
         inkscape:zoom="0.59915944"
-        inkscape:cx="1910.176"
-        inkscape:cy="815.30886"
+        inkscape:cx="1449.5307"
+        inkscape:cy="988.88536"
         inkscape:window-width="1440"
         inkscape:window-height="763"
         inkscape:window-x="0"
@@ -5359,16 +5359,15 @@
           <tspan x="1520" y="1012" id="tspan3200">℃</tspan>
         </text>
         <text
-          id="KLRH3_DB50DBD296"
+          id="KLRH3_DB50DBD280"
           font-family="PingFangSC-Regular, 'PingFang SC'"
           font-size="28px"
           font-weight="normal"
           line-spacing="42"
           fill="#191919"
-          x="-38"
-          inkscape:label="#KLRH3_DB50DBD296"
+          x="-14"
         >
-          <tspan x="1437.386" y="1014" id="tspan3203">1</tspan>
+          <tspan x="1461.386" y="1014" id="tspan3203">1</tspan>
         </text>
         <text
           id="KLRH3_DB2DD48"
@@ -5377,9 +5376,9 @@
           font-weight="normal"
           line-spacing="42"
           fill="#191919"
-          x="-28"
+          x="-14"
         >
-          <tspan x="1284.342" y="998" id="tspan3206">7</tspan>
+          <tspan x="1298.342" y="998" id="tspan3206">7</tspan>
         </text>
         <text
           id="KLRH3_DB2DD80"
@@ -5388,9 +5387,9 @@
           font-weight="normal"
           line-spacing="42"
           fill="#191919"
-          x="-22"
+          x="-14"
         >
-          <tspan x="1283.986" y="1054" id="tspan3209">14</tspan>
+          <tspan x="1291.986" y="1054" id="tspan3209">14</tspan>
         </text>
         <text
           id="KLRH3_DB2DD196"
@@ -5399,9 +5398,9 @@
           font-weight="normal"
           line-spacing="42"
           fill="#191919"
-          x="-28"
+          x="-16"
         >
-          <tspan x="1436.2" y="1066" id="tspan3212">29</tspan>
+          <tspan x="1448.2" y="1066" id="tspan3212">29</tspan>
         </text>
         <text
           id="text3217"
@@ -5440,9 +5439,9 @@
           font-weight="normal"
           line-spacing="42"
           fill="#191919"
-          x="-32"
+          x="-18"
         >
-          <tspan x="2017.6001" y="944" id="tspan3226">8</tspan>
+          <tspan x="2031.6001" y="944" id="tspan3226">8</tspan>
         </text>
         <text
           id="KLRH3_DB2DD112"
@@ -5451,9 +5450,9 @@
           font-weight="normal"
           line-spacing="42"
           fill="#191919"
-          x="-32"
+          x="-18"
         >
-          <tspan x="2009.2" y="996" id="tspan3229">20</tspan>
+          <tspan x="2023.2" y="996" id="tspan3229">20</tspan>
         </text>
         <text
           id="text3234"
@@ -5482,9 +5481,9 @@
           font-weight="normal"
           line-spacing="42"
           fill="#191919"
-          x="-34"
+          x="-20"
         >
-          <tspan x="1821.6" y="212" id="tspan3240">9</tspan>
+          <tspan x="1835.6" y="212" id="tspan3240">9</tspan>
         </text>
         <text
           id="KLRH3_DB2DD116"
@@ -5493,9 +5492,9 @@
           font-weight="normal"
           line-spacing="42"
           fill="#191919"
-          x="-32"
+          x="-18"
         >
-          <tspan x="1817.986" y="264" id="tspan3243">21</tspan>
+          <tspan x="1831.986" y="264" id="tspan3243">21</tspan>
         </text>
         <text
           id="text3248"
@@ -6436,16 +6435,14 @@
           <tspan x="1514" y="448" id="tspan3774" />
         </text>
         <text
-          id="KLRH3_DB50DBD280"
-          font-family="PingFangSC-Regular, 'PingFang SC'"
-          font-size="28px"
+          id="text3779"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
           font-weight="normal"
           line-spacing="42"
           fill="#191919"
-          inkscape:label="#KLRH3_DB50DBD280"
-          x="-34"
         >
-          <tspan x="1503.942" y="500" id="tspan3777">37</tspan>
+          <tspan x="1537.942" y="500" id="tspan3777">37</tspan>
         </text>
         <text
           id="水相泵"
@@ -6667,14 +6664,13 @@
         </text>
         <text
           id="text3855"
-          font-family="PingFangSC-Regular, 'PingFang SC'"
-          font-size="24px"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="24"
           font-weight="normal"
           line-spacing="36"
           fill="#191919"
-          x="12"
         >
-          <tspan x="1007" y="1084" id="tspan3853">Kg/m</tspan>
+          <tspan x="995" y="1084" id="tspan3853">Kg/m</tspan>
         </text>
         <text
           id="KLRH3_DB2DD0"
@@ -6683,9 +6679,9 @@
           font-weight="normal"
           line-spacing="42"
           fill="#191919"
-          x="-26"
+          x="-14"
         >
-          <tspan x="923.59998" y="1086" id="tspan3857">2</tspan>
+          <tspan x="935.59998" y="1086" id="tspan3857">2</tspan>
         </text>
         <text
           id="KLRH3_DB2DD4"
@@ -6694,20 +6690,19 @@
           font-weight="normal"
           line-spacing="42"
           fill="#191919"
-          x="-28"
+          x="-12"
         >
-          <tspan x="921.59998" y="1142" id="tspan3860">3</tspan>
+          <tspan x="937.59998" y="1142" id="tspan3860">3</tspan>
         </text>
         <text
           id="水相密度"
-          font-family="PingFangSC-Regular, 'PingFang SC'"
-          font-size="28px"
+          font-family="PingFangSC-Regular, PingFang SC"
+          font-size="28"
           font-weight="normal"
           line-spacing="42"
           fill="#191919"
-          x="12"
         >
-          <tspan x="1007" y="1142" id="tspan3863">水相密度</tspan>
+          <tspan x="995" y="1142" id="tspan3863">水相密度</tspan>
         </text>
         <text
           id="Kg/m备份"
@@ -6819,9 +6814,9 @@
           font-weight="normal"
           line-spacing="42"
           fill="#191919"
-          x="-22"
+          x="-8"
         >
-          <tspan x="1199.986" y="521" id="tspan3898">19</tspan>
+          <tspan x="1213.986" y="521" id="tspan3898">19</tspan>
         </text>
         <text
           id="KLRH3_DB50DBD88"
@@ -6830,9 +6825,9 @@
           font-weight="normal"
           line-spacing="42"
           fill="#191919"
-          x="-22"
+          x="-8"
         >
-          <tspan x="1197.2" y="577" id="tspan3901">36</tspan>
+          <tspan x="1211.2" y="577" id="tspan3901">36</tspan>
         </text>
         <text
           id="text3906"
@@ -15690,14 +15685,13 @@
           />
           <text
             id="KLRH3_DB54DBD64"
-            font-family="PingFangSC-Regular, 'PingFang SC'"
-            font-size="30px"
+            font-family="PingFangSC-Regular, PingFang SC"
+            font-size="30"
             font-weight="normal"
             line-spacing="45"
             fill="#191919"
-            x="-30"
           >
-            <tspan x="1533" y="33" id="tspan9299">33</tspan>
+            <tspan x="1563" y="33" id="tspan9299">33</tspan>
           </text>
           <rect
             id="矩形备份-12"
@@ -17202,78 +17196,69 @@
           <tspan x="2117.2922" y="1118.0482" id="tspan5071-5-7-5">℃</tspan>
         </text>
       </g>
-    </svg></div
-  >
-
-  <Trend @register="registerModal" />
+    </svg>
+  </div>
 </template>
-<script lang="ts" setup>
-  import { getPointsValues, getPointsLimits } from '/@/api/data/point';
-  import { onMounted, onBeforeUnmount } from 'vue';
+
+<script lang="ts">
   import Trend from '../../warn/components/Trend.vue';
   import { useModal } from '/@/components/Modal';
+  import { getPointsValues } from '/@/api/data/point';
+  import { Card, Divider } from 'ant-design-vue';
+  import { defineComponent, onMounted, onBeforeUnmount } from 'vue';
 
-  const [registerModal, { openModal }] = useModal();
-  let timer = null;
-  let limits = {};
-  onMounted(() => {
-    const formattedTextElements = document.querySelectorAll('text[id^="KL"]');
-    console.log(55);
-    const formattedTextElementsArray = Array.from(formattedTextElements);
-    let points: any[] = [];
-    formattedTextElementsArray.forEach((element) => {
-      const id = element.getAttribute('id');
-      element.addEventListener('click', pointClick.bind(this, element.id));
-      points.push(id);
-    });
-    getLimits(points);
-    timer = setInterval(() => {
-      getValues(points);
-    }, 1000);
+  export default defineComponent({
+    name: 'monitorTrend',
+    components: {
+      Trend,
+      Divider,
+    },
+    setup() {
+      // let timer = null;
+      // const [registerModal, { openModal }] = useModal();
+      // onMounted(() => {
+      //   const formattedTextElements = document.querySelectorAll('text[id^="KL"]');
+      //   console.log(55);
+      //   const formattedTextElementsArray = Array.from(formattedTextElements);
+      //   let points: any[] = [];
+      //   formattedTextElementsArray.forEach((element) => {
+      //     const id = element.getAttribute('id');
+      //     // element.addEventListener('click', pointClick.bind(this, element.id));
+      //     points.push(id);
+      //   });
+      //   timer = setInterval(() => {
+      //     getValues(points);
+      //   }, 1000);
+      // });
+
+      // onBeforeUnmount(() => {
+      //   if (timer !== null) {
+      //     clearInterval(timer);
+      //     timer = null;
+      //   }
+      //   var elementToRemove = document.getElementById("svgContainer");
+
+      //   elementToRemove.remove();
+      //   console.log('删除');
+      // });
+
+      // const getValues = async (points) => {
+      //   const params = {
+      //     names: points.join(','),
+      //   };
+      //   const values = await getPointsValues(params);
+      //   for (let i = 0; i < points.length; i++) {
+      //     const textElement = document.getElementById(points[i]);
+      //     const tspanElement = textElement.querySelector('tspan');
+      //     tspanElement.textContent = values[i].toFixed(2);
+      //   }
+      // };
+
+      return {
+        // registerModal,
+      };
+    },
   });
-
-  onBeforeUnmount(() => {
-    if (timer !== null) {
-      clearInterval(timer);
-      timer = null;
-    }
-  });
-
-  const pointClick = (id) => {
-    openModal(true, {
-      name: id,
-    });
-  };
-
-  const getLimits = async (points) => {
-    const params = {
-      names: points.join(','),
-    };
-    limits = await getPointsLimits(params);
-  };
-
-  const getValues = async (points) => {
-    const params = {
-      names: points.join(','),
-    };
-    const values = await getPointsValues(params);
-    for (let i = 0; i < points.length; i++) {
-      const textElement = document.getElementById(points[i]);
-      const tspanElement = textElement.querySelector('tspan');
-      tspanElement.textContent = values[i].toFixed(2);
-      const pointLimit = limits[points[i]];
-      console.log(points[i],limits,pointLimit);
-      if (
-        pointLimit &&
-        ((pointLimit[0] && values[i] < pointLimit[0]) ||
-          (pointLimit[1] && values[i] > pointLimit[1]))
-      ) {
-        textElement.style.fill = 'red';
-      } else {
-        textElement.style.fill = 'blue';
-      }
-    }
-  };
 </script>
 
 <style scoped>

@@ -80,6 +80,9 @@
       const drawChart = (chartValue) => {
         setOptions1(
           {
+            title: {
+              text: '测点超限统计',
+            },
             tooltip: {
               trigger: 'item',
               formatter: '{a} <br/>{b} : {c} ({d}%)',
@@ -109,6 +112,9 @@
 
         setOptions2(
           {
+            title: {
+              text: '测点运行统计',
+            },
             tooltip: {
               trigger: 'item',
               formatter: '{a} <br/>{b} : {c} ({d}%)',
@@ -138,6 +144,9 @@
 
         setOptions3(
           {
+            title: {
+              text: '测点刷新统计',
+            },
             tooltip: {
               trigger: 'item',
               formatter: '{a} <br/>{b} : {c} ({d}%)',

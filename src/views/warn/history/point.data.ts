@@ -10,22 +10,22 @@ export const columns: BasicColumn[] = [
     dataIndex: 'unit',
   },
   {
-    title: '时实值',
+    title: '实时值',
     dataIndex: 'value',
   },
   {
-    title: '时实刷新状态',
+    title: '实时刷新状态',
     dataIndex: 'state',
-    sorter: true,
+    sorter: (a, b) => a.state - b.state,
   },
   {
     title: '超限时间(分)',
     dataIndex: 'exceededTime',
-    sorter: true,
+    sorter: (a, b) => a.exceededTime - b.exceededTime,
   },
   {
     title: '刷新异常时间(分)',
     dataIndex: 'exceptionTime',
-    sorter: true,
+    sorter: (a, b) => a.exceptionTime - b.exceptionTime,
   },
 ];

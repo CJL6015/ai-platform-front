@@ -22,18 +22,33 @@
             ]"
           />
         </template>
+        <template v-else-if="column.key === 'state'">
+          <Tag :color="record.state === 0 ? 'green' : 'red'">
+            {{ record.state === 0 ? '正常' : '异常' }}
+          </Tag></template
+        >
+        <template v-else-if="column.key === 'value'">
+          <span :style="{ color: record.isExceeded ? 'red' : 'blue' }">
+            {{ record.value }}
+          </span>
+        </template>
       </template>
     </BasicTable>
   </div>
+
+  <Trend @register="registerModal" />
 </template>
+
 <script lang="ts">
-  import { defineComponent, PropType, watch, toRaw } from 'vue';
+  import { defineComponent, PropType, watch, toRaw, onMounted, onBeforeUnmount } from 'vue';
 
   import { BasicTable, useTable, TableAction } from '/@/components/Table';
   import { getPointList } from '/@/api/data/table';
   import dayjs from 'dayjs';
   import { columns } from './point.data';
-  import { InputSearch } from 'ant-design-vue';
+  import { InputSearch, Tag } from 'ant-design-vue';
+  import Trend from '../components/Trend.vue';
+  import { useModal } from '/@/components/Modal';
 
   export default defineComponent({
     name: 'PointTable',
@@ -41,6 +56,8 @@
       BasicTable,
       TableAction,
       AInputSearch: InputSearch,
+      Tag,
+      Trend,
     },
     props: {
       selectData: {
@@ -48,6 +65,8 @@
       },
     },
     setup(props, _) {
+      const [registerModal, { openModal }] = useModal();
+
       const [registerTable, methods] = useTable({
         title: '测点详情',
         columns,
@@ -68,7 +87,6 @@
       watch(props, async (newData, _) => {
         const data = toRaw(newData.selectData);
         if (data && data['line'] && data['line'] > 0) {
-          console.log(data['line']);
           const time = toRaw(data['time']);
           const params = {
             st: dayjs(time[0]).format('YYYY-MM-DD HH:mm:ss'),
@@ -78,11 +96,37 @@
           methods.setTableData(tableData);
         }
       });
-
+      let timer = null;
       function handleEdit(record) {
-        const value = toRaw(record);
-        console.log(value);
+        const data = toRaw(record);
+        console.log(data);
+        openModal(true, data);
       }
+      onMounted(() => {
+        timer = setInterval(() => {
+          freshTable();
+        }, 1000);
+      });
+
+      async function freshTable() {
+        const data = toRaw(props.selectData);
+        if (data && data['line'] && data['line'] > 0) {
+          const time = toRaw(data['time']);
+          const params = {
+            st: dayjs(time[0]).format('YYYY-MM-DD HH:mm:ss'),
+            et: dayjs(time[1]).format('YYYY-MM-DD HH:mm:ss'),
+          };
+          const tableData = await getPointList(data['line'], params);
+          methods.setTableData(tableData);
+        }
+      }
+
+      onBeforeUnmount(() => {
+        if (timer !== null) {
+          clearInterval(timer);
+          timer = null;
+        }
+      });
 
       function handleDelete(record) {
         const value = toRaw(record);
@@ -96,6 +140,8 @@
         handleDelete,
         handleEdit,
         onSearch,
+        registerModal,
+        openModal,
       };
     },
   });

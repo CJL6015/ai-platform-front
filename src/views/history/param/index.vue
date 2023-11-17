@@ -1,12 +1,13 @@
 <template>
-  <PageWrapper title="超员抓拍">
+  <PageWrapper title="参数超限多维对标分析">
     <a-card>
       <a-form>
         <a-form-item label="历史时间">
           <a-range-picker
-            v-model:value="value"
+            v-model:value="historyTime"
             show-time
-            :placeholder="['冻结开始时间', '冻结结束时间']"
+            @change="historyTimeChange"
+            :placeholder="['开始时间', '结束时间']"
           />
         </a-form-item>
       </a-form>
@@ -15,43 +16,90 @@
         <div
           ref="chartRef1"
           class="border border-gray-400"
-          style="height: 500px; widows: 100%"
+          style="width: 100%; height: 380px"
         ></div>
         <div
           ref="chartRef2"
           class="border border-gray-400"
-          style="height: 500px; widows: 100%"
+          style="width: 100%; height: 380px"
         ></div>
         <div
           ref="chartRef3"
           class="border border-gray-400"
-          style="height: 500px; widows: 100%"
+          style="width: 100%; height: 380px"
         ></div>
         <div
           ref="chartRef4"
           class="border border-gray-400"
-          style="height: 500px; widows: 100%"
+          style="width: 100%; height: 380px"
         ></div>
         <div
           ref="chartRef5"
           class="border border-gray-400"
-          style="height: 500px; widows: 100%"
+          style="width: 100%; height: 380px"
         ></div>
         <div
           ref="chartRef6"
           class="border border-gray-400"
-          style="height: 500px; widows: 100%"
+          style="width: 100%; height: 380px"
         ></div>
+        <div>
+          <Alert style="width: 100%; height: 220px" type="info">
+            <template #message>
+              <div style="width: 100%; height: 220px; overflow-y: scroll">
+                <span style="font-size: 18px; font-weight: bold"
+                  >超限走势分析结论:<br />
+                  <span v-for="summary in trendSummary" :key="summary['key']">
+                    {{ summary['key'] }}.{{ summary['name'] }}参数超限整体呈现<span
+                      style="color: red; font-size: 22px"
+                      >{{ summary['trend'] }}</span
+                    ><br /></span
+                ></span>
+              </div> </template
+          ></Alert>
+        </div>
+        <div>
+          <Alert style="width: 100%; height: 220px" type="info">
+            <template #message
+              ><span style="font-size: 18px; font-weight: bold"
+                >超限高峰时间和设备位置分析结论:<br />
+                1.参数超限占比最高的工序为<span style="color: red; font-size: 22px">{{
+                  equipment
+                }}</span
+                >,有提升的空间<br />
+                2.定员超限最高发的时间为<span style="color: red; font-size: 22px">{{
+                  maxHour
+                }}</span
+                >,可加强该时段的监控<br /></span></template
+          ></Alert>
+        </div>
+        <div>
+          <Alert style="width: 100%; height: 220px" type="info">
+            <template #message>
+              <div style="width: 100%; height: 220px; overflow-y: scroll"
+                ><span style="font-size: 18px; font-weight: bold"
+                  >超限峰值分析结论:<br />
+                  1.参数超限单日最高为<span style="color: red; font-size: 22px"
+                    >{{ maxCount }}次</span
+                  >,于<span style="color: red; font-size: 22px">{{ maxTime }}</span
+                  >发生<br />
+                  2.{{ names }}峰值参数超限分别为<span style="color: red; font-size: 22px">{{
+                    equipmentCounts
+                  }}</span
+                  ><br /></span></div></template
+          ></Alert>
+        </div>
       </div>
     </a-card>
   </PageWrapper>
 </template>
 <script lang="ts">
   import { useECharts } from '/@/hooks/web/useECharts';
-  import type { Dayjs } from 'dayjs';
+  import dayjs, { Dayjs } from 'dayjs';
   import { PageWrapper } from '/@/components/Page';
-  import { computed, ref, watch, Ref, onMounted } from 'vue';
-  import { Form, FormItem, RangePicker, Divider, Card } from 'ant-design-vue';
+  import { ref, Ref, onMounted } from 'vue';
+  import { Form, FormItem, RangePicker, Divider, Card, Alert } from 'ant-design-vue';
+  import { getBenchmarkEquipment, getBenchmarkTrend } from '/@/api/data/benchmark';
 
   export default {
     components: {
@@ -61,187 +109,57 @@
       AFormItem: FormItem,
       ADivider: Divider,
       ARangePicker: RangePicker,
+      Alert,
     },
     setup() {
-      const plantData = ['1号公司', '2号公司'];
-      const lineData = {
-        '1号公司': ['1号生产线', '2号生产线', '3号生产线'],
-        '2号公司': ['1号生产线', '2号生产线', '3号生产线'],
-      };
-      const plant = ref(plantData[0]);
-      const line = ref(lineData[plant.value][0]);
-      const types = computed(() => {
-        return lineData[plant.value];
-      });
-
-      watch(plant, (val) => {
-        line.value = lineData[val][0];
-      });
-      const formData = {
-        plant: plant.value,
-        line: line.value,
-      };
-      const submitForm = (values) => {
-        console.log('Success:', values);
-        console.log('Success:', formData);
-      };
-
-      const onFinishFailed = (errorInfo: any) => {
-        console.log('Failed:', errorInfo);
-      };
-      const labelCol = { style: { width: '120px' } };
-      const onPlantChange = (value) => {
-        formData.line = lineData[value][0];
-      };
-
       type RangeValue = [Dayjs, Dayjs];
       const value = ref<RangeValue>();
+      const historyTime = ref<RangeValue>();
+      const currentDate: Dayjs = dayjs();
+      const lastMonthDate: Dayjs = currentDate.subtract(1, 'month');
+      const rangeValue: RangeValue = [lastMonthDate, currentDate];
+      historyTime.value = rangeValue;
 
-      const chartRef1 = ref<HTMLDivElement | null>(null);
-      const chartRef2 = ref<HTMLDivElement | null>(null);
-      const chartRef3 = ref<HTMLDivElement | null>(null);
-      const chartRef4 = ref<HTMLDivElement | null>(null);
-      const chartRef5 = ref<HTMLDivElement | null>(null);
-      const chartRef6 = ref<HTMLDivElement | null>(null);
-      const { setOptions: setOptions1 } = useECharts(chartRef1 as Ref<HTMLDivElement>);
-      const { setOptions: setOptions2 } = useECharts(chartRef2 as Ref<HTMLDivElement>);
-      const { setOptions: setOptions3 } = useECharts(chartRef3 as Ref<HTMLDivElement>);
-      const { setOptions: setOptions4 } = useECharts(chartRef4 as Ref<HTMLDivElement>);
-      const { setOptions: setOptions5 } = useECharts(chartRef5 as Ref<HTMLDivElement>);
-      const { setOptions: setOptions6 } = useECharts(chartRef6 as Ref<HTMLDivElement>);
-      onMounted(() => {
-        setOptions1({
-          title: {
-            text: '不同设备对应参数超限趋势',
-          },
-          tooltip: {
-            trigger: 'axis',
-          },
-          legend: {
-            data: ['Email', 'Union Ads', 'Video Ads', 'Direct', 'Search Engine'],
-          },
-          grid: {
-            left: '3%',
-            right: '4%',
-            bottom: '3%',
-            containLabel: true,
-          },
-          toolbox: {
-            feature: {
-              saveAsImage: {},
-            },
-          },
-          xAxis: {
-            type: 'category',
-            boundaryGap: false,
-            data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
-          },
-          yAxis: {
-            type: 'value',
-          },
-          series: [
-            {
-              name: 'Email',
-              type: 'line',
-              stack: 'Total',
-              data: [120, 132, 101, 134, 90, 230, 210],
-            },
-            {
-              name: 'Union Ads',
-              type: 'line',
-              stack: 'Total',
-              data: [220, 182, 191, 234, 290, 330, 310],
-            },
-            {
-              name: 'Video Ads',
-              type: 'line',
-              stack: 'Total',
-              data: [150, 232, 201, 154, 190, 330, 410],
-            },
-            {
-              name: 'Direct',
-              type: 'line',
-              stack: 'Total',
-              data: [320, 332, 301, 334, 390, 330, 320],
-            },
-            {
-              name: 'Search Engine',
-              type: 'line',
-              stack: 'Total',
-              data: [820, 932, 901, 934, 1290, 1330, 1320],
-            },
-          ],
-        });
-      });
-      onMounted(() => {
-        setOptions2({
-          title: {
-            text: '超限份额统计',
-          },
-          tooltip: {
-            trigger: 'item',
-            formatter: '{a} <br/>{b} : {c} ({d}%)',
-          },
-          legend: {
-            top: 'bottom',
-            data: ['停机时间', '运行时间'],
-          },
-          series: [
-            {
-              name: '本月停机比',
-              type: 'pie',
-              radius: [0, 100],
-              center: ['50%', '50%'],
-              data: [
-                { value: 30, name: '停机时间' },
-                { value: 28, name: '运行时间' },
-              ],
-              label: {
-                show: false,
-              },
-            },
-          ],
-        });
-      });
-      onMounted(() => {
-        setOptions3({
-          title: {
-            text: '工序超员峰值统计',
-          },
-          legend: {
-            data: ['Allocated Budget', 'Actual Spending'],
-          },
-          radar: {
-            // shape: 'circle',
-            indicator: [
-              { name: 'Sales', max: 6500 },
-              { name: 'Administration', max: 16000 },
-              { name: 'Information Technology', max: 30000 },
-              { name: 'Customer Support', max: 38000 },
-              { name: 'Development', max: 52000 },
-              { name: 'Marketing', max: 25000 },
-            ],
-          },
-          series: [
-            {
-              name: 'Budget vs spending',
-              type: 'radar',
-              data: [
-                {
-                  value: [4200, 3000, 20000, 35000, 50000, 18000],
-                  name: 'Allocated Budget',
-                },
-                {
-                  value: [5000, 14000, 28000, 26000, 42000, 21000],
-                  name: 'Actual Spending',
-                },
-              ],
-            },
-          ],
-        });
-      });
+      const historyTimeChange = () => {
+        setEquipmentTrend();
+        setTotal();
+      };
 
       onMounted(() => {
+        setEquipmentTrend();
+        setTotal();
+      });
+
+      const equipment = ref('');
+      const maxCount = ref(0);
+      const maxTime = ref('');
+      const maxHour = ref('');
+      const names = ref('');
+      const equipmentCounts = ref('');
+      const trendSummary = ref([]);
+
+      const setTotal = async () => {
+        const [startDate, endDate] = historyTime.value;
+        const startDateDate = startDate.toDate();
+        const endDateDate = endDate.toDate();
+        const time = {
+          st: dayjs(startDateDate).format('YYYY-MM-DD HH:mm:ss'),
+          et: dayjs(endDateDate).format('YYYY-MM-DD HH:mm:ss'),
+        };
+        const trendData = await getBenchmarkTrend(time);
+        console.log(trendData);
+
+        let index = 0;
+        let max = trendData.trend[0][1];
+        for (let i = 0; i < trendData.trend.length; i++) {
+          if (trendData.trend[i][1] > max) {
+            max = trendData.trend[i][1];
+            index = i;
+          }
+        }
+        maxCount.value = trendData.trend[index][1];
+        maxTime.value = trendData.trend[index][0];
+
         setOptions4({
           title: {
             text: '参数总超限次数趋势',
@@ -254,9 +172,6 @@
                 backgroundColor: '#6a7985',
               },
             },
-          },
-          legend: {
-            data: ['Email', 'Union Ads', 'Video Ads', 'Direct', 'Search Engine'],
           },
           toolbox: {
             feature: {
@@ -273,7 +188,6 @@
             {
               type: 'category',
               boundaryGap: false,
-              data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
             },
           ],
           yAxis: [
@@ -285,62 +199,36 @@
             {
               name: 'Email',
               type: 'line',
-              stack: 'Total',
-              areaStyle: {},
               emphasis: {
                 focus: 'series',
               },
-              data: [120, 132, 101, 134, 90, 230, 210],
-            },
-            {
-              name: 'Union Ads',
-              type: 'line',
-              stack: 'Total',
-              areaStyle: {},
-              emphasis: {
-                focus: 'series',
+              markPoint: {
+                data: [
+                  { type: 'max', name: 'Max' },
+                  { type: 'min', name: 'Min' },
+                ],
               },
-              data: [220, 182, 191, 234, 290, 330, 310],
-            },
-            {
-              name: 'Video Ads',
-              type: 'line',
-              stack: 'Total',
-              areaStyle: {},
-              emphasis: {
-                focus: 'series',
+              markLine: {
+                data: [{ type: 'average', name: 'Avg' }],
+                label: {
+                  show: true,
+                  position: 'middle',
+                  formatter: '平均超限次数: {c}',
+                },
               },
-              data: [150, 232, 201, 154, 190, 330, 410],
-            },
-            {
-              name: 'Direct',
-              type: 'line',
-              stack: 'Total',
-              areaStyle: {},
-              emphasis: {
-                focus: 'series',
-              },
-              data: [320, 332, 301, 334, 390, 330, 320],
-            },
-            {
-              name: 'Search Engine',
-              type: 'line',
-              stack: 'Total',
-              label: {
-                show: true,
-                position: 'top',
-              },
-              areaStyle: {},
-              emphasis: {
-                focus: 'series',
-              },
-              data: [820, 932, 901, 934, 1290, 1330, 1320],
+              data: trendData.trend,
             },
           ],
         });
-      });
 
-      onMounted(() => {
+        const hoursArray = Array.from(
+          { length: 24 },
+          (_, index) => index.toString().padStart(2, '0') + '时',
+        );
+        const hourIndex = trendData.hours.indexOf(Math.max(...trendData.hours));
+        maxHour.value = `${hourIndex.toString().padStart(2, '0')}:00-${(hourIndex + 1)
+          .toString()
+          .padStart(2, '0')}:00`;
         setOptions5({
           title: {
             text: '超限时段统计',
@@ -360,7 +248,7 @@
           xAxis: [
             {
               type: 'category',
-              data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+              data: hoursArray,
               axisTick: {
                 alignWithLabel: true,
               },
@@ -376,49 +264,161 @@
               name: 'Direct',
               type: 'bar',
               barWidth: '60%',
-              data: [10, 52, 200, 334, 390, 330, 220],
+              data: trendData.hours,
             },
           ],
         });
-      });
+      };
 
-      onMounted(() => {
-        setOptions6({
+      const setEquipmentTrend = async () => {
+        const [startDate, endDate] = historyTime.value;
+        const startDateDate = startDate.toDate();
+        const endDateDate = endDate.toDate();
+        const time = {
+          st: dayjs(startDateDate).format('YYYY-MM-DD HH:mm:ss'),
+          et: dayjs(endDateDate).format('YYYY-MM-DD HH:mm:ss'),
+        };
+        const data = await getBenchmarkEquipment(time);
+        names.value = data.equipments.join(',');
+        console.log(data);
+        let trendSeries: any[] = [];
+        let legendSelect = {};
+        let summary: any = [];
+        for (let i = 0; i < data.values.length; i++) {
+          trendSeries.push({
+            name: data.equipments[i],
+            type: 'line',
+            data: data.values[i],
+          });
+          summary.push({
+            key: i + 1,
+            name: data.equipments[i],
+            trend: data.trend[i],
+          });
+
+          if (i < 7) {
+            legendSelect[data.equipments[i]] = true;
+          } else {
+            legendSelect[data.equipments[i]] = false;
+          }
+        }
+        trendSummary.value = summary;
+        setOptions1({
           title: {
-            text: '超员人数峰值统计',
+            text: '不同设备对应参数超限趋势',
+          },
+          tooltip: {
+            trigger: 'axis',
           },
           legend: {
-            data: ['Allocated Budget', 'Actual Spending'],
+            type: 'scroll',
+            left: 400,
+            right: 30,
+            top: 0,
+            bottom: 20,
+            data: data.equipments,
+            selected: legendSelect,
+          },
+          grid: {
+            left: '3%',
+            right: '4%',
+            bottom: '3%',
+            containLabel: true,
+          },
+          xAxis: {
+            type: 'category',
+            boundaryGap: false,
+          },
+          yAxis: {
+            type: 'value',
+          },
+          series: trendSeries,
+        });
+
+        let option2Data: any[] = [];
+        equipment.value = data.equipments[data.counts.indexOf(Math.max(...data.counts))];
+        for (let i = 0; i < data.counts.length; i++) {
+          option2Data.push({ value: data.counts[i], name: data.equipments[i] });
+        }
+
+        setOptions2({
+          title: {
+            text: '超限份额统计',
+          },
+          tooltip: {
+            trigger: 'item',
+            formatter: '{a} <br/>{b} : {c} ({d}%)',
+          },
+          series: [
+            {
+              name: '超限份额统计',
+              type: 'pie',
+              radius: [0, 140],
+              center: ['50%', '50%'],
+              data: option2Data,
+              label: {
+                show: true,
+              },
+            },
+          ],
+        });
+        equipmentCounts.value = data.equipmentMax.join('次、') + '次';
+        let option3Max = Math.max(...data.equipmentMax);
+        let option3Data: any[] = [];
+        for (let i = 0; i < data.equipmentMax.length; i++) {
+          option3Data.push({
+            name: data.equipments[i] + `  (${data.equipmentMax[i]})`,
+            max: option3Max,
+          });
+        }
+        setOptions3({
+          title: {
+            text: '设备超限峰值统计',
+          },
+          tooltip: {
+            trigger: 'item',
           },
           radar: {
             // shape: 'circle',
-            indicator: [
-              { name: 'Sales', max: 6500 },
-              { name: 'Administration', max: 16000 },
-              { name: 'Information Technology', max: 30000 },
-              { name: 'Customer Support', max: 38000 },
-              { name: 'Development', max: 52000 },
-              { name: 'Marketing', max: 25000 },
-            ],
-            radius: 120,
-            startAngle: 90,
-            splitNumber: 4,
-            shape: 'circle',
+            indicator: option3Data,
+          },
+          series: [
+            {
+              type: 'radar',
+              data: [
+                {
+                  value: data.equipmentMax,
+                  name: '设备超限峰值统计',
+                  areaStyle: {
+                    color: 'rgba(255, 145, 124, 0.9)',
+                  },
+                  lineStyle: {
+                    type: 'dashed',
+                  },
+                },
+              ],
+            },
+          ],
+        });
+
+        let option4Data: any[] = [];
+        let option4Max = Math.max(...data.durations);
+        for (let i = 0; i < data.equipmentMax.length; i++) {
+          option4Data.push({
+            name: data.equipments[i] + `  (${data.durations[i].toFixed(2)}h)`,
+            max: option4Max,
+          });
+        }
+        setOptions6({
+          title: {
+            text: '设备超限时长统计',
+          },
+          radar: {
+            // shape: 'circle',
+            indicator: option4Data,
             axisName: {
-              formatter: '【{value}】',
+              formatter: '{value}',
               color: '#428BD4',
-            },
-            splitArea: {
-              areaStyle: {
-                color: ['#77EADF', '#26C3BE', '#64AFE9', '#428BD4'],
-                shadowColor: 'rgba(0, 0, 0, 0.1)',
-                shadowBlur: 10,
-              },
-            },
-            axisLine: {
-              lineStyle: {
-                color: 'rgba(211, 253, 250, 0.8)',
-              },
             },
           },
           series: [
@@ -427,28 +427,29 @@
               type: 'radar',
               data: [
                 {
-                  value: [4200, 3000, 20000, 35000, 50000, 18000],
+                  value: data.durations,
                   name: 'Allocated Budget',
-                },
-                {
-                  value: [5000, 14000, 28000, 26000, 42000, 21000],
-                  name: 'Actual Spending',
                 },
               ],
             },
           ],
         });
-      });
+      };
+
+      const chartRef1 = ref<HTMLDivElement | null>(null);
+      const chartRef2 = ref<HTMLDivElement | null>(null);
+      const chartRef3 = ref<HTMLDivElement | null>(null);
+      const chartRef4 = ref<HTMLDivElement | null>(null);
+      const chartRef5 = ref<HTMLDivElement | null>(null);
+      const chartRef6 = ref<HTMLDivElement | null>(null);
+      const { setOptions: setOptions1 } = useECharts(chartRef1 as Ref<HTMLDivElement>);
+      const { setOptions: setOptions2 } = useECharts(chartRef2 as Ref<HTMLDivElement>);
+      const { setOptions: setOptions3 } = useECharts(chartRef3 as Ref<HTMLDivElement>);
+      const { setOptions: setOptions4 } = useECharts(chartRef4 as Ref<HTMLDivElement>);
+      const { setOptions: setOptions5 } = useECharts(chartRef5 as Ref<HTMLDivElement>);
+      const { setOptions: setOptions6 } = useECharts(chartRef6 as Ref<HTMLDivElement>);
 
       return {
-        formData,
-        types,
-        plantData,
-        lineData,
-        submitForm,
-        onFinishFailed,
-        labelCol,
-        onPlantChange,
         value,
         chartRef1,
         chartRef2,
@@ -456,6 +457,15 @@
         chartRef4,
         chartRef5,
         chartRef6,
+        historyTime,
+        equipment,
+        historyTimeChange,
+        maxTime,
+        maxCount,
+        maxHour,
+        names,
+        equipmentCounts,
+        trendSummary,
       };
     },
   };
