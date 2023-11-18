@@ -24,7 +24,13 @@
           </a-col>
           <a-col :md="5">
             <a-form-item name="input-number" label="巡检间隔">
-              <a-input-number :min="0.5" :max="24" step="0.5" addon-after="小时" value="1" />
+              <a-input-number
+                :min="0.01"
+                :max="24"
+                step="0.01"
+                addon-after="小时"
+                v-model:value="step"
+              />
             </a-form-item>
           </a-col>
           <a-col :md="1">
@@ -371,8 +377,10 @@
 
       const detectionTime = ref('');
 
+      const step = ref(1);
+
       const getLastResult = () => {
-        const lastTime = getTime(1);
+        const lastTime = getTime();
         fetchResult(ips, lastTime);
       };
 
@@ -414,8 +422,9 @@
         }
       };
 
-      const getTime = (step) => {
+      const getTime = () => {
         const dateString = detectionTime.value;
+        const stepVal = step.value;
         const matches = dateString.match(/(\d{1,2})月(\d{1,2})日(\d{1,2})时/);
         if (matches) {
           const month = parseInt(matches[1]);
@@ -429,7 +438,7 @@
           const date = dayjs(`${currentYear}-${month}-${day}T${hour}:00:00`);
 
           // 减去1小时
-          const updatedDate = date.subtract(step, 'hour');
+          const updatedDate = date.subtract(stepVal, 'hour');
 
           // 输出更新后的时间对象
           console.log(updatedDate.toString());
@@ -680,6 +689,7 @@
         dailySlope,
         lastCount,
         lastDay,
+        step,
       };
     },
   };

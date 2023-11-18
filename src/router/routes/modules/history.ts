@@ -39,14 +39,6 @@ const realtime: AppRouteModule = {
         title: '同比环比分析',
       },
     },
-    {
-      path: 'correlation',
-      name: 'correlation',
-      component: () => import('/@/views/history/correlation/index.vue'),
-      meta: {
-        title: '超限指标相关性分析',
-      },
-    },
   ],
 };
 

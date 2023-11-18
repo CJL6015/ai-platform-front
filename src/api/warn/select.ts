@@ -8,6 +8,6 @@ enum Api {
 
 export const optionListApi = () => defHttp.get<any>({ url: Api.LIST });
 
-export const lineOptionListApi = (id?: any) => defHttp.get<any>({ url: Api.LIST + id });
+export const lineOptionListApi = (id?: any) => defHttp.get<any>({ url: Api.LINE_LIST + id });
 
 export const pointOptionListApi = () => defHttp.get<any>({ url: Api.POINT_LIST });

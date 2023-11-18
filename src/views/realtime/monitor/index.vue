@@ -6,8 +6,8 @@
       viewBox="0 0 2872 1474"
       version="1.1"
       id="svg10104"
-      sodipodi:docname="完成版1.svg"
-      inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+      sodipodi:docname="svg.svg"
+      inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
       xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
       xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
       xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -23,15 +23,17 @@
         inkscape:pageopacity="0.0"
         inkscape:pagecheckerboard="0"
         showgrid="false"
-        inkscape:zoom="0.59915944"
-        inkscape:cx="1910.176"
-        inkscape:cy="815.30886"
-        inkscape:window-width="1440"
-        inkscape:window-height="763"
-        inkscape:window-x="0"
-        inkscape:window-y="25"
-        inkscape:window-maximized="0"
-        inkscape:current-layer="完成版"
+        inkscape:zoom="1.6946788"
+        inkscape:cx="1439.2108"
+        inkscape:cy="337.82213"
+        inkscape:window-width="3840"
+        inkscape:window-height="2066"
+        inkscape:window-x="-11"
+        inkscape:window-y="-11"
+        inkscape:window-maximized="1"
+        inkscape:current-layer="顶部文字"
+        inkscape:showpageshadow="2"
+        inkscape:deskcolor="#d1d1d1"
       />
       <title id="title9">完成版</title>
       <defs id="defs943">
@@ -15628,13 +15630,14 @@
           />
           <text
             id="KLRH3_DB54DBD56"
-            font-family="PingFangSC-Regular, PingFang SC"
-            font-size="30"
+            font-family="PingFangSC-Regular, 'PingFang SC'"
+            font-size="30px"
             font-weight="normal"
             line-spacing="45"
             fill="#191919"
+            x="-46"
           >
-            <tspan x="1168" y="33" id="tspan9286">32</tspan>
+            <tspan x="1122" y="33" id="tspan9286">32</tspan>
           </text>
           <path
             d="M1248,1 C1248.27614,1 1248.52614,1.11192881 1248.70711,1.29289322 C1248.88807,1.47385763 1249,1.72385763 1249,2 L1249,44 C1249,44.2761424 1248.88807,44.5261424 1248.70711,44.7071068 C1248.52614,44.8880712 1248.27614,45 1248,45 L1123,45 C1122.72386,45 1122.47386,44.8880712 1122.29289,44.7071068 C1122.11193,44.5261424 1122,44.2761424 1122,44 L1122,2 C1122,1.72385763 1122.11193,1.47385763 1122.29289,1.29289322 C1122.47386,1.11192881 1122.72386,1 1123,1 Z"
@@ -17202,10 +17205,9 @@
           <tspan x="2117.2922" y="1118.0482" id="tspan5071-5-7-5">℃</tspan>
         </text>
       </g>
-    </svg></div
-  >
-
-  <Trend @register="registerModal" />
+    </svg>
+    <Trend @register="registerModal" />
+  </div>
 </template>
 <script lang="ts" setup>
   import { getPointsValues, getPointsLimits } from '/@/api/data/point';
@@ -17218,7 +17220,7 @@
   let limits = {};
   onMounted(() => {
     const formattedTextElements = document.querySelectorAll('text[id^="KL"]');
-    console.log(55);
+    console.log(11);
     const formattedTextElementsArray = Array.from(formattedTextElements);
     let points: any[] = [];
     formattedTextElementsArray.forEach((element) => {
@@ -17262,7 +17264,7 @@
       const tspanElement = textElement.querySelector('tspan');
       tspanElement.textContent = values[i].toFixed(2);
       const pointLimit = limits[points[i]];
-      console.log(points[i],limits,pointLimit);
+      console.log(points[i], limits, pointLimit);
       if (
         pointLimit &&
         ((pointLimit[0] && values[i] < pointLimit[0]) ||

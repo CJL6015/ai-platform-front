@@ -350,12 +350,15 @@
             max: max,
           });
         }
-        const todaySum = dayData[0].reduce((acc, curr) => acc + curr, 0);
-        const lastSum =
-          dayData[1].reduce((acc, curr) => acc + curr, 0) +
-          dayData[2].reduce((acc, curr) => acc + curr, 0);
-        benchmarkDay.value = (100 * (todaySum - lastSum)) / lastSum;
+        try {
+          const todaySum = dayData[0].reduce((acc, curr) => acc + curr, 0);
+          console.log(111, dayData);
+          const lastSum = dayData[1].reduce((acc, curr) => acc + curr, 0);
+          //+          dayData[2].reduce((acc, curr) => acc + curr, 0);
+          benchmarkDay.value = (100 * (todaySum - lastSum)) / lastSum;
+        } catch (e) {}
         console.log(indicator);
+
         setOptions3({
           legend: {
             data: ['今日', '昨日', '前日'],
