@@ -24,7 +24,14 @@
           </a-col>
           <a-col :md="5">
             <a-form-item name="input-number" label="巡检间隔">
-              <a-input-number :min="0.5" :max="24" step="0.5" addon-after="小时" value="1" />
+              <a-input-number
+                :min="0.5"
+                :max="24"
+                step="0.5"
+                addon-after="小时"
+                value="1"
+                disabled
+              />
             </a-form-item>
           </a-col>
           <a-col :md="1">
@@ -105,6 +112,11 @@
       <a-divider />
       <div class="grid md:grid-cols-3 gap-4">
         <a-card style="width: 80%" title="季对标">
+          <template #extra>
+            <a-form-item label="对标季度数" style="margin: 0">
+              <a-input-number v-model:value="benchmark1" />
+            </a-form-item>
+          </template>
           <template #cover>
             <div ref="chartRef1" style="height: 500px; widows: 100%"></div>
           </template>
@@ -117,6 +129,11 @@
           </a-card-meta>
         </a-card>
         <a-card style="width: 80%" title="月对标">
+          <template #extra>
+            <a-form-item label="对比月数" style="margin: 0">
+              <a-input-number v-model:value="benchmark2" />
+            </a-form-item>
+          </template>
           <template #cover>
             <div ref="chartRef2" style="height: 500px; widows: 100%"></div>
           </template>
@@ -129,6 +146,11 @@
           </a-card-meta>
         </a-card>
         <a-card style="width: 80%" title="日对标">
+          <template #extra>
+            <a-form-item label="对比日数" style="margin: 0">
+              <a-input-number v-model:value="benchmark3" max="2" min="1" />
+            </a-form-item>
+          </template>
           <template #cover>
             <div ref="chartRef3" style="height: 500px; widows: 100%"></div>
           </template>
@@ -150,7 +172,7 @@
 </template>
 <script lang="ts">
   import { PageWrapper } from '/@/components/Page';
-  import { ref, Ref, onMounted } from 'vue';
+  import { ref, Ref, onMounted, watch } from 'vue';
   import { useECharts } from '/@/hooks/web/useECharts';
   import {
     Form,
@@ -335,8 +357,16 @@
 
       const benchmarkDay = ref(0);
 
+      const benchmark1 = ref(4);
+      const benchmark2 = ref(3);
+      const benchmark3 = ref(2);
+      watch(benchmark3, () => {
+        setBenchmark();
+      });
+
       const setBenchmark = async () => {
-        const benchmark = await getBenchmark(formData.value.line);
+        const dayNum = { num: benchmark3.value };
+        const benchmark = await getBenchmark(formData.value.line, dayNum);
         const equipments = benchmark.equipments;
         const dayData = benchmark.dayData;
         let max = 0;
@@ -350,13 +380,33 @@
             max: max,
           });
         }
+        const legend = ['今日', '昨日', '前日'];
+        let series: any[] = [];
         try {
           const todaySum = dayData[0].reduce((acc, curr) => acc + curr, 0);
+          if (dayData.length > 0) {
+            series.push({
+              value: dayData[0],
+              name: '今日',
+            });
+          }
           console.log(111, dayData);
-          const lastSum = dayData[1].reduce((acc, curr) => acc + curr, 0);
-          //+          dayData[2].reduce((acc, curr) => acc + curr, 0);
-          benchmarkDay.value = (100 * (todaySum - lastSum)) / lastSum;
-        } catch (e) {}
+          if (dayData.length > 1) {
+            let lastSum = 0;
+            for (let i = 1; i < dayData.length; i++) {
+              lastSum += dayData[i].reduce((acc, curr) => acc + curr, 0);
+              series.push({
+                value: dayData[i],
+                name: legend[i],
+              });
+            }
+            lastSum /= dayData.length - 1;
+
+            benchmarkDay.value = (100 * (todaySum - lastSum)) / lastSum;
+          }
+        } catch (e) {
+          /* empty */
+        }
         console.log(indicator);
 
         setOptions3({
@@ -367,25 +417,7 @@
             // shape: 'circle',
             indicator: indicator,
           },
-          series: [
-            {
-              type: 'radar',
-              data: [
-                {
-                  value: dayData[0],
-                  name: '今日',
-                },
-                {
-                  value: dayData[1],
-                  name: '昨日',
-                },
-                {
-                  value: dayData[2],
-                  name: '前日',
-                },
-              ],
-            },
-          ],
+          series: series,
         });
 
         setOptions1({
@@ -449,6 +481,9 @@
         openMonthDetail,
         openDailyDetail,
         registerModal,
+        benchmark1,
+        benchmark2,
+        benchmark3,
       };
     },
   };

@@ -54,11 +54,16 @@
               <a-input-number v-model:value="ruleData.loadingProcessLimit" :min="1" :max="24" />
             </a-form-item>
           </a-form-item>
+          <a-form-item label="生产线总人员上限">
+            <a-form-item name="input-number" no-style>
+              <a-input-number v-model:value="ruleData.totalLimit" :min="1" :max="24" />
+            </a-form-item>
+          </a-form-item>
         </div>
       </a-form>
       <a-divider orientation="center"> 运行参数阈值设定 </a-divider>
       <div>
-        <BasicTable @register="registerTable" @edit-end="handleEdit"></BasicTable>
+        <BasicTable @register="registerTable" @edit-end="handleEdit" />
       </div>
     </a-card>
   </PageWrapper>
@@ -122,6 +127,7 @@
         packagingProcessLimit: 1,
         fillingProcessLimit: 1,
         loadingProcessLimit: 1,
+        totalLimit: 4,
       });
 
       const setConfig = async function (id) {
@@ -130,6 +136,7 @@
         ruleData.value.packagingProcessLimit = config.packagingProcessLimit;
         ruleData.value.fillingProcessLimit = config.fillingProcessLimit;
         ruleData.value.loadingProcessLimit = config.loadingProcessLimit;
+        ruleData.value.totalLimit = config.totalLimit;
       };
 
       const updateConfig = async () => {

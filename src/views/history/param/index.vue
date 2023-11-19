@@ -1,16 +1,7 @@
 <template>
   <PageWrapper title="参数超限多维对标分析">
     <a-card>
-      <a-form>
-        <a-form-item label="历史时间">
-          <a-range-picker
-            v-model:value="historyTime"
-            show-time
-            @change="historyTimeChange"
-            :placeholder="['开始时间', '结束时间']"
-          />
-        </a-form-item>
-      </a-form>
+      <UnitSelect @option-selected="handleOptionSelected" />
       <a-divider />
       <div class="grid md:grid-cols-3 gap-4">
         <div
@@ -100,16 +91,15 @@
   import { ref, Ref, onMounted } from 'vue';
   import { Form, FormItem, RangePicker, Divider, Card, Alert } from 'ant-design-vue';
   import { getBenchmarkEquipment, getBenchmarkTrend } from '/@/api/data/benchmark';
+  import UnitSelect from '../../warn/components/UnitSelect.vue';
 
   export default {
     components: {
       PageWrapper,
       ACard: Card,
-      AForm: Form,
-      AFormItem: FormItem,
       ADivider: Divider,
-      ARangePicker: RangePicker,
       Alert,
+      UnitSelect,
     },
     setup() {
       type RangeValue = [Dayjs, Dayjs];
@@ -120,6 +110,8 @@
       const rangeValue: RangeValue = [lastMonthDate, currentDate];
       historyTime.value = rangeValue;
 
+      const line = ref(1);
+
       const historyTimeChange = () => {
         setEquipmentTrend();
         setTotal();
@@ -129,6 +121,14 @@
         setEquipmentTrend();
         setTotal();
       });
+
+      const handleOptionSelected = (values) => {
+        console.log(values);
+        historyTime.value = values.time;
+        line.value = values.line;
+        setEquipmentTrend();
+        setTotal();
+      };
 
       const equipment = ref('');
       const maxCount = ref(0);
@@ -146,7 +146,7 @@
           st: dayjs(startDateDate).format('YYYY-MM-DD HH:mm:ss'),
           et: dayjs(endDateDate).format('YYYY-MM-DD HH:mm:ss'),
         };
-        const trendData = await getBenchmarkTrend(time);
+        const trendData = await getBenchmarkTrend(line.value, time);
         console.log(trendData);
 
         let index = 0;
@@ -278,8 +278,8 @@
           st: dayjs(startDateDate).format('YYYY-MM-DD HH:mm:ss'),
           et: dayjs(endDateDate).format('YYYY-MM-DD HH:mm:ss'),
         };
-        const data = await getBenchmarkEquipment(time);
-        names.value = data.equipments.join(',');
+        const data = await getBenchmarkEquipment(line.value, time);
+        names.value = data.equipments.slice(0, 3).join(',');
         console.log(data);
         let trendSeries: any[] = [];
         let legendSelect = {};
@@ -362,7 +362,7 @@
             },
           ],
         });
-        equipmentCounts.value = data.equipmentMax.join('次、') + '次';
+        equipmentCounts.value = data.equipmentMax.slice(0, 3).join('次、') + '次';
         let option3Max = Math.max(...data.equipmentMax);
         let option3Data: any[] = [];
         for (let i = 0; i < data.equipmentMax.length; i++) {
@@ -466,6 +466,7 @@
         names,
         equipmentCounts,
         trendSummary,
+        handleOptionSelected,
       };
     },
   };

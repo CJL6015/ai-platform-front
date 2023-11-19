@@ -1,16 +1,7 @@
 <template>
   <PageWrapper title="设备安全状态分析">
     <a-card>
-      <a-form>
-        <a-form-item label="历史时间">
-          <a-range-picker
-            v-model:value="historyTime"
-            show-time
-            @change="historyTimeChange"
-            :placeholder="['开始时间', '结束时间']"
-          />
-        </a-form-item>
-      </a-form>
+      <UnitSelect @option-selected="handleOptionSelected" />
       <a-divider />
       <div class="grid md:grid-cols-5 gap-4">
         <div
@@ -148,6 +139,8 @@
   import { PageWrapper } from '/@/components/Page';
   import { ref, Ref, onMounted } from 'vue';
   import { Form, FormItem, RangePicker, Divider, Card } from 'ant-design-vue';
+  import { getScoreApi } from '/@/api/risk/score';
+  import UnitSelect from '../../warn/components/UnitSelect.vue';
 
   export default {
     components: {
@@ -157,6 +150,7 @@
       AFormItem: FormItem,
       ADivider: Divider,
       ARangePicker: RangePicker,
+      UnitSelect,
     },
     setup() {
       type RangeValue = [Dayjs, Dayjs];
@@ -165,6 +159,14 @@
       const lastMonthDate: Dayjs = currentDate.subtract(1, 'month');
       const rangeValue: RangeValue = [lastMonthDate, currentDate];
       historyTime.value = rangeValue;
+      const line = ref(1);
+
+      const handleOptionSelected = (values) => {
+        console.log(values);
+        historyTime.value = values.time;
+        line.value = values.line;
+        getScores();
+      };
 
       let chartRefs = [];
       for (let i = 0; i < 25; i++) {
@@ -175,9 +177,17 @@
         const { setOptions } = useECharts(chartRefs[i] as Ref<HTMLDivElement>);
         setOpts.push(setOptions);
       }
-
-      onMounted(async () => {
-        for (let i = 0; i < chartRefs.length; i++) {
+      async function getScores() {
+        const [startDate, endDate] = historyTime.value;
+        const startDateDate = startDate.toDate();
+        const endDateDate = endDate.toDate();
+        const time = {
+          st: dayjs(startDateDate).format('YYYY-MM-DD') + ' 00:00:00',
+          et: dayjs(endDateDate).format('YYYY-MM-DD') + ' 23:59:59',
+        };
+        const data = await getScoreApi(line.value, time);
+        console.log(data);
+        for (let i = 0; i < data.length; i++) {
           setOpts[i]({
             tooltip: {
               formatter: '{a} <br/>{b} : {c}%',
@@ -195,14 +205,18 @@
                 },
                 data: [
                   {
-                    value: 50,
-                    name: '油相储罐',
+                    value: data[i].score.toFixed(2),
+                    name: data[i].name,
                   },
                 ],
               },
             ],
           });
         }
+      }
+
+      onMounted(async () => {
+        for (let i = 0; i < chartRefs.length; i++) {}
       });
 
       const historyTimeChange = () => {};
@@ -211,6 +225,7 @@
         historyTime,
         historyTimeChange,
         chartRefs,
+        handleOptionSelected,
       };
     },
   };
