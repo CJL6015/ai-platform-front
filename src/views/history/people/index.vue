@@ -1,15 +1,7 @@
 <template>
   <PageWrapper title="定员超限多维对标分析">
     <a-card>
-      <a-form>
-        <a-form-item label="历史时间">
-          <a-range-picker
-            v-model:value="historyTime"
-            show-time
-            :placeholder="['开始时间', '结束时间']"
-          />
-        </a-form-item>
-      </a-form>
+      <UnitSelect @option-selected="handleOptionSelected" />
       <a-divider />
       <div class="grid md:grid-cols-3 gap-4">
         <div
@@ -48,18 +40,11 @@
               ><div style="width: 100%; height: 220px; overflow-y: scroll"
                 ><span style="font-size: 18px; font-weight: bold"
                   >超限走势分析结论:<br />
-                  1.制药工序超限整体呈现<span style="color: red; font-size: 22px">下降趋势</span
-                  ><br />
-                  2.装药工序1超限整体呈现<span style="color: red; font-size: 22px">上升趋势</span
-                  ><br />
-                  3.装药工序2超限整体呈现<span style="color: red; font-size: 22px">上升趋势</span
-                  ><br />
-                  4.包装工序超限整体呈现<span style="color: red; font-size: 22px">下降趋势</span
-                  ><br />
-                  5.装车工序超限整体呈现<span style="color: red; font-size: 22px">下降趋势</span
-                  ><br />
-                  6.整体超限次数呈现<span style="color: red; font-size: 22px">下降趋势</span
-                  ><br /></span></div></template
+                  <span v-for="summary in trendSummary" :key="summary['key']">
+                    {{ summary['key'] }}.{{ summary['name'] }}定员超限整体呈现<span
+                      style="color: red; font-size: 22px"
+                      >{{ summary['trend'] }}</span
+                    ><br /></span></span></div></template
           ></Alert>
         </div>
         <div>
@@ -67,9 +52,13 @@
             <template #message
               ><span style="font-size: 18px; font-weight: bold"
                 >超限高峰时间和工序位置分析结论:<br />
-                1.定员超限占比最高的工序为<span style="color: red; font-size: 22px">装药工序1</span
+                1.定员超限占比最高的工序为<span style="color: red; font-size: 22px">{{
+                  process
+                }}</span
                 >,有提升的空间<br />
-                2.定员超限最高发的时间为<span style="color: red; font-size: 22px">09:00-10:00</span
+                2.定员超限最高发的时间为<span style="color: red; font-size: 22px">{{
+                  maxHour
+                }}</span
                 >,可加强该时段的监控<br /></span></template
           ></Alert>
         </div>
@@ -78,13 +67,12 @@
             <template #message
               ><span style="font-size: 18px; font-weight: bold"
                 >超限峰值分析结论:<br />
-                1.定员超限单日最高为<span style="color: red; font-size: 22px">15次</span>,于<span
-                  style="color: red; font-size: 22px"
-                  >2023-03-06</span
+                1.定员超限单日最高为<span style="color: red; font-size: 22px">{{ maxCount }}次</span
+                >,于<span style="color: red; font-size: 22px">{{ maxTime }}</span
                 >发生<br />
-                1.制药工序、装药工序1、装药工序2、包装工序、装车工序定员超限分别为<span
-                  style="color: red; font-size: 22px"
-                  >5次、2次、4次、2次、3次</span
+                2.{{ names }}定员超限分别为<span style="color: red; font-size: 22px">{{
+                  peopleCounts
+                }}</span
                 ><br /></span></template
           ></Alert>
         </div>
@@ -98,16 +86,16 @@
   import { PageWrapper } from '/@/components/Page';
   import { computed, ref, watch, Ref, onMounted } from 'vue';
   import { Form, FormItem, RangePicker, Divider, Card, Alert } from 'ant-design-vue';
+  import UnitSelect from '../../warn/components/UnitSelect.vue';
+  import { getBenchmarkDetection, getBenchmarkDetectionTrend } from '/@/api/data/benchmark';
 
   export default {
     components: {
       PageWrapper,
       ACard: Card,
-      AForm: Form,
-      AFormItem: FormItem,
       ADivider: Divider,
-      ARangePicker: RangePicker,
       Alert,
+      UnitSelect,
     },
     setup() {
       type RangeValue = [Dayjs, Dayjs];
@@ -130,141 +118,47 @@
       const { setOptions: setOptions4 } = useECharts(chartRef4 as Ref<HTMLDivElement>);
       const { setOptions: setOptions5 } = useECharts(chartRef5 as Ref<HTMLDivElement>);
       const { setOptions: setOptions6 } = useECharts(chartRef6 as Ref<HTMLDivElement>);
-      onMounted(() => {
-        setOptions1({
-          title: {
-            text: '各道工序超限趋势',
-          },
-          tooltip: {
-            trigger: 'axis',
-          },
-          legend: {
-            data: ['制药工序', '装药工序1', '装药工序2', '包装工序', '装车工序'],
-          },
-          grid: {
-            left: '3%',
-            right: '4%',
-            bottom: '3%',
-            containLabel: true,
-          },
-          toolbox: {
-            feature: {
-              saveAsImage: {},
-            },
-          },
-          xAxis: {
-            type: 'category',
-            boundaryGap: false,
-            data: [
-              '2023-09-25',
-              '2023-09-26',
-              '2023-09-27',
-              '2023-09-28',
-              '2023-09-29',
-              '2023-09-30',
-              '2023-10-01',
-            ],
-          },
-          yAxis: {
-            type: 'value',
-          },
-          series: [
-            {
-              name: '制药工序',
-              type: 'line',
-              stack: 'Total',
-              data: [120, 132, 101, 134, 90, 230, 210],
-            },
-            {
-              name: '装药工序1',
-              type: 'line',
-              stack: 'Total',
-              data: [220, 182, 191, 234, 290, 330, 310],
-            },
-            {
-              name: '装药工序2',
-              type: 'line',
-              stack: 'Total',
-              data: [150, 232, 201, 154, 190, 330, 410],
-            },
-            {
-              name: '包装工序',
-              type: 'line',
-              stack: 'Total',
-              data: [320, 332, 301, 334, 390, 330, 320],
-            },
-            {
-              name: '包装工序',
-              type: 'line',
-              stack: 'Total',
-              data: [820, 932, 901, 934, 1290, 1330, 1320],
-            },
-            {
-              name: '装车工序',
-              type: 'line',
-              stack: 'Total',
-              data: [820, 932, 901, 934, 1290, 1330, 1320],
-            },
-          ],
-        });
-      });
-      onMounted(() => {
-        setOptions2({
-          title: {
-            text: '超限份额统计',
-          },
-          tooltip: {
-            trigger: 'item',
-            formatter: '{a} <br/>{b} : {c} ({d}%)',
-          },
-          series: [
-            {
-              name: '超限份额',
-              type: 'pie',
-              radius: [0, 140],
-              center: ['50%', '50%'],
-              data: [
-                { value: 30, name: '制药工序' },
-                { value: 28, name: '装药工序1' },
-                { value: 12, name: '装药工序2' },
-                { value: 56, name: '包装工序' },
-                { value: 21, name: '装车工序' },
-              ],
-            },
-          ],
-        });
-      });
-      onMounted(() => {
-        setOptions3({
-          title: {
-            text: '工序超员峰值统计',
-          },
-          radar: {
-            // shape: 'circle',
-            indicator: [
-              { name: '制药工序', max: 6500 },
-              { name: '装药工序1', max: 16000 },
-              { name: '装药工序2', max: 30000 },
-              { name: '包装工序', max: 38000 },
-              { name: '装车工序', max: 52000 },
-            ],
-          },
-          series: [
-            {
-              name: '工序超员峰值统计',
-              type: 'radar',
-              data: [
-                {
-                  value: [4200, 3000, 20000, 3500, 50000, 18000],
-                  name: 'Allocated Budget',
-                },
-              ],
-            },
-          ],
-        });
-      });
 
-      onMounted(() => {
+      const line = ref(1);
+      const names = ref('');
+      const process = ref('');
+
+      const handleOptionSelected = (values) => {
+        console.log(values);
+        historyTime.value = values.time;
+        line.value = values.line;
+        setChart1();
+        setTotal();
+      };
+
+      const maxCount = ref(0);
+      const maxTime = ref('');
+      const maxHour = ref('');
+      const peopleCounts = ref('');
+      const trendSummary = ref([]);
+
+      const setTotal = async () => {
+        const [startDate, endDate] = historyTime.value;
+        const startDateDate = startDate.toDate();
+        const endDateDate = endDate.toDate();
+        const time = {
+          st: dayjs(startDateDate).format('YYYY-MM-DD HH:mm:ss'),
+          et: dayjs(endDateDate).format('YYYY-MM-DD HH:mm:ss'),
+        };
+        const trendData = await getBenchmarkDetectionTrend(line.value, time);
+        console.log(trendData);
+
+        let index = 0;
+        let max = trendData.trend[0][1];
+        for (let i = 0; i < trendData.trend.length; i++) {
+          if (trendData.trend[i][1] > max) {
+            max = trendData.trend[i][1];
+            index = i;
+          }
+        }
+        maxCount.value = trendData.trend[index][1];
+        maxTime.value = trendData.trend[index][0];
+
         setOptions4({
           title: {
             text: '生产线超员总次数',
@@ -277,9 +171,6 @@
                 backgroundColor: '#6a7985',
               },
             },
-          },
-          legend: {
-            data: ['乳化3线'],
           },
           toolbox: {
             feature: {
@@ -296,15 +187,6 @@
             {
               type: 'category',
               boundaryGap: false,
-              data: [
-                '2023-09-25',
-                '2023-09-26',
-                '2023-09-27',
-                '2023-09-28',
-                '2023-09-29',
-                '2023-09-30',
-                '2023-10-01',
-              ],
             },
           ],
           yAxis: [
@@ -314,20 +196,38 @@
           ],
           series: [
             {
-              name: '乳化3线',
+              name: 'Email',
               type: 'line',
-              stack: 'Total',
-              areaStyle: {},
               emphasis: {
                 focus: 'series',
               },
-              data: [120, 132, 101, 134, 90, 230, 210],
+              markPoint: {
+                data: [
+                  { type: 'max', name: 'Max' },
+                  { type: 'min', name: 'Min' },
+                ],
+              },
+              markLine: {
+                data: [{ type: 'average', name: 'Avg' }],
+                label: {
+                  show: true,
+                  position: 'middle',
+                  formatter: '平均超限次数: {c}',
+                },
+              },
+              data: trendData.trend,
             },
           ],
         });
-      });
 
-      onMounted(() => {
+        const hoursArray = Array.from(
+          { length: 24 },
+          (_, index) => index.toString().padStart(2, '0') + '时',
+        );
+        const hourIndex = trendData.hours.indexOf(Math.max(...trendData.hours));
+        maxHour.value = `${hourIndex.toString().padStart(2, '0')}:00-${(hourIndex + 1)
+          .toString()
+          .padStart(2, '0')}:00`;
         setOptions5({
           title: {
             text: '超限时段统计',
@@ -347,15 +247,7 @@
           xAxis: [
             {
               type: 'category',
-              data: [
-                '10月05日14时',
-                '10月05日15时',
-                '10月05日16时',
-                '10月05日17时',
-                '10月05日18时',
-                '10月05日19时',
-                '10月05日20时',
-              ],
+              data: hoursArray,
               axisTick: {
                 alignWithLabel: true,
               },
@@ -371,32 +263,151 @@
               name: 'Direct',
               type: 'bar',
               barWidth: '60%',
-              data: [10, 52, 200, 334, 390, 330, 220],
+              data: trendData.hours,
             },
           ],
         });
-      });
+      };
 
-      onMounted(() => {
+      async function setChart1() {
+        const [startDate, endDate] = historyTime.value;
+        const startDateDate = startDate.toDate();
+        const endDateDate = endDate.toDate();
+        const time = {
+          st: dayjs(startDateDate).format('YYYY-MM-DD HH:mm:ss'),
+          et: dayjs(endDateDate).format('YYYY-MM-DD HH:mm:ss'),
+        };
+        const data = await getBenchmarkDetection(line.value, time);
+        let trendSeries: any[] = [];
+        let summary: any = [];
+        names.value = data.names.join(',');
+        for (let i = 0; i < data.values.length; i++) {
+          trendSeries.push({
+            name: data.names[i],
+            type: 'line',
+            data: data.values[i],
+          });
+          summary.push({
+            key: i + 1,
+            name: data.names[i],
+            trend: data.trend[i],
+          });
+        }
+        trendSummary.value = summary;
+        setOptions1({
+          title: {
+            text: '各道工序超限趋势',
+          },
+          tooltip: {
+            trigger: 'axis',
+          },
+          legend: {
+            type: 'scroll',
+            left: 400,
+            right: 30,
+            top: 0,
+            bottom: 20,
+            data: data.names,
+          },
+          grid: {
+            left: '3%',
+            right: '4%',
+            bottom: '3%',
+            containLabel: true,
+          },
+          xAxis: {
+            type: 'category',
+            boundaryGap: false,
+          },
+          yAxis: {
+            type: 'value',
+          },
+          series: trendSeries,
+        });
+
+        let option2Data: any[] = [];
+        process.value = data.names[data.counts.indexOf(Math.max(...data.counts))];
+        for (let i = 0; i < data.counts.length; i++) {
+          option2Data.push({ value: data.counts[i], name: data.names[i] });
+        }
+        peopleCounts.value = data.counts.join('次、') + '次';
+        setOptions2({
+          title: {
+            text: '超限份额统计',
+          },
+          tooltip: {
+            trigger: 'item',
+            formatter: '{a} <br/>{b} : {c} ({d}%)',
+          },
+          series: [
+            {
+              name: '超限份额统计',
+              type: 'pie',
+              radius: [0, 140],
+              center: ['50%', '50%'],
+              data: option2Data,
+              label: {
+                show: true,
+              },
+            },
+          ],
+        });
+
+        let option3Max = Math.max(...data.countMax);
+        let option3Data: any[] = [];
+        for (let i = 0; i < data.countMax.length; i++) {
+          option3Data.push({
+            name: data.names[i] + `  (${data.countMax[i]})`,
+            max: option3Max,
+          });
+        }
+        setOptions3({
+          title: {
+            text: '工序超员峰值统计',
+          },
+          tooltip: {
+            trigger: 'item',
+          },
+          radar: {
+            // shape: 'circle',
+            indicator: option3Data,
+          },
+          series: [
+            {
+              type: 'radar',
+              data: [
+                {
+                  value: data.countMax,
+                  name: '设备超限峰值统计',
+                  areaStyle: {
+                    color: 'rgba(255, 145, 124, 0.9)',
+                  },
+                  lineStyle: {
+                    type: 'dashed',
+                  },
+                },
+              ],
+            },
+          ],
+        });
+
+        let option4Data: any[] = [];
+        let option4Max = Math.max(...data.peopleMax);
+        for (let i = 0; i < data.peopleMax.length; i++) {
+          option4Data.push({
+            name: data.peopleMax[i] + `  (${data.peopleMax[i]})`,
+            max: option4Max,
+          });
+        }
+
         setOptions6({
           title: {
             text: '超员人数峰值统计',
           },
           radar: {
-            // shape: 'circle',
-            indicator: [
-              { name: '制药工序', max: 6500 },
-              { name: '装药工序1', max: 16000 },
-              { name: '装药工序2', max: 30000 },
-              { name: '包装工序', max: 38000 },
-              { name: '装车工序', max: 52000 },
-            ],
-            radius: 120,
-            startAngle: 90,
-            splitNumber: 4,
-            shape: 'circle',
+            indicator: option4Data,
             axisName: {
-              formatter: '【{value}】',
+              formatter: '{value}',
               color: '#428BD4',
             },
           },
@@ -406,15 +417,14 @@
               type: 'radar',
               data: [
                 {
-                  value: [5000, 14000, 28000, 26000, 42000, 21000],
-                  name: 'Actual Spending',
+                  value: data.peopleMax,
+                  name: 'Allocated Budget',
                 },
               ],
             },
           ],
         });
-      });
-
+      }
       return {
         historyTime,
         chartRef1,
@@ -423,6 +433,14 @@
         chartRef4,
         chartRef5,
         chartRef6,
+        handleOptionSelected,
+        maxTime,
+        maxCount,
+        maxHour,
+        peopleCounts,
+        trendSummary,
+        names,
+        process,
       };
     },
   };

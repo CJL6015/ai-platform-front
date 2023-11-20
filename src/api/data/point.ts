@@ -21,7 +21,8 @@ export const getTrendMonth = (id: any, params: any) =>
 export const getTrendDaily = (id: any, params: any) =>
   defHttp.get<any>({ url: Api.DAILY_TREND + id, params });
 
-export const getBenchmark = (id: any) => defHttp.get<any>({ url: Api.BENCHMARK + id });
+export const getBenchmark = (id: any, params: any) =>
+  defHttp.get<any>({ url: Api.BENCHMARK + id, params });
 export const getTrendDetailMonth = (id: any) =>
   defHttp.get<any>({ url: Api.TREND_DETAIL_MONTH + id });
 

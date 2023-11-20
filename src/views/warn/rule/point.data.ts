@@ -35,14 +35,15 @@ export const columns: BasicColumn[] = [
     edit: true,
   },
   {
-    title: '持续时间阈值(分钟)',
-    dataIndex: 'threshold',
+    title: '超高/低限扣分',
+    dataIndex: 'score',
     sorter: true,
     edit: true,
   },
   {
-    title: '该测点历史平均超限时间(小时)',
-    dataIndex: 'duration',
+    title: '超高高/低低限扣分',
+    dataIndex: 'highScore',
     sorter: true,
+    edit: true,
   },
 ];

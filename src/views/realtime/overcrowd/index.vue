@@ -24,7 +24,14 @@
           </a-col>
           <a-col :md="5">
             <a-form-item name="input-number" label="巡检间隔">
-              <a-input-number :min="0.5" :max="24" step="0.5" addon-after="小时" value="1" />
+              <a-input-number
+                :min="0.01"
+                :max="24"
+                step="1"
+                addon-after="小时"
+                v-model:value="step"
+                disabled
+              />
             </a-form-item>
           </a-col>
           <a-col :md="1">
@@ -66,13 +73,13 @@
           <a-card style="width: 95%" title="制药工序">
             <template #cover>
               <!-- <a-image alt="example" src="http://114.55.245.123/api/static/images/制药工序.png" /> -->
-              <a-image alt="example" :src="photo1" />
+              <a-image alt="制药工序" :src="photo1" style="aspect-ratio: 16/9" />
             </template>
             <a-card-meta>
               <template #description>
                 <a-from>
                   <a-form-item label="定员人数">
-                    <a-input-number v-model:value="value1" />
+                    <a-input-number v-model:value="value1" disabled />
                   </a-form-item>
                   <a-form-item label="识别人数">
                     <a-input-number v-model:value="value2" />
@@ -88,12 +95,12 @@
           <a-card style="width: 95%" title="装药工序1">
             <template #cover>
               <!-- <a-image alt="example" src="http://114.55.245.123/api/static/images/制药工序1.png" /> -->
-              <a-image alt="example" :src="photo2" />
+              <a-image alt="example" :src="photo2" style="aspect-ratio: 16/9" />
             </template>
             <a-card-meta>
               <template #description>
                 <a-form-item label="定员人数">
-                  <a-input-number v-model:value="value3" />
+                  <a-input-number v-model:value="value3" disabled />
                 </a-form-item>
                 <a-form-item label="识别人数">
                   <a-input-number v-model:value="value4" />
@@ -108,12 +115,12 @@
           <a-card style="width: 95%" title="装药工序2">
             <template #cover>
               <!-- <a-image alt="example" src="http://114.55.245.123/api/static/images/装药工序2.png" /> -->
-              <a-image alt="example" :src="photo3" />
+              <a-image alt="example" :src="photo3" style="aspect-ratio: 16/9" />
             </template>
             <a-card-meta>
               <template #description>
                 <a-form-item label="定员人数">
-                  <a-input v-model:value="value5" />
+                  <a-input v-model:value="value5" disabled />
                 </a-form-item>
                 <a-form-item label="识别人数">
                   <a-input v-model:value="value6" />
@@ -128,12 +135,12 @@
           <a-card style="width: 95%" title="包装工序">
             <template #cover>
               <!-- <a-image alt="example" src="http://114.55.245.123/api/static/images/包装工序.jpg" /> -->
-              <a-image alt="example" :src="photo4" />
+              <a-image alt="example" :src="photo4" style="aspect-ratio: 16/9" />
             </template>
             <a-card-meta>
               <template #description>
                 <a-form-item label="定员人数">
-                  <a-input-number v-model:value="value7" />
+                  <a-input-number v-model:value="value7" disabled />
                 </a-form-item>
                 <a-form-item label="识别人数">
                   <a-input-number v-model:value="value8" />
@@ -148,12 +155,12 @@
           <a-card style="width: 95%" title="装车工序">
             <template #cover>
               <!-- <a-image alt="example" src="http://114.55.245.123/api/static/images/装车工序.jpg" /> -->
-              <a-image alt="example" :src="photo5" />
+              <a-image alt="example" :src="photo5" style="aspect-ratio: 16/9" />
             </template>
             <a-card-meta>
               <template #description>
                 <a-form-item label="定员人数">
-                  <a-input-number v-model:value="value9" />
+                  <a-input-number v-model:value="value9" disabled />
                 </a-form-item>
                 <a-form-item label="识别人数">
                   <a-input-number v-model:value="value10" />
@@ -371,8 +378,10 @@
 
       const detectionTime = ref('');
 
+      const step = ref(1);
+
       const getLastResult = () => {
-        const lastTime = getTime(1);
+        const lastTime = getTime();
         fetchResult(ips, lastTime);
       };
 
@@ -414,8 +423,9 @@
         }
       };
 
-      const getTime = (step) => {
+      const getTime = () => {
         const dateString = detectionTime.value;
+        const stepVal = step.value;
         const matches = dateString.match(/(\d{1,2})月(\d{1,2})日(\d{1,2})时/);
         if (matches) {
           const month = parseInt(matches[1]);
@@ -429,7 +439,7 @@
           const date = dayjs(`${currentYear}-${month}-${day}T${hour}:00:00`);
 
           // 减去1小时
-          const updatedDate = date.subtract(step, 'hour');
+          const updatedDate = date.subtract(stepVal, 'hour');
 
           // 输出更新后的时间对象
           console.log(updatedDate.toString());
@@ -680,6 +690,7 @@
         dailySlope,
         lastCount,
         lastDay,
+        step,
       };
     },
   };

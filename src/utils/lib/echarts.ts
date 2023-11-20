@@ -9,6 +9,7 @@ import {
   RadarChart,
   ScatterChart,
   HeatmapChart,
+  GaugeChart,
 } from 'echarts/charts';
 
 import {
@@ -58,6 +59,7 @@ echarts.use([
   MarkPointComponent,
   HeatmapChart,
   ScatterChart,
+  GaugeChart,
 ]);
 
 export default echarts;
