@@ -256,7 +256,10 @@
       async function handleEdit(record) {
         const value = toRaw(record);
         console.log(value);
-        const res = await unfreezeInspection(value.id);
+        const param = {
+          img: record.imageUrl[0],
+        };
+        const res = await unfreezeInspection(param);
         if (res) {
           createMessage.success('解冻成功');
           getHistory(formData.value.line);
