@@ -28,6 +28,15 @@ const analysis: AppRouteModule = {
         title: '多产线安全行自由对标分析',
       },
     },
+    {
+      path: 'report',
+      name: 'report',
+      component: () => import('/@/views/analysis/benchmark/Report.vue'),
+      meta: {
+        title: '报表',
+        hideMenu: true,
+      },
+    },
   ],
 };
 

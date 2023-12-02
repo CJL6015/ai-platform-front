@@ -7,6 +7,7 @@
           style="width: 100%"
           @change="onPlantChange"
           :options="plantData.map((plant) => ({ value: plant['id'], label: plant['name'] }))"
+          disabled
         />
       </a-form-item>
     </a-col>
@@ -259,6 +260,7 @@
         const param = {
           img: record.imageUrl[0],
         };
+        console.log(param);
         const res = await unfreezeInspection(param);
         if (res) {
           createMessage.success('解冻成功');
@@ -295,10 +297,12 @@
         const options = await optionListApi();
         plantData.value = options.plantOptions;
         lineData.value = options.linesOptions;
-        formData.value.plant = plantData.value[0]['id'];
-        formData.value.line = lineData.value[0]['id'];
-        setConfig(lineData.value[0]['id']);
-        getHistory(lineData.value[0]['id']);
+        formData.value.plant = localStorage.getItem('plantId')
+          ? parseInt(localStorage.getItem('plantId'))
+          : plantData.value[0]['id'];
+        await onPlantChange(formData.value.plant);
+        setConfig(formData.value.line);
+        getHistory(formData.value.line);
       });
       const submitForm = () => {
         setConfig(formData.value.line);

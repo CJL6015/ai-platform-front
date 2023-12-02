@@ -22,8 +22,7 @@ export const updateInspectionConfig = (params: any) =>
 export const freezeInspection = (id: any, params: any) =>
   defHttp.post<any>({ url: Api.FREEZE + id, params });
 
-export const unfreezeInspection = (params: any) =>
-  defHttp.delete<any>({ url: Api.UNFREEZE, params });
+export const unfreezeInspection = (params: any) => defHttp.get<any>({ url: Api.UNFREEZE, params });
 
 export const getWarnRuleConfig = (id: any) => defHttp.get<any>({ url: Api.WARN_RULE_CONFIG + id });
 

@@ -1,0 +1,390 @@
+import { on } from 'codemirror';
+<template>
+  <div
+    ><h1 style="text-align: center"><b>集团安全性综合监控</b></h1
+    ><a-row>
+      <a-col :md="16"> <div ref="chartRef1" style="height: 870px; widows: 100%"></div></a-col
+      ><a-col :md="8">
+        <a-row>
+          <a-col :md="12">
+            <div style="border: 1px solid #ccc; text-align: center"><h3>集团安全评分</h3></div>
+
+            <div ref="chartRef2" style="widows: 100%; height: 200px; border: 1px solid #ccc"></div>
+          </a-col>
+          <a-col :md="12">
+            <div style="border: 1px solid #ccc; text-align: center"><h3>集团产线投运比</h3></div>
+
+            <div ref="chartRef3" style="widows: 100%; height: 200px; border: 1px solid #ccc"></div>
+          </a-col>
+        </a-row>
+        <h3 style="text-align: center">动态标杆资产</h3>
+        <a-descriptions size="middle" :column="2" bordered>
+          <a-descriptions-item label="对比类目">公司</a-descriptions-item>
+          <a-descriptions-item label="产线">安全分治</a-descriptions-item>
+          <a-descriptions-item label="分子公司">荆门公司</a-descriptions-item>
+          <a-descriptions-item label="">97</a-descriptions-item>
+          <a-descriptions-item label="乳化产线">荆门公司</a-descriptions-item>
+          <a-descriptions-item label="乳化三线">95</a-descriptions-item>
+          <a-descriptions-item label="膨化产线">荆门公司</a-descriptions-item>
+          <a-descriptions-item label="膨化产线">94</a-descriptions-item>
+          <a-descriptions-item label="雷管产线">凌河公司</a-descriptions-item>
+          <a-descriptions-item label="雷管3期A线">96</a-descriptions-item>
+          <a-descriptions-item label="成品仓库">荆门公司</a-descriptions-item>
+          <a-descriptions-item label="14号仓库">100</a-descriptions-item>
+        </a-descriptions>
+        <h3 style="text-align: center">待提升资产</h3>
+        <a-descriptions size="middle" :column="2" bordered>
+          <a-descriptions-item label="对比类目">公司</a-descriptions-item>
+          <a-descriptions-item label="产线">安全分治</a-descriptions-item>
+          <a-descriptions-item label="分子公司">荆门公司</a-descriptions-item>
+          <a-descriptions-item label="">79</a-descriptions-item>
+          <a-descriptions-item label="乳化产线">荆门公司</a-descriptions-item>
+          <a-descriptions-item label="乳化三线">72</a-descriptions-item>
+          <a-descriptions-item label="膨化产线">荆门公司</a-descriptions-item>
+          <a-descriptions-item label="膨化产线">82</a-descriptions-item>
+          <a-descriptions-item label="雷管产线">凌河公司</a-descriptions-item>
+          <a-descriptions-item label="雷管3期A线">76</a-descriptions-item>
+          <a-descriptions-item label="成品仓库">荆门公司</a-descriptions-item>
+          <a-descriptions-item label="14号仓库">89</a-descriptions-item>
+        </a-descriptions></a-col
+      ></a-row
+    >
+    <div class="grid md:grid-cols-5 gap-0">
+      <a-card style="width: 99%; height: 350px" title="分子公司">
+        <template #cover>
+          <div ref="chartRef4" style="height: 250px; widows: 100%"></div>
+        </template>
+      </a-card>
+      <a-card style="width: 99%; height: 350px" title="乳化产线">
+        <template #cover>
+          <div ref="chartRef5" style="height: 250px; widows: 100%"></div>
+        </template>
+      </a-card>
+      <a-card style="width: 99%; height: 350px" title="膨化产线">
+        <template #cover>
+          <div ref="chartRef6" style="height: 250px; widows: 100%"></div>
+        </template>
+      </a-card>
+      <a-card style="width: 99%; height: 350px" title="雷管产线">
+        <template #cover>
+          <div ref="chartRef7" style="height: 250px; widows: 100%"></div>
+        </template>
+      </a-card>
+      <a-card style="width: 99%; height: 350px" title="成品仓库">
+        <template #cover>
+          <div ref="chartRef8" style="height: 250px; widows: 100%"></div>
+        </template>
+      </a-card>
+    </div>
+  </div>
+</template>
+
+<script lang="ts">
+  import { PageWrapper } from '/@/components/Page';
+  import { ref, Ref, onMounted, watch } from 'vue';
+  import { useECharts } from '/@/hooks/web/useECharts';
+  import {
+    Form,
+    Select,
+    Row,
+    Col,
+    Card,
+    CardMeta,
+    InputNumber,
+    Divider,
+    Alert,
+    Button,
+    Descriptions,
+  } from 'ant-design-vue';
+  import { registerMap } from 'echarts';
+  import { useGo } from '/@/hooks/web/usePage';
+
+  export default {
+    components: {
+      PageWrapper,
+      ACard: Card,
+      ARow: Row,
+      ACol: Col,
+      ADescriptions: Descriptions,
+      [Descriptions.Item.name]: Descriptions.Item,
+    },
+    setup() {
+      const go = useGo();
+      const chartRef1 = ref<HTMLDivElement | null>(null);
+      const chartRef2 = ref<HTMLDivElement | null>(null);
+      const chartRef3 = ref<HTMLDivElement | null>(null);
+      const chartRef4 = ref<HTMLDivElement | null>(null);
+      const chartRef5 = ref<HTMLDivElement | null>(null);
+      const chartRef6 = ref<HTMLDivElement | null>(null);
+      const chartRef7 = ref<HTMLDivElement | null>(null);
+      const chartRef8 = ref<HTMLDivElement | null>(null);
+      const { setOptions: setOptions1, getInstance } = useECharts(chartRef1 as Ref<HTMLDivElement>);
+      const { setOptions: setOptions2 } = useECharts(chartRef2 as Ref<HTMLDivElement>);
+      const { setOptions: setOptions3 } = useECharts(chartRef3 as Ref<HTMLDivElement>);
+      const { setOptions: setOptions4 } = useECharts(chartRef4 as Ref<HTMLDivElement>);
+      const { setOptions: setOptions5 } = useECharts(chartRef5 as Ref<HTMLDivElement>);
+      const { setOptions: setOptions6 } = useECharts(chartRef6 as Ref<HTMLDivElement>);
+      const { setOptions: setOptions7 } = useECharts(chartRef7 as Ref<HTMLDivElement>);
+      const { setOptions: setOptions8 } = useECharts(chartRef8 as Ref<HTMLDivElement>);
+      onMounted(async () => {
+        const json = (await (await import('./china.json')).default) as any;
+        registerMap('china', json);
+        setOptions1({
+          backgroundColor: '#1d5885',
+          geo: {
+            map: 'china',
+            silent: true,
+            itemStyle: {
+              color: '#004981',
+              borderColor: 'rgb(54,192,118)',
+            },
+            zoom: 1.8,
+          },
+          series: [
+            {
+              zlevel: 1,
+              type: 'effectScatter',
+              coordinateSystem: 'geo',
+              itemStyle: {
+                //坐标点颜色
+                normal: {
+                  show: true,
+                  color: '#f4e925',
+                  shadowBlur: 10,
+                  shadowColor: '#333',
+                },
+                emphasis: {
+                  areaColor: '#f4e925',
+                },
+              },
+              label: {
+                formatter: '{b}',
+                position: 'right',
+                show: true,
+              },
+              data: [
+                {
+                  name: '荆门总部',
+                  value: [112.204251, 31.03542, 2],
+                },
+                {
+                  name: '辽宁凌河',
+                  value: [121.15089, 41.11496, 3],
+                },
+              ],
+            },
+            {
+              type: 'lines',
+              zlevel: 0,
+              effect: {
+                show: true,
+                period: 10,
+                trailLength: 0.7,
+                color: '#fff',
+                symbol: 'arrow',
+                symbolSize: 6,
+              },
+              lineStyle: {
+                normal: {
+                  color: '#fff',
+                  width: 1.5,
+                  curveness: 0.2,
+                  shadowColor: '#fff',
+                },
+              },
+              data: [
+                {
+                  fromName: 1,
+                  toName: 1,
+                  coords: [
+                    [112.204251, 31.03542, 100],
+                    [121.15089, 41.11496],
+                  ],
+                },
+              ],
+            },
+          ],
+        });
+
+        getInstance().on('click', function (params) {
+          if (params['componentSubType'] === 'effectScatter') {
+            localStorage.setItem('plantId', params['data']['value'][2]);
+            go(`/warn/history`);
+          }
+        });
+
+        setOptions2({
+          series: [
+            {
+              type: 'gauge',
+              progress: {
+                show: true,
+                width: 6,
+              },
+              axisLine: {
+                lineStyle: {
+                  width: 5,
+                },
+              },
+              axisTick: {
+                show: false,
+              },
+              splitLine: {
+                length: 10,
+                lineStyle: {
+                  width: 1,
+                  color: '#999',
+                },
+              },
+              axisLabel: {
+                distance: 2,
+                color: '#999',
+                fontSize: 10,
+              },
+              anchor: {
+                show: true,
+                showAbove: true,
+                size: 1,
+                itemStyle: {
+                  borderWidth: 1,
+                },
+              },
+              title: {
+                show: false,
+              },
+              detail: {
+                valueAnimation: true,
+                fontSize: 20,
+                offsetCenter: [0, '50%'],
+              },
+              data: [
+                {
+                  value: 70,
+                },
+              ],
+            },
+          ],
+        });
+
+        setOptions3({
+          tooltip: {
+            trigger: 'item',
+            formatter: '{a} <br/>{b} : {c} ({d}%)',
+          },
+          series: [
+            {
+              name: '本月刷新异常比',
+              type: 'pie',
+              radius: [0, 80],
+              center: ['50%', '50%'],
+              data: [
+                { value: 5, name: '刷新异常数' },
+                { value: 3, name: '正常测点数' },
+              ],
+              label: {
+                show: false,
+              },
+            },
+          ],
+          emphasis: {
+            itemStyle: {
+              shadowBlur: 10,
+              shadowOffsetX: 0,
+              shadowColor: 'rgba(0, 0, 0, 0.5)',
+            },
+          },
+        });
+
+        setOptions4({
+          xAxis: {
+            type: 'category',
+            data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+          },
+          yAxis: {
+            type: 'value',
+          },
+          series: [
+            {
+              data: [120, 200, 150, 80, 70, 110, 130],
+              type: 'bar',
+            },
+          ],
+        });
+
+        setOptions5({
+          xAxis: {
+            type: 'category',
+            data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+          },
+          yAxis: {
+            type: 'value',
+          },
+          series: [
+            {
+              data: [120, 200, 150, 80, 70, 110, 130],
+              type: 'bar',
+            },
+          ],
+        });
+
+        setOptions6({
+          xAxis: {
+            type: 'category',
+            data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+          },
+          yAxis: {
+            type: 'value',
+          },
+          series: [
+            {
+              data: [120, 200, 150, 80, 70, 110, 130],
+              type: 'bar',
+            },
+          ],
+        });
+
+        setOptions7({
+          xAxis: {
+            type: 'category',
+            data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+          },
+          yAxis: {
+            type: 'value',
+          },
+          series: [
+            {
+              data: [120, 200, 150, 80, 70, 110, 130],
+              type: 'bar',
+            },
+          ],
+        });
+
+        setOptions8({
+          xAxis: {
+            type: 'category',
+            data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+          },
+          yAxis: {
+            type: 'value',
+          },
+          series: [
+            {
+              data: [120, 200, 150, 80, 70, 110, 130],
+              type: 'bar',
+            },
+          ],
+        });
+      });
+      return {
+        chartRef1,
+        chartRef2,
+        chartRef3,
+        chartRef4,
+        chartRef5,
+        chartRef6,
+        chartRef7,
+        chartRef8,
+      };
+    },
+  };
+</script>
