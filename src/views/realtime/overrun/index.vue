@@ -35,11 +35,6 @@
               />
             </a-form-item>
           </a-col>
-          <a-col :md="1">
-            <a-button type="primary" html-type="submit" style="margin-left: 10px"
-              >查看上次</a-button
-            >
-          </a-col>
           <a-col :md="7">
             <Alert style="height: 33px; margin-left: 30px" type="info" show-icon>
               <template #message

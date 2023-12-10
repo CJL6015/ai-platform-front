@@ -76,7 +76,7 @@
   import { getWarnRuleConfig, updateWarnRuleConfig } from '/@/api/data/config';
   import { useMessage } from '/@/hooks/web/useMessage';
   import { optionListApi, lineOptionListApi } from '/@/api/warn/select';
-  import { pointListApi } from '/@/api/warn/point';
+  import { pointListApi, updatePoint } from '/@/api/warn/point';
   import { columns } from './point.data';
   import { BasicTable, useTable } from '/@/components/Table';
 
@@ -186,9 +186,20 @@
         methods.setTableData(tableData);
       };
 
-      function handleEdit({ index, key, value }) {
+      async function handleEdit({ index, key, value }) {
         tableData[index][key] = value;
         console.log(tableData[index]);
+        const params = {
+          id: tableData[index].id,
+        };
+        params[key] = value;
+        const res = await updatePoint(params);
+        console.log(res);
+        if (res) {
+          createMessage.success('更新成功');
+        } else {
+          createMessage.error('更新失败,请重试');
+        }
       }
       return {
         labelCol,

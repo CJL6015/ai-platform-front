@@ -4,6 +4,7 @@ enum Api {
   RESULT = '/detection/result',
   MONTH_TREND = '/detection/trend/month',
   DAILY_TREND = '/detection/trend/daily',
+  DETECTION_TIME = '/detection/times',
 }
 
 export const detectionResult = (params: any) => defHttp.get<any>({ url: Api.RESULT, params });
@@ -11,3 +12,5 @@ export const detectionResult = (params: any) => defHttp.get<any>({ url: Api.RESU
 export const getTrendMonth = (params: any) => defHttp.get<any>({ url: Api.MONTH_TREND, params });
 
 export const getTrendDaily = (params: any) => defHttp.get<any>({ url: Api.DAILY_TREND, params });
+
+export const detectionTimes = () => defHttp.get<any>({ url: Api.DETECTION_TIME });

@@ -24,6 +24,15 @@
             </a-form-item>
           </a-col>
           <a-col :md="5">
+            <a-form-item label="巡检时间" name="line">
+              <a-select
+                v-model:value="time"
+                style="width: 100%"
+                :options="times.map((t) => ({ value: t, label: t }))"
+              />
+            </a-form-item>
+          </a-col>
+          <a-col :md="5">
             <a-form-item name="input-number" label="巡检间隔">
               <a-input-number
                 :min="0.01"
@@ -40,17 +49,15 @@
               type="primary"
               html-type="submit"
               style="margin-left: 10px"
-              @click="getLastResult"
-              >查看上次</a-button
+              @click="fetchResult"
+              >确定</a-button
             >
           </a-col>
           <a-col :md="7">
             <Alert style="height: 33px; margin-left: 30px" type="info" show-icon>
               <template #message
                 ><span style="font-size: 18px; font-weight: bold"
-                  >上次抓拍时间:<span style="color: rgb(26 7 240); font-size: 22px">{{
-                    detectionTime
-                  }}</span
+                  >上次抓拍时间:<span style="color: rgb(26 7 240); font-size: 22px">{{ time }}</span
                   >,超员人数:
                   <span style="color: red; font-size: 22px">{{
                     Math.max(0, value2 - value1) +
@@ -73,8 +80,7 @@
         <div class="grid md:grid-cols-5 gap-1">
           <a-card style="width: 95%" title="制药工序">
             <template #cover>
-              <!-- <a-image alt="example" src="http://114.55.245.123/api/static/images/制药工序.png" /> -->
-              <a-image alt="制药工序" :src="photo1" style="aspect-ratio: 16/9" />
+              <a-image alt="当前无数据,请确认是否停机" :src="photo1" style="aspect-ratio: 16/9" />
             </template>
             <a-card-meta>
               <template #description>
@@ -95,8 +101,7 @@
 
           <a-card style="width: 95%" title="装药工序1">
             <template #cover>
-              <!-- <a-image alt="example" src="http://114.55.245.123/api/static/images/制药工序1.png" /> -->
-              <a-image alt="example" :src="photo2" style="aspect-ratio: 16/9" />
+              <a-image alt="当前无数据,请确认是否停机" :src="photo2" style="aspect-ratio: 16/9" />
             </template>
             <a-card-meta>
               <template #description>
@@ -115,8 +120,7 @@
 
           <a-card style="width: 95%" title="装药工序2">
             <template #cover>
-              <!-- <a-image alt="example" src="http://114.55.245.123/api/static/images/装药工序2.png" /> -->
-              <a-image alt="example" :src="photo3" style="aspect-ratio: 16/9" />
+              <a-image alt="当前无数据,请确认是否停机" :src="photo3" style="aspect-ratio: 16/9" />
             </template>
             <a-card-meta>
               <template #description>
@@ -135,8 +139,7 @@
 
           <a-card style="width: 95%" title="包装工序">
             <template #cover>
-              <!-- <a-image alt="example" src="http://114.55.245.123/api/static/images/包装工序.jpg" /> -->
-              <a-image alt="example" :src="photo4" style="aspect-ratio: 16/9" />
+              <a-image alt="当前无数据,请确认是否停机" :src="photo4" style="aspect-ratio: 16/9" />
             </template>
             <a-card-meta>
               <template #description>
@@ -155,8 +158,7 @@
 
           <a-card style="width: 95%" title="装车工序">
             <template #cover>
-              <!-- <a-image alt="example" src="http://114.55.245.123/api/static/images/装车工序.jpg" /> -->
-              <a-image alt="example" :src="photo5" style="aspect-ratio: 16/9" />
+              <a-image alt="当前无数据,请确认是否停机" :src="photo5" style="aspect-ratio: 16/9" />
             </template>
             <a-card-meta>
               <template #description>
@@ -288,8 +290,9 @@
   } from 'ant-design-vue';
   import dayjs, { Dayjs } from 'dayjs';
   import { optionListApi, lineOptionListApi } from '/@/api/warn/select';
+  import { getInspectionConfig } from '/@/api/data/config';
 
-  import { detectionResult, getTrendMonth, getTrendDaily } from '/@/api/warn/photo';
+  import { detectionResult, getTrendMonth, getTrendDaily, detectionTimes } from '/@/api/warn/photo';
 
   export default {
     components: {
@@ -319,6 +322,8 @@
         '192.168.50.63',
         '192.168.50.76',
       ];
+      const time = ref(null);
+      const times = ref([]);
       let plantData = ref([]);
       let lineData = ref([]);
       const formData = ref({
@@ -333,9 +338,9 @@
           ? parseInt(localStorage.getItem('plantId'))
           : plantData.value[0]['id'];
         await onPlantChange(formData.value.plant);
-        fetchResult(ips, null);
         setMonthTrend();
         setDailyTrend();
+        getTimes();
       });
       const submitForm = (values) => {
         console.log('Success:', values);
@@ -350,6 +355,21 @@
         lineData.value = await lineOptionListApi(value);
         formData.value.line = lineData.value[0]['id'];
       };
+      async function getTimes() {
+        const data = await detectionTimes();
+        console.log(times);
+        times.value = data;
+        if (data.length > 0) {
+          time.value = data[0];
+        }
+        fetchResult();
+      }
+      const step = ref(1);
+
+      async function getStep() {
+        const config = await getInspectionConfig(formData.value.line);
+        step.value = config.inspectionCaptureInterval;
+      }
 
       const activeKey = ref('1');
 
@@ -379,26 +399,16 @@
       const value9 = ref(1);
       const value10 = ref(0);
 
-      const detectionTime = ref('');
-
-      const step = ref(1);
-
-      const getLastResult = () => {
-        const lastTime = getTime();
-        fetchResult(ips, lastTime);
-      };
-
-      const fetchResult = async (ips, time) => {
+      const fetchResult = async () => {
         const params = {
           ips: ips.join(','),
-          time: time,
+          time: time.value,
         };
         const result = await detectionResult(params);
         console.log(result);
         for (let res of result) {
           console.log(res);
           const ipAddress = res['cameraId'];
-          detectionTime.value = res['time'];
           switch (ipAddress) {
             case '192.168.50.69':
               photo1.value = res['detectionPicturePath'];
@@ -423,32 +433,6 @@
             default:
               console.log('未知 IP 地址');
           }
-        }
-      };
-
-      const getTime = () => {
-        const dateString = detectionTime.value;
-        const stepVal = step.value;
-        const matches = dateString.match(/(\d{1,2})月(\d{1,2})日(\d{1,2})时/);
-        if (matches) {
-          const month = parseInt(matches[1]);
-          const day = parseInt(matches[2]);
-          const hour = parseInt(matches[3]);
-
-          // 获取当前年份
-          const currentYear = dayjs().year();
-
-          // 创建一个 dayjs 对象
-          const date = dayjs(`${currentYear}-${month}-${day}T${hour}:00:00`);
-
-          // 减去1小时
-          const updatedDate = date.subtract(stepVal, 'hour');
-
-          // 输出更新后的时间对象
-          console.log(updatedDate.toString());
-          return updatedDate;
-        } else {
-          console.log('日期格式不匹配');
         }
       };
 
@@ -687,12 +671,13 @@
         photo3,
         photo4,
         photo5,
-        detectionTime,
-        getLastResult,
         monthSlope,
         dailySlope,
         lastCount,
         lastDay,
+        time,
+        times,
+        fetchResult,
         step,
       };
     },

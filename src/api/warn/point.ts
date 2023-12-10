@@ -5,6 +5,7 @@ enum Api {
   HISTORY_LIST = '/point/history',
   LIST = '/point/line/',
   TREND = '/point/trend/',
+  UPDATE = '/point/',
 }
 
 export const pointStaticApi = () => defHttp.get<any>({ url: Api.STATIC });
@@ -15,3 +16,5 @@ export const pointListApi = (id: any) => defHttp.get<any>({ url: Api.LIST + id }
 
 export const pointTrendApi = (id: any, params: any) =>
   defHttp.get<any>({ url: Api.TREND + id, params });
+
+export const updatePoint = (params: any) => defHttp.patch<any>({ url: Api.UPDATE, params });
