@@ -259,7 +259,7 @@ import { on } from 'codemirror';
               },
               data: [
                 {
-                  value: 70,
+                  value: 90,
                 },
               ],
             },
