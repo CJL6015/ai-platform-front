@@ -18,13 +18,14 @@
             <a-select
               v-model:value="formData.line"
               style="width: 100%"
+              disabled
               :options="lineData.map((line) => ({ value: line['id'], label: line['name'] }))"
             />
           </a-form-item>
         </a-col>
-        <a-col :md="6">
+        <a-col :md="3">
           <a-form-item label="时间选择" name="time">
-            <a-date-picker show-time v-model:value="formData.time" />
+            <a-date-picker v-model:value="formData.time" />
           </a-form-item>
         </a-col>
         <a-col :md="1">
@@ -210,33 +211,24 @@
     setup() {
       let plantData = ref([]);
       let lineData = ref([]);
-      type RangeValue = [dayjs.Dayjs, dayjs.Dayjs];
 
       const currentDate: dayjs.Dayjs = dayjs();
-      const formData = ref<{
-        plant: number;
-        line: number;
-        time: RangeValue | null;
-        plantName: String | null;
-        lineName: String | null;
-      }>({
+      const formData = ref({
         plant: -1,
-        line: -1,
+        line: 1,
         time: currentDate,
         plantName: null,
-        lineName: null,
       });
       let options;
       onMounted(async () => {
         options = await optionListApi();
         plantData.value = options.plantOptions;
-        lineData.value = options.linesOptions;
-        formData.value.plant = plantData.value[0]['id'];
-        formData.value.line = lineData.value[0]['id'];
+        formData.value.plant = localStorage.getItem('plantId')
+          ? parseInt(localStorage.getItem('plantId'))
+          : -1;
 
         const lineName = options.linesOptions.find((item) => item.id === formData.value.line).name;
 
-        formData.value.lineName = lineName;
         formData.value.plant = localStorage.getItem('plantId')
           ? parseInt(localStorage.getItem('plantId'))
           : -1;
@@ -249,7 +241,7 @@
 
       const onPlantChange = async (value) => {
         lineData.value = await lineOptionListApi(value);
-        formData.value.line = lineData.value[0]['id'];
+        formData.value.line = parseInt(localStorage.getItem('lineId'));
         options.linesOptions = lineData.value;
         const plantName = options.plantOptions.find(
           (item) => item.id === formData.value.plant,
@@ -265,7 +257,7 @@
         const value = { ...formData.value };
       };
 
-      return { formData, plantData, lineData, submitForm, onPlantChange, labelCol };
+      return { formData, plantData, submitForm, onPlantChange, labelCol, lineData };
     },
   };
 </script>

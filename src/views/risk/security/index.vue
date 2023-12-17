@@ -1,7 +1,7 @@
 <template>
   <PageWrapper title="设备安全状态分析">
     <a-card>
-      <UnitSelect @option-selected="handleOptionSelected" />
+      <UnitSelectDay @option-selected="handleOptionSelected" />
       <a-divider />
       <div class="grid md:grid-cols-5 gap-4">
         <div
@@ -140,7 +140,7 @@
   import { ref, Ref, onMounted } from 'vue';
   import { Form, FormItem, RangePicker, Divider, Card } from 'ant-design-vue';
   import { getScoreApi } from '/@/api/risk/score';
-  import UnitSelect from '../../warn/components/UnitSelect.vue';
+  import UnitSelectDay from '../../warn/components/UnitSelectDay.vue';
 
   export default {
     components: {
@@ -150,7 +150,7 @@
       AFormItem: FormItem,
       ADivider: Divider,
       ARangePicker: RangePicker,
-      UnitSelect,
+      UnitSelectDay,
     },
     setup() {
       type RangeValue = [Dayjs, Dayjs];
@@ -178,12 +178,10 @@
         setOpts.push(setOptions);
       }
       async function getScores() {
-        const [startDate, endDate] = historyTime.value;
-        const startDateDate = startDate.toDate();
-        const endDateDate = endDate.toDate();
+        const date = historyTime.value;
         const time = {
-          st: dayjs(startDateDate).format('YYYY-MM-DD') + ' 00:00:00',
-          et: dayjs(endDateDate).format('YYYY-MM-DD') + ' 23:59:59',
+          st: dayjs(date).format('YYYY-MM-DD') + ' 00:00:00',
+          et: dayjs(date).format('YYYY-MM-DD') + ' 23:59:59',
         };
         const data = await getScoreApi(line.value, time);
         console.log(data);

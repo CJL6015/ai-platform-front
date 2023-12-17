@@ -22,6 +22,6 @@ export const columns: BasicColumn[] = [
   {
     title: '是否强相关',
     dataIndex: 'relevant',
-    sorter: (a, b) => a.relevant - b.relevant,
+    sorter: (a, b) => a.conf - b.conf,
   },
 ];

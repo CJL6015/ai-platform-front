@@ -1,4 +1,5 @@
 import type { AppRouteModule } from '/@/router/types';
+import { RoleEnum } from '/@/enums/roleEnum';
 
 import { LAYOUT } from '/@/router/constant';
 
@@ -8,16 +9,25 @@ const storehouse: AppRouteModule = {
   component: LAYOUT,
   meta: {
     orderNo: 4,
-    icon: 'ion:ios-monitor',
+    icon: 'ic:baseline-people',
     title: '成品仓库超员监测',
+    roles: [RoleEnum.STORE],
   },
   children: [
     {
-      path: 'storehouse',
-      name: 'storehouse',
-      component: () => import('/@/views/storehouse/index.vue'),
+      path: 'store',
+      name: 'store',
+      component: () => import('../../../views/storehouse/store/index.vue'),
       meta: {
         title: '成品仓库超员监测',
+      },
+    },
+    {
+      path: 'statistic',
+      name: 'statistic',
+      component: () => import('../../../views/storehouse/statistic/index.vue'),
+      meta: {
+        title: '成品仓库存量超量统计',
       },
     },
   ],

@@ -7,11 +7,10 @@
   <Alert style="margin-top: 10px" type="info" show-icon closable>
     <template #message
       ><span style="font-size: 20px; font-weight: bold"
-        >{{ plantName }}{{ lineName
-        }}<span style="color: red; font-size: 22px">{{ thresholdExceeded }}%</span
-        >测点出现过超限,超限时间占运行时间的<span style="color: red; font-size: 22px"
+        >{{ plantName }}{{ lineName }}测点超限时间占比<span style="color: red; font-size: 22px"
           >{{ thresholdExceeded }}%</span
-        ></span
+        >,停机时间占比<span style="color: red; font-size: 22px">{{ stopTime }}%</span
+        >,刷新异常时间占比<span style="color: red; font-size: 22px">{{ refreshTime }}%</span></span
       ></template
     ></Alert
   >
@@ -52,6 +51,7 @@
       const lineName = ref(null);
       const thresholdExceeded = ref<string | null>(null);
       const stopTime = ref<string | null>(null);
+      const refreshTime = ref<string | null>(null);
       watch(props, async (newData, _) => {
         const data = toRaw(newData.selectData);
         if (data && data['line'] && data['line'] > 0) {
@@ -73,6 +73,11 @@
             (chartValue.stopTime / (chartValue.runTime + chartValue.stopTime)) *
             100
           ).toFixed(2);
+          refreshTime.value = (
+            (chartValue.exceptionRefresh /
+              (chartValue.exceptionRefresh + chartValue.normalRefresh)) *
+            100
+          ).toFixed(2);
           drawChart(chartValue);
         }
       });
@@ -89,7 +94,7 @@
             },
             legend: {
               top: 'bottom',
-              data: ['超限测点数', '正常测点数'],
+              data: ['超限时间', '正常时间'],
             },
             series: [
               {
@@ -101,8 +106,8 @@
                   show: false,
                 },
                 data: [
-                  { value: chartValue.thresholdExceeded, name: '超限测点数' },
-                  { value: chartValue.thresholdWithin, name: '正常测点数' },
+                  { value: chartValue.thresholdExceeded, name: '超限时间' },
+                  { value: chartValue.thresholdWithin, name: '正常时间' },
                 ],
               },
             ],
@@ -153,7 +158,7 @@
             },
             legend: {
               top: 'bottom',
-              data: ['刷新异常数', '正常测点数'],
+              data: ['刷新异常时间', '正常测点时间'],
             },
             series: [
               {
@@ -175,7 +180,16 @@
         );
       };
 
-      return { chartRef1, chartRef2, chartRef3, plantName, lineName, thresholdExceeded, stopTime };
+      return {
+        chartRef1,
+        chartRef2,
+        chartRef3,
+        plantName,
+        lineName,
+        thresholdExceeded,
+        stopTime,
+        refreshTime,
+      };
     },
   });
 </script>

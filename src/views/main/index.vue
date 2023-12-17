@@ -76,39 +76,44 @@ import { on } from 'codemirror';
         </template>
       </a-card>
     </div>
+    <a-modal v-model:visible="open" centered title="选择生产线" @ok="handleOk">
+      <a-form style="margin-top: 10px" :label-col="labelCol">
+        <a-form-item label="生产线" name="line">
+          <a-select
+            v-model:value="line"
+            style="width: 90%"
+            :options="lineData.map((line) => ({ value: line['id'], label: line['name'] }))"
+          />
+        </a-form-item>
+      </a-form>
+    </a-modal>
   </div>
 </template>
 
 <script lang="ts">
-  import { PageWrapper } from '/@/components/Page';
   import { ref, Ref, onMounted, watch } from 'vue';
   import { useECharts } from '/@/hooks/web/useECharts';
-  import {
-    Form,
-    Select,
-    Row,
-    Col,
-    Card,
-    CardMeta,
-    InputNumber,
-    Divider,
-    Alert,
-    Button,
-    Descriptions,
-  } from 'ant-design-vue';
+  import { Form, Select, Row, Col, Card, Descriptions, Modal } from 'ant-design-vue';
   import { registerMap } from 'echarts';
   import { useGo } from '/@/hooks/web/usePage';
+  import { lineOptionListApi } from '/@/api/warn/select';
+  import { usePermission } from '/@/hooks/web/usePermission';
+  import { useUserStore } from '/@/store/modules/user';
 
   export default {
     components: {
-      PageWrapper,
       ACard: Card,
       ARow: Row,
       ACol: Col,
       ADescriptions: Descriptions,
       [Descriptions.Item.name]: Descriptions.Item,
+      AFormItem: Form.Item,
+      AForm: Form,
+      ASelect: Select,
+      AModal: Modal,
     },
     setup() {
+      const open = ref<boolean>(false);
       const go = useGo();
       const chartRef1 = ref<HTMLDivElement | null>(null);
       const chartRef2 = ref<HTMLDivElement | null>(null);
@@ -129,6 +134,11 @@ import { on } from 'codemirror';
       onMounted(async () => {
         const json = (await (await import('./china.json')).default) as any;
         registerMap('china', json);
+
+        getInstance().on('click', function (params) {
+          openModel(params);
+        });
+
         setOptions1({
           backgroundColor: '#1d5885',
           geo: {
@@ -204,13 +214,6 @@ import { on } from 'codemirror';
               ],
             },
           ],
-        });
-
-        getInstance().on('click', function (params) {
-          if (params['componentSubType'] === 'effectScatter') {
-            localStorage.setItem('plantId', params['data']['value'][2]);
-            go(`/warn/history`);
-          }
         });
 
         setOptions2({
@@ -375,6 +378,39 @@ import { on } from 'codemirror';
           ],
         });
       });
+
+      const line = ref(-1);
+      const lineData = ref([]);
+      const userStore = useUserStore();
+      const { refreshMenu } = usePermission();
+
+      const handleOk = () => {
+        open.value = false;
+        localStorage.setItem('lineId', line.value);
+        let token = userStore.getToken;
+        token = token.replace('store', '').replace('line', '');
+        if (line.value === 5) {
+          token += 'store';
+        } else {
+          token += 'line';
+        }
+        userStore.setToken(token);
+        // 重新获取用户信息和菜单
+        userStore.getUserInfoAction();
+        refreshMenu();
+      };
+      async function openModel(params) {
+        if (params['componentSubType'] === 'effectScatter') {
+          localStorage.setItem('plantId', params['data']['value'][2]);
+          lineData.value = await lineOptionListApi(params['data']['value'][2]);
+          open.value = true;
+          line.value = lineData.value[0]['id'];
+          localStorage.setItem('reload', 'true');
+        }
+      }
+
+      const labelCol = { style: { width: '80px' } };
+
       return {
         chartRef1,
         chartRef2,
@@ -384,6 +420,11 @@ import { on } from 'codemirror';
         chartRef6,
         chartRef7,
         chartRef8,
+        handleOk,
+        line,
+        lineData,
+        open,
+        labelCol,
       };
     },
   };

@@ -20,6 +20,7 @@
                 v-model:value="formData.line"
                 style="width: 100%"
                 :options="lineData.map((line) => ({ value: line['id'], label: line['name'] }))"
+                disabled
               />
             </a-form-item>
           </a-col>
@@ -220,13 +221,18 @@
             </a-form-item>
           </template>
           <template #cover>
-            <div ref="chartRef2" style="height: 400px; widows: 100%"></div>
+            <div ref="chartRef3" style="height: 400px; widows: 100%"></div>
           </template>
           <a-card-meta>
             <template #description>
               <span style="color: black; font-size: 20px"
-                >本季度相较于前3季度,巡检超员次数下降了5%</span
-              >
+                >本季度相较于前几季度,巡检超员次数<span style="color: red; font-size: 22px">{{
+                  benchmarkQuarter > 0 ? '上涨' : '下降'
+                }}</span
+                >了<span style="color: red; font-size: 22px">
+                  {{ benchmarkQuarter.toFixed(2) }}%</span
+                >
+              </span>
             </template>
           </a-card-meta>
         </a-card>
@@ -237,13 +243,18 @@
             </a-form-item>
           </template>
           <template #cover>
-            <div ref="chartRef3" style="height: 400px; widows: 100%"></div>
+            <div ref="chartRef2" style="height: 400px; widows: 100%"></div>
           </template>
           <a-card-meta>
             <template #description>
               <span style="color: black; font-size: 20px"
-                >本月度相较于前2月度,巡检超员次数下降了5%</span
-              >
+                >本月相较于前几月,巡检超员次数<span style="color: red; font-size: 22px">{{
+                  benchmarkMonth > 0 ? '上涨' : '下降'
+                }}</span
+                >了<span style="color: red; font-size: 22px">
+                  {{ benchmarkMonth.toFixed(2) }}%</span
+                >
+              </span>
             </template>
           </a-card-meta>
         </a-card>
@@ -259,8 +270,11 @@
           <a-card-meta>
             <template #description>
               <span style="color: black; font-size: 20px"
-                >今日相较于前1日,巡检超员次数下降了5%</span
-              >
+                >今日相较于前几日,巡检超员次数<span style="color: red; font-size: 22px">{{
+                  benchmarkDay > 0 ? '上涨' : '下降'
+                }}</span
+                >了<span style="color: red; font-size: 22px"> {{ benchmarkDay.toFixed(2) }}%</span>
+              </span>
             </template>
           </a-card-meta>
         </a-card>
@@ -293,6 +307,11 @@
   import { getInspectionConfig } from '/@/api/data/config';
 
   import { detectionResult, getTrendMonth, getTrendDaily, detectionTimes } from '/@/api/warn/photo';
+  import {
+    getInspectionDaily,
+    getInspectionMonth,
+    getInspectionQuarter,
+  } from '/@/api/warn/statistic';
 
   export default {
     components: {
@@ -341,6 +360,10 @@
         setMonthTrend();
         setDailyTrend();
         getTimes();
+        getStep();
+        setQuarter();
+        setMonth();
+        setDaily();
       });
       const submitForm = (values) => {
         console.log('Success:', values);
@@ -353,7 +376,7 @@
       const labelCol = { style: { width: '120px' } };
       const onPlantChange = async (value) => {
         lineData.value = await lineOptionListApi(value);
-        formData.value.line = lineData.value[0]['id'];
+        formData.value.line = parseInt(localStorage.getItem('lineId'));
       };
       async function getTimes() {
         const data = await detectionTimes();
@@ -551,90 +574,126 @@
           ],
         });
       };
+      const benchmark1 = ref(2);
+      const benchmark2 = ref(2);
+      const benchmark3 = ref(2);
 
-      onMounted(() => {
-        setOptions1({
-          legend: {
-            data: ['昨日', '今日'],
-          },
-          radar: {
-            // shape: 'circle',
-            indicator: [
-              { name: '制药工序1超员', max: 10 },
-              { name: '制药工序2超员', max: 10 },
-              { name: '装药工序超员', max: 10 },
-              { name: '包装工序超员', max: 10 },
-              { name: '装车工序超员', max: 10 },
-            ],
-          },
-          series: [
-            {
-              name: 'Budget vs spending',
-              type: 'radar',
-              data: [
-                {
-                  value: [6, 1, 5, 1, 3],
-                  name: '昨日',
-                },
-                {
-                  value: [7, 6, 1, 3, 4],
-                  name: '今日',
-                },
-              ],
-            },
-          ],
-        });
+      watch(benchmark1, () => {
+        setQuarter();
       });
-      onMounted(() => {
-        setOptions2({
-          legend: {
-            data: ['第一季度', '第二季度', '第三季度', '本季度'],
-          },
-          radar: {
-            // shape: 'circle',
-            indicator: [
-              { name: '制药工序1超员', max: 10 },
-              { name: '制药工序2超员', max: 10 },
-              { name: '装药工序超员', max: 10 },
-              { name: '包装工序超员', max: 10 },
-              { name: '装车工序超员', max: 10 },
-            ],
-          },
-          series: [
-            {
-              name: 'Budget vs spending',
-              type: 'radar',
-              data: [],
-            },
-          ],
-        });
+
+      watch(benchmark2, () => {
+        setMonth();
       });
-      onMounted(() => {
+
+      watch(benchmark3, () => {
+        setDaily();
+      });
+
+      const benchmarkDay = ref(0);
+      const benchmarkMonth = ref(0);
+      const benchmarkQuarter = ref(0);
+
+      async function setQuarter() {
+        const params = {
+          num: benchmark1.value,
+        };
+        const data = await getInspectionQuarter(formData.value.line, params);
+        benchmarkQuarter.value = data.rate;
+        console.log(data);
+        let indicator = [];
+        for (let i = 0; i < data.names.length; i++) {
+          indicator.push({ name: data.names[i], max: data.max });
+        }
+        let legend = ['第一季度', '第二季度', '第三季度', '本季度'];
+        let series = [];
+        let legendData = [];
+        for (let i = 0; i < data.values.length; i++) {
+          legendData.push(legend[i]);
+          series.push({
+            value: data.values[i],
+            name: legend[i],
+          });
+        }
         setOptions3({
           legend: {
-            data: ['本月', '上月', '上上月'],
+            data: legendData,
           },
           radar: {
             // shape: 'circle',
-            indicator: [
-              { name: '制药工序1超员', max: 10 },
-              { name: '制药工序2超员', max: 10 },
-              { name: '装药工序超员', max: 10 },
-              { name: '包装工序超员', max: 10 },
-              { name: '装车工序超员', max: 10 },
-            ],
+            indicator: indicator,
           },
-          series: [
-            {
-              type: 'radar',
-              data: [],
-            },
-          ],
+          series: [{ type: 'radar', data: series }],
         });
-      });
-      const benchmark1 = ref(4);
-      const benchmark2 = ref(3);
-      const benchmark3 = ref(2);
+      }
+
+      async function setMonth() {
+        const params = {
+          num: benchmark2.value,
+        };
+        const data = await getInspectionMonth(formData.value.line, params);
+        benchmarkMonth.value = data.rate;
+        console.log(data);
+        let indicator = [];
+        for (let i = 0; i < data.names.length; i++) {
+          indicator.push({ name: data.names[i], max: data.max });
+        }
+        let legend = ['本月', '上月', '上上月'];
+        let series = [];
+        let legendData = [];
+        for (let i = 0; i < data.values.length; i++) {
+          legendData.push(legend[i]);
+          series.push({
+            value: data.values[i],
+            name: legend[i],
+          });
+        }
+        setOptions2({
+          legend: {
+            data: legendData,
+          },
+          radar: {
+            // shape: 'circle',
+            indicator: indicator,
+          },
+          series: [{ type: 'radar', data: series }],
+        });
+      }
+
+      async function setDaily() {
+        const params = {
+          num: benchmark3.value,
+        };
+        const data = await getInspectionDaily(formData.value.line, params);
+        benchmarkDay.value = data.rate;
+        console.log(data);
+        let indicator = [];
+        for (let i = 0; i < data.names.length; i++) {
+          indicator.push({ name: data.names[i], max: data.max });
+        }
+        let legend = ['昨日', '今日'];
+        let series = [];
+        let legendData = [];
+        for (let i = 0; i < data.values.length; i++) {
+          legendData.push(legend[i]);
+          series.push({
+            value: data.values[i],
+            name: legend[i],
+          });
+        }
+        let options = {
+          legend: {
+            data: legendData,
+          },
+          radar: {
+            // shape: 'circle',
+            indicator: indicator,
+          },
+          series: [{ type: 'radar', data: series }],
+        };
+        console.log(111, options);
+        setOptions1(options);
+      }
 
       return {
         formData,
@@ -679,6 +738,9 @@
         times,
         fetchResult,
         step,
+        benchmarkDay,
+        benchmarkMonth,
+        benchmarkQuarter,
       };
     },
   };

@@ -1,4 +1,5 @@
 import type { AppRouteModule } from '/@/router/types';
+import { RoleEnum } from '/@/enums/roleEnum';
 
 import { LAYOUT } from '/@/router/constant';
 
@@ -8,8 +9,9 @@ const analysis: AppRouteModule = {
   component: LAYOUT,
   meta: {
     orderNo: 4,
-    icon: 'ion:ios-monitor',
+    icon: 'icon-park-outline:analysis',
     title: '生产线安全综合分析',
+    roles: [RoleEnum.Line],
   },
   children: [
     {
@@ -18,6 +20,14 @@ const analysis: AppRouteModule = {
       component: () => import('/@/views/analysis/score/index.vue'),
       meta: {
         title: '评分规则及趋势分析',
+      },
+    },
+    {
+      path: 'diagnosis',
+      name: 'diagnosis',
+      component: () => import('/@/views/analysis/diagnosis/index.vue'),
+      meta: {
+        title: '生产线月度安全情况诊断报告',
       },
     },
     {

@@ -17,6 +17,7 @@
           v-model:value="formData.line"
           style="width: 100%"
           :options="lineData.map((line) => ({ value: line['id'], label: line['name'] }))"
+          disabled
         />
       </a-form-item>
     </a-col>
@@ -116,39 +117,26 @@
       >
     </a-row>
     <a-row :gutter="30" class="custom-row-gap">
-      <a-col :md="9" style="padding-top: 10px">
-        <a-form-item label="历史时间">
-          <a-range-picker
-            v-model:value="historyTime"
-            show-time
-            :placeholder="['冻结开始时间', '冻结结束时间']"
-            @change="historyTimeChange"
-          />
-        </a-form-item>
-        <div ref="chartRef" :style="{ height, width }"></div>
-      </a-col>
-      <a-col :md="15">
-        <BasicTable @register="registerTable">
-          <template #bodyCell="{ column, record, text }">
-            <template v-if="column.key === 'imageUrl'">
-              <TableImg :size="40" :imgList="text" :simpleShow="true" />
-            </template>
-            <template v-else-if="column.key === 'action'">
-              <TableAction
-                :actions="[
-                  {
-                    label: '解冻',
-                    popConfirm: {
-                      title: '是否解冻？',
-                      confirm: handleEdit.bind(null, record),
-                    },
-                  },
-                ]"
-              />
-            </template>
+      <BasicTable @register="registerTable">
+        <template #bodyCell="{ column, record, text }">
+          <template v-if="column.key === 'imageUrl'">
+            <TableImg :size="40" :imgList="text" :simpleShow="true" />
           </template>
-        </BasicTable>
-      </a-col>
+          <template v-else-if="column.key === 'action'">
+            <TableAction
+              :actions="[
+                {
+                  label: '解冻',
+                  popConfirm: {
+                    title: '是否解冻？',
+                    confirm: handleEdit.bind(null, record),
+                  },
+                },
+              ]"
+            />
+          </template>
+        </template>
+      </BasicTable>
     </a-row>
   </a-form>
 </template>
@@ -439,7 +427,7 @@
       };
       const onPlantChange = async (value) => {
         lineData.value = await lineOptionListApi(value);
-        formData.value.line = lineData.value[0]['id'];
+        formData.value.line = parseInt(localStorage.getItem('lineId'));
       };
 
       const labelCol = { style: { width: '120px' } };

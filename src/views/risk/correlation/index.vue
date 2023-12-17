@@ -1,5 +1,5 @@
 <template>
-  <PageWrapper title="设备超限相关性分析">
+  <PageWrapper title="传感器超限相关性分析">
     <a-card>
       <div class="border border-gray-400" style="padding: 5px">
         <a-row>
@@ -15,13 +15,6 @@
               <template #message>
                 <span style="color: red; font-size: 18px; font-weight: bold"
                   >置信度:A设备(测点)发生超限的情况下,B设备(测点)发生超限的概率
-                </span>
-              </template>
-            </Alert>
-            <Alert type="success" style="margin-top: 10px">
-              <template #message>
-                <span style="color: green; font-size: 18px; font-weight: bold"
-                  >提升度:A设备(测点)发生超限,对B设备(测点)的概率提升了多少
                 </span>
               </template>
             </Alert>
@@ -107,7 +100,7 @@
       AButton: Button,
     },
     setup() {
-      const inputValue1 = ref(0.1);
+      const inputValue1 = ref(0.9);
       const group = ref([]);
 
       const [registerTable, methods] = useTable({
@@ -122,7 +115,7 @@
       });
 
       async function getChartData() {
-        const id = 1;
+        const id = parseInt(localStorage.getItem('lineId'));
         const params = {
           limit: inputValue1.value,
         };

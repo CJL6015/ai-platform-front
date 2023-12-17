@@ -16,15 +16,15 @@
         <a-select
           v-model:value="formData.line"
           style="width: 100%"
+          disabled
           @change="onLineChange"
           :options="lineData.map((line) => ({ value: line['id'], label: line['name'] }))"
-          disabled
         />
       </a-form-item>
     </a-col>
-    <a-col :md="6">
+    <a-col :md="3">
       <a-form-item label="历史时间" name="time">
-        <a-range-picker v-model:value="formData.time" show-time />
+        <a-date-picker v-model:value="formData.time" />
       </a-form-item>
     </a-col>
     <a-col :md="1">
@@ -35,9 +35,9 @@
   </a-form>
 </template>
 <script lang="ts">
-  import { ref, onMounted, onBeforeUnmount } from 'vue';
+  import { ref, onMounted } from 'vue';
   import dayjs from 'dayjs';
-  import { Form, Select, Button, Col, RangePicker } from 'ant-design-vue';
+  import { Form, Select, Button, Col, DatePicker } from 'ant-design-vue';
   import { optionListApi, lineOptionListApi } from '/@/api/warn/select';
 
   export default {
@@ -47,27 +47,24 @@
       ASelect: Select,
       AButton: Button,
       ACol: Col,
-      ARangePicker: RangePicker,
+      ADatePicker: DatePicker,
     },
     emits: ['optionSelected'],
     setup(_, context) {
       let plantData = ref([]);
       let lineData = ref([]);
-      type RangeValue = [dayjs.Dayjs, dayjs.Dayjs];
 
       const currentDate: dayjs.Dayjs = dayjs();
-      const lastMonthDate: dayjs.Dayjs = currentDate.subtract(1, 'month');
-      const rangeValue: RangeValue = [lastMonthDate, currentDate];
       const formData = ref<{
         plant: number;
         line: number;
-        time: RangeValue | null;
+        time: dayjs.Dayjs | null;
         plantName: String | null;
         lineName: String | null;
       }>({
         plant: -1,
         line: -1,
-        time: rangeValue,
+        time: currentDate,
         plantName: null,
         lineName: null,
       });

@@ -1,4 +1,5 @@
 import type { AppRouteModule } from '/@/router/types';
+import { RoleEnum } from '/@/enums/roleEnum';
 
 import { LAYOUT } from '/@/router/constant';
 import { t } from '/@/hooks/web/useI18n';
@@ -10,8 +11,9 @@ const warn: AppRouteModule = {
   redirect: '/warn/history',
   meta: {
     orderNo: 0,
-    icon: 'ion:grid-outline',
+    icon: 'icon-park-outline:setting-web',
     title: t('routes.warn.title'),
+    roles: [RoleEnum.SUPER],
   },
   children: [
     {

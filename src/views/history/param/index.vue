@@ -110,7 +110,7 @@
       const rangeValue: RangeValue = [lastMonthDate, currentDate];
       historyTime.value = rangeValue;
 
-      const line = ref(1);
+      const line = ref(parseInt(localStorage.getItem('lineId')));
 
       const historyTimeChange = () => {
         setEquipmentTrend();
@@ -123,11 +123,11 @@
       });
 
       const handleOptionSelected = (values) => {
-        console.log(values);
-        historyTime.value = values.time;
-        line.value = values.line;
-        setEquipmentTrend();
-        setTotal();
+        // console.log(values);
+        // historyTime.value = values.time;
+        // line.value = values.line;
+        // setEquipmentTrend();
+        // setTotal();
       };
 
       const equipment = ref('');

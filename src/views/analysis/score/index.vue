@@ -5,15 +5,11 @@
       <a-divider />
       <div>
         <a-row>
-          <a-col :span="16" style="height: 100%">
-            <div
-              ref="chartRef"
-              class="border border-gray-400"
-              style="width: 100%; height: 380px"
-            ></div
-          ></a-col>
-          <a-col :span="8">
-            <img src="/src/assets/svg/line.svg" style="height: 380px; margin-left: 5px" /> </a-col
+          <div
+            ref="chartRef"
+            class="border border-gray-400"
+            style="width: 100%; height: 380px"
+          ></div
         ></a-row>
         <Alert style="width: 100%; height: 100%; margin-top: 10px" type="info">
           <template #message

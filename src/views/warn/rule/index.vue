@@ -18,6 +18,7 @@
             <a-select
               v-model:value="formData.line"
               style="width: 100%"
+              disabled
               :options="lineData.map((line) => ({ value: line['id'], label: line['name'] }))"
             />
           </a-form-item>
@@ -122,7 +123,7 @@
 
       const onPlantChange = async (value) => {
         lineData.value = await lineOptionListApi(value);
-        formData.value.line = lineData.value[0]['id'];
+        formData.value.line = parseInt(localStorage.getItem('lineId'));
       };
 
       const ruleData = ref({
