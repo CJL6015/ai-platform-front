@@ -98,6 +98,8 @@ import { on } from 'codemirror';
   import { useGo } from '/@/hooks/web/usePage';
   import { lineOptionListApi } from '/@/api/warn/select';
   import { usePermission } from '/@/hooks/web/usePermission';
+  import { useTabs } from '/@/hooks/web/useTabs';
+  import { router } from '/@/router';
   import { useUserStore } from '/@/store/modules/user';
 
   export default {
@@ -113,6 +115,8 @@ import { on } from 'codemirror';
       AModal: Modal,
     },
     setup() {
+      const { closeOther } = useTabs(router);
+      closeOther();
       const open = ref<boolean>(false);
       const go = useGo();
       const chartRef1 = ref<HTMLDivElement | null>(null);
@@ -384,7 +388,7 @@ import { on } from 'codemirror';
       const userStore = useUserStore();
       const { refreshMenu } = usePermission();
 
-      const handleOk = () => {
+      const handleOk = async () => {
         open.value = false;
         localStorage.setItem('lineId', line.value);
         let token = userStore.getToken;
@@ -396,7 +400,7 @@ import { on } from 'codemirror';
         }
         userStore.setToken(token);
         // 重新获取用户信息和菜单
-        userStore.getUserInfoAction();
+        await userStore.getUserInfoAction();
         refreshMenu();
       };
       async function openModel(params) {

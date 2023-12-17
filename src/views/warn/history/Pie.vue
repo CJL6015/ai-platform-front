@@ -55,7 +55,6 @@
       watch(props, async (newData, _) => {
         const data = toRaw(newData.selectData);
         if (data && data['line'] && data['line'] > 0) {
-          console.log(data['line']);
           const time = toRaw(data['time']);
           const params = {
             st: dayjs(time[0]).format('YYYY-MM-DD HH:mm:ss'),

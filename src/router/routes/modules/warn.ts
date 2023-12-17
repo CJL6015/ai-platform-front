@@ -21,7 +21,7 @@ const warn: AppRouteModule = {
       name: 'history',
       component: () => import('/@/views/warn/history/index.vue'),
       meta: {
-        // affix: true,
+        affix: false,
         title: t('routes.warn.history'),
       },
     },
@@ -30,9 +30,8 @@ const warn: AppRouteModule = {
       name: 'photo',
       component: () => import('/@/views/warn/photo/index.vue'),
       meta: {
-        // affix: true,
+        affix: false,
         title: t('routes.warn.photo'),
-        showInMenu: false,
       },
     },
     {
