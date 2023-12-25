@@ -12,7 +12,7 @@ const realtime: AppRouteModule = {
     orderNo: 1,
     icon: 'material-symbols:monitor-outline',
     title: t('routes.realtime.title'),
-    roles: [RoleEnum.LINE],
+    roles: [RoleEnum.LEIGUAN],
   },
   children: [
     {
@@ -29,7 +29,7 @@ const realtime: AppRouteModule = {
       component: () => import('/@/views/realtime/overrun/index.vue'),
       meta: {
         // affix: true,
-        title: t('routes.realtime.overrun'),
+        title: '故障停机巡检抓拍',
         showInMenu: false,
       },
     },
@@ -39,7 +39,7 @@ const realtime: AppRouteModule = {
       component: () => import('/@/views/realtime/monitor/index.vue'),
       meta: {
         // affix: true,
-        title: t('routes.realtime.monitor'),
+        title: '故障与停机状态历史回查',
       },
     },
   ],

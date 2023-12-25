@@ -8,6 +8,7 @@ enum Api {
   TREND_DETAIL_MONTH = '/point/trend/month/detail/line/',
   TREND_DETAIL_DAILY = '/point/trend/daily/detail/line/',
   POINT_LIMIT = '/point/limits',
+  STATUS = '/point/status/',
 }
 
 export const getPointsValues = (params: any) =>
@@ -28,3 +29,5 @@ export const getTrendDetailMonth = (id: any) =>
 
 export const getTrendDetailDaily = (id: any) =>
   defHttp.get<any>({ url: Api.TREND_DETAIL_DAILY + id });
+
+export const getPointStatus = (id: any) => defHttp.get<any>({ url: Api.STATUS + id });

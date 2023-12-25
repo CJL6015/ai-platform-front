@@ -4,7 +4,7 @@
       <a-row>
         <a-col :md="18">
           <a-descriptions
-            title="工艺参数超限次数同比环比分析"
+            :title="`工艺${indexName}次数同比环比分析`"
             layout="vertical"
             :column="12"
             bordered
@@ -18,29 +18,29 @@
                 :options="pointData.map((point) => ({ value: point['id'], label: point['name'] }))"
               />
             </template>
-            <a-descriptions-item label="当月超限次数" :span="4">{{
-              paramBenchmark.month !== null ? paramBenchmark.month : 0
+            <a-descriptions-item :label="`当月${indexName}次数`" :span="4">{{
+              paramBenchmark.month !== null ? paramBenchmark.month : '暂无数据'
             }}</a-descriptions-item>
-            <a-descriptions-item label="上个月超限次数" :span="4">{{
-              paramBenchmark.lastMonth !== null ? paramBenchmark.lastMonth : 0
+            <a-descriptions-item :label="`上个月${indexName}次数`" :span="4">{{
+              paramBenchmark.lastMonth !== null ? paramBenchmark.lastMonth : '暂无数据'
             }}</a-descriptions-item>
-            <a-descriptions-item label="去年当月超限次数" :span="4">{{
-              paramBenchmark.lastYearMonth !== null ? paramBenchmark.lastYearMonth : 0
+            <a-descriptions-item :label="`去年当月${indexName}次数`" :span="4">{{
+              paramBenchmark.lastYearMonth !== null ? paramBenchmark.lastYearMonth : '暂无数据'
             }}</a-descriptions-item>
-            <a-descriptions-item label="当季超限次数" :span="4">{{
-              paramBenchmark.quarter !== null ? paramBenchmark.quarter : 0
+            <a-descriptions-item :label="`当季${indexName}次数`" :span="4">{{
+              paramBenchmark.quarter !== null ? paramBenchmark.quarter : '暂无数据'
             }}</a-descriptions-item>
-            <a-descriptions-item label="上季超限次数" :span="4">{{
-              paramBenchmark.lastQuarter !== null ? paramBenchmark.lastQuarter : 0
+            <a-descriptions-item :label="`上季${indexName}次数`" :span="4">{{
+              paramBenchmark.lastQuarter !== null ? paramBenchmark.lastQuarter : '暂无数据'
             }}</a-descriptions-item>
-            <a-descriptions-item label="去年当季超限次数" :span="4">{{
-              paramBenchmark.lastYearQuarter !== null ? paramBenchmark.lastYearQuarter : 0
+            <a-descriptions-item :label="`去年当季${indexName}次数`" :span="4">{{
+              paramBenchmark.lastYearQuarter !== null ? paramBenchmark.lastYearQuarter : '暂无数据'
             }}</a-descriptions-item>
-            <a-descriptions-item label="今年超限次数" :span="6">{{
-              paramBenchmark.year !== null ? paramBenchmark.year : 0
+            <a-descriptions-item :label="`今年${indexName}次数`" :span="6">{{
+              paramBenchmark.year !== null ? paramBenchmark.year : '暂无数据'
             }}</a-descriptions-item>
-            <a-descriptions-item label="去年超限次数" :span="6">{{
-              paramBenchmark.lastYear !== null ? paramBenchmark.lastYear : 0
+            <a-descriptions-item :label="`去年${indexName}次数`" :span="6">{{
+              paramBenchmark.lastYear !== null ? paramBenchmark.lastYear : '暂无数据'
             }}</a-descriptions-item>
           </a-descriptions>
         </a-col>
@@ -49,25 +49,28 @@
             <template #message>
               <span style="font-size: 18px; font-weight: bold"
                 >对于<span style="color: red; font-size: 22px">{{ pointName }}</span
-                >超限次数:<br />
+                >{{ indexName }}次数:<br />
                 月同比<span style="color: red; font-size: 22px"
                   >{{ paramBenchmark.month > paramBenchmark.lastMonth ? '上升' : '下降'
                   }}{{ paramBenchmark.monthOverMonth.toFixed(2) }}%</span
-                >,月环比<span style="color: red; font-size: 22px"
+                >
+                <!-- ,月环比<span style="color: red; font-size: 22px"
                   >{{ paramBenchmark.month > paramBenchmark.lastYearMonth ? '上升' : '下降'
                   }}{{ paramBenchmark.monthOnMonth.toFixed(2) }}%</span
-                ><br />
+                > -->
+                <br />
                 季同比<span style="color: red; font-size: 22px"
                   >{{ paramBenchmark.quarter > paramBenchmark.lastQuarter ? '上升' : '下降'
                   }}{{ paramBenchmark.quarterOverQuarter.toFixed(2) }}%</span
-                >,季环比<span style="color: red; font-size: 22px"
+                >
+                <!-- ,季环比<span style="color: red; font-size: 22px"
                   >{{ paramBenchmark.quarter > paramBenchmark.lastYearQuarter ? '上升' : '下降'
                   }}{{ paramBenchmark.quarterOnQuarter.toFixed(2) }}%</span
-                ><br />
-                年同比<span style="color: red; font-size: 22px"
+                ><br /> -->
+                <!-- 年同比<span style="color: red; font-size: 22px"
                   >{{ paramBenchmark.year > paramBenchmark.lastYear ? '上升' : '下降'
                   }}{{ paramBenchmark.yearOverYear.toFixed(2) }}%</span
-                >。
+                >。 -->
               </span>
             </template></Alert
           ></a-col
@@ -93,28 +96,32 @@
               />
             </template>
             <a-descriptions-item label="当月超限次数" :span="4">{{
-              inspectionBenchmark.month !== null ? inspectionBenchmark.month : 0
+              inspectionBenchmark.month !== null ? inspectionBenchmark.month : '暂无数据'
             }}</a-descriptions-item>
             <a-descriptions-item label="上个月超限次数" :span="4">{{
-              inspectionBenchmark.lastMonth !== null ? inspectionBenchmark.lastMonth : 0
+              inspectionBenchmark.lastMonth !== null ? inspectionBenchmark.lastMonth : '暂无数据'
             }}</a-descriptions-item>
             <a-descriptions-item label="去年当月超限次数" :span="4">{{
-              inspectionBenchmark.lastYearMonth !== null ? inspectionBenchmark.lastYearMonth : 0
+              inspectionBenchmark.lastYearMonth !== null
+                ? inspectionBenchmark.lastYearMonth
+                : '暂无数据'
             }}</a-descriptions-item>
             <a-descriptions-item label="当季超限次数" :span="4">{{
-              inspectionBenchmark.quarter !== null ? inspectionBenchmark.quarter : 0
+              inspectionBenchmark.quarter !== null ? inspectionBenchmark.quarter : '暂无数据'
             }}</a-descriptions-item>
             <a-descriptions-item label="上季超限次数" :span="4">{{
               inspectionBenchmark.lastQuarter !== null ? inspectionBenchmark.lastQuarter : 0
             }}</a-descriptions-item>
             <a-descriptions-item label="去年当季超限次数" :span="4">{{
-              inspectionBenchmark.lastYearQuarter !== null ? inspectionBenchmark.lastYearQuarter : 0
+              inspectionBenchmark.lastYearQuarter !== null
+                ? inspectionBenchmark.lastYearQuarter
+                : '暂无数据'
             }}</a-descriptions-item>
             <a-descriptions-item label="今年超限次数" :span="6">{{
-              inspectionBenchmark.year !== null ? inspectionBenchmark.year : 0
+              inspectionBenchmark.year !== null ? inspectionBenchmark.year : '暂无数据'
             }}</a-descriptions-item>
             <a-descriptions-item label="去年超限次数" :span="6">{{
-              inspectionBenchmark.lastYear !== null ? inspectionBenchmark.lastYear : 0
+              inspectionBenchmark.lastYear !== null ? inspectionBenchmark.lastYear : '暂无数据'
             }}</a-descriptions-item>
           </a-descriptions>
         </a-col>
@@ -127,26 +134,29 @@
                 月同比<span style="color: red; font-size: 22px"
                   >{{ inspectionBenchmark.month > inspectionBenchmark.lastMonth ? '上升' : '下降'
                   }}{{ inspectionBenchmark.monthOverMonth.toFixed(2) }}%</span
-                >,月环比<span style="color: red; font-size: 22px"
+                >
+                <!-- ,月环比<span style="color: red; font-size: 22px"
                   >{{
                     inspectionBenchmark.month > inspectionBenchmark.lastYearMonth ? '上升' : '下降'
                   }}{{ inspectionBenchmark.monthOnMonth.toFixed(2) }}%</span
-                ><br />
+                > -->
+                <br />
                 季同比<span style="color: red; font-size: 22px"
                   >{{
                     inspectionBenchmark.quarter > inspectionBenchmark.lastQuarter ? '上升' : '下降'
                   }}{{ inspectionBenchmark.quarterOverQuarter.toFixed(2) }}%</span
-                >,季环比<span style="color: red; font-size: 22px"
+                >
+                <!-- ,季环比<span style="color: red; font-size: 22px"
                   >{{
                     inspectionBenchmark.quarter > inspectionBenchmark.lastYearQuarter
                       ? '上升'
                       : '下降'
                   }}{{ inspectionBenchmark.quarterOnQuarter.toFixed(2) }}%</span
-                ><br />
-                年同比<span style="color: red; font-size: 22px"
+                ><br /> -->
+                <!-- 年同比<span style="color: red; font-size: 22px"
                   >{{ inspectionBenchmark.year > inspectionBenchmark.lastYear ? '上升' : '下降'
                   }}{{ inspectionBenchmark.yearOverYear.toFixed(2) }}%</span
-                >。
+                >。 -->
               </span>
             </template></Alert
           ></a-col
@@ -177,6 +187,8 @@
     setup() {
       const pointData = ref([]);
       const cameraData = ref([]);
+      const indexName = ref('');
+      indexName.value = parseInt(localStorage.getItem('plantId')) === 3 ? '故障停机' : '参数超限';
 
       const point = ref(-1);
       const camera = ref(-1);
@@ -263,6 +275,7 @@
         inspectionBenchmark,
         pointName,
         cameraName,
+        indexName,
       };
     },
   };

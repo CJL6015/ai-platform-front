@@ -52,7 +52,7 @@
                   >上次抓拍时间:<span style="color: rgb(26 7 240); font-size: 22px">{{
                     lastDay
                   }}</span
-                  >,超限测点数量:
+                  >,{{ indexName }}测点数量:
                   <span style="color: red; font-size: 22px">{{ lastCount }}</span></span
                 ></template
               ></Alert
@@ -86,13 +86,13 @@
         <Alert style="width: 90%; margin: 30px" type="info" show-icon>
           <template #message
             ><span style="font-size: 18px; font-weight: bold"
-              >主要结论:当月运行参数超限巡检次数呈现<span style="color: red; font-size: 22px">{{
-                monthSlope > 0 ? '上升' : '下降'
-              }}</span
+              >主要结论:当月运行参数{{ indexName }}巡检次数呈现<span
+                style="color: red; font-size: 22px"
+                >{{ monthSlope > 0 ? '上升' : '下降' }}</span
               >趋势,拟合直线{{ monthSlope > 0 ? '上升' : '下降' }}斜率为<span
                 style="color: red; font-size: 22px"
                 >{{ monthSlope.toFixed(2) }}</span
-              >,超限次数<span style="color: red; font-size: 22px">{{
+              >,{{ indexName }}次数<span style="color: red; font-size: 22px">{{
                 monthSlope > 0 ? '小幅上升' : '小幅下降'
               }}</span></span
             ></template
@@ -101,13 +101,13 @@
         <Alert style="width: 90%; margin: 30px" type="info" show-icon>
           <template #message
             ><span style="font-size: 18px; font-weight: bold"
-              >主要结论:当日运行参数超限巡检次数呈现<span style="color: red; font-size: 22px">{{
-                dailySlope > 0 ? '上升' : '下降'
-              }}</span
+              >主要结论:当日运行参数{{ indexName }}巡检次数呈现<span
+                style="color: red; font-size: 22px"
+                >{{ dailySlope > 0 ? '上升' : '下降' }}</span
               >趋势,拟合直线{{ dailySlope > 0 ? '上升' : '下降' }}斜率为<span
                 style="color: red; font-size: 22px"
                 >{{ dailySlope.toFixed(2) }}</span
-              >,超限次数<span style="color: red; font-size: 22px">{{
+              >,{{ indexName }}次数<span style="color: red; font-size: 22px">{{
                 dailySlope > 0 ? '小幅上升' : '小幅下降'
               }}</span></span
             ></template
@@ -129,9 +129,9 @@
           <a-card-meta>
             <template #description>
               <span style="color: black; font-size: 20px"
-                >本季度相较于前几季度,巡检超限次数<span style="color: red; font-size: 22px">{{
-                  benchmarkQuarter > 0 ? '上涨' : '下降'
-                }}</span
+                >本季度相较于前几季度,巡检{{ indexName }}次数<span
+                  style="color: red; font-size: 22px"
+                  >{{ benchmarkQuarter > 0 ? '上涨' : '下降' }}</span
                 >了<span style="color: red; font-size: 22px">
                   {{ benchmarkQuarter.toFixed(2) }}%</span
                 >
@@ -151,9 +151,9 @@
           <a-card-meta>
             <template #description>
               <span style="color: black; font-size: 20px"
-                >本月相较于前几月,巡检超限次数<span style="color: red; font-size: 22px">{{
-                  benchmarkMonth > 0 ? '上涨' : '下降'
-                }}</span
+                >本月相较于前几月,巡检{{ indexName }}次数<span
+                  style="color: red; font-size: 22px"
+                  >{{ benchmarkMonth > 0 ? '上涨' : '下降' }}</span
                 >了<span style="color: red; font-size: 22px">
                   {{ benchmarkMonth.toFixed(2) }}%</span
                 >
@@ -173,9 +173,9 @@
           <a-card-meta>
             <template #description>
               <span style="color: black; font-size: 20px"
-                >今日相较于前几日,巡检超限次数<span style="color: red; font-size: 22px">{{
-                  benchmarkDay > 0 ? '上涨' : '下降'
-                }}</span
+                >今日相较于前几日,巡检{{ indexName }}次数<span
+                  style="color: red; font-size: 22px"
+                  >{{ benchmarkDay > 0 ? '上涨' : '下降' }}</span
                 >了<span style="color: red; font-size: 22px"> {{ benchmarkDay.toFixed(2) }}%</span>
               </span>
             </template>
@@ -240,6 +240,8 @@
         plant: -1,
         line: -1,
       });
+      const indexName = ref('');
+      indexName.value = parseInt(localStorage.getItem('plantId')) === 3 ? '故障停机' : '超限';
       onMounted(async () => {
         const options = await optionListApi();
         plantData.value = options.plantOptions;
@@ -286,7 +288,7 @@
         monthSlope.value = monthTrend.params[1];
         setOptions4({
           title: {
-            text: '生产线超限巡检总次数月趋势',
+            text: `生产线${indexName.value}巡检总次数月趋势`,
           },
           legend: {
             data: ['统计数据', '拟合线'],
@@ -347,7 +349,7 @@
         lastDay.value = dailyTrend.times[dailyTrend.times.length - 1];
         setOptions5({
           title: {
-            text: '生产线超限巡检总次数日趋势',
+            text: `生产线${indexName.value}巡检总次数日趋势`,
           },
           legend: {
             data: ['统计数据', '拟合线'],
@@ -542,6 +544,7 @@
         benchmark2,
         benchmark3,
         fetchResult,
+        indexName,
       };
     },
   };

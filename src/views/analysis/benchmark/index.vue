@@ -33,15 +33,15 @@
           <a-checkbox-group v-model:value="formData.totalIndicators">
             <a-checkbox value="1" name="totalIndicators">生产线平均安全评分</a-checkbox>
             <a-checkbox value="2" name="totalIndicators">超员平均扣分</a-checkbox>
-            <a-checkbox value="3" name="totalIndicators">设备超限平均扣分</a-checkbox>
+            <a-checkbox value="3" name="totalIndicators">设备{{ indexName }}平均扣分</a-checkbox>
           </a-checkbox-group>
         </a-form-item>
         <a-form-item label="分项指标" name="subIndicators">
           <a-checkbox-group v-model:value="formData.subIndicators">
-            <a-checkbox value="1" name="subIndicators">生产线平均超限次数</a-checkbox>
+            <a-checkbox value="1" name="subIndicators">生产线平均{{ indexName }}次数</a-checkbox>
             <a-checkbox value="2" name="subIndicators">生产线各工序平均超员次数</a-checkbox>
-            <a-checkbox value="3" name="subIndicators">生产线平均参数超限次数</a-checkbox>
-            <a-checkbox value="4" name="subIndicators">生产线各设备超限次数</a-checkbox>
+            <a-checkbox value="3" name="subIndicators">生产线平均{{ indexName }}次数</a-checkbox>
+            <a-checkbox value="4" name="subIndicators">生产线各设备{{ indexName }}次数</a-checkbox>
           </a-checkbox-group>
         </a-form-item>
         <a-form-item label="极值个数" name="extremeNumber">
@@ -55,18 +55,24 @@
         <a-form-item label="极值指标" name="extremeIndicators">
           <a-checkbox-group v-model:value="formData.extremeIndicators">
             <a-checkbox value="1" name="extremeIndicators">超员人数最高的工序及次数</a-checkbox>
-            <a-checkbox value="2" name="extremeIndicators">超限次数最高的设备及次数</a-checkbox>
-            <a-checkbox value="3" name="extremeIndicators">超限次数最高的传感器及次数</a-checkbox>
+            <a-checkbox value="2" name="extremeIndicators"
+              >{{ indexName }}次数最高的设备及次数</a-checkbox
+            >
+            <a-checkbox value="3" name="extremeIndicators"
+              >{{ indexName }}次数最高的传感器及次数</a-checkbox
+            >
             <a-checkbox value="4" name="extremeIndicators">发生超员次数最高的时段及次数</a-checkbox>
-            <a-checkbox value="5" name="extremeIndicators">参数超限次数最高的时段及次数</a-checkbox>
+            <a-checkbox value="5" name="extremeIndicators"
+              >{{ indexName }}次数最高的时段及次数</a-checkbox
+            >
           </a-checkbox-group>
         </a-form-item>
         <a-form-item label="趋势指标" name="trend">
           <a-checkbox-group v-model:value="formData.trend">
             <a-checkbox value="1" name="trend">超员同比、环比增长率</a-checkbox>
-            <a-checkbox value="2" name="trend">参数超限同比、环比增长率</a-checkbox>
+            <a-checkbox value="2" name="trend">{{ indexName }}同比、环比增长率</a-checkbox>
             <a-checkbox value="3" name="trend">超员次数变化趋势(升/降)</a-checkbox>
-            <a-checkbox value="4" name="trend">参数超限次数变化趋势(升/降)</a-checkbox>
+            <a-checkbox value="4" name="trend">{{ indexName }}次数变化趋势(升/降)</a-checkbox>
           </a-checkbox-group>
         </a-form-item>
         <a-form-item label="相关性个数" name="correlationNumber">
@@ -79,10 +85,10 @@
         </a-form-item>
         <a-form-item label="相关性指标" name="correlation">
           <a-checkbox-group v-model:value="formData.correlation">
-            <a-checkbox value="1" name="correlation">传感器之间超限支持度</a-checkbox>
-            <a-checkbox value="2" name="correlation">设备之间超限提升度</a-checkbox>
-            <a-checkbox value="3" name="correlation">传感器之间超限提升度</a-checkbox>
-            <a-checkbox value="4" name="correlation">设备之间超限提升度</a-checkbox>
+            <a-checkbox value="1" name="correlation">传感器之间{{ indexName }}支持度</a-checkbox>
+            <a-checkbox value="2" name="correlation">设备之间{{ indexName }}提升度</a-checkbox>
+            <a-checkbox value="3" name="correlation">传感器之间{{ indexName }}提升度</a-checkbox>
+            <a-checkbox value="4" name="correlation">设备之间{{ indexName }}提升度</a-checkbox>
           </a-checkbox-group>
         </a-form-item>
         <a-divider orientation="left">报表设置</a-divider>
@@ -136,6 +142,8 @@
       Report,
     },
     setup() {
+      const indexName = ref('');
+      indexName.value = parseInt(localStorage.getItem('plantId')) === 3 ? '故障停机' : '参数超限';
       type RangeValue = [Dayjs, Dayjs];
       const historyTime = ref<RangeValue>();
       const currentDate: Dayjs = dayjs();
@@ -229,6 +237,7 @@
         tableData,
         registerDraw,
         tableColumn,
+        indexName,
       };
     },
   };

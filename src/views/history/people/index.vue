@@ -19,6 +19,46 @@
           class="border border-gray-400"
           style="height: 380px; widows: 100%"
         ></div>
+        <div>
+          <Alert style="width: 100%; height: 120px" type="info">
+            <template #message
+              ><div style="width: 100%; height: 120px; overflow-y: scroll"
+                ><span style="font-size: 18px; font-weight: bold"
+                  >超员走势分析结论:<br />
+                  <span v-for="summary in trendSummary" :key="summary['key']">
+                    {{ summary['key'] }}.{{ summary['name'] }}定员超限整体呈现<span
+                      style="color: red; font-size: 22px"
+                      >{{ summary['trend'] }}</span
+                    ><br /></span></span></div></template
+          ></Alert>
+        </div>
+        <div>
+          <Alert style="width: 100%; height: 120px" type="info">
+            <template #message
+              ><span style="font-size: 18px; font-weight: bold"
+                >超员工序位置分析结论:<br />
+                定员超限占比最高的工序为<span style="color: red; font-size: 22px">{{
+                  process
+                }}</span
+                >,有提升的空间</span
+              ></template
+            ></Alert
+          >
+        </div>
+        <div>
+          <Alert style="width: 100%; height: 120px" type="info">
+            <template #message
+              ><span style="font-size: 18px; font-weight: bold"
+                >超员峰值分析结论:<br />
+                1.定员超限单日最高为<span style="color: red; font-size: 22px">{{ maxCount }}次</span
+                >,于<span style="color: red; font-size: 22px">{{ maxTime }}</span
+                >发生<br />
+                2.{{ names }}定员超限分别为<span style="color: red; font-size: 22px">{{
+                  peopleCounts
+                }}</span
+                ><br /></span></template
+          ></Alert>
+        </div>
         <div
           ref="chartRef4"
           class="border border-gray-400"
@@ -35,11 +75,11 @@
           style="height: 380px; widows: 100%"
         ></div>
         <div>
-          <Alert style="width: 100%; height: 220px" type="info">
+          <Alert style="width: 100%; height: 120px" type="info">
             <template #message
-              ><div style="width: 100%; height: 220px; overflow-y: scroll"
+              ><div style="width: 100%; height: 120px; overflow-y: scroll"
                 ><span style="font-size: 18px; font-weight: bold"
-                  >超限走势分析结论:<br />
+                  >超员走势分析结论:<br />
                   <span v-for="summary in trendSummary" :key="summary['key']">
                     {{ summary['key'] }}.{{ summary['name'] }}定员超限整体呈现<span
                       style="color: red; font-size: 22px"
@@ -48,29 +88,20 @@
           ></Alert>
         </div>
         <div>
-          <Alert style="width: 100%; height: 220px" type="info">
+          <Alert style="width: 100%; height: 120px" type="info">
             <template #message
               ><span style="font-size: 18px; font-weight: bold"
-                >超限高峰时间和工序位置分析结论:<br />
-                1.定员超限占比最高的工序为<span style="color: red; font-size: 22px">{{
-                  process
-                }}</span
-                >,有提升的空间<br />
-                2.定员超限最高发的时间为<span style="color: red; font-size: 22px">{{
-                  maxHour
-                }}</span
+                >超员高峰时间分析结论:<br />
+                定员超限最高发的时间为<span style="color: red; font-size: 22px">{{ maxHour }}</span
                 >,可加强该时段的监控<br /></span></template
           ></Alert>
         </div>
         <div>
-          <Alert style="width: 100%; height: 220px" type="info">
+          <Alert style="width: 100%; height: 120px" type="info">
             <template #message
               ><span style="font-size: 18px; font-weight: bold"
-                >超限峰值分析结论:<br />
-                1.定员超限单日最高为<span style="color: red; font-size: 22px">{{ maxCount }}次</span
-                >,于<span style="color: red; font-size: 22px">{{ maxTime }}</span
-                >发生<br />
-                2.{{ names }}定员超限分别为<span style="color: red; font-size: 22px">{{
+                >超员峰值分析结论:<br />
+                {{ names }}定员超限分别为<span style="color: red; font-size: 22px">{{
                   peopleCounts
                 }}</span
                 ><br /></span></template
@@ -212,7 +243,7 @@
                 label: {
                   show: true,
                   position: 'middle',
-                  formatter: '平均超限次数: {c}',
+                  formatter: '平均超员次数: {c}',
                 },
               },
               data: trendData.trend,
@@ -230,7 +261,7 @@
           .padStart(2, '0')}:00`;
         setOptions5({
           title: {
-            text: '超限时段统计',
+            text: '超员时段统计',
           },
           tooltip: {
             trigger: 'axis',
@@ -296,7 +327,7 @@
         trendSummary.value = summary;
         setOptions1({
           title: {
-            text: '各道工序超限趋势',
+            text: '各道工序超员趋势',
           },
           tooltip: {
             trigger: 'axis',
@@ -333,7 +364,7 @@
         peopleCounts.value = data.counts.join('次、') + '次';
         setOptions2({
           title: {
-            text: '超限份额统计',
+            text: '超员份额统计',
           },
           tooltip: {
             trigger: 'item',
@@ -341,7 +372,7 @@
           },
           series: [
             {
-              name: '超限份额统计',
+              name: '超员份额统计',
               type: 'pie',
               radius: [0, 140],
               center: ['50%', '50%'],
@@ -378,7 +409,7 @@
               data: [
                 {
                   value: data.countMax,
-                  name: '设备超限峰值统计',
+                  name: '设备超员峰值统计',
                   areaStyle: {
                     color: 'rgba(255, 145, 124, 0.9)',
                   },

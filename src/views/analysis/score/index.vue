@@ -21,17 +21,27 @@
                 >生产线超员惩罚只和超员次数有关,不考虑超员时间<span style="color: red"
                   >记生产线各道工序一天共超员n1次,超员一次扣×1分</span
                 ><br />
-                <span style="color: blue">规则3:</span>生产线设备和工艺参数超限惩罚和<span
-                  style="color: red"
-                  >超限测点数量、超限测点次数、超限幅度</span
-                >有关,所扣分数随超限测点数量、超限时长线性递增,随超限幅度非线性增长<br />
-                <span style="color: blue">规则4.1:</span
-                >记1个测点超限1次高/低限,扣×2分.共n2个测点在这种情况下超限t2次;<br />
-                <span style="color: blue">规则4.2:</span
-                >记1个测点超限1次高高/低低限,扣×3分.共n3个测点在这种情况下超限t3次;<br />
-                <span style="color: blue">规则4.1:</span>生产线安全评分公式为:</span
-              ></div
-            ></template
+                <span v-if="leiguan">
+                  <span style="color: blue">规则3:</span>记1个设备故障停机1次,扣<span
+                    style="color: red"
+                    >2分</span
+                  >,共故障停机n2次.<br />
+                  <span style="color: blue">规则4:</span>生产线安全评分公式为:
+                  <span style="color: red">S=100-n1*t1-n2*t2</span>
+                </span>
+                <span v-else>
+                  <span style="color: blue">规则3:</span>生产线设备和工艺参数超限惩罚和<span
+                    style="color: red"
+                    >超限测点数量、超限测点次数、超限幅度</span
+                  >有关,所扣分数随超限测点数量、超限时长线性递增,随超限幅度非线性增长<br />
+                  <span style="color: blue">规则4.1:</span
+                  >记1个测点超限1次高/低限,扣×2分.共n2个测点在这种情况下超限t2次;<br />
+                  <span style="color: blue">规则4.2:</span
+                  >记1个测点超限1次高高/低低限,扣×3分.共n3个测点在这种情况下超限t3次;<br />
+                  <span style="color: blue">规则4.1:</span>生产线安全评分公式为:</span
+                >
+              </span>
+            </div></template
           ></Alert
         >
       </div>
@@ -68,6 +78,8 @@
       const rangeValue: RangeValue = [lastMonthDate, currentDate];
       historyTime.value = rangeValue;
       const line = ref(1);
+      const leiguan = ref(false);
+      leiguan.value = parseInt(localStorage.getItem('plantId')) === 3;
 
       const chartRef = ref<HTMLDivElement | null>(null);
       const { setOptions } = useECharts(chartRef as Ref<HTMLDivElement>);
@@ -152,6 +164,7 @@
         historyTime,
         chartRef,
         handleOptionSelected,
+        leiguan,
       };
     },
   };

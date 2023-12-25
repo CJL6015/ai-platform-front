@@ -14,7 +14,7 @@
           </a-form-item>
         </a-col>
         <a-col :md="6">
-          <a-form-item label="生产线" name="line">
+          <a-form-item label="仓库" name="line">
             <a-select
               v-model:value="formData.line"
               style="width: 100%"
@@ -35,22 +35,36 @@
         </a-col>
       </a-form>
       <a-divider />
+      <a-alert style="width: 60%; margin: 10px" type="info" show-icon>
+        <template #message
+          ><span style="font-size: 20px; font-weight: bold"
+            >本日超员次数<span style="color: red; font-size: 22px">1</span>&nbsp;
+          </span></template
+        ></a-alert
+      >
       <a-row :gutter="30" class="custom-row-gap">
-        <a-col :md="8">
-          <a-form-item label="识别人数">
+        <a-col :md="6">
+          <a-form-item label="相机1识别人数">
             <a-form-item name="input-number" no-style>
               <a-input-number value="5" addon-after="人" disabled />
             </a-form-item>
           </a-form-item>
         </a-col>
-        <a-col :md="8">
+        <a-col :md="6">
+          <a-form-item label="相机2识别人数">
+            <a-form-item name="input-number" no-style>
+              <a-input-number value="5" addon-after="人" disabled />
+            </a-form-item>
+          </a-form-item>
+        </a-col>
+        <a-col :md="6">
           <a-form-item label="定员人数">
             <a-form-item name="input-number" no-style>
               <a-input-number value="8" addon-after="人" disabled />
             </a-form-item>
           </a-form-item>
         </a-col>
-        <a-col :md="8">
+        <a-col :md="6">
           <a-form-item label="超员人数">
             <a-form-item name="input-number" no-style>
               <a-input-number value="0" addon-after="人" disabled />
@@ -58,112 +72,28 @@
           </a-form-item>
         </a-col>
       </a-row>
-      <a-divider orientation="left">识别人员</a-divider>
-      <a-space :size="64">
-        <a-avatar shape="square" style="background-color: #fde3cf; color: #f56a00" :size="64"
-          >张三
-        </a-avatar>
-        <a-avatar shape="square" style="background-color: #fde3cf; color: #f56a00" :size="64"
-          >李四
-        </a-avatar>
-        <a-avatar shape="square" style="background-color: #fde3cf; color: #f56a00" :size="64"
-          >王五
-        </a-avatar>
-        <a-avatar shape="square" style="background-color: #fde3cf; color: #f56a00" :size="64"
-          >张三
-        </a-avatar>
-      </a-space>
-      <a-divider orientation="left">系统录入仓库工作人员</a-divider>
-      <div class="grid md:grid-cols-15 gap-1">
+
+      <a-divider orientation="left">相机拍摄画面</a-divider>
+      <div class="grid md:grid-cols-2 gap-2">
         <a-card style="width: 95%">
           <template #cover>
             <a-image
               alt="example"
-              src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+              src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+              style="height: 400px"
             />
           </template>
-          <a-card-meta title="张三" />
+          <a-card-meta title="相机1拍摄画面" />
         </a-card>
         <a-card style="width: 95%">
           <template #cover>
             <a-image
               alt="example"
-              src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+              src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+              style="height: 400px"
             />
           </template>
-          <a-card-meta title="张三" />
-        </a-card>
-        <a-card style="width: 95%">
-          <template #cover>
-            <a-image
-              alt="example"
-              src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
-            />
-          </template>
-          <a-card-meta title="张三" />
-        </a-card>
-        <a-card style="width: 95%">
-          <template #cover>
-            <a-image
-              alt="example"
-              src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
-            />
-          </template>
-          <a-card-meta title="张三" />
-        </a-card>
-        <a-card style="width: 95%">
-          <template #cover>
-            <a-image
-              alt="example"
-              src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
-            />
-          </template>
-          <a-card-meta title="张三" />
-        </a-card>
-        <a-card style="width: 95%">
-          <template #cover>
-            <a-image
-              alt="example"
-              src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
-            />
-          </template>
-          <a-card-meta title="张三" />
-        </a-card>
-        <a-card style="width: 95%">
-          <template #cover>
-            <a-image
-              alt="example"
-              src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
-            />
-          </template>
-          <a-card-meta title="张三" />
-        </a-card>
-        <a-card style="width: 95%">
-          <template #cover>
-            <a-image
-              alt="example"
-              src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
-            />
-          </template>
-          <a-card-meta title="张三" />
-        </a-card>
-        <a-card style="width: 95%">
-          <template #cover>
-            <a-image
-              alt="example"
-              src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
-            />
-          </template>
-          <a-card-meta title="张三" />
-        </a-card>
-        <a-card style="width: 95%">
-          <template #cover>
-            <a-image
-              alt="example"
-              src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
-            />
-          </template>
-          <a-card-meta title="张三" />
+          <a-card-meta title="相机2拍摄画面" />
         </a-card>
       </div>
     </a-card> </PageWrapper
@@ -186,6 +116,7 @@
     DatePicker,
     Space,
     Image,
+    Alert,
   } from 'ant-design-vue';
   import { optionListApi, lineOptionListApi } from '/@/api/warn/select';
   import dayjs from 'dayjs';
@@ -207,6 +138,7 @@
       ASpace: Space,
       ACardMeta: CardMeta,
       AImage: Image,
+      AAlert: Alert,
     },
     setup() {
       let plantData = ref([]);

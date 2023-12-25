@@ -7,5 +7,7 @@ export enum RoleEnum {
 
   STORE = 'store',
 
-  Line = 'line',
+  LINE = 'line',
+
+  LEIGUAN = 'leiguan',
 }

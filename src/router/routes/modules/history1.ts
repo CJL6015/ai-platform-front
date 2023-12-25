@@ -10,8 +10,8 @@ const realtime: AppRouteModule = {
   meta: {
     orderNo: 2,
     icon: 'ion:bar-chart-outline',
-    title: '历史超限统计与分析',
-    roles: [RoleEnum.LINE],
+    title: '历史故障统计与分析',
+    roles: [RoleEnum.LEIGUAN],
   },
   children: [
     {
@@ -27,7 +27,7 @@ const realtime: AppRouteModule = {
       name: 'param',
       component: () => import('/@/views/history/param/index.vue'),
       meta: {
-        title: '参数超限多维对标分析',
+        title: '故障停机多维对标分析',
         showInMenu: false,
       },
     },

@@ -30,9 +30,34 @@
           </a-form-item>
         </a-col>
       </a-form>
-      <a-divider orientation="center"> 定员人数阈值设定 </a-divider>
+      <a-divider orientation="center"> {{ leiguan ? '阈值设定' : '定员人数阈值设定' }} </a-divider>
       <a-form :model="ruleData" :label-col="labelCol">
-        <div class="grid md:grid-cols-2 gap-4">
+        <div v-if="leiguan" class="grid md:grid-cols-2 gap-4">
+          <a-form-item label="接管工序人员上限">
+            <a-form-item name="input-number" no-style>
+              <a-input-number
+                v-model:value="ruleData.pharmaceuticalProcessLimit"
+                :min="1"
+                :max="24"
+              />
+            </a-form-item> </a-form-item
+          ><a-form-item label="装箱工序人员上限">
+            <a-form-item name="input-number" no-style>
+              <a-input-number v-model:value="ruleData.packagingProcessLimit" :min="1" :max="24" />
+            </a-form-item>
+          </a-form-item>
+          <a-form-item label="超员一次扣分">
+            <a-form-item name="input-number" no-style>
+              <a-input-number v-model:value="ruleData.peopleScore" :min="1" :max="24" />
+            </a-form-item>
+          </a-form-item>
+          <a-form-item label="故障停机一次扣分">
+            <a-form-item name="input-number" no-style>
+              <a-input-number v-model:value="ruleData.score" :min="1" :max="24" />
+            </a-form-item>
+          </a-form-item>
+        </div>
+        <div v-else class="grid md:grid-cols-2 gap-4">
           <a-form-item label="制药工序人员上限">
             <a-form-item name="input-number" no-style>
               <a-input-number
@@ -56,15 +81,30 @@
               <a-input-number v-model:value="ruleData.loadingProcessLimit" :min="1" :max="24" />
             </a-form-item>
           </a-form-item>
+          <a-form-item label="超高/低限扣分">
+            <a-form-item name="input-number" no-style>
+              <a-input-number v-model:value="ruleData.score" :min="0" :max="30" />
+            </a-form-item>
+          </a-form-item>
+          <a-form-item label="超高高/低低限扣分">
+            <a-form-item name="input-number" no-style>
+              <a-input-number v-model:value="ruleData.highScore" :min="0" :max="30" />
+            </a-form-item>
+          </a-form-item>
           <a-form-item label="生产线总人员上限">
             <a-form-item name="input-number" no-style>
               <a-input-number v-model:value="ruleData.totalLimit" :min="1" :max="24" />
             </a-form-item>
           </a-form-item>
+          <a-form-item label="超员一次扣分">
+            <a-form-item name="input-number" no-style>
+              <a-input-number v-model:value="ruleData.peopleScore" :min="1" :max="24" />
+            </a-form-item>
+          </a-form-item>
         </div>
       </a-form>
-      <a-divider orientation="center"> 运行参数阈值设定 </a-divider>
-      <div>
+      <a-divider v-if="!leiguan" orientation="center"> 运行参数阈值设定 </a-divider>
+      <div v-if="!leiguan">
         <BasicTable @register="registerTable" @edit-end="handleEdit" />
       </div>
     </a-card>
@@ -94,6 +134,8 @@
       BasicTable,
     },
     setup() {
+      const leiguan = ref(false);
+      leiguan.value = parseInt(localStorage.getItem('plantId')) === 3;
       const labelCol = { style: { width: '120px' } };
 
       const { createMessage } = useMessage();
@@ -132,6 +174,9 @@
         fillingProcessLimit: 1,
         loadingProcessLimit: 1,
         totalLimit: 4,
+        score: 1,
+        highScore: 0.1,
+        peopleScore: 1,
       });
 
       const setConfig = async function (id) {
@@ -141,6 +186,8 @@
         ruleData.value.fillingProcessLimit = config.fillingProcessLimit;
         ruleData.value.loadingProcessLimit = config.loadingProcessLimit;
         ruleData.value.totalLimit = config.totalLimit;
+        ruleData.value.highScore = config.highScore;
+        ruleData.value.peopleScore = config.peopleScore;
       };
 
       const updateConfig = async () => {
@@ -148,6 +195,7 @@
         const res = await updateWarnRuleConfig(formData.value.line, config);
         if (res) {
           createMessage.success('更新成功');
+          getTable(formData.value.line);
         } else {
           createMessage.error('更新失败,请重试');
         }
@@ -213,6 +261,7 @@
         lineData,
         registerTable,
         handleEdit,
+        leiguan,
       };
     },
   });

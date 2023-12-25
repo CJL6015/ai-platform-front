@@ -60,13 +60,7 @@
                 ><span style="font-size: 18px; font-weight: bold"
                   >上次抓拍时间:<span style="color: rgb(26 7 240); font-size: 22px">{{ time }}</span
                   >,超员人数:
-                  <span style="color: red; font-size: 22px">{{
-                    Math.max(0, value2 - value1) +
-                    Math.max(0, value4 - value3) +
-                    Math.max(0, value6 - value4) +
-                    Math.max(0, value8 - value7) +
-                    Math.max(0, value10 - value9)
-                  }}</span></span
+                  <span style="color: red; font-size: 22px">{{ exceedPeople }}</span></span
                 ></template
               ></Alert
             >
@@ -79,99 +73,32 @@
       </a-tabs>
       <div v-show="activeKey === '1'">
         <div class="grid md:grid-cols-5 gap-1">
-          <a-card style="width: 95%" title="制药工序">
+          <a-card
+            v-for="(item, index) in cardData"
+            :key="index"
+            style="width: 95%"
+            :title="item['description']"
+          >
             <template #cover>
-              <a-image alt="当前无数据,请确认是否停机" :src="photo1" style="aspect-ratio: 16/9" />
+              <a-image
+                alt="当前无数据,请确认是否停机"
+                :src="item['detectionPicturePath']"
+                style="aspect-ratio: 16/9"
+              />
             </template>
             <a-card-meta>
               <template #description>
                 <a-from>
                   <a-form-item label="定员人数">
-                    <a-input-number v-model:value="value1" disabled />
+                    <a-input-number v-model:value="item['limit']" disabled />
                   </a-form-item>
                   <a-form-item label="识别人数">
-                    <a-input-number v-model:value="value2" />
+                    <a-input-number v-model:value="item['peopleCount']" />
                   </a-form-item>
                   <a-form-item label="超员人数">
-                    <a-input :value="Math.max(0, value2 - value1)" />
+                    <a-input :value="item['exceeded']" />
                   </a-form-item>
                 </a-from>
-              </template>
-            </a-card-meta>
-          </a-card>
-
-          <a-card style="width: 95%" title="装药工序1">
-            <template #cover>
-              <a-image alt="当前无数据,请确认是否停机" :src="photo2" style="aspect-ratio: 16/9" />
-            </template>
-            <a-card-meta>
-              <template #description>
-                <a-form-item label="定员人数">
-                  <a-input-number v-model:value="value3" disabled />
-                </a-form-item>
-                <a-form-item label="识别人数">
-                  <a-input-number v-model:value="value4" />
-                </a-form-item>
-                <a-form-item label="超员人数">
-                  <a-input :value="Math.max(0, value4 - value3)" />
-                </a-form-item>
-              </template>
-            </a-card-meta>
-          </a-card>
-
-          <a-card style="width: 95%" title="装药工序2">
-            <template #cover>
-              <a-image alt="当前无数据,请确认是否停机" :src="photo3" style="aspect-ratio: 16/9" />
-            </template>
-            <a-card-meta>
-              <template #description>
-                <a-form-item label="定员人数">
-                  <a-input v-model:value="value5" disabled />
-                </a-form-item>
-                <a-form-item label="识别人数">
-                  <a-input v-model:value="value6" />
-                </a-form-item>
-                <a-form-item label="超员人数">
-                  <a-input :value="Math.max(0, value6 - value5)" />
-                </a-form-item>
-              </template>
-            </a-card-meta>
-          </a-card>
-
-          <a-card style="width: 95%" title="包装工序">
-            <template #cover>
-              <a-image alt="当前无数据,请确认是否停机" :src="photo4" style="aspect-ratio: 16/9" />
-            </template>
-            <a-card-meta>
-              <template #description>
-                <a-form-item label="定员人数">
-                  <a-input-number v-model:value="value7" disabled />
-                </a-form-item>
-                <a-form-item label="识别人数">
-                  <a-input-number v-model:value="value8" />
-                </a-form-item>
-                <a-form-item label="超员人数">
-                  <a-input :value="Math.max(0, value8 - value7)" />
-                </a-form-item>
-              </template>
-            </a-card-meta>
-          </a-card>
-
-          <a-card style="width: 95%" title="装车工序">
-            <template #cover>
-              <a-image alt="当前无数据,请确认是否停机" :src="photo5" style="aspect-ratio: 16/9" />
-            </template>
-            <a-card-meta>
-              <template #description>
-                <a-form-item label="定员人数">
-                  <a-input-number v-model:value="value9" disabled />
-                </a-form-item>
-                <a-form-item label="识别人数">
-                  <a-input-number v-model:value="value10" />
-                </a-form-item>
-                <a-form-item label="超员人数">
-                  <a-input :value="Math.max(0, value10 - value9)" />
-                </a-form-item>
               </template>
             </a-card-meta>
           </a-card>
@@ -184,14 +111,14 @@
           <Alert style="width: 90%; margin: 30px" type="info" show-icon>
             <template #message
               ><span style="font-size: 18px; font-weight: bold"
-                >主要结论:当月运行参数超限巡检次数呈现<span style="color: red; font-size: 22px">{{
+                >主要结论:当月运行参数超员巡检次数呈现<span style="color: red; font-size: 22px">{{
                   monthSlope > 0 ? '上升' : '下降'
                 }}</span
                 >趋势,拟合直线{{ monthSlope > 0 ? '上升' : '下降' }}斜率为<span
                   style="color: red; font-size: 22px"
                   >{{ monthSlope.toFixed(2) }}</span
-                >,超限次数<span style="color: red; font-size: 22px">{{
-                  monthSlope > 0 ? '小幅上升' : '大幅下降'
+                >,超员次数<span style="color: red; font-size: 22px">{{
+                  monthSlope > 0 ? '小幅上升' : '小幅下降'
                 }}</span></span
               ></template
             ></Alert
@@ -199,14 +126,14 @@
           <Alert style="width: 90%; margin: 30px" type="info" show-icon>
             <template #message
               ><span style="font-size: 18px; font-weight: bold"
-                >主要结论:当日运行参数超限巡检次数呈现<span style="color: red; font-size: 22px">{{
+                >主要结论:当日运行参数超员巡检次数呈现<span style="color: red; font-size: 22px">{{
                   dailySlope > 0 ? '上升' : '下降'
                 }}</span
                 >趋势,拟合直线{{ dailySlope > 0 ? '上升' : '下降' }}斜率为<span
                   style="color: red; font-size: 22px"
                   >{{ dailySlope.toFixed(2) }}</span
-                >,超限次数<span style="color: red; font-size: 22px">{{
-                  dailySlope > 0 ? '小幅上升' : '大幅下降'
+                >,超员次数<span style="color: red; font-size: 22px">{{
+                  dailySlope > 0 ? '小幅上升' : '小幅下降'
                 }}</span></span
               ></template
             ></Alert
@@ -294,7 +221,6 @@
     Card,
     CardMeta,
     InputNumber,
-    DatePicker,
     Input,
     Image,
     Alert,
@@ -323,7 +249,6 @@
       AForm: Form,
       ASelect: Select,
       AInputNumber: InputNumber,
-      ADatePicker: DatePicker,
       ACol: Col,
       ACard: Card,
       PageWrapper,
@@ -334,13 +259,6 @@
       Divider,
     },
     setup() {
-      const ips = [
-        '192.168.50.69',
-        '192.168.50.62',
-        '192.168.50.65',
-        '192.168.50.63',
-        '192.168.50.76',
-      ];
       const time = ref(null);
       const times = ref([]);
       let plantData = ref([]);
@@ -357,13 +275,13 @@
           ? parseInt(localStorage.getItem('plantId'))
           : plantData.value[0]['id'];
         await onPlantChange(formData.value.plant);
-        setMonthTrend();
-        setDailyTrend();
         getTimes();
         getStep();
-        setQuarter();
-        setMonth();
-        setDaily();
+        // setQuarter();
+        // setMonth();
+        // setDaily();
+        // setMonthTrend();
+        // setDailyTrend();
       });
       const submitForm = (values) => {
         console.log('Success:', values);
@@ -379,7 +297,7 @@
         formData.value.line = parseInt(localStorage.getItem('lineId'));
       };
       async function getTimes() {
-        const data = await detectionTimes();
+        const data = await detectionTimes(formData.value.line);
         console.log(times);
         times.value = data;
         if (data.length > 0) {
@@ -405,58 +323,16 @@
         }
       });
 
-      const photo1 = ref('');
-      const photo2 = ref('');
-      const photo3 = ref('');
-      const photo4 = ref('');
-      const photo5 = ref('');
-
-      const value1 = ref(1);
-      const value2 = ref(0);
-      const value3 = ref(1);
-      const value4 = ref(0);
-      const value5 = ref(1);
-      const value6 = ref(0);
-      const value7 = ref(1);
-      const value8 = ref(0);
-      const value9 = ref(1);
-      const value10 = ref(0);
+      const cardData = ref([]);
+      const exceedPeople = ref(0);
 
       const fetchResult = async () => {
         const params = {
-          ips: ips.join(','),
           time: time.value,
         };
-        const result = await detectionResult(params);
-        console.log(result);
-        for (let res of result) {
-          console.log(res);
-          const ipAddress = res['cameraId'];
-          switch (ipAddress) {
-            case '192.168.50.69':
-              photo1.value = res['detectionPicturePath'];
-              value2.value = res['peopleCount'];
-              break;
-            case '192.168.50.62':
-              photo2.value = res['detectionPicturePath'];
-              value4.value = res['peopleCount'];
-              break;
-            case '192.168.50.65':
-              photo3.value = res['detectionPicturePath'];
-              value6.value = res['peopleCount'];
-              break;
-            case '192.168.50.63':
-              photo4.value = res['detectionPicturePath'];
-              value8.value = res['peopleCount'];
-              break;
-            case '192.168.50.76':
-              photo5.value = res['detectionPicturePath'];
-              value10.value = res['peopleCount'];
-              break;
-            default:
-              console.log('未知 IP 地址');
-          }
-        }
+        const result = await detectionResult(formData.value.line, params);
+        cardData.value = result;
+        exceedPeople.value = result.reduce((acc, curr) => acc + curr['exceeded'], 0);
       };
 
       const timeValue = ref<Dayjs>(dayjs());
@@ -490,7 +366,7 @@
         monthSlope.value = monthTrend.params[1];
         setOptions4({
           title: {
-            text: '生产线超限巡检总次数月趋势',
+            text: '生产线超员巡检总次数月趋势',
           },
           legend: {
             data: ['统计数据', '拟合线'],
@@ -541,7 +417,7 @@
         lastDay.value = dailyTrend.times[dailyTrend.times.length - 1];
         setOptions5({
           title: {
-            text: '生产线超限巡检总次数日趋势',
+            text: '生产线超员巡检总次数日趋势',
           },
           legend: {
             data: ['统计数据', '拟合线'],
@@ -601,30 +477,54 @@
         const data = await getInspectionQuarter(formData.value.line, params);
         benchmarkQuarter.value = data.rate;
         console.log(data);
-        let indicator = [];
-        for (let i = 0; i < data.names.length; i++) {
-          indicator.push({ name: data.names[i], max: data.max });
-        }
-        let legend = ['第一季度', '第二季度', '第三季度', '本季度'];
-        let series = [];
+        let legend = ['本季度', '上季度', '上上季度'];
         let legendData = [];
-        for (let i = 0; i < data.values.length; i++) {
-          legendData.push(legend[i]);
-          series.push({
-            value: data.values[i],
-            name: legend[i],
+        let series = [];
+        if (data.names.length > 2) {
+          let indicator = [];
+          for (let i = 0; i < data.names.length; i++) {
+            indicator.push({ name: data.names[i], max: data.max });
+          }
+
+          for (let i = 0; i < data.values.length; i++) {
+            legendData.push(legend[i]);
+            series.push({
+              value: data.values[i],
+              name: legend[i],
+            });
+          }
+          setOptions3({
+            legend: {
+              data: legendData,
+            },
+            radar: {
+              // shape: 'circle',
+              indicator: indicator,
+            },
+            series: [{ type: 'radar', data: series }],
+          });
+        } else {
+          let bar = [];
+          for (let i = 0; i < data.values.length; i++) {
+            legendData.push(legend[i]);
+            let k = [data.names[i]];
+            for (let j = 0; j < data.values.length; j++) {
+              k.push(data.values[j][i]);
+            }
+            series.push(k);
+            bar.push({ type: 'bar' });
+          }
+          setOptions3({
+            legend: {},
+            tooltip: {},
+            dataset: {
+              source: [['对标', ...legendData], ...series],
+            },
+            xAxis: { type: 'category' },
+            yAxis: {},
+            series: bar,
           });
         }
-        setOptions3({
-          legend: {
-            data: legendData,
-          },
-          radar: {
-            // shape: 'circle',
-            indicator: indicator,
-          },
-          series: [{ type: 'radar', data: series }],
-        });
       }
 
       async function setMonth() {
@@ -635,29 +535,53 @@
         benchmarkMonth.value = data.rate;
         console.log(data);
         let indicator = [];
-        for (let i = 0; i < data.names.length; i++) {
-          indicator.push({ name: data.names[i], max: data.max });
-        }
         let legend = ['本月', '上月', '上上月'];
         let series = [];
         let legendData = [];
-        for (let i = 0; i < data.values.length; i++) {
-          legendData.push(legend[i]);
-          series.push({
-            value: data.values[i],
-            name: legend[i],
+        if (data.names.length > 2) {
+          for (let i = 0; i < data.names.length; i++) {
+            indicator.push({ name: data.names[i], max: data.max });
+          }
+
+          for (let i = 0; i < data.values.length; i++) {
+            legendData.push(legend[i]);
+            series.push({
+              value: data.values[i],
+              name: legend[i],
+            });
+          }
+          setOptions2({
+            legend: {
+              data: legendData,
+            },
+            radar: {
+              // shape: 'circle',
+              indicator: indicator,
+            },
+            series: [{ type: 'radar', data: series }],
+          });
+        } else {
+          let bar = [];
+          for (let i = 0; i < data.values.length; i++) {
+            legendData.push(legend[i]);
+            let k = [data.names[i]];
+            for (let j = 0; j < data.values.length; j++) {
+              k.push(data.values[j][i]);
+            }
+            series.push(k);
+            bar.push({ type: 'bar' });
+          }
+          setOptions2({
+            legend: {},
+            tooltip: {},
+            dataset: {
+              source: [['对标', ...legendData], ...series],
+            },
+            xAxis: { type: 'category' },
+            yAxis: {},
+            series: bar,
           });
         }
-        setOptions2({
-          legend: {
-            data: legendData,
-          },
-          radar: {
-            // shape: 'circle',
-            indicator: indicator,
-          },
-          series: [{ type: 'radar', data: series }],
-        });
       }
 
       async function setDaily() {
@@ -668,31 +592,55 @@
         benchmarkDay.value = data.rate;
         console.log(data);
         let indicator = [];
-        for (let i = 0; i < data.names.length; i++) {
-          indicator.push({ name: data.names[i], max: data.max });
-        }
         let legend = ['昨日', '今日'];
         let series = [];
         let legendData = [];
-        for (let i = 0; i < data.values.length; i++) {
-          legendData.push(legend[i]);
-          series.push({
-            value: data.values[i],
-            name: legend[i],
+        if (data.names.length > 2) {
+          for (let i = 0; i < data.names.length; i++) {
+            indicator.push({ name: data.names[i], max: data.max });
+          }
+
+          for (let i = 0; i < data.values.length; i++) {
+            legendData.push(legend[i]);
+            series.push({
+              value: data.values[i],
+              name: legend[i],
+            });
+          }
+          let options = {
+            legend: {
+              data: legendData,
+            },
+            radar: {
+              // shape: 'circle',
+              indicator: indicator,
+            },
+            series: [{ type: 'radar', data: series }],
+          };
+          console.log(111, options);
+          setOptions1(options);
+        } else {
+          let bar = [];
+          for (let i = 0; i < data.values.length; i++) {
+            legendData.push(legend[i]);
+            let k = [data.names[i]];
+            for (let j = 0; j < data.values.length; j++) {
+              k.push(data.values[j][i]);
+            }
+            series.push(k);
+            bar.push({ type: 'bar' });
+          }
+          setOptions2({
+            legend: {},
+            tooltip: {},
+            dataset: {
+              source: [['对标', ...legendData], ...series],
+            },
+            xAxis: { type: 'category' },
+            yAxis: {},
+            series: bar,
           });
         }
-        let options = {
-          legend: {
-            data: legendData,
-          },
-          radar: {
-            // shape: 'circle',
-            indicator: indicator,
-          },
-          series: [{ type: 'radar', data: series }],
-        };
-        console.log(111, options);
-        setOptions1(options);
       }
 
       return {
@@ -712,24 +660,9 @@
         chartRef6,
         chartRef7,
         activeKey,
-        value1,
-        value2,
-        value3,
-        value4,
-        value5,
-        value6,
-        value7,
-        value8,
-        value9,
-        value10,
         benchmark1,
         benchmark2,
         benchmark3,
-        photo1,
-        photo2,
-        photo3,
-        photo4,
-        photo5,
         monthSlope,
         dailySlope,
         lastCount,
@@ -741,6 +674,8 @@
         benchmarkDay,
         benchmarkMonth,
         benchmarkQuarter,
+        cardData,
+        exceedPeople,
       };
     },
   };

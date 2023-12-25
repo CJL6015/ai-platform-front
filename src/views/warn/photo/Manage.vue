@@ -259,7 +259,7 @@
       }
 
       const [registerTable, methods] = useTable({
-        title: '测点详情',
+        title: '冻结详情',
         columns,
         formConfig: {
           labelWidth: 120,

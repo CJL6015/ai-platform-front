@@ -7,10 +7,11 @@
   <Alert style="margin-top: 10px" type="info" show-icon closable>
     <template #message
       ><span style="font-size: 20px; font-weight: bold"
-        >{{ plantName }}{{ lineName }}测点超限时间占比<span style="color: red; font-size: 22px"
+        >{{ plantName }}{{ lineName }}{{ summary1 }}占比<span style="color: red; font-size: 22px"
           >{{ thresholdExceeded }}%</span
-        >,停机时间占比<span style="color: red; font-size: 22px">{{ stopTime }}%</span
-        >,刷新异常时间占比<span style="color: red; font-size: 22px">{{ refreshTime }}%</span></span
+        >,停机时间占比<span style="color: red; font-size: 22px">{{ stopTime }}%</span>,{{
+          summary1
+        }}占比<span style="color: red; font-size: 22px">{{ refreshTime }}%</span></span
       ></template
     ></Alert
   >
@@ -52,6 +53,15 @@
       const thresholdExceeded = ref<string | null>(null);
       const stopTime = ref<string | null>(null);
       const refreshTime = ref<string | null>(null);
+      const plant = parseInt(localStorage.getItem('plantId')) === 3;
+      const name = plant ? '故障时间' : '超限时间';
+      const freshName = plant ? '故障停机时间' : '刷新异常时间';
+      const freshName1 = plant ? '正常停机时间' : '刷新正常时间';
+      const chartName1 = plant ? '故障时间统计' : '测点超限统计';
+      const chartName2 = plant ? '运行时间统计' : '测点运行统计';
+      const chartName3 = plant ? '故障停机时间统计' : '故障停机时间统计';
+      const summary1 = plant ? '故障时间占比' : '测点超限时间';
+      const summary2 = plant ? '故障停机时间占比' : '刷新异常事件';
       watch(props, async (newData, _) => {
         const data = toRaw(newData.selectData);
         if (data && data['line'] && data['line'] > 0) {
@@ -85,7 +95,7 @@
         setOptions1(
           {
             title: {
-              text: '测点超限统计',
+              text: chartName1,
             },
             tooltip: {
               trigger: 'item',
@@ -93,7 +103,7 @@
             },
             legend: {
               top: 'bottom',
-              data: ['超限时间', '正常时间'],
+              data: [name, '正常时间'],
             },
             series: [
               {
@@ -105,7 +115,7 @@
                   show: false,
                 },
                 data: [
-                  { value: chartValue.thresholdExceeded, name: '超限时间' },
+                  { value: chartValue.thresholdExceeded, name: name },
                   { value: chartValue.thresholdWithin, name: '正常时间' },
                 ],
               },
@@ -117,7 +127,7 @@
         setOptions2(
           {
             title: {
-              text: '测点运行统计',
+              text: chartName2,
             },
             tooltip: {
               trigger: 'item',
@@ -149,7 +159,7 @@
         setOptions3(
           {
             title: {
-              text: '测点刷新统计',
+              text: chartName3,
             },
             tooltip: {
               trigger: 'item',
@@ -157,7 +167,7 @@
             },
             legend: {
               top: 'bottom',
-              data: ['刷新异常时间', '正常测点时间'],
+              data: [freshName, freshName1],
             },
             series: [
               {
@@ -166,8 +176,8 @@
                 radius: [0, 100],
                 center: ['50%', '50%'],
                 data: [
-                  { value: chartValue.exceptionRefresh, name: '刷新异常数' },
-                  { value: chartValue.normalRefresh, name: '正常测点数' },
+                  { value: chartValue.exceptionRefresh, name: freshName },
+                  { value: chartValue.normalRefresh, name: freshName1 },
                 ],
                 label: {
                   show: false,
@@ -188,6 +198,8 @@
         thresholdExceeded,
         stopTime,
         refreshTime,
+        summary1,
+        summary2,
       };
     },
   });

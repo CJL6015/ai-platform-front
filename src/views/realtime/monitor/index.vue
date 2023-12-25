@@ -1,44 +1,88 @@
 <template>
   <div>
-    <div v-html="svgHtml"></div>
+    <div v-if="leiguan" class="grid md:grid-cols-8 gap-4" style="margin: 10px">
+      <Card
+        v-for="(item, index) in cardData"
+        :key="index"
+        id="item.point"
+        @click="pointClick(item['point'])"
+        style="cursor: pointer"
+      >
+        <template #title
+          ><span style="font-size: 20px; font-weight: bold"
+            >工位: {{ item['name'] }}
+          </span></template
+        >
+        <span style="font-size: 20px; font-weight: bold"
+          >状态:<span :style="{ color: item['status'] ? 'green' : 'red' }">{{
+            item['status'] ? '运行' : '停机'
+          }}</span>
+          <br />
+          报警:<span :style="{ color: item['warn'] ? 'green' : 'red' }">
+            {{ item['warn'] ? '正常' : '故障' }}</span
+          ></span
+        >
+      </Card></div
+    >
+    <div v-else v-html="svgHtml"></div>
     <Trend @register="registerModal" />
   </div>
 </template>
 <script lang="ts" setup>
-  import { getPointsValues, getPointsLimits } from '/@/api/data/point';
+  import { getPointsValues, getPointsLimits, getPointStatus } from '/@/api/data/point';
   import { onMounted, onBeforeUnmount, ref } from 'vue';
   import Trend from '../../warn/components/Trend.vue';
   import { useModal } from '/@/components/Modal';
+  import { Card } from 'ant-design-vue';
 
   const [registerModal, { openModal }] = useModal();
   let timer = null;
   let limits = {};
   let lineId = localStorage.getItem('lineId');
   const svgHtml = ref('');
+  const leiguan = ref(false);
+  leiguan.value = parseInt(localStorage.getItem('plantId')) === 3;
 
   onMounted(async () => {
-    let svgPath = lineId === '2' ? '/src/assets/svg/svg2.svg' : '/src/assets/svg/svg1.svg';
-    const response = await fetch(svgPath);
-    if (response.ok) {
-      const svgContent = await response.text();
-      svgHtml.value = svgContent;
-    } else {
-      console.error('Failed to load SVG file');
+    if (!leiguan.value) {
+      let svgPath = lineId === '2' ? '/src/assets/svg/svg2.svg' : '/src/assets/svg/svg1.svg';
+      const response = await fetch(svgPath);
+      if (response.ok) {
+        const svgContent = await response.text();
+        svgHtml.value = svgContent;
+      } else {
+        console.error('Failed to load SVG file');
+      }
+      const formattedTextElements = document.querySelectorAll('text[id^="KL"]');
+      console.log(formattedTextElements);
+      const formattedTextElementsArray = Array.from(formattedTextElements);
+      let points: any[] = [];
+      formattedTextElementsArray.forEach((element) => {
+        const id = element.getAttribute('id');
+        element.addEventListener('click', pointClick.bind(this, element.id));
+        element.style.cursor = 'pointer';
+        points.push(id);
+      });
+      getLimits(points);
+      timer = setInterval(() => {
+        getValues(points);
+      }, 1000);
     }
-    const formattedTextElements = document.querySelectorAll('text[id^="KL"]');
-    console.log(formattedTextElements);
-    const formattedTextElementsArray = Array.from(formattedTextElements);
-    let points: any[] = [];
-    formattedTextElementsArray.forEach((element) => {
-      const id = element.getAttribute('id');
-      element.addEventListener('click', pointClick.bind(this, element.id));
-      element.style.cursor = 'pointer';
-      points.push(id);
-    });
-    getLimits(points);
-    timer = setInterval(() => {
-      getValues(points);
-    }, 1000);
+  });
+
+  async function getStatus() {
+    const data = await getPointStatus(lineId);
+    cardData.value = data;
+  }
+
+  const cardData = ref([]);
+  onMounted(async () => {
+    if (leiguan.value) {
+      getStatus();
+      timer = setInterval(() => {
+        getStatus();
+      }, 1000);
+    }
   });
 
   onBeforeUnmount(() => {

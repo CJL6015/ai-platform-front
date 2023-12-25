@@ -19,6 +19,50 @@
           class="border border-gray-400"
           style="width: 100%; height: 380px"
         ></div>
+        <div>
+          <Alert style="width: 100%; height: 120px" type="info">
+            <template #message>
+              <div style="width: 100%; height: 120px; overflow-y: scroll">
+                <span style="font-size: 18px; font-weight: bold"
+                  >{{ indexName }}走势分析结论:<br />
+                  <span v-for="summary in trendSummary" :key="summary['key']">
+                    {{ summary['key'] }}.{{ summary['name'] }}{{ indexName }}整体呈现<span
+                      style="color: red; font-size: 22px"
+                      >{{ summary['trend'] }}</span
+                    ><br /></span
+                ></span>
+              </div> </template
+          ></Alert>
+        </div>
+        <div>
+          <Alert style="width: 100%; height: 120px" type="info">
+            <template #message
+              ><span style="font-size: 18px; font-weight: bold"
+                >{{ indexName }}设备位置分析结论:<br />
+                {{ indexName }}占比最高的工序为<span style="color: red; font-size: 22px">{{
+                  equipment
+                }}</span
+                >,有提升的空间</span
+              ></template
+            ></Alert
+          >
+        </div>
+        <div>
+          <Alert style="width: 100%; height: 120px" type="info">
+            <template #message>
+              <div style="width: 100%; height: 120px; overflow-y: scroll"
+                ><span style="font-size: 18px; font-weight: bold"
+                  >{{ indexName }}峰值分析结论:<br />
+                  1.{{ indexName }}单日最高为<span style="color: red; font-size: 22px"
+                    >{{ maxCount }}次</span
+                  >,于<span style="color: red; font-size: 22px">{{ maxTime }}</span
+                  >发生<br />
+                  2.{{ names }}峰值{{ indexName }}分别为<span style="color: red; font-size: 22px">{{
+                    equipmentCounts
+                  }}</span
+                  ><br /></span></div></template
+          ></Alert>
+        </div>
         <div
           ref="chartRef4"
           class="border border-gray-400"
@@ -35,13 +79,13 @@
           style="width: 100%; height: 380px"
         ></div>
         <div>
-          <Alert style="width: 100%; height: 220px" type="info">
+          <Alert style="width: 100%; height: 120px" type="info">
             <template #message>
-              <div style="width: 100%; height: 220px; overflow-y: scroll">
+              <div style="width: 100%; height: 120px; overflow-y: scroll">
                 <span style="font-size: 18px; font-weight: bold"
-                  >超限走势分析结论:<br />
+                  >{{ indexName }}走势分析结论:<br />
                   <span v-for="summary in trendSummary" :key="summary['key']">
-                    {{ summary['key'] }}.{{ summary['name'] }}参数超限整体呈现<span
+                    {{ summary['key'] }}.{{ summary['name'] }}{{ indexName }}整体呈现<span
                       style="color: red; font-size: 22px"
                       >{{ summary['trend'] }}</span
                     ><br /></span
@@ -50,31 +94,27 @@
           ></Alert>
         </div>
         <div>
-          <Alert style="width: 100%; height: 220px" type="info">
+          <Alert style="width: 100%; height: 120px" type="info">
             <template #message
               ><span style="font-size: 18px; font-weight: bold"
-                >超限高峰时间和设备位置分析结论:<br />
-                1.参数超限占比最高的工序为<span style="color: red; font-size: 22px">{{
-                  equipment
-                }}</span
-                >,有提升的空间<br />
-                2.定员超限最高发的时间为<span style="color: red; font-size: 22px">{{
+                >{{ indexName }}高峰时间分析结论:<br />
+                {{ indexName }}最高发的时间为<span style="color: red; font-size: 22px">{{
                   maxHour
                 }}</span
                 >,可加强该时段的监控<br /></span></template
           ></Alert>
         </div>
         <div>
-          <Alert style="width: 100%; height: 220px" type="info">
+          <Alert style="width: 100%; height: 120px" type="info">
             <template #message>
-              <div style="width: 100%; height: 220px; overflow-y: scroll"
+              <div style="width: 100%; height: 120px; overflow-y: scroll"
                 ><span style="font-size: 18px; font-weight: bold"
-                  >超限峰值分析结论:<br />
-                  1.参数超限单日最高为<span style="color: red; font-size: 22px"
+                  >{{ indexName }}峰值分析结论:<br />
+                  1.{{ indexName }}单日最高为<span style="color: red; font-size: 22px"
                     >{{ maxCount }}次</span
                   >,于<span style="color: red; font-size: 22px">{{ maxTime }}</span
                   >发生<br />
-                  2.{{ names }}峰值参数超限分别为<span style="color: red; font-size: 22px">{{
+                  2.{{ names }}峰值{{ indexName }}分别为<span style="color: red; font-size: 22px">{{
                     equipmentCounts
                   }}</span
                   ><br /></span></div></template
@@ -109,6 +149,8 @@
       const lastMonthDate: Dayjs = currentDate.subtract(1, 'month');
       const rangeValue: RangeValue = [lastMonthDate, currentDate];
       historyTime.value = rangeValue;
+      const indexName = ref('');
+      indexName.value = parseInt(localStorage.getItem('plantId')) === 3 ? '故障停机' : '参数超限';
 
       const line = ref(parseInt(localStorage.getItem('lineId')));
 
@@ -123,11 +165,8 @@
       });
 
       const handleOptionSelected = (values) => {
-        // console.log(values);
-        // historyTime.value = values.time;
-        // line.value = values.line;
-        // setEquipmentTrend();
-        // setTotal();
+        setEquipmentTrend();
+        setTotal();
       };
 
       const equipment = ref('');
@@ -162,7 +201,7 @@
 
         setOptions4({
           title: {
-            text: '参数总超限次数趋势',
+            text: `总${indexName.value}次数趋势`,
           },
           tooltip: {
             trigger: 'axis',
@@ -213,7 +252,7 @@
                 label: {
                   show: true,
                   position: 'middle',
-                  formatter: '平均超限次数: {c}',
+                  formatter: `平均${indexName.value}次数: {c}`,
                 },
               },
               data: trendData.trend,
@@ -231,7 +270,7 @@
           .padStart(2, '0')}:00`;
         setOptions5({
           title: {
-            text: '超限时段统计',
+            text: `${indexName.value}时段统计`,
           },
           tooltip: {
             trigger: 'axis',
@@ -305,7 +344,7 @@
         trendSummary.value = summary;
         setOptions1({
           title: {
-            text: '不同设备对应参数超限趋势',
+            text: `不同设备对应${indexName.value}趋势`,
           },
           tooltip: {
             trigger: 'axis',
@@ -343,7 +382,7 @@
 
         setOptions2({
           title: {
-            text: '超限份额统计',
+            text: `${indexName.value}份额统计`,
           },
           tooltip: {
             trigger: 'item',
@@ -351,7 +390,7 @@
           },
           series: [
             {
-              name: '超限份额统计',
+              name: `${indexName.value}份额统计`,
               type: 'pie',
               radius: [0, 140],
               center: ['50%', '50%'],
@@ -373,7 +412,7 @@
         }
         setOptions3({
           title: {
-            text: '设备超限峰值统计',
+            text: `设备${indexName.value}峰值统计`,
           },
           tooltip: {
             trigger: 'item',
@@ -388,7 +427,7 @@
               data: [
                 {
                   value: data.equipmentMax,
-                  name: '设备超限峰值统计',
+                  name: `设备${indexName.value}峰值统计`,
                   areaStyle: {
                     color: 'rgba(255, 145, 124, 0.9)',
                   },
@@ -411,7 +450,7 @@
         }
         setOptions6({
           title: {
-            text: '设备超限时长统计',
+            text: `设备${indexName.value}时长统计`,
           },
           radar: {
             // shape: 'circle',
@@ -467,6 +506,7 @@
         equipmentCounts,
         trendSummary,
         handleOptionSelected,
+        indexName,
       };
     },
   };

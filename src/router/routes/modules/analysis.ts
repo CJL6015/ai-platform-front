@@ -11,7 +11,7 @@ const analysis: AppRouteModule = {
     orderNo: 4,
     icon: 'icon-park-outline:analysis',
     title: '生产线安全综合分析',
-    roles: [RoleEnum.Line],
+    roles: [RoleEnum.LINE, RoleEnum.LEIGUAN],
   },
   children: [
     {

@@ -7,14 +7,16 @@
             ><Alert type="info">
               <template #message>
                 <span style="color: blue; font-size: 18px; font-weight: bold"
-                  >支持度:A、B两个设备(或测点)同时发生超限的概率
+                  >支持度:A、B两个设备(或测点)同时发生{{ indexName }}的概率
                 </span>
               </template>
             </Alert>
             <Alert type="error" style="margin-top: 10px">
               <template #message>
                 <span style="color: red; font-size: 18px; font-weight: bold"
-                  >置信度:A设备(测点)发生超限的情况下,B设备(测点)发生超限的概率
+                  >置信度:A设备(测点)发生{{ indexName }}的情况下,B设备(测点)发生{{
+                    indexName
+                  }}的概率
                 </span>
               </template>
             </Alert>
@@ -102,6 +104,8 @@
     setup() {
       const inputValue1 = ref(0.9);
       const group = ref([]);
+      const indexName = ref('');
+      indexName.value = parseInt(localStorage.getItem('plantId')) === 3 ? '故障停机' : '参数超限';
 
       const [registerTable, methods] = useTable({
         columns,
@@ -134,6 +138,7 @@
         registerTable,
         getChartData,
         group,
+        indexName,
       };
     },
   };
