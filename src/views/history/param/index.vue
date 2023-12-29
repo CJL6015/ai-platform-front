@@ -83,15 +83,13 @@
             <template #message>
               <div style="width: 100%; height: 120px; overflow-y: scroll">
                 <span style="font-size: 18px; font-weight: bold"
-                  >{{ indexName }}走势分析结论:<br />
-                  <span v-for="summary in trendSummary" :key="summary['key']">
-                    {{ summary['key'] }}.{{ summary['name'] }}{{ indexName }}整体呈现<span
-                      style="color: red; font-size: 22px"
-                      >{{ summary['trend'] }}</span
-                    ><br /></span
-                ></span>
-              </div> </template
-          ></Alert>
+                  >{{ indexName }}走势整体呈现:<span style="color: red; font-size: 22px">{{
+                    summary
+                  }}</span></span
+                >
+              </div>
+            </template></Alert
+          >
         </div>
         <div>
           <Alert style="width: 100%; height: 120px" type="info">
@@ -150,6 +148,7 @@
       const rangeValue: RangeValue = [lastMonthDate, currentDate];
       historyTime.value = rangeValue;
       const indexName = ref('');
+      const summary = ref('');
       indexName.value = parseInt(localStorage.getItem('plantId')) === 3 ? '故障停机' : '参数超限';
 
       const line = ref(parseInt(localStorage.getItem('lineId')));
@@ -187,7 +186,7 @@
         };
         const trendData = await getBenchmarkTrend(line.value, time);
         console.log(trendData);
-
+        summary.value = trendData.summary;
         let index = 0;
         let max = trendData.trend[0][1];
         for (let i = 0; i < trendData.trend.length; i++) {
@@ -507,6 +506,7 @@
         trendSummary,
         handleOptionSelected,
         indexName,
+        summary,
       };
     },
   };

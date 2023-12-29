@@ -131,21 +131,37 @@
               <span style="font-size: 18px; font-weight: bold"
                 >对于<span style="color: red; font-size: 22px">{{ cameraName }}</span
                 >超限次数:<br />
-                月同比<span style="color: red; font-size: 22px"
-                  >{{ inspectionBenchmark.month > inspectionBenchmark.lastMonth ? '上升' : '下降'
-                  }}{{ inspectionBenchmark.monthOverMonth.toFixed(2) }}%</span
-                >
+                <span v-if="inspectionBenchmark.monthOverMonth != null">
+                  月同比<span style="color: red; font-size: 22px"
+                    >{{ inspectionBenchmark.month > inspectionBenchmark.lastMonth ? '上升' : '下降'
+                    }}{{
+                      inspectionBenchmark.monthOverMonth != null
+                        ? inspectionBenchmark.monthOverMonth.toFixed(2)
+                        : '暂无数据'
+                    }}%</span
+                  >
+                </span>
+
                 <!-- ,月环比<span style="color: red; font-size: 22px"
                   >{{
                     inspectionBenchmark.month > inspectionBenchmark.lastYearMonth ? '上升' : '下降'
                   }}{{ inspectionBenchmark.monthOnMonth.toFixed(2) }}%</span
                 > -->
                 <br />
-                季同比<span style="color: red; font-size: 22px"
-                  >{{
-                    inspectionBenchmark.quarter > inspectionBenchmark.lastQuarter ? '上升' : '下降'
-                  }}{{ inspectionBenchmark.quarterOverQuarter.toFixed(2) }}%</span
-                >
+                <span v-if="inspectionBenchmark.quarterOverQuarter != null">
+                  季同比<span style="color: red; font-size: 22px"
+                    >{{
+                      inspectionBenchmark.quarter > inspectionBenchmark.lastQuarter
+                        ? '上升'
+                        : '下降'
+                    }}{{
+                      inspectionBenchmark.quarterOverQuarter != null
+                        ? inspectionBenchmark.quarterOverQuarter.toFixed(2)
+                        : '暂无数据'
+                    }}%</span
+                  >
+                </span>
+
                 <!-- ,季环比<span style="color: red; font-size: 22px"
                   >{{
                     inspectionBenchmark.quarter > inspectionBenchmark.lastYearQuarter
@@ -189,6 +205,7 @@
       const cameraData = ref([]);
       const indexName = ref('');
       indexName.value = parseInt(localStorage.getItem('plantId')) === 3 ? '故障停机' : '参数超限';
+      const lineId = parseInt(localStorage.getItem('lineId'));
 
       const point = ref(-1);
       const camera = ref(-1);
@@ -233,21 +250,27 @@
       });
 
       const getPoints = async () => {
-        pointData.value = await pointOptionListApi();
+        pointData.value = await pointOptionListApi(lineId);
         getParamData();
       };
       async function getCameras() {
-        cameraData.value = await cameraListApi(1);
+        cameraData.value = await cameraListApi(lineId);
         getInspectionData();
       }
 
       async function getParamData() {
-        const data = await getParamBenchmark(point.value);
+        const params = {
+          pointId: point.value,
+        };
+        const data = await getParamBenchmark(lineId, params);
         console.log(data);
         paramBenchmark.value = data;
       }
       async function getInspectionData() {
-        const data = await getInspectionBenchmark(camera.value);
+        const params = {
+          cameraIp: camera.value,
+        };
+        const data = await getInspectionBenchmark(lineId, params);
         console.log(data);
         inspectionBenchmark.value = data;
       }

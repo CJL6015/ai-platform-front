@@ -15,10 +15,11 @@ enum Api {
 export const getStatistic = (id: any, params: any) =>
   defHttp.get<any>({ url: Api.STATISTIC + id, params });
 
-export const getParamBenchmark = (id: any) => defHttp.get<any>({ url: Api.PARAM_BENCHMARK + id });
+export const getParamBenchmark = (id: any, params: any) =>
+  defHttp.get<any>({ url: Api.PARAM_BENCHMARK + id, params });
 
-export const getInspectionBenchmark = (id: any) =>
-  defHttp.get<any>({ url: Api.INSPECTION_BENCHMARK + id });
+export const getInspectionBenchmark = (id: any, params) =>
+  defHttp.get<any>({ url: Api.INSPECTION_BENCHMARK + id, params });
 
 export const getInspectionDaily = (id: any, params) =>
   defHttp.get<any>({ url: Api.INSPECTION_DAILY + id, params });

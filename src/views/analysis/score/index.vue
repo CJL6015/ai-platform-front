@@ -1,5 +1,5 @@
 <template>
-  <PageWrapper title="设备安全状态分析">
+  <PageWrapper title="评分规则及趋势分析">
     <a-card>
       <UnitSelectDate @option-selected="handleOptionSelected" />
       <a-divider />
@@ -38,7 +38,8 @@
                   >记1个测点超限1次高/低限,扣×2分.共n2个测点在这种情况下超限t2次;<br />
                   <span style="color: blue">规则4.2:</span
                   >记1个测点超限1次高高/低低限,扣×3分.共n3个测点在这种情况下超限t3次;<br />
-                  <span style="color: blue">规则4.1:</span>生产线安全评分公式为:</span
+                  <span style="color: blue">规则4.1:</span>生产线安全评分公式为:
+                  <span style="color: red">S=100 - n1 * x1 - t2 * x2 - t3 * x3</span></span
                 >
               </span>
             </div></template
@@ -120,9 +121,12 @@
           yAxis: [
             {
               type: 'value',
+              max: 100,
             },
             {
               type: 'value',
+              show: false,
+              max: 100,
             },
           ],
           series: [

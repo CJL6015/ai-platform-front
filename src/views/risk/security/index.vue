@@ -3,7 +3,13 @@
     <a-card>
       <UnitSelectDay @option-selected="handleOptionSelected" />
       <a-divider />
-      <a-alert style="width: 90%; margin: 10px" type="info" show-icon>
+      <a-alert
+        style="width: 98%; margin: 10px"
+        type="success"
+        show-icon
+        message="规则: 1天记1次分。设备得分 = 100 - 该设备超限次数 * 单次超限扣分"
+      />
+      <a-alert style="width: 98%; margin: 10px" type="info" show-icon>
         <template #message
           ><span style="font-size: 20px; font-weight: bold"
             >1.本月设备安全状态得分最低的三个设备<span style="color: blue; font-size: 22px">{{
@@ -17,7 +23,7 @@
             >分 </span
           ><br /></template
       ></a-alert>
-      <a-alert style="width: 90%; margin: 10px" type="error" show-icon>
+      <a-alert style="width: 98%; margin: 10px" type="error" show-icon>
         <template #message
           ><span style="font-size: 20px; font-weight: bold"
             >2.本月设备安全状态得分较上月下降最多的三个设备<span

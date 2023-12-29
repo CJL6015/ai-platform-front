@@ -277,11 +277,11 @@
         await onPlantChange(formData.value.plant);
         getTimes();
         getStep();
-        // setQuarter();
-        // setMonth();
-        // setDaily();
-        // setMonthTrend();
-        // setDailyTrend();
+        setQuarter();
+        setMonth();
+        setDaily();
+        setMonthTrend();
+        setDailyTrend();
       });
       const submitForm = (values) => {
         console.log('Success:', values);
@@ -362,7 +362,7 @@
           st: dayjs(lastMonthDate).format('YYYY-MM-DD HH:mm:ss'),
           et: dayjs(currentDate).format('YYYY-MM-DD HH:mm:ss'),
         };
-        const monthTrend = await getTrendMonth(time);
+        const monthTrend = await getTrendMonth(formData.value.line, time);
         monthSlope.value = monthTrend.params[1];
         setOptions4({
           title: {
@@ -411,7 +411,7 @@
           st: dayjs(lastDayDate).format('YYYY-MM-DD HH:mm:ss'),
           et: dayjs(currentDate).format('YYYY-MM-DD HH:mm:ss'),
         };
-        const dailyTrend = await getTrendDaily(time);
+        const dailyTrend = await getTrendDaily(formData.value.line, time);
         dailySlope.value = dailyTrend.params[1];
         lastCount.value = dailyTrend.value[dailyTrend.value.length - 1];
         lastDay.value = dailyTrend.times[dailyTrend.times.length - 1];

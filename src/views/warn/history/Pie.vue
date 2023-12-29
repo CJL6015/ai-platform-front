@@ -10,7 +10,7 @@
         >{{ plantName }}{{ lineName }}{{ summary1 }}占比<span style="color: red; font-size: 22px"
           >{{ thresholdExceeded }}%</span
         >,停机时间占比<span style="color: red; font-size: 22px">{{ stopTime }}%</span>,{{
-          summary1
+          summary2
         }}占比<span style="color: red; font-size: 22px">{{ refreshTime }}%</span></span
       ></template
     ></Alert
@@ -54,14 +54,14 @@
       const stopTime = ref<string | null>(null);
       const refreshTime = ref<string | null>(null);
       const plant = parseInt(localStorage.getItem('plantId')) === 3;
-      const name = plant ? '故障时间' : '超限时间';
-      const freshName = plant ? '故障停机时间' : '刷新异常时间';
-      const freshName1 = plant ? '正常停机时间' : '刷新正常时间';
-      const chartName1 = plant ? '故障时间统计' : '测点超限统计';
+      const name = plant ? '故障停机时间' : '超限时间';
+      const freshName = plant ? '故障时间' : '刷新异常时间';
+      const freshName1 = plant ? '正常时间' : '刷新正常时间';
+      const chartName1 = plant ? '故障停机时间统计' : '测点超限统计';
       const chartName2 = plant ? '运行时间统计' : '测点运行统计';
-      const chartName3 = plant ? '故障停机时间统计' : '故障停机时间统计';
-      const summary1 = plant ? '故障时间占比' : '测点超限时间';
-      const summary2 = plant ? '故障停机时间占比' : '刷新异常事件';
+      const chartName3 = plant ? '故障时间统计' : '刷新异常时间统计';
+      const summary1 = plant ? '故障停机时间' : '测点超限时间';
+      const summary2 = plant ? '故障时间' : '刷新异常事件';
       watch(props, async (newData, _) => {
         const data = toRaw(newData.selectData);
         if (data && data['line'] && data['line'] > 0) {

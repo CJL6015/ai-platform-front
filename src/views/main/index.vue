@@ -17,10 +17,10 @@ import { on } from 'codemirror';
             <div ref="chartRef3" style="widows: 100%; height: 200px; border: 1px solid #ccc"></div>
           </a-col>
         </a-row>
-        <h3 style="text-align: center">动态标杆资产</h3>
+        <h3 style="text-align: center">动态标杆产线及公司</h3>
         <a-descriptions size="middle" :column="2" bordered>
           <a-descriptions-item label="对比类目">公司</a-descriptions-item>
-          <a-descriptions-item label="产线">安全分治</a-descriptions-item>
+          <a-descriptions-item label="产线">安全分值</a-descriptions-item>
           <a-descriptions-item label="分子公司">{{ plantData.sub1 }}</a-descriptions-item>
           <a-descriptions-item label="">{{ plantData.score1 }}</a-descriptions-item>
           <a-descriptions-item label="乳化产线">{{ plantData.sub2 }}</a-descriptions-item>
@@ -32,18 +32,18 @@ import { on } from 'codemirror';
           <!-- <a-descriptions-item label="成品仓库">荆门公司</a-descriptions-item>
           <a-descriptions-item label="14号仓库">100</a-descriptions-item> -->
         </a-descriptions>
-        <h3 style="text-align: center">待提升资产</h3>
+        <h3 style="text-align: center">待提升产线及公司</h3>
         <a-descriptions size="middle" :column="2" bordered>
           <a-descriptions-item label="对比类目">公司</a-descriptions-item>
-          <a-descriptions-item label="产线">安全分治</a-descriptions-item>
+          <a-descriptions-item label="产线">安全分值</a-descriptions-item>
           <a-descriptions-item label="分子公司">{{ plantData.sub5 }}</a-descriptions-item>
-          <a-descriptions-item label="">79</a-descriptions-item>
+          <a-descriptions-item label="">{{ plantData.score5 }}</a-descriptions-item>
           <a-descriptions-item label="乳化产线">{{ plantData.sub6 }}</a-descriptions-item>
-          <a-descriptions-item :label="plantData.line4">{{ plantData.score5 }}</a-descriptions-item>
+          <a-descriptions-item :label="plantData.line4">{{ plantData.score6 }}</a-descriptions-item>
           <a-descriptions-item label="膨化产线">{{ plantData.sub7 }}</a-descriptions-item>
-          <a-descriptions-item :label="plantData.line5">{{ plantData.score6 }}</a-descriptions-item>
+          <a-descriptions-item :label="plantData.line5">{{ plantData.score7 }}</a-descriptions-item>
           <a-descriptions-item label="雷管产线">{{ plantData.sub8 }}</a-descriptions-item>
-          <a-descriptions-item :label="plantData.line6">{{ plantData.score7 }}</a-descriptions-item>
+          <a-descriptions-item :label="plantData.line6">{{ plantData.score8 }}</a-descriptions-item>
           <!-- <a-descriptions-item label="成品仓库">荆门公司</a-descriptions-item>
           <a-descriptions-item label="14号仓库">89</a-descriptions-item> -->
         </a-descriptions></a-col
@@ -146,7 +146,7 @@ import { on } from 'codemirror';
         line2: '膨化产线',
         line3: '',
         line4: '乳化三线',
-        line5: '乳化三线',
+        line5: '膨化产线',
         line6: '',
         score1: 0,
         score2: 0,
@@ -288,7 +288,44 @@ import { on } from 'codemirror';
       }
 
       async function setMainScore() {
-        const data = await getMainScore();
+        // const data = await getMainScore();
+      }
+
+      async function setMainRatio() {
+        const data = await getMainRatio();
+        setOptions3({
+          tooltip: {
+            trigger: 'item',
+            formatter: '{a} <br/>{b} : {c} ({d}%)',
+          },
+          series: [
+            {
+              name: '本月刷新异常比',
+              type: 'pie',
+              radius: [0, 80],
+              center: ['50%', '50%'],
+              data: [
+                { value: data.run, name: '投运时间' },
+                { value: data.stop, name: '停机时间' },
+              ],
+              label: {
+                show: false,
+              },
+            },
+          ],
+          emphasis: {
+            itemStyle: {
+              shadowBlur: 10,
+              shadowOffsetX: 0,
+              shadowColor: 'rgba(0, 0, 0, 0.5)',
+            },
+          },
+        });
+      }
+
+      async function serTrend() {
+        const data = await getMainTrend();
+
         setOptions2({
           series: [
             {
@@ -335,48 +372,12 @@ import { on } from 'codemirror';
               },
               data: [
                 {
-                  value: data,
+                  value: ((data[0] + data[1]) / 2).toFixed(2),
                 },
               ],
             },
           ],
         });
-      }
-
-      async function setMainRatio() {
-        const data = await getMainRatio();
-        setOptions3({
-          tooltip: {
-            trigger: 'item',
-            formatter: '{a} <br/>{b} : {c} ({d}%)',
-          },
-          series: [
-            {
-              name: '本月刷新异常比',
-              type: 'pie',
-              radius: [0, 80],
-              center: ['50%', '50%'],
-              data: [
-                { value: data.run, name: '投运时间' },
-                { value: data.stop, name: '停机时间' },
-              ],
-              label: {
-                show: false,
-              },
-            },
-          ],
-          emphasis: {
-            itemStyle: {
-              shadowBlur: 10,
-              shadowOffsetX: 0,
-              shadowColor: 'rgba(0, 0, 0, 0.5)',
-            },
-          },
-        });
-      }
-
-      async function serTrend() {
-        const data = await getMainTrend();
 
         setOptions4({
           xAxis: {
@@ -501,7 +502,7 @@ import { on } from 'codemirror';
         plantData.value.score2 = data[2];
         plantData.value.score3 = data[3];
         plantData.value.score6 = data[2];
-        plantData.value.score7 = data[2];
+        plantData.value.score7 = data[3];
 
         if (data[4] > data[5]) {
           plantData.value.line3 = '雷管3期A线';

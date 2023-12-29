@@ -48,7 +48,7 @@
           </a-form-item>
           <a-form-item label="超员一次扣分">
             <a-form-item name="input-number" no-style>
-              <a-input-number v-model:value="ruleData.peopleScore" :min="1" :max="24" />
+              <a-input-number v-model:value="ruleData.peopleScore" :min="0" :max="24" />
             </a-form-item>
           </a-form-item>
           <a-form-item label="故障停机一次扣分">
@@ -98,7 +98,7 @@
           </a-form-item>
           <a-form-item label="超员一次扣分">
             <a-form-item name="input-number" no-style>
-              <a-input-number v-model:value="ruleData.peopleScore" :min="1" :max="24" />
+              <a-input-number v-model:value="ruleData.peopleScore" :min="0" :max="24" />
             </a-form-item>
           </a-form-item>
         </div>
@@ -187,6 +187,7 @@
         ruleData.value.loadingProcessLimit = config.loadingProcessLimit;
         ruleData.value.totalLimit = config.totalLimit;
         ruleData.value.highScore = config.highScore;
+        ruleData.value.score = config.score;
         ruleData.value.peopleScore = config.peopleScore;
       };
 

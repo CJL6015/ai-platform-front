@@ -1,27 +1,30 @@
 <template>
   <PageWrapper title="生产线月度安全情况诊断报告">
-    <div id="printContent">
-      <BasicTable @register="registerTable">
-        <template #toolbar>
-          <a-button @click="exportReport"> 导出报表 </a-button>
-        </template>
-      </BasicTable>
-    </div></PageWrapper
-  >
+    <a-spin size="large" :spinning="spinning">
+      <div id="printContent">
+        <BasicTable @register="registerTable">
+          <template #toolbar>
+            <a-button @click="exportReport"> 导出报表 </a-button>
+          </template>
+        </BasicTable>
+      </div>
+    </a-spin>
+  </PageWrapper>
 </template>
 
 <script lang="ts">
   import { PageWrapper } from '/@/components/Page';
-  import { defineComponent, toRaw, watch, ref, onMounted } from 'vue';
+  import { defineComponent, ref, onMounted } from 'vue';
   import { getReport } from '/@/api/data/benchmark';
-  import { BasicTable, useTable, TableAction, BasicColumn } from '/@/components/Table';
-  import { jsonToSheetXlsx } from '/@/components/Excel';
+  import { BasicTable, useTable, BasicColumn } from '/@/components/Table';
+  import { Spin } from 'ant-design-vue';
   import printJS from 'print-js';
 
   export default defineComponent({
     components: {
       BasicTable,
       PageWrapper,
+      ASpin: Spin,
     },
     setup() {
       const columns: BasicColumn[] = [
@@ -47,12 +50,14 @@
         canResize: false,
       });
       const tableData = ref([]);
+
+      const spinning = ref(false);
       onMounted(async () => {
         const params = {
           pic: true,
           line1: ['1'],
           time: '2',
-          totalIndicators: ['1', '2', '3'],
+          totalIndicators: ['0', '1', '2'],
           subIndicators: [],
           extremeNumber: 3,
           extremeIndicators: ['1', '2', '3', '4', '5'],
@@ -60,9 +65,11 @@
           correlationNumber: 3,
           correlation: [],
         };
+        spinning.value = true;
         const data = await getReport(params);
         tableData.value = data;
         setTableData(data);
+        spinning.value = false;
       });
 
       function exportReport() {
@@ -84,6 +91,7 @@
       return {
         registerTable,
         exportReport,
+        spinning,
       };
     },
   });

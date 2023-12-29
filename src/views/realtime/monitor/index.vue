@@ -18,8 +18,8 @@
             item['status'] ? '运行' : '停机'
           }}</span>
           <br />
-          报警:<span :style="{ color: item['warn'] ? 'green' : 'red' }">
-            {{ item['warn'] ? '正常' : '故障' }}</span
+          报警:<span :style="{ color: item['warn'] ? 'red' : 'green' }">
+            {{ item['warn'] ? '故障' : '正常' }}</span
           ></span
         >
       </Card></div
@@ -34,6 +34,8 @@
   import Trend from '../../warn/components/Trend.vue';
   import { useModal } from '/@/components/Modal';
   import { Card } from 'ant-design-vue';
+  import svg1 from '/@/assets/svg/svg1.svg';
+  import svg2 from '/@/assets/svg/svg2.svg';
 
   const [registerModal, { openModal }] = useModal();
   let timer = null;
@@ -45,7 +47,7 @@
 
   onMounted(async () => {
     if (!leiguan.value) {
-      let svgPath = lineId === '2' ? '/src/assets/svg/svg2.svg' : '/src/assets/svg/svg1.svg';
+      let svgPath = lineId === '2' ? svg2 : svg1;
       const response = await fetch(svgPath);
       if (response.ok) {
         const svgContent = await response.text();
