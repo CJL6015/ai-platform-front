@@ -10,6 +10,7 @@ import {
   ScatterChart,
   HeatmapChart,
   GaugeChart,
+  EffectScatterChart,
 } from 'echarts/charts';
 
 import {
@@ -60,6 +61,7 @@ echarts.use([
   HeatmapChart,
   ScatterChart,
   GaugeChart,
+  EffectScatterChart,
 ]);
 
 export default echarts;

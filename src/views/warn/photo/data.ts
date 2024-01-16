@@ -20,7 +20,7 @@ export const columns: BasicColumn[] = [
     sorter: (a, b) => a.exceededNum - b.exceededNum,
   },
   {
-    title: '超位次数',
+    title: '超员位次',
     dataIndex: 'exceededPeople',
     sorter: (a, b) => a.exceededPeople - b.exceededPeople,
   },

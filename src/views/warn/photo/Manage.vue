@@ -7,6 +7,7 @@
           style="width: 100%"
           @change="onPlantChange"
           :options="plantData.map((plant) => ({ value: plant['id'], label: plant['name'] }))"
+          disabled
         />
       </a-form-item>
     </a-col>
@@ -16,6 +17,7 @@
           v-model:value="formData.line"
           style="width: 100%"
           :options="lineData.map((line) => ({ value: line['id'], label: line['name'] }))"
+          disabled
         />
       </a-form-item>
     </a-col>
@@ -115,39 +117,26 @@
       >
     </a-row>
     <a-row :gutter="30" class="custom-row-gap">
-      <a-col :md="9" style="padding-top: 10px">
-        <a-form-item label="历史时间">
-          <a-range-picker
-            v-model:value="historyTime"
-            show-time
-            :placeholder="['冻结开始时间', '冻结结束时间']"
-            @change="historyTimeChange"
-          />
-        </a-form-item>
-        <div ref="chartRef" :style="{ height, width }"></div>
-      </a-col>
-      <a-col :md="15">
-        <BasicTable @register="registerTable">
-          <template #bodyCell="{ column, record, text }">
-            <template v-if="column.key === 'imageUrl'">
-              <TableImg :size="40" :imgList="text" :simpleShow="true" />
-            </template>
-            <template v-else-if="column.key === 'action'">
-              <TableAction
-                :actions="[
-                  {
-                    label: '解冻',
-                    popConfirm: {
-                      title: '是否解冻？',
-                      confirm: handleEdit.bind(null, record),
-                    },
-                  },
-                ]"
-              />
-            </template>
+      <BasicTable @register="registerTable">
+        <template #bodyCell="{ column, record, text }">
+          <template v-if="column.key === 'imageUrl'">
+            <TableImg :size="40" :imgList="text" :simpleShow="true" />
           </template>
-        </BasicTable>
-      </a-col>
+          <template v-else-if="column.key === 'action'">
+            <TableAction
+              :actions="[
+                {
+                  label: '解冻',
+                  popConfirm: {
+                    title: '是否解冻？',
+                    confirm: handleEdit.bind(null, record),
+                  },
+                },
+              ]"
+            />
+          </template>
+        </template>
+      </BasicTable>
     </a-row>
   </a-form>
 </template>
@@ -256,7 +245,11 @@
       async function handleEdit(record) {
         const value = toRaw(record);
         console.log(value);
-        const res = await unfreezeInspection(value.id);
+        const param = {
+          img: record.imageUrl[0],
+        };
+        console.log(param);
+        const res = await unfreezeInspection(param);
         if (res) {
           createMessage.success('解冻成功');
           getHistory(formData.value.line);
@@ -266,7 +259,7 @@
       }
 
       const [registerTable, methods] = useTable({
-        title: '测点详情',
+        title: '冻结详情',
         columns,
         formConfig: {
           labelWidth: 120,
@@ -292,10 +285,12 @@
         const options = await optionListApi();
         plantData.value = options.plantOptions;
         lineData.value = options.linesOptions;
-        formData.value.plant = plantData.value[0]['id'];
-        formData.value.line = lineData.value[0]['id'];
-        setConfig(lineData.value[0]['id']);
-        getHistory(lineData.value[0]['id']);
+        formData.value.plant = localStorage.getItem('plantId')
+          ? parseInt(localStorage.getItem('plantId'))
+          : plantData.value[0]['id'];
+        await onPlantChange(formData.value.plant);
+        setConfig(formData.value.line);
+        getHistory(formData.value.line);
       });
       const submitForm = () => {
         setConfig(formData.value.line);
@@ -432,7 +427,7 @@
       };
       const onPlantChange = async (value) => {
         lineData.value = await lineOptionListApi(value);
-        formData.value.line = lineData.value[0]['id'];
+        formData.value.line = parseInt(localStorage.getItem('lineId'));
       };
 
       const labelCol = { style: { width: '120px' } };

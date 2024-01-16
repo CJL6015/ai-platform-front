@@ -1,4 +1,5 @@
 import type { AppRouteModule } from '/@/router/types';
+import { RoleEnum } from '/@/enums/roleEnum';
 
 import { LAYOUT } from '/@/router/constant';
 
@@ -8,8 +9,9 @@ const realtime: AppRouteModule = {
   component: LAYOUT,
   meta: {
     orderNo: 2,
-    icon: 'ion:ios-monitor',
+    icon: 'ion:bar-chart-outline',
     title: '历史超限统计与分析',
+    roles: [RoleEnum.LINE],
   },
   children: [
     {
@@ -17,7 +19,6 @@ const realtime: AppRouteModule = {
       name: 'people',
       component: () => import('/@/views/history/people/index.vue'),
       meta: {
-        // affix: true,
         title: '定员超限多维对标分析',
       },
     },
@@ -26,7 +27,6 @@ const realtime: AppRouteModule = {
       name: 'param',
       component: () => import('/@/views/history/param/index.vue'),
       meta: {
-        // affix: true,
         title: '参数超限多维对标分析',
         showInMenu: false,
       },

@@ -10,6 +10,7 @@
                 style="width: 100%"
                 @change="onPlantChange"
                 :options="plantData.map((plant) => ({ value: plant['id'], label: plant['name'] }))"
+                disabled
               />
             </a-form-item>
           </a-col>
@@ -19,6 +20,16 @@
                 v-model:value="formData.line"
                 style="width: 100%"
                 :options="lineData.map((line) => ({ value: line['id'], label: line['name'] }))"
+                disabled
+              />
+            </a-form-item>
+          </a-col>
+          <a-col :md="5">
+            <a-form-item label="巡检时间" name="line">
+              <a-select
+                v-model:value="time"
+                style="width: 100%"
+                :options="times.map((t) => ({ value: t, label: t }))"
               />
             </a-form-item>
           </a-col>
@@ -39,25 +50,17 @@
               type="primary"
               html-type="submit"
               style="margin-left: 10px"
-              @click="getLastResult"
-              >查看上次</a-button
+              @click="fetchResult"
+              >确定</a-button
             >
           </a-col>
           <a-col :md="7">
             <Alert style="height: 33px; margin-left: 30px" type="info" show-icon>
               <template #message
                 ><span style="font-size: 18px; font-weight: bold"
-                  >上次抓拍时间:<span style="color: rgb(26 7 240); font-size: 22px">{{
-                    detectionTime
-                  }}</span
+                  >上次抓拍时间:<span style="color: rgb(26 7 240); font-size: 22px">{{ time }}</span
                   >,超员人数:
-                  <span style="color: red; font-size: 22px">{{
-                    Math.max(0, value2 - value1) +
-                    Math.max(0, value4 - value3) +
-                    Math.max(0, value6 - value4) +
-                    Math.max(0, value8 - value7) +
-                    Math.max(0, value10 - value9)
-                  }}</span></span
+                  <span style="color: red; font-size: 22px">{{ exceedPeople }}</span></span
                 ></template
               ></Alert
             >
@@ -70,104 +73,32 @@
       </a-tabs>
       <div v-show="activeKey === '1'">
         <div class="grid md:grid-cols-5 gap-1">
-          <a-card style="width: 95%" title="制药工序">
+          <a-card
+            v-for="(item, index) in cardData"
+            :key="index"
+            style="width: 95%"
+            :title="item['description']"
+          >
             <template #cover>
-              <!-- <a-image alt="example" src="http://114.55.245.123/api/static/images/制药工序.png" /> -->
-              <a-image alt="制药工序" :src="photo1" style="aspect-ratio: 16/9" />
+              <a-image
+                alt="当前无数据,请确认是否停机"
+                :src="item['detectionPicturePath']"
+                style="aspect-ratio: 16/9"
+              />
             </template>
             <a-card-meta>
               <template #description>
                 <a-from>
                   <a-form-item label="定员人数">
-                    <a-input-number v-model:value="value1" disabled />
+                    <a-input-number v-model:value="item['limit']" disabled />
                   </a-form-item>
                   <a-form-item label="识别人数">
-                    <a-input-number v-model:value="value2" />
+                    <a-input-number v-model:value="item['peopleCount']" />
                   </a-form-item>
                   <a-form-item label="超员人数">
-                    <a-input :value="Math.max(0, value2 - value1)" />
+                    <a-input :value="item['exceeded']" />
                   </a-form-item>
                 </a-from>
-              </template>
-            </a-card-meta>
-          </a-card>
-
-          <a-card style="width: 95%" title="装药工序1">
-            <template #cover>
-              <!-- <a-image alt="example" src="http://114.55.245.123/api/static/images/制药工序1.png" /> -->
-              <a-image alt="example" :src="photo2" style="aspect-ratio: 16/9" />
-            </template>
-            <a-card-meta>
-              <template #description>
-                <a-form-item label="定员人数">
-                  <a-input-number v-model:value="value3" disabled />
-                </a-form-item>
-                <a-form-item label="识别人数">
-                  <a-input-number v-model:value="value4" />
-                </a-form-item>
-                <a-form-item label="超员人数">
-                  <a-input :value="Math.max(0, value4 - value3)" />
-                </a-form-item>
-              </template>
-            </a-card-meta>
-          </a-card>
-
-          <a-card style="width: 95%" title="装药工序2">
-            <template #cover>
-              <!-- <a-image alt="example" src="http://114.55.245.123/api/static/images/装药工序2.png" /> -->
-              <a-image alt="example" :src="photo3" style="aspect-ratio: 16/9" />
-            </template>
-            <a-card-meta>
-              <template #description>
-                <a-form-item label="定员人数">
-                  <a-input v-model:value="value5" disabled />
-                </a-form-item>
-                <a-form-item label="识别人数">
-                  <a-input v-model:value="value6" />
-                </a-form-item>
-                <a-form-item label="超员人数">
-                  <a-input :value="Math.max(0, value6 - value5)" />
-                </a-form-item>
-              </template>
-            </a-card-meta>
-          </a-card>
-
-          <a-card style="width: 95%" title="包装工序">
-            <template #cover>
-              <!-- <a-image alt="example" src="http://114.55.245.123/api/static/images/包装工序.jpg" /> -->
-              <a-image alt="example" :src="photo4" style="aspect-ratio: 16/9" />
-            </template>
-            <a-card-meta>
-              <template #description>
-                <a-form-item label="定员人数">
-                  <a-input-number v-model:value="value7" disabled />
-                </a-form-item>
-                <a-form-item label="识别人数">
-                  <a-input-number v-model:value="value8" />
-                </a-form-item>
-                <a-form-item label="超员人数">
-                  <a-input :value="Math.max(0, value8 - value7)" />
-                </a-form-item>
-              </template>
-            </a-card-meta>
-          </a-card>
-
-          <a-card style="width: 95%" title="装车工序">
-            <template #cover>
-              <!-- <a-image alt="example" src="http://114.55.245.123/api/static/images/装车工序.jpg" /> -->
-              <a-image alt="example" :src="photo5" style="aspect-ratio: 16/9" />
-            </template>
-            <a-card-meta>
-              <template #description>
-                <a-form-item label="定员人数">
-                  <a-input-number v-model:value="value9" disabled />
-                </a-form-item>
-                <a-form-item label="识别人数">
-                  <a-input-number v-model:value="value10" />
-                </a-form-item>
-                <a-form-item label="超员人数">
-                  <a-input :value="Math.max(0, value10 - value9)" />
-                </a-form-item>
               </template>
             </a-card-meta>
           </a-card>
@@ -180,14 +111,14 @@
           <Alert style="width: 90%; margin: 30px" type="info" show-icon>
             <template #message
               ><span style="font-size: 18px; font-weight: bold"
-                >主要结论:当月运行参数超限巡检次数呈现<span style="color: red; font-size: 22px">{{
+                >主要结论:当月运行参数超员巡检次数呈现<span style="color: red; font-size: 22px">{{
                   monthSlope > 0 ? '上升' : '下降'
                 }}</span
                 >趋势,拟合直线{{ monthSlope > 0 ? '上升' : '下降' }}斜率为<span
                   style="color: red; font-size: 22px"
                   >{{ monthSlope.toFixed(2) }}</span
-                >,超限次数<span style="color: red; font-size: 22px">{{
-                  monthSlope > 0 ? '小幅上升' : '大幅下降'
+                >,超员次数<span style="color: red; font-size: 22px">{{
+                  monthSlope > 0 ? '小幅上升' : '小幅下降'
                 }}</span></span
               ></template
             ></Alert
@@ -195,14 +126,14 @@
           <Alert style="width: 90%; margin: 30px" type="info" show-icon>
             <template #message
               ><span style="font-size: 18px; font-weight: bold"
-                >主要结论:当日运行参数超限巡检次数呈现<span style="color: red; font-size: 22px">{{
+                >主要结论:当日运行参数超员巡检次数呈现<span style="color: red; font-size: 22px">{{
                   dailySlope > 0 ? '上升' : '下降'
                 }}</span
                 >趋势,拟合直线{{ dailySlope > 0 ? '上升' : '下降' }}斜率为<span
                   style="color: red; font-size: 22px"
                   >{{ dailySlope.toFixed(2) }}</span
-                >,超限次数<span style="color: red; font-size: 22px">{{
-                  dailySlope > 0 ? '小幅上升' : '大幅下降'
+                >,超员次数<span style="color: red; font-size: 22px">{{
+                  dailySlope > 0 ? '小幅上升' : '小幅下降'
                 }}</span></span
               ></template
             ></Alert
@@ -217,13 +148,18 @@
             </a-form-item>
           </template>
           <template #cover>
-            <div ref="chartRef2" style="height: 400px; widows: 100%"></div>
+            <div ref="chartRef3" style="height: 400px; widows: 100%"></div>
           </template>
           <a-card-meta>
             <template #description>
               <span style="color: black; font-size: 20px"
-                >本季度相较于前3季度,巡检超员次数下降了5%</span
-              >
+                >本季度相较于前几季度,巡检超员次数<span style="color: red; font-size: 22px">{{
+                  benchmarkQuarter > 0 ? '上涨' : '下降'
+                }}</span
+                >了<span style="color: red; font-size: 22px">
+                  {{ benchmarkQuarter.toFixed(2) }}%</span
+                >
+              </span>
             </template>
           </a-card-meta>
         </a-card>
@@ -234,13 +170,18 @@
             </a-form-item>
           </template>
           <template #cover>
-            <div ref="chartRef3" style="height: 400px; widows: 100%"></div>
+            <div ref="chartRef2" style="height: 400px; widows: 100%"></div>
           </template>
           <a-card-meta>
             <template #description>
               <span style="color: black; font-size: 20px"
-                >本月度相较于前2月度,巡检超员次数下降了5%</span
-              >
+                >本月相较于前几月,巡检超员次数<span style="color: red; font-size: 22px">{{
+                  benchmarkMonth > 0 ? '上涨' : '下降'
+                }}</span
+                >了<span style="color: red; font-size: 22px">
+                  {{ benchmarkMonth.toFixed(2) }}%</span
+                >
+              </span>
             </template>
           </a-card-meta>
         </a-card>
@@ -256,8 +197,11 @@
           <a-card-meta>
             <template #description>
               <span style="color: black; font-size: 20px"
-                >今日相较于前1日,巡检超员次数下降了5%</span
-              >
+                >今日相较于前几日,巡检超员次数<span style="color: red; font-size: 22px">{{
+                  benchmarkDay > 0 ? '上涨' : '下降'
+                }}</span
+                >了<span style="color: red; font-size: 22px"> {{ benchmarkDay.toFixed(2) }}%</span>
+              </span>
             </template>
           </a-card-meta>
         </a-card>
@@ -277,7 +221,6 @@
     Card,
     CardMeta,
     InputNumber,
-    DatePicker,
     Input,
     Image,
     Alert,
@@ -287,8 +230,14 @@
   } from 'ant-design-vue';
   import dayjs, { Dayjs } from 'dayjs';
   import { optionListApi, lineOptionListApi } from '/@/api/warn/select';
+  import { getInspectionConfig } from '/@/api/data/config';
 
-  import { detectionResult, getTrendMonth, getTrendDaily } from '/@/api/warn/photo';
+  import { detectionResult, getTrendMonth, getTrendDaily, detectionTimes } from '/@/api/warn/photo';
+  import {
+    getInspectionDaily,
+    getInspectionMonth,
+    getInspectionQuarter,
+  } from '/@/api/warn/statistic';
 
   export default {
     components: {
@@ -300,7 +249,6 @@
       AForm: Form,
       ASelect: Select,
       AInputNumber: InputNumber,
-      ADatePicker: DatePicker,
       ACol: Col,
       ACard: Card,
       PageWrapper,
@@ -311,13 +259,8 @@
       Divider,
     },
     setup() {
-      const ips = [
-        '192.168.50.69',
-        '192.168.50.62',
-        '192.168.50.65',
-        '192.168.50.63',
-        '192.168.50.76',
-      ];
+      const time = ref(null);
+      const times = ref([]);
       let plantData = ref([]);
       let lineData = ref([]);
       const formData = ref({
@@ -328,9 +271,15 @@
         const options = await optionListApi();
         plantData.value = options.plantOptions;
         lineData.value = options.linesOptions;
-        formData.value.plant = plantData.value[0]['id'];
-        formData.value.line = lineData.value[0]['id'];
-        fetchResult(ips, null);
+        formData.value.plant = localStorage.getItem('plantId')
+          ? parseInt(localStorage.getItem('plantId'))
+          : plantData.value[0]['id'];
+        await onPlantChange(formData.value.plant);
+        getTimes();
+        getStep();
+        setQuarter();
+        setMonth();
+        setDaily();
         setMonthTrend();
         setDailyTrend();
       });
@@ -345,8 +294,23 @@
       const labelCol = { style: { width: '120px' } };
       const onPlantChange = async (value) => {
         lineData.value = await lineOptionListApi(value);
-        formData.value.line = lineData.value[0]['id'];
+        formData.value.line = parseInt(localStorage.getItem('lineId'));
       };
+      async function getTimes() {
+        const data = await detectionTimes(formData.value.line);
+        console.log(times);
+        times.value = data;
+        if (data.length > 0) {
+          time.value = data[0];
+        }
+        fetchResult();
+      }
+      const step = ref(1);
+
+      async function getStep() {
+        const config = await getInspectionConfig(formData.value.line);
+        step.value = config.inspectionCaptureInterval;
+      }
 
       const activeKey = ref('1');
 
@@ -359,94 +323,16 @@
         }
       });
 
-      const photo1 = ref('');
-      const photo2 = ref('');
-      const photo3 = ref('');
-      const photo4 = ref('');
-      const photo5 = ref('');
+      const cardData = ref([]);
+      const exceedPeople = ref(0);
 
-      const value1 = ref(1);
-      const value2 = ref(0);
-      const value3 = ref(1);
-      const value4 = ref(0);
-      const value5 = ref(1);
-      const value6 = ref(0);
-      const value7 = ref(1);
-      const value8 = ref(0);
-      const value9 = ref(1);
-      const value10 = ref(0);
-
-      const detectionTime = ref('');
-
-      const step = ref(1);
-
-      const getLastResult = () => {
-        const lastTime = getTime();
-        fetchResult(ips, lastTime);
-      };
-
-      const fetchResult = async (ips, time) => {
+      const fetchResult = async () => {
         const params = {
-          ips: ips.join(','),
-          time: time,
+          time: time.value,
         };
-        const result = await detectionResult(params);
-        console.log(result);
-        for (let res of result) {
-          console.log(res);
-          const ipAddress = res['cameraId'];
-          detectionTime.value = res['time'];
-          switch (ipAddress) {
-            case '192.168.50.69':
-              photo1.value = res['detectionPicturePath'];
-              value2.value = res['peopleCount'];
-              break;
-            case '192.168.50.62':
-              photo2.value = res['detectionPicturePath'];
-              value4.value = res['peopleCount'];
-              break;
-            case '192.168.50.65':
-              photo3.value = res['detectionPicturePath'];
-              value6.value = res['peopleCount'];
-              break;
-            case '192.168.50.63':
-              photo4.value = res['detectionPicturePath'];
-              value8.value = res['peopleCount'];
-              break;
-            case '192.168.50.76':
-              photo5.value = res['detectionPicturePath'];
-              value10.value = res['peopleCount'];
-              break;
-            default:
-              console.log('未知 IP 地址');
-          }
-        }
-      };
-
-      const getTime = () => {
-        const dateString = detectionTime.value;
-        const stepVal = step.value;
-        const matches = dateString.match(/(\d{1,2})月(\d{1,2})日(\d{1,2})时/);
-        if (matches) {
-          const month = parseInt(matches[1]);
-          const day = parseInt(matches[2]);
-          const hour = parseInt(matches[3]);
-
-          // 获取当前年份
-          const currentYear = dayjs().year();
-
-          // 创建一个 dayjs 对象
-          const date = dayjs(`${currentYear}-${month}-${day}T${hour}:00:00`);
-
-          // 减去1小时
-          const updatedDate = date.subtract(stepVal, 'hour');
-
-          // 输出更新后的时间对象
-          console.log(updatedDate.toString());
-          return updatedDate;
-        } else {
-          console.log('日期格式不匹配');
-        }
+        const result = await detectionResult(formData.value.line, params);
+        cardData.value = result;
+        exceedPeople.value = result.reduce((acc, curr) => acc + curr['exceeded'], 0);
       };
 
       const timeValue = ref<Dayjs>(dayjs());
@@ -476,11 +362,11 @@
           st: dayjs(lastMonthDate).format('YYYY-MM-DD HH:mm:ss'),
           et: dayjs(currentDate).format('YYYY-MM-DD HH:mm:ss'),
         };
-        const monthTrend = await getTrendMonth(time);
+        const monthTrend = await getTrendMonth(formData.value.line, time);
         monthSlope.value = monthTrend.params[1];
         setOptions4({
           title: {
-            text: '生产线超限巡检总次数月趋势',
+            text: '生产线超员巡检总次数月趋势',
           },
           legend: {
             data: ['统计数据', '拟合线'],
@@ -525,13 +411,13 @@
           st: dayjs(lastDayDate).format('YYYY-MM-DD HH:mm:ss'),
           et: dayjs(currentDate).format('YYYY-MM-DD HH:mm:ss'),
         };
-        const dailyTrend = await getTrendDaily(time);
+        const dailyTrend = await getTrendDaily(formData.value.line, time);
         dailySlope.value = dailyTrend.params[1];
         lastCount.value = dailyTrend.value[dailyTrend.value.length - 1];
         lastDay.value = dailyTrend.times[dailyTrend.times.length - 1];
         setOptions5({
           title: {
-            text: '生产线超限巡检总次数日趋势',
+            text: '生产线超员巡检总次数日趋势',
           },
           legend: {
             data: ['统计数据', '拟合线'],
@@ -564,90 +450,198 @@
           ],
         });
       };
-
-      onMounted(() => {
-        setOptions1({
-          legend: {
-            data: ['昨日', '今日'],
-          },
-          radar: {
-            // shape: 'circle',
-            indicator: [
-              { name: '制药工序1超员', max: 10 },
-              { name: '制药工序2超员', max: 10 },
-              { name: '装药工序超员', max: 10 },
-              { name: '包装工序超员', max: 10 },
-              { name: '装车工序超员', max: 10 },
-            ],
-          },
-          series: [
-            {
-              name: 'Budget vs spending',
-              type: 'radar',
-              data: [
-                {
-                  value: [6, 1, 5, 1, 3],
-                  name: '昨日',
-                },
-                {
-                  value: [7, 6, 1, 3, 4],
-                  name: '今日',
-                },
-              ],
-            },
-          ],
-        });
-      });
-      onMounted(() => {
-        setOptions2({
-          legend: {
-            data: ['第一季度', '第二季度', '第三季度', '本季度'],
-          },
-          radar: {
-            // shape: 'circle',
-            indicator: [
-              { name: '制药工序1超员', max: 10 },
-              { name: '制药工序2超员', max: 10 },
-              { name: '装药工序超员', max: 10 },
-              { name: '包装工序超员', max: 10 },
-              { name: '装车工序超员', max: 10 },
-            ],
-          },
-          series: [
-            {
-              name: 'Budget vs spending',
-              type: 'radar',
-              data: [],
-            },
-          ],
-        });
-      });
-      onMounted(() => {
-        setOptions3({
-          legend: {
-            data: ['本月', '上月', '上上月'],
-          },
-          radar: {
-            // shape: 'circle',
-            indicator: [
-              { name: '制药工序1超员', max: 10 },
-              { name: '制药工序2超员', max: 10 },
-              { name: '装药工序超员', max: 10 },
-              { name: '包装工序超员', max: 10 },
-              { name: '装车工序超员', max: 10 },
-            ],
-          },
-          series: [
-            {
-              type: 'radar',
-              data: [],
-            },
-          ],
-        });
-      });
-      const benchmark1 = ref(4);
-      const benchmark2 = ref(3);
+      const benchmark1 = ref(2);
+      const benchmark2 = ref(2);
       const benchmark3 = ref(2);
+
+      watch(benchmark1, () => {
+        setQuarter();
+      });
+
+      watch(benchmark2, () => {
+        setMonth();
+      });
+
+      watch(benchmark3, () => {
+        setDaily();
+      });
+
+      const benchmarkDay = ref(0);
+      const benchmarkMonth = ref(0);
+      const benchmarkQuarter = ref(0);
+
+      async function setQuarter() {
+        const params = {
+          num: benchmark1.value,
+        };
+        const data = await getInspectionQuarter(formData.value.line, params);
+        benchmarkQuarter.value = data.rate;
+        console.log(data);
+        let legend = ['本季度', '上季度', '上上季度'];
+        let legendData = [];
+        let series = [];
+        if (data.names.length > 2) {
+          let indicator = [];
+          for (let i = 0; i < data.names.length; i++) {
+            indicator.push({ name: data.names[i], max: data.max });
+          }
+
+          for (let i = 0; i < data.values.length; i++) {
+            legendData.push(legend[i]);
+            series.push({
+              value: data.values[i],
+              name: legend[i],
+            });
+          }
+          setOptions3({
+            legend: {
+              data: legendData,
+            },
+            radar: {
+              // shape: 'circle',
+              indicator: indicator,
+            },
+            series: [{ type: 'radar', data: series }],
+          });
+        } else {
+          let bar = [];
+          for (let i = 0; i < data.values.length; i++) {
+            legendData.push(legend[i]);
+            let k = [data.names[i]];
+            for (let j = 0; j < data.values.length; j++) {
+              k.push(data.values[j][i]);
+            }
+            series.push(k);
+            bar.push({ type: 'bar' });
+          }
+          setOptions3({
+            legend: {},
+            tooltip: {},
+            dataset: {
+              source: [['对标', ...legendData], ...series],
+            },
+            xAxis: { type: 'category' },
+            yAxis: {},
+            series: bar,
+          });
+        }
+      }
+
+      async function setMonth() {
+        const params = {
+          num: benchmark2.value,
+        };
+        const data = await getInspectionMonth(formData.value.line, params);
+        benchmarkMonth.value = data.rate;
+        console.log(data);
+        let indicator = [];
+        let legend = ['本月', '上月', '上上月'];
+        let series = [];
+        let legendData = [];
+        if (data.names.length > 2) {
+          for (let i = 0; i < data.names.length; i++) {
+            indicator.push({ name: data.names[i], max: data.max });
+          }
+
+          for (let i = 0; i < data.values.length; i++) {
+            legendData.push(legend[i]);
+            series.push({
+              value: data.values[i],
+              name: legend[i],
+            });
+          }
+          setOptions2({
+            legend: {
+              data: legendData,
+            },
+            radar: {
+              // shape: 'circle',
+              indicator: indicator,
+            },
+            series: [{ type: 'radar', data: series }],
+          });
+        } else {
+          let bar = [];
+          for (let i = 0; i < data.values.length; i++) {
+            legendData.push(legend[i]);
+            let k = [data.names[i]];
+            for (let j = 0; j < data.values.length; j++) {
+              k.push(data.values[j][i]);
+            }
+            series.push(k);
+            bar.push({ type: 'bar' });
+          }
+          setOptions2({
+            legend: {},
+            tooltip: {},
+            dataset: {
+              source: [['对标', ...legendData], ...series],
+            },
+            xAxis: { type: 'category' },
+            yAxis: {},
+            series: bar,
+          });
+        }
+      }
+
+      async function setDaily() {
+        const params = {
+          num: benchmark3.value,
+        };
+        const data = await getInspectionDaily(formData.value.line, params);
+        benchmarkDay.value = data.rate;
+        console.log(data);
+        let indicator = [];
+        let legend = ['昨日', '今日'];
+        let series = [];
+        let legendData = [];
+        if (data.names.length > 2) {
+          for (let i = 0; i < data.names.length; i++) {
+            indicator.push({ name: data.names[i], max: data.max });
+          }
+
+          for (let i = 0; i < data.values.length; i++) {
+            legendData.push(legend[i]);
+            series.push({
+              value: data.values[i],
+              name: legend[i],
+            });
+          }
+          let options = {
+            legend: {
+              data: legendData,
+            },
+            radar: {
+              // shape: 'circle',
+              indicator: indicator,
+            },
+            series: [{ type: 'radar', data: series }],
+          };
+          console.log(111, options);
+          setOptions1(options);
+        } else {
+          let bar = [];
+          for (let i = 0; i < data.values.length; i++) {
+            legendData.push(legend[i]);
+            let k = [data.names[i]];
+            for (let j = 0; j < data.values.length; j++) {
+              k.push(data.values[j][i]);
+            }
+            series.push(k);
+            bar.push({ type: 'bar' });
+          }
+          setOptions2({
+            legend: {},
+            tooltip: {},
+            dataset: {
+              source: [['对标', ...legendData], ...series],
+            },
+            xAxis: { type: 'category' },
+            yAxis: {},
+            series: bar,
+          });
+        }
+      }
 
       return {
         formData,
@@ -666,31 +660,22 @@
         chartRef6,
         chartRef7,
         activeKey,
-        value1,
-        value2,
-        value3,
-        value4,
-        value5,
-        value6,
-        value7,
-        value8,
-        value9,
-        value10,
         benchmark1,
         benchmark2,
         benchmark3,
-        photo1,
-        photo2,
-        photo3,
-        photo4,
-        photo5,
-        detectionTime,
-        getLastResult,
         monthSlope,
         dailySlope,
         lastCount,
         lastDay,
+        time,
+        times,
+        fetchResult,
         step,
+        benchmarkDay,
+        benchmarkMonth,
+        benchmarkQuarter,
+        cardData,
+        exceedPeople,
       };
     },
   };

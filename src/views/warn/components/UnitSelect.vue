@@ -7,6 +7,7 @@
           style="width: 100%"
           @change="onPlantChange"
           :options="plantData.map((plant) => ({ value: plant['id'], label: plant['name'] }))"
+          disabled
         />
       </a-form-item>
     </a-col>
@@ -17,6 +18,7 @@
           style="width: 100%"
           @change="onLineChange"
           :options="lineData.map((line) => ({ value: line['id'], label: line['name'] }))"
+          disabled
         />
       </a-form-item>
     </a-col>
@@ -33,7 +35,7 @@
   </a-form>
 </template>
 <script lang="ts">
-  import { ref, onMounted } from 'vue';
+  import { ref, onMounted, onBeforeUnmount } from 'vue';
   import dayjs from 'dayjs';
   import { Form, Select, Button, Col, RangePicker } from 'ant-design-vue';
   import { optionListApi, lineOptionListApi } from '/@/api/warn/select';
@@ -76,14 +78,19 @@
         lineData.value = options.linesOptions;
         formData.value.plant = plantData.value[0]['id'];
         formData.value.line = lineData.value[0]['id'];
+
+        const lineName = options.linesOptions.find((item) => item.id === formData.value.line).name;
+
+        formData.value.lineName = lineName;
+        formData.value.plant = localStorage.getItem('plantId')
+          ? parseInt(localStorage.getItem('plantId'))
+          : -1;
         const plantName = options.plantOptions.find(
           (item) => item.id === formData.value.plant,
         ).name;
-        const lineName = options.linesOptions.find((item) => item.id === formData.value.line).name;
         formData.value.plantName = plantName;
-        formData.value.lineName = lineName;
-        const value = { ...formData.value };
-        context.emit('optionSelected', value);
+        await onPlantChange(formData.value.plant);
+        submitForm();
       });
 
       //点击查询按钮提交表单触发事件
@@ -97,7 +104,8 @@
       const labelCol = { style: { width: '80px' } };
       const onPlantChange = async (value) => {
         lineData.value = await lineOptionListApi(value);
-        formData.value.line = lineData.value[0]['id'];
+        formData.value.line = parseInt(localStorage.getItem('lineId'));
+        options.linesOptions = lineData.value;
         const plantName = options.plantOptions.find(
           (item) => item.id === formData.value.plant,
         ).name;

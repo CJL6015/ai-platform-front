@@ -1,4 +1,5 @@
 import type { AppRouteModule } from '/@/router/types';
+import { RoleEnum } from '/@/enums/roleEnum';
 
 import { LAYOUT } from '/@/router/constant';
 
@@ -8,8 +9,9 @@ const risk: AppRouteModule = {
   component: LAYOUT,
   meta: {
     orderNo: 3,
-    icon: 'ion:ios-monitor',
+    icon: 'grommet-icons:risk',
     title: '设备安全隐患分析',
+    roles: [RoleEnum.LINE, RoleEnum.LEIGUAN],
   },
   children: [
     {
@@ -34,6 +36,7 @@ const risk: AppRouteModule = {
       component: () => import('/@/views/risk/correlation/index.vue'),
       meta: {
         title: '传感器超限相关性分析',
+        roles: [RoleEnum.LINE],
       },
     },
   ],

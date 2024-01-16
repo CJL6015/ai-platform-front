@@ -106,7 +106,6 @@ export const useMultipleTabStore = defineStore({
       const { path } = unref(router.currentRoute);
 
       let toPath: PageEnum | string = PageEnum.BASE_HOME;
-
       if (len > 0) {
         const page = this.tabList[len - 1];
         const p = page.fullPath || page.path;

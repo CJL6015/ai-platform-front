@@ -4,4 +4,10 @@ export enum RoleEnum {
 
   // tester
   TEST = 'test',
+
+  STORE = 'store',
+
+  LINE = 'line',
+
+  LEIGUAN = 'leiguan',
 }

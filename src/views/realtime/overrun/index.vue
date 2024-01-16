@@ -10,6 +10,7 @@
                 style="width: 100%"
                 @change="onPlantChange"
                 :options="plantData.map((plant) => ({ value: plant['id'], label: plant['name'] }))"
+                disabled
               />
             </a-form-item>
           </a-col>
@@ -17,6 +18,7 @@
             <a-form-item label="生产线" name="line">
               <a-select
                 v-model:value="formData.line"
+                disabled
                 style="width: 100%"
                 :options="lineData.map((line) => ({ value: line['id'], label: line['name'] }))"
               />
@@ -35,8 +37,12 @@
             </a-form-item>
           </a-col>
           <a-col :md="1">
-            <a-button type="primary" html-type="submit" style="margin-left: 10px"
-              >查看上次</a-button
+            <a-button
+              type="primary"
+              html-type="submit"
+              style="margin-left: 10px"
+              @click="fetchResult"
+              >确定</a-button
             >
           </a-col>
           <a-col :md="7">
@@ -46,7 +52,7 @@
                   >上次抓拍时间:<span style="color: rgb(26 7 240); font-size: 22px">{{
                     lastDay
                   }}</span
-                  >,超限测点数量:
+                  >,{{ indexName }}测点数量:
                   <span style="color: red; font-size: 22px">{{ lastCount }}</span></span
                 ></template
               ></Alert
@@ -80,14 +86,14 @@
         <Alert style="width: 90%; margin: 30px" type="info" show-icon>
           <template #message
             ><span style="font-size: 18px; font-weight: bold"
-              >主要结论:当月运行参数超限巡检次数呈现<span style="color: red; font-size: 22px">{{
-                monthSlope > 0 ? '上升' : '下降'
-              }}</span
+              >主要结论:当月运行参数{{ indexName }}巡检次数呈现<span
+                style="color: red; font-size: 22px"
+                >{{ monthSlope > 0 ? '上升' : '下降' }}</span
               >趋势,拟合直线{{ monthSlope > 0 ? '上升' : '下降' }}斜率为<span
                 style="color: red; font-size: 22px"
                 >{{ monthSlope.toFixed(2) }}</span
-              >,超限次数<span style="color: red; font-size: 22px">{{
-                monthSlope > 0 ? '小幅上升' : '大幅下降'
+              >,{{ indexName }}次数<span style="color: red; font-size: 22px">{{
+                monthSlope > 0 ? '小幅上升' : '小幅下降'
               }}</span></span
             ></template
           ></Alert
@@ -95,14 +101,14 @@
         <Alert style="width: 90%; margin: 30px" type="info" show-icon>
           <template #message
             ><span style="font-size: 18px; font-weight: bold"
-              >主要结论:当日运行参数超限巡检次数呈现<span style="color: red; font-size: 22px">{{
-                dailySlope > 0 ? '上升' : '下降'
-              }}</span
+              >主要结论:当日运行参数{{ indexName }}巡检次数呈现<span
+                style="color: red; font-size: 22px"
+                >{{ dailySlope > 0 ? '上升' : '下降' }}</span
               >趋势,拟合直线{{ dailySlope > 0 ? '上升' : '下降' }}斜率为<span
                 style="color: red; font-size: 22px"
                 >{{ dailySlope.toFixed(2) }}</span
-              >,超限次数<span style="color: red; font-size: 22px">{{
-                dailySlope > 0 ? '小幅上升' : '大幅下降'
+              >,{{ indexName }}次数<span style="color: red; font-size: 22px">{{
+                dailySlope > 0 ? '小幅上升' : '小幅下降'
               }}</span></span
             ></template
           ></Alert
@@ -114,7 +120,7 @@
         <a-card style="width: 80%" title="季对标">
           <template #extra>
             <a-form-item label="对标季度数" style="margin: 0">
-              <a-input-number v-model:value="benchmark1" />
+              <a-input-number v-model:value="benchmark1" max="3" min="2" />
             </a-form-item>
           </template>
           <template #cover>
@@ -123,15 +129,20 @@
           <a-card-meta>
             <template #description>
               <span style="color: black; font-size: 20px"
-                >本季度相较于前3季度,巡检超限次数未明显变化</span
-              >
+                >本季度相较于前几季度,巡检{{ indexName }}次数<span
+                  style="color: red; font-size: 22px"
+                  >{{ benchmarkQuarter > 0 ? '上涨' : '下降' }}</span
+                >了<span style="color: red; font-size: 22px">
+                  {{ benchmarkQuarter.toFixed(2) }}%</span
+                >
+              </span>
             </template>
           </a-card-meta>
         </a-card>
         <a-card style="width: 80%" title="月对标">
           <template #extra>
             <a-form-item label="对比月数" style="margin: 0">
-              <a-input-number v-model:value="benchmark2" />
+              <a-input-number v-model:value="benchmark2" max="3" min="2" />
             </a-form-item>
           </template>
           <template #cover>
@@ -140,15 +151,20 @@
           <a-card-meta>
             <template #description>
               <span style="color: black; font-size: 20px"
-                >本季度相较于前3季度,巡检超限次数未明显变化</span
-              >
+                >本月相较于前几月,巡检{{ indexName }}次数<span
+                  style="color: red; font-size: 22px"
+                  >{{ benchmarkMonth > 0 ? '上涨' : '下降' }}</span
+                >了<span style="color: red; font-size: 22px">
+                  {{ benchmarkMonth.toFixed(2) }}%</span
+                >
+              </span>
             </template>
           </a-card-meta>
         </a-card>
         <a-card style="width: 80%" title="日对标">
           <template #extra>
             <a-form-item label="对比日数" style="margin: 0">
-              <a-input-number v-model:value="benchmark3" max="2" min="1" />
+              <a-input-number v-model:value="benchmark3" max="3" min="2" />
             </a-form-item>
           </template>
           <template #cover>
@@ -157,9 +173,9 @@
           <a-card-meta>
             <template #description>
               <span style="color: black; font-size: 20px"
-                >今日相较于前2日,巡检超限次数<span style="color: red; font-size: 22px">{{
-                  benchmarkDay > 0 ? '上涨' : '下降'
-                }}</span
+                >今日相较于前几日,巡检{{ indexName }}次数<span
+                  style="color: red; font-size: 22px"
+                  >{{ benchmarkDay > 0 ? '上涨' : '下降' }}</span
                 >了<span style="color: red; font-size: 22px"> {{ benchmarkDay.toFixed(2) }}%</span>
               </span>
             </template>
@@ -196,6 +212,7 @@
     getTrendDetailDaily,
   } from '/@/api/data/point';
   import { useModal } from '/@/components/Modal';
+  import { getParamDaily, getParamMonth, getParamQuarter } from '/@/api/warn/statistic';
 
   import Details from '../components/Details.vue';
 
@@ -223,16 +240,26 @@
         plant: -1,
         line: -1,
       });
+      const indexName = ref('');
+      indexName.value = parseInt(localStorage.getItem('plantId')) === 3 ? '故障停机' : '超限';
       onMounted(async () => {
         const options = await optionListApi();
         plantData.value = options.plantOptions;
         lineData.value = options.linesOptions;
-        formData.value.plant = plantData.value[0]['id'];
-        formData.value.line = lineData.value[0]['id'];
+        formData.value.plant = localStorage.getItem('plantId')
+          ? parseInt(localStorage.getItem('plantId'))
+          : plantData.value[0]['id'];
+        await onPlantChange(formData.value.plant);
+        fetchResult();
+      });
+
+      function fetchResult() {
         setMonthTrend();
         setDailyTrend();
-        setBenchmark();
-      });
+        setQuarter();
+        setMonth();
+        setDaily();
+      }
       const submitForm = (values) => {
         console.log('Success:', values);
         console.log('Success:', formData);
@@ -244,7 +271,7 @@
       const labelCol = { style: { width: '120px' } };
       const onPlantChange = async (value) => {
         lineData.value = await lineOptionListApi(value);
-        formData.value.line = lineData.value[0]['id'];
+        formData.value.line = parseInt(localStorage.getItem('lineId'));
       };
 
       const timeValue = ref<Dayjs>(dayjs());
@@ -261,7 +288,7 @@
         monthSlope.value = monthTrend.params[1];
         setOptions4({
           title: {
-            text: '生产线超限巡检总次数月趋势',
+            text: `生产线${indexName.value}巡检总次数月趋势`,
           },
           legend: {
             data: ['统计数据', '拟合线'],
@@ -315,13 +342,14 @@
           st: dayjs(lastDayDate).format('YYYY-MM-DD HH:mm:ss'),
           et: dayjs(currentDate).format('YYYY-MM-DD HH:mm:ss'),
         };
+        localStorage.setItem('lineId', formData.value.line);
         const dailyTrend = await getTrendDaily(formData.value.line, time);
         dailySlope.value = dailyTrend.params[1];
         lastCount.value = dailyTrend.value[dailyTrend.value.length - 1];
         lastDay.value = dailyTrend.times[dailyTrend.times.length - 1];
         setOptions5({
           title: {
-            text: '生产线超限巡检总次数日趋势',
+            text: `生产线${indexName.value}巡检总次数日趋势`,
           },
           legend: {
             data: ['统计数据', '拟合线'],
@@ -356,97 +384,126 @@
       };
 
       const benchmarkDay = ref(0);
+      const benchmarkMonth = ref(0);
+      const benchmarkQuarter = ref(0);
 
-      const benchmark1 = ref(4);
-      const benchmark2 = ref(3);
+      const benchmark1 = ref(2);
+      const benchmark2 = ref(2);
       const benchmark3 = ref(2);
-      watch(benchmark3, () => {
-        setBenchmark();
+
+      watch(benchmark1, () => {
+        setQuarter();
       });
 
-      const setBenchmark = async () => {
-        const dayNum = { num: benchmark3.value };
-        const benchmark = await getBenchmark(formData.value.line, dayNum);
-        const equipments = benchmark.equipments;
-        const dayData = benchmark.dayData;
-        let max = 0;
-        for (let data of dayData) {
-          max = Math.max(max, ...data);
+      watch(benchmark2, () => {
+        setMonth();
+      });
+
+      watch(benchmark3, () => {
+        setDaily();
+      });
+
+      async function setQuarter() {
+        const params = {
+          num: benchmark1.value,
+        };
+        const data = await getParamQuarter(formData.value.line, params);
+        console.log(data);
+        benchmarkQuarter.value = data.rate;
+        let indicator = [];
+        for (let i = 0; i < data.names.length; i++) {
+          indicator.push({ name: data.names[i], max: data.max });
         }
-        let indicator: any[] = [];
-        for (let equipment of equipments) {
-          indicator.push({
-            name: equipment,
-            max: max,
+        let legend = ['第一季度', '第二季度', '第三季度', '本季度'];
+        let series = [];
+        let legendData = [];
+        for (let i = 0; i < data.values.length; i++) {
+          legendData.push(legend[i]);
+          series.push({
+            value: data.values[i],
+            name: legend[i],
           });
         }
-        const legend = ['今日', '昨日', '前日'];
-        let series: any[] = [];
-        try {
-          const todaySum = dayData[0].reduce((acc, curr) => acc + curr, 0);
-          if (dayData.length > 0) {
-            series.push({
-              value: dayData[0],
-              name: '今日',
-            });
-          }
-          console.log(111, dayData);
-          if (dayData.length > 1) {
-            let lastSum = 0;
-            for (let i = 1; i < dayData.length; i++) {
-              lastSum += dayData[i].reduce((acc, curr) => acc + curr, 0);
-              series.push({
-                value: dayData[i],
-                name: legend[i],
-              });
-            }
-            lastSum /= dayData.length - 1;
-
-            benchmarkDay.value = (100 * (todaySum - lastSum)) / lastSum;
-          }
-        } catch (e) {
-          /* empty */
-        }
-        console.log(indicator);
-
-        setOptions3({
-          legend: {
-            data: ['今日', '昨日', '前日'],
-          },
-          radar: {
-            // shape: 'circle',
-            indicator: indicator,
-          },
-          series: series,
-        });
-
+        console.log(series, 111);
         setOptions1({
           legend: {
-            data: ['第一季度', '第二季度', '第三季度', '本季度'],
+            data: legendData,
           },
           radar: {
             // shape: 'circle',
             indicator: indicator,
           },
-          series: [],
+          series: [{ type: 'radar', data: series }],
         });
+      }
 
+      async function setMonth() {
+        const params = {
+          num: benchmark2.value,
+        };
+        const data = await getParamMonth(formData.value.line, params);
+        benchmarkMonth.value = data.rate;
+        console.log(data);
+        let indicator = [];
+        for (let i = 0; i < data.names.length; i++) {
+          indicator.push({ name: data.names[i], max: data.max });
+        }
+        let legend = ['本月', '上月', '上上月'];
+        let series = [];
+        let legendData = [];
+        for (let i = 0; i < data.values.length; i++) {
+          legendData.push(legend[i]);
+          series.push({
+            value: data.values[i],
+            name: legend[i],
+          });
+        }
         setOptions2({
           legend: {
-            data: ['本月', '上月', '上上月'],
+            data: legendData,
           },
           radar: {
             // shape: 'circle',
             indicator: indicator,
           },
-          series: [
-            {
-              type: 'radar',
-              data: [],
-            },
-          ],
+          series: [{ type: 'radar', data: series }],
         });
-      };
+      }
+
+      async function setDaily() {
+        const params = {
+          num: benchmark3.value,
+        };
+        const data = await getParamDaily(formData.value.line, params);
+        benchmarkDay.value = data.rate;
+        console.log(data);
+        let indicator = [];
+        for (let i = 0; i < data.names.length; i++) {
+          indicator.push({ name: data.names[i], max: data.max });
+        }
+        let legend = ['昨日', '今日', '前日'];
+        let series = [];
+        let legendData = [];
+        for (let i = 0; i < data.values.length; i++) {
+          legendData.push(legend[i]);
+          series.push({
+            value: data.values[i],
+            name: legend[i],
+          });
+        }
+        let options = {
+          legend: {
+            data: legendData,
+          },
+          radar: {
+            // shape: 'circle',
+            indicator: indicator,
+          },
+          series: [{ type: 'radar', data: series }],
+        };
+        console.log(111, options);
+        setOptions3(options);
+      }
 
       const chartRef1 = ref<HTMLDivElement | null>(null);
       const chartRef2 = ref<HTMLDivElement | null>(null);
@@ -478,12 +535,16 @@
         lastCount,
         lastDay,
         benchmarkDay,
+        benchmarkMonth,
+        benchmarkQuarter,
         openMonthDetail,
         openDailyDetail,
         registerModal,
         benchmark1,
         benchmark2,
         benchmark3,
+        fetchResult,
+        indexName,
       };
     },
   };

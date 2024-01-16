@@ -27,6 +27,16 @@
             {{ record.state === 0 ? '正常' : '异常' }}
           </Tag></template
         >
+        <template v-else-if="column.key === 'status'">
+          <Tag :color="record.status ? 'green' : 'red'">
+            {{ record.status ? '运行' : '停机' }}
+          </Tag></template
+        >
+        <template v-else-if="column.key === 'isExceeded'">
+          <Tag :color="record.isExceeded ? 'red' : 'green'">
+            {{ record.isExceeded ? '故障' : '正常' }}
+          </Tag></template
+        >
         <template v-else-if="column.key === 'value'">
           <span :style="{ color: record.isExceeded ? 'red' : 'blue' }">
             {{ record.value }}
@@ -43,9 +53,9 @@
   import { defineComponent, PropType, watch, toRaw, onMounted, onBeforeUnmount } from 'vue';
 
   import { BasicTable, useTable, TableAction } from '/@/components/Table';
-  import { getPointList } from '/@/api/data/table';
+  import { getPointList, getPointStatus } from '/@/api/data/table';
   import dayjs from 'dayjs';
-  import { columns } from './point.data';
+  import { columns, columns1 } from './point.data';
   import { InputSearch, Tag } from 'ant-design-vue';
   import Trend from '../components/Trend.vue';
   import { useModal } from '/@/components/Modal';
@@ -65,11 +75,12 @@
       },
     },
     setup(props, _) {
+      const tableCol = parseInt(localStorage.getItem('plantId')) === 3 ? columns1 : columns;
       const [registerModal, { openModal }] = useModal();
 
       const [registerTable, methods] = useTable({
         title: '测点详情',
-        columns,
+        columns: tableCol,
         formConfig: {
           labelWidth: 120,
         },
@@ -92,7 +103,7 @@
             st: dayjs(time[0]).format('YYYY-MM-DD HH:mm:ss'),
             et: dayjs(time[1]).format('YYYY-MM-DD HH:mm:ss'),
           };
-          const tableData = await getPointList(data['line'], params);
+          const tableData = await getTableData(data['line'], params);
           methods.setTableData(tableData);
         }
       });
@@ -116,8 +127,16 @@
             st: dayjs(time[0]).format('YYYY-MM-DD HH:mm:ss'),
             et: dayjs(time[1]).format('YYYY-MM-DD HH:mm:ss'),
           };
-          const tableData = await getPointList(data['line'], params);
+          const tableData = await getTableData(data['line'], params);
           methods.setTableData(tableData);
+        }
+      }
+
+      async function getTableData(line, params) {
+        if (parseInt(localStorage.getItem('plantId')) === 3) {
+          return await getPointStatus(line, params);
+        } else {
+          return await getPointList(line, params);
         }
       }
 
