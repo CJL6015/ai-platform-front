@@ -1,13 +1,13 @@
 <template>
   <PageWrapper title="生产线月度安全情况诊断报告">
     <a-spin size="large" :spinning="spinning">
-      <div id="printContent">
-        <BasicTable @register="registerTable">
-          <template #toolbar>
-            <a-button @click="exportReport"> 导出报表 </a-button>
-          </template>
-        </BasicTable>
-      </div>
+      <a-card>
+        <div ref="pdfContent">
+          <BasicTable @register="registerTable" />
+        </div>
+        <Divider />
+        <a-button @click="exportReport" style="float: right"> 导出报表 </a-button>
+      </a-card>
     </a-spin>
   </PageWrapper>
 </template>
@@ -17,14 +17,17 @@
   import { defineComponent, ref, onMounted } from 'vue';
   import { getReport } from '/@/api/data/benchmark';
   import { BasicTable, useTable, BasicColumn } from '/@/components/Table';
-  import { Spin } from 'ant-design-vue';
-  import printJS from 'print-js';
+  import { Spin, Divider, Card } from 'ant-design-vue';
+  import html2canvas from 'html2canvas';
+  import jsPDF from 'jspdf';
 
   export default defineComponent({
     components: {
       BasicTable,
       PageWrapper,
       ASpin: Spin,
+      Divider,
+      ACard: Card,
     },
     setup() {
       const columns: BasicColumn[] = [
@@ -38,8 +41,10 @@
         },
       ];
 
+      const pdfContent = ref(null);
+
       const [registerTable, { setTableData }] = useTable({
-        title: '报表详情',
+        title: '生产线月度安全情况诊断报告',
         formConfig: {
           labelWidth: 120,
         },
@@ -73,18 +78,16 @@
       });
 
       function exportReport() {
-        // jsonToSheetXlsx({
-        //   data: tableData.value,
-        //   header: {
-        //     name: '指标',
-        //     P1: '生产线',
-        //   },
-        //   filename: '生产线月度安全情况诊断报告.xlsx',
-        // });
-        printJS({
-          printable: 'printContent', // 指定要打印的元素的 ID
-          type: 'html',
-          targetStyles: ['*'],
+        spinning.value = true;
+        html2canvas(pdfContent.value, { scale: 2 }).then((canvas) => {
+          const imgData = canvas.toDataURL('image/png');
+          const pdf = new jsPDF();
+          const imgWidth = 210; // A4尺寸宽度
+          const imgHeight = (canvas.height * imgWidth) / canvas.width;
+          console.log(imgWidth, imgHeight, canvas.width, canvas.height);
+          pdf.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight);
+          pdf.save('月度报表.pdf');
+          spinning.value = false;
         });
       }
 
@@ -92,6 +95,7 @@
         registerTable,
         exportReport,
         spinning,
+        pdfContent,
       };
     },
   });
