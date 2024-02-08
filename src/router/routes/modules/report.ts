@@ -15,11 +15,27 @@ const risk: AppRouteModule = {
   },
   children: [
     {
-      path: 'month',
-      name: 'month',
-      component: () => import('/@/views/report/month/index.vue'),
+      path: 'report1',
+      name: 'report1',
+      component: () => import('/@/views/report/report1/index.vue'),
       meta: {
-        title: '月度报表下载',
+        title: '一级平台报表下载',
+      },
+    },
+    {
+      path: 'report2',
+      name: 'report2',
+      component: () => import('/@/views/report/report2/index.vue'),
+      meta: {
+        title: '二级平台报表下载',
+      },
+    },
+    {
+      path: 'report3',
+      name: 'report3',
+      component: () => import('/@/views/report/report3/index.vue'),
+      meta: {
+        title: '三级平台报表下载',
       },
     },
   ],
