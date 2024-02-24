@@ -13,7 +13,7 @@
   import { PageWrapper } from '/@/components/Page';
   import { ref, onMounted } from 'vue';
   import { Divider, Card, Alert, Button } from 'ant-design-vue';
-  import { getReportMonth } from '/@/api/report/report';
+  import { getReportDay } from '/@/api/report/report';
   import VueOfficeDocx from '@vue-office/docx';
 
   export default {
@@ -26,7 +26,11 @@
     setup() {
       const wordDocSrc = ref(null);
       async function getReport() {
-        const data = await getReportMonth();
+        const params = {
+          level: 2,
+          plantId: parseInt(localStorage.getItem('plantId')),
+        };
+        const data = await getReportDay(params);
         wordDocSrc.value = data;
       }
 
