@@ -260,7 +260,13 @@ import { on } from 'codemirror';
         let token = userStore.getToken;
         token = token.replace('store', '').replace('line', '');
         if (line.value === 5) {
-          await changeRole(RoleEnum.STORE);
+          if (token.includes('level1') || token.includes('admin')) {
+            await changeRole([RoleEnum.STORE, RoleEnum.LEVEL1]);
+          } else if (token.includes('level2')) {
+            await changeRole([RoleEnum.STORE, RoleEnum.LEVEL2]);
+          } else {
+            await changeRole([RoleEnum.STORE, RoleEnum.LEVEL3]);
+          }
           go('/storehouse/store');
         } else if (token.includes('admin')) {
           if (parseInt(localStorage.getItem('plantId')) === 3) {

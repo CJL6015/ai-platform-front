@@ -1,5 +1,5 @@
 <template>
-  <PageWrapper title="月度报表下载">
+  <PageWrapper title="日报下载">
     <Card>
       <a-button type="primary" style="margin-bottom: 10px"
         ><a :href="wordDocSrc">下载报表</a></a-button
