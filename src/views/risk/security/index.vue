@@ -265,7 +265,7 @@
         score3: '0',
       });
       async function getSummary() {
-        const data = await getScoreSummaryApi(line.value);
+        const data = await getScoreSummaryApi(parseInt(localStorage.getItem('lineId')));
         console.log(data);
         summary1.value.equipment1 = data[0][0].name;
         summary1.value.equipment2 = data[0][1].name;

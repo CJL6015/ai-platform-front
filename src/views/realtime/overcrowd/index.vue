@@ -112,13 +112,13 @@
             <template #message
               ><span style="font-size: 18px; font-weight: bold"
                 >主要结论:当月运行参数超员巡检次数呈现<span style="color: red; font-size: 22px">{{
-                  monthSlope > 0 ? '上升' : '下降'
+                  monthSlope > 0 ? '上升' : monthSlope == 0 ? '不变' : '下降'
                 }}</span
-                >趋势,拟合直线{{ monthSlope > 0 ? '上升' : '下降' }}斜率为<span
-                  style="color: red; font-size: 22px"
-                  >{{ monthSlope.toFixed(2) }}</span
+                >趋势,拟合直线{{
+                  monthSlope > 0 ? '上升' : monthSlope == 0 ? '不变' : '下降'
+                }}斜率为<span style="color: red; font-size: 22px">{{ monthSlope.toFixed(2) }}</span
                 >,超员次数<span style="color: red; font-size: 22px">{{
-                  monthSlope > 0 ? '小幅上升' : '小幅下降'
+                  monthSlope > 0 ? '小幅上升' : monthSlope == 0 ? '不变' : '小幅下降'
                 }}</span></span
               ></template
             ></Alert
@@ -127,13 +127,13 @@
             <template #message
               ><span style="font-size: 18px; font-weight: bold"
                 >主要结论:当日运行参数超员巡检次数呈现<span style="color: red; font-size: 22px">{{
-                  dailySlope > 0 ? '上升' : '下降'
+                  dailySlope > 0 ? '上升' : dailySlope == 0 ? '不变' : '下降'
                 }}</span
-                >趋势,拟合直线{{ dailySlope > 0 ? '上升' : '下降' }}斜率为<span
-                  style="color: red; font-size: 22px"
-                  >{{ dailySlope.toFixed(2) }}</span
+                >趋势,拟合直线{{
+                  dailySlope > 0 ? '上升' : dailySlope == 0 ? '不变' : '下降'
+                }}斜率为<span style="color: red; font-size: 22px">{{ dailySlope.toFixed(2) }}</span
                 >,超员次数<span style="color: red; font-size: 22px">{{
-                  dailySlope > 0 ? '小幅上升' : '小幅下降'
+                  dailySlope > 0 ? '小幅上升' : dailySlope == 0 ? '不变' : '小幅下降'
                 }}</span></span
               ></template
             ></Alert
@@ -154,7 +154,7 @@
             <template #description>
               <span style="color: black; font-size: 20px"
                 >本季度相较于前几季度,巡检超员次数<span style="color: red; font-size: 22px">{{
-                  benchmarkQuarter > 0 ? '上涨' : '下降'
+                  benchmarkQuarter > 0 ? '上涨' : benchmarkQuarter == 0 ? '不变' : '下降'
                 }}</span
                 >了<span style="color: red; font-size: 22px">
                   {{ benchmarkQuarter.toFixed(2) }}%</span
@@ -176,7 +176,7 @@
             <template #description>
               <span style="color: black; font-size: 20px"
                 >本月相较于前几月,巡检超员次数<span style="color: red; font-size: 22px">{{
-                  benchmarkMonth > 0 ? '上涨' : '下降'
+                  benchmarkMonth > 0 ? '上涨' : benchmarkMonth == 0 ? '不变' : '下降'
                 }}</span
                 >了<span style="color: red; font-size: 22px">
                   {{ benchmarkMonth.toFixed(2) }}%</span
@@ -198,7 +198,7 @@
             <template #description>
               <span style="color: black; font-size: 20px"
                 >今日相较于前几日,巡检超员次数<span style="color: red; font-size: 22px">{{
-                  benchmarkDay > 0 ? '上涨' : '下降'
+                  benchmarkDay > 0 ? '上涨' : benchmarkDay == 0 ? '不变' : '下降'
                 }}</span
                 >了<span style="color: red; font-size: 22px"> {{ benchmarkDay.toFixed(2) }}%</span>
               </span>

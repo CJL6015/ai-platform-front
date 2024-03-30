@@ -12,22 +12,23 @@ enum Api {
 }
 
 export const getPointsValues = (params: any) =>
-  defHttp.get<any>({ url: Api.REAL_TIME_VALUES, params });
+  defHttp.get<any>({ url: Api.REAL_TIME_VALUES, params, timeout: -1 });
 
-export const getPointsLimits = (params: any) => defHttp.get<any>({ url: Api.POINT_LIMIT, params });
+export const getPointsLimits = (params: any) =>
+  defHttp.get<any>({ url: Api.POINT_LIMIT, params, timeout: -1 });
 
 export const getTrendMonth = (id: any, params: any) =>
-  defHttp.get<any>({ url: Api.MONTH_TREND + id, params });
+  defHttp.get<any>({ url: Api.MONTH_TREND + id, params, timeout: -1 });
 
 export const getTrendDaily = (id: any, params: any) =>
-  defHttp.get<any>({ url: Api.DAILY_TREND + id, params });
+  defHttp.get<any>({ url: Api.DAILY_TREND + id, params, timeout: -1 });
 
 export const getBenchmark = (id: any, params: any) =>
-  defHttp.get<any>({ url: Api.BENCHMARK + id, params });
+  defHttp.get<any>({ url: Api.BENCHMARK + id, params, timeout: -1 });
 export const getTrendDetailMonth = (id: any) =>
-  defHttp.get<any>({ url: Api.TREND_DETAIL_MONTH + id });
+  defHttp.get<any>({ url: Api.TREND_DETAIL_MONTH + id, timeout: -1 });
 
 export const getTrendDetailDaily = (id: any) =>
-  defHttp.get<any>({ url: Api.TREND_DETAIL_DAILY + id });
+  defHttp.get<any>({ url: Api.TREND_DETAIL_DAILY + id, timeout: -1 });
 
-export const getPointStatus = (id: any) => defHttp.get<any>({ url: Api.STATUS + id });
+export const getPointStatus = (id: any) => defHttp.get<any>({ url: Api.STATUS + id, timeout: -1 });

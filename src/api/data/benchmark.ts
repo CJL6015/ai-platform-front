@@ -9,15 +9,16 @@ enum Api {
 }
 
 export const getBenchmarkEquipment = (id: any, params: any) =>
-  defHttp.get<any>({ url: Api.EQUIPMENT + id, params });
+  defHttp.get<any>({ url: Api.EQUIPMENT + id, params, timeout: -1 });
 
 export const getBenchmarkTrend = (id: any, params: any) =>
-  defHttp.get<any>({ url: Api.TREND + id, params });
+  defHttp.get<any>({ url: Api.TREND + id, params, timeout: -1 });
 
 export const getBenchmarkDetection = (id: any, params: any) =>
-  defHttp.get<any>({ url: Api.DETECTION + id, params });
+  defHttp.get<any>({ url: Api.DETECTION + id, params, timeout: -1 });
 
 export const getBenchmarkDetectionTrend = (id: any, params: any) =>
-  defHttp.get<any>({ url: Api.DETECTION_TREND + id, params });
+  defHttp.get<any>({ url: Api.DETECTION_TREND + id, params, timeout: -1 });
 
-export const getReport = (params: any) => defHttp.post<any>({ url: Api.REPORT, params });
+export const getReport = (params: any) =>
+  defHttp.post<any>({ url: Api.REPORT, params, timeout: -1 });

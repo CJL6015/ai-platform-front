@@ -88,12 +88,12 @@
             ><span style="font-size: 18px; font-weight: bold"
               >主要结论:当月运行参数{{ indexName }}巡检次数呈现<span
                 style="color: red; font-size: 22px"
-                >{{ monthSlope > 0 ? '上升' : '下降' }}</span
-              >趋势,拟合直线{{ monthSlope > 0 ? '上升' : '下降' }}斜率为<span
-                style="color: red; font-size: 22px"
-                >{{ monthSlope.toFixed(2) }}</span
+                >{{ monthSlope > 0 ? '上升' : monthSlope == 0 ? '不变' : '下降' }}</span
+              >趋势,拟合直线{{
+                monthSlope > 0 ? '上升' : monthSlope == 0 ? '不变' : '下降'
+              }}斜率为<span style="color: red; font-size: 22px">{{ monthSlope.toFixed(2) }}</span
               >,{{ indexName }}次数<span style="color: red; font-size: 22px">{{
-                monthSlope > 0 ? '小幅上升' : '小幅下降'
+                monthSlope > 0 ? '小幅上升' : monthSlope == 0 ? '不变' : '小幅下降'
               }}</span></span
             ></template
           ></Alert
@@ -103,12 +103,12 @@
             ><span style="font-size: 18px; font-weight: bold"
               >主要结论:当日运行参数{{ indexName }}巡检次数呈现<span
                 style="color: red; font-size: 22px"
-                >{{ dailySlope > 0 ? '上升' : '下降' }}</span
-              >趋势,拟合直线{{ dailySlope > 0 ? '上升' : '下降' }}斜率为<span
-                style="color: red; font-size: 22px"
-                >{{ dailySlope.toFixed(2) }}</span
+                >{{ dailySlope > 0 ? '上升' : dailySlope == 0 ? '不变' : '下降' }}</span
+              >趋势,拟合直线{{
+                dailySlope > 0 ? '上升' : dailySlope == 0 ? '不变' : '下降'
+              }}斜率为<span style="color: red; font-size: 22px">{{ dailySlope.toFixed(2) }}</span
               >,{{ indexName }}次数<span style="color: red; font-size: 22px">{{
-                dailySlope > 0 ? '小幅上升' : '小幅下降'
+                dailySlope > 0 ? '小幅上升' : dailySlope == 0 ? '不变' : '小幅下降'
               }}</span></span
             ></template
           ></Alert

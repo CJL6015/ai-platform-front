@@ -8,12 +8,13 @@ enum Api {
 }
 
 export const detectionResult = (id: any, params: any) =>
-  defHttp.get<any>({ url: Api.RESULT + id, params });
+  defHttp.get<any>({ url: Api.RESULT + id, params, timeout: -1 });
 
 export const getTrendMonth = (id: any, params: any) =>
-  defHttp.get<any>({ url: Api.MONTH_TREND + id, params });
+  defHttp.get<any>({ url: Api.MONTH_TREND + id, params, timeout: -1 });
 
 export const getTrendDaily = (id: any, params: any) =>
-  defHttp.get<any>({ url: Api.DAILY_TREND + id, params });
+  defHttp.get<any>({ url: Api.DAILY_TREND + id, params, timeout: -1 });
 
-export const detectionTimes = (id: any) => defHttp.get<any>({ url: Api.DETECTION_TIME + id });
+export const detectionTimes = (id: any) =>
+  defHttp.get<any>({ url: Api.DETECTION_TIME + id, timeout: -1 });

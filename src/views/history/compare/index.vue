@@ -208,7 +208,7 @@
       const lineId = parseInt(localStorage.getItem('lineId'));
 
       const point = ref(-1);
-      const camera = ref(-1);
+      const camera = ref('-1');
 
       const pointName = ref<string | undefined>('所有参数');
       const cameraName = ref<string | undefined>('所有工序');

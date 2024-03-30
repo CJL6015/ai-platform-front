@@ -1,9 +1,17 @@
 <template>
   <PageWrapper title="日报下载">
     <Card>
-      <a-button type="primary" style="margin-bottom: 10px"
-        ><a :href="wordDocSrc">下载报表</a></a-button
-      >
+      <a-row>
+        <a-col :md="3" :xs="6">
+          <a-date-picker v-model:value="time" style="width: 90%" @change="timeChange" />
+        </a-col>
+        <a-col :md="3" :xs="6">
+          <a-button type="primary" style="margin-bottom: 10px"
+            ><a :href="wordDocSrc">下载报表</a></a-button
+          >
+        </a-col>
+      </a-row>
+
       <vue-office-docx :src="wordDocSrc" :options="option" />
     </Card>
   </PageWrapper>
@@ -12,9 +20,11 @@
 <script lang="ts">
   import { PageWrapper } from '/@/components/Page';
   import { ref, onMounted } from 'vue';
-  import { Divider, Card, Alert, Button } from 'ant-design-vue';
+  import { Divider, Card, Alert, Button, DatePicker, Col, Row } from 'ant-design-vue';
   import { getReportDay } from '/@/api/report/report';
   import VueOfficeDocx from '@vue-office/docx';
+  import type { Dayjs } from 'dayjs';
+  import dayjs from 'dayjs';
 
   export default {
     components: {
@@ -22,8 +32,12 @@
       AButton: Button,
       Card,
       VueOfficeDocx,
+      ADatePicker: DatePicker,
+      ACol: Col,
+      ARow: Row,
     },
     setup() {
+      const time = ref<Dayjs>(dayjs().subtract(1, 'day'));
       const option = ref({
         useMathMLPolyfill: false,
       });
@@ -31,6 +45,7 @@
       async function getReport() {
         const params = {
           level: 1,
+          time: time.value.format('YYYYMMDD'),
         };
         const data = await getReportDay(params);
         wordDocSrc.value = data;
@@ -42,10 +57,17 @@
       function download() {
         return wordDocSrc.value;
       }
+
+      function timeChange() {
+        getReport();
+      }
+
       return {
         wordDocSrc,
         download,
         option,
+        time,
+        timeChange,
       };
     },
   };
