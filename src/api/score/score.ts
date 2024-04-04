@@ -6,6 +6,6 @@ enum Api {
   TREND = '/main/trend',
 }
 
-export const getMainScore = () => defHttp.get<any>({ url: Api.SCORE });
-export const getMainRatio = () => defHttp.get<any>({ url: Api.RATIO });
-export const getMainTrend = () => defHttp.get<any>({ url: Api.TREND });
+export const getMainScore = () => defHttp.get<any>({ url: Api.SCORE, timeout: -1 });
+export const getMainRatio = () => defHttp.get<any>({ url: Api.RATIO, timeout: -1 });
+export const getMainTrend = () => defHttp.get<any>({ url: Api.TREND, timeout: -1 });

@@ -84,6 +84,7 @@ export function usePermission() {
    * @param roles
    */
   async function changeRole(roles: RoleEnum | RoleEnum[]): Promise<void> {
+    console.log(roles);
     if (projectSetting.permissionMode !== PermissionModeEnum.ROUTE_MAPPING) {
       throw new Error(
         'Please switch PermissionModeEnum to ROUTE_MAPPING mode in the configuration to operate!',

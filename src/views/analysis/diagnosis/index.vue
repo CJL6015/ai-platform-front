@@ -37,7 +37,7 @@
         },
         {
           title: '生产线',
-          dataIndex: 'P1',
+          dataIndex: `P${parseInt(localStorage.getItem('lineId'))}`,
         },
       ];
 
@@ -60,7 +60,7 @@
       onMounted(async () => {
         const params = {
           pic: true,
-          line1: ['1'],
+          line1: [parseInt(localStorage.getItem('lineId'))],
           time: '2',
           totalIndicators: ['0', '1', '2'],
           subIndicators: [],

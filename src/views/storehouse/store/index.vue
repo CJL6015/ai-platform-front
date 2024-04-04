@@ -223,7 +223,7 @@
       const count2 = ref(0);
       async function getPeopleCount() {
         const params = {
-          names: '192.168.22.222,192.168.22.223',
+          names: 'camera_storehouse1,camera_storehouse2',
         };
         const values = await getPointsValues(params);
         count1.value = values[0];

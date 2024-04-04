@@ -91,7 +91,7 @@
       let plantData = ref([]);
       let lineData = ref([]);
 
-      const currentDate: dayjs.Dayjs = dayjs();
+      const currentDate: dayjs.Dayjs = dayjs('2023-12');
       const formData = ref({
         plant: -1,
         line: 1,

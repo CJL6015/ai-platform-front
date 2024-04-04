@@ -8,13 +8,15 @@ enum Api {
   UPDATE = '/point/',
 }
 
-export const pointStaticApi = () => defHttp.get<any>({ url: Api.STATIC });
+export const pointStaticApi = () => defHttp.get<any>({ url: Api.STATIC, timeout: -1 });
 
-export const pointHistoryApi = (params: any) => defHttp.get<any>({ url: Api.HISTORY_LIST, params });
+export const pointHistoryApi = (params: any) =>
+  defHttp.get<any>({ url: Api.HISTORY_LIST, params, timeout: -1 });
 
-export const pointListApi = (id: any) => defHttp.get<any>({ url: Api.LIST + id });
+export const pointListApi = (id: any) => defHttp.get<any>({ url: Api.LIST + id, timeout: -1 });
 
 export const pointTrendApi = (id: any, params: any) =>
-  defHttp.get<any>({ url: Api.TREND + id, params });
+  defHttp.get<any>({ url: Api.TREND + id, params, timeout: -1 });
 
-export const updatePoint = (params: any) => defHttp.patch<any>({ url: Api.UPDATE, params });
+export const updatePoint = (params: any) =>
+  defHttp.patch<any>({ url: Api.UPDATE, params, timeout: -1 });
