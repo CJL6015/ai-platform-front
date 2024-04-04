@@ -592,7 +592,7 @@
         benchmarkDay.value = data.rate;
         console.log(data);
         let indicator = [];
-        let legend = ['昨日', '今日'];
+        let legend = ['今日', '昨日', '前日'];
         let series = [];
         let legendData = [];
         if (data.names.length > 2) {

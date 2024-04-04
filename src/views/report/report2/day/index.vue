@@ -42,7 +42,7 @@
         const params = {
           level: 2,
           plantId: parseInt(localStorage.getItem('plantId')),
-          time: time.value.format('YYYYMM'),
+          time: time.value.format('YYYYMMDD'),
         };
         const data = await getReportDay(params);
         wordDocSrc.value = data;

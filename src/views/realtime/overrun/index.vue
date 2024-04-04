@@ -481,7 +481,7 @@
         for (let i = 0; i < data.names.length; i++) {
           indicator.push({ name: data.names[i], max: data.max });
         }
-        let legend = ['昨日', '今日', '前日'];
+        let legend = ['今日', '昨日', '前日'];
         let series = [];
         let legendData = [];
         for (let i = 0; i < data.values.length; i++) {

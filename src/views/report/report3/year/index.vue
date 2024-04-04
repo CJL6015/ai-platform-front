@@ -41,7 +41,7 @@
       ARow: Row,
     },
     setup() {
-      const time = ref<Dayjs>(dayjs().subtract(1, 'year'));
+      const time = ref<Dayjs>(dayjs().subtract(1, 'year').startOf('year'));
       const wordDocSrc = ref(null);
       async function getReport() {
         const params = {
